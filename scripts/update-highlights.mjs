@@ -1,16 +1,21 @@
 import { writeFile } from "node:fs/promises";
 
 const key = process.env.HIGHLIGHTLY_API_KEY;
-if (!key) throw new Error("Missing HIGHLIGHTLY_API_KEY secret");
 
-async function fetchHighlights(side) {
+if (!key) {
+  throw new Error("Missing HIGHLIGHTLY_API_KEY GitHub secret");
+}
+
+async function main() {
   const url = new URL("https://nba.highlightly.net/highlights");
   url.searchParams.set("leagueName", "NBA");
-  url.searchParams.set(`${side}TeamAbbreviation`, "NYK");
   url.searchParams.set("limit", "40");
 
   const response = await fetch(url, {
-    headers: { "x-rapidapi-key": key },
+    headers: {
+      "x-rapidapi-key": key,
+      Accept: "application/json",
+    },
     signal: AbortSignal.timeout(20000),
   });
 
@@ -19,46 +24,73 @@ async function fetchHighlights(side) {
   }
 
   const result = await response.json();
+
   if (!Array.isArray(result.data)) {
-    throw new Error("Unexpected Highlightly response");
+    throw new Error("Unexpected Highlightly response: missing data array");
   }
 
-  return result.data;
-}
+  // Diagnostics appear in GitHub Actions, without printing the API key.
+  console.log(
+    JSON.stringify(
+      {
+        returned: result.data.length,
+        pagination: result.pagination ?? null,
+        plan: result.plan ?? null,
+      },
+      null,
+      2
+    )
+  );
 
-const home = await fetchHighlights("home");
-const away = await fetchHighlights("away");
+  const unique = new Map();
 
-const unique = new Map();
+  for (const clip of result.data) {
+    if (clip.id == null) continue;
 
-for (const clip of [...home, ...away]) {
-  if (clip.id == null) continue;
-  unique.set(clip.id, {
-    id: String(clip.id),
-    type: "video",
-    source: "Highlightly",
-    title: clip.title || "",
-    summary: clip.description || "",
-    image_url: clip.imgUrl || null,
-    url: clip.url || null,
-    embed_url: clip.embedUrl || null,
-    provider: clip.source || null,
-    category: clip.category || null,
-    verification: clip.type || null,
-    match: clip.match || null,
-  });
-}
+    const id = String(clip.id);
 
-const items = [...unique.values()];
+    unique.set(id, {
+      id,
+      type: "video",
+      league: "NBA",
+      source: "Highlightly",
+      title: clip.title || "",
+      summary: clip.description || "",
+      image_url: clip.imgUrl || null,
+      url: clip.url || null,
+      embed_url: clip.embedUrl || null,
+      provider: clip.source || null,
+      channel: clip.channel || null,
+      category: clip.category || null,
+      verification: clip.type || null,
+      match: clip.match || null,
+    });
+  }
 
-await writeFile(
-  "highlights.json",
-  JSON.stringify({
+  const items = [...unique.values()];
+
+  const output = {
     generated_at: new Date().toISOString(),
-    team: "NYK",
+    league: "NBA",
     item_count: items.length,
     items,
-  }, null, 2) + "\n"
-);
+  };
 
-console.log(`Saved ${items.length} highlights.`);
+  await writeFile(
+    "highlights.json",
+    JSON.stringify(output, null, 2) + "\n"
+  );
+
+  console.log(`Saved ${items.length} NBA highlights.`);
+
+  if (items.length === 0) {
+    console.warn(
+      "No highlights returned. Check the plan and pagination details above."
+    );
+  }
+}
+
+main().catch((error) => {
+  console.error(error.message);
+  process.exitCode = 1;
+});
