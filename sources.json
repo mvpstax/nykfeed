@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "team": {
+    "id": "NYK",
+    "name": "New York Knicks",
+    "espn_id": "18",
+    "keywords": [
+      "Knicks",
+      "New York Knicks",
+      "NYK",
+      "Jalen Brunson",
+      "Karl-Anthony Towns",
+      "Mikal Bridges",
+      "OG Anunoby",
+      "Josh Hart"
+    ]
+  },
+  "settings": {
+    "max_items": 120,
+    "max_items_per_source": 35,
+    "article_age_hours": 168,
+    "request_timeout_ms": 12000,
+    "deduplicate": true
+  },
+  "sources": [
+    {
+      "id": "sports_illustrated_knicks",
+      "name": "Sports Illustrated",
+      "kind": "si_knicks",
+      "url": "https://www.si.com/nba/knicks",
+      "enabled": true,
+      "priority": 2,
+      "note": "Reads public article metadata from the Knicks page; no article-body extraction."
+    },
+    {
+      "id": "knicks_film_school",
+      "name": "Knicks Film School",
+      "kind": "rss",
+      "url": "https://knicksfilmschool.substack.com/feed",
+      "team_specific": true,
+      "enabled": true,
+      "priority": 1,
+      "note": "Public RSS titles and excerpts only; full articles may require a subscription."
+    },
+    {
+      "id": "hoops_rumors",
+      "name": "Hoops Rumors",
+      "kind": "rss",
+      "url": "https://www.hoopsrumors.com/new-york-knicks/feed",
+      "team_specific": true,
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "realgm",
+      "name": "RealGM",
+      "kind": "rss",
+      "url": "https://basketball.realgm.com/rss/wiretap/0/0.xml",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "espn",
+      "name": "ESPN",
+      "kind": "espn_news",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?team=18&limit=50",
+      "enabled": true,
+      "priority": 2,
+      "note": "Best-effort undocumented endpoint; adapter fails safely if ESPN changes it."
+    },
+    {
+      "id": "bluesky_knicks_feed",
+      "name": "Bluesky Knicks Feed",
+      "kind": "bluesky_feed",
+      "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getFeed",
+      "feed_uri": "at://did:plc:mdcqnpzmagixmunf4l6xpihq/app.bsky.feed.generator/aaan4i3i4qawu",
+      "page_url": "https://blueskyfeedcreator.com/p/ninjacat.social/aaan4i3i4qawu",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "bluesky_courtside_knicks",
+      "name": "Bluesky · Courtside Knicks",
+      "kind": "bluesky_author",
+      "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed",
+      "actor": "did:plc:5dhabks5abpuso4lvjddyzmt",
+      "page_url": "https://bsky.app/profile/courtsideknicks.bsky.social",
+      "filter": "posts_no_replies",
+      "include_reposts": false,
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "reddit_nyknicks",
+      "name": "Reddit r/NYKnicks",
+      "kind": "reddit",
+      "url": "https://www.reddit.com/r/NYKnicks/new.json?limit=50&raw_json=1",
+      "enabled": true,
+      "priority": 2,
+      "note": "For a production/commercial app, configure Reddit OAuth and comply with Reddit's Data API terms."
+    },
+    {
+      "id": "nba_scores",
+      "name": "NBA.com",
+      "kind": "nba_scoreboard",
+      "url": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+      "enabled": true,
+      "priority": 1,
+      "note": "Best-effort NBA scoreboard feed; review NBA terms before commercial use."
+    },
+    {
+      "id": "basketball_reference",
+      "name": "Basketball Reference",
+      "kind": "reference_only",
+      "url": "https://www.basketball-reference.com/teams/NYK/",
+      "enabled": false,
+      "note": "Intentionally not scraped. Sports Reference requires permission for products built from scraped data."
+    }
+  ]
+}
