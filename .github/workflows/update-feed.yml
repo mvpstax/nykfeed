@@ -2,8 +2,6 @@ name: Refresh Knicks feed
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "7,22,37,52 * * * *"
 
 permissions:
   contents: write
