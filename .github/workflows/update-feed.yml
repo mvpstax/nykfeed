@@ -8,20 +8,36 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: knicks-feed
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
+          package-manager-cache: false
+
       - name: Build feed.json
         run: node scripts/update-feed.mjs
-      - name: Commit changed feed
+
+      - name: Save updated feed
         run: |
           git config user.name "knicks-feed-bot"
           git config user.email "actions@users.noreply.github.com"
           git add feed.json
-          git diff --cached --quiet || git commit -m "Refresh Knicks feed"
-          git push
+
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git commit -m "Refresh Knicks feed"
+          git pull --rebase origin main
+          git push origin HEAD:main
