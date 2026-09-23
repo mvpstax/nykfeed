@@ -1,35 +1,3 @@
-{
-  "version": 1,
-  "team": {
-    "id": "NYK",
-    "name": "New York Knicks",
-    "espn_id": "18",
-    "keywords": [
-      "Knicks",
-      "New York Knicks",
-      "NYK",
-      "Jalen Brunson",
-      "Karl-Anthony Towns",
-      "Mikal Bridges",
-      "OG Anunoby",
-      "Josh Hart"
-    ]
-  },
-  "settings": {
-    "max_items": 120,
-    "max_items_per_source": 35,
-    "article_age_hours": 168,
-    "request_timeout_ms": 12000,
-    "deduplicate": true
-  },
-  "sources": [
-    {
-      "id": "sports_illustrated_knicks",
-      "name": "Sports Illustrated",
-      "kind": "si_knicks",
-      "url": "https://www.si.com/nba/knicks",
-      "enabled": true,
-      "priority": 2,
       "note": "Reads public article metadata from the Knicks page; no article-body extraction."
     },
     {
@@ -67,6 +35,44 @@
       "enabled": true,
       "priority": 2,
       "note": "Best-effort undocumented endpoint; adapter fails safely if ESPN changes it."
+    },
+    {
+      "id": "yahoo_sports_nba",
+      "name": "Yahoo Sports",
+      "kind": "rss",
+      "url": "https://sports.yahoo.com/nba/rss.xml",
+      "request_timeout_ms": 25000,
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "cbs_sports_nba",
+      "name": "CBS Sports",
+      "kind": "rss",
+      "url": "https://www.cbssports.com/rss/headlines/nba",
+      "request_timeout_ms": 25000,
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "fox_sports_nba",
+      "name": "FOX Sports",
+      "kind": "rss",
+      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs%2Fnba",
+      "request_timeout_ms": 25000,
+      "image_hosts": ["www.foxsports.com"],
+      "enabled": true,
+      "priority": 2,
+      "note": "FOX restricts its RSS feed to non-commercial use by individuals and nonprofits; review rights before commercial launch."
+    },
+    {
+      "id": "official_knicks_articles",
+      "name": "New York Knicks",
+      "kind": "nba_knicks_articles",
+      "url": "https://www.nba.com/knicks/articles",
+      "enabled": true,
+      "priority": 1,
+      "note": "Official team page metadata, best effort; does not extract full article text."
     },
     {
       "id": "bluesky_knicks_feed",
