@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-23T14:30:24.317Z",
+  "generated_at": "2026-09-23T14:45:42.150Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 101,
     "game_count": 0,
-    "refresh_duration_ms": 6342,
+    "refresh_duration_ms": 28733,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -100,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "a49e5977ea59078abefc",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:44ys7gijqhhnzyubtzkupca3/app.bsky.feed.post/3mw6xjvtftc2e",
+      "author": "Paul Knepper",
+      "handle": "paulknepper.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:44ys7gijqhhnzyubtzkupca3/bafkreihbylezf7cxpcpsktqxwhnld5xi5q7qbc6ttu3lo7bbaans7twavy",
+      "text": "Dave DeBusschere with the push shot.",
+      "published_at": "2026-09-23T14:33:59.944Z",
+      "url": "https://bsky.app/profile/did:plc:44ys7gijqhhnzyubtzkupca3/post/3mw6xjvtftc2e",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:44ys7gijqhhnzyubtzkupca3/bafkreiburztomsyvng5u4hxjjfdszw2n333rnr57feybdqcivrwksjgpoy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:44ys7gijqhhnzyubtzkupca3/post/3mw6xjvtftc2e",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "8b32b7d6c34f45184bd4",
       "type": "social",
@@ -191,8 +227,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 1,
-        "reposts": 0,
-        "likes": 2
+        "reposts": 1,
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -1945,44 +1981,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mvzyalop7l2o",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "8182ded448b7dfe62602",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mvzy7n7v5f26",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "5/7/25: Knicks 91, Celtics 90\nEast Semis, Game 2.\n\nDown 20, again.\nIn Boston, again.\nThey come back, again.\nDefensive stop to end it, again.\nKnicks win, again.\n\n#Knicks #NBA #Sports #Basketball #Podcast",
-      "published_at": "2026-09-21T15:02:50.265Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mvzy7n7v5f26",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreieljy23czprydrta4odtmeqymetpih2awbqod3bz4a6jxfvgr6p3u/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreieljy23czprydrta4odtmeqymetpih2awbqod3bz4a6jxfvgr6p3u/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreieljy23czprydrta4odtmeqymetpih2awbqod3bz4a6jxfvgr6p3u/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1920,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mvzy7n7v5f26",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
