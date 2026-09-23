@@ -1,4 +1,37 @@
-      "note": "Reads public article metadata from the Knicks page; no article-body extraction."
+{
+  "version": 1,
+  "team": {
+    "id": "NYK",
+    "name": "New York Knicks",
+    "espn_id": "18",
+    "keywords": [
+      "Knicks",
+      "New York Knicks",
+      "NYK",
+      "Jalen Brunson",
+      "Karl-Anthony Towns",
+      "Mikal Bridges",
+      "OG Anunoby",
+      "Josh Hart"
+    ]
+  },
+  "settings": {
+    "max_items": 120,
+    "max_items_per_source": 35,
+    "article_age_hours": 168,
+    "request_timeout_ms": 12000,
+    "deduplicate": true
+  },
+  "sources": [
+    {
+      "id": "sports_illustrated_knicks",
+      "name": "Sports Illustrated",
+      "kind": "si_knicks",
+      "url": "https://www.si.com/nba/knicks",
+      "enabled": true,
+      "priority": 2,
+
+"note": "Reads public article metadata from the Knicks page; no article-body extraction."
     },
     {
       "id": "knicks_film_school",
