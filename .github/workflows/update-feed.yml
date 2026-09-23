@@ -26,6 +26,10 @@ jobs:
       - name: Build feed.json
         run: node scripts/update-feed.mjs
 
+      - name: Build transactions.json
+        continue-on-error: true
+        run: node scripts/update-transactions.mjs
+
       - name: Refresh YouTube rows
         continue-on-error: true
         run: |
@@ -43,12 +47,16 @@ jobs:
             git add youtube.json
           fi
 
+          if [ -f transactions.json ]; then
+            git add transactions.json
+          fi
+
           if git diff --cached --quiet; then
             echo "No feed changes to save."
             exit 0
           fi
 
-          git commit -m "Refresh news and YouTube feeds"
+          git commit -m "Refresh news, transactions, and YouTube feeds"
           git pull --rebase origin main
 
           for attempt in 1 2 3; do
