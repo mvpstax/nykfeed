@@ -44,9 +44,32 @@ jobs:
           fi
 
           if git diff --cached --quiet; then
+            echo "No feed changes to save."
             exit 0
           fi
 
           git commit -m "Refresh news and YouTube feeds"
           git pull --rebase origin main
-          git push origin HEAD:main
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Feeds saved."
+              exit 0
+            fi
+
+            local_sha=$(git rev-parse HEAD)
+            remote_sha=$(git ls-remote origin refs/heads/main | cut -f1)
+
+            if [ "$local_sha" = "$remote_sha" ]; then
+              echo "Push reached GitHub despite the error response."
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              echo "Push attempt $attempt failed; retrying shortly."
+              sleep 10
+            fi
+          done
+
+          echo "Could not save feeds after three attempts."
+          exit 1
