@@ -100,11 +100,11 @@ function presentation(url) {
   };
 }
 
-async function get(url, format = "text") {
+async function get(url, format = "text", timeoutMs = config.settings.request_timeout_ms) {
   const controller = new AbortController();
   const timer = setTimeout(
     () => controller.abort(),
-    config.settings.request_timeout_ms
+    timeoutMs
   );
 
   try {
@@ -160,7 +160,7 @@ function imageFromRss(block) {
 }
 
 async function fetchRss(source) {
-  const xml = await get(source.url);
+  const xml = await get(source.url, "text", source.request_timeout_ms || config.settings.request_timeout_ms);
   const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || [];
   let accepted = 0;
 
@@ -319,6 +319,66 @@ async function fetchSiKnicks(source) {
   collected.push(
     ...parseSiKnicks(await get(source.url), source)
   );
+}
+
+function parseOfficialKnicks(html, source) {
+  const raw = html.match(/<script\b[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i)?.[1];
+  if (!raw) throw new Error("Official Knicks article metadata unavailable");
+  const page = JSON.parse(raw).props?.pageProps?.pageObject;
+  if (!Array.isArray(page?.contentExpanded)) throw new Error("Official Knicks article list unavailable");
+  const seen = new Set();
+  const output = [];
+
+  function visit(block) {
+    if (!block || typeof block !== "object") return;
+    if (Array.isArray(block)) {
+      block.forEach(visit);
+      return;
+    }
+    if (Array.isArray(block.posts)) {
+      for (const article of block.posts) {
+        if (article?.type !== "article" || article?.status !== "publish" || !article.title) continue;
+        let url;
+        try {
+          url = new URL(article.permalink);
+        } catch {
+          continue;
+        }
+        if (url.protocol !== "https:" || url.hostname !== "www.nba.com" || !url.pathname.startsWith("/knicks/news/") || seen.has(url.href)) continue;
+        seen.add(url.href);
+        output.push({
+          id: idFor(source.id, url.href),
+          type: "article",
+          source: source.name,
+          source_key: source.id,
+          title: text(article.title),
+          summary: text(article.excerpt || article.attributes?.subhead || ""),
+          author: article.author?.name || null,
+          published_at: iso(article.date || article.timestamp),
+          url: url.href,
+          image_url: article.featuredImage?.src || article.featuredImage?.attributes?.src || null,
+          team: config.team.id,
+          presentation: {
+            ...presentation(url.href),
+            embed_attempt: false,
+            render_mode: "article_preview"
+          }
+        });
+      }
+    }
+    if (block.content) visit(block.content);
+  }
+
+  visit(page.contentExpanded);
+  if (!output.length) throw new Error("No official Knicks articles found");
+
+  return output
+    .sort((a, b) => (b.published_at || "").localeCompare(a.published_at || ""))
+    .slice(0, config.settings.max_items_per_source);
+}
+
+async function fetchOfficialKnicks(source) {
+  collected.push(...parseOfficialKnicks(await get(source.url), source));
 }
 
 async function fetchEspn(source) {
@@ -718,6 +778,10 @@ for (const source of config.sources.filter(
 
     if (source.kind === "si_knicks") {
       await fetchSiKnicks(source);
+    }
+
+    if (source.kind === "nba_knicks_articles") {
+      await fetchOfficialKnicks(source);
     }
 
     if (source.kind === "espn_news") {
