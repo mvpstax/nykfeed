@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-23T20:16:03.348Z",
+  "generated_at": "2026-09-23T20:30:47.320Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 103,
     "game_count": 0,
-    "refresh_duration_ms": 8990,
+    "refresh_duration_ms": 27657,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,7 +45,7 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 20
+        "items": 19
       },
       {
         "source_key": "yahoo_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,9 +93,9 @@
       }
     ],
     "images": {
-      "available": 96,
+      "available": 94,
       "missing": 9,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -105,7 +106,7 @@
       "type": "article",
       "source": "Yahoo Sports",
       "source_key": "yahoo_sports_nba",
-      "title": "Contract talks between Karl-Anthony Towns, Knicks are reportedly at a standstill after NBA title",
+      "title": "Contract talks between Karl-Anthony Towns, Knicks are reportedly at a standstill after NBA title run",
       "summary": "Karl-Anthony Towns is eligible for an extension worth up to $273 million.",
       "author": "Ryan Young",
       "published_at": "2026-09-23T19:58:27.000Z",
@@ -118,9 +119,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/nba/article/contract-talks-between-karl-anthony-towns-knicks-are-reportedly-at-a-standstill-after-nba-title-195827654.html"
       },
-      "image_checked_at": "2026-09-23T20:16:03.094Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-23T20:16:03.094Z"
     },
     {
       "id": "f0747024d7ca3d3eaec8",
@@ -140,9 +141,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/sources-extension-talks-between-karl-195749992.html"
       },
-      "image_checked_at": "2026-09-23T20:16:03.095Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-23T20:16:03.095Z"
     },
     {
       "id": "0615a8c18c4260c825e2",
@@ -201,33 +202,12 @@
       "image_checked_at": "2026-09-23T19:45:18.328Z"
     },
     {
-      "id": "52db53aa5fcdaad25fdd",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Sources: Knicks, Karl-Anthony Towns contract talks at standstill",
-      "summary": "Extension talks have stagnated between the Knicks and Karl-Anthony Towns, and an agreement is considered unlikely as the team begins camp, sources told ESPN.",
-      "author": "Shams Charania and Vincent Goodwill",
-      "published_at": "2026-09-23T19:23:01.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50014705/sources-knicks-karl-anthony-towns-contract-talks-standstill",
-      "image_url": "https://a.espncdn.com/photo/2026/0523/r1662469_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50014705/sources-knicks-karl-anthony-towns-contract-talks-standstill"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "cced79e26b298d44347f",
       "type": "article",
       "source": "RealGM",
       "source_key": "realgm",
       "title": "Karl-Anthony Towns, Knicks Unlikely To Sign Extension Before Start Of Camp",
-      "summary": "Karl-Anthony Towns and the New York Knicks have \"stagnated\" on their contract extension discussions and a deal before the start of training camp is considered unlikely. Despite the lack of progress, the talks have been described as \"cordial.\" Towns has been eligible for a contract extension during the offseason that could reach $276 million over four seasons. \"This is a cloud going into training camp,\" said Shams Charania. Towns has a $61 million player option for the 2027-28 season and could become a free agent in 2027. There is no deadline for an extension between Towns and the Knicks. James Dolan has been clear that he wants to avoid the Knicks going into the second apron.",
+      "summary": "Karl-Anthony Towns and the New York Knicks have \"stagnated\" on their contract extension discussions and a deal before the start of training camp is considered unlikely. Despite the lack of progress, the talks have been described as \"cordial.\" Towns has been eligible for a contract extension during the offseason that could reach $276 million over four seasons. \"This is a cloud going into training camp,\" said Shams Charania. Towns has a $61 million player option for the 2027-28 season and could become a free agent in 2027. There is no deadline for an extension between Towns and the Knicks. Towns will turn 31 in November. James Dolan has been clear that he wants to avoid the Knicks going into the second apron.",
       "author": null,
       "published_at": "2026-09-23T19:11:11.000Z",
       "url": "https://basketball.realgm.com/wiretap/287369/Karl-Anthony-Towns-Knicks-Unlikely-To-Sign-Extension-Before-Start-Of-Camp",
@@ -273,27 +253,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mw7gw3x7po2x",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "1542059ab5cb529cd0ef",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Windy: How Knicks handle KAT extension could determine franchise future",
-      "summary": "Windy: How Knicks handle KAT extension could determine franchise future",
-      "author": null,
-      "published_at": "2026-09-23T19:08:59.000Z",
-      "url": "https://www.espn.com/video/clip/_/id/49470467/how-knicks-handle-kat-extension-determine-franchise-future",
-      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0728/ss_20260728_115250930_3605615/ss_20260728_115250930_3605615.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/video/clip/_/id/49470467/how-knicks-handle-kat-extension-determine-franchise-future"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -810,9 +769,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 6,
-        "reposts": 1,
-        "likes": 69
+        "replies": 8,
+        "reposts": 3,
+        "likes": 79
       },
       "team": "NYK",
       "presentation": {
