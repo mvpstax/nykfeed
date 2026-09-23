@@ -72,6 +72,10 @@ for (const row of rows) {
     id,
     date,
     type: String(row.Transaction_Type || "other"),
+    trade_group_id:
+      row.Transaction_Type === "Trade" && row.GroupSort
+        ? String(row.GroupSort)
+        : null,
     description,
     team_id: row.TEAM_ID == null
       ? null
