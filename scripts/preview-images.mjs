@@ -66,7 +66,12 @@ async function articleHtml(url, allowedHosts, headers, timeout) {
 
 export async function enrichImages(items, previous, config, headers) {
   const cached = new Map((previous?.items || []).map(item => [item.url, item]));
-  const allowed = new Set(config.sources.map(source => new URL(source.url).hostname));
+  const allowed = new Set(
+  config.sources.flatMap(source => [
+    new URL(source.url).hostname,
+    ...(source.image_hosts || [])
+  ])
+);
   const pending = [];
   for (const item of items) {
     item.image_url = imageUrl(item.image_url, item.url);
