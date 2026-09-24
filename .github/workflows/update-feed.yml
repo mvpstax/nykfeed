@@ -26,6 +26,10 @@ jobs:
       - name: Build feed.json
         run: node scripts/update-feed.mjs
 
+      - name: Refresh Knicks roster
+        continue-on-error: true
+        run: node scripts/update-players.mjs
+
       - name: Group related stories
         run: node scripts/update-clusters.mjs
 
