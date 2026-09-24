@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T09:45:46.655Z",
+  "generated_at": "2026-09-24T10:00:28.636Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 29844,
+    "refresh_duration_ms": 5355,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 100,
       "missing": 8,
       "article_pages_checked": 0
     },
@@ -1338,9 +1337,6 @@
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mw6z2zpivm2e",
         "render_mode": "native_social_card"
       },
-      "also_reported_by": [
-        "Yahoo Sports"
-      ],
       "image_status": "available",
       "image_source": "source_feed"
     },
@@ -1375,27 +1371,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mw6yvsl7of2u",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b5608783f48b4cebdd66",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Tyler Nickel’s Knicks future takes shape ahead of training camp",
-      "summary": "The Knicks have yet to finalize their roster, with the unusual Tyler Nickel situation still unresolved.",
-      "author": null,
-      "published_at": "2026-09-23T14:45:00.000Z",
-      "url": "https://sports.yahoo.com/articles/tyler-nickel-knicks-future-takes-144500127.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/a1d75ce118addd06e701ba9f51582f68.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/tyler-nickel-knicks-future-takes-144500127.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
