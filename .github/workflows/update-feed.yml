@@ -26,6 +26,9 @@ jobs:
       - name: Build feed.json
         run: node scripts/update-feed.mjs
 
+      - name: Group related stories
+        run: node scripts/update-clusters.mjs
+
       - name: Build transactions.json
         continue-on-error: true
         run: node scripts/update-transactions.mjs
