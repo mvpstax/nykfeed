@@ -50,6 +50,10 @@ jobs:
 
           git add feed.json
 
+          if [ -f players.json ]; then
+            git add players.json
+          fi
+
           if [ -f youtube.json ]; then
             git add youtube.json
           fi
