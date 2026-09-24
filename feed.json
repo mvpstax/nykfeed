@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T10:45:20.508Z",
+  "generated_at": "2026-09-24T11:00:56.296Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 6243,
+    "refresh_duration_ms": 29019,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,35 @@
     "images": {
       "available": 101,
       "missing": 8,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "5ee3548d225e520b4d48",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "The Last 7 NBA Champions Failed to Repeat — Here's Why the Knicks Will Succeed",
+      "summary": "Last June the New York Knicks became the eighth different NBA champion in eight years, a run of parity unprecedented in league history. This year, despite bring",
+      "author": "Matthew Miranda",
+      "published_at": "2026-09-24T11:00:00.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/the-last-7-nba-champions-failed-to-repeat-here-s-why-the-knicks-will-succeed-01m2kc6n49rq",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_43,w_1987,h_1117/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m37waz672ccwzef1rx.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/the-last-7-nba-champions-failed-to-repeat-here-s-why-the-knicks-will-succeed-01m2kc6n49rq",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-24T11:00:55.994Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "4b35caed281cdb0c06b7",
       "type": "social",
@@ -178,7 +202,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -3324,29 +3348,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "bfb2bd34c2cbfd07e2e7",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Breaking Down John Konchar’s Value and Potential With Knicks After Signing",
-      "summary": "The Knicks signed John Konchar to a one-year deal, and the veteran forward could quietly provide valuable defense, rebounding and versatility off the bench.",
-      "author": "Kento Kato",
-      "published_at": "2026-09-17T11:00:03.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/breaking-down-john-konchar-value-potential-knicks-signing-01m2n4j5krv3",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_414,w_5255,h_2955/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m2p37qcakegf0rrhdc.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/breaking-down-john-konchar-value-potential-knicks-signing-01m2n4j5krv3",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-23T13:50:09.527Z"
     }
   ]
 }
