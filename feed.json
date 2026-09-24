@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T22:00:26.594Z",
+  "generated_at": "2026-09-24T22:15:18.146Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 7077,
+    "refresh_duration_ms": 5027,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 29
+        "items": 30
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 101,
       "missing": 9,
       "article_pages_checked": 0
     },
@@ -100,6 +100,76 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "02e4dc90da7420dd05a1",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vq76kvbhxplwtmmbi5om6p3v/app.bsky.feed.post/3mwcbgd2hcs2o",
+      "author": "Matt 🎙️🏀💙🧡",
+      "handle": "mattraytalk.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vq76kvbhxplwtmmbi5om6p3v/bafkreifmzp37nn7mzdipc7c3aj2uqto7pzvgdqa4fpt47hzagx2rikdmom",
+      "text": "Brunson\nKAT\nHart\nWingstop\nPreseason 11 days\nTitle Defense 26 days",
+      "published_at": "2026-09-24T22:08:56.213Z",
+      "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mwcbgd2hcs2o",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vq76kvbhxplwtmmbi5om6p3v/bafkreichym5xszodvrskmsf3psjs4xhtxm3xs3avrmafow756m54i5mehy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mwcbgd2hcs2o",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "9968cb920c3d490a9f93",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwcbbwlwt62e",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "The Knicks missed out on Julian Reese, who signed a two-way deal with the Pelicans. Reese averaged 11.8 points and 10.5 rebounds in 13 NBA games last season. via Yahoo Sports",
+      "published_at": "2026-09-24T22:06:28.757Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwcbbwlwt62e",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreie55okgtakq7jntxejcszhef2ro536yctp7dnibnmy4xpsgqiut4a",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwcbbwlwt62e",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "6056bff553e4bfaa85d8",
       "type": "article",
@@ -119,7 +189,8 @@
         "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_04b0d6dbc7b4"
     },
     {
       "id": "edb469c808207c2fb458",
@@ -143,7 +214,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -227,6 +298,28 @@
       "image_source": "source_feed"
     },
     {
+      "id": "1807c9f65e21bab26919",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Can the Knicks afford to play hardball with Karl-Anthony Towns?",
+      "summary": "The Knicks could wait and call his bluff, but is that best for trying to repeat?",
+      "author": null,
+      "published_at": "2026-09-24T20:00:00.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-afford-play-hardball-karl-200000264.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/3fabe7f7aa6337657ce3f73f7c9460c1.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-afford-play-hardball-karl-200000264.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_04b0d6dbc7b4"
+    },
+    {
       "id": "5b40bd523c24f3b18fd5",
       "type": "social",
       "source": "Bluesky",
@@ -283,7 +376,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 4,
-        "likes": 88
+        "likes": 94
       },
       "team": "NYK",
       "presentation": {
@@ -2910,41 +3003,6 @@
       "image_checked_at": "2026-09-24T14:00:33.481Z"
     },
     {
-      "id": "29c36c066e2ff2c84acb",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mw2fqezgmx2t",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks training camp has begun. Wings Ochai Agbaji, Bruce Brown, John Konchar and bigs Drew Eubanks, James Wiseman are competing for roster spots. via SNY",
-      "published_at": "2026-09-21T19:04:50.691Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mw2fqezgmx2t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiga57x5ilxruxnl5clhhpujb5vxuo5qhs3sshsvtqm2uri24acnwq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mw2fqezgmx2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "ee0fdd3a44af9c9289e1",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3327,6 +3385,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_04b0d6dbc7b4",
+      "lead_item_id": "6056bff553e4bfaa85d8",
+      "item_ids": [
+        "6056bff553e4bfaa85d8",
+        "1807c9f65e21bab26919"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-24T21:19:43.000Z"
+    },
     {
       "id": "cluster_2e3cc6ffeb25",
       "lead_item_id": "829be3029cd1b964773e",
