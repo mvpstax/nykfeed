@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T16:45:20.011Z",
+  "generated_at": "2026-09-24T17:00:25.926Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 5538,
+    "refresh_duration_ms": 6282,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,37 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 103,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d41f5594477f9c07c0ac",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "3 Concerns That Must Be on the Knicks' Radar in 2026-27",
+      "summary": "The paradox of conquest is that it’s built by failure. A prizefighter wins a unanimous decision, after 12 rounds taking repeated blows. A housebroken dog is the",
+      "author": "Matthew Miranda",
+      "published_at": "2026-09-24T17:00:00.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/3-concerns-that-must-be-on-the-knicks-radar-in-2026-27-01m359nx8jz2",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_5040,h_2835/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m359sr545ydp8hhqsf.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/3-concerns-that-must-be-on-the-knicks-radar-in-2026-27-01m359nx8jz2",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-24T17:00:25.367Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "d6ed9292f03a109e0351",
       "type": "social",
@@ -247,6 +270,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-24T15:15:24.747Z"
+    },
+    {
+      "id": "829be3029cd1b964773e",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Karl-Anthony Towns extension talks stall as Knicks face $276 million question",
+      "summary": "The Knicks would love to keep their championship core intact, but that might prove challenging.",
+      "author": null,
+      "published_at": "2026-09-24T14:45:26.000Z",
+      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-extension-talks-144526630.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/58ae99bd780bf31965e2b6519dbe38f8.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-extension-talks-144526630.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "b3f475578c63412ab69a",
