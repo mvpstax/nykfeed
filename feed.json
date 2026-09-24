@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T19:15:18.205Z",
+  "generated_at": "2026-09-24T19:30:44.695Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 3056,
+    "refresh_duration_ms": 28220,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 100,
       "missing": 9,
       "article_pages_checked": 0
     },
@@ -157,7 +158,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 26
+        "likes": 30
       },
       "team": "NYK",
       "presentation": {
@@ -344,7 +345,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -617,7 +618,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 0,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -3352,27 +3353,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-24T14:00:34.974Z"
-    },
-    {
-      "id": "d418c4a8922edc91a2d7",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks pause ticket sales after error leads to higher prices",
-      "summary": "The Knicks said they are pausing ticket sales after an error caused them to be listed for amounts that were too high.",
-      "author": null,
-      "published_at": "2026-09-17T19:23:48.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/49966211/knicks-pause-ticket-sales-error-leads-higher-prices",
-      "image_url": "https://a.espncdn.com/photo/2026/0509/r1655599_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/49966211/knicks-pause-ticket-sales-error-leads-higher-prices"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": [
