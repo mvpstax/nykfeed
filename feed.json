@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T17:00:25.926Z",
+  "generated_at": "2026-09-24T17:15:46.917Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 6282,
+    "refresh_duration_ms": 28448,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,35 @@
     "images": {
       "available": 103,
       "missing": 7,
-      "article_pages_checked": 1
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "3cd752c983d4bc05a98d",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Knicks Have Their First Major Post-Championship Problem. Here Are Their Possible Solutions.",
+      "summary": "Contract extension talks between the Knicks and Karl-Anthony Towns have stalled. How will New York choose to navigate a tricky situation?",
+      "author": "Liam McKeone",
+      "published_at": "2026-09-24T17:08:32.000Z",
+      "url": "https://www.si.com/nba/knicks/knicks-have-first-major-post-championship-problem-possible-solutions",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_39,w_3600,h_2025/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m39xx5dhrkj1d4s13k.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/knicks-have-first-major-post-championship-problem-possible-solutions",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-24T17:15:46.617Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "d41f5594477f9c07c0ac",
       "type": "article",
@@ -119,9 +143,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-concerns-that-must-be-on-the-knicks-radar-in-2026-27-01m359nx8jz2",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-24T17:00:25.367Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-24T17:00:25.367Z"
     },
     {
       "id": "d6ed9292f03a109e0351",
@@ -290,7 +314,8 @@
         "url": "https://sports.yahoo.com/articles/karl-anthony-towns-extension-talks-144526630.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_2e3cc6ffeb25"
     },
     {
       "id": "b3f475578c63412ab69a",
@@ -418,7 +443,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -873,7 +898,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-24T00:45:20.825Z"
+      "image_checked_at": "2026-09-24T00:45:20.825Z",
+      "cluster_id": "cluster_086040b66fc1"
     },
     {
       "id": "c4b96ffb11d8b99c46a9",
@@ -1091,7 +1117,8 @@
         "url": "https://www.espn.com/nba/story/_/id/50014705/sources-knicks-karl-anthony-towns-contract-talks-standstill"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_2e3cc6ffeb25"
     },
     {
       "id": "e3ebe60801afe6c26f07",
@@ -1243,7 +1270,8 @@
         "url": "https://www.cbssports.com/nba/news/knicks-karl-anthony-towns-contract-extension-talks-stalled/"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_2e3cc6ffeb25"
     },
     {
       "id": "0615a8c18c4260c825e2",
@@ -1298,7 +1326,8 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-extension-talks-with-karl-anthony-towns-have-stagnated.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_2e3cc6ffeb25"
     },
     {
       "id": "621de575e3339a7bdef7",
@@ -1340,7 +1369,8 @@
         "url": "https://basketball.realgm.com/wiretap/287369/Karl-Anthony-Towns-Knicks-Unlikely-To-Sign-Extension-Before-Start-Of-Camp"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_2e3cc6ffeb25"
     },
     {
       "id": "59ccb1974710525baf5a",
@@ -1627,9 +1657,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-the-knicks-title-defense-will-feel-like-a-letdown-no-matter-how-it-goes-01m36226zf9a",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-24T17:15:46.618Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-23T17:00:28.951Z"
+      "image_status": "available"
     },
     {
       "id": "b98c2ab3b1925b63e950",
@@ -2940,7 +2970,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-24T14:00:33.550Z"
+      "image_checked_at": "2026-09-24T14:00:33.550Z",
+      "cluster_id": "cluster_086040b66fc1"
     },
     {
       "id": "aa5d87cb78e259913839",
@@ -3342,29 +3373,31 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "cluster_2e3cc6ffeb25",
+      "lead_item_id": "829be3029cd1b964773e",
+      "item_ids": [
+        "829be3029cd1b964773e",
+        "52db53aa5fcdaad25fdd",
+        "1add455d8ed253fdb76c",
+        "3e7c50f8f805f07e0de0",
+        "cced79e26b298d44347f"
+      ],
+      "source_count": 5,
+      "updated_at": "2026-09-24T14:45:26.000Z"
     },
     {
-      "id": "d9bdc95e241302491ca0",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks' Tyler Nickel Contract Plans Are Finally Coming Into Focus",
-      "summary": "As the Knicks make a slew of signings for training camp, we examine how rookie Tyler Nickel's contract situation might be affected by these deals.",
-      "author": "Isaiah De Los Santos",
-      "published_at": "2026-09-17T19:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-tyler-nickel-contract-plans-coming-focus-signings-01m2r1w9p9xa",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_270,w_4249,h_2390/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m2r1yd227v5cgw29wg.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/knicks-tyler-nickel-contract-plans-coming-focus-signings-01m2r1w9p9xa",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-24T14:00:35.005Z"
+      "id": "cluster_086040b66fc1",
+      "lead_item_id": "d80ef69597fda2be1cc9",
+      "item_ids": [
+        "d80ef69597fda2be1cc9",
+        "ee0fdd3a44af9c9289e1"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-24T00:28:28.000Z"
     }
   ]
 }
