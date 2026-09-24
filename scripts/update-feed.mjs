@@ -736,7 +736,8 @@ function deduplicate(items) {
 
   for (const item of items) {
     const urlKey = normalizedUrl(item.url);
-    const titleKey = similarityKey(item);
+    const normalizedTitle = similarityKey(item);
+    const titleKey = normalizedTitle ? `${item.source_key}:${normalizedTitle}` : "";
 
     if (
       seenIds.has(item.id) ||
