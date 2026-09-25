@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T17:45:19.980Z",
+  "generated_at": "2026-09-25T18:00:22.994Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 5059,
+    "refresh_duration_ms": 4099,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -94,12 +94,38 @@
     "images": {
       "available": 102,
       "missing": 6,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "c2dc10b29887c8ec90a4",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Jalen Brunson says he is fully cleared for training camp after offseason wrist surgery",
+      "summary": "The NBA Finals MVP will be good to go for training camp next week (after hosting Saturday Night Live).",
+      "author": null,
+      "published_at": "2026-09-25T17:48:30.000Z",
+      "url": "https://sports.yahoo.com/articles/jalen-brunson-says-fully-cleared-174830971.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/f5966792d6b4c96a6ec63d349b0803db17661693380a52ba12a2ae8bd97b70e5/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F2efb608c1b55eca46207ede2ab1ec6eb.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/jalen-brunson-says-fully-cleared-174830971.html"
+      },
+      "also_reported_by": [
+        "Yahoo Sports"
+      ],
+      "image_checked_at": "2026-09-25T18:00:22.877Z",
+      "image_source": "og:image",
+      "image_status": "available",
+      "cluster_id": "cluster_f98fff38e51b"
+    },
     {
       "id": "28c5e4eb58b5e3641b57",
       "type": "social",
@@ -157,28 +183,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-25T17:00:32.352Z"
-    },
-    {
-      "id": "c82b3592ae6db6668a0a",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Jalen Brunson says he's 'fully cleared' for Knicks training camp after offseason wrist surgery",
-      "summary": "When the Knicks officially begin their NBA championship defense next week, their captain will be on the floor leading them.",
-      "author": "Dan Devine",
-      "published_at": "2026-09-25T16:44:30.000Z",
-      "url": "https://sports.yahoo.com/nba/article/jalen-brunson-says-hes-fully-cleared-for-knicks-training-camp-after-offseason-wrist-surgery-164430661.html",
-      "image_url": "https://d29szjachogqwa.cloudfront.net/images/2026-09/e547cd95-1d34-471c-abd5-a8895d189a7e",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/article/jalen-brunson-says-hes-fully-cleared-for-knicks-training-camp-after-offseason-wrist-surgery-164430661.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_f98fff38e51b"
     },
     {
       "id": "079d0da8684c1d3780f4",
@@ -329,7 +333,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 4,
-        "likes": 61
+        "likes": 63
       },
       "team": "NYK",
       "presentation": {
@@ -1406,7 +1410,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 43,
-        "likes": 442
+        "likes": 443
       },
       "team": "NYK",
       "presentation": {
@@ -3318,14 +3322,14 @@
   "clusters": [
     {
       "id": "cluster_f98fff38e51b",
-      "lead_item_id": "c82b3592ae6db6668a0a",
+      "lead_item_id": "c2dc10b29887c8ec90a4",
       "item_ids": [
-        "c82b3592ae6db6668a0a",
+        "c2dc10b29887c8ec90a4",
         "16e0f855ab21eb40afa8",
         "30ea7292914addd43f91"
       ],
       "source_count": 3,
-      "updated_at": "2026-09-25T16:44:30.000Z"
+      "updated_at": "2026-09-25T17:48:30.000Z"
     },
     {
       "id": "cluster_2e3cc6ffeb25",
