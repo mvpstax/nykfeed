@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T18:15:18.455Z",
+  "generated_at": "2026-09-25T18:30:24.246Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 4083,
+    "refresh_duration_ms": 4297,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "espn",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 102,
+      "available": 103,
       "missing": 6,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "eae752909a66ef525de8",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:dopbstmnsij5ipmn6sr3fd43/app.bsky.feed.post/3mweevg5fn22f",
+      "author": "Seth Rosenthal",
+      "handle": "sethrosenthal.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:dopbstmnsij5ipmn6sr3fd43/bafkreif2nalttdyf2va4pskcdsbq7rji2mggz44j5ccd4sfput37ivsj6q",
+      "text": "lol i love Landry Shamet",
+      "published_at": "2026-09-25T18:16:23.476Z",
+      "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3mweevg5fn22f",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:dopbstmnsij5ipmn6sr3fd43/bafkreig2ictysujbparonbztaqtxeo5jkdwinciou3pvcbdlsrfr3w3xey",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 16
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3mweevg5fn22f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "75ef26993c1f71023adf",
       "type": "social",
@@ -160,6 +195,28 @@
       "image_source": "og:image",
       "image_checked_at": "2026-09-25T18:00:22.877Z",
       "cluster_id": "cluster_f98fff38e51b"
+    },
+    {
+      "id": "a5cf756c5595ab14cf56",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Karl-Anthony Towns, Knicks 'Tens Of Millions Apart' On Extension",
+      "summary": "Karl-Anthony Towns and the New York Knicks are currently significantly apart on their positions as they discuss a contract extension. Towns can sign for up to $276 million over four years on an extension and is not believed to be demanding the max in talks with the Knicks. If Towns and the Knicks are unable to agree to an extension, he could decline his $61 million player option to become a free agent. Towns could alternatively exercise his option at that amount, which would almost certainly put the Knicks into the second apron for the 2027-28 season. \"I want to talk about the overall value of the contract, because Karl-Anthony Towns is eligible to sign a four-year, $276 million extension,\" said Brian Windhorst on Friday's Hoop Collective Podcast. \"That's his max that he's eligible to get. He obviously has... he and his side have a position on what he wants to sign for. The Knicks have a position on what they have offered. So those are the parameters. From what I understand, they are tens of millions apart. They're not close,\" said \"Honestly, I believe that they could be eight figures apart on an annual basis,\" said Tim MacMahon. \"I believe that's-you know, and maybe it's changed since we've been starting this podcast, maybe the offers have changed,\" replied Windhorst. \"But again, KAT is not pounding the table and saying, 'You've got to max me.' He's willing to have discussions,\" said MacMahon. \"Oh, yeah. He's willing to take less than the $275 million, I believe,\" said Windhorst. \"The question, you know, the question is what are the Knicks willing to do?\" Towns is represented by Jessica Holtz of CAA, which is the former agency of Leon Rose. CAA also represents Jalen Brunson, OG Anunoby and Josh Hart.",
+      "author": null,
+      "published_at": "2026-09-25T17:25:11.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287394/Karl-Anthony-Towns-Knicks-Tens-Of-Millions-Apart-On-Extension",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Towns_Karlanthony_nyk_260420.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287394/Karl-Anthony-Towns-Knicks-Tens-Of-Millions-Apart-On-Extension"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "28c5e4eb58b5e3641b57",
@@ -368,7 +425,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 4,
-        "likes": 63
+        "likes": 65
       },
       "team": "NYK",
       "presentation": {
@@ -400,7 +457,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_2e3cc6ffeb25"
+      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "68d379e9a9051afaadf6",
@@ -1445,7 +1502,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 43,
-        "likes": 446
+        "likes": 449
       },
       "team": "NYK",
       "presentation": {
@@ -2172,41 +2229,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "d14fac37bd640661c631",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwa3zmdrh22r",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "After losing Jordan Brink to the Bulls, the Knicks turned to the Pelicans to find their new challenge guru: dailyknicks.com/knicks-add-p...",
-      "published_at": "2026-09-24T01:27:01.573Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwa3zmdrh22r",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiff5c4bpp7jnfy6oevahdutqlbtuyvuzbgpunl6thshkd6ot56pha",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwa3zmdrh22r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "b3b6c26262b7282c1880",
       "type": "social",
       "source": "Bluesky",
@@ -2389,7 +2411,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_2e3cc6ffeb25"
+      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "e3ebe60801afe6c26f07",
@@ -2472,7 +2494,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_2e3cc6ffeb25"
+      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "3e7c50f8f805f07e0de0",
@@ -2494,7 +2516,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_2e3cc6ffeb25"
+      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "621de575e3339a7bdef7",
@@ -2537,7 +2559,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_2e3cc6ffeb25"
+      "cluster_id": "cluster_086040b66fc1"
     },
     {
       "id": "59ccb1974710525baf5a",
@@ -3113,7 +3135,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.970Z"
+      "image_checked_at": "2026-09-25T14:15:22.970Z",
+      "cluster_id": "cluster_086040b66fc1"
     },
     {
       "id": "aa5d87cb78e259913839",
@@ -3332,17 +3355,27 @@
       "updated_at": "2026-09-25T17:48:30.000Z"
     },
     {
-      "id": "cluster_2e3cc6ffeb25",
-      "lead_item_id": "b1e1d1d1c90e4677f1cb",
+      "id": "cluster_eb608b486489",
+      "lead_item_id": "a5cf756c5595ab14cf56",
       "item_ids": [
+        "a5cf756c5595ab14cf56",
         "b1e1d1d1c90e4677f1cb",
         "52db53aa5fcdaad25fdd",
         "1add455d8ed253fdb76c",
-        "3e7c50f8f805f07e0de0",
-        "cced79e26b298d44347f"
+        "3e7c50f8f805f07e0de0"
       ],
       "source_count": 5,
-      "updated_at": "2026-09-25T14:43:41.000Z"
+      "updated_at": "2026-09-25T17:25:11.000Z"
+    },
+    {
+      "id": "cluster_086040b66fc1",
+      "lead_item_id": "cced79e26b298d44347f",
+      "item_ids": [
+        "cced79e26b298d44347f",
+        "ee0fdd3a44af9c9289e1"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-23T19:11:11.000Z"
     }
   ]
 }
