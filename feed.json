@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T13:15:22.445Z",
+  "generated_at": "2026-09-25T13:30:20.976Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 6146,
+    "refresh_duration_ms": 4232,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "espn",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 102,
       "missing": 6,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "f0f3bca596cb8b4beb25",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mwduu4r5tk2q",
+      "author": "Posting and Toasting",
+      "handle": "postingandtoasting.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
+      "text": "Friday Posted & Toasted Notes: KAT’s bag, Jordy McClarkson, salty RJ, married Pop",
+      "published_at": "2026-09-25T13:29:20.222Z",
+      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwduu4r5tk2q",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreiajjyxxsctzjzlxy6mry6kaa3wwe65aoravcyzqri5lpdjcwsgpe4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwduu4r5tk2q",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "8ea174000fa5691e7a33",
       "type": "social",
@@ -169,6 +204,28 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "16e0f855ab21eb40afa8",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Jalen Brunson 'Fully Cleared' From Offseason Wrist Surgery",
+      "summary": "New York Knicks fans can breathe a sigh of relief with training camp set to open next week. Star guard Jalen Brunson told fans that he's \"fully recovered\" from offseason surgery on his left wrist. \"As you guys know, I had surgery this offseason,\" Brunson told the crowd at a live taping of the \"Roomates Show\" with teammate Josh Hart. \"And I just wanted to tell you guys that I am fully cleared.\" Brunson had previously said that he suffered the wrist injury during Game 2 of the Eastern Conference Finals against the Cleveland Cavaliers. He held off on surgery to help lead the Knicks to the NBA Finals and ultimately the 2026 title.",
+      "author": null,
+      "published_at": "2026-09-25T12:45:44.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287390/Jalen-Brunson-Fully-Cleared-From-Offseason-Wrist-Surgery",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Brunson_Jalen_nyk_260611.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287390/Jalen-Brunson-Fully-Cleared-From-Offseason-Wrist-Surgery"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_f98fff38e51b"
     },
     {
       "id": "54e2127539cdc6baf891",
@@ -450,7 +507,7 @@
       "engagement": {
         "replies": 4,
         "reposts": 4,
-        "likes": 52
+        "likes": 53
       },
       "team": "NYK",
       "presentation": {
@@ -1054,7 +1111,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 31,
-        "likes": 357
+        "likes": 363
       },
       "team": "NYK",
       "presentation": {
@@ -2210,41 +2267,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "4e8c0ee03da83dec8276",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:44ys7gijqhhnzyubtzkupca3/app.bsky.feed.post/3mw7lv322mc2u",
-      "author": "Paul Knepper",
-      "handle": "paulknepper.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:44ys7gijqhhnzyubtzkupca3/bafkreihbylezf7cxpcpsktqxwhnld5xi5q7qbc6ttu3lo7bbaans7twavy",
-      "text": "Stephon Marbury in high school.",
-      "published_at": "2026-09-23T20:38:09.339Z",
-      "url": "https://bsky.app/profile/did:plc:44ys7gijqhhnzyubtzkupca3/post/3mw7lv322mc2u",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:44ys7gijqhhnzyubtzkupca3/bafkreibmt643e2udrm4cz5yefqpiwsulracdisbby6bp4ffq6qwgx6i7ve",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 14
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:44ys7gijqhhnzyubtzkupca3/post/3mw7lv322mc2u",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "1add455d8ed253fdb76c",
       "type": "article",
       "source": "CBS Sports",
@@ -3299,13 +3321,14 @@
   "clusters": [
     {
       "id": "cluster_f98fff38e51b",
-      "lead_item_id": "783385f4dbef1d42ee48",
+      "lead_item_id": "16e0f855ab21eb40afa8",
       "item_ids": [
+        "16e0f855ab21eb40afa8",
         "783385f4dbef1d42ee48",
         "30ea7292914addd43f91"
       ],
-      "source_count": 2,
-      "updated_at": "2026-09-25T03:08:08.000Z"
+      "source_count": 3,
+      "updated_at": "2026-09-25T12:45:44.000Z"
     },
     {
       "id": "cluster_04b0d6dbc7b4",
