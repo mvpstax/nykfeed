@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T00:45:34.689Z",
+  "generated_at": "2026-09-25T01:00:23.950Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 6397,
+    "refresh_duration_ms": 3820,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -93,13 +93,47 @@
     ],
     "images": {
       "available": 100,
-      "missing": 9,
+      "missing": 10,
       "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "5544729c668c256df469",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3mwckcw6rek2a",
+      "author": "Fred Katz",
+      "handle": "fredkatz.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
+      "text": "Extremely excited about my upcoming book, Under the Bright Lights: The Revival of the New York Knicks, the inside story of how a once crestfallen organization turned itself into NBA champs.\n\nRelease on Feb. 16.\n\nAvailable for preorder it here: www.amazon.com/Under-Bright...",
+      "published_at": "2026-09-25T00:48:05.745Z",
+      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3mwckcw6rek2a",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 1,
+        "likes": 24
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3mwckcw6rek2a",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "0de8837a42fa1528559c",
       "type": "social",
@@ -122,7 +156,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 0,
-        "likes": 2
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -153,9 +187,33 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/knicks-jalen-brunson-fully-cleared-for-training-camp.html"
       },
-      "image_checked_at": "2026-09-25T00:45:34.471Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-25T00:45:34.471Z",
+      "cluster_id": "cluster_5e3d2e5ef73a"
+    },
+    {
+      "id": "3775ffa666624d2d6c02",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks' Jalen Brunson says he's fully cleared after offseason surgery",
+      "summary": "Knicks guard Jalen Brunson revealed to a live crowd via his podcast that he is fully cleared after undergoing offseason wrist surgery.",
+      "author": null,
+      "published_at": "2026-09-25T00:37:09.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-jalen-brunson-says-hes-003709002.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/22a32a3bca3a8c45fa4d8a7029eaf3e341fe58cf2e0f37386d37e7d7c64519d8/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Fb2c1f6917b4ba7d060c72801e6291013.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-jalen-brunson-says-hes-003709002.html"
+      },
+      "image_checked_at": "2026-09-25T01:00:23.849Z",
+      "image_source": "og:image",
+      "image_status": "available",
+      "cluster_id": "cluster_5e3d2e5ef73a"
     },
     {
       "id": "c35b616b6b00339a4615",
@@ -668,8 +726,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 4,
-        "reposts": 14,
-        "likes": 175
+        "reposts": 17,
+        "likes": 182
       },
       "team": "NYK",
       "presentation": {
@@ -2418,44 +2476,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "98282f5fa349b22b1042",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mw6z4cyqoa2h",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "5/19/26: Knicks 115, Cavaliers 104 (OT)\n2026 Eastern Conference Finals, Game 1\n\nDown 93-71 with 7:49 to play, the Knicks go on a 44-11 run for the remaining 12:37 to complete the largest playoff comeback in franchise history... for now 😏\n\nJalen Brunson: 38 PTS (17 in 4Q/OT), 6 ASTS, 3 STLS, +15",
-      "published_at": "2026-09-23T15:02:11.453Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mw6z4cyqoa2h",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreialxc76w3mectvoimcfaws4xsums27qf3k2zpetkc57m4ub7vvzgy/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreialxc76w3mectvoimcfaws4xsums27qf3k2zpetkc57m4ub7vvzgy/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreialxc76w3mectvoimcfaws4xsums27qf3k2zpetkc57m4ub7vvzgy/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1920,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mw6z4cyqoa2h",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "8b32b7d6c34f45184bd4",
       "type": "social",
       "source": "Bluesky",
@@ -3367,6 +3387,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_5e3d2e5ef73a",
+      "lead_item_id": "30ea7292914addd43f91",
+      "item_ids": [
+        "30ea7292914addd43f91",
+        "3775ffa666624d2d6c02"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-25T00:40:10.000Z"
+    },
     {
       "id": "cluster_04b0d6dbc7b4",
       "lead_item_id": "6056bff553e4bfaa85d8",
