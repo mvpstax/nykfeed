@@ -1,229 +1,386 @@
-"""Refresh player stats for the frontend."""
+"""Refresh player-stats.json from ESPN basketball data."""
 
 import json
-import os
 import time
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.request import urlopen
+from urllib.error import URLError
+from urllib.request import Request, urlopen
 
-from nba_api.stats.endpoints import (
-    commonplayerinfo,
-    playercareerstats,
-    playergamelog,
-)
-
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path.cwd()
 OUTPUT = ROOT / "player-stats.json"
 
-ROSTER_URL = os.getenv(
-    "PLAYERS_URL",
-    "https://raw.githubusercontent.com/mvpstax/nykfeed/refs/heads/main/players.json",
+ROSTER_URL = (
+    "https://raw.githubusercontent.com/mvpstax/nykfeed/main/players.json"
+)
+TEAM_URL = (
+    "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/"
+    "teams/18/roster"
+)
+PLAYER_URL = (
+    "https://site.web.api.espn.com/apis/common/v3/sports/"
+    "basketball/nba/athletes"
 )
 
+# ESPN's current Knicks roster does not include every player in our feed.
+EXTRA_IDS = {
+    "bruce brown": "4065670",
+    "drew eubanks": "3914285",
+    "james wiseman": "4432808",
+    "john konchar": "3134932",
+    "ochai agbaji": "4397018",
+    "pacome dadiet": "5211983",
+}
 
-def line(row):
-    """Convert NBA stats into the fields used by the player drawer."""
-    result = {"gp": row.get("GP")}
 
-    for key, source in (
-        ("min", "MIN"),
-        ("pts", "PTS"),
-        ("reb", "REB"),
-        ("ast", "AST"),
-        ("stl", "STL"),
-        ("blk", "BLK"),
-    ):
-        value = row.get(source)
+def get_json(url):
+    request = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "application/json",
+        },
+    )
+
+    for attempt in range(2):
+        try:
+            with urlopen(request, timeout=15) as response:
+                return json.load(response)
+        except (TimeoutError, URLError):
+            if attempt:
+                raise
+            time.sleep(1)
+
+
+def name_key(name):
+    return "".join(
+        c
+        for c in unicodedata.normalize("NFKD", name.casefold())
+        if not unicodedata.combining(c)
+    )
+
+
+def numeric(value):
+    try:
+        return float(value)
+    except (ValueError, TypeError):
+        return None
+
+
+def stat_line(names, values, game=False):
+    data = dict(zip(names, values))
+
+    fields = {
+        "min": "minutes" if game else "avgMinutes",
+        "pts": "points" if game else "avgPoints",
+        "reb": "totalRebounds" if game else "avgRebounds",
+        "ast": "assists" if game else "avgAssists",
+        "stl": "steals" if game else "avgSteals",
+        "blk": "blocks" if game else "avgBlocks",
+        "fg_pct": "fieldGoalPct",
+        "three_pct": (
+            "threePointPct"
+            if game
+            else "threePointFieldGoalPct"
+        ),
+        "ft_pct": "freeThrowPct",
+    }
+
+    result = {}
+
+    if not game and numeric(data.get("gamesPlayed")) is not None:
+        result["gp"] = int(numeric(data["gamesPlayed"]))
+
+    for output, source in fields.items():
+        value = numeric(data.get(source))
         if value is not None:
-            result[key] = round(float(value), 1)
-
-    for key, source in (
-        ("fg_pct", "FG_PCT"),
-        ("three_pct", "FG3_PCT"),
-        ("ft_pct", "FT_PCT"),
-    ):
-        value = row.get(source)
-        if value is not None:
-            result[key] = round(float(value) * 100, 1)
+            result[output] = value
 
     return result
 
 
-def records(dataset):
-    """nba_api provides separate headers and row arrays."""
-    data = dataset.get_dict()
-    return [
-        dict(zip(data["headers"], values))
-        for values in data["data"]
-    ]
+def fetch_player(espn_id, bio):
+    data = get_json(f"{PLAYER_URL}/{espn_id}/stats")
 
+    averages = next(
+        (
+            category
+            for category in data.get("categories", [])
+            if category.get("name") == "averages"
+        ),
+        None,
+    )
 
-def season_rows(raw):
-    """Keep one row per season, preferring a combined TOT row after a trade."""
-    by_season = {}
+    if not averages:
+        raise ValueError("No regular-season averages")
 
-    for row in raw:
-        season = row.get("SEASON_ID")
-        if not season or not row.get("GP"):
+    # Use one row per year. For a traded player, prefer ESPN's
+    # combined season total.
+    by_year = {}
+
+    for row in averages.get("statistics", []):
+        year = row.get("season", {}).get("year")
+        gp = numeric(
+            dict(zip(averages["names"], row["stats"])).get(
+                "gamesPlayed"
+            )
+        )
+
+        if not year or not gp:
             continue
 
-        current = by_season.get(season)
+        current = by_year.get(year)
 
-        if current is None or row.get("TEAM_ABBREVIATION") == "TOT":
-            by_season[season] = row
-        elif (
-            current.get("TEAM_ABBREVIATION") != "TOT"
-            and row["GP"] > current["GP"]
-        ):
-            by_season[season] = row
+        if current is None or "totals" in row.get(
+            "teamSlug", ""
+        ).lower():
+            by_year[year] = row
+        elif "totals" not in current.get(
+            "teamSlug", ""
+        ).lower():
+            current_gp = numeric(
+                dict(
+                    zip(
+                        averages["names"],
+                        current["stats"],
+                    )
+                ).get("gamesPlayed")
+            ) or 0
 
-    return [
-        by_season[key]
-        for key in sorted(by_season, reverse=True)
-    ]
+            if gp > current_gp:
+                by_year[year] = row
 
-
-def fetch_player(player_id):
-    career_response = playercareerstats.PlayerCareerStats(
-        player_id=player_id,
-        per_mode36="PerGame",
-        timeout=20,
+    seasons = list(by_year.values())
+    seasons.sort(
+        key=lambda row: row["season"]["year"],
+        reverse=True,
     )
 
-    rows = season_rows(
-        records(career_response.season_totals_regular_season)
-    )
+    if not seasons:
+        raise ValueError("No seasons with games played")
 
-    if not rows:
-        return {}
-
-    latest = rows[0]["SEASON_ID"]
+    latest = seasons[0]["season"]
 
     result = {
         "stats": {
-            "season": latest,
-            "season_avg": line(rows[0]),
+            "season": latest["displayName"],
+            "season_avg": stat_line(
+                averages["names"],
+                seasons[0]["stats"],
+            ),
             "career": [
                 {
-                    "season": row["SEASON_ID"],
-                    "team": row.get("TEAM_ABBREVIATION"),
-                    **line(row),
+                    "season": row["season"]["displayName"],
+                    "team": (
+                        "TOT"
+                        if "totals" in row.get(
+                            "teamSlug", ""
+                        ).lower()
+                        else row.get(
+                            "teamSlug", ""
+                        ).replace("-", " ").title()
+                    ),
+                    **stat_line(
+                        averages["names"],
+                        row["stats"],
+                    ),
                 }
-                for row in rows
+                for row in seasons
             ],
             "game_log": [],
         }
     }
 
-    try:
-        bio = commonplayerinfo.CommonPlayerInfo(
-            player_id=player_id,
-            timeout=20,
-        )
-        info = records(bio.common_player_info)[0]
-        result["height"] = info.get("HEIGHT") or None
-        result["weight"] = (
-            f'{info["WEIGHT"]} lbs'
-            if info.get("WEIGHT")
-            else None
-        )
-    except Exception as exc:
-        print(f"Bio unavailable for {player_id}: {exc}", flush=True)
-
-    time.sleep(0.6)
+    if bio:
+        result["height"] = bio.get("displayHeight")
+        result["weight"] = bio.get("displayWeight")
 
     try:
-        games_response = playergamelog.PlayerGameLog(
-            player_id=player_id,
-            season=latest,
-            season_type_all_star="Regular Season",
-            timeout=20,
+        log = get_json(
+            f"{PLAYER_URL}/{espn_id}/gamelog"
+            f"?season={latest['year']}"
         )
 
-        games = records(games_response.player_game_log)[:10]
+        regular = next(
+            (
+                item
+                for item in log.get("seasonTypes", [])
+                if "Regular Season"
+                in item.get("displayName", "")
+            ),
+            None,
+        )
+
+        games = []
+
+        for category in (regular or {}).get(
+            "categories", []
+        ):
+            for row in category.get("events", []):
+                event = log.get("events", {}).get(
+                    row["eventId"],
+                    {},
+                )
+
+                if not event.get("gameDate"):
+                    continue
+
+                opponent = event.get(
+                    "opponent", {}
+                ).get("abbreviation", "")
+
+                games.append(
+                    (
+                        event["gameDate"],
+                        {
+                            "date": event["gameDate"][:10],
+                            "opponent": (
+                                f"{event.get('atVs', 'vs')} "
+                                f"{opponent}"
+                            ),
+                            "result": event.get(
+                                "gameResult"
+                            ),
+                            **stat_line(
+                                log["names"],
+                                row["stats"],
+                                game=True,
+                            ),
+                        },
+                    )
+                )
+
+        games.sort(
+            key=lambda item: item[0],
+            reverse=True,
+        )
 
         result["stats"]["game_log"] = [
-            {
-                "date": game["GAME_DATE"],
-                "opponent": game["MATCHUP"],
-                "result": game.get("WL"),
-                **{
-                    k: v
-                    for k, v in line(game).items()
-                    if k != "gp"
-                },
-            }
-            for game in games
+            row for _, row in games[:10]
         ]
+
     except Exception as exc:
-        print(f"Game log unavailable for {player_id}: {exc}", flush=True)
+        print(
+            f"Game log unavailable for ESPN athlete "
+            f"{espn_id}: {exc}",
+            flush=True,
+        )
 
     return result
 
 
 def main():
-    local_roster = ROOT / "players.json"
+    local = ROOT / "players.json"
 
-    if local_roster.exists():
-        roster = json.loads(local_roster.read_text())["players"]
+    if local.exists():
+        roster = json.loads(
+            local.read_text()
+        )["players"]
     else:
-        with urlopen(ROSTER_URL, timeout=20) as response:
-            roster = json.load(response)["players"]
+        roster = get_json(
+            ROSTER_URL
+        )["players"]
+
+    espn_roster = get_json(
+        TEAM_URL
+    )["athletes"]
+
+    by_name = {
+        name_key(player["displayName"]): player
+        for player in espn_roster
+    }
 
     previous = (
-        json.loads(OUTPUT.read_text())
+        json.loads(
+            OUTPUT.read_text()
+        ).get("players", {})
         if OUTPUT.exists()
-        else {"players": {}}
+        else {}
     )
-    cached = previous.get("players", {})
-    refreshed = {}
+
+    result = {}
     successes = 0
 
     for player in roster:
-        key = str(player["nba_player_id"])
+        nba_id = str(player["nba_player_id"])
+        bio = by_name.get(
+            name_key(player["name"])
+        )
+
+        espn_id = (
+            bio["id"]
+            if bio
+            else EXTRA_IDS.get(
+                name_key(player["name"])
+            )
+        )
+
+        if not espn_id:
+            print(
+                f"No ESPN match for "
+                f"{player['name']}",
+                flush=True,
+            )
+
+            if nba_id in previous:
+                result[nba_id] = previous[nba_id]
+
+            continue
 
         try:
-            record = fetch_player(key)
+            result[nba_id] = fetch_player(
+                espn_id,
+                bio,
+            )
+            successes += 1
 
-            if record:
-                refreshed[key] = {
-                    **cached.get(key, {}),
-                    **record,
-                }
-                successes += 1
-            elif key in cached:
-                refreshed[key] = cached[key]
+            print(
+                f"Updated {player['name']}",
+                flush=True,
+            )
 
         except Exception as exc:
             print(
-                f"Stats unavailable for {player['name']} ({key}): {exc}",
+                f"Stats unavailable for "
+                f"{player['name']}: {exc}",
                 flush=True,
             )
-            if key in cached:
-                refreshed[key] = cached[key]
 
-        time.sleep(0.8)
+            if nba_id in previous:
+                result[nba_id] = previous[nba_id]
+
+        time.sleep(0.3)
 
     if not successes:
         raise RuntimeError(
-            "No player stats refreshed; keeping the previous cache"
+            "No stats refreshed; previous file "
+            "was preserved"
         )
 
     payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "players": refreshed,
+        "updated_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "source": "ESPN",
+        "players": result,
     }
 
-    temporary = OUTPUT.with_suffix(".json.tmp")
+    temporary = OUTPUT.with_suffix(
+        ".json.tmp"
+    )
     temporary.write_text(
-        json.dumps(payload, separators=(",", ":")) + "\n"
+        json.dumps(
+            payload,
+            separators=(",", ":"),
+        ) + "\n"
     )
     temporary.replace(OUTPUT)
 
     print(
-        f"Updated {successes} players; "
-        f"retained {len(refreshed) - successes} cached records"
+        f"Saved {successes}/{len(roster)} "
+        f"players",
+        flush=True,
     )
 
 
