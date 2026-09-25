@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T16:45:43.030Z",
+  "generated_at": "2026-09-25T17:00:32.804Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 29855,
+    "refresh_duration_ms": 6028,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,59 @@
       }
     ],
     "images": {
-      "available": 102,
+      "available": 103,
       "missing": 6,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "21fe0ef5a69c19e2864b",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Trying to Make Sense of Knicks Missing Out on Julian Reese",
+      "summary": "The Knicks watching Julian Reese sign with the Pelicans raises questions about why New York didn't pursue him strongly enough to fill one of its two-way contract spots.",
+      "author": "Isaiah De Los Santos",
+      "published_at": "2026-09-25T17:00:01.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/trying-make-sense-knicks-missing-out-julian-reese-01m3cjrh6m74",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_114,w_4712,h_2650/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3cjtbjx1hk8hwyf5d.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/trying-make-sense-knicks-missing-out-julian-reese-01m3cjrh6m74",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-25T17:00:32.352Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "c82b3592ae6db6668a0a",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Jalen Brunson says he's 'fully cleared' for Knicks training camp after offseason wrist surgery",
+      "summary": "When the Knicks officially begin their NBA championship defense next week, their captain will be on the floor leading them.",
+      "author": "Dan Devine",
+      "published_at": "2026-09-25T16:44:30.000Z",
+      "url": "https://sports.yahoo.com/nba/article/jalen-brunson-says-hes-fully-cleared-for-knicks-training-camp-after-offseason-wrist-surgery-164430661.html",
+      "image_url": "https://d29szjachogqwa.cloudfront.net/images/2026-09/e547cd95-1d34-471c-abd5-a8895d189a7e",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/nba/article/jalen-brunson-says-hes-fully-cleared-for-knicks-training-camp-after-offseason-wrist-surgery-164430661.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_f98fff38e51b"
+    },
     {
       "id": "079d0da8684c1d3780f4",
       "type": "social",
@@ -250,7 +294,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 4,
-        "likes": 55
+        "likes": 58
       },
       "team": "NYK",
       "presentation": {
@@ -411,7 +455,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 2,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -468,6 +512,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-25T11:00:25.346Z"
+    },
+    {
+      "id": "a3431d6a731eaf488572",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "New York Knicks season preview: Lineup, roster and prediction",
+      "summary": "The New York Knicks snapped a 53-year championship drought. The majority of their core is returning. Do they have enough to repeat?",
+      "author": null,
+      "published_at": "2026-09-25T09:40:24.000Z",
+      "url": "https://sports.yahoo.com/articles/york-knicks-season-preview-lineup-094024306.html",
+      "image_url": "https://media.zenfs.com/en/usa_today_sports_articles_558/b3dcf9e7259eb30837814cba32d6c2dc.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/york-knicks-season-preview-lineup-094024306.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "7683faa823eaa9e0636d",
@@ -596,8 +661,7 @@
         "url": "https://sports.yahoo.com/articles/jalen-brunson-fully-cleared-start-030808478.html"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_f98fff38e51b"
+      "image_source": "source_feed"
     },
     {
       "id": "19b59b2205f8d1391edc",
@@ -1330,7 +1394,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 42,
-        "likes": 428
+        "likes": 430
       },
       "team": "NYK",
       "presentation": {
@@ -1456,9 +1520,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-concerns-that-must-be-on-the-knicks-radar-in-2026-27-01m359nx8jz2",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-25T17:00:32.353Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-24T17:00:25.367Z"
+      "image_status": "available"
     },
     {
       "id": "d6ed9292f03a109e0351",
@@ -3272,54 +3336,20 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-25T14:15:23.860Z"
-    },
-    {
-      "id": "e81281694e4f7d2c45ea",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Ranking Each of Knicks' Newest Signings by Chances to Make Roster",
-      "summary": "Following five new free agent arrivals for the Knicks, we dive into each player and predict who has the best shot at making New York's roster for opening night of the regular season.",
-      "author": "Max Wildstein",
-      "published_at": "2026-09-18T17:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/ranking-each-knicks-newest-signings-chances-make-roster-01m2s2b0g53w",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4762,h_2678/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m2s2hdscz1br5s1mrj.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/ranking-each-knicks-newest-signings-chances-make-roster-01m2s2b0g53w",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:24.230Z"
-    },
-    {
-      "id": "7589e2516f01095a2703",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Eastern Notes: Watson, Raptors, Magic, Burrell, Knicks",
-      "summary": "Introduced as a member of the Cavaliers at his new team’s training facility on Thursday, Peyton Watson acknowledged that Cleveland wasn’t among his initial suitors this offseason. However, as Joe Reedy of The Associated Press details, once the Cavs entered the mix, the fit appealed to the restricted free agent wing, who is looking forward […]",
-      "author": "Luke Adams",
-      "published_at": "2026-09-18T16:51:18.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/eastern-notes-watson-raptors-magic-burrell-knicks.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2025/10/Peyton-Watson-1-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/eastern-notes-watson-raptors-magic-burrell-knicks.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:24.250Z"
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_f98fff38e51b",
+      "lead_item_id": "c82b3592ae6db6668a0a",
+      "item_ids": [
+        "c82b3592ae6db6668a0a",
+        "16e0f855ab21eb40afa8",
+        "30ea7292914addd43f91"
+      ],
+      "source_count": 3,
+      "updated_at": "2026-09-25T16:44:30.000Z"
+    },
     {
       "id": "cluster_2e3cc6ffeb25",
       "lead_item_id": "b1e1d1d1c90e4677f1cb",
@@ -3332,17 +3362,6 @@
       ],
       "source_count": 5,
       "updated_at": "2026-09-25T14:43:41.000Z"
-    },
-    {
-      "id": "cluster_f98fff38e51b",
-      "lead_item_id": "16e0f855ab21eb40afa8",
-      "item_ids": [
-        "16e0f855ab21eb40afa8",
-        "783385f4dbef1d42ee48",
-        "30ea7292914addd43f91"
-      ],
-      "source_count": 3,
-      "updated_at": "2026-09-25T12:45:44.000Z"
     },
     {
       "id": "cluster_04b0d6dbc7b4",
