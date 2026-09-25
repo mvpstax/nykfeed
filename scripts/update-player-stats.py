@@ -13,7 +13,7 @@ from nba_api.stats.endpoints import (
     playergamelog,
 )
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "player-stats.json"
 
 ROSTER_URL = os.getenv(
