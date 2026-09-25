@@ -1,387 +1,280 @@
-"""Refresh player-stats.json from ESPN basketball data."""
-
+"""Refresh Knicks season stats and game logs from NBA live box scores."""
+import argparse
 import json
-import time
-import unicodedata
+import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.error import URLError
-from urllib.request import Request, urlopen
 
-ROOT = Path.cwd()
-OUTPUT = ROOT / "player-stats.json"
+from nba_api.live.nba.endpoints import boxscore, scoreboard
 
-ROSTER_URL = (
-    "https://raw.githubusercontent.com/mvpstax/nykfeed/main/players.json"
-)
-TEAM_URL = (
-    "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/"
-    "teams/18/roster"
-)
-PLAYER_URL = (
-    "https://site.web.api.espn.com/apis/common/v3/sports/"
-    "basketball/nba/athletes"
-)
+ROOT = Path(__file__).resolve().parents[1]
+STATS = ROOT / "player-stats.json"
+HISTORY = ROOT / "player-game-history.json"
+ROSTER = ROOT / "players.json"
+NYK = 1610612752
+CHECK_GAME_ID = "0022000180"
 
-# ESPN's current Knicks roster does not include every player in our feed.
-EXTRA_IDS = {
-    "bruce brown": "4065670",
-    "drew eubanks": "3914285",
-    "james wiseman": "4432808",
-    "john konchar": "3134932",
-    "ochai agbaji": "4397018",
-    "pacome dadiet": "5211983",
+COUNTS = {
+    "pts": "points",
+    "reb": "reboundsTotal",
+    "ast": "assists",
+    "stl": "steals",
+    "blk": "blocks",
+}
+SHOTS = {
+    "fg": ("fieldGoalsMade", "fieldGoalsAttempted"),
+    "three": ("threePointersMade", "threePointersAttempted"),
+    "ft": ("freeThrowsMade", "freeThrowsAttempted"),
 }
 
 
-def get_json(url):
-    request = Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Accept": "application/json",
-        },
+def live_scoreboard():
+    return scoreboard.ScoreBoard(timeout=15).scoreboard.games.get_dict()
+
+
+def live_boxscore(game_id):
+    return boxscore.BoxScore(game_id, timeout=15).game.get_dict()
+
+
+def season_for(date):
+    year, month = map(int, date[:7].split("-"))
+    start = year if month >= 7 else year - 1
+    return f"{start}-{str(start + 1)[-2:]}"
+
+
+def minutes(value):
+    match = re.fullmatch(
+        r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+(?:\.\d+)?)S)?",
+        value or "",
+    )
+    if not match:
+        raise ValueError(f"Unexpected NBA minutes value: {value!r}")
+    hours, mins, seconds = match.groups()
+    return round(
+        int(hours or 0) * 60 + int(mins or 0) + float(seconds or 0) / 60,
+        3,
     )
 
-    for attempt in range(2):
-        try:
-            with urlopen(request, timeout=15) as response:
-                return json.load(response)
-        except (TimeoutError, URLError):
-            if attempt:
-                raise
-            time.sleep(1)
 
+def game_entry(game):
+    if int(game["gameStatus"]) != 3 or not str(game["gameId"]).startswith("002"):
+        raise ValueError("Only completed regular-season games can be cached")
 
-def name_key(name):
-    return "".join(
-        c
-        for c in unicodedata.normalize("NFKD", name.casefold())
-        if not unicodedata.combining(c)
-    )
+    home, away = game["homeTeam"], game["awayTeam"]
+    if NYK not in (int(home["teamId"]), int(away["teamId"])):
+        raise ValueError("Box score is not a Knicks game")
 
+    knicks_home = int(home["teamId"]) == NYK
+    team, opponent = (home, away) if knicks_home else (away, home)
 
-def numeric(value):
-    try:
-        return float(value)
-    except (ValueError, TypeError):
-        return None
+    date = game["gameCode"][:8]
+    if not re.fullmatch(r"\d{8}", date):
+        raise ValueError("Missing gameCode date")
+    date = f"{date[:4]}-{date[4:6]}-{date[6:]}"
 
+    result = "W" if int(team["score"]) > int(opponent["score"]) else "L"
+    players = {}
 
-def stat_line(names, values, game=False):
-    data = dict(zip(names, values))
-
-    fields = {
-        "min": "minutes" if game else "avgMinutes",
-        "pts": "points" if game else "avgPoints",
-        "reb": "totalRebounds" if game else "avgRebounds",
-        "ast": "assists" if game else "avgAssists",
-        "stl": "steals" if game else "avgSteals",
-        "blk": "blocks" if game else "avgBlocks",
-        "fg_pct": "fieldGoalPct",
-        "three_pct": (
-            "threePointPct"
-            if game
-            else "threePointFieldGoalPct"
-        ),
-        "ft_pct": "freeThrowPct",
-    }
-
-    result = {}
-
-    if not game and numeric(data.get("gamesPlayed")) is not None:
-        result["gp"] = int(numeric(data["gamesPlayed"]))
-
-    for output, source in fields.items():
-        value = numeric(data.get(source))
-        if value is not None:
-            result[output] = value
-
-    return result
-
-
-def fetch_player(espn_id, bio):
-    data = get_json(f"{PLAYER_URL}/{espn_id}/stats")
-
-    averages = next(
-        (
-            category
-            for category in data.get("categories", [])
-            if category.get("name") == "averages"
-        ),
-        None,
-    )
-
-    if not averages:
-        raise ValueError("No regular-season averages")
-
-    # Use one row per year. For a traded player, prefer ESPN's
-    # combined season total.
-    by_year = {}
-
-    for row in averages.get("statistics", []):
-        year = row.get("season", {}).get("year")
-        gp = numeric(
-            dict(zip(averages["names"], row["stats"])).get(
-                "gamesPlayed"
-            )
-        )
-
-        if not year or not gp:
+    for player in team["players"]:
+        if str(player.get("played", "")).lower() not in ("1", "true"):
             continue
 
-        current = by_year.get(year)
+        stats = player["statistics"]
+        line = {"min": minutes(stats["minutes"])}
+        line.update({key: int(stats[source]) for key, source in COUNTS.items()})
 
-        if current is None or "totals" in row.get(
-            "teamSlug", ""
-        ).lower():
-            by_year[year] = row
-        elif "totals" not in current.get(
-            "teamSlug", ""
-        ).lower():
-            current_gp = numeric(
-                dict(
-                    zip(
-                        averages["names"],
-                        current["stats"],
-                    )
-                ).get("gamesPlayed")
-            ) or 0
+        for key, (made, attempted) in SHOTS.items():
+            line[f"{key}_made"] = int(stats[made])
+            line[f"{key}_attempted"] = int(stats[attempted])
 
-            if gp > current_gp:
-                by_year[year] = row
+        players[str(player["personId"])] = line
 
-    seasons = list(by_year.values())
-    seasons.sort(
-        key=lambda row: row["season"]["year"],
-        reverse=True,
-    )
+    if not players:
+        raise ValueError("Final box score contains no Knicks players")
 
-    if not seasons:
-        raise ValueError("No seasons with games played")
-
-    latest = seasons[0]["season"]
-
-    result = {
-        "stats": {
-            "season": latest["displayName"],
-            "season_avg": stat_line(
-                averages["names"],
-                seasons[0]["stats"],
-            ),
-            "career": [
-                {
-                    "season": row["season"]["displayName"],
-                    "team": (
-                        "TOT"
-                        if "totals" in row.get(
-                            "teamSlug", ""
-                        ).lower()
-                        else row.get(
-                            "teamSlug", ""
-                        ).replace("-", " ").title()
-                    ),
-                    **stat_line(
-                        averages["names"],
-                        row["stats"],
-                    ),
-                }
-                for row in seasons
-            ],
-            "game_log": [],
-        }
+    return {
+        "date": date,
+        "opponent": ("vs " if knicks_home else "@ ") + opponent["teamTricode"],
+        "result": result,
+        "players": players,
     }
 
-    if bio:
-        result["height"] = bio.get("displayHeight")
-        result["weight"] = bio.get("displayWeight")
 
-    try:
-        log = get_json(
-            f"{PLAYER_URL}/{espn_id}/gamelog"
-            f"?season={latest['year']}"
-        )
+def display_line(line):
+    result = {
+        key: round(line[key], 1) if key == "min" else line[key]
+        for key in ("min", *COUNTS)
+        if key in line
+    }
 
-        regular = next(
-            (
-                item
-                for item in log.get("seasonTypes", [])
-                if "Regular Season"
-                in item.get("displayName", "")
-            ),
-            None,
-        )
-
-        games = []
-
-        for category in (regular or {}).get(
-            "categories", []
-        ):
-            for row in category.get("events", []):
-                event = log.get("events", {}).get(
-                    row["eventId"],
-                    {},
-                )
-
-                if not event.get("gameDate"):
-                    continue
-
-                opponent = event.get(
-                    "opponent", {}
-                ).get("abbreviation", "")
-
-                games.append(
-                    (
-                        event["gameDate"],
-                        {
-                            "date": event["gameDate"][:10],
-                            "opponent": (
-                                f"{event.get('atVs', 'vs')} "
-                                f"{opponent}"
-                            ),
-                            "result": event.get(
-                                "gameResult"
-                            ),
-                            **stat_line(
-                                log["names"],
-                                row["stats"],
-                                game=True,
-                            ),
-                        },
-                    )
-                )
-
-        games.sort(
-            key=lambda item: item[0],
-            reverse=True,
-        )
-
-        result["stats"]["game_log"] = [
-            row for _, row in games[:10]
-        ]
-
-    except Exception as exc:
-        print(
-            f"Game log unavailable for ESPN athlete "
-            f"{espn_id}: {exc}",
-            flush=True,
+    for key in SHOTS:
+        made = line[f"{key}_made"]
+        attempted = line[f"{key}_attempted"]
+        result[f"{key}_pct"] = (
+            round(made * 100 / attempted, 1) if attempted else 0
         )
 
     return result
+
+
+def average(lines):
+    count = len(lines)
+    totals = {
+        key: sum(line[key] for line in lines)
+        for key in ("min", *COUNTS)
+    }
+    result = {
+        "gp": count,
+        **{key: round(value / count, 1) for key, value in totals.items()},
+    }
+
+    for key in SHOTS:
+        made = sum(line[f"{key}_made"] for line in lines)
+        attempted = sum(line[f"{key}_attempted"] for line in lines)
+        result[f"{key}_pct"] = (
+            round(made * 100 / attempted, 1) if attempted else 0
+        )
+
+    return result
+
+
+def update(stats, history, roster_ids, game_id, entry):
+    season = season_for(entry["date"])
+    old_season = history.get("season")
+
+    if old_season and old_season != season:
+        if old_season > season:
+            raise ValueError(
+                f"Refusing to move season backward from {old_season} to {season}"
+            )
+        history = {"season": season, "games": {}}
+
+    if not old_season:
+        baseline = max(
+            (
+                record.get("stats", {}).get("season", "")
+                for record in stats.get("players", {}).values()
+            ),
+            default="",
+        )
+        if baseline and baseline >= season:
+            raise ValueError(
+                f"Cannot rebuild {season} from a partial game history; "
+                f"existing snapshot is {baseline}"
+            )
+        history = {"season": season, "games": {}}
+
+    if history["games"].get(game_id) == entry:
+        return stats, history, False
+
+    history["games"][game_id] = entry
+    players = stats.setdefault("players", {})
+
+    for player_id in roster_ids:
+        record = players.setdefault(player_id, {})
+        player_stats = record.setdefault("stats", {})
+
+        logs = [
+            (game["date"], gid, game, game["players"][player_id])
+            for gid, game in history["games"].items()
+            if player_id in game["players"]
+        ]
+        logs.sort(key=lambda row: (row[0], row[1]), reverse=True)
+
+        player_stats["season"] = season
+        player_stats["season_avg"] = (
+            average([row[3] for row in logs]) if logs else None
+        )
+        player_stats["game_log"] = [
+            {
+                "date": game["date"],
+                "opponent": game["opponent"],
+                "result": game["result"],
+                **display_line(line),
+            }
+            for _, _, game, line in logs[:10]
+        ]
+        player_stats.pop("career", None)
+
+    stats["source"] = "NBA live box scores via nba_api"
+    stats["updated_at"] = datetime.now(timezone.utc).isoformat()
+    return stats, history, True
+
+
+def write_json(path, data):
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False) + "\n"
+    )
+    temporary.replace(path)
 
 
 def main():
-    local = ROOT / "players.json"
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Verify scoreboard and box score access without writing files",
+    )
+    args = parser.parse_args()
 
-    if local.exists():
-        roster = json.loads(
-            local.read_text()
-        )["players"]
-    else:
-        roster = get_json(
-            ROSTER_URL
-        )["players"]
+    games = live_scoreboard()
 
-    espn_roster = get_json(
-        TEAM_URL
-    )["athletes"]
+    if args.check:
+        sample = live_boxscore(CHECK_GAME_ID)
+        assert (
+            sample.get("gameId") == CHECK_GAME_ID
+            and sample.get("homeTeam", {}).get("players")
+        ), "Box score incomplete"
+        print(
+            f"NBA live feed reachable: {len(games)} scoreboard games, "
+            "sample box score OK"
+        )
+        return
 
-    by_name = {
-        name_key(player["displayName"]): player
-        for player in espn_roster
+    if not ROSTER.exists():
+        raise FileNotFoundError(f"Expected {ROSTER}")
+    if not STATS.exists():
+        raise FileNotFoundError(
+            f"Expected {STATS}; upload the existing stats snapshot first"
+        )
+
+    roster_ids = {
+        str(player["nba_player_id"])
+        for player in json.loads(ROSTER.read_text())["players"]
     }
-
-    previous = (
-        json.loads(
-            OUTPUT.read_text()
-        ).get("players", {})
-        if OUTPUT.exists()
-        else {}
+    stats = json.loads(STATS.read_text())
+    history = (
+        json.loads(HISTORY.read_text())
+        if HISTORY.exists()
+        else {"season": None, "games": {}}
     )
 
-    result = {}
-    successes = 0
+    changed = False
 
-    for player in roster:
-        nba_id = str(player["nba_player_id"])
-        bio = by_name.get(
-            name_key(player["name"])
-        )
+    for game in games:
+        game_id = str(game["gameId"])
 
-        espn_id = (
-            bio["id"]
-            if bio
-            else EXTRA_IDS.get(
-                name_key(player["name"])
-            )
-        )
-
-        if not espn_id:
-            print(
-                f"No ESPN match for "
-                f"{player['name']}",
-                flush=True,
-            )
-
-            if nba_id in previous:
-                result[nba_id] = previous[nba_id]
-
+        if int(game["gameStatus"]) != 3 or not game_id.startswith("002"):
+            continue
+        if NYK not in (
+            int(game["homeTeam"]["teamId"]),
+            int(game["awayTeam"]["teamId"]),
+        ):
             continue
 
-        try:
-            result[nba_id] = fetch_player(
-                espn_id,
-                bio,
-            )
-            successes += 1
-
-            print(
-                f"Updated {player['name']}",
-                flush=True,
-            )
-
-        except Exception as exc:
-            print(
-                f"Stats unavailable for "
-                f"{player['name']}: {exc}",
-                flush=True,
-            )
-
-            if nba_id in previous:
-                result[nba_id] = previous[nba_id]
-
-        time.sleep(0.3)
-
-    if not successes:
-        raise RuntimeError(
-            "No stats refreshed; previous file "
-            "was preserved"
+        entry = game_entry(live_boxscore(game_id))
+        stats, history, updated = update(
+            stats, history, roster_ids, game_id, entry
         )
+        changed |= updated
+        print(f'{game_id}: {"saved" if updated else "already cached"}')
 
-    payload = {
-        "updated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
-        "source": "ESPN",
-        "players": result,
-    }
-
-    temporary = OUTPUT.with_suffix(
-        ".json.tmp"
-    )
-    temporary.write_text(
-        json.dumps(
-            payload,
-            separators=(",", ":"),
-        ) + "\n"
-    )
-    temporary.replace(OUTPUT)
-
-    print(
-        f"Saved {successes}/{len(roster)} "
-        f"players",
-        flush=True,
-    )
+    if changed:
+        write_json(HISTORY, history)
+        write_json(STATS, stats)
+    else:
+        print("No new completed Knicks regular-season game; cache unchanged")
 
 
 if __name__ == "__main__":
