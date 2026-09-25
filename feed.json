@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T20:15:22.360Z",
+  "generated_at": "2026-09-25T20:30:23.395Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 6413,
+    "refresh_duration_ms": 4441,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,12 +45,12 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 20
+        "items": 21
       },
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 105,
       "missing": 6,
       "article_pages_checked": 0
     },
@@ -171,6 +171,28 @@
       "image_source": "source_feed"
     },
     {
+      "id": "aa86b071e7f1bc995ebc",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Knicks' Jalen Brunson cleared after offseason wrist surgery",
+      "summary": "Knicks star guard Jalen Brunson is ready for the 2026-27 season after acknowledging that he underwent left wrist surgery.",
+      "author": null,
+      "published_at": "2026-09-25T19:38:28.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50028559/knicks-jalen-brunson-cleared-offseason-wrist-surgery",
+      "image_url": "https://a.espncdn.com/photo/2026/0616/r1674413_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50028559/knicks-jalen-brunson-cleared-offseason-wrist-surgery"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_f98fff38e51b"
+    },
+    {
       "id": "eae752909a66ef525de8",
       "type": "social",
       "source": "Bluesky",
@@ -192,7 +214,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 26
+        "likes": 27
       },
       "team": "NYK",
       "presentation": {
@@ -412,6 +434,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwe5r3rp362x",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "5ccd320f949e06bd9590",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "ESPN analyst: Jalen Brunson isn’t NBA’s sixth-best player— he’s much worse",
+      "summary": "More bulletin-board material for Jalen Brunson and the Knicks that they won’t forget.",
+      "author": null,
+      "published_at": "2026-09-25T16:07:21.000Z",
+      "url": "https://sports.yahoo.com/articles/espn-analyst-jalen-brunson-isn-160721133.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/864e87362df2d98d48a5c4ac1ff98fbe.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/espn-analyst-jalen-brunson-isn-160721133.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1572,7 +1615,7 @@
       "engagement": {
         "replies": 6,
         "reposts": 46,
-        "likes": 480
+        "likes": 484
       },
       "team": "NYK",
       "presentation": {
@@ -3345,14 +3388,15 @@
   "clusters": [
     {
       "id": "cluster_f98fff38e51b",
-      "lead_item_id": "c2dc10b29887c8ec90a4",
+      "lead_item_id": "aa86b071e7f1bc995ebc",
       "item_ids": [
+        "aa86b071e7f1bc995ebc",
         "c2dc10b29887c8ec90a4",
         "16e0f855ab21eb40afa8",
         "30ea7292914addd43f91"
       ],
-      "source_count": 3,
-      "updated_at": "2026-09-25T17:48:30.000Z"
+      "source_count": 4,
+      "updated_at": "2026-09-25T19:38:28.000Z"
     },
     {
       "id": "cluster_eb608b486489",
