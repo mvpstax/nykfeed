@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T11:15:45.260Z",
+  "generated_at": "2026-09-25T11:30:24.469Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 107,
     "game_count": 0,
-    "refresh_duration_ms": 28199,
+    "refresh_duration_ms": 5539,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 100,
       "missing": 7,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -985,7 +984,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 27,
-        "likes": 306
+        "likes": 309
       },
       "team": "NYK",
       "presentation": {
@@ -1589,9 +1588,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/the-last-7-nba-champions-failed-to-repeat-here-s-why-the-knicks-will-succeed-01m2kc6n49rq",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-25T11:15:44.936Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-25T11:15:44.936Z"
     },
     {
       "id": "4b35caed281cdb0c06b7",
@@ -3294,27 +3293,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-24T14:00:34.603Z"
-    },
-    {
-      "id": "1cd3744866f47981a852",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "New York Knicks offseason recap, early 2026-27 season preview",
-      "summary": "The Knicks snapped their 53-year title drought in 2026. What's next for the historic franchise during the 2026-27 season?",
-      "author": "NBA Insiders",
-      "published_at": "2026-09-18T11:29:46.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/49956980/new-york-knicks-offseason-recap-early-2026-27-season-preview-jalen-brunson",
-      "image_url": "https://a.espncdn.com/photo/2026/0916/r1717567_608x342_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/49956980/new-york-knicks-offseason-recap-early-2026-27-season-preview-jalen-brunson"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": [
