@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T20:00:55.135Z",
+  "generated_at": "2026-09-25T20:15:22.360Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 30848,
+    "refresh_duration_ms": 6413,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,7 +45,7 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 21
+        "items": 20
       },
       {
         "source_key": "yahoo_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 104,
+      "available": 103,
       "missing": 6,
       "article_pages_checked": 0
     },
@@ -102,26 +101,74 @@
   "games": [],
   "items": [
     {
-      "id": "aa86b071e7f1bc995ebc",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks' Jalen Brunson cleared after offseason wrist surgery",
-      "summary": "Knicks star guard Jalen Brunson is ready for the 2026-27 season after acknowledging that he underwent left wrist surgery.",
-      "author": null,
-      "published_at": "2026-09-25T18:41:05.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50028559/knicks-jalen-brunson-cleared-offseason-wrist-surgery",
-      "image_url": "https://a.espncdn.com/photo/2026/0616/r1674413_1296x729_16-9.jpg",
+      "id": "9de89847541423199d5a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mwekzev2es25",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "🔥🏀KNICKS SPORCLE QUIZ🏀🔥 \n\nCan @JCMacriNBA & @AndrewJClaudio_ name every Knick that has made 100 3PMs this century? (SINCE THE 2000-01 SEASON)\n\nwww.youtube.com/watch?v=YlZM...",
+      "published_at": "2026-09-25T20:05:58.813Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwekzev2es25",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreigq6vffjzfhhidfy3fft6qwbhx4xyjr3uefoqo5oacntknvkdguha",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": true,
+        "embed_attempt": false,
         "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50028559/knicks-jalen-brunson-cleared-offseason-wrist-surgery"
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwekzev2es25",
+        "render_mode": "native_social_card"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_f98fff38e51b"
+      "image_source": "source_feed"
+    },
+    {
+      "id": "a1fe30070a23a629244b",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwekx3gtaa2f",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks passed on Julian Reese, who signed with the Pelicans. New York's big man depth remains unresolved. via Sports Illustrated",
+      "published_at": "2026-09-25T20:04:41.623Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwekx3gtaa2f",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreic2pchsj44fx77owq25wuip63h3zsnya65e4reovuajvym3sljcte",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwekx3gtaa2f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "eae752909a66ef525de8",
@@ -145,7 +192,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 24
+        "likes": 26
       },
       "team": "NYK",
       "presentation": {
@@ -609,7 +656,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 3,
-        "likes": 11
+        "likes": 12
       },
       "team": "NYK",
       "presentation": {
@@ -1523,9 +1570,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 5,
-        "reposts": 45,
-        "likes": 474
+        "replies": 6,
+        "reposts": 46,
+        "likes": 480
       },
       "team": "NYK",
       "presentation": {
@@ -2180,41 +2227,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-25T04:15:44.781Z"
-    },
-    {
-      "id": "08d4179f8bce7c0dddd0",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:2e2ccgbatxsuj6tojncotybe/app.bsky.feed.post/3mwaaqvgtoc2d",
-      "author": "KnicksVerse",
-      "handle": "knicksverse.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:2e2ccgbatxsuj6tojncotybe/bafkreifsfc5j4xlnpe2fyc5632qzqg5ntyp46iufdfxuzpllsgz5ppguvi",
-      "text": "🚨 KNICKS TRADE VIDEO 🚨\n\nIs A Knicks Trade 100% INEVITABLE Before Opening Night? Will Leon Rose Pull-Off Trade Wizardry? \n\nWATCH NOW!\nyoutu.be/017AtXQEIDU?...",
-      "published_at": "2026-09-24T02:51:37.828Z",
-      "url": "https://bsky.app/profile/did:plc:2e2ccgbatxsuj6tojncotybe/post/3mwaaqvgtoc2d",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:2e2ccgbatxsuj6tojncotybe/bafkreiab5kiquxqahe5o4ankbuemkb7q6fnmdj62qmucq542dzivwhyqlu",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:2e2ccgbatxsuj6tojncotybe/post/3mwaaqvgtoc2d",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "9e557127e4647be8a063",
@@ -3035,41 +3047,6 @@
       "image_checked_at": "2026-09-25T14:15:22.338Z"
     },
     {
-      "id": "7daa466b1cf4a3e5dc9b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mw4pmf6kou26",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "The Knicks aim to break the NBA's eight-year no-repeat champion streak. Their core roster and proven playoff resilience could be key. via Sports Illustrated",
-      "published_at": "2026-09-22T17:06:53.532Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mw4pmf6kou26",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifrntka5x6x37iz5in3ou6v2jvoihm5rc2dcib7ru43gimtbweowe",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mw4pmf6kou26",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "976231a87107ef8fe25d",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3368,15 +3345,14 @@
   "clusters": [
     {
       "id": "cluster_f98fff38e51b",
-      "lead_item_id": "aa86b071e7f1bc995ebc",
+      "lead_item_id": "c2dc10b29887c8ec90a4",
       "item_ids": [
-        "aa86b071e7f1bc995ebc",
         "c2dc10b29887c8ec90a4",
         "16e0f855ab21eb40afa8",
         "30ea7292914addd43f91"
       ],
-      "source_count": 4,
-      "updated_at": "2026-09-25T18:41:05.000Z"
+      "source_count": 3,
+      "updated_at": "2026-09-25T17:48:30.000Z"
     },
     {
       "id": "cluster_eb608b486489",
