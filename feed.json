@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T17:30:24.566Z",
+  "generated_at": "2026-09-25T17:45:19.980Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 6272,
+    "refresh_duration_ms": 5059,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 102,
       "missing": 6,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -329,7 +329,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 4,
-        "likes": 60
+        "likes": 61
       },
       "team": "NYK",
       "presentation": {
@@ -1242,8 +1242,7 @@
         "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_04b0d6dbc7b4"
+      "image_source": "source_feed"
     },
     {
       "id": "edb469c808207c2fb458",
@@ -1351,28 +1350,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "1807c9f65e21bab26919",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Can the Knicks afford to play hardball with Karl-Anthony Towns?",
-      "summary": "The Knicks could wait and call his bluff, but is that best for trying to repeat?",
-      "author": null,
-      "published_at": "2026-09-24T20:00:00.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-afford-play-hardball-karl-200000264.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/3fabe7f7aa6337657ce3f73f7c9460c1.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-afford-play-hardball-karl-200000264.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_04b0d6dbc7b4"
-    },
-    {
       "id": "5b40bd523c24f3b18fd5",
       "type": "social",
       "source": "Bluesky",
@@ -1429,7 +1406,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 43,
-        "likes": 438
+        "likes": 442
       },
       "team": "NYK",
       "presentation": {
@@ -1532,9 +1509,9 @@
         "url": "https://www.si.com/nba/knicks/knicks-have-first-major-post-championship-problem-possible-solutions",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-25T17:30:24.191Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-25T17:30:24.191Z"
     },
     {
       "id": "d41f5594477f9c07c0ac",
@@ -2668,9 +2645,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-the-knicks-title-defense-will-feel-like-a-letdown-no-matter-how-it-goes-01m36226zf9a",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-25T17:30:24.192Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-25T17:30:24.192Z"
     },
     {
       "id": "938b7c198d5f570a8e34",
@@ -3362,16 +3339,6 @@
       ],
       "source_count": 5,
       "updated_at": "2026-09-25T14:43:41.000Z"
-    },
-    {
-      "id": "cluster_04b0d6dbc7b4",
-      "lead_item_id": "6056bff553e4bfaa85d8",
-      "item_ids": [
-        "6056bff553e4bfaa85d8",
-        "1807c9f65e21bab26919"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-24T21:19:43.000Z"
     }
   ]
 }
