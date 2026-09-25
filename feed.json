@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T07:30:22.489Z",
+  "generated_at": "2026-09-25T07:45:19.884Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 5573,
+    "refresh_duration_ms": 5814,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 100,
       "missing": 8,
       "article_pages_checked": 0
     },
@@ -169,6 +169,28 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "783385f4dbef1d42ee48",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Jalen Brunson ‘fully cleared’ for start of Knicks camp after offseason surgery",
+      "summary": "Jalen Brunson started his live podcast Thursday with an injury update.",
+      "author": null,
+      "published_at": "2026-09-25T03:08:08.000Z",
+      "url": "https://sports.yahoo.com/articles/jalen-brunson-fully-cleared-start-030808478.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/b6645941323a3d9b86d07dcf359283d2.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/jalen-brunson-fully-cleared-start-030808478.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_f98fff38e51b"
     },
     {
       "id": "19b59b2205f8d1391edc",
@@ -365,7 +387,7 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-25T00:45:34.471Z",
-      "cluster_id": "cluster_5e3d2e5ef73a"
+      "cluster_id": "cluster_f98fff38e51b"
     },
     {
       "id": "3775ffa666624d2d6c02",
@@ -387,8 +409,7 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T01:00:23.849Z",
-      "cluster_id": "cluster_5e3d2e5ef73a"
+      "image_checked_at": "2026-09-25T01:00:23.849Z"
     },
     {
       "id": "c35b616b6b00339a4615",
@@ -902,7 +923,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 24,
-        "likes": 274
+        "likes": 276
       },
       "team": "NYK",
       "presentation": {
@@ -3293,14 +3314,14 @@
   ],
   "clusters": [
     {
-      "id": "cluster_5e3d2e5ef73a",
-      "lead_item_id": "30ea7292914addd43f91",
+      "id": "cluster_f98fff38e51b",
+      "lead_item_id": "783385f4dbef1d42ee48",
       "item_ids": [
-        "30ea7292914addd43f91",
-        "3775ffa666624d2d6c02"
+        "783385f4dbef1d42ee48",
+        "30ea7292914addd43f91"
       ],
       "source_count": 2,
-      "updated_at": "2026-09-25T00:40:10.000Z"
+      "updated_at": "2026-09-25T03:08:08.000Z"
     },
     {
       "id": "cluster_04b0d6dbc7b4",
