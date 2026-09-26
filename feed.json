@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T19:15:20.308Z",
+  "generated_at": "2026-09-26T19:30:20.264Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 4421,
+    "refresh_duration_ms": 4615,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 2
+        "items": 3
       },
       {
         "source_key": "espn",
@@ -92,14 +92,87 @@
       }
     ],
     "images": {
-      "available": 101,
-      "missing": 6,
+      "available": 103,
+      "missing": 5,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "00fd6672b55c91f86e32",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mwgzicflac2r",
+      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
+      "handle": "kingfitch1990.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreic4vz32ry26rc77lgmxyxlx62kjl6eapdko3s2d3vnfl2o5gz56ai",
+      "text": "#Knicks #NYK #Brunson #Hart",
+      "published_at": "2026-09-26T19:30:11.404Z",
+      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwgzicflac2r",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreidcuro7tlvwxfcpxbdldxzsldrilp4xyntgno2bxcun66r5gqia4e/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreidcuro7tlvwxfcpxbdldxzsldrilp4xyntgno2bxcun66r5gqia4e/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreidcuro7tlvwxfcpxbdldxzsldrilp4xyntgno2bxcun66r5gqia4e/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1920,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwgzicflac2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "89876a5838216c6238c9",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwgyzgj5m22c",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Reliving the Knicks' championship can lessen sting of New York sports' current woes",
+      "published_at": "2026-09-26T19:21:52.180Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwgyzgj5m22c",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreihm6sjcbhxohdjfxbczutjduq46hjlcpqcgbky3ixiutn4x2ldn6e",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwgyzgj5m22c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "1a510e9b08f11db9d291",
       "type": "social",
@@ -168,6 +241,28 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "88ba0e3c42be273bd909",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Miles McBride 'A Little Disappointed' In How Extension Talks Have Gone With Knicks",
+      "summary": "New York Knicks guard Miles McBride wants to stay with the only NBA teams he's ever played for. That desire is why McBride wishes extension talks with the Knicks were going better. \"I love being in New York. Obviously, I've been here my whole career,\" McBride told The New York Daily News. \"I'm a little - I'm a little disappointed. Of course, you want to obviously come to the right terms, and I want to be in New York. So yeah, it's a little hard at times, but I'm gonna be a professional. I want to go out and do my job. So that's in my ability, and to help the team win for as long as I'm with the team.\" McBride feels that whenever he's had the opportunity, he's showed what he can do on the floor. The sixth-year guard feels he's got even more room to grow too. \"I feel like in times where guys have been out, I've been able to show a lot,\" McBride said. \"So it's always - to me - it's about opportunity. I feel like I've continued to grow and improve every single year.\"",
+      "author": null,
+      "published_at": "2026-09-26T18:49:56.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287415/Miles-McBride-A-Little-Disappointed-In-How-Extension-Talks-Have-Gone-With-Knicks",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/McBride_Miles_nyk_220225.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287415/Miles-McBride-A-Little-Disappointed-In-How-Extension-Talks-Have-Gone-With-Knicks"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_7db48c583ac8"
     },
     {
       "id": "28e11b1cf963b5a6e427",
@@ -351,7 +446,8 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-mcbride-a-little-disappointed-by-extension-talks.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_7db48c583ac8"
     },
     {
       "id": "94b460f2e372a63baa7c",
@@ -2307,41 +2403,6 @@
       "cluster_id": "cluster_70a6f29ffaf7"
     },
     {
-      "id": "edb469c808207c2fb458",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:vcumvue2gcsxexermtdg6cr7/app.bsky.feed.post/3mwc6d76ef22c",
-      "author": "Tommy Beer",
-      "handle": "tommybeernba.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreifi5xitqwmihnc6t7jaskafbqemysh5klbfju44ks527gz43xw6pe",
-      "text": "🚨 New Words 🚨\n\nThe Banner Goes Up. \n\nThe Fans Stay Outside.\n\nThe Knicks corrected an Opening Night ticket-price mistake… Yet, for many fans, the chance to watch their team raise its championship banner was already gone.\n\n📬 Freshly Delivered to Inboxes 📬\n\ntommybeer.substack.com/p/the-banner...",
-      "published_at": "2026-09-24T21:13:30.269Z",
-      "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mwc6d76ef22c",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreiaxcxqrw2r2wtjlu4vvpnusakoj36kh3r2jpn3o3psjj57tbtcvhq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mwc6d76ef22c",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "02b80a29bcf3f8e93952",
       "type": "social",
       "source": "Bluesky",
@@ -2445,40 +2506,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "ebf8c590bf53a35d524f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwbuaenr7k2a",
-      "author": "Joe Flynn",
-      "handle": "chinajoeflynn.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
-      "text": "Sorry LeBron, it's still Knicks in 5 all fucking day",
-      "published_at": "2026-09-24T18:12:57.934Z",
-      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwbuaenr7k2a",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 7,
-        "reposts": 54,
-        "likes": 548
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwbuaenr7k2a",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "e0bf02097a4c7f09b873",
@@ -3314,6 +3341,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_7db48c583ac8",
+      "lead_item_id": "88ba0e3c42be273bd909",
+      "item_ids": [
+        "88ba0e3c42be273bd909",
+        "306caf4f01bd2814a45f"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-26T18:49:56.000Z"
+    },
     {
       "id": "cluster_eb608b486489",
       "lead_item_id": "29471c56ba4ca46fc6fb",
