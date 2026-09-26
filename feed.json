@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T00:15:24.939Z",
+  "generated_at": "2026-09-26T00:30:26.443Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 107,
     "game_count": 0,
-    "refresh_duration_ms": 10269,
+    "refresh_duration_ms": 10853,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "espn",
@@ -92,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 100,
       "missing": 7,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -805,7 +805,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 4,
-        "likes": 69
+        "likes": 68
       },
       "team": "NYK",
       "presentation": {
@@ -1421,9 +1421,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-burning-questions-the-knicks-must-address-training-camp-01m3a24dhtmn",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-26T00:15:24.459Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-26T00:15:24.459Z"
     },
     {
       "id": "2c5e4d620d62afdffde7",
@@ -1818,7 +1818,7 @@
       "engagement": {
         "replies": 7,
         "reposts": 54,
-        "likes": 547
+        "likes": 548
       },
       "team": "NYK",
       "presentation": {
@@ -2493,9 +2493,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/the-biggest-question-every-knicks-reserve-must-answer-heading-into-the-season-01m2qqk0q2p8",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-26T00:15:24.460Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-26T00:15:24.460Z"
     },
     {
       "id": "9180ae83d55e20e0e83f",
@@ -2714,28 +2714,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "cced79e26b298d44347f",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Karl-Anthony Towns, Knicks Unlikely To Sign Extension Before Start Of Camp",
-      "summary": "Karl-Anthony Towns and the New York Knicks have \"stagnated\" on their contract extension discussions and a deal before the start of training camp is considered unlikely. Despite the lack of progress, the talks have been described as \"cordial.\" Towns has been eligible for a contract extension during the offseason that could reach $276 million over four seasons. \"This is a cloud going into training camp,\" said Shams Charania. Towns has a $61 million player option for the 2027-28 season and could become a free agent in 2027. There is no deadline for an extension between Towns and the Knicks. Towns will turn 31 in November. James Dolan has been clear that he wants to avoid the Knicks going into the second apron.",
-      "author": null,
-      "published_at": "2026-09-23T19:11:11.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287369/Karl-Anthony-Towns-Knicks-Unlikely-To-Sign-Extension-Before-Start-Of-Camp",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Towns_Karlanthony_nyk_260605.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287369/Karl-Anthony-Towns-Knicks-Unlikely-To-Sign-Extension-Before-Start-Of-Camp"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_086040b66fc1"
     },
     {
       "id": "59ccb1974710525baf5a",
@@ -3136,8 +3114,7 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.970Z",
-      "cluster_id": "cluster_086040b66fc1"
+      "image_checked_at": "2026-09-25T14:15:22.970Z"
     },
     {
       "id": "aa5d87cb78e259913839",
@@ -3345,16 +3322,6 @@
       ],
       "source_count": 5,
       "updated_at": "2026-09-25T17:25:11.000Z"
-    },
-    {
-      "id": "cluster_086040b66fc1",
-      "lead_item_id": "cced79e26b298d44347f",
-      "item_ids": [
-        "cced79e26b298d44347f",
-        "ee0fdd3a44af9c9289e1"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-23T19:11:11.000Z"
     }
   ]
 }
