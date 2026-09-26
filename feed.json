@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T22:45:18.378Z",
+  "generated_at": "2026-09-26T23:00:48.878Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 4375,
+    "refresh_duration_ms": 28937,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -100,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "17f25e594bda0b8e811a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwhejoyyvs2p",
+      "author": "Kris Pursiainen",
+      "handle": "krisap.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
+      "text": "The Knicks have plenty of reason not to fear the reported Karl-Anthony Towns-sized cloud over training camp: dailyknicks.com/knicks-fear-...",
+      "published_at": "2026-09-26T22:47:49.339Z",
+      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwhejoyyvs2p",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreicojsnhgxojir6hzswgahdi4e5nisxo4ux23ml26fmpe76eyuqrhe",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwhejoyyvs2p",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "0d3c644265a51233725b",
       "type": "social",
@@ -157,7 +193,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -2333,41 +2369,6 @@
       "image_source": "og:image",
       "image_checked_at": "2026-09-26T01:00:25.397Z",
       "cluster_id": "cluster_f98fff38e51b"
-    },
-    {
-      "id": "c35b616b6b00339a4615",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mwcjj6dw222j",
-      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
-      "handle": "kingfitch1990.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreic4vz32ry26rc77lgmxyxlx62kjl6eapdko3s2d3vnfl2o5gz56ai",
-      "text": "a championship isn't changing anything for jalen brunson.\n\nwatch this never-before-seen look into his life post-finals on our youtube ➡️ youtu.be/BAUm7ZXQSfQ\n\n#Knicks",
-      "published_at": "2026-09-25T00:33:41.888Z",
-      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwcjj6dw222j",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreib2k47lrplp67ktnrg7olpugamefs23pkkde6e2adfq26ei6p6xpu",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwcjj6dw222j",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "f17265200e366a192c0c",
