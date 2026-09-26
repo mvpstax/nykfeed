@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T14:00:25.374Z",
+  "generated_at": "2026-09-26T14:15:24.129Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 6131,
+    "refresh_duration_ms": 8481,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,47 @@
     "images": {
       "available": 101,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 7
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "fc1703d169086bf2e7f2",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwghgvlliq2x",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "The Knicks must extend Karl-Anthony Towns. A championship and future contention are dependent on his presence. via SNY",
+      "published_at": "2026-09-26T14:07:16.876Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwghgvlliq2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihwjh7o6jpmklexfzvjivcpez57j76th7ypq75o2wc52y3lsmmiwi",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwghgvlliq2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "a07b7b56036d24fe7053",
       "type": "article",
@@ -237,7 +272,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -2952,41 +2987,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "59ccb1974710525baf5a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mw7gw3x7po2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Karl-Anthony Towns wished Jordyn Woods a happy birthday, calling her \"Mrs. Towns.\" The couple married on August 15, 2026. Towns' physique and contract are also key Knicks topics. via Yahoo Sports",
-      "published_at": "2026-09-23T19:09:14.951Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mw7gw3x7po2x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicevgykll7jcuibxfxaelj5mz4dzyozrydoysaaxpaa4utfji2fi4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mw7gw3x7po2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "1542059ab5cb529cd0ef",
       "type": "article",
       "source": "ESPN",
@@ -3071,9 +3071,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-knicks-whose-roles-are-likely-to-change-in-2026-27-01m2v4hd1msa",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T14:15:22.975Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.336Z"
+      "image_status": "available"
     },
     {
       "id": "a488bba809e8d79079f6",
@@ -3094,9 +3094,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/tyler-kolek-s-knicks-situation-could-change-after-flurry-of-signings-01m350xdwbfq",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T14:15:22.976Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.337Z"
+      "image_status": "available"
     },
     {
       "id": "d421b2d8ed0f0498fa0f",
@@ -3117,9 +3117,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/predicting-which-new-knicks-signing-becomes-their-next-landry-shamet-01m34y3499rz",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T14:15:22.977Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.338Z"
+      "image_status": "available"
     },
     {
       "id": "976231a87107ef8fe25d",
@@ -3139,9 +3139,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T14:15:23.411Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.778Z"
+      "image_status": "available"
     },
     {
       "id": "95f48c946ff6b7b79d07",
@@ -3162,9 +3162,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/the-biggest-question-every-knicks-starter-must-answer-heading-into-the-season-01m2deb7nbbp",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T14:15:23.429Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.786Z"
+      "image_status": "available"
     },
     {
       "id": "b09dac48e6b588511eb4",
@@ -3185,9 +3185,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-busy-week-ups-the-pressure-on-reinvented-jordan-clarkson-01m32j35vndf",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T14:15:23.475Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.914Z"
+      "image_status": "available"
     },
     {
       "id": "ee0fdd3a44af9c9289e1",
@@ -3208,9 +3208,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/taking-closer-look-knicks-karl-anthony-towns-extension-dilemma-01m2jy827k1j",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T14:15:23.583Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T14:15:22.970Z"
+      "image_status": "available"
     },
     {
       "id": "aa5d87cb78e259913839",
