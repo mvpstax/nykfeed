@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T23:15:18.481Z",
+  "generated_at": "2026-09-26T23:30:28.059Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 5591,
+    "refresh_duration_ms": 5910,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,7 +94,7 @@
     "images": {
       "available": 103,
       "missing": 5,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -568,6 +568,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwgxj7vk6a2f",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "bb81076e23cf7e774561",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks turn page on championship summer with complacency challenge looming at training camp",
+      "summary": "As training camp begins, Jalen Brunson and the Knicks look to overcome complacency and shift their focus back to basketball after a busy summer.",
+      "author": null,
+      "published_at": "2026-09-26T18:53:00.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-turn-page-championship-summer-185300298.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/c2ffd353fa8d664414d74384a6b84435.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-turn-page-championship-summer-185300298.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1310,9 +1331,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-face-hidden-risk-longer-delay-miles-mcbride-trade-01m3ag00dcs2",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-26T23:15:18.051Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-26T23:15:18.051Z"
     },
     {
       "id": "2b05ce17fa7d12502d23",
@@ -1649,29 +1670,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "c2dc10b29887c8ec90a4",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Jalen Brunson says he is fully cleared for training camp after offseason wrist surgery",
-      "summary": "The NBA Finals MVP will be good to go for training camp next week (after hosting Saturday Night Live).",
-      "author": null,
-      "published_at": "2026-09-25T17:48:30.000Z",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-says-fully-cleared-174830971.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/f5966792d6b4c96a6ec63d349b0803db17661693380a52ba12a2ae8bd97b70e5/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F2efb608c1b55eca46207ede2ab1ec6eb.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/jalen-brunson-says-fully-cleared-174830971.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-26T18:15:20.195Z",
-      "cluster_id": "cluster_f98fff38e51b"
     },
     {
       "id": "a5cf756c5595ab14cf56",
@@ -3383,11 +3381,10 @@
       "lead_item_id": "aa86b071e7f1bc995ebc",
       "item_ids": [
         "aa86b071e7f1bc995ebc",
-        "c2dc10b29887c8ec90a4",
         "16e0f855ab21eb40afa8",
         "30ea7292914addd43f91"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "updated_at": "2026-09-25T19:38:28.000Z"
     }
   ]
