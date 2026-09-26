@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T13:30:22.703Z",
+  "generated_at": "2026-09-26T13:45:22.322Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 6103,
+    "refresh_duration_ms": 6482,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 101,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -100,6 +100,28 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "a07b7b56036d24fe7053",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Why the Knicks need to extend Karl-Anthony Towns",
+      "summary": "This isn’t the time for the Knicks' front office to be pinching pennies -- there’s no championship without Karl-Anthony Towns, and there’s no contending in the years to come without him either.",
+      "author": null,
+      "published_at": "2026-09-26T13:24:04.000Z",
+      "url": "https://sports.yahoo.com/articles/why-knicks-extend-karl-anthony-132404577.html",
+      "image_url": "https://media.zenfs.com/en/sny_articles_235/213525a06650d6dae5d8aaf957f1acd5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/why-knicks-extend-karl-anthony-132404577.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_70a6f29ffaf7"
+    },
     {
       "id": "8a51dc4ca366f076a2ec",
       "type": "social",
@@ -157,7 +179,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -609,7 +631,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 3,
-        "likes": 7
+        "likes": 8
       },
       "team": "NYK",
       "presentation": {
@@ -1909,7 +1931,8 @@
         "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_70a6f29ffaf7"
     },
     {
       "id": "edb469c808207c2fb458",
@@ -3327,6 +3350,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_70a6f29ffaf7",
+      "lead_item_id": "a07b7b56036d24fe7053",
+      "item_ids": [
+        "a07b7b56036d24fe7053",
+        "6056bff553e4bfaa85d8"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-26T13:24:04.000Z"
+    },
     {
       "id": "cluster_f98fff38e51b",
       "lead_item_id": "aa86b071e7f1bc995ebc",
