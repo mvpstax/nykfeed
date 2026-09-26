@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T17:15:18.044Z",
+  "generated_at": "2026-09-26T17:30:20.075Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 5466,
+    "refresh_duration_ms": 4513,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 101,
       "missing": 7,
-      "article_pages_checked": 2
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -134,6 +134,29 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "29471c56ba4ca46fc6fb",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Karl-Anthony Towns, Knicks reportedly 'tens of millions apart' in contract talks",
+      "summary": "The Knicks are trying to keep their championship core together while navigating the second apron.",
+      "author": null,
+      "published_at": "2026-09-26T17:07:46.000Z",
+      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-knicks-reportedly-170746769.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/8a3ef0570c353bc2eefb7f389b07831cc82955955c32e4c28ba910f99faac4e1/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F26f96103200b776f08a9b43bcdd76b09.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-knicks-reportedly-170746769.html"
+      },
+      "image_checked_at": "2026-09-26T17:30:19.833Z",
+      "image_source": "og:image",
+      "image_status": "available",
+      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "35262ac060d3c9e771ae",
@@ -376,7 +399,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_eb608b486489"
+      "cluster_id": "cluster_70a6f29ffaf7"
     },
     {
       "id": "8a51dc4ca366f076a2ec",
@@ -1014,7 +1037,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 33
+        "likes": 34
       },
       "team": "NYK",
       "presentation": {
@@ -1164,9 +1187,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/trying-make-sense-knicks-missing-out-julian-reese-01m3cjrh6m74",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-26T17:15:17.422Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-26T17:15:17.422Z"
     },
     {
       "id": "079d0da8684c1d3780f4",
@@ -2144,7 +2167,8 @@
         "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_70a6f29ffaf7"
     },
     {
       "id": "edb469c808207c2fb458",
@@ -2434,9 +2458,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-concerns-that-must-be-on-the-knicks-radar-in-2026-27-01m359nx8jz2",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-26T17:15:17.423Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-26T17:15:17.423Z"
     },
     {
       "id": "d6ed9292f03a109e0351",
@@ -3329,15 +3353,25 @@
   "clusters": [
     {
       "id": "cluster_eb608b486489",
-      "lead_item_id": "a07b7b56036d24fe7053",
+      "lead_item_id": "29471c56ba4ca46fc6fb",
       "item_ids": [
-        "a07b7b56036d24fe7053",
+        "29471c56ba4ca46fc6fb",
         "a5cf756c5595ab14cf56",
         "52db53aa5fcdaad25fdd",
         "1add455d8ed253fdb76c",
         "3e7c50f8f805f07e0de0"
       ],
       "source_count": 5,
+      "updated_at": "2026-09-26T17:07:46.000Z"
+    },
+    {
+      "id": "cluster_70a6f29ffaf7",
+      "lead_item_id": "a07b7b56036d24fe7053",
+      "item_ids": [
+        "a07b7b56036d24fe7053",
+        "6056bff553e4bfaa85d8"
+      ],
+      "source_count": 2,
       "updated_at": "2026-09-26T13:24:04.000Z"
     },
     {
