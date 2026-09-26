@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T22:00:24.013Z",
+  "generated_at": "2026-09-26T22:15:22.181Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 4181,
+    "refresh_duration_ms": 5945,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 21
+        "items": 20
       },
       {
         "source_key": "knicks_film_school",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 104,
+      "available": 103,
       "missing": 5,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "0d3c644265a51233725b",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwhc2fhizk2u",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks guard Miles \"Deuce\" McBride is \"disappointed\" with contract extension talks. He wants to stay in New York. via Bleacher Report",
+      "published_at": "2026-09-26T22:03:28.329Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhc2fhizk2u",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigs2bal7bhfo24jkphnaabymde4bygpvmwbj4oj4isqcu5n4c7pbq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhc2fhizk2u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "5c8112b5c7f04e3e4e54",
       "type": "social",
@@ -2883,41 +2918,6 @@
       "image_checked_at": "2026-09-26T04:30:23.845Z"
     },
     {
-      "id": "9e557127e4647be8a063",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwa6e6rctz2r",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "KAT's $61,000,000 option determines if Knicks' core stays together. Front office aims to avoid second apron. via HoopsHype",
-      "published_at": "2026-09-24T02:08:43.729Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwa6e6rctz2r",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicvfhc7j2legrrj5ed4ykx2g6hde2pxpyyku4q26uhwn4tqx62t4e",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwa6e6rctz2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "90a44b02564afd770f17",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3315,29 +3315,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://www.si.com/nba/knicks/onsi/jalen-brunson-s-case-top-five-player-better-than-you-think-01m2k7g1mr11",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-26T14:30:20.886Z"
-    },
-    {
-      "id": "3fd36b64b45f3b503730",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "3 Game Plan Adjustments That Could Help Knicks This Season",
-      "summary": "As the Knicks gear up for a title defense, there's a few game plan changes that Mike Brown could introduce during the 2026-27 season to possibly unlock more out of the reigning champions.",
-      "author": "Shaz Ally",
-      "published_at": "2026-09-20T11:00:04.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/3-game-plan-adjustments-could-help-knicks-this-season-01m2hfy9stgq",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4454,h_2505/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m2xf3431r8axha37y2.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/3-game-plan-adjustments-could-help-knicks-this-season-01m2hfy9stgq",
         "render_mode": "article_preview"
       },
       "image_status": "available",
