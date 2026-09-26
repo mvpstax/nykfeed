@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T23:00:48.878Z",
+  "generated_at": "2026-09-26T23:15:18.481Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 28937,
+    "refresh_duration_ms": 5591,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,47 @@
     "images": {
       "available": 103,
       "missing": 5,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d2d379e2a9ad1e54638e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwhfhwil2e2c",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks roster breakdown: Agbaji is a long shot, Bridges set for $33,500,000, Brown on non-guaranteed deal, Dadiet a trade candidate, Brunson's wrist to watch. via New York Post",
+      "published_at": "2026-09-26T23:04:43.632Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhfhwil2e2c",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreidnz5x6onewbvbvxle3nolgr46txont4avkjgmjfwr3ybvzx436be",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhfhwil2e2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "17f25e594bda0b8e811a",
       "type": "social",
@@ -231,7 +265,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 3,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1276,9 +1310,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-face-hidden-risk-longer-delay-miles-mcbride-trade-01m3ag00dcs2",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T23:15:18.051Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T23:01:03.091Z"
+      "image_status": "available"
     },
     {
       "id": "2b05ce17fa7d12502d23",
@@ -2833,41 +2867,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwbggj4ym62t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "d3b13a75bd6379d549aa",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwbd2734gp24",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks face a critical decision on their final roster spot. Centers James Wiseman and Drew Eubanks are competing, as are guards/wings Bruce Brown and Jon Konchar. via New York Post",
-      "published_at": "2026-09-24T13:05:16.959Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwbd2734gp24",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicgglszoid76u3u66fkxc3qcrkc27zcpce5523wdoe63nvhbgjlbu",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwbd2734gp24",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
