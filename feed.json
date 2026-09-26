@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T16:15:18.844Z",
+  "generated_at": "2026-09-26T16:30:45.117Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 5764,
+    "refresh_duration_ms": 28451,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 98,
       "missing": 8,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -3026,9 +3027,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html"
       },
-      "image_checked_at": "2026-09-26T16:15:18.695Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-26T16:15:18.695Z"
     },
     {
       "id": "824014418f756c77146c",
