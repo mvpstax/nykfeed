@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T21:15:17.114Z",
+  "generated_at": "2026-09-26T21:30:43.877Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 3747,
+    "refresh_duration_ms": 28350,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,9 +93,9 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 104,
       "missing": 5,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -337,6 +338,27 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "c78acfb62d2315327c23",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Under the Harvest Moon: Why Nets rebuild hits different after Knicks title",
+      "summary": "In an era of private equity and priced-out parades, peace in Brooklyn starts with letting go.",
+      "author": null,
+      "published_at": "2026-09-26T19:09:41.000Z",
+      "url": "https://sports.yahoo.com/articles/under-harvest-moon-why-nets-190941557.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/44037e47aab13e31b1aa516559bfeb5e.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/under-harvest-moon-why-nets-190941557.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "ff3ae49734c70e8f05b6",
@@ -2957,9 +2979,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/analyzing-each-knicks-training-camp-tryout-player-most-important-trait-01m37akrqzr6",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-26T21:30:43.816Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-25T21:15:19.233Z"
+      "image_status": "available"
     },
     {
       "id": "1add455d8ed253fdb76c",
