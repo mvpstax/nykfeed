@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T14:30:22.257Z",
+  "generated_at": "2026-09-27T14:45:43.095Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 6272,
+    "refresh_duration_ms": 28779,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,84 @@
       }
     ],
     "images": {
-      "available": 102,
-      "missing": 10,
-      "article_pages_checked": 3
+      "available": 103,
+      "missing": 9,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ed851d0fa3044d01ff62",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mwizjgokr52z",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "BREAKING NEWS: \n\nThe Knicks announce that Kevin McCullar Jr. & Tyler Nickel have both been signed to two-way contracts.",
+      "published_at": "2026-09-27T14:36:08.907Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwizjgokr52z",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreig7lvxfcbbfa2krtfgdjgmh5l5xa4ncn4luyuwj5b5m55p4vg2jdi",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 2,
+        "likes": 5
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwizjgokr52z",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "984b1f17fde526286eed",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mwizafely22w",
+      "author": "Posting and Toasting",
+      "handle": "postingandtoasting.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
+      "text": "Jalen Brunson hosts Saturday Night Live, brings friends",
+      "published_at": "2026-09-27T14:31:05.561Z",
+      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwizafely22w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreih4gsk5nt6ohfv5lu5eio2nal7wtmq43oht2b4t7wuxezd3hxhaia",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwizafely22w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "4b0afcba24f7cea1335e",
       "type": "social",
@@ -122,7 +193,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -140,11 +211,11 @@
       "source": "Hoops Rumors",
       "source_key": "hoops_rumors",
       "title": "Knicks Sign Kevin McCullar, Tyler Nickel To Two-Way Deals",
-      "summary": "The Knicks have signed Kevin McCullar Jr. and Tyler Nickel to two-way contracts, the team announced today (Twitter links). McCullar has spent the past two seasons with New York on two-way deals after being selected 56th overall in the 2024 draft. He made 21 regular season appearances in 2025/26, averaging 2.4 points in 7.4 minutes […]",
+      "summary": "The Knicks have signed Kevin McCullar Jr. and Tyler Nickel to two-way contracts, the team announced today (Twitter links). McCullar has spent the past two seasons with New York on two-way deals after being selected 56th overall in the 2024 draft. The 25-year-old made 21 regular season appearances in 2025/26, averaging 2.4 points in 7.4 […]",
       "author": "Rory Maher",
       "published_at": "2026-09-27T14:25:09.000Z",
       "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2025/12/Kevin-McCullar-Jr-900x600.jpg",
+      "image_url": "https://www.hoopsrumors.com/files/2026/07/Tyler-Nickel-300x200.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
@@ -152,9 +223,8 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html"
       },
-      "image_checked_at": "2026-09-27T14:30:22.041Z",
-      "image_source": "og:image",
-      "image_status": "available"
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "c3316529133a8b7d5584",
@@ -306,7 +376,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 7
+        "likes": 8
       },
       "team": "NYK",
       "presentation": {
@@ -375,7 +445,7 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
+        "reposts": 1,
         "likes": 5
       },
       "team": "NYK",
@@ -410,7 +480,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -525,8 +595,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 5
+        "reposts": 1,
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -761,7 +831,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T14:30:22.043Z",
+      "image_checked_at": "2026-09-27T14:45:43.095Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1624,41 +1694,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "e8f38cd9270450e3d6d2",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwgrno3cnc2h",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "Even with a need at center, Kevin McCullar Jr. is still worth the Knicks' time: dailyknicks.com/knicks-shoul...",
-      "published_at": "2026-09-26T17:10:01.489Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwgrno3cnc2h",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreibitw33ibisx7upx26drebyixhtomdewmdbeoscz7vdvr76nfbcae",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwgrno3cnc2h",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "29471c56ba4ca46fc6fb",
       "type": "article",
       "source": "Yahoo Sports",
@@ -1772,40 +1807,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "1bbcc573248277729cd8",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:vrahtax2rt4snds5r4bk53d4/app.bsky.feed.post/3mwglokbshs2t",
-      "author": "🏆KonaBrunson🏆",
-      "handle": "konabrunson.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrahtax2rt4snds5r4bk53d4/bafkreifxmn34rxudffcgwa6nlbv5l6cgy3r32ld3olwyyto44msxcya2yy",
-      "text": "So tomorrow while you are rewatching the Knicks Championship parade, which favorite moment from Saturday Night Live tonight will you remember and laugh about?\n\nYes…Jalen Brunson hosts SNL tonight. \n\nBut reply to this post with your future memory from tonight and let’s see how many come true 😁\n\n🧡💙",
-      "published_at": "2026-09-26T15:23:08.607Z",
-      "url": "https://bsky.app/profile/did:plc:vrahtax2rt4snds5r4bk53d4/post/3mwglokbshs2t",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 1,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:vrahtax2rt4snds5r4bk53d4/post/3mwglokbshs2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "e5e0388ec3266b290346",
@@ -3389,9 +3390,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/steins-latest-wiseman-vincent-leonard-mavs.html"
       },
-      "image_checked_at": "2026-09-27T14:30:22.043Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T14:30:22.043Z"
     }
   ],
   "clusters": [
