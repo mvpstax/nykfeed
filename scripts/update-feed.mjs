@@ -100,7 +100,11 @@ function presentation(url) {
   };
 }
 
-async function get(url, format = "text", timeoutMs = config.settings.request_timeout_ms) {
+async function get(
+  url,
+  format = "text",
+  timeoutMs = config.settings.request_timeout_ms
+) {
   const controller = new AbortController();
   const timer = setTimeout(
     () => controller.abort(),
@@ -160,7 +164,12 @@ function imageFromRss(block) {
 }
 
 async function fetchRss(source) {
-  const xml = await get(source.url, "text", source.request_timeout_ms || config.settings.request_timeout_ms);
+  const xml = await get(
+    source.url,
+    "text",
+    source.request_timeout_ms ||
+      config.settings.request_timeout_ms
+  );
   const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || [];
   let accepted = 0;
 
@@ -322,41 +331,82 @@ async function fetchSiKnicks(source) {
 }
 
 function parseOfficialKnicks(html, source) {
-  const raw = html.match(/<script\b[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i)?.[1];
-  if (!raw) throw new Error("Official Knicks article metadata unavailable");
+  const raw = html.match(
+    /<script\b[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i
+  )?.[1];
+
+  if (!raw) {
+    throw new Error(
+      "Official Knicks article metadata unavailable"
+    );
+  }
+
   const page = JSON.parse(raw).props?.pageProps?.pageObject;
-  if (!Array.isArray(page?.contentExpanded)) throw new Error("Official Knicks article list unavailable");
+
+  if (!Array.isArray(page?.contentExpanded)) {
+    throw new Error("Official Knicks article list unavailable");
+  }
+
   const seen = new Set();
   const output = [];
 
   function visit(block) {
     if (!block || typeof block !== "object") return;
+
     if (Array.isArray(block)) {
       block.forEach(visit);
       return;
     }
+
     if (Array.isArray(block.posts)) {
       for (const article of block.posts) {
-        if (article?.type !== "article" || article?.status !== "publish" || !article.title) continue;
+        if (
+          article?.type !== "article" ||
+          article?.status !== "publish" ||
+          !article.title
+        ) {
+          continue;
+        }
+
         let url;
+
         try {
           url = new URL(article.permalink);
         } catch {
           continue;
         }
-        if (url.protocol !== "https:" || url.hostname !== "www.nba.com" || !url.pathname.startsWith("/knicks/news/") || seen.has(url.href)) continue;
+
+        if (
+          url.protocol !== "https:" ||
+          url.hostname !== "www.nba.com" ||
+          !url.pathname.startsWith("/knicks/news/") ||
+          seen.has(url.href)
+        ) {
+          continue;
+        }
+
         seen.add(url.href);
+
         output.push({
           id: idFor(source.id, url.href),
           type: "article",
           source: source.name,
           source_key: source.id,
           title: text(article.title),
-          summary: text(article.excerpt || article.attributes?.subhead || ""),
+          summary: text(
+            article.excerpt ||
+            article.attributes?.subhead ||
+            ""
+          ),
           author: article.author?.name || null,
-          published_at: iso(article.date || article.timestamp),
+          published_at: iso(
+            article.date || article.timestamp
+          ),
           url: url.href,
-          image_url: article.featuredImage?.src || article.featuredImage?.attributes?.src || null,
+          image_url:
+            article.featuredImage?.src ||
+            article.featuredImage?.attributes?.src ||
+            null,
           team: config.team.id,
           presentation: {
             ...presentation(url.href),
@@ -366,19 +416,29 @@ function parseOfficialKnicks(html, source) {
         });
       }
     }
+
     if (block.content) visit(block.content);
   }
 
   visit(page.contentExpanded);
-  if (!output.length) throw new Error("No official Knicks articles found");
+
+  if (!output.length) {
+    throw new Error("No official Knicks articles found");
+  }
 
   return output
-    .sort((a, b) => (b.published_at || "").localeCompare(a.published_at || ""))
+    .sort((a, b) =>
+      (b.published_at || "").localeCompare(
+        a.published_at || ""
+      )
+    )
     .slice(0, config.settings.max_items_per_source);
 }
 
 async function fetchOfficialKnicks(source) {
-  collected.push(...parseOfficialKnicks(await get(source.url), source));
+  collected.push(
+    ...parseOfficialKnicks(await get(source.url), source)
+  );
 }
 
 async function fetchEspn(source) {
@@ -417,6 +477,78 @@ async function fetchEspn(source) {
   }
 
   return accepted;
+}
+
+const adultBlueskyLabels = new Set([
+  "porn",
+  "sexual",
+  "nudity",
+  "graphic-media",
+  "nsfw",
+  "adult"
+]);
+
+const adultBlueskyTerms =
+  /\b(?:onlyfans|fansly|porn(?:hub|ographic|ography)?|nsfw|nudes?|naked|xxx|explicit\s+content|adult\s+content|sex\s+(?:work|worker|tape)|cam\s*girl)\b/i;
+
+function allowBlueskyPost(post, source) {
+  if (!post?.uri || !post?.author?.did || !post?.record) {
+    return false;
+  }
+
+  if (
+    (source.blocked_dids || []).includes(
+      post.author.did
+    )
+  ) {
+    return false;
+  }
+
+  const embed = post.embed;
+  const media = embed?.media || embed;
+  const quoted = embed?.record?.record || embed?.record;
+  const labels = object =>
+    Array.isArray(object?.labels) ? object.labels : [];
+
+  const allLabels = [
+    ...labels(post),
+    ...labels(post.author),
+    ...labels(embed),
+    ...labels(media),
+    ...labels(quoted),
+    ...labels(quoted?.author)
+  ];
+
+  if (allLabels.some(label =>
+    !label.neg &&
+    adultBlueskyLabels.has(
+      String(label.val || "").toLowerCase()
+    )
+  )) {
+    return false;
+  }
+
+  if ((post.record.labels?.values || []).some(label =>
+    adultBlueskyLabels.has(
+      String(label.val || "").toLowerCase()
+    )
+  )) {
+    return false;
+  }
+
+  const words = [
+    post.record.text,
+    post.author.displayName,
+    post.author.description,
+    ...(media?.images || []).map(image => image.alt),
+    media?.alt,
+    media?.external?.title,
+    media?.external?.description,
+    quoted?.value?.text,
+    quoted?.record?.text
+  ].filter(Boolean).join(" ");
+
+  return !adultBlueskyTerms.test(words);
 }
 
 function blueskyMediaFields(post) {
@@ -473,7 +605,12 @@ async function fetchBlueskyTargeted(source) {
 
   url.searchParams.set(
     "limit",
-    String(Math.min(100, config.settings.max_items_per_source))
+    String(
+      Math.min(
+        100,
+        config.settings.max_items_per_source
+      )
+    )
   );
 
   if (source.kind === "bluesky_feed") {
@@ -489,7 +626,9 @@ async function fetchBlueskyTargeted(source) {
   const data = await get(url, "json");
 
   if (!Array.isArray(data.feed)) {
-    throw new Error("Bluesky response missing feed array");
+    throw new Error(
+      "Bluesky response missing feed array"
+    );
   }
 
   let accepted = 0;
@@ -497,14 +636,32 @@ async function fetchBlueskyTargeted(source) {
   for (const entry of data.feed) {
     if (
       source.include_reposts === false &&
-      entry.reason?.$type === "app.bsky.feed.defs#reasonRepost"
+      entry.reason?.$type ===
+        "app.bsky.feed.defs#reasonRepost"
     ) {
       continue;
     }
 
     const post = entry.post;
 
-    if (!post?.uri || !post.author?.did || !post.record) {
+    if (!allowBlueskyPost(post, source)) {
+      continue;
+    }
+
+    const requireTeamMatch =
+      source.require_team_match ??
+      source.kind === "bluesky_feed";
+
+    if (
+      requireTeamMatch &&
+      !matchesTeam(
+        post.record.text,
+        post.embed?.external?.title,
+        post.embed?.external?.description,
+        post.embed?.media?.external?.title,
+        post.embed?.media?.external?.description
+      )
+    ) {
       continue;
     }
 
@@ -520,12 +677,15 @@ async function fetchBlueskyTargeted(source) {
       source_feed: source.name,
       uri: post.uri,
       author:
-        post.author.displayName || post.author.handle || null,
+        post.author.displayName ||
+        post.author.handle ||
+        null,
       handle: post.author.handle || null,
       avatar_url: post.author.avatar || null,
       text: post.record.text || "",
       published_at: iso(
-        post.record.createdAt || post.indexedAt
+        post.record.createdAt ||
+        post.indexedAt
       ),
       url: publicUrl,
       ...blueskyMediaFields(post),
@@ -551,19 +711,27 @@ async function fetchBlueskyTargeted(source) {
 async function fetchBluesky(source) {
   let accepted = 0;
 
-  for (const query of source.queries || ["Knicks"]) {
+  for (
+    const query of source.queries || ["Knicks"]
+  ) {
     const url = new URL(source.url);
 
     url.searchParams.set("q", query);
     url.searchParams.set(
       "limit",
-      String(config.settings.max_items_per_source)
+      String(
+        config.settings.max_items_per_source
+      )
     );
     url.searchParams.set("sort", "latest");
 
     const data = await get(url, "json");
 
     for (const post of data.posts || []) {
+      if (!allowBlueskyPost(post, source)) {
+        continue;
+      }
+
       const body = post.record?.text || "";
       if (!matchesTeam(body)) continue;
 
@@ -587,7 +755,8 @@ async function fetchBluesky(source) {
         handle: post.author?.handle || null,
         text: body,
         published_at: iso(
-          post.record?.createdAt || post.indexedAt
+          post.record?.createdAt ||
+          post.indexedAt
         ),
         url: publicUrl,
         ...blueskyMediaFields(post),
@@ -611,7 +780,9 @@ async function fetchReddit(source) {
   const data = await get(source.url, "json");
   let accepted = 0;
 
-  for (const child of data.data?.children || []) {
+  for (
+    const child of data.data?.children || []
+  ) {
     const post = child.data || {};
     const url =
       `https://www.reddit.com${post.permalink || ""}`;
@@ -621,18 +792,25 @@ async function fetchReddit(source) {
       type: "reddit",
       source: source.name,
       source_key: source.id,
-      subreddit: post.subreddit || "NYKnicks",
+      subreddit:
+        post.subreddit || "NYKnicks",
       title: post.title || "",
-      summary: text(post.selftext || "").slice(0, 500),
+      summary: text(
+        post.selftext || ""
+      ).slice(0, 500),
       author: post.author || null,
-      published_at: iso((post.created_utc || 0) * 1000),
+      published_at: iso(
+        (post.created_utc || 0) * 1000
+      ),
       url,
-      image_url: post.thumbnail?.startsWith("http")
-        ? post.thumbnail
-        : null,
+      image_url:
+        post.thumbnail?.startsWith("http")
+          ? post.thumbnail
+          : null,
       engagement: {
         score: post.score || 0,
-        comments: post.num_comments || 0
+        comments:
+          post.num_comments || 0
       },
       team: config.team.id,
       presentation: presentation(url)
@@ -645,16 +823,22 @@ async function fetchReddit(source) {
 }
 
 async function fetchNbaScoreboard(source) {
-  const data = await get(source.url, "json");
+  const data = await get(
+    source.url,
+    "json"
+  );
 
-  for (const game of data.scoreboard?.games || []) {
+  for (
+    const game of data.scoreboard?.games || []
+  ) {
     const home = game.homeTeam || {};
     const away = game.awayTeam || {};
 
     if (
-      ![home.teamTricode, away.teamTricode].includes(
-        config.team.id
-      )
+      ![
+        home.teamTricode,
+        away.teamTricode
+      ].includes(config.team.id)
     ) {
       continue;
     }
@@ -664,20 +848,29 @@ async function fetchNbaScoreboard(source) {
       type: "game",
       source: source.name,
       source_key: source.id,
-      status: game.gameStatusText || null,
-      game_status: game.gameStatus ?? null,
-      start_time: iso(game.gameTimeUTC),
-      period: game.period ?? null,
-      game_clock: game.gameClock || null,
+      status:
+        game.gameStatusText || null,
+      game_status:
+        game.gameStatus ?? null,
+      start_time:
+        iso(game.gameTimeUTC),
+      period:
+        game.period ?? null,
+      game_clock:
+        game.gameClock || null,
       home: {
         team: home.teamTricode,
         name: home.teamName,
-        score: Number(home.score || 0)
+        score: Number(
+          home.score || 0
+        )
       },
       away: {
         team: away.teamTricode,
         name: away.teamName,
-        score: Number(away.score || 0)
+        score: Number(
+          away.score || 0
+        )
       }
     });
   }
@@ -686,23 +879,26 @@ async function fetchNbaScoreboard(source) {
 }
 
 function similarityKey(item) {
-  return (item.title || item.text || "")
+  return (
+    item.title ||
+    item.text ||
+    ""
+  )
     .toLowerCase()
     .replace(/https?:\/\/\S+/g, "")
     .replace(/[^a-z0-9\s]/g, " ")
     .split(/\s+/)
-    .filter(
-      word =>
-        word.length > 2 &&
-        ![
-          "the",
-          "and",
-          "for",
-          "with",
-          "new",
-          "york",
-          "knicks"
-        ].includes(word)
+    .filter(word =>
+      word.length > 2 &&
+      ![
+        "the",
+        "and",
+        "for",
+        "with",
+        "new",
+        "york",
+        "knicks"
+      ].includes(word)
     )
     .slice(0, 12)
     .sort()
@@ -719,10 +915,13 @@ function normalizedUrl(value = "") {
       "utm_campaign",
       "utm_content",
       "utm_term"
-    ].forEach(key => url.searchParams.delete(key));
+    ].forEach(key =>
+      url.searchParams.delete(key)
+    );
 
-    return `${url.hostname.replace(/^www\./, "")}${url.pathname}`
-      .replace(/\/$/, "");
+    return (
+      `${url.hostname.replace(/^www\./, "")}${url.pathname}`
+    ).replace(/\/$/, "");
   } catch {
     return value;
   }
@@ -735,9 +934,18 @@ function deduplicate(items) {
   const output = [];
 
   for (const item of items) {
-    const urlKey = normalizedUrl(item.url);
-    const normalizedTitle = similarityKey(item);
-    const titleKey = normalizedTitle ? `${item.source_key}:${normalizedTitle}` : "";
+    const urlKey =
+      normalizedUrl(item.url);
+
+    // Keep matching headlines from different publishers
+    // for story clusters.
+    const normalizedTitle =
+      similarityKey(item);
+
+    const titleKey =
+      normalizedTitle
+        ? `${item.source_key}:${normalizedTitle}`
+        : "";
 
     if (
       seenIds.has(item.id) ||
@@ -746,20 +954,40 @@ function deduplicate(items) {
       continue;
     }
 
-    if (titleKey && seenTitles.has(titleKey)) {
-      const original = seenTitles.get(titleKey);
+    if (
+      titleKey &&
+      seenTitles.has(titleKey)
+    ) {
+      const original =
+        seenTitles.get(titleKey);
+
       original.also_reported_by ||= [];
 
-      if (!original.also_reported_by.includes(item.source)) {
-        original.also_reported_by.push(item.source);
+      if (
+        !original.also_reported_by.includes(
+          item.source
+        )
+      ) {
+        original.also_reported_by.push(
+          item.source
+        );
       }
 
       continue;
     }
 
     seenIds.add(item.id);
-    if (urlKey) seenUrls.add(urlKey);
-    if (titleKey) seenTitles.set(titleKey, item);
+
+    if (urlKey) {
+      seenUrls.add(urlKey);
+    }
+
+    if (titleKey) {
+      seenTitles.set(
+        titleKey,
+        item
+      );
+    }
 
     output.push(item);
   }
@@ -767,10 +995,13 @@ function deduplicate(items) {
   return output;
 }
 
-for (const source of config.sources.filter(
-  source => source.enabled
-)) {
-  const before = collected.length + games.length;
+for (
+  const source of config.sources.filter(
+    source => source.enabled
+  )
+) {
+  const before =
+    collected.length + games.length;
 
   try {
     if (source.kind === "rss") {
@@ -781,36 +1012,55 @@ for (const source of config.sources.filter(
       await fetchSiKnicks(source);
     }
 
-    if (source.kind === "nba_knicks_articles") {
+    if (
+      source.kind ===
+      "nba_knicks_articles"
+    ) {
       await fetchOfficialKnicks(source);
     }
 
-    if (source.kind === "espn_news") {
+    if (
+      source.kind === "espn_news"
+    ) {
       await fetchEspn(source);
     }
 
-    if (source.kind === "bluesky_search") {
+    if (
+      source.kind ===
+      "bluesky_search"
+    ) {
       await fetchBluesky(source);
     }
 
     if (
-      ["bluesky_feed", "bluesky_author"].includes(source.kind)
+      [
+        "bluesky_feed",
+        "bluesky_author"
+      ].includes(source.kind)
     ) {
       await fetchBlueskyTargeted(source);
     }
 
-    if (source.kind === "reddit") {
+    if (
+      source.kind === "reddit"
+    ) {
       await fetchReddit(source);
     }
 
-    if (source.kind === "nba_scoreboard") {
+    if (
+      source.kind ===
+      "nba_scoreboard"
+    ) {
       await fetchNbaScoreboard(source);
     }
 
     statuses.push({
       source_key: source.id,
       ok: true,
-      items: collected.length + games.length - before
+      items:
+        collected.length +
+        games.length -
+        before
     });
   } catch (error) {
     statuses.push({
@@ -824,49 +1074,66 @@ for (const source of config.sources.filter(
 
 const cutoff =
   Date.now() -
-  config.settings.article_age_hours * 60 * 60 * 1000;
+  config.settings.article_age_hours *
+    60 *
+    60 *
+    1000;
 
 const recent = collected.filter(
   item =>
     !item.published_at ||
-    new Date(item.published_at).valueOf() >= cutoff
+    new Date(
+      item.published_at
+    ).valueOf() >= cutoff
 );
 
 recent.sort((a, b) =>
-  (b.published_at || "").localeCompare(a.published_at || "")
+  (b.published_at || "").localeCompare(
+    a.published_at || ""
+  )
 );
 
 const items = (
   config.settings.deduplicate
     ? deduplicate(recent)
     : recent
-).slice(0, config.settings.max_items);
+).slice(
+  0,
+  config.settings.max_items
+);
 
 let previous = null;
 
 try {
   previous = JSON.parse(
-    await readFile(path.join(root, "feed.json"), "utf8")
+    await readFile(
+      path.join(root, "feed.json"),
+      "utf8"
+    )
   );
 } catch {
   // First run.
 }
 
-const imageSummary = await enrichImages(
-  items,
-  previous,
-  config,
-  headers
-);
+const imageSummary =
+  await enrichImages(
+    items,
+    previous,
+    config,
+    headers
+  );
 
 const output = {
   schema_version: "1.0",
-  generated_at: new Date().toISOString(),
+  generated_at:
+    new Date().toISOString(),
   team: config.team,
   meta: {
     item_count: items.length,
     game_count: games.length,
-    refresh_duration_ms: Date.now() - startedAt.valueOf(),
+    refresh_duration_ms:
+      Date.now() -
+      startedAt.valueOf(),
     source_status: statuses,
     images: imageSummary,
     disclaimer:
@@ -888,6 +1155,10 @@ console.log(
 for (const status of statuses) {
   console.log(
     `${status.ok ? "OK" : "WARN"} ${status.source_key}: ${status.items}` +
-    (status.error ? ` (${status.error})` : "")
+    (
+      status.error
+        ? ` (${status.error})`
+        : ""
+    )
   );
 }
