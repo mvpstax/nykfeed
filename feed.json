@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T15:45:42.124Z",
+  "generated_at": "2026-09-27T16:00:23.491Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 29422,
+    "refresh_duration_ms": 5815,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 10
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,35 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 102,
       "missing": 10,
-      "article_pages_checked": 2
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "99d8d94b809eb39d3f9e",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Do the Knicks have enough frontcourt depth for title defense? 3 reasons for optimism",
+      "summary": "New York losing Mitchell Robinson stings, but could the champs actually be better off?",
+      "author": "Kevin O'Connor",
+      "published_at": "2026-09-27T15:43:47.000Z",
+      "url": "https://sports.yahoo.com/nba/article/do-the-knicks-have-enough-frontcourt-depth-for-title-defense-3-reasons-for-optimism-154347419.html",
+      "image_url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/ed-092426-nba-previews-knicks-frontcourt-better-update_3886.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/nba/article/do-the-knicks-have-enough-frontcourt-depth-for-title-defense-3-reasons-for-optimism-154347419.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "57576b6f35bcc1cca7d7",
       "type": "social",
@@ -468,7 +488,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -923,7 +943,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T15:45:41.965Z",
+      "image_checked_at": "2026-09-27T16:00:23.491Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -2464,9 +2484,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/2026-27-nba-over-unders-atlantic-division.html"
       },
-      "image_checked_at": "2026-09-27T15:45:41.965Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T15:45:41.965Z"
     },
     {
       "id": "ae685c322cf15121cc59",
