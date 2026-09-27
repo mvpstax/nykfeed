@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T09:00:31.312Z",
+  "generated_at": "2026-09-27T09:15:18.775Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 5926,
+    "refresh_duration_ms": 5908,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,7 +45,7 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 21
+        "items": 22
       },
       {
         "source_key": "yahoo_sports_nba",
@@ -93,13 +93,47 @@
     ],
     "images": {
       "available": 101,
-      "missing": 9,
+      "missing": 10,
       "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "39dafa7b2d72208df7c1",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:aoost44mif76qensycqfopq5/app.bsky.feed.post/3mwigts6ims2x",
+      "author": "Seahawk",
+      "handle": "originalseahawk.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:aoost44mif76qensycqfopq5/bafkreiexdasoqe6ocugcghzkbk72hylhj4zdowberi5t6s4kofod7mdgqu",
+      "text": "Stayed up late tonight and watched the 1st Look episode on the 2026 #NYKnicks, and wept like a baby. \n\nShout out to JM @ #KnicksFilmSchool\n\nAnd the mayor.",
+      "published_at": "2026-09-27T09:01:55.432Z",
+      "url": "https://bsky.app/profile/did:plc:aoost44mif76qensycqfopq5/post/3mwigts6ims2x",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:aoost44mif76qensycqfopq5/post/3mwigts6ims2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "fdc8781b54358e4697d3",
       "type": "article",
@@ -192,6 +226,28 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "ccef2eb00d117eae197f",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Host Jalen Brunson gets assist from Knicks on 'SNL' premiere",
+      "summary": "Jalen Brunson had four of his Knicks teammates -- Karl-Anthony Towns, Mikal Bridges, OG Anunoby and Josh Hart -- in the audience for his monologue Saturday night, in his role as host of \"SNL.\"",
+      "author": null,
+      "published_at": "2026-09-27T05:09:02.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50039929/host-jalen-brunson-gets-assist-knicks-snl-premiere",
+      "image_url": "https://a.espncdn.com/photo/2026/0614/r1672934_600x600_1-1.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50039929/host-jalen-brunson-gets-assist-knicks-snl-premiere"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4dcaf9ac0355"
     },
     {
       "id": "a871f200e86dd893447b",
@@ -427,7 +483,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T09:00:31.312Z",
+      "image_checked_at": "2026-09-27T09:15:18.774Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -2171,41 +2227,6 @@
       "cluster_id": "cluster_f98fff38e51b"
     },
     {
-      "id": "eae752909a66ef525de8",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:dopbstmnsij5ipmn6sr3fd43/app.bsky.feed.post/3mweevg5fn22f",
-      "author": "Seth Rosenthal",
-      "handle": "sethrosenthal.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:dopbstmnsij5ipmn6sr3fd43/bafkreif2nalttdyf2va4pskcdsbq7rji2mggz44j5ccd4sfput37ivsj6q",
-      "text": "lol i love Landry Shamet",
-      "published_at": "2026-09-25T18:16:23.476Z",
-      "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3mweevg5fn22f",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:dopbstmnsij5ipmn6sr3fd43/bafkreig2ictysujbparonbztaqtxeo5jkdwinciou3pvcbdlsrfr3w3xey",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 35
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3mweevg5fn22f",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "75ef26993c1f71023adf",
       "type": "social",
       "source": "Bluesky",
@@ -3371,9 +3392,10 @@
       "lead_item_id": "fdc8781b54358e4697d3",
       "item_ids": [
         "fdc8781b54358e4697d3",
+        "ccef2eb00d117eae197f",
         "0958f23a119f1d4d9889"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "updated_at": "2026-09-27T07:02:16.000Z"
     },
     {
