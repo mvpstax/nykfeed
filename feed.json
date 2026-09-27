@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T19:00:48.107Z",
+  "generated_at": "2026-09-27T19:15:18.861Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 29844,
+    "refresh_duration_ms": 5751,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -72,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 26
+        "items": 25
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,14 +92,74 @@
       }
     ],
     "images": {
-      "available": 102,
-      "missing": 12,
-      "article_pages_checked": 2
+      "available": 103,
+      "missing": 11,
+      "article_pages_checked": 3
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "0f766661414e8784a8d0",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwjissnheq2u",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen in high school musical (via r/NYKnicks)",
+      "published_at": "2026-09-27T19:09:49.386Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjissnheq2u",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigwkwx3c5a7d3vdphqxmqzlqoxt2p5htjj33dokvh6o4esr3lqnmy/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigwkwx3c5a7d3vdphqxmqzlqoxt2p5htjj33dokvh6o4esr3lqnmy/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigwkwx3c5a7d3vdphqxmqzlqoxt2p5htjj33dokvh6o4esr3lqnmy/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 854,
+        "width": 480
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjissnheq2u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "6f9ab8638d45ad46cd29",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: Brown, McBride, Training Camp",
+      "summary": "Knicks head coach Mike Brown doesn’t get enough credit for the role he played in last season’s championship run, according to assistant coach Rick Brunson. On the Locked on Knicks Squad Show (YouTube link), Brunson said Brown met with all five starters individually at the end of the regular season, when the team was struggling, […]",
+      "author": "Rory Maher",
+      "published_at": "2026-09-27T19:05:43.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-brown-mcbride-training-camp.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2025/11/Mike-Brown1-900x599.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-brown-mcbride-training-camp.html"
+      },
+      "image_checked_at": "2026-09-27T19:15:18.703Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "20bcf7dc1a8d56444286",
       "type": "social",
@@ -158,7 +217,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 7
+        "likes": 8
       },
       "team": "NYK",
       "presentation": {
@@ -226,7 +285,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-27T19:00:48.107Z",
+      "image_checked_at": "2026-09-27T19:15:18.704Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1363,7 +1422,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T19:00:48.107Z",
+      "image_checked_at": "2026-09-27T19:15:18.704Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1584,40 +1643,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "ad037f08915c3a8f939e",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:f757g3nzbf5wky2hzim27zom/app.bsky.feed.post/3mwhiby5v522j",
-      "author": "💙🇵🇷Mr NYC STEELER 🇺🇸💙",
-      "handle": "nycsteeler.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:f757g3nzbf5wky2hzim27zom/bafkreidehrnhizcqcgbglpdy5m45co2lmu4kj42y5ld576w5gcyn6g45bu",
-      "text": "Sat Night Live Tonight Premiere.   Jalen Brunson hosting.   Hollaaaaaaaa",
-      "published_at": "2026-09-26T23:55:05.468Z",
-      "url": "https://bsky.app/profile/did:plc:f757g3nzbf5wky2hzim27zom/post/3mwhiby5v522j",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:f757g3nzbf5wky2hzim27zom/post/3mwhiby5v522j",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "d2d379e2a9ad1e54638e",
@@ -2878,44 +2903,6 @@
       "image_source": "og:image",
       "image_checked_at": "2026-09-27T01:15:19.356Z",
       "cluster_id": "cluster_f98fff38e51b"
-    },
-    {
-      "id": "f17265200e366a192c0c",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwchzsu4w62p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "This is fucken hilarious. (via r/NYKnicks)",
-      "published_at": "2026-09-25T00:07:12.580Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwchzsu4w62p",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewytmsi5w5pyfno6xr654beplr5jn7cjabld2oyinriomtmwz44q/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewytmsi5w5pyfno6xr654beplr5jn7cjabld2oyinriomtmwz44q/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewytmsi5w5pyfno6xr654beplr5jn7cjabld2oyinriomtmwz44q/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 640,
-        "width": 360
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwchzsu4w62p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "f6ecfef688d1e82ab3b4",
