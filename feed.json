@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T07:30:20.375Z",
+  "generated_at": "2026-09-27T07:45:20.237Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 4069,
+    "refresh_duration_ms": 6710,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,7 +45,7 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 21
+        "items": 22
       },
       {
         "source_key": "yahoo_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 102,
       "missing": 9,
       "article_pages_checked": 1
     },
@@ -192,6 +192,28 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "ccef2eb00d117eae197f",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Host Jalen Brunson gets assist from Knicks on 'SNL' premiere",
+      "summary": "Jalen Brunson had four of his Knicks teammates -- Karl-Anthony Towns, Mikal Bridges, OG Anunoby and Josh Hart -- in the audience for his monologue Saturday night, in his role as host of \"SNL.\"",
+      "author": null,
+      "published_at": "2026-09-27T05:09:02.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50039929/host-jalen-brunson-gets-assist-knicks-snl-premiere",
+      "image_url": "https://a.espncdn.com/photo/2026/0614/r1672934_600x600_1-1.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50039929/host-jalen-brunson-gets-assist-knicks-snl-premiere"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4dcaf9ac0355"
     },
     {
       "id": "a871f200e86dd893447b",
@@ -427,7 +449,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T07:30:20.375Z",
+      "image_checked_at": "2026-09-27T07:45:20.237Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -3371,9 +3393,10 @@
       "lead_item_id": "fdc8781b54358e4697d3",
       "item_ids": [
         "fdc8781b54358e4697d3",
+        "ccef2eb00d117eae197f",
         "0958f23a119f1d4d9889"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "updated_at": "2026-09-27T07:02:16.000Z"
     },
     {
