@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T18:00:29.553Z",
+  "generated_at": "2026-09-27T18:15:19.004Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 115,
     "game_count": 0,
-    "refresh_duration_ms": 6238,
+    "refresh_duration_ms": 5325,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 12
+        "items": 13
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 104,
       "missing": 11,
       "article_pages_checked": 2
     },
@@ -100,6 +100,44 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "63a24b6f05d60d197a9c",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwjfdhbcrs2c",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "JR Smith on his routine on the Knicks. Party until 5 am, sleep at his locker, and then go work out. (via r/NYKnicks)",
+      "published_at": "2026-09-27T18:07:32.913Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjfdhbcrs2c",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihbloyyrdofm3h37sfzqdmz6uc73yxzymvqzdxeryp7h4rzwv5dh4/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihbloyyrdofm3h37sfzqdmz6uc73yxzymvqzdxeryp7h4rzwv5dh4/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihbloyyrdofm3h37sfzqdmz6uc73yxzymvqzdxeryp7h4rzwv5dh4/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 600,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjfdhbcrs2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "056100befa05da2eb014",
       "type": "article",
@@ -118,7 +156,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-27T18:00:29.552Z",
+      "image_checked_at": "2026-09-27T18:15:19.004Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -167,8 +205,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "reposts": 1,
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -242,8 +280,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 2,
-        "reposts": 2,
-        "likes": 6
+        "reposts": 3,
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -336,7 +374,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -422,6 +460,28 @@
       "image_source": "source_feed"
     },
     {
+      "id": "6c0bda6ab298f147de71",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks Bulletin: ‘I’m a little disappointed’",
+      "summary": "We so back the Bulletin is already here. Meanwhile, JB was doing his thing on SNL and Deuce McBride has some saucy comments to share with a fellow Knickerbocker scribe ahead of his contract year. Here’s the latest from around some places, and remember, we’re just 24 hours from Knicks Media Day! Miles McBride On […]",
+      "author": null,
+      "published_at": "2026-09-27T16:00:00.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-bulletin-m-little-disappointed-160000103.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/3b43d9d4b706d1ec7a71710d0a3dc24d.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-bulletin-m-little-disappointed-160000103.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_7db48c583ac8"
+    },
+    {
       "id": "99d8d94b809eb39d3f9e",
       "type": "article",
       "source": "Yahoo Sports",
@@ -463,8 +523,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 4
+        "reposts": 1,
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1230,7 +1290,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T18:00:29.552Z",
+      "image_checked_at": "2026-09-27T18:15:19.004Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -2916,41 +2976,6 @@
       "image_checked_at": "2026-09-27T00:30:19.128Z"
     },
     {
-      "id": "2c5e4d620d62afdffde7",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwcekxk6ev2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "4-Year New York Knicks Player Signs With New NBA Team (via Heavy)",
-      "published_at": "2026-09-24T23:05:12.960Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwcekxk6ev2x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicwndly7oouqmb2qhbgzqmbn2mz5l2xdh5yojh2z23ik3cufu6rde",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwcekxk6ev2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "6056bff553e4bfaa85d8",
       "type": "article",
       "source": "CBS Sports",
@@ -3434,6 +3459,17 @@
       "updated_at": "2026-09-27T17:36:34.000Z"
     },
     {
+      "id": "cluster_7db48c583ac8",
+      "lead_item_id": "6c0bda6ab298f147de71",
+      "item_ids": [
+        "6c0bda6ab298f147de71",
+        "88ba0e3c42be273bd909",
+        "306caf4f01bd2814a45f"
+      ],
+      "source_count": 3,
+      "updated_at": "2026-09-27T16:00:00.000Z"
+    },
+    {
       "id": "cluster_4dcaf9ac0355",
       "lead_item_id": "fdc8781b54358e4697d3",
       "item_ids": [
@@ -3443,16 +3479,6 @@
       ],
       "source_count": 3,
       "updated_at": "2026-09-27T07:02:16.000Z"
-    },
-    {
-      "id": "cluster_7db48c583ac8",
-      "lead_item_id": "88ba0e3c42be273bd909",
-      "item_ids": [
-        "88ba0e3c42be273bd909",
-        "306caf4f01bd2814a45f"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-26T18:49:56.000Z"
     },
     {
       "id": "cluster_eb608b486489",
