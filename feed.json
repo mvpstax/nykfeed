@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T14:15:26.542Z",
+  "generated_at": "2026-09-27T14:30:22.257Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 8569,
+    "refresh_duration_ms": 6272,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 2
+        "items": 3
       },
       {
         "source_key": "espn",
@@ -92,14 +92,91 @@
       }
     ],
     "images": {
-      "available": 101,
-      "missing": 9,
-      "article_pages_checked": 6
+      "available": 102,
+      "missing": 10,
+      "article_pages_checked": 3
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4b0afcba24f7cea1335e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mwiz6oourc2g",
+      "author": "🏆Knicks Forever🏆",
+      "handle": "wildstreet.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
+      "text": "#knickssky 🏆🧡💙",
+      "published_at": "2026-09-27T14:30:08.218Z",
+      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwiz6oourc2g",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwiz6oourc2g",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "b7b35f93f9e26a847935",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Sign Kevin McCullar, Tyler Nickel To Two-Way Deals",
+      "summary": "The Knicks have signed Kevin McCullar Jr. and Tyler Nickel to two-way contracts, the team announced today (Twitter links). McCullar has spent the past two seasons with New York on two-way deals after being selected 56th overall in the 2024 draft. He made 21 regular season appearances in 2025/26, averaging 2.4 points in 7.4 minutes […]",
+      "author": "Rory Maher",
+      "published_at": "2026-09-27T14:25:09.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2025/12/Kevin-McCullar-Jr-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html"
+      },
+      "image_checked_at": "2026-09-27T14:30:22.041Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "c3316529133a8b7d5584",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Knicks Sign N'Faly Dante To Exhibit 10 Contract",
+      "summary": "The New York Knicks signed big man N'Faly Dante to an Exhibit 10 contract. Dante will join a group competing for a roster spot. The 6-foot-11 forward/center is eligible to have his deal converted to a two-way contract. Dante tore his right ACL in late December last season. Prior to that, he had appeared in four games for the Atlanta Hawks. Dante was later waived in order for Atlanta to create a roster spot to complete trade deadline moves. In the G League, Dante has proven to be a good finisher around the rim, solid rebounder and strong rim protector. The Knicks still have all three of their two-way spots open, as well as two standard spots on their regular season roster.",
+      "author": null,
+      "published_at": "2026-09-27T14:16:32.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287425/Knicks-Sign-NFaly-Dante-To-Exhibit-10-Contract",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/nba_newyorkknicks.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287425/Knicks-Sign-NFaly-Dante-To-Exhibit-10-Contract"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "79860a3fcc5957d56969",
       "type": "social",
@@ -122,7 +199,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -229,7 +306,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -299,7 +376,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -684,7 +761,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T14:15:25.797Z",
+      "image_checked_at": "2026-09-27T14:30:22.043Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1878,41 +1955,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwgdwmlzxp2l",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "719b8ac3f3b83126242d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mwgdosvadz24",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "🔥🚨🏀NEW EPISODE🏀🚨🔥\n\nBest 20 Knicks Games of the Leon Rose Era | #1: Knicks 107, Spurs 106 (6/10/26 - NBA Finals, Game 4)\n\n🎙️: @jcmacrinba, @andrewjclaudio_, @jeffjsays, @shawnwithaw_\nyoutu.be/-wR_n2k9pAY",
-      "published_at": "2026-09-26T13:00:07.667Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwgdosvadz24",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreigxcfanlz5z7k3dtsrcbrphjieibkirsba6k6tvt7k3nfvliqbeme",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwgdosvadz24",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3234,9 +3276,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-knicks-whose-roles-are-likely-to-change-in-2026-27-01m2v4hd1msa",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-27T14:15:25.797Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T14:15:25.797Z"
     },
     {
       "id": "a488bba809e8d79079f6",
@@ -3257,9 +3299,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/tyler-kolek-s-knicks-situation-could-change-after-flurry-of-signings-01m350xdwbfq",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-27T14:15:25.798Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T14:15:25.798Z"
     },
     {
       "id": "d421b2d8ed0f0498fa0f",
@@ -3280,9 +3322,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/predicting-which-new-knicks-signing-becomes-their-next-landry-shamet-01m34y3499rz",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-27T14:15:25.799Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T14:15:25.799Z"
     },
     {
       "id": "976231a87107ef8fe25d",
@@ -3302,9 +3344,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
       },
-      "image_checked_at": "2026-09-27T14:15:26.127Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T14:15:26.127Z"
     },
     {
       "id": "95f48c946ff6b7b79d07",
@@ -3325,9 +3367,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/the-biggest-question-every-knicks-starter-must-answer-heading-into-the-season-01m2deb7nbbp",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-27T14:15:26.170Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T14:15:26.170Z"
     },
     {
       "id": "aa5d87cb78e259913839",
@@ -3347,9 +3389,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/steins-latest-wiseman-vincent-leonard-mavs.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-27T14:30:22.043Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-26T14:30:20.885Z"
+      "image_status": "available"
     }
   ],
   "clusters": [

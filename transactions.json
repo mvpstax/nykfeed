@@ -1,9 +1,35 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T14:15:28.455Z",
+  "generated_at": "2026-09-27T14:30:23.935Z",
   "source": "NBA.com",
   "source_url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json",
   "transactions": [
+    {
+      "id": "041014fe8978df46c100",
+      "date": "2026-09-27",
+      "type": "Trade",
+      "trade_group_id": "Trade 2026017",
+      "description": "Chicago Bulls received guard Buddy Hield from Charlotte Hornets.",
+      "team_id": "1610612741",
+      "team_slug": "bulls",
+      "player_id": "1627741",
+      "player_slug": "buddy-hield",
+      "is_knicks": false,
+      "source_url": "https://www.nba.com/players/transactions"
+    },
+    {
+      "id": "47156385977f176cbcc0",
+      "date": "2026-09-27",
+      "type": "Trade",
+      "trade_group_id": "Trade 2026017",
+      "description": "Charlotte Hornets received guard Rob Dillingham from Chicago Bulls.",
+      "team_id": "1610612766",
+      "team_slug": "hornets",
+      "player_id": "1642265",
+      "player_slug": "rob-dillingham",
+      "is_knicks": false,
+      "source_url": "https://www.nba.com/players/transactions"
+    },
     {
       "id": "123afc500008e522d90a",
       "date": "2026-09-26",
@@ -1275,32 +1301,6 @@
       "team_slug": "clippers",
       "player_id": "1641711",
       "player_slug": "gradey-dick",
-      "is_knicks": false,
-      "source_url": "https://www.nba.com/players/transactions"
-    },
-    {
-      "id": "b3f59cb692b7a47ea8e2",
-      "date": "2026-09-14",
-      "type": "Trade",
-      "trade_group_id": "Trade 2026015",
-      "description": "Toronto Raptors received forward Kawhi Leonard from LA Clippers.",
-      "team_id": "1610612761",
-      "team_slug": "raptors",
-      "player_id": "202695",
-      "player_slug": "kawhi-leonard",
-      "is_knicks": false,
-      "source_url": "https://www.nba.com/players/transactions"
-    },
-    {
-      "id": "e3d52bcb8d4c36d0a27e",
-      "date": "2026-09-14",
-      "type": "Trade",
-      "trade_group_id": "Trade 2026015",
-      "description": "LA Clippers received forward Brandon Ingram from Toronto Raptors.",
-      "team_id": "1610612746",
-      "team_slug": "clippers",
-      "player_id": "1627742",
-      "player_slug": "brandon-ingram",
       "is_knicks": false,
       "source_url": "https://www.nba.com/players/transactions"
     }
