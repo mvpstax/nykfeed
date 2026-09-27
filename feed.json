@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T15:15:20.668Z",
+  "generated_at": "2026-09-27T15:30:47.273Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 5332,
+    "refresh_duration_ms": 29475,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 27
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 102,
+      "available": 101,
       "missing": 10,
       "article_pages_checked": 1
     },
@@ -122,7 +123,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -168,6 +169,28 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "190917d8588590113318",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Knicks Sign Kevin McCullar, Tyler Nickel To Two-Way Contracts",
+      "summary": "The New York Knicks have re-signed guard Kevin McCullar to a two-way contract. The Knicks also signed 2026 second-round pick Tyler Nickel to a two-way contract. McCullar spent last season with New York on a two-way deal. In 14 G League games with the Westchester Knicks last season, the 6-foot-6 guard averaged 16.8 points, 5.7 rebounds, 6.0 assists, 1.9 steals and a block per game. Nickel was selected with the 47th pick in the 2026 NBA Draft out Vanderbilt. The 6-foot-7 forward averaged 13.5 points on 45/40/85 shooting splits and 3.2 rebounds per as a senior for the Commodores. Nickel had been in a legal battle with the NCAA over the ability to return to college for fifth season of eligibility. Now, Nickel will instead begin his NBA career on a two-way deal with the defending champions.",
+      "author": null,
+      "published_at": "2026-09-27T14:40:23.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287426/Knicks-Sign-Kevin-McCullar-Tyler-Nickel-To-Two-Way-Contracts",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/nba_newyorkknicks.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287426/Knicks-Sign-Kevin-McCullar-Tyler-Nickel-To-Two-Way-Contracts"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_6ed7095cb03f"
     },
     {
       "id": "ed851d0fa3044d01ff62",
@@ -292,7 +315,8 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_6ed7095cb03f"
     },
     {
       "id": "c3316529133a8b7d5584",
@@ -300,7 +324,7 @@
       "source": "RealGM",
       "source_key": "realgm",
       "title": "Knicks Sign N'Faly Dante To Exhibit 10 Contract",
-      "summary": "The New York Knicks signed big man N'Faly Dante to an Exhibit 10 contract. Dante will join a group competing for a roster spot. The 6-foot-11 forward/center is eligible to have his deal converted to a two-way contract. Dante tore his right ACL in late December last season. Prior to that, he had appeared in four games for the Atlanta Hawks. Dante was later waived in order for Atlanta to create a roster spot to complete trade deadline moves. In the G League, Dante has proven to be a good finisher around the rim, solid rebounder and strong rim protector. The Knicks still have all three of their two-way spots open, as well as two standard spots on their regular season roster.",
+      "summary": "The New York Knicks signed big man N'Faly Dante to an Exhibit 10 contract. Dante will join a group competing for a roster spot. The 6-foot-11 forward/center is eligible to have his deal converted to a two-way contract. Dante tore his right ACL in late December last season. Prior to that, he had appeared in four games for the Atlanta Hawks. Dante was later waived in order for Atlanta to create a roster spot to complete trade deadline moves. In the G League, Dante has proven to be a good finisher around the rim, solid rebounder and strong rim protector. The Knicks still have one two-way spot open, as well as two standard spots on their regular season roster. New York is likely to only fill one standard spot initially, in order to stay under the second apron.",
       "author": null,
       "published_at": "2026-09-27T14:16:32.000Z",
       "url": "https://basketball.realgm.com/wiretap/287425/Knicks-Sign-NFaly-Dante-To-Exhibit-10-Contract",
@@ -899,7 +923,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T15:15:20.668Z",
+      "image_checked_at": "2026-09-27T15:30:47.273Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1609,41 +1633,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/under-harvest-moon-why-nets-190941557.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "ff3ae49734c70e8f05b6",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwgxj7vk6a2f",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Knicks turn page on championship summer with complacency challenge looming at training camp",
-      "published_at": "2026-09-26T18:54:54.551Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwgxj7vk6a2f",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreigaq6bywukpktu4e2vobamukjh2wkatcfnopvifij3oinab5vgkq4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwgxj7vk6a2f",
-        "render_mode": "native_social_card"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2398,28 +2387,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "a5cf756c5595ab14cf56",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Karl-Anthony Towns, Knicks 'Tens Of Millions Apart' On Extension",
-      "summary": "Karl-Anthony Towns and the New York Knicks are currently significantly apart on their positions as they discuss a contract extension. Towns can sign for up to $276 million over four years on an extension and is not believed to be demanding the max in talks with the Knicks. If Towns and the Knicks are unable to agree to an extension, he could decline his $61 million player option to become a free agent. Towns could alternatively exercise his option at that amount, which would almost certainly put the Knicks into the second apron for the 2027-28 season. \"I want to talk about the overall value of the contract, because Karl-Anthony Towns is eligible to sign a four-year, $276 million extension,\" said Brian Windhorst on Friday's Hoop Collective Podcast. \"That's his max that he's eligible to get. He obviously has... he and his side have a position on what he wants to sign for. The Knicks have a position on what they have offered. So those are the parameters. From what I understand, they are tens of millions apart. They're not close,\" said \"Honestly, I believe that they could be eight figures apart on an annual basis,\" said Tim MacMahon. \"I believe that's-you know, and maybe it's changed since we've been starting this podcast, maybe the offers have changed,\" replied Windhorst. \"But again, KAT is not pounding the table and saying, 'You've got to max me.' He's willing to have discussions,\" said MacMahon. \"Oh, yeah. He's willing to take less than the $275 million, I believe,\" said Windhorst. \"The question, you know, the question is what are the Knicks willing to do?\" Towns is represented by Jessica Holtz of CAA, which is the former agency of Leon Rose. CAA also represents Jalen Brunson, OG Anunoby and Josh Hart.",
-      "author": null,
-      "published_at": "2026-09-25T17:25:11.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287394/Karl-Anthony-Towns-Knicks-Tens-Of-Millions-Apart-On-Extension",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Towns_Karlanthony_nyk_260420.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287394/Karl-Anthony-Towns-Knicks-Tens-Of-Millions-Apart-On-Extension"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "28c5e4eb58b5e3641b57",
@@ -3395,6 +3362,16 @@
   ],
   "clusters": [
     {
+      "id": "cluster_6ed7095cb03f",
+      "lead_item_id": "190917d8588590113318",
+      "item_ids": [
+        "190917d8588590113318",
+        "b7b35f93f9e26a847935"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-27T14:40:23.000Z"
+    },
+    {
       "id": "cluster_4dcaf9ac0355",
       "lead_item_id": "fdc8781b54358e4697d3",
       "item_ids": [
@@ -3420,12 +3397,11 @@
       "lead_item_id": "29471c56ba4ca46fc6fb",
       "item_ids": [
         "29471c56ba4ca46fc6fb",
-        "a5cf756c5595ab14cf56",
         "52db53aa5fcdaad25fdd",
         "1add455d8ed253fdb76c",
         "3e7c50f8f805f07e0de0"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "updated_at": "2026-09-26T17:07:46.000Z"
     },
     {
