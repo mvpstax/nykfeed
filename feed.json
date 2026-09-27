@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T17:30:23.246Z",
+  "generated_at": "2026-09-27T17:45:21.241Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 7390,
+    "refresh_duration_ms": 5362,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 19
+        "items": 20
       },
       {
         "source_key": "knicks_film_school",
@@ -92,14 +92,75 @@
       }
     ],
     "images": {
-      "available": 104,
+      "available": 103,
       "missing": 10,
-      "article_pages_checked": 2
+      "article_pages_checked": 4
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "bc0383762f189ec31695",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Knicks Finally Sign Tyler Nickel to Two-Way Deal (What It Means for New York This Season)",
+      "summary": "Ahead of media day and training camp, the New York Knicks have officially signed second-round pick Tyler Nickel to a two-way contract on Sunday.",
+      "author": "Jovan Alford",
+      "published_at": "2026-09-27T17:36:34.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/knicks-finally-sign-tyler-nickel-two-way-deal-what-it-means-new-york-season-01m3hwejtk47",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_121,w_5407,h_3041/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3hxg3r2d9pb6jf42e.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/knicks-finally-sign-tyler-nickel-two-way-deal-what-it-means-new-york-season-01m3hwejtk47",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-27T17:45:21.010Z",
+      "image_source": "og:image",
+      "image_status": "available",
+      "cluster_id": "cluster_6ed7095cb03f"
+    },
+    {
+      "id": "83afab33df7fc2f68454",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mwjd7bdges26",
+      "author": "🏆Knicks Forever🏆",
+      "handle": "wildstreet.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
+      "text": "#knickssky 🏆🧡💙",
+      "published_at": "2026-09-27T17:29:25.191Z",
+      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwjd7bdges26",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwjd7bdges26",
+        "render_mode": "native_social_card"
+      },
+      "also_reported_by": [
+        "Bluesky"
+      ],
+      "image_status": "not_provided"
+    },
     {
       "id": "072945c8e7ab2dc99472",
       "type": "social",
@@ -193,9 +254,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -253,7 +314,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -519,40 +580,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "4b0afcba24f7cea1335e",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mwiz6oourc2g",
-      "author": "🏆Knicks Forever🏆",
-      "handle": "wildstreet.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
-      "text": "#knickssky 🏆🧡💙",
-      "published_at": "2026-09-27T14:30:08.218Z",
-      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwiz6oourc2g",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwiz6oourc2g",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "b7b35f93f9e26a847935",
@@ -1181,7 +1208,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T17:30:22.985Z",
+      "image_checked_at": "2026-09-27T17:45:21.011Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1616,41 +1643,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "872d78d107e67281be38",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwh6fqxwvx2u",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Jalen Brunson gifts pricey NYC cookies to hundreds of fans camping out to see him host 'Saturday Night Live'",
-      "published_at": "2026-09-26T20:58:14.425Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwh6fqxwvx2u",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicn3xb6mxgmb2zqtrmhnhrzvccsp2ntkhlk2mtg7kwdd4nodrhjpa",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 2,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwh6fqxwvx2u",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "dd3bd7bf4e2132a2b10b",
       "type": "social",
       "source": "Bluesky",
@@ -1683,41 +1675,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwh3qcdxnf2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "567d3119e3f151c67420",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwh35vmv772t",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Breaking down Knicks roster: Where every player stands before season",
-      "published_at": "2026-09-26T20:00:09.720Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwh35vmv772t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreif2aexmk2cqleaz2725a3yaawjaurskmkcjsbwgd7icsudyyst4ty",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwh35vmv772t",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -1884,9 +1841,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/karl-anthony-towns-knicks-reportedly-170746769.html"
       },
-      "image_checked_at": "2026-09-27T17:30:22.985Z",
-      "image_source": "og:image",
       "image_status": "available",
+      "image_source": "og:image",
+      "image_checked_at": "2026-09-27T17:30:22.985Z",
       "cluster_id": "cluster_eb608b486489"
     },
     {
@@ -3012,9 +2969,9 @@
         "url": "https://www.si.com/nba/knicks/knicks-have-first-major-post-championship-problem-possible-solutions",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-27T17:45:21.011Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-26T17:45:18.077Z"
+      "image_status": "available"
     },
     {
       "id": "d41f5594477f9c07c0ac",
@@ -3278,9 +3235,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-the-knicks-title-defense-will-feel-like-a-letdown-no-matter-how-it-goes-01m36226zf9a",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-27T17:45:21.012Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-26T17:45:18.078Z"
+      "image_status": "available"
     },
     {
       "id": "161f6e35858dba8d3fad",
@@ -3444,14 +3401,15 @@
   "clusters": [
     {
       "id": "cluster_6ed7095cb03f",
-      "lead_item_id": "afc3b30f397206243c5f",
+      "lead_item_id": "bc0383762f189ec31695",
       "item_ids": [
+        "bc0383762f189ec31695",
         "afc3b30f397206243c5f",
         "190917d8588590113318",
         "b7b35f93f9e26a847935"
       ],
-      "source_count": 3,
-      "updated_at": "2026-09-27T16:32:32.000Z"
+      "source_count": 4,
+      "updated_at": "2026-09-27T17:36:34.000Z"
     },
     {
       "id": "cluster_4dcaf9ac0355",
