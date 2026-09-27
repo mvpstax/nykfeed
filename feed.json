@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T05:15:19.824Z",
+  "generated_at": "2026-09-27T05:30:25.361Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 5998,
+    "refresh_duration_ms": 8624,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,12 +45,12 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 21
+        "items": 22
       },
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 102,
+      "available": 104,
       "missing": 8,
       "article_pages_checked": 1
     },
@@ -122,7 +122,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -157,6 +157,28 @@
       "image_checked_at": "2026-09-27T05:00:24.149Z"
     },
     {
+      "id": "ccef2eb00d117eae197f",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Host Jalen Brunson gets assist from Knicks on 'SNL' premiere",
+      "summary": "Jalen Brunson had four of his Knicks teammates -- Karl-Anthony Towns, Mikal Bridges, OG Anunoby and Josh Hart -- in the audience for his monologue Saturday night, in his role as host of \"SNL.\"",
+      "author": null,
+      "published_at": "2026-09-27T04:44:56.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50039929/host-jalen-brunson-gets-assist-knicks-snl-premiere",
+      "image_url": "https://a.espncdn.com/photo/2026/0614/r1672934_600x600_1-1.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50039929/host-jalen-brunson-gets-assist-knicks-snl-premiere"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4dcaf9ac0355"
+    },
+    {
       "id": "42cac067328cb6290568",
       "type": "social",
       "source": "Bluesky",
@@ -178,7 +200,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -212,7 +234,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -304,7 +326,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -334,7 +356,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T05:15:19.824Z",
+      "image_checked_at": "2026-09-27T05:30:25.360Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -392,7 +414,8 @@
         "url": "https://www.yahoo.com/entertainment/tv/articles/snl-thread-join-us-watching-030000267.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4dcaf9ac0355"
     },
     {
       "id": "ffb6b8c1381d772db28d",
@@ -460,6 +483,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwhma5zqzk2s",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "c0fd95d88ea7880730ea",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks 2026-27 training camp breakdown: Roster battles, newcomers and storylines to watch",
+      "summary": "The Post’s Stefan Bondy breaks down the Knicks’ top storylines heading into training camp.",
+      "author": null,
+      "published_at": "2026-09-27T01:04:12.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-2026-27-training-camp-010412130.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/c7ee554de7f0b96b6e0bc1e28a630d9e.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-2026-27-training-camp-010412130.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3379,6 +3423,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_4dcaf9ac0355",
+      "lead_item_id": "ccef2eb00d117eae197f",
+      "item_ids": [
+        "ccef2eb00d117eae197f",
+        "0958f23a119f1d4d9889"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-27T04:44:56.000Z"
+    },
     {
       "id": "cluster_7db48c583ac8",
       "lead_item_id": "88ba0e3c42be273bd909",
