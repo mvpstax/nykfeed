@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T15:00:48.672Z",
+  "generated_at": "2026-09-27T15:15:20.668Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 30558,
+    "refresh_duration_ms": 5332,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,83 @@
       }
     ],
     "images": {
-      "available": 103,
-      "missing": 9,
-      "article_pages_checked": 2
+      "available": 102,
+      "missing": 10,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "57576b6f35bcc1cca7d7",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mwj3ireuqs2g",
+      "author": "🏆Knicks Forever🏆",
+      "handle": "wildstreet.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
+      "text": "With Media Day tomorrow being the official start of the 2026-2027 NBA season, I am looking back on the 2025-2026 season with one of my absolute favorite recaps. Thanks SOOO much again for posting @tonyny.bsky.social!!! #KnicksIn5 #AlwaysKnicks #DefendingNBAChampions\n#LetsGoKnicks #knickssky 🏆🧡💙",
+      "published_at": "2026-09-27T15:11:34.071Z",
+      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwj3ireuqs2g",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwj3ireuqs2g",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "3d68bd8bbcbc18c6d2d4",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwj34p5uxl2c",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks are considering 7-foot-5 center Jamarion Sharp, recently waived by the Clippers. His G League performance featured 4.1 BPG. via Sports Illustrated",
+      "published_at": "2026-09-27T15:04:48.904Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwj34p5uxl2c",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihqwxoztsobukshefh3lqdyqbm2olng7ysdgm76u55vkfgl3fsgoy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwj34p5uxl2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "ed851d0fa3044d01ff62",
       "type": "social",
@@ -122,8 +190,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 2,
-        "likes": 6
+        "reposts": 3,
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -831,7 +899,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T15:00:48.193Z",
+      "image_checked_at": "2026-09-27T15:15:20.668Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1659,41 +1727,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "29acb98739dbbd9c35d6",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwgto74bhk2h",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "The Knicks were 100% right to draft Pacôme Dadiet, no matter how the rest of his career goes:\n\ndailyknicks.com/knicks-alrea...",
-      "published_at": "2026-09-26T17:46:06.831Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwgto74bhk2h",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreig3o5ivvinmyafv2nls5aevn2ucxlou6wkrul23drwgzapxmm5qkm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 1,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwgto74bhk2h",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "29471c56ba4ca46fc6fb",
       "type": "article",
       "source": "Yahoo Sports",
@@ -1865,9 +1898,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-could-be-strong-match-johni-broome-after-his-release-01m3d3h4pn0b",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-27T15:00:48.193Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-27T15:00:48.193Z"
     },
     {
       "id": "fc1703d169086bf2e7f2",
@@ -2907,41 +2940,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwc5r4oo4g2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "de5845807638ff79ad05",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwc2j2m4yz2e",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks face a tough road to repeat as NBA champions, ranked third by Yahoo Sports' Kevin O'Connor due to repeating difficulty and Mitchell Robinson's loss. via Yahoo Sports",
-      "published_at": "2026-09-24T20:05:11.642Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwc2j2m4yz2e",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicyzgh3n2ohu45eleqebibh3pnueeicipceubiztob55o2r6ddzay",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwc2j2m4yz2e",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
