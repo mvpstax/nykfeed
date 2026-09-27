@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T04:00:21.898Z",
+  "generated_at": "2026-09-27T04:15:15.846Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 106,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 4018,
+    "refresh_duration_ms": 3116,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,36 @@
       }
     ],
     "images": {
-      "available": 100,
-      "missing": 6,
-      "article_pages_checked": 0
+      "available": 101,
+      "missing": 7,
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "323c2507de381cd572af",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Minor Roster Moves: Knicks, Grizzlies, Hornets, Clippers",
+      "summary": "Center N’Faly Dante has signed an Exhibit 10 contract with the Knicks, the team announced (via Twitter). Dante spent part of last season with Atlanta before suffering a torn ACL in his right knee during a December G League game and being waived in February. He appeared in four games with the Hawks last season […]",
+      "author": "Arthur Hill",
+      "published_at": "2026-09-27T04:01:08.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/minor-roster-moves-knicks-grizzlies-hornets-clippers.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2025/12/NFaly-Dante-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/minor-roster-moves-knicks-grizzlies-hornets-clippers.html"
+      },
+      "image_checked_at": "2026-09-27T04:15:15.803Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "ad7f525e77de494836ae",
       "type": "social",
@@ -122,7 +144,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -133,6 +155,28 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "68bd5e116172c80e70fd",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "SEE IT: Jalen Brunson brings Knicks teammates on stage during 'Saturday Night Live' monologue",
+      "summary": "After leading the Knicks to their first NBA championship in 53 years, Jalen Brunson had the honor of hosting the 52nd season premiere of \"Saturday Night Live.\"",
+      "author": null,
+      "published_at": "2026-09-27T03:59:39.000Z",
+      "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html",
+      "image_url": null,
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
+      },
+      "image_checked_at": "2026-09-27T04:15:15.803Z",
+      "image_status": "fetch_failed",
+      "image_error": "Unapproved article host"
     },
     {
       "id": "26609b68dfac076f4f61",
