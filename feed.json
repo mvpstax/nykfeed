@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T16:45:23.502Z",
+  "generated_at": "2026-09-27T17:00:51.832Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 113,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 6156,
+    "refresh_duration_ms": 29466,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 10
+        "items": 11
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,9 +93,9 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 104,
       "missing": 10,
-      "article_pages_checked": 1
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -120,9 +121,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 3
+        "replies": 1,
+        "reposts": 2,
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -157,7 +158,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -169,6 +170,29 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "afc3b30f397206243c5f",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks sign Tyler Nickel, Kevin McCullar Jr. to two-way contracts",
+      "summary": "Looking to shore up their roster ahead of Monday’s training camp, the Knicks have signed Tyler Nickel and Kevin McCullar Jr. to two-way contracts.",
+      "author": null,
+      "published_at": "2026-09-27T16:32:32.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-sign-tyler-nickel-kevin-163232839.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/d5b3b1227dcfb26c9d265e29518ff813de80ca32232b29c9c5b4c7f4bc9cd24f/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F31deca46653f51bc0ca6272a5bba665f.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-sign-tyler-nickel-kevin-163232839.html"
+      },
+      "image_checked_at": "2026-09-27T17:00:51.320Z",
+      "image_source": "og:image",
+      "image_status": "available",
+      "cluster_id": "cluster_6ed7095cb03f"
     },
     {
       "id": "157f8ca2c5984f0d72ae",
@@ -192,7 +216,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -411,7 +435,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 3,
-        "likes": 8
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -885,7 +909,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1120,7 +1144,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-27T16:45:23.502Z",
+      "image_checked_at": "2026-09-27T17:00:51.320Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -3418,13 +3442,14 @@
   "clusters": [
     {
       "id": "cluster_6ed7095cb03f",
-      "lead_item_id": "190917d8588590113318",
+      "lead_item_id": "afc3b30f397206243c5f",
       "item_ids": [
+        "afc3b30f397206243c5f",
         "190917d8588590113318",
         "b7b35f93f9e26a847935"
       ],
-      "source_count": 2,
-      "updated_at": "2026-09-27T14:40:23.000Z"
+      "source_count": 3,
+      "updated_at": "2026-09-27T16:32:32.000Z"
     },
     {
       "id": "cluster_4dcaf9ac0355",
