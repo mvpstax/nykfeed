@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T17:30:23.407Z",
+  "generated_at": "2026-09-28T17:45:24.861Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 100,
     "game_count": 0,
-    "refresh_duration_ms": 6005,
+    "refresh_duration_ms": 10495,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,12 +45,12 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 21
+        "items": 22
       },
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 2
       },
       {
         "source_key": "cbs_sports_nba",
@@ -101,6 +101,29 @@
   "games": [],
   "items": [
     {
+      "id": "8a58154d84648cf0ef60",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Karl-Anthony Towns' Media Day Comments Make Extension More Likely Than Ever, Despite Frustration",
+      "summary": "One of the biggest unknown surrounding the Knicks’ offseason following their NBA title run has been Karl-Anthony Towns’ contract discussions. Towns only has two",
+      "author": "Max Wildstein",
+      "published_at": "2026-09-28T17:44:23.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-media-day-comments-make-extension-more-likely-than-ever-despite-frustration-01m3mffrc1jx",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_1376,y_87,w_2479,h_1394/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3mhjgs8t74r0h39qv.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-media-day-comments-make-extension-more-likely-than-ever-despite-frustration-01m3mffrc1jx",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-28T17:45:24.358Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
       "id": "5ce45f804a0af248a138",
       "type": "article",
       "source": "Hoops Rumors",
@@ -118,9 +141,10 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/lebron-james-says-hes-living-in-the-moment-with-sixers.html"
       },
-      "image_checked_at": "2026-09-28T17:30:22.866Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-28T17:30:22.866Z",
+      "cluster_id": "cluster_0f0cd990a843"
     },
     {
       "id": "5ecdd793d69a094436da",
@@ -182,6 +206,28 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T17:15:19.218Z"
+    },
+    {
+      "id": "e199f4ddf1af8ffc869c",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "LeBron James says he envisioned joining Knicks as free agent",
+      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer, but nixed the idea after New York won the NBA title.",
+      "author": "Dave McMenamin",
+      "published_at": "2026-09-28T17:00:49.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
+      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_0f0cd990a843"
     },
     {
       "id": "d59296e2d3fed741b3b4",
@@ -1329,27 +1375,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "0edf7d41e6d91de53077",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks sign familiar names to round out training camp roster",
-      "summary": "The Knicks filled out their training camp roster with familiar and expected names. Tyler Nickel, a second-round pick this year, and Kevin McCullar Jr., a second-round pick in 2024, were...",
-      "author": null,
-      "published_at": "2026-09-27T18:58:30.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-sign-familiar-names-round-185830413.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/9632080ab964faffc007d51b64038be1.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-sign-familiar-names-round-185830413.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "8fbd93a8dba28cbd232d",
       "type": "social",
       "source": "Bluesky",
@@ -1440,9 +1465,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-finally-sign-tyler-nickel-two-way-deal-what-it-means-new-york-season-01m3hwejtk47",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-28T17:45:24.359Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-27T17:45:21.010Z",
+      "image_status": "available",
       "cluster_id": "cluster_6ed7095cb03f"
     },
     {
@@ -2597,9 +2622,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/trying-make-sense-knicks-missing-out-julian-reese-01m3cjrh6m74",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-28T17:30:22.867Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-28T17:30:22.867Z"
     },
     {
       "id": "ab7ef22a11b52be58fd5",
@@ -2732,9 +2757,9 @@
         "url": "https://www.si.com/nba/knicks/knicks-have-first-major-post-championship-problem-possible-solutions",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-28T17:45:24.360Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-27T17:45:21.011Z"
+      "image_status": "available"
     },
     {
       "id": "d41f5594477f9c07c0ac",
@@ -2755,9 +2780,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-concerns-that-must-be-on-the-knicks-radar-in-2026-27-01m359nx8jz2",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-28T17:30:22.867Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-28T17:30:22.867Z"
     },
     {
       "id": "ca4a8fb9fc9ed3c963d9",
@@ -2959,29 +2984,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "7399d6fcd03630f7b172",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Why the Knicks’ Title Defense Will Feel Like a Letdown (No Matter How it Goes)",
-      "summary": "The explosion of joy all over the world after the Knicks won the 2026 championship was a novel experience for many. Following the team as they try to defend it",
-      "author": "Matthew Miranda",
-      "published_at": "2026-09-23T17:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/why-the-knicks-title-defense-will-feel-like-a-letdown-no-matter-how-it-goes-01m36226zf9a",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_454,w_2766,h_1555/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m37cfnf1d1p2603nh0.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/why-the-knicks-title-defense-will-feel-like-a-letdown-no-matter-how-it-goes-01m36226zf9a",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-27T17:45:21.012Z"
-    },
-    {
       "id": "161f6e35858dba8d3fad",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3027,6 +3029,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_0f0cd990a843",
+      "lead_item_id": "5ce45f804a0af248a138",
+      "item_ids": [
+        "5ce45f804a0af248a138",
+        "e199f4ddf1af8ffc869c"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-28T17:15:54.000Z"
+    },
     {
       "id": "cluster_ed46480dac56",
       "lead_item_id": "ccef2eb00d117eae197f",
