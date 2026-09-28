@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T19:30:22.578Z",
+  "generated_at": "2026-09-28T19:45:20.985Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 4829,
+    "refresh_duration_ms": 6111,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -55,7 +55,7 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 6
       },
       {
         "source_key": "fox_sports_nba",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 103,
-      "missing": 8,
+      "available": 105,
+      "missing": 7,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "0c076fea71e74b7e4c1c",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwm35ilhqd22",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "LeBron James reveals he had 'visions' of finishing career with Knicks - until they won the title",
+      "published_at": "2026-09-28T19:43:14.910Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwm35ilhqd22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreido77t76chvzpldb3mvgvrcg3dg5py2blgfvuprwdctviltq45cdq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwm35ilhqd22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c85b9a52a683ac474cd4",
       "type": "social",
@@ -131,6 +166,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwlzrgbbv72s",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "6495f7f586e0a8af699a",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Spurs' Stephon Castle says Knicks crowd at MSG was 'underwhelming' in NBA Finals, OKC fans were 'way louder'",
+      "summary": "Castle thought the road environment in Oklahoma City was a different challenge than in New York City last spring",
+      "author": "Cameron Salerno",
+      "published_at": "2026-09-28T19:17:09.000Z",
+      "url": "https://www.cbssports.com/nba/news/spurs-stephon-castle-knicks-crowd-msg-underwhelming/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/09/28/ab4ac4aa-f19a-4ba0-bd5e-ae4fb9ecb061/untitled-design-1.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/spurs-stephon-castle-knicks-crowd-msg-underwhelming/"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -264,7 +320,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -474,8 +530,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 1,
-        "reposts": 1,
-        "likes": 2
+        "reposts": 2,
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -574,8 +630,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 2
+        "reposts": 1,
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -891,7 +947,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -1780,40 +1836,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "aac7bb15b6c5f72092a4",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:jsmgbe3bmfsogmseyxc2ynrr/app.bsky.feed.post/3mwjpc7kums2t",
-      "author": "FrancineNewYorkForever🏒🏀⚾️",
-      "handle": "sportlover.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:jsmgbe3bmfsogmseyxc2ynrr/bafkreih4y6q3onpwfe22cjvircmfjxhv3rwsozmmiaxzgzfwkvngalpuiu",
-      "text": "Hello Rangers and Knicks🏒🏀",
-      "published_at": "2026-09-27T21:05:48.904Z",
-      "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mwjpc7kums2t",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mwjpc7kums2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "0f766661414e8784a8d0",
