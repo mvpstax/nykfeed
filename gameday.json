@@ -1,12 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T16:00:21.248Z",
-  "source": "Highlightly NBA & NCAAB API",
-  "status": "no_game",
+  "generated_at": "2026-09-28T17:28:47.943Z",
+  "source": "NBA Knicks official 2026 preseason schedule (fixture fallback)",
+  "status": "ready",
   "season": 2026,
-  "phase": null,
-  "game": null,
-  "venue": null,
+  "phase": "preseason",
+  "game": {
+    "id": "nba:0012600023",
+    "date": "2026-10-05T23:00:00Z",
+    "season": 2026,
+    "status": "Scheduled",
+    "period": null,
+    "clock": null,
+    "home": {
+      "id": null,
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "logo": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
+      "score": null
+    },
+    "away": {
+      "id": null,
+      "name": "New York Knicks",
+      "abbreviation": "NYK",
+      "logo": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+      "score": null
+    }
+  },
+  "venue": {
+    "name": "Xfinity Mobile Arena"
+  },
   "team_comparison": null,
   "recent_form": null,
   "head_to_head": [],
@@ -16,9 +39,44 @@
   "events": [],
   "predictions": null,
   "highlights": [],
-  "storylines": [],
+  "storylines": [
+    {
+      "id": "030037e3795a5d48239a",
+      "title": "Bryson Warren, Pistons Sign Exhibit 10 Contract",
+      "summary": "The Detroit Pistons signed guard Bryson Warren to an Exhibit 10 contract. Detroit's G League affiliate, the Motor City Cruise, recently acquired Warren's G League rights. Following the NBA preseason, Warren is expected to join the Cruise for the G League season. Warren played in 28 G League games for the Westchester Knicks last season. The 6-foot-3 guard averaged 18.8 points, 2.8 rebounds, 4.9 assists and 1.2 steals per game.",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/nba_detroitpistons.jpg",
+      "source": "RealGM",
+      "published_at": "2026-09-28T12:54:47.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287438/Bryson-Warren-Pistons-Sign-Exhibit-10-Contract",
+      "relevance": "knicks_preseason",
+      "generated": false
+    },
+    {
+      "id": "6f9ab8638d45ad46cd29",
+      "title": "Knicks Notes: Brown, McBride, Training Camp",
+      "summary": "Knicks head coach Mike Brown doesn’t get enough credit for the role he played in last season’s championship run, according to assistant coach Rick Brunson. On the Locked on Knicks Squad Show (YouTube link), Brunson said Brown met with all five starters individually at the end of the regular season, when the team was struggling, […]",
+      "image_url": "https://cdn.hoopsrumors.com/files/2025/11/Mike-Brown1-900x599.jpg",
+      "source": "Hoops Rumors",
+      "published_at": "2026-09-27T19:05:43.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-brown-mcbride-training-camp.html",
+      "relevance": "knicks_preseason",
+      "generated": false
+    },
+    {
+      "id": "0edf7d41e6d91de53077",
+      "title": "Knicks sign familiar names to round out training camp roster",
+      "summary": "The Knicks filled out their training camp roster with familiar and expected names. Tyler Nickel, a second-round pick this year, and Kevin McCullar Jr., a second-round pick in 2024, were...",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/9632080ab964faffc007d51b64038be1.jpg",
+      "source": "Yahoo Sports",
+      "published_at": "2026-09-27T18:58:30.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-sign-familiar-names-round-185830413.html",
+      "relevance": "knicks_preseason",
+      "generated": false
+    }
+  ],
   "meta": {
-    "errors": []
+    "errors": [],
+    "fixture_fallback": true
   },
   "players_to_watch": []
 }
