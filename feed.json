@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T17:00:27.509Z",
+  "generated_at": "2026-09-28T17:15:19.577Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 101,
+    "item_count": 100,
     "game_count": 0,
-    "refresh_duration_ms": 4259,
+    "refresh_duration_ms": 5054,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 19
+        "items": 20
       },
       {
         "source_key": "knicks_film_school",
@@ -45,12 +45,12 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 22
+        "items": 21
       },
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,75 @@
       }
     ],
     "images": {
-      "available": 90,
+      "available": 89,
       "missing": 11,
-      "article_pages_checked": 1
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "5ecdd793d69a094436da",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwlskgzukx22",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Josh Hart: \"You don't want [contract extension talk] trickling into the season because whenever there's uncertainty, there's going to be a lot of questions…We know it's a business and we know if some of these things aren't figured out by February, it might be a",
+      "published_at": "2026-09-28T17:09:25.661Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwlskgzukx22",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibme74f3yisns6kxfxi75ohjx3ii4i5jfb3ccld67rgrnty2h7dny/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibme74f3yisns6kxfxi75ohjx3ii4i5jfb3ccld67rgrnty2h7dny/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibme74f3yisns6kxfxi75ohjx3ii4i5jfb3ccld67rgrnty2h7dny/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1350,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwlskgzukx22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "4e73d56ad95d258d76f3",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Losing Mitchell Robinson is the Knicks' Headache That Keeps Aching",
+      "summary": "After winning the title in San Antonio last June, the New York Knicks returned home to celebrate with the fans. The morning of the parade, owner James Dolan dec",
+      "author": "Matthew Miranda",
+      "published_at": "2026-09-28T17:06:22.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/losing-mitchell-robinson-is-the-knicks-headache-that-keeps-aching-01m3me8zk200",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4560,h_2565/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3med2ze2m7m22cdxr.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/losing-mitchell-robinson-is-the-knicks-headache-that-keeps-aching-01m3me8zk200",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-28T17:15:19.218Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "d59296e2d3fed741b3b4",
       "type": "social",
@@ -298,7 +359,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -1356,7 +1417,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T17:00:27.509Z",
+      "image_checked_at": "2026-09-28T17:15:19.218Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1493,29 +1554,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "afc3b30f397206243c5f",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks sign Tyler Nickel, Kevin McCullar Jr. to two-way contracts",
-      "summary": "Looking to shore up their roster ahead of Monday’s training camp, the Knicks have signed Tyler Nickel and Kevin McCullar Jr. to two-way contracts.",
-      "author": null,
-      "published_at": "2026-09-27T16:32:32.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-sign-tyler-nickel-kevin-163232839.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/d5b3b1227dcfb26c9d265e29518ff813de80ca32232b29c9c5b4c7f4bc9cd24f/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F31deca46653f51bc0ca6272a5bba665f.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-sign-tyler-nickel-kevin-163232839.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-28T07:46:03.235Z",
-      "cluster_id": "cluster_6ed7095cb03f"
     },
     {
       "id": "03a478663b6b78bbd8ea",
@@ -2496,41 +2534,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "f23deef581714c67ba5a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwev4mx2qe2e",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks face hidden risks delaying a Miles McBride trade, including injury impact and integration of a replacement. A trade may be a strategic necessity. via Sports Illustrated",
-      "published_at": "2026-09-25T23:06:45.167Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwev4mx2qe2e",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibplu6hogaybca3ahm57sadgh4nkymjbtjz7m37iov5oobssox5we",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwev4mx2qe2e",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "55948f34097ccd304625",
       "type": "article",
       "source": "Sports Illustrated",
@@ -2956,27 +2959,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "1542059ab5cb529cd0ef",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Windy: How Knicks handle KAT extension could determine franchise future",
-      "summary": "Windy: How Knicks handle KAT extension could determine franchise future",
-      "author": null,
-      "published_at": "2026-09-23T19:08:59.000Z",
-      "url": "https://www.espn.com/video/clip/_/id/49470467/how-knicks-handle-kat-extension-determine-franchise-future",
-      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0728/ss_20260728_115250930_3605615/ss_20260728_115250930_3605615.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/video/clip/_/id/49470467/how-knicks-handle-kat-extension-determine-franchise-future"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "7399d6fcd03630f7b172",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3060,11 +3042,10 @@
       "lead_item_id": "bc0383762f189ec31695",
       "item_ids": [
         "bc0383762f189ec31695",
-        "afc3b30f397206243c5f",
         "190917d8588590113318",
         "b7b35f93f9e26a847935"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "updated_at": "2026-09-27T17:36:34.000Z"
     },
     {
