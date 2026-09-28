@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T03:00:20.991Z",
+  "generated_at": "2026-09-28T03:15:19.582Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 4017,
+    "refresh_duration_ms": 4340,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 14
+        "items": 12
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 102,
+      "available": 100,
       "missing": 12,
       "article_pages_checked": 2
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "3a484a865a62bd669835",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwkde4r5s72m",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks sign 47th overall pick Tyler Nickel to two-way contract (via Yahoo Sports)",
+      "published_at": "2026-09-28T03:04:47.711Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwkde4r5s72m",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreia7de5onaketbvfdgssnbmlg2fo7qqrqc2lw564x55sbecs3oxhre",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwkde4r5s72m",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "6d252fcf8e027f209bb3",
       "type": "social",
@@ -667,7 +702,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T03:00:20.991Z",
+      "image_checked_at": "2026-09-28T03:15:19.581Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1735,7 +1770,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-28T03:00:20.991Z",
+      "image_checked_at": "2026-09-28T03:15:19.582Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -2061,27 +2096,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "bb81076e23cf7e774561",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks turn page on championship summer with complacency challenge looming at training camp",
-      "summary": "As training camp begins, Jalen Brunson and the Knicks look to overcome complacency and shift their focus back to basketball after a busy summer.",
-      "author": null,
-      "published_at": "2026-09-26T18:53:00.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-turn-page-championship-summer-185300298.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/c2ffd353fa8d664414d74384a6b84435.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-turn-page-championship-summer-185300298.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "88ba0e3c42be273bd909",
       "type": "article",
       "source": "RealGM",
@@ -2137,29 +2151,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "29471c56ba4ca46fc6fb",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns, Knicks reportedly 'tens of millions apart' in contract talks",
-      "summary": "The Knicks are trying to keep their championship core together while navigating the second apron.",
-      "author": null,
-      "published_at": "2026-09-26T17:07:46.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-knicks-reportedly-170746769.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/8a3ef0570c353bc2eefb7f389b07831cc82955955c32e4c28ba910f99faac4e1/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F26f96103200b776f08a9b43bcdd76b09.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-knicks-reportedly-170746769.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-27T17:30:22.985Z",
-      "cluster_id": "cluster_eb608b486489"
     },
     {
       "id": "35262ac060d3c9e771ae",
@@ -2790,41 +2781,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "28c5e4eb58b5e3641b57",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mweau6jccg2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks' back-to-back title bid hinges on backup center, offensive variety around Brunson and Towns, and maintaining a top-10 defense. via New York Post",
-      "published_at": "2026-09-25T17:04:06.756Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mweau6jccg2x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreia4nvsdje2ciuc4ucuduckadwr443c4s7zemz6tbr6tgwatkiann4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mweau6jccg2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "21fe0ef5a69c19e2864b",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3420,18 +3376,6 @@
       "updated_at": "2026-09-27T07:02:16.000Z"
     },
     {
-      "id": "cluster_eb608b486489",
-      "lead_item_id": "29471c56ba4ca46fc6fb",
-      "item_ids": [
-        "29471c56ba4ca46fc6fb",
-        "52db53aa5fcdaad25fdd",
-        "1add455d8ed253fdb76c",
-        "3e7c50f8f805f07e0de0"
-      ],
-      "source_count": 4,
-      "updated_at": "2026-09-26T17:07:46.000Z"
-    },
-    {
       "id": "cluster_f98fff38e51b",
       "lead_item_id": "aa86b071e7f1bc995ebc",
       "item_ids": [
@@ -3440,6 +3384,17 @@
       ],
       "source_count": 2,
       "updated_at": "2026-09-25T19:38:28.000Z"
+    },
+    {
+      "id": "cluster_eb608b486489",
+      "lead_item_id": "52db53aa5fcdaad25fdd",
+      "item_ids": [
+        "52db53aa5fcdaad25fdd",
+        "1add455d8ed253fdb76c",
+        "3e7c50f8f805f07e0de0"
+      ],
+      "source_count": 3,
+      "updated_at": "2026-09-23T21:18:51.000Z"
     }
   ]
 }
