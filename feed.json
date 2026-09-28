@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T16:00:28.016Z",
+  "generated_at": "2026-09-28T16:15:24.824Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 101,
+    "item_count": 102,
     "game_count": 0,
-    "refresh_duration_ms": 4742,
+    "refresh_duration_ms": 9861,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 18
+        "items": 19
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,13 +93,85 @@
     ],
     "images": {
       "available": 91,
-      "missing": 10,
-      "article_pages_checked": 2
+      "missing": 11,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "bb18e1a82f7d0a592c82",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwlp3fojgb2x",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "[SNY] KAT talks about the Knicks losing Mitch and signing Andre Drummond this offseason: \"I was very surprised that Mitch wasn't going to be back here with us. I think all of us were, so it was a surprise to everybody. Thought something would get done there, but like",
+      "published_at": "2026-09-28T16:07:19.711Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwlp3fojgb2x",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihv5cj4jrf5mpzgalqvkg6wnelz5axyatn3cdqobe55vqezkt3smu/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihv5cj4jrf5mpzgalqvkg6wnelz5axyatn3cdqobe55vqezkt3smu/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihv5cj4jrf5mpzgalqvkg6wnelz5axyatn3cdqobe55vqezkt3smu/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1350,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwlp3fojgb2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "1610d86dd1842e318913",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:f45rlfi5dyrxtm5gvtysyhvu/app.bsky.feed.post/3mwlozi7ffs2l",
+      "author": "Tony",
+      "handle": "tonyny.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:f45rlfi5dyrxtm5gvtysyhvu/bafkreifgvkyviyfcaktagyqn5zx4pebtogi3di7qacpsp6pl25qcyftdsq",
+      "text": "This is awesome. I still don't think Mike Brown gets enough credit for this title. Year after year I felt like the Knicks clearly got out-coached in the playoffs. This year, it felt like the Knicks had the clear coaching advantage in every series they played.",
+      "published_at": "2026-09-28T16:06:15.452Z",
+      "url": "https://bsky.app/profile/did:plc:f45rlfi5dyrxtm5gvtysyhvu/post/3mwlozi7ffs2l",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:f45rlfi5dyrxtm5gvtysyhvu/post/3mwlozi7ffs2l",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "b2ab097207bc50376382",
       "type": "social",
@@ -156,7 +228,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 14
+        "likes": 16
       },
       "team": "NYK",
       "presentation": {
@@ -331,6 +403,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "4634bdf038ff00ae1b46",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Discussion Thread: Knicks Media Day 2026",
+      "summary": "The moment you’ve been waiting for months has finally arrived, folks! After a considerably shorter offseason than we Knicks fans are accustomed to, the build-up to the 2026-27 NBA season officially begins today with Media Day. The reigning, defending, undisputed NBA champions are back together after their run to the championship, with their first press […]",
+      "author": null,
+      "published_at": "2026-09-28T13:52:49.000Z",
+      "url": "https://sports.yahoo.com/articles/discussion-thread-knicks-media-day-135249196.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/60843c686278f6adc0f39ca2e4935997.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/discussion-thread-knicks-media-day-135249196.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "03fb086286232fda8422",
       "type": "social",
       "source": "Bluesky",
@@ -352,7 +445,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -1159,7 +1252,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T16:00:27.975Z",
+      "image_checked_at": "2026-09-28T16:15:24.823Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1486,27 +1579,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_7db48c583ac8"
-    },
-    {
-      "id": "99d8d94b809eb39d3f9e",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Do the Knicks have enough frontcourt depth for title defense? 3 reasons for optimism",
-      "summary": "New York losing Mitchell Robinson stings, but could the champs actually be better off?",
-      "author": "Kevin O'Connor",
-      "published_at": "2026-09-27T15:43:47.000Z",
-      "url": "https://sports.yahoo.com/nba/article/do-the-knicks-have-enough-frontcourt-depth-for-title-defense-3-reasons-for-optimism-154347419.html",
-      "image_url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/ed-092426-nba-previews-knicks-frontcourt-better-update_3886.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/article/do-the-knicks-have-enough-frontcourt-depth-for-title-defense-3-reasons-for-optimism-154347419.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "3d68bd8bbcbc18c6d2d4",
@@ -2507,41 +2579,6 @@
       "image_checked_at": "2026-09-27T23:15:23.693Z"
     },
     {
-      "id": "3658405a5e75dae8d3a0",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwerq7qlz22p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Mikal Bridges projected as a top 25 player by the 2025-26 NBA season. via NBA",
-      "published_at": "2026-09-25T22:06:07.459Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwerq7qlz22p",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigtycwtj6cyccu5zcx4m2af6c2tc4ub256saxrtr4wruufg575miq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwerq7qlz22p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "aa86b071e7f1bc995ebc",
       "type": "article",
       "source": "ESPN",
@@ -2604,9 +2641,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/2026-27-nba-over-unders-atlantic-division.html"
       },
-      "image_checked_at": "2026-09-28T16:00:27.975Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-28T16:00:27.975Z"
     },
     {
       "id": "54e2127539cdc6baf891",
