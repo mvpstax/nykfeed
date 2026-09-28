@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T15:00:23.995Z",
+  "generated_at": "2026-09-28T15:15:58.970Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 102,
+    "item_count": 101,
     "game_count": 0,
-    "refresh_duration_ms": 4087,
+    "refresh_duration_ms": 40226,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 20
+        "items": 19
       },
       {
         "source_key": "knicks_film_school",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,84 @@
       }
     ],
     "images": {
-      "available": 92,
-      "missing": 10,
-      "article_pages_checked": 1
+      "available": 90,
+      "missing": 11,
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "8b4d35deafaee179bd72",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zgw663lwxmujmen5k4jmjair/app.bsky.feed.post/3mwllov7jzs2q",
+      "author": "dan favale",
+      "handle": "danfavale.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zgw663lwxmujmen5k4jmjair/bafkreiheejgmzt4f5tjemx2yzsscee6a4giqqmnsv66puktug3b7hsipnm",
+      "text": "11/10 photo for this og anunoby quote. absolutely no notes.",
+      "published_at": "2026-09-28T15:06:38.763Z",
+      "url": "https://bsky.app/profile/did:plc:zgw663lwxmujmen5k4jmjair/post/3mwllov7jzs2q",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zgw663lwxmujmen5k4jmjair/bafkreib3ng2k2cho24i2om4boikd65zkpsqux4jgcohkpe6qyvrp4qwzia",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 4
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zgw663lwxmujmen5k4jmjair/post/3mwllov7jzs2q",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "8b09883a9218e82902d6",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwllkvfsoa2p",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "What to expect at Knicks’ NBA media day: Jalen Brunson’s wrist update, KAT and an extension (via The New York Times)",
+      "published_at": "2026-09-28T15:04:24.541Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwllkvfsoa2p",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibpt4k6dqdpnjpsn5t72w737pojhw25fxo2qwxljyibrf622zpkpu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwllkvfsoa2p",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "b6ea1cc2958929ba2abf",
       "type": "social",
@@ -179,7 +250,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -1055,7 +1126,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T15:00:23.994Z",
+      "image_checked_at": "2026-09-28T15:15:48.835Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1425,8 +1496,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 2,
-        "likes": 10
+        "reposts": 3,
+        "likes": 11
       },
       "team": "NYK",
       "presentation": {
@@ -1494,41 +1565,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_6ed7095cb03f"
-    },
-    {
-      "id": "ed851d0fa3044d01ff62",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mwizjgokr52z",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "BREAKING NEWS: \n\nThe Knicks announce that Kevin McCullar Jr. & Tyler Nickel have both been signed to two-way contracts.",
-      "published_at": "2026-09-27T14:36:08.907Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwizjgokr52z",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreig7lvxfcbbfa2krtfgdjgmh5l5xa4ncn4luyuwj5b5m55p4vg2jdi",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 4,
-        "likes": 13
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwizjgokr52z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "b7b35f93f9e26a847935",
@@ -2145,7 +2181,7 @@
       "author": "Steven Simineri",
       "published_at": "2026-09-26T15:00:01.000Z",
       "url": "https://www.si.com/nba/knicks/onsi/knicks-could-be-strong-match-johni-broome-after-his-release-01m3d3h4pn0b",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_6608,h_3717/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3d5kedmdqghbjfndv.jpg",
+      "image_url": null,
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
@@ -2154,9 +2190,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-could-be-strong-match-johni-broome-after-his-release-01m3d3h4pn0b",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-27T15:00:48.193Z"
+      "image_checked_at": "2026-09-28T15:15:48.836Z",
+      "image_status": "fetch_failed",
+      "image_error": "HTTP 504"
     },
     {
       "id": "fc1703d169086bf2e7f2",
@@ -2501,41 +2537,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwerq7qlz22p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "ed7b22efec45f976fc72",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mweo7kpuaw2u",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks are exploring trade options for Pacome Dadiet to address a roster crunch. Reports indicate Dadiet has \"no value\" and may require draft capital to move. via Yahoo Sports",
-      "published_at": "2026-09-25T21:03:07.306Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mweo7kpuaw2u",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreidvt6xoy27lmes55wpewi2lmppuwpkcjrlv6xtqf2yatnbovxeomm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mweo7kpuaw2u",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3008,29 +3009,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-27T16:15:44.619Z"
-    },
-    {
-      "id": "824014418f756c77146c",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "3 Knicks Whose Roles Are Likely to Change in 2026-27",
-      "summary": "Here's a look at which Knicks' roles could change once the 2026-27 NBA regular season begins, including two of the most important players on the team.",
-      "author": "Matthew Miranda",
-      "published_at": "2026-09-23T11:00:02.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/3-knicks-whose-roles-are-likely-to-change-in-2026-27-01m2v4hd1msa",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_808,y_66,w_3188,h_1793/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m2v4mazanrcwyrrn4a.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/3-knicks-whose-roles-are-likely-to-change-in-2026-27-01m2v4hd1msa",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-28T14:30:46.090Z"
     },
     {
       "id": "976231a87107ef8fe25d",
