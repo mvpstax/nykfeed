@@ -7,6 +7,106 @@ const SEASON = NOW.getUTCMonth() >= 6 ? NOW.getUTCFullYear() : NOW.getUTCFullYea
 const OUT = process.env.GAMEDAY_OUTPUT || 'gameday.json';
 const RETRYABLE = new Set([429, 500, 502, 503, 504]);
 
+// Fixtures verified against the official Knicks 2026 preseason schedule.
+// They provide a matchup preview until Highlightly publishes the game.
+const KNICKS = {
+  abbreviation: 'NYK',
+  displayName: 'New York Knicks',
+  name: 'Knicks',
+  logo: 'https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg',
+};
+
+const PRESEASON_2026 = [
+  {
+    id: '0012600023',
+    date: '2026-10-05T23:00:00Z',
+    home: {
+      abbreviation: 'PHI',
+      displayName: 'Philadelphia 76ers',
+      name: '76ers',
+      logo: 'https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg',
+    },
+    venue: 'Xfinity Mobile Arena',
+  },
+  {
+    id: '0012600035',
+    date: '2026-10-08T23:30:00Z',
+    home: KNICKS,
+    away: {
+      abbreviation: 'WAS',
+      displayName: 'Washington Wizards',
+      name: 'Wizards',
+      logo: 'https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg',
+    },
+    venue: 'Madison Square Garden',
+  },
+  {
+    id: '0012600043',
+    date: '2026-10-12T23:30:00Z',
+    home: KNICKS,
+    away: {
+      abbreviation: 'MIN',
+      displayName: 'Minnesota Timberwolves',
+      name: 'Timberwolves',
+      logo: 'https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg',
+    },
+    venue: 'Madison Square Garden',
+  },
+  {
+    id: '0012600046',
+    date: '2026-10-13T23:00:00Z',
+    home: {
+      abbreviation: 'TOR',
+      displayName: 'Toronto Raptors',
+      name: 'Raptors',
+      logo: 'https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg',
+    },
+    venue: 'Scotiabank Arena',
+  },
+  {
+    id: '0012600055',
+    date: '2026-10-15T23:30:00Z',
+    home: KNICKS,
+    away: {
+      abbreviation: 'TOR',
+      displayName: 'Toronto Raptors',
+      name: 'Raptors',
+      logo: 'https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg',
+    },
+    venue: 'Madison Square Garden',
+  },
+];
+
+function preseasonFallback(now) {
+  const next = PRESEASON_2026.find(
+    fixture => Date.parse(fixture.date) > now.getTime()
+  );
+  if (!next) return null;
+
+  const team = value => ({
+    id: null,
+    name: value.displayName,
+    abbreviation: value.abbreviation,
+    logo: value.logo,
+    score: null,
+  });
+
+  return {
+    game: {
+      id: `nba:${next.id}`,
+      date: next.date,
+      season: 2026,
+      status: 'Scheduled',
+      period: null,
+      clock: null,
+      home: team(next.home),
+      away: team(next.away || KNICKS),
+    },
+    venue: { name: next.venue },
+    opponent: next.home === KNICKS ? next.away : next.home,
+  };
+}
+
 async function jsonFile(path) {
   try {
     return JSON.parse(await readFile(path, 'utf8'));
@@ -75,7 +175,6 @@ function isLive(game) {
 
 function score(game, side) {
   const pieces = game?.state?.score?.[side];
-
   return Array.isArray(pieces) && pieces.length
     ? pieces.reduce((total, value) => total + (Number(value) || 0), 0)
     : null;
@@ -151,14 +250,9 @@ function totals(value) {
 }
 
 function previews(feed, opponent, now = NOW) {
-  const terms = [
-    ...new Set(
-      [opponent?.name, opponent?.displayName].filter(
-        value => typeof value === 'string' && value.length > 3
-      )
-    ),
-  ];
-
+  const name = opponent?.name || '';
+  const full = opponent?.displayName || '';
+  const terms = [...new Set([name, full].filter(value => value.length > 3))];
   const cutoff = now.getTime() - 21 * 86400000;
 
   return (feed?.items || [])
@@ -172,7 +266,6 @@ function previews(feed, opponent, now = NOW) {
       const mentionsOpponent = terms.some(term =>
         copy.toLowerCase().includes(term.toLowerCase())
       );
-
       const relevant =
         mentionsOpponent ||
         /preseason|training camp|rotation|starting lineup|season preview/i.test(
@@ -250,8 +343,15 @@ export async function buildGameDay({
   );
 
   const game = recentGames([...unique.values()], now)[0] || null;
+  const fallback = preseasonFallback(now);
 
-  const output = {
+  const useFallback =
+    fallback &&
+    (!game ||
+      (Date.parse(game.date) > now.getTime() &&
+        Date.parse(fallback.game.date) < Date.parse(game.date)));
+
+  const document = {
     schema_version: 1,
     generated_at: now.toISOString(),
     source: 'Highlightly NBA & NCAAB API',
@@ -273,9 +373,22 @@ export async function buildGameDay({
     meta: { errors },
   };
 
-  if (!game) return output;
+  if (useFallback || !game) {
+    if (useFallback) {
+      document.status = 'ready';
+      document.source =
+        'NBA Knicks official 2026 preseason schedule (fixture fallback)';
+      document.phase = 'preseason';
+      document.game = fallback.game;
+      document.venue = fallback.venue;
+      document.storylines = previews(feed, fallback.opponent, now);
+      document.meta.fixture_fallback = true;
+    }
 
-  output.phase =
+    return document;
+  }
+
+  document.phase =
     SEASON === 2026 &&
     Date.parse(game.date) < Date.parse('2026-10-20T00:00:00-04:00')
       ? 'preseason'
@@ -284,7 +397,6 @@ export async function buildGameDay({
   const knicks = isKnicks(game.homeTeam)
     ? game.homeTeam
     : game.awayTeam;
-
   const opponent = isKnicks(game.homeTeam)
     ? game.awayTeam
     : game.homeTeam;
@@ -292,15 +404,13 @@ export async function buildGameDay({
   const knicksId = idOf(knicks);
   const opponentId = idOf(opponent);
 
-  output.storylines = previews(feed, opponent, now);
+  document.storylines = previews(feed, opponent, now);
 
   const sameGame = previous?.game?.id === String(game.id);
-
   const staticFresh =
     sameGame &&
     Number.isFinite(Date.parse(previous.meta?.static_updated_at)) &&
-    now.getTime() -
-      Date.parse(previous.meta.static_updated_at) <
+    now.getTime() - Date.parse(previous.meta.static_updated_at) <
       18 * 3600000;
 
   const nearGame =
@@ -334,16 +444,16 @@ export async function buildGameDay({
 
     ...(nearGame ? [['lineups', `/lineups/${game.id}`]] : []),
 
-    ...(isLive(game) || isFinished(game)
-      ? [
+    ...(!isLive(game) && !isFinished(game)
+      ? []
+      : [
           ['box score', `/box-score/${game.id}`],
           [
             'highlights',
             '/highlights',
             { matchId: game.id, limit: 20 },
           ],
-        ]
-      : []),
+        ]),
   ];
 
   const results = await Promise.all(
@@ -356,17 +466,15 @@ export async function buildGameDay({
   const result = Object.fromEntries(results);
   const detail = one(result.detail);
 
-  output.venue =
+  document.venue =
     detail?.venue || (sameGame ? previous.venue : null) || null;
-
-  output.game_statistics = detail?.matchStatistics || null;
-  output.events = Array.isArray(detail?.events)
+  document.game_statistics = detail?.matchStatistics || null;
+  document.events = Array.isArray(detail?.events)
     ? detail.events.slice(-30)
     : [];
+  document.predictions = detail?.predictions || null;
 
-  output.predictions = detail?.predictions || null;
-
-  output.team_comparison = {
+  document.team_comparison = {
     label: `Games since Oct 1, ${SEASON - 1}`,
     knicks: staticFresh
       ? previous.team_comparison?.knicks ?? null
@@ -376,30 +484,30 @@ export async function buildGameDay({
       : totals(result['opponent stats']),
   };
 
-  output.recent_form = staticFresh
+  document.recent_form = staticFresh
     ? previous.recent_form
     : {
         knicks: rows(result['knicks form']).map(compactGame),
         opponent: rows(result['opponent form']).map(compactGame),
       };
 
-  output.head_to_head = staticFresh
+  document.head_to_head = staticFresh
     ? previous.head_to_head || []
     : rows(result['head to head']).map(compactGame);
 
-  output.lineups = result.lineups
+  document.lineups = result.lineups
     ? one(result.lineups)
     : sameGame
       ? previous.lineups
       : null;
 
-  output.box_score = result['box score']
+  document.box_score = result['box score']
     ? rows(result['box score'])
     : sameGame
       ? previous.box_score
       : null;
 
-  output.highlights = result.highlights
+  document.highlights = result.highlights
     ? rows(result.highlights).map(highlight => ({
         id: String(highlight.id),
         title: highlight.title,
@@ -413,11 +521,11 @@ export async function buildGameDay({
       ? previous.highlights || []
       : [];
 
-  output.meta.static_updated_at = staticFresh
+  document.meta.static_updated_at = staticFresh
     ? previous.meta.static_updated_at
     : now.toISOString();
 
-  return output;
+  return document;
 }
 
 if (
@@ -468,7 +576,6 @@ if (
       process.exitCode = 1;
     } else {
       await writeFile(OUT, JSON.stringify(data, null, 2) + '\n');
-
       console.log(
         `Wrote ${OUT}: ${data.status}${
           data.game
