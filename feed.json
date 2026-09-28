@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T13:00:23.296Z",
+  "generated_at": "2026-09-28T13:15:23.670Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 3788,
+    "refresh_duration_ms": 6830,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -93,13 +93,83 @@
     ],
     "images": {
       "available": 96,
-      "missing": 13,
+      "missing": 12,
       "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "03fb086286232fda8422",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zxkvgvplqecxcnkpuayzllcw/app.bsky.feed.post/3mwlfejwy7c2q",
+      "author": "Mecca 🏆🏆🏆",
+      "handle": "themecca.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zxkvgvplqecxcnkpuayzllcw/bafkreiaaqcwdvltzi56pg7twyrtx4lziggs2ujtfxsuykobrozvp2pqgnu",
+      "text": "Breaking: Today is Knicks media day",
+      "published_at": "2026-09-28T13:13:28.944Z",
+      "url": "https://bsky.app/profile/did:plc:zxkvgvplqecxcnkpuayzllcw/post/3mwlfejwy7c2q",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zxkvgvplqecxcnkpuayzllcw/bafkreidsqalelusug4ynomearlgf6hmiraqo5pjbv4egsz4bs7ybaen7ka",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zxkvgvplqecxcnkpuayzllcw/post/3mwlfejwy7c2q",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "486a240ed9d51fa58292",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwleuu6fn22m",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "One Knicks Trade Target Who Would Make Moving Miles McBride Worth It (via Sports Illustrated)",
+      "published_at": "2026-09-28T13:04:42.604Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwleuu6fn22m",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreichp7lxj4brcfqcprer2t2ogry5jx4yuhkzqawo22r4w5wqwnwowq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwleuu6fn22m",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "3a4509c0e62f1882b6ea",
       "type": "social",
@@ -212,7 +282,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_4dcaf9ac0355"
+      "cluster_id": "cluster_ed46480dac56"
     },
     {
       "id": "3a484a865a62bd669835",
@@ -816,7 +886,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T13:00:23.296Z",
+      "image_checked_at": "2026-09-28T13:15:23.670Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1694,7 +1764,7 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T07:30:20.803Z",
-      "cluster_id": "cluster_4dcaf9ac0355"
+      "cluster_id": "cluster_ed46480dac56"
     },
     {
       "id": "eebdf12be09fc25794c9",
@@ -1730,40 +1800,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "a871f200e86dd893447b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mwhzggv5hs2p",
-      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
-      "handle": "kingfitch1990.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreic4vz32ry26rc77lgmxyxlx62kjl6eapdko3s2d3vnfl2o5gz56ai",
-      "text": "Host Jalen Brunson gets assists from Karl-Anthony Towns, OG Anunoby and more during monologue  espn.com/app",
-      "published_at": "2026-09-27T05:01:48.738Z",
-      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwhzggv5hs2p",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwhzggv5hs2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "5af8994cb89c5bb257eb",
@@ -1827,7 +1863,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-28T13:00:23.296Z",
+      "image_checked_at": "2026-09-28T13:15:23.670Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1865,28 +1901,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "0958f23a119f1d4d9889",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "SNL Thread: Join us in watching Jalen Brunson host tonight!",
-      "summary": "Jalen shouldn’t feel too much pressure to be funny. The cast certainly doesn’t.",
-      "author": null,
-      "published_at": "2026-09-27T03:00:00.000Z",
-      "url": "https://www.yahoo.com/entertainment/tv/articles/snl-thread-join-us-watching-030000267.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/656edde82667f1d871beda80c9a1f768.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.yahoo.com/entertainment/tv/articles/snl-thread-join-us-watching-030000267.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4dcaf9ac0355"
     },
     {
       "id": "ffb6b8c1381d772db28d",
@@ -2740,41 +2754,6 @@
       "cluster_id": "cluster_f98fff38e51b"
     },
     {
-      "id": "75ef26993c1f71023adf",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mweeeu5oph2c",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Jalen Brunson fully cleared for Knicks training camp after offseason wrist surgery. He will lead the team's championship defense. via Yahoo Sports",
-      "published_at": "2026-09-25T18:07:07.549Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mweeeu5oph2c",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreih5kg4xgr3lirfc2ic4lczqv6m7djch6oimiedt7qtwib4dlkqxau",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mweeeu5oph2c",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "21fe0ef5a69c19e2864b",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3291,14 +3270,13 @@
   ],
   "clusters": [
     {
-      "id": "cluster_4dcaf9ac0355",
+      "id": "cluster_ed46480dac56",
       "lead_item_id": "ccef2eb00d117eae197f",
       "item_ids": [
         "ccef2eb00d117eae197f",
-        "fdc8781b54358e4697d3",
-        "0958f23a119f1d4d9889"
+        "fdc8781b54358e4697d3"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "updated_at": "2026-09-28T10:56:55.000Z"
     },
     {
