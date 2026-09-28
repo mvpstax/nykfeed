@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T23:15:46.882Z",
+  "generated_at": "2026-09-28T23:30:20.934Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 29762,
+    "refresh_duration_ms": 5303,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,46 @@
     "images": {
       "available": 114,
       "missing": 6,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ef7b7b26d08154a69f03",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwmh4hy4w22f",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "I honestly don't get this. Is the point that the Knicks are beneath them? Because...scoreboard.",
+      "published_at": "2026-09-28T23:17:25.680Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwmh4hy4w22f",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 2,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwmh4hy4w22f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "ec70c8f9eb999fa8449a",
       "type": "social",
@@ -468,9 +501,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 2,
+        "replies": 3,
         "reposts": 0,
-        "likes": 7
+        "likes": 8
       },
       "team": "NYK",
       "presentation": {
@@ -877,6 +910,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwlyv6eihw2l",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "7ef777169bdfdc1307be",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Josh Hart trolls Jalen Brunson over ‘SNL’ performance",
+      "summary": "Josh Hart didn't sugarcoat a thing.",
+      "author": null,
+      "published_at": "2026-09-28T19:01:10.000Z",
+      "url": "https://sports.yahoo.com/articles/josh-hart-trolls-jalen-brunson-190110778.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/0b0de7142f48000c0934dc0db4e23391.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/josh-hart-trolls-jalen-brunson-190110778.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1291,7 +1345,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1584,7 +1638,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1771,40 +1825,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "b6ea1cc2958929ba2abf",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:6y3zulpfknfey5qemwhc4frl/app.bsky.feed.post/3mwljejnafc2s",
-      "author": "James L. Edwards III",
-      "handle": "jledwardsiii.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:6y3zulpfknfey5qemwhc4frl/bafkreifhtnxhta5dy2tekna4lqrvlxjwyim4e2fvat5bxdfhr7o5qqjmze",
-      "text": "Jalen Brunson on injury: \"It was painful. I played through it. I did what I had to do to make sure I was right. I didn't think I needed surgery. If that was case, I would have maybe done it sooner. I feel good. We'll see.\"",
-      "published_at": "2026-09-28T14:25:03.601Z",
-      "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3mwljejnafc2s",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 9
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3mwljejnafc2s",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "f61291d702c5a9cf89f7",
@@ -3182,9 +3202,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-face-hidden-risk-longer-delay-miles-mcbride-trade-01m3ag00dcs2",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-28T23:15:46.544Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-28T23:15:46.544Z"
     },
     {
       "id": "aa86b071e7f1bc995ebc",
@@ -3565,28 +3585,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T16:30:23.229Z"
-    },
-    {
-      "id": "976231a87107ef8fe25d",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Atlantic Notes: Barrett, Raptors, Sixers, Knicks",
-      "summary": "Raptors forward RJ Barrett, who was traded from New York to Toronto during the 2023/24 season, admitted in an interview with Donnovan Bennett of CBC Sports (YouTube link) that he felt “a little salty” watching his old team win a championship last season. However, Barrett stressed that he’s happy for his former Knicks teammates. “If […]",
-      "author": "Luke Adams",
-      "published_at": "2026-09-22T13:03:03.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/RJ-Barrett-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
-      },
-      "image_checked_at": "2026-09-28T23:15:46.545Z",
-      "image_source": "og:image",
-      "image_status": "available"
     }
   ],
   "clusters": [
