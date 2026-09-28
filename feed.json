@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T12:45:19.116Z",
+  "generated_at": "2026-09-28T13:00:23.296Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 4554,
+    "refresh_duration_ms": 3788,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 24
+        "items": 25
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 95,
+      "available": 96,
       "missing": 13,
       "article_pages_checked": 2
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "3a4509c0e62f1882b6ea",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:j4spygbxn74y4dx2qejadwvk/app.bsky.feed.post/3mwlef6ltik2t",
+      "author": "Adam Zagoria",
+      "handle": "adamzagoria.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreihphjbhoytwx4l4nqhz5xg32puaysk7grujsxk4ryscwxv3lqmqoq",
+      "text": "The Knicks yesterday announced they signed former Kansas standout Kevin McCullar Jr. and Tyler Nickel, who played at UNC, Va Tech and Vandy, to Two-Way Contracts",
+      "published_at": "2026-09-28T12:55:56.865Z",
+      "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwlef6ltik2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreiepzkuly7rtpqa56noi5s2l64q7ey3p2lcae4625bfykubvoefupy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwlef6ltik2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "7f30fe3d6f37b1c84693",
       "type": "social",
@@ -781,7 +816,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T12:45:19.116Z",
+      "image_checked_at": "2026-09-28T13:00:23.296Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1792,7 +1827,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/see-jalen-brunson-brings-knicks-035939675.html"
       },
-      "image_checked_at": "2026-09-28T12:45:19.116Z",
+      "image_checked_at": "2026-09-28T13:00:23.296Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
