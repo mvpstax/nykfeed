@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T18:15:19.591Z",
+  "generated_at": "2026-09-28T18:30:24.475Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 102,
+    "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 5361,
+    "refresh_duration_ms": 4799,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "espn",
@@ -55,7 +55,7 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "fox_sports_nba",
@@ -92,14 +92,135 @@
       }
     ],
     "images": {
-      "available": 92,
+      "available": 96,
       "missing": 10,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "6056bff553e4bfaa85d8",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Karl-Anthony Towns contract negotiations show how difficult it will be for Knicks to keep title core together",
+      "summary": "Towns, a centerpiece of the Knicks' championship run, is entering the final guaranteed year of his deal",
+      "author": "Sam Quinn",
+      "published_at": "2026-09-28T18:28:46.000Z",
+      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/09/24/eeb1d8b9-6620-4be3-b7b3-79d354a7e679/kat-contract-getty.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "7b22659a3254919d8d1e",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks’ Towns, Hart Address Extension Talks At Media Day",
+      "summary": "At Monday’s media day, Knicks center Karl-Anthony Towns was asked about a potential contract extension, per James L. Edwards III of The Athletic (Twitter link). “I’ve made it known that I want to play here; I’ve been a fan since a kid,” Towns said. “I would like to get one done. I’d like to get […]",
+      "author": "Rory Maher",
+      "published_at": "2026-09-28T18:21:56.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/knicks-towns-hart-address-extension-talks-at-media-day.html",
+      "image_url": "https://www.hoopsrumors.com/files/2026/09/Karl-Anthony-Towns-Josh-Hart-300x200.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/knicks-towns-hart-address-extension-talks-at-media-day.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_9fb9cb16f75d"
+    },
+    {
+      "id": "d108d11c8b9ca40c2912",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mwlwlmjoux2h",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "REPORT: Per Dave McMenamin (@mcten), Lebron James planned to join the Knicks & finish his career playing in The Garden, until they won the NBA title.\n\nHe instead settled for the 76ers, who were eliminated by the Knicks in a 4-game sweep last playoffs.",
+      "published_at": "2026-09-28T18:21:40.133Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwlwlmjoux2h",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreihxzpacngglcskc357nssrcgunzaar3e4i47smqjeu3almskto4ce",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwlwlmjoux2h",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "88566c6939e10b5dbe7e",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "LeBron James confirms he nearly joined the Knicks, will live part-time in New York while playing for 76ers",
+      "summary": "James, who made his public debut in a 76ers jersey on Monday, likely would have signed with the Knicks if they hadn't won it all in June",
+      "author": "Robby Kalland",
+      "published_at": "2026-09-28T18:18:36.000Z",
+      "url": "https://www.cbssports.com/nba/news/lebron-james-knicks-live-new-york-76ers/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/09/28/9e5c9daa-a2a2-4f32-ab3c-cc507694ceb7/lebron-knicks-getty.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/lebron-james-knicks-live-new-york-76ers/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "42cf5955a0bb1fe40925",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "LeBron James Says He Planned To Join Knicks Before Their Title Run",
+      "summary": "LeBron James revealed he planned to sign with the New York Knicks before they won the NBA championship in June, ending a 53-year title drought. James spoke to ESPN on Monday during the Philadelphia 76ers' annual media day. James said his final decision came down to five teams in the 76ers, Cleveland Cavaliers, Golden State Warriors, Miami Heat and Minnesota Timberwolves. The Knicks did not make that list, but he had envisioned finishing his career in New York. \"I had visions of playing in [Madison Square] Garden and finishing my career in the Garden,\" said James. \"One of the best places I've ever played. \"I think it's the No. 1 arena in the world, as far as for a basketball player. But after they beat San Antonio, I was like, 'Hey, I can't.' I couldn't do it.\" James said the potential backlash from joining a newly crowned champion made the idea a nonstarter. \"Y'all wouldn't have let me lay that down, at all,\" said James, referring to the media at large. \"But much respect to the Knicks, obviously. An unbelievable team, unbelievable players. Shout out [Jalen Brunson]. I love that guy, he's unbelievable. But, yeah, I'm happy where I'm at, and I'm looking forward to it.\" The Knicks swept the 76ers in the second round in May, winning by an average of 22.3 points per game. James will play at the Garden twice in the regular season, on opening night Oct. 20 and again Feb. 27. James said he plans to split his time between New York and Philadelphia. \"Both,\" said James. \"Multiple residences.\"",
+      "author": null,
+      "published_at": "2026-09-28T18:09:08.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287442/LeBron-James-Says-He-Planned-To-Join-Knicks-Before-Their-Title-Run",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/James_LeBron_lal_251120.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287442/LeBron-James-Says-He-Planned-To-Join-Knicks-Before-Their-Title-Run"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_0f0cd990a843"
+    },
     {
       "id": "a2887163b67e3f673e94",
       "type": "social",
@@ -122,7 +243,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -212,9 +333,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/summer-adoration-knicks-back-business-180017029.html"
       },
-      "image_checked_at": "2026-09-28T18:15:19.495Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-28T18:15:19.495Z"
     },
     {
       "id": "8a58154d84648cf0ef60",
@@ -237,29 +358,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-28T17:45:24.358Z"
-    },
-    {
-      "id": "e199f4ddf1af8ffc869c",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "LeBron James says he envisioned joining Knicks as free agent",
-      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer but nixed the idea after New York won the NBA title.",
-      "author": "Dave McMenamin",
-      "published_at": "2026-09-28T17:35:15.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
-      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_7bed4847b7a1"
+      "image_checked_at": "2026-09-28T17:45:24.358Z",
+      "cluster_id": "cluster_9fb9cb16f75d"
     },
     {
       "id": "5ce45f804a0af248a138",
@@ -282,7 +382,7 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T17:30:22.866Z",
-      "cluster_id": "cluster_7bed4847b7a1"
+      "cluster_id": "cluster_0f0cd990a843"
     },
     {
       "id": "5ecdd793d69a094436da",
@@ -344,6 +444,28 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T17:15:19.218Z"
+    },
+    {
+      "id": "e199f4ddf1af8ffc869c",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "LeBron James says he envisioned joining Knicks as free agent",
+      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer, but nixed the idea after New York won the NBA title.",
+      "author": "Dave McMenamin",
+      "published_at": "2026-09-28T17:00:00.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
+      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_0f0cd990a843"
     },
     {
       "id": "d59296e2d3fed741b3b4",
@@ -1618,9 +1740,6 @@
         "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwjd7bdges26",
         "render_mode": "native_social_card"
       },
-      "also_reported_by": [
-        "Bluesky"
-      ],
       "image_status": "not_provided"
     },
     {
@@ -2764,27 +2883,6 @@
       "image_checked_at": "2026-09-28T00:30:21.649Z"
     },
     {
-      "id": "6056bff553e4bfaa85d8",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Karl-Anthony Towns contract negotiations show how difficult it will be for Knicks to keep title core together",
-      "summary": "Towns, a centerpiece of the Knicks' championship run, is entering the final guaranteed year of his deal",
-      "author": "Sam Quinn",
-      "published_at": "2026-09-24T21:19:43.000Z",
-      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/09/24/eeb1d8b9-6620-4be3-b7b3-79d354a7e679/kat-contract-getty.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-contract-negotiations/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "3cd752c983d4bc05a98d",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3076,14 +3174,25 @@
   ],
   "clusters": [
     {
-      "id": "cluster_7bed4847b7a1",
-      "lead_item_id": "e199f4ddf1af8ffc869c",
+      "id": "cluster_9fb9cb16f75d",
+      "lead_item_id": "7b22659a3254919d8d1e",
       "item_ids": [
-        "e199f4ddf1af8ffc869c",
-        "5ce45f804a0af248a138"
+        "7b22659a3254919d8d1e",
+        "8a58154d84648cf0ef60"
       ],
       "source_count": 2,
-      "updated_at": "2026-09-28T17:35:15.000Z"
+      "updated_at": "2026-09-28T18:21:56.000Z"
+    },
+    {
+      "id": "cluster_0f0cd990a843",
+      "lead_item_id": "42cf5955a0bb1fe40925",
+      "item_ids": [
+        "42cf5955a0bb1fe40925",
+        "5ce45f804a0af248a138",
+        "e199f4ddf1af8ffc869c"
+      ],
+      "source_count": 3,
+      "updated_at": "2026-09-28T18:09:08.000Z"
     },
     {
       "id": "cluster_ed46480dac56",
