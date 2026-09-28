@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T22:00:26.814Z",
+  "generated_at": "2026-09-28T22:15:22.022Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 117,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 4278,
+    "refresh_duration_ms": 5101,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 110,
+      "available": 112,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -100,6 +100,98 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "dcbe7514d8ba31a8c925",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwmd722ras2f",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Miles McBride on not signing extension with Knicks: 'I'm a little disappointed' (via Yahoo Sports)",
+      "published_at": "2026-09-28T22:07:16.597Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmd722ras2f",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibcwnvaba24nfe4s4recunnutlnxeip77e5f5bedj77ckl3impasq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmd722ras2f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "bc2adba018f006ca3b58",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:fdpfucsmqcwjwvjvujyqxlxx/app.bsky.feed.post/3mwmctnccfs2n",
+      "author": "Mike Vaccaro",
+      "handle": "mikevacc.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreieimrayaipe3f2oaknywlhulonr4hnfkzmb5lsmnqiefclyskeaca",
+      "text": "Column: as the #Knicks reassemble to defend a championship for the first time in 53 years, it is a day to squeeze a few last drops out of a glorious summer before pondering the sobering potential realities in this Age of the Apron. nypost.com/2026/09/28/s...",
+      "published_at": "2026-09-28T22:00:54.298Z",
+      "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwmctnccfs2n",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreibjns55t2euonxt46wqrhea52od7r4dwjvzuvcgo3hyfl5ytikhwy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwmctnccfs2n",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "81513bdfb00c576236fb",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Karl-Anthony Towns, Josh Hart extension talk turning Knicks vibes from immaculate to ominous",
+      "summary": "The Knicks should be flying high in defense of their NBA title. Instead, they are facing questions about extensions, aprons and keeping the band together.",
+      "author": "Dan Devine",
+      "published_at": "2026-09-28T21:56:51.000Z",
+      "url": "https://sports.yahoo.com/nba/article/karl-anthony-towns-josh-hart-extension-talk-turning-knicks-vibes-from-immaculate-to-ominous-215651874.html",
+      "image_url": "https://d29szjachogqwa.cloudfront.net/images/2026-09/c5e7deb7-2990-4150-89db-0c465d01cb22",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/nba/article/karl-anthony-towns-josh-hart-extension-talk-turning-knicks-vibes-from-immaculate-to-ominous-215651874.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_606085c49015"
+    },
     {
       "id": "4010d5a80b22760c6468",
       "type": "social",
@@ -206,6 +298,28 @@
       "image_source": "source_feed"
     },
     {
+      "id": "e199f4ddf1af8ffc869c",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "LeBron James says he envisioned joining Knicks as free agent",
+      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer but nixed the idea after New York won the NBA title.",
+      "author": "Dave McMenamin",
+      "published_at": "2026-09-28T21:28:25.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
+      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_7bed4847b7a1"
+    },
+    {
       "id": "36f8cdde781a6d6853c3",
       "type": "social",
       "source": "Bluesky",
@@ -227,7 +341,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 1
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -296,7 +410,7 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
+        "reposts": 1,
         "likes": 0
       },
       "team": "NYK",
@@ -769,7 +883,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_9fb9cb16f75d"
+      "cluster_id": "cluster_ab9822276327"
     },
     {
       "id": "af2d452da13f53c1dab3",
@@ -902,7 +1016,8 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-towns-hart-address-extension-talks-at-media-day.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_606085c49015"
     },
     {
       "id": "d108d11c8b9ca40c2912",
@@ -959,7 +1074,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_9fb9cb16f75d"
+      "cluster_id": "cluster_ab9822276327"
     },
     {
       "id": "88566c6939e10b5dbe7e",
@@ -1121,28 +1236,6 @@
       "image_checked_at": "2026-09-28T18:15:19.495Z"
     },
     {
-      "id": "e199f4ddf1af8ffc869c",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "LeBron James says he envisioned joining Knicks as free agent",
-      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer but nixed the idea after New York won the NBA title.",
-      "author": "Dave McMenamin",
-      "published_at": "2026-09-28T17:53:13.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
-      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_7bed4847b7a1"
-    },
-    {
       "id": "8a58154d84648cf0ef60",
       "type": "article",
       "source": "Sports Illustrated",
@@ -1163,8 +1256,7 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-28T17:45:24.358Z",
-      "cluster_id": "cluster_9fb9cb16f75d"
+      "image_checked_at": "2026-09-28T17:45:24.358Z"
     },
     {
       "id": "5ce45f804a0af248a138",
@@ -2967,41 +3059,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "8a51dc4ca366f076a2ec",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwgdwmlzxp2l",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks' recent moves hint at early trust in Andre Drummond as their secondary big. Wiseman and Eubanks signings solidify backup center depth. via Sports Illustrated",
-      "published_at": "2026-09-26T13:04:29.356Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwgdwmlzxp2l",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreidpquvqoa2vp4lhzfcadvy6bspv523wme7swfdozv4vvw2pefzqpi",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwgdwmlzxp2l",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c47fca667f118e64da65",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3497,26 +3554,35 @@
   ],
   "clusters": [
     {
-      "id": "cluster_9fb9cb16f75d",
-      "lead_item_id": "06046319998ef738d94a",
+      "id": "cluster_606085c49015",
+      "lead_item_id": "81513bdfb00c576236fb",
       "item_ids": [
-        "06046319998ef738d94a",
-        "e3f6839eb57540efd071",
-        "8a58154d84648cf0ef60"
+        "81513bdfb00c576236fb",
+        "7b22659a3254919d8d1e"
       ],
-      "source_count": 3,
-      "updated_at": "2026-09-28T18:41:22.000Z"
+      "source_count": 2,
+      "updated_at": "2026-09-28T21:56:51.000Z"
     },
     {
       "id": "cluster_7bed4847b7a1",
-      "lead_item_id": "42cf5955a0bb1fe40925",
+      "lead_item_id": "e199f4ddf1af8ffc869c",
       "item_ids": [
-        "42cf5955a0bb1fe40925",
         "e199f4ddf1af8ffc869c",
+        "42cf5955a0bb1fe40925",
         "5ce45f804a0af248a138"
       ],
       "source_count": 3,
-      "updated_at": "2026-09-28T18:09:08.000Z"
+      "updated_at": "2026-09-28T21:28:25.000Z"
+    },
+    {
+      "id": "cluster_ab9822276327",
+      "lead_item_id": "06046319998ef738d94a",
+      "item_ids": [
+        "06046319998ef738d94a",
+        "e3f6839eb57540efd071"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-28T18:41:22.000Z"
     },
     {
       "id": "cluster_ed46480dac56",
