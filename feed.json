@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T14:15:18.519Z",
+  "generated_at": "2026-09-28T14:30:46.497Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 4320,
+    "refresh_duration_ms": 29139,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,71 @@
       }
     ],
     "images": {
-      "available": 94,
-      "missing": 10,
-      "article_pages_checked": 1
+      "available": 93,
+      "missing": 11,
+      "article_pages_checked": 4
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "b6ea1cc2958929ba2abf",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:6y3zulpfknfey5qemwhc4frl/app.bsky.feed.post/3mwljejnafc2s",
+      "author": "James L. Edwards III",
+      "handle": "jledwardsiii.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:6y3zulpfknfey5qemwhc4frl/bafkreifhtnxhta5dy2tekna4lqrvlxjwyim4e2fvat5bxdfhr7o5qqjmze",
+      "text": "Jalen Brunson on injury: \"It was painful. I played through it. I did what I had to do to make sure I was right. I didn't think I needed surgery. If that was case, I would have maybe done it sooner. I feel good. We'll see.\"",
+      "published_at": "2026-09-28T14:25:03.601Z",
+      "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3mwljejnafc2s",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3mwljejnafc2s",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "f61291d702c5a9cf89f7",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "The Jalen Brunson Era of New York Sports Is Upon Us",
+      "summary": "Four years after he arrived at the Knicks’ doorstep, Brunson has completed his ascension as the biggest superstar athlete in New York City.",
+      "author": "Liam McKeone",
+      "published_at": "2026-09-28T14:20:52.000Z",
+      "url": "https://www.si.com/nba/knicks/jalen-brunson-era-new-york-sports-is-upon-us",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_1599,h_899/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m3m52gr1dv7jmqxe8d.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/jalen-brunson-era-new-york-sports-is-upon-us",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-09-28T14:30:46.089Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "5bcab49b0ba1cafe6f3c",
       "type": "social",
@@ -122,7 +180,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -998,7 +1056,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T14:15:18.519Z",
+      "image_checked_at": "2026-09-28T14:30:46.090Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1615,41 +1673,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwixr4pi2g24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "37dd2205ef5e2b656951",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwiw5hd5xo2x",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Jalen Brunson hosts ‘SNL’ Season 52 premiere — with help from Knicks teammates",
-      "published_at": "2026-09-27T13:35:45.512Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwiw5hd5xo2x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreifhv7ey3ckutvhb6pcjc4c6el5igixn2edpa2t66y5wifdxe6huva",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwiw5hd5xo2x",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3075,32 +3098,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-knicks-whose-roles-are-likely-to-change-in-2026-27-01m2v4hd1msa",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-28T14:30:46.090Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-27T14:15:25.797Z"
-    },
-    {
-      "id": "a488bba809e8d79079f6",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Tyler Kolek's Knicks Situation Could Change After Flurry of Signings",
-      "summary": "The New York Knicks' recent Exhibit 9 signings could make Tyler Kolek more expendable as they attempt to add both a third-string center and another wing.",
-      "author": "Kento Kato",
-      "published_at": "2026-09-23T00:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/tyler-kolek-s-knicks-situation-could-change-after-flurry-of-signings-01m350xdwbfq",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3721,h_2093/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m351z7xn77ss4bm3fv.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/tyler-kolek-s-knicks-situation-could-change-after-flurry-of-signings-01m350xdwbfq",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-27T14:15:25.798Z"
+      "image_status": "available"
     },
     {
       "id": "976231a87107ef8fe25d",
@@ -3120,9 +3120,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-28T14:30:46.090Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-27T14:15:26.127Z"
+      "image_status": "available"
     }
   ],
   "clusters": [
