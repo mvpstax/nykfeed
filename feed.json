@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T14:00:26.141Z",
+  "generated_at": "2026-09-28T14:15:18.519Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 6060,
+    "refresh_duration_ms": 4320,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 24
+        "items": 21
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +92,83 @@
       }
     ],
     "images": {
-      "available": 97,
-      "missing": 11,
+      "available": 94,
+      "missing": 10,
       "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "5bcab49b0ba1cafe6f3c",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:cc7tzd4bb5sh6d5taioq256d/app.bsky.feed.post/3mwlip65juc2f",
+      "author": "Ace Pedraza 🏳️‍🌈🇵🇷",
+      "handle": "candacepedraza.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:cc7tzd4bb5sh6d5taioq256d/bafkreife56rtthxsvuc7c7mth5vjv53q7nyogdvcsr5h36bsf4risksi6y",
+      "text": "can't believe the knicks won the finals lol",
+      "published_at": "2026-09-28T14:13:06.909Z",
+      "url": "https://bsky.app/profile/did:plc:cc7tzd4bb5sh6d5taioq256d/post/3mwlip65juc2f",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:cc7tzd4bb5sh6d5taioq256d/post/3mwlip65juc2f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "e6c1eec1340cc42d9da8",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwlib7iqxu2r",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "5 questions facing the Knicks as training camp begins (via Newsday)",
+      "published_at": "2026-09-28T14:05:18.361Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwlib7iqxu2r",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigpybgdi4ounsnnckozfndiy4vichgbcu7mgo2x5bkjdrfd5jlc4u",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwlib7iqxu2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "03fb086286232fda8422",
       "type": "social",
@@ -929,7 +998,7 @@
         "fallback": "external_browser",
         "url": "https://www.yahoo.com/entertainment/tv/articles/watch-highlights-knicks-jalen-brunson-173804435.html"
       },
-      "image_checked_at": "2026-09-28T14:00:26.141Z",
+      "image_checked_at": "2026-09-28T14:15:18.519Z",
       "image_status": "fetch_failed",
       "image_error": "Unapproved article host"
     },
@@ -1587,44 +1656,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "70454f10c602aa836d15",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:jy7ubxdbebjkh6odfwjctl7p/app.bsky.feed.post/3mwivt6zf522v",
-      "author": "Meidas Charise Lee 💙🌊🌴🥥🫘",
-      "handle": "chariselee.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:jy7ubxdbebjkh6odfwjctl7p/bafkreign3gtl2zkjzg6z7rat7jodp6ifqbryg2nhepxxll6dynds7mu6bu",
-      "text": "The #nyknicks starting 5 reunite @nbcsnl.bsky.social",
-      "published_at": "2026-09-27T13:30:01.469Z",
-      "url": "https://bsky.app/profile/did:plc:jy7ubxdbebjkh6odfwjctl7p/post/3mwivt6zf522v",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Ajy7ubxdbebjkh6odfwjctl7p/bafkreih6lw7iy65oq7zaymdj456trwulw4tehsm77v2zcr6auseiyhpy4q/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Ajy7ubxdbebjkh6odfwjctl7p/bafkreih6lw7iy65oq7zaymdj456trwulw4tehsm77v2zcr6auseiyhpy4q/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Ajy7ubxdbebjkh6odfwjctl7p/bafkreih6lw7iy65oq7zaymdj456trwulw4tehsm77v2zcr6auseiyhpy4q/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1024,
-        "width": 576
-      },
-      "engagement": {
-        "replies": 1,
-        "reposts": 3,
-        "likes": 17
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:jy7ubxdbebjkh6odfwjctl7p/post/3mwivt6zf522v",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "4329cfe7be3139d12f4b",
       "type": "social",
       "source": "Bluesky",
@@ -1660,75 +1691,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c70c502003a01c2bfc74",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:jsmgbe3bmfsogmseyxc2ynrr/app.bsky.feed.post/3mwisx35h2s2t",
-      "author": "FrancineNewYorkForever🏒🏀⚾️",
-      "handle": "sportlover.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:jsmgbe3bmfsogmseyxc2ynrr/bafkreih4y6q3onpwfe22cjvircmfjxhv3rwsozmmiaxzgzfwkvngalpuiu",
-      "text": "SNL, Brunson and his cohorts. ❤️\nKnicks in 5!",
-      "published_at": "2026-09-27T12:38:30.398Z",
-      "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mwisx35h2s2t",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mwisx35h2s2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "1e87df932d6b5948046d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:koh3mxmkaou5mkvy6wgj6lk7/app.bsky.feed.post/3mwiscce2zc2b",
-      "author": "New York Basketball",
-      "handle": "nbanewyork.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:koh3mxmkaou5mkvy6wgj6lk7/bafkreicv2pqr7ahn4fmd4gmbwryll23vwd3snzzunak3ued5n7hr4u6toq",
-      "text": "Jalen Brunson sends cookies to the long line waiting for tickets to his SNL debut 🍪\nyoutube.com/shorts/6ofbC...",
-      "published_at": "2026-09-27T12:26:53.312Z",
-      "url": "https://bsky.app/profile/did:plc:koh3mxmkaou5mkvy6wgj6lk7/post/3mwiscce2zc2b",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:koh3mxmkaou5mkvy6wgj6lk7/bafkreidmra75qwwhdxweeri7krf3axmoxunsnvbmceuheuvzpldaky7mdq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 13
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:koh3mxmkaou5mkvy6wgj6lk7/post/3mwiscce2zc2b",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "f34ab853aa1cc0fcb3cb",
       "type": "article",
       "source": "Sports Illustrated",
@@ -1750,40 +1712,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T11:15:37.534Z"
-    },
-    {
-      "id": "39dafa7b2d72208df7c1",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:aoost44mif76qensycqfopq5/app.bsky.feed.post/3mwigts6ims2x",
-      "author": "Seahawk",
-      "handle": "originalseahawk.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:aoost44mif76qensycqfopq5/bafkreiexdasoqe6ocugcghzkbk72hylhj4zdowberi5t6s4kofod7mdgqu",
-      "text": "Stayed up late tonight and watched the 1st Look episode on the 2026 #NYKnicks, and wept like a baby. \n\nShout out to JM @ #KnicksFilmSchool\n\nAnd the mayor.",
-      "published_at": "2026-09-27T09:01:55.432Z",
-      "url": "https://bsky.app/profile/did:plc:aoost44mif76qensycqfopq5/post/3mwigts6ims2x",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:aoost44mif76qensycqfopq5/post/3mwigts6ims2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "fdc8781b54358e4697d3",
@@ -1808,28 +1736,6 @@
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T07:30:20.803Z",
       "cluster_id": "cluster_ed46480dac56"
-    },
-    {
-      "id": "5af8994cb89c5bb257eb",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks teammates crash Jalen Brunson's 'Saturday Night Live' monologue",
-      "summary": "We are now in Week 15 of the Knicks' NBA championship tour.",
-      "author": "Jack Baer",
-      "published_at": "2026-09-27T04:47:49.000Z",
-      "url": "https://sports.yahoo.com/nba/article/knicks-teammates-crash-jalen-brunsons-saturday-night-live-monologue-044749679.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/4e37f196dae42e340ecd2f5ab84940ebbe407eceac7f259e24d01d444d5549da/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2Fe547cd95-1d34-471c-abd5-a8895d189a7e",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/article/knicks-teammates-crash-jalen-brunsons-saturday-night-live-monologue-044749679.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-28T07:46:03.235Z"
     },
     {
       "id": "323c2507de381cd572af",
@@ -2677,41 +2583,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mweo7kpuaw2u",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "a1fe30070a23a629244b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwekx3gtaa2f",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks passed on Julian Reese, who signed with the Pelicans. New York's big man depth remains unresolved. via Sports Illustrated",
-      "published_at": "2026-09-25T20:04:41.623Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwekx3gtaa2f",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreic2pchsj44fx77owq25wuip63h3zsnya65e4reovuajvym3sljcte",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwekx3gtaa2f",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
