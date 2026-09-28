@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T23:00:24.203Z",
+  "generated_at": "2026-09-28T23:15:46.882Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 6229,
+    "refresh_duration_ms": 29762,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,84 @@
       }
     ],
     "images": {
-      "available": 113,
-      "missing": 7,
-      "article_pages_checked": 1
+      "available": 114,
+      "missing": 6,
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ec70c8f9eb999fa8449a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zv7ih5dr236rqbbf5eoqhrcg/app.bsky.feed.post/3mwmgpccsrs2v",
+      "author": "Gianni Shamari ",
+      "handle": "giannishamari.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zv7ih5dr236rqbbf5eoqhrcg/bafkreiguz4ahary2qwimmheavaew4hpufnzw4v4kfuotwwpxdqsnurw72u",
+      "text": "“LeBron’s Garden Dream“ by Shamarie Knight on Medium: medium.com/@ShamarieKni... #LeBronJames #NewYorkKnicks #TheGarden #NBA #Sports",
+      "published_at": "2026-09-28T23:10:03.515Z",
+      "url": "https://bsky.app/profile/did:plc:zv7ih5dr236rqbbf5eoqhrcg/post/3mwmgpccsrs2v",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zv7ih5dr236rqbbf5eoqhrcg/bafkreibcim37d756leogfvpiw2v7ddnx7btdzucm7cuma2gvolsvmuribu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zv7ih5dr236rqbbf5eoqhrcg/post/3mwmgpccsrs2v",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "b2065701f355aa3e7e00",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwmgl6omcu2m",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "LeBron James Reveals Knicks' 2026 Title Run Changed His Free Agency Plans (via Yahoo Sports)",
+      "published_at": "2026-09-28T23:07:45.306Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmgl6omcu2m",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreif5bij3aqthexx7q2xuzisbumqrr2tz4txmnpb5gfjkgp6lop36pe",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmgl6omcu2m",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "ba3d2b3e41faf3e22b8e",
       "type": "article",
@@ -119,9 +190,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-biggest-takeaways-from-knicks-2026-27-media-day-remarks-01m3mnsav1x9",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-28T23:00:23.787Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-28T23:00:23.787Z"
     },
     {
       "id": "8df2e2e23b37f74a62b0",
@@ -397,9 +468,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
+        "replies": 2,
         "reposts": 0,
-        "likes": 5
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1457,27 +1528,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "9c75f947fc0188cc92a1",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "SNL writer offers neat behind-the-scenes scoop on Jalen Brunson’s shooting skit",
-      "summary": "Jalen Brunson made his highly anticipated “Saturday Night Live” hosting debut this weekend, much to the delight of the New York audience and Knicks fans everywhere.",
-      "author": null,
-      "published_at": "2026-09-28T16:43:07.000Z",
-      "url": "https://www.yahoo.com/entertainment/tv/articles/snl-writer-offers-neat-behind-164307466.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/787d8e94aa2eb9c1acc98b2f5a51b6c1.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.yahoo.com/entertainment/tv/articles/snl-writer-offers-neat-behind-164307466.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "7bb586ea70eaa25a6df9",
       "type": "social",
       "source": "Bluesky",
@@ -1640,7 +1690,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1778,40 +1828,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T14:30:46.089Z"
-    },
-    {
-      "id": "5bcab49b0ba1cafe6f3c",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:cc7tzd4bb5sh6d5taioq256d/app.bsky.feed.post/3mwlip65juc2f",
-      "author": "Ace Pedraza 🏳️‍🌈🇵🇷",
-      "handle": "candacepedraza.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:cc7tzd4bb5sh6d5taioq256d/bafkreife56rtthxsvuc7c7mth5vjv53q7nyogdvcsr5h36bsf4risksi6y",
-      "text": "can't believe the knicks won the finals lol",
-      "published_at": "2026-09-28T14:13:06.909Z",
-      "url": "https://bsky.app/profile/did:plc:cc7tzd4bb5sh6d5taioq256d/post/3mwlip65juc2f",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 1,
-        "likes": 15
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:cc7tzd4bb5sh6d5taioq256d/post/3mwlip65juc2f",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "e6c1eec1340cc42d9da8",
@@ -3103,41 +3119,6 @@
       "image_checked_at": "2026-09-28T15:31:05.751Z"
     },
     {
-      "id": "fc1703d169086bf2e7f2",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwghgvlliq2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "The Knicks must extend Karl-Anthony Towns. A championship and future contention are dependent on his presence. via SNY",
-      "published_at": "2026-09-26T14:07:16.876Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwghgvlliq2x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihwjh7o6jpmklexfzvjivcpez57j76th7ypq75o2wc52y3lsmmiwi",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwghgvlliq2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c47fca667f118e64da65",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3201,9 +3182,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-face-hidden-risk-longer-delay-miles-mcbride-trade-01m3ag00dcs2",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-28T23:15:46.544Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-27T23:15:23.693Z"
+      "image_status": "available"
     },
     {
       "id": "aa86b071e7f1bc995ebc",
@@ -3584,6 +3565,28 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T16:30:23.229Z"
+    },
+    {
+      "id": "976231a87107ef8fe25d",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Atlantic Notes: Barrett, Raptors, Sixers, Knicks",
+      "summary": "Raptors forward RJ Barrett, who was traded from New York to Toronto during the 2023/24 season, admitted in an interview with Donnovan Bennett of CBC Sports (YouTube link) that he felt “a little salty” watching his old team win a championship last season. However, Barrett stressed that he’s happy for his former Knicks teammates. “If […]",
+      "author": "Luke Adams",
+      "published_at": "2026-09-22T13:03:03.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/RJ-Barrett-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
+      },
+      "image_checked_at": "2026-09-28T23:15:46.545Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
