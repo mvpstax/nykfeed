@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T23:30:20.934Z",
+  "generated_at": "2026-09-28T23:45:20.640Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5303,
+    "refresh_duration_ms": 5604,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 27
+        "items": 29
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +92,83 @@
       }
     ],
     "images": {
-      "available": 114,
-      "missing": 6,
+      "available": 113,
+      "missing": 7,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "8d82aa830a8cce21cd37",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:lur5p3tfrlj42k2ph74voo34/app.bsky.feed.post/3mwmi5qlxss2x",
+      "author": "Josh Kail",
+      "handle": "thatjoshkail.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreiekif5suc73ob7wrrkhtckxbi7x4p264vefrtyfacxjinx3itbcrq",
+      "text": "Every quote from the Spurs is proving the Knicks completely broke their spirit and brains",
+      "published_at": "2026-09-28T23:36:02.016Z",
+      "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3mwmi5qlxss2x",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3mwmi5qlxss2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "f17321d5558259ca6e07",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwmhtw5jxb2e",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Knicks Extension Questions Take Center Stage at Media Day | NY Got Game",
+      "published_at": "2026-09-28T23:30:32.051Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwmhtw5jxb2e",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreifnct2tzy5lln3qdsyq7gtj5e4pgmhmpxk7a2jdgqx6tgwlgj3dbu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwmhtw5jxb2e",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "ef7b7b26d08154a69f03",
       "type": "social",
@@ -120,9 +189,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 2,
+        "replies": 3,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -3542,49 +3611,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_eb608b486489"
-    },
-    {
-      "id": "621de575e3339a7bdef7",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
-      "summary": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
-      "author": null,
-      "published_at": "2026-09-23T19:35:32.000Z",
-      "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat",
-      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0923/ss_20260923_152112217_3671906928/ss_20260923_152112217_3671906928.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "161f6e35858dba8d3fad",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Atlantic Notes: Knicks, Nickel, Nets, Marks, Raptors",
-      "summary": "James L. Edwards III of The Athletic examines some of the training camp storylines to watch for the Knicks, including how Jalen Brunson’s surgically repaired wrist looks, who will win the battle for the 14th roster spot, and whether the team might still have a trade up its sleeve before opening night. As Edwards writes, […]",
-      "author": "Luke Adams",
-      "published_at": "2026-09-23T15:34:22.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/07/USATSI_28539184-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-28T16:30:23.229Z"
     }
   ],
   "clusters": [
