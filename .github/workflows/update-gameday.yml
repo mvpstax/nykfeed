@@ -1,0 +1,60 @@
+name: Refresh Knicks Game Day
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 */2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: knicks-gameday
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+
+      - name: Build Game Day JSON
+        env:
+          HIGHLIGHTLY_API_KEY: ${{ secrets.HIGHLIGHTLY_API_KEY }}
+          HIGHLIGHTLY_BASE_URL: ${{ vars.HIGHLIGHTLY_BASE_URL || 'https://nba.highlightly.net' }}
+        run: node scripts/update-gameday.mjs
+
+      - name: Save Game Day JSON
+        run: |
+          git config user.name "knicks-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add gameday.json
+
+          if git diff --cached --quiet; then
+            echo "No Game Day changes."
+            exit 0
+          fi
+
+          git commit -m "Refresh Knicks Game Day"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            if [ "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" ]; then
+              exit 0
+            fi
+
+            sleep 5
+          done
+
+          exit 1
