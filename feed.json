@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T18:30:24.475Z",
+  "generated_at": "2026-09-28T18:45:25.583Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 106,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 4799,
+    "refresh_duration_ms": 8681,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,7 +45,7 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 22
+        "items": 23
       },
       {
         "source_key": "yahoo_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 19
+        "items": 20
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +92,84 @@
       }
     ],
     "images": {
-      "available": 96,
-      "missing": 10,
+      "available": 99,
+      "missing": 9,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "af2d452da13f53c1dab3",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwlxawzomb24",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Karl-Anthony Towns, Josh Hart put pressure on Knicks with worry over uncomfortable contract realities",
+      "published_at": "2026-09-28T18:33:35.575Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwlxawzomb24",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreieto2gqtngbkmlunpzw4p25amlwvquxhcx2vo6k6utgbkekyk54lq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwlxawzomb24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "9d9f2da6bc12dbf8727b",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwlx7tmew222",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "I read this new GQ interview Dylan Harper and Stephon Castle. They talk a ton of shit on the Knicks. Anyway...",
+      "published_at": "2026-09-28T18:32:58.672Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwlx7tmew222",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifwsuyfhkkpbppoee55figaptmthf6ythggry3jwtgyg2a3ymx3em",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 4
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwlx7tmew222",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "6056bff553e4bfaa85d8",
       "type": "article",
@@ -140,8 +210,7 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-towns-hart-address-extension-talks-at-media-day.html"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_9fb9cb16f75d"
+      "image_source": "source_feed"
     },
     {
       "id": "d108d11c8b9ca40c2912",
@@ -163,9 +232,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
+        "replies": 1,
+        "reposts": 1,
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -219,7 +288,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_0f0cd990a843"
+      "cluster_id": "cluster_7bed4847b7a1"
     },
     {
       "id": "a2887163b67e3f673e94",
@@ -338,6 +407,50 @@
       "image_checked_at": "2026-09-28T18:15:19.495Z"
     },
     {
+      "id": "e3f6839eb57540efd071",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Karl-Anthony Towns wants extension to stay with Knicks",
+      "summary": "Karl-Anthony Towns said he wants to get a contract extension done with the Knicks as he has one year and a player option left on his contract.",
+      "author": "Vincent Goodwill",
+      "published_at": "2026-09-28T17:58:47.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50053583/karl-anthony-towns-wants-extension-stay-knicks",
+      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723085_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50053583/karl-anthony-towns-wants-extension-stay-knicks"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_9fb9cb16f75d"
+    },
+    {
+      "id": "e199f4ddf1af8ffc869c",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "LeBron James says he envisioned joining Knicks as free agent",
+      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer but nixed the idea after New York won the NBA title.",
+      "author": "Dave McMenamin",
+      "published_at": "2026-09-28T17:53:13.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
+      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_7bed4847b7a1"
+    },
+    {
       "id": "8a58154d84648cf0ef60",
       "type": "article",
       "source": "Sports Illustrated",
@@ -382,7 +495,7 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T17:30:22.866Z",
-      "cluster_id": "cluster_0f0cd990a843"
+      "cluster_id": "cluster_7bed4847b7a1"
     },
     {
       "id": "5ecdd793d69a094436da",
@@ -444,28 +557,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T17:15:19.218Z"
-    },
-    {
-      "id": "e199f4ddf1af8ffc869c",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "LeBron James says he envisioned joining Knicks as free agent",
-      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer, but nixed the idea after New York won the NBA title.",
-      "author": "Dave McMenamin",
-      "published_at": "2026-09-28T17:00:00.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
-      "image_url": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_0f0cd990a843"
     },
     {
       "id": "d59296e2d3fed741b3b4",
@@ -916,7 +1007,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1707,40 +1798,6 @@
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T17:45:24.359Z",
       "cluster_id": "cluster_6ed7095cb03f"
-    },
-    {
-      "id": "83afab33df7fc2f68454",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mwjd7bdges26",
-      "author": "🏆Knicks Forever🏆",
-      "handle": "wildstreet.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
-      "text": "#knickssky 🏆🧡💙",
-      "published_at": "2026-09-27T17:29:25.191Z",
-      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwjd7bdges26",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 5
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mwjd7bdges26",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "072945c8e7ab2dc99472",
@@ -3174,25 +3231,25 @@
   ],
   "clusters": [
     {
-      "id": "cluster_9fb9cb16f75d",
-      "lead_item_id": "7b22659a3254919d8d1e",
-      "item_ids": [
-        "7b22659a3254919d8d1e",
-        "8a58154d84648cf0ef60"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-28T18:21:56.000Z"
-    },
-    {
-      "id": "cluster_0f0cd990a843",
+      "id": "cluster_7bed4847b7a1",
       "lead_item_id": "42cf5955a0bb1fe40925",
       "item_ids": [
         "42cf5955a0bb1fe40925",
-        "5ce45f804a0af248a138",
-        "e199f4ddf1af8ffc869c"
+        "e199f4ddf1af8ffc869c",
+        "5ce45f804a0af248a138"
       ],
       "source_count": 3,
       "updated_at": "2026-09-28T18:09:08.000Z"
+    },
+    {
+      "id": "cluster_9fb9cb16f75d",
+      "lead_item_id": "e3f6839eb57540efd071",
+      "item_ids": [
+        "e3f6839eb57540efd071",
+        "8a58154d84648cf0ef60"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-28T17:58:47.000Z"
     },
     {
       "id": "cluster_ed46480dac56",
