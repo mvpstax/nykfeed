@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T16:30:22.266Z",
+  "generated_at": "2026-09-29T16:45:24.628Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 5632,
+    "refresh_duration_ms": 6212,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 2
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 29
+        "items": 28
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -94,12 +94,34 @@
     "images": {
       "available": 105,
       "missing": 8,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d63bf34e2f85fe4d8902",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Former Knicks and Cavs standout J.R. Smith arrested in Texas on assault charge",
+      "summary": "J.R. Smith spent 16 seasons in the NBA, winning two championships.",
+      "author": "Chris Cwik",
+      "published_at": "2026-09-29T16:28:30.000Z",
+      "url": "https://sports.yahoo.com/nba/breaking-news/article/former-knicks-and-cavs-standout-jr-smith-reportedly-arrested-on-assault-charges-162830477.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/250f3cb7319c3e05302750bab5fc9298ce2e5af68e4cecb7d6ae02b3cce1f981/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F9263c0e7-c562-492f-bf7d-2cb79ec5fc75",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/nba/breaking-news/article/former-knicks-and-cavs-standout-jr-smith-reportedly-arrested-on-assault-charges-162830477.html"
+      },
+      "image_checked_at": "2026-09-29T16:45:24.415Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "e3b2a125d2d559ab8e15",
       "type": "social",
@@ -563,7 +585,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -1496,41 +1518,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_7bed4847b7a1"
-    },
-    {
-      "id": "36f8cdde781a6d6853c3",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:vcumvue2gcsxexermtdg6cr7/app.bsky.feed.post/3mwmawgfp6k2e",
-      "author": "Tommy Beer",
-      "handle": "tommybeernba.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreifi5xitqwmihnc6t7jaskafbqemysh5klbfju44ks527gz43xw6pe",
-      "text": "topics of conversation on Media Day in New York pre-Leon Rose & Jalen Brunson:\n\n* Can Starbury and Steve Francis coexist\n* Media restrictions\n* lawsuits/trials \n* Enes Kanter's nipples \n* Free agents who didn't sign here\n* Eddy Curry's weight\n* Will Andrea Bargnani resurrect his career?",
-      "published_at": "2026-09-28T21:26:40.235Z",
-      "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mwmawgfp6k2e",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreiav4sschi3iosybkjm3ymlsw36hu3t4iinyqoxdte6v2ednmkfuju",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 3,
-        "reposts": 0,
-        "likes": 8
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mwmawgfp6k2e",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "a81f89c9d0a9f2ef8e3a",
