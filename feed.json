@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T18:30:26.557Z",
+  "generated_at": "2026-09-29T18:45:46.708Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 115,
+    "item_count": 116,
     "game_count": 0,
-    "refresh_duration_ms": 4094,
+    "refresh_duration_ms": 30305,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,71 @@
       }
     ],
     "images": {
-      "available": 106,
+      "available": 107,
       "missing": 9,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4f53bebb499963e04003",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zgw663lwxmujmen5k4jmjair/app.bsky.feed.post/3mwohyfdkzk2h",
+      "author": "dan favale",
+      "handle": "danfavale.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zgw663lwxmujmen5k4jmjair/bafkreiheejgmzt4f5tjemx2yzsscee6a4giqqmnsv66puktug3b7hsipnm",
+      "text": "[making my knicks pick]",
+      "published_at": "2026-09-29T18:38:21.911Z",
+      "url": "https://bsky.app/profile/did:plc:zgw663lwxmujmen5k4jmjair/post/3mwohyfdkzk2h",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zgw663lwxmujmen5k4jmjair/bafkreihtdwepvc4afrqvlcmn4m3ucms37a56nvdx3xd24nulsavebvocr4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 5
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zgw663lwxmujmen5k4jmjair/post/3mwohyfdkzk2h",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "bdabfae4d3bb8d416aea",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Andre Drummond had options in free agency, but Knicks made most sense: ‘It’s a true honor’",
+      "summary": "Veteran big man Andre Drummond discussed joining his childhood team, the Knicks, in free agency.",
+      "author": null,
+      "published_at": "2026-09-29T18:30:47.000Z",
+      "url": "https://sports.yahoo.com/articles/andre-drummond-had-options-free-183047232.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/1fd0e7b70fe864f8c0f151276dda111812fc7d44d5641dfa4b87d77dfd1935a4/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F3bf86b7e434af410acdb1d9c935cfbb4.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/andre-drummond-had-options-free-183047232.html"
+      },
+      "image_checked_at": "2026-09-29T18:45:46.357Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "3c0e2ff0945fc44ec140",
       "type": "social",
@@ -1571,41 +1629,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmd722ras2f",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "bc2adba018f006ca3b58",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:fdpfucsmqcwjwvjvujyqxlxx/app.bsky.feed.post/3mwmctnccfs2n",
-      "author": "Mike Vaccaro",
-      "handle": "mikevacc.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreieimrayaipe3f2oaknywlhulonr4hnfkzmb5lsmnqiefclyskeaca",
-      "text": "Column: as the #Knicks reassemble to defend a championship for the first time in 53 years, it is a day to squeeze a few last drops out of a glorious summer before pondering the sobering potential realities in this Age of the Apron. nypost.com/2026/09/28/s...",
-      "published_at": "2026-09-28T22:00:54.298Z",
-      "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwmctnccfs2n",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreibjns55t2euonxt46wqrhea52od7r4dwjvzuvcgo3hyfl5ytikhwy",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwmctnccfs2n",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
