@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T03:00:25.075Z",
+  "generated_at": "2026-09-29T03:15:16.594Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5629,
+    "refresh_duration_ms": 3145,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -94,12 +94,47 @@
     "images": {
       "available": 111,
       "missing": 9,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "7708750e3ea7c08a92bf",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwmtvd7pp324",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Josh Hart on Jalen Brunson's SNL hosting: \"No future in acting\" (via NBA)",
+      "published_at": "2026-09-29T03:06:04.259Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmtvd7pp324",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreig2pybtuiruc52kcjtzqotmi6ivz2bdajwb6jgidk5klsfby5aaha",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmtvd7pp324",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "56ed9d1d08747385c966",
       "type": "social",
@@ -121,8 +156,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 1
+        "reposts": 1,
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -155,8 +190,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "reposts": 1,
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -224,8 +259,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 2
+        "reposts": 1,
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -398,7 +433,7 @@
       "engagement": {
         "replies": 4,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -1228,27 +1263,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwlyv6eihw2l",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "7ef777169bdfdc1307be",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Josh Hart trolls Jalen Brunson over ‘SNL’ performance",
-      "summary": "Josh Hart didn't sugarcoat a thing.",
-      "author": null,
-      "published_at": "2026-09-28T19:01:10.000Z",
-      "url": "https://sports.yahoo.com/articles/josh-hart-trolls-jalen-brunson-190110778.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/0b0de7142f48000c0934dc0db4e23391.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/josh-hart-trolls-jalen-brunson-190110778.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3095,41 +3109,6 @@
       "image_checked_at": "2026-09-28T20:30:24.866Z"
     },
     {
-      "id": "28e11b1cf963b5a6e427",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwguvytkr42o",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Deuce McBride reaffirms his desire to sign another contract with the Knicks. He is disappointed an extension has not been reached. via Yahoo Sports",
-      "published_at": "2026-09-26T18:08:22.234Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwguvytkr42o",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifbhap27re3bsbl2yt624emx6pj74yadutp6krhgqzpg75ur5yrcq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwguvytkr42o",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "306caf4f01bd2814a45f",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3620,6 +3599,28 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-29T02:15:20.481Z"
+    },
+    {
+      "id": "976231a87107ef8fe25d",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Atlantic Notes: Barrett, Raptors, Sixers, Knicks",
+      "summary": "Raptors forward RJ Barrett, who was traded from New York to Toronto during the 2023/24 season, admitted in an interview with Donnovan Bennett of CBC Sports (YouTube link) that he felt “a little salty” watching his old team win a championship last season. However, Barrett stressed that he’s happy for his former Knicks teammates. “If […]",
+      "author": "Luke Adams",
+      "published_at": "2026-09-22T13:03:03.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/RJ-Barrett-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
+      },
+      "image_checked_at": "2026-09-29T03:15:16.553Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
