@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T13:00:28.253Z",
+  "generated_at": "2026-09-29T13:15:44.382Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 3019,
+    "refresh_duration_ms": 28638,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 20
+        "items": 19
       },
       {
         "source_key": "knicks_film_school",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 2
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 108,
+      "available": 105,
       "missing": 8,
       "article_pages_checked": 0
     },
@@ -100,6 +101,76 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "20d7c16aee918865f356",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:j4spygbxn74y4dx2qejadwvk/app.bsky.feed.post/3mwnvdd3bhc2w",
+      "author": "Adam Zagoria",
+      "handle": "adamzagoria.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreihphjbhoytwx4l4nqhz5xg32puaysk7grujsxk4ryscwxv3lqmqoq",
+      "text": "Victor Wembanyama suffered ‘sleepless nights’ after losing NBA Finals to Knicks\n\nwww.nj.com/knicks/2026/...",
+      "published_at": "2026-09-29T13:04:27.546Z",
+      "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwnvdd3bhc2w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreibpjp3zdhq7x4b4jfl2wmjdks2eyaczxxc5in4exo4ibxr2ak4wau",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwnvdd3bhc2w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "c33ca9bf6cf4257d4212",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwnvcgmdjd2x",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks' $6M high-motor reliable veteran predicted to not make roster over ex-Nugget Bruce Brown (via Yahoo Sports)",
+      "published_at": "2026-09-29T13:03:57.485Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwnvcgmdjd2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicfkeel4kyebhs7x7n4izbdi3xqaofvr7ar6r4iz6groakr3c5f2e",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwnvcgmdjd2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c61b1df570e50b72981b",
       "type": "social",
@@ -860,28 +931,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "3d10cdd3f089096a7879",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns, Josh Hart extension talks create uncomfortable situation for Knicks title defense",
-      "summary": "The Knicks should be flying high in defense of their NBA title. Instead, they are facing questions about extensions, aprons and keeping the band together.",
-      "author": "Dan Devine",
-      "published_at": "2026-09-28T21:56:51.000Z",
-      "url": "https://sports.yahoo.com/nba/article/karl-anthony-towns-josh-hart-extension-talks-create-uncomfortable-situation-for-knicks-title-defense-215651874.html",
-      "image_url": "https://d29szjachogqwa.cloudfront.net/images/2026-09/c5e7deb7-2990-4150-89db-0c465d01cb22",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/article/karl-anthony-towns-josh-hart-extension-talks-create-uncomfortable-situation-for-knicks-title-defense-215651874.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_606085c49015"
-    },
-    {
       "id": "4010d5a80b22760c6468",
       "type": "social",
       "source": "Bluesky",
@@ -1508,7 +1557,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_ab9822276327"
+      "cluster_id": "cluster_9fb9cb16f75d"
     },
     {
       "id": "af2d452da13f53c1dab3",
@@ -1540,41 +1589,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwlxawzomb24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "9d9f2da6bc12dbf8727b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwlx7tmew222",
-      "author": "Joe Flynn",
-      "handle": "chinajoeflynn.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
-      "text": "I read this new GQ interview Dylan Harper and Stephon Castle. They talk a ton of shit on the Knicks. Anyway...",
-      "published_at": "2026-09-28T18:32:58.672Z",
-      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwlx7tmew222",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifwsuyfhkkpbppoee55figaptmthf6ythggry3jwtgyg2a3ymx3em",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwlx7tmew222",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -1641,8 +1655,7 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-towns-hart-address-extension-talks-at-media-day.html"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_606085c49015"
+      "image_source": "source_feed"
     },
     {
       "id": "e3f6839eb57540efd071",
@@ -1664,7 +1677,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_ab9822276327"
+      "cluster_id": "cluster_9fb9cb16f75d"
     },
     {
       "id": "88566c6939e10b5dbe7e",
@@ -1768,7 +1781,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-28T17:45:24.358Z"
+      "image_checked_at": "2026-09-28T17:45:24.358Z",
+      "cluster_id": "cluster_9fb9cb16f75d"
     },
     {
       "id": "5ce45f804a0af248a138",
@@ -2949,44 +2963,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "dd3bd7bf4e2132a2b10b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwh3qcdxnf2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Perkins: \"No way in hell that we can sit up here right now, and put Luka Doncic in front of Jalen Brunson after what he displayed last year in the postseason. And if you want to take it a step further over the last 3 years, Jalen Brunson, in my eyes, has been the best",
-      "published_at": "2026-09-26T20:10:27.075Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwh3qcdxnf2x",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreicxijjsawtsv4bnkf3u4yyuesdtdgaep6ighjmh74j2kpmmay7ufi/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreicxijjsawtsv4bnkf3u4yyuesdtdgaep6ighjmh74j2kpmmay7ufi/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreicxijjsawtsv4bnkf3u4yyuesdtdgaep6ighjmh74j2kpmmay7ufi/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 608,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwh3qcdxnf2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "872003aa40ed8e77f6ce",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3370,29 +3346,6 @@
       "image_checked_at": "2026-09-29T04:45:41.820Z"
     },
     {
-      "id": "90a44b02564afd770f17",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "The Biggest Question Every Knicks Reserve Must Answer Heading Into The Season",
-      "summary": "The Knicks' bench has plenty of talent, but questions remain about Jose Alvarado, Miles McBride, Landry Shamet, Mohamed Diawara and more.",
-      "author": "Kento Kato",
-      "published_at": "2026-09-24T00:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/the-biggest-question-every-knicks-reserve-must-answer-heading-into-the-season-01m2qqk0q2p8",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_53,w_4063,h_2285/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m34xkcyqzb04xvj1kz.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/the-biggest-question-every-knicks-reserve-must-answer-heading-into-the-season-01m2qqk0q2p8",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-29T00:45:19.892Z"
-    },
-    {
       "id": "52db53aa5fcdaad25fdd",
       "type": "article",
       "source": "ESPN",
@@ -3500,41 +3453,9 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-29T02:15:20.481Z"
-    },
-    {
-      "id": "976231a87107ef8fe25d",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Atlantic Notes: Barrett, Raptors, Sixers, Knicks",
-      "summary": "Raptors forward RJ Barrett, who was traded from New York to Toronto during the 2023/24 season, admitted in an interview with Donnovan Bennett of CBC Sports (YouTube link) that he felt “a little salty” watching his old team win a championship last season. However, Barrett stressed that he’s happy for his former Knicks teammates. “If […]",
-      "author": "Luke Adams",
-      "published_at": "2026-09-22T13:03:03.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/RJ-Barrett-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-29T09:45:41.704Z"
     }
   ],
   "clusters": [
-    {
-      "id": "cluster_606085c49015",
-      "lead_item_id": "3d10cdd3f089096a7879",
-      "item_ids": [
-        "3d10cdd3f089096a7879",
-        "7b22659a3254919d8d1e"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-28T21:56:51.000Z"
-    },
     {
       "id": "cluster_7bed4847b7a1",
       "lead_item_id": "e199f4ddf1af8ffc869c",
@@ -3547,13 +3468,14 @@
       "updated_at": "2026-09-28T21:28:25.000Z"
     },
     {
-      "id": "cluster_ab9822276327",
+      "id": "cluster_9fb9cb16f75d",
       "lead_item_id": "06046319998ef738d94a",
       "item_ids": [
         "06046319998ef738d94a",
-        "e3f6839eb57540efd071"
+        "e3f6839eb57540efd071",
+        "8a58154d84648cf0ef60"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "updated_at": "2026-09-28T18:41:22.000Z"
     },
     {
