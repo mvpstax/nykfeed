@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T19:00:29.291Z",
+  "generated_at": "2026-09-29T19:15:45.394Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 7993,
+    "refresh_duration_ms": 28807,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 107,
+      "available": 108,
       "missing": 9,
       "article_pages_checked": 1
     },
@@ -100,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "ff72047889f2f8fcb80f",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwojjpjud72f",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen Brunson Reacts to Praise from LeBron James, NBA Stars After Leading Knicks to Historic Title (via Bleacher Report)",
+      "published_at": "2026-09-29T19:05:56.558Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwojjpjud72f",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigw6lncaqw4qlraj6uzm7qzgo6zgplme3pyalurcz7tf4rxbtoaj4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwojjpjud72f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "4c1724df7b0fcf031793",
       "type": "article",
@@ -119,9 +155,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/5-big-notes-from-knicks-1st-official-preseason-practice-01m3q4gkp42k",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-29T19:00:28.949Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-29T19:00:28.949Z"
     },
     {
       "id": "4f53bebb499963e04003",
@@ -650,6 +686,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwo3fubxpq24",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "342aafba9cc2d92c87aa",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks players ‘very surprised’ by Mitchell Robinson’s departure: ‘Heartbroken’",
+      "summary": "For most people outside the Knicks, Mitchell Robinson leaving in free agency was an expected outcome. Apparently, that wasn’t the case inside the organization, at least for the players.",
+      "author": null,
+      "published_at": "2026-09-29T14:52:02.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-players-very-surprised-mitchell-145202419.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/8411a2cf5c5833e10a7d8965128fb1ef.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-players-very-surprised-mitchell-145202419.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2687,9 +2744,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-brown-mcbride-training-camp.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-29T19:15:45.243Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-28T19:15:43.662Z"
+      "image_status": "available"
     },
     {
       "id": "63a24b6f05d60d197a9c",
@@ -3024,41 +3081,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-29T04:15:18.268Z"
-    },
-    {
-      "id": "26609b68dfac076f4f61",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwhsxniyol2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks training camp features roster battles for one spot, pending extensions for McBride, Towns, and Hart, and Andre Drummond as the key newcomer. via New York Post",
-      "published_at": "2026-09-27T03:06:09.715Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhsxniyol2x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifq3msnys7gafzsrss66f6dmdinmtqky4snlabosekk6u5v2gdo3q",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhsxniyol2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "872003aa40ed8e77f6ce",
