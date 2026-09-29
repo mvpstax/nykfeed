@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T17:00:48.864Z",
+  "generated_at": "2026-09-29T17:15:24.430Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 113,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 27671,
+    "refresh_duration_ms": 9201,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,70 @@
       }
     ],
     "images": {
-      "available": 105,
+      "available": 106,
       "missing": 8,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4c4d60e9eb7974e64718",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwocqmnsvx22",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Spurs star has surprising Knicks fan take after Finals (via New York Post)",
+      "published_at": "2026-09-29T17:04:32.241Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwocqmnsvx22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihjk46n3ndzl27nb6k36dgpvek52slki5r2fc3wg7zxdejnpz4qcy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwocqmnsvx22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "88e7445a4acc6f222c26",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "The similarities between the 2026 Yankees and Knicks seasons",
+      "summary": "New York already had a memorable summer. What’s to say they can’t have a memorable fall, too?",
+      "author": null,
+      "published_at": "2026-09-29T17:00:00.000Z",
+      "url": "https://sports.yahoo.com/articles/similarities-between-2026-yankees-knicks-170000337.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/7dbdae3fd20990223ac172129c1ddfb9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/similarities-between-2026-yankees-knicks-170000337.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "d63bf34e2f85fe4d8902",
       "type": "article",
@@ -584,7 +639,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
+        "replies": 2,
         "reposts": 0,
         "likes": 3
       },
@@ -1944,9 +1999,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/losing-mitchell-robinson-is-the-knicks-headache-that-keeps-aching-01m3me8zk200",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-29T17:15:23.717Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-28T17:15:19.218Z"
+      "image_status": "available"
     },
     {
       "id": "bb18e1a82f7d0a592c82",
@@ -2932,41 +2987,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhpnazasv2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "2b02b56b07d92089158f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwhismmi3u2m",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks' interest in Moussa Cisse could be reignited. Mavericks' roster crunch after re-signing Dwight Powell may lead to Cisse's availability. New York would pursue Cisse if he hits waivers. via Sports Illustrated",
-      "published_at": "2026-09-27T00:04:23.599Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhismmi3u2m",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiaj7gqmufd7tbedpvagj2eco6x4fr4wf5zblr25lenavedfpxyaoa",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwhismmi3u2m",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
