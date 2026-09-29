@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T22:00:22.649Z",
+  "generated_at": "2026-09-29T22:15:18.078Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 3308,
+    "refresh_duration_ms": 4679,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 109,
+      "available": 110,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -100,6 +100,44 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "82150c5f9fd8123bbcd2",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwotliv5ge2c",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen Brunson, OG Anunoby, Karl-Anthony Towns & Mikal Bridges meeting katseye backstage at Saturday night live, after Jalen hosted SNL over the weekend. And KATSEYE was donning in knicks gear too. (via r/NYKnicks)",
+      "published_at": "2026-09-29T22:05:54.121Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwotliv5ge2c",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreifzuzk6hhwzgygeckxgf7tshi5ibght5nckceoax7flsjxp7iagoy/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreifzuzk6hhwzgygeckxgf7tshi5ibght5nckceoax7flsjxp7iagoy/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreifzuzk6hhwzgygeckxgf7tshi5ibght5nckceoax7flsjxp7iagoy/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1280,
+        "width": 720
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwotliv5ge2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "4248ecd273a489011019",
       "type": "social",
@@ -122,7 +160,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -574,6 +612,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwoftt2be62l",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "842bddbf9319b4a530dc",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Why Mitchell Robinson wanted apology from Celtics coach Joe Mazzulla after leaving Knicks",
+      "summary": "The big man left the Knicks in free agency after winning an NBA title and signed with the rival Celtics.",
+      "author": null,
+      "published_at": "2026-09-29T17:57:51.000Z",
+      "url": "https://sports.yahoo.com/articles/why-mitchell-robinson-wanted-apology-175751730.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/0b00f958413abc8b7fd9faa31b370e83.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/why-mitchell-robinson-wanted-apology-175751730.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2895,41 +2954,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwj6i722bc2o",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "3d68bd8bbcbc18c6d2d4",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwj34p5uxl2c",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks are considering 7-foot-5 center Jamarion Sharp, recently waived by the Clippers. His G League performance featured 4.1 BPG. via Sports Illustrated",
-      "published_at": "2026-09-27T15:04:48.904Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwj34p5uxl2c",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihqwxoztsobukshefh3lqdyqbm2olng7ysdgm76u55vkfgl3fsgoy",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwj34p5uxl2c",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
