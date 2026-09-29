@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T13:45:47.153Z",
+  "generated_at": "2026-09-29T14:00:26.625Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 29778,
+    "refresh_duration_ms": 4366,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -101,6 +100,40 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "31ef90a0861768829280",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwnydadpac2c",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "The thing about the Knicks is that they don't worry that much about the regular season. They didn't last year, when everyone was freaking out in January, and they won the title. They don't care about playoff seeding. They just play their game.",
+      "published_at": "2026-09-29T13:58:05.902Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwnydadpac2c",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwnydadpac2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "e0ef9fdd3af7d311e21b",
       "type": "social",
@@ -615,7 +648,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -1536,40 +1569,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "d9e622918e8b365631f6",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:rtnawvgru7pkebpfifmfqhde/app.bsky.feed.post/3mwlyisvmok2r",
-      "author": "Mo Spade",
-      "handle": "mospade.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnawvgru7pkebpfifmfqhde/bafkreiee6v7hjymx2upd4ajvt5wxli2ms2pluz3oixfcdywygix2r3biwy",
-      "text": "Living in NYC and openly admitting you wanted to join the Knicks is a funny way to endear yourself to Sixers fans. Guess it doesn’t matter much when it’s gonna be 1 or 2 years.",
-      "published_at": "2026-09-28T18:55:53.656Z",
-      "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3mwlyisvmok2r",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 2,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3mwlyisvmok2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "06046319998ef738d94a",
