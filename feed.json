@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T00:00:25.646Z",
+  "generated_at": "2026-09-29T00:15:43.929Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5163,
+    "refresh_duration_ms": 30158,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,47 @@
     "images": {
       "available": 113,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "7ef0bc8e0cb7d6534fa3",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwmjugh7zn2m",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "LeBron James says he envisioned joining Knicks as free agent (via ESPN)",
+      "published_at": "2026-09-29T00:06:36.668Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmjugh7zn2m",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibrgdszyzhofucwpbx3g3boqfwbavhto6vxixdgkz2iqrfmma4pgq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwmjugh7zn2m",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "8d82aa830a8cce21cd37",
       "type": "social",
@@ -120,7 +156,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
         "likes": 1
       },
@@ -224,8 +260,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 1,
-        "likes": 1
+        "reposts": 2,
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -1487,27 +1523,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c18778fd9b36b5f19645",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "State of the East: Knicks title defense, Duren drama & Philly’s upside with Jonathan Macri",
-      "summary": "Kevin O'Connor and Jonathan Macri preview the New York Knicks and react to the latest on Jalen Duren's contract drama.",
-      "author": "Kevin O'Connor",
-      "published_at": "2026-09-28T18:04:01.000Z",
-      "url": "https://sports.yahoo.com/nba/article/state-of-the-east-knicks-title-defense-duren-drama--phillys-upside-with-jonathan-macri-180401573.html",
-      "image_url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/koc-snlknicks-thumb_6357.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/article/state-of-the-east-knicks-title-defense-duren-drama--phillys-upside-with-jonathan-macri-180401573.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "8a58154d84648cf0ef60",
       "type": "article",
       "source": "Sports Illustrated",
@@ -2177,9 +2192,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-of-a-slimmed-down-karl-anthony-towns-01m3ajw0jg7g",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-29T00:15:43.610Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-28T00:15:19.275Z"
+      "image_status": "available"
     },
     {
       "id": "9beae21cdd55e0f83fa5",
@@ -3146,44 +3161,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "e5e0388ec3266b290346",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwgkryycwb2o",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "NY Knicks player Drew Eubanks(6'10\", 245lbs) nonchalantly tanking a punch from another NBA player Isaiah Stewart(6'8\", 260lbs) (via r/NYKnicks)",
-      "published_at": "2026-09-26T15:07:10.749Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwgkryycwb2o",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigqd7eq2ln7p4fhbibovd3plsejxushx2vkyaaskpygbmpy7qik4y/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigqd7eq2ln7p4fhbibovd3plsejxushx2vkyaaskpygbmpy7qik4y/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigqd7eq2ln7p4fhbibovd3plsejxushx2vkyaaskpygbmpy7qik4y/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 608,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwgkryycwb2o",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "b9e31498628c063b8298",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3610,6 +3587,27 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_eb608b486489"
+    },
+    {
+      "id": "621de575e3339a7bdef7",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
+      "summary": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
+      "author": null,
+      "published_at": "2026-09-23T19:35:32.000Z",
+      "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat",
+      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0923/ss_20260923_152112217_3671906928/ss_20260923_152112217_3671906928.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
