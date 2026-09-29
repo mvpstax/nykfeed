@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T19:45:42.490Z",
+  "generated_at": "2026-09-29T20:00:29.598Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 118,
+    "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 27857,
+    "refresh_duration_ms": 6474,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,48 @@
       }
     ],
     "images": {
-      "available": 109,
-      "missing": 9,
+      "available": 107,
+      "missing": 10,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ee0f863cf8cd35f5a815",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:jsmgbe3bmfsogmseyxc2ynrr/app.bsky.feed.post/3mwom2gwiqs2r",
+      "author": "FrancineNewYorkForever🏒🏀⚾️",
+      "handle": "sportlover.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:jsmgbe3bmfsogmseyxc2ynrr/bafkreih4y6q3onpwfe22cjvircmfjxhv3rwsozmmiaxzgzfwkvngalpuiu",
+      "text": "Dear Knicks, we want this season to go off super great, ergo, no visits to WH please.",
+      "published_at": "2026-09-29T19:51:05.656Z",
+      "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mwom2gwiqs2r",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mwom2gwiqs2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "ff72047889f2f8fcb80f",
       "type": "social",
@@ -560,6 +593,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwo5oayao72t",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "2d23405a22e8d14149f9",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Former Knicks star J.R. Smith arrested on family assault charge",
+      "summary": "The ex-Knick was arrested on a charge of family violence on Tuesday in Texas, according to Hunt County jail records.",
+      "author": null,
+      "published_at": "2026-09-29T15:31:13.000Z",
+      "url": "https://sports.yahoo.com/articles/former-knicks-star-j-r-153113646.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/baf4b977310c5577b4461909d158913b.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/former-knicks-star-j-r-153113646.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1116,27 +1170,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "a1c35692f2a63312d60d",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Jalen Brunson ready to go after ‘painful’ injury he didn’t let derail Knicks’ title hopes",
-      "summary": "Jalen Brunson underwent offseason surgery on that wrist to repair a tendon issue. He notably played through the injury during the end of the playoffs en route to winning Finals MVP in spite of it.",
-      "author": null,
-      "published_at": "2026-09-29T04:38:11.000Z",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-ready-painful-injury-043811864.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/55c5a938f7dc6241ce021ace05badfb4.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/jalen-brunson-ready-painful-injury-043811864.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "122d2955c916a11cd581",
       "type": "social",
       "source": "Bluesky",
@@ -1167,27 +1200,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwmy34gowo2o",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "15177e49c55a71c57a28",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks believe they know what it takes to deliver rare NBA championship repeat",
-      "summary": "How the NBA champion Knicks aim to defy NBA repeat odds with a prime core, tougher East rivals and renewed focus.",
-      "author": null,
-      "published_at": "2026-09-29T04:18:27.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-believe-know-takes-deliver-041827964.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/02468daf619e0c4a251547b8f2dea9f6.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-believe-know-takes-deliver-041827964.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1664,41 +1676,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-28T23:00:23.787Z"
-    },
-    {
-      "id": "8df2e2e23b37f74a62b0",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwmeeyhc322y",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "Rich Paul said LeBron James would join the Knicks, if he got Jalen Brunson's blessing.\n\nToday, James said he simply chose not to piggy-back off of the reigning champs. It's exactly why he seemingly never got that call: dailyknicks.com/lebron-james...",
-      "published_at": "2026-09-28T22:28:30.165Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwmeeyhc322y",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreihe2mt3uvuivshsebbbtlh4bq6mb4ftfp6gvltnp7b35hblbaazle",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwmeeyhc322y",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "dcbe7514d8ba31a8c925",
