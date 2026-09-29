@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T01:15:20.618Z",
+  "generated_at": "2026-09-29T01:30:44.255Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4359,
+    "refresh_duration_ms": 28575,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 29
+        "items": 30
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +93,48 @@
       }
     ],
     "images": {
-      "available": 113,
-      "missing": 7,
+      "available": 112,
+      "missing": 8,
       "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4ea3983a5525cdea25b0",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wn2a7b67uy55fcejsqbryd4x/app.bsky.feed.post/3mwmoa2gw4s2b",
+      "author": "jae-sea.bsky.social",
+      "handle": "jae-sea.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wn2a7b67uy55fcejsqbryd4x/bafkreiehwwlkelewdo7k5klh5vnujt2qqq64qhn7huvsbibh6pl4fxvbwi",
+      "text": "Stephon Castle and Dylan Harper had a lot to say for a couple of guys that lost in 5 games\n\n#KnicksSky \n#NewYorkKnicks",
+      "published_at": "2026-09-29T01:24:41.891Z",
+      "url": "https://bsky.app/profile/did:plc:wn2a7b67uy55fcejsqbryd4x/post/3mwmoa2gw4s2b",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wn2a7b67uy55fcejsqbryd4x/post/3mwmoa2gw4s2b",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "b33deb91cf7cec67b7de",
       "type": "social",
@@ -192,7 +227,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 0,
-        "likes": 4
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -3337,9 +3372,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/knicks-jalen-brunson-fully-cleared-for-training-camp.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-29T01:30:44.060Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-28T01:15:21.517Z",
+      "image_status": "available",
       "cluster_id": "cluster_f98fff38e51b"
     },
     {
@@ -3586,28 +3621,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "161f6e35858dba8d3fad",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Atlantic Notes: Knicks, Nickel, Nets, Marks, Raptors",
-      "summary": "James L. Edwards III of The Athletic examines some of the training camp storylines to watch for the Knicks, including how Jalen Brunson’s surgically repaired wrist looks, who will win the battle for the 14th roster spot, and whether the team might still have a trade up its sleeve before opening night. As Edwards writes, […]",
-      "author": "Luke Adams",
-      "published_at": "2026-09-23T15:34:22.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/07/USATSI_28539184-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html"
-      },
-      "image_checked_at": "2026-09-29T01:15:20.586Z",
-      "image_source": "og:image",
-      "image_status": "available"
     }
   ],
   "clusters": [
