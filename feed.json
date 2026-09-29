@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T09:30:21.067Z",
+  "generated_at": "2026-09-29T09:45:41.897Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4738,
+    "refresh_duration_ms": 28386,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 113,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -1029,28 +1030,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "ff2669690c25f950795c",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "What did Jalen Brunson say at New York Knicks media day?",
-      "summary": "Karl-Anthony Towns and Josh Hart also discussed their ongoing contract extension talks.",
-      "author": null,
-      "published_at": "2026-09-28T20:53:44.000Z",
-      "url": "https://sports.yahoo.com/articles/did-jalen-brunson-york-knicks-205344999.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/0c3053231f71a95f89e35ed0c48020ba56525e0ca7ba3b072c699edd69c15de5/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2Fed9356078aeb4eab8090de6dde47f4c3.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/did-jalen-brunson-york-knicks-205344999.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-28T21:15:28.172Z"
     },
     {
       "id": "844ef3235fad362f6f1f",
@@ -3622,6 +3601,28 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-29T02:15:20.481Z"
+    },
+    {
+      "id": "976231a87107ef8fe25d",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Atlantic Notes: Barrett, Raptors, Sixers, Knicks",
+      "summary": "Raptors forward RJ Barrett, who was traded from New York to Toronto during the 2023/24 season, admitted in an interview with Donnovan Bennett of CBC Sports (YouTube link) that he felt “a little salty” watching his old team win a championship last season. However, Barrett stressed that he’s happy for his former Knicks teammates. “If […]",
+      "author": "Luke Adams",
+      "published_at": "2026-09-22T13:03:03.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/RJ-Barrett-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-barrett-raptors-sixers-knicks.html"
+      },
+      "image_checked_at": "2026-09-29T09:45:41.704Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
