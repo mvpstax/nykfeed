@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T14:15:24.691Z",
+  "generated_at": "2026-09-30T14:30:48.227Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 120,
+    "item_count": 118,
     "game_count": 0,
-    "refresh_duration_ms": 8776,
+    "refresh_duration_ms": 29639,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 12
+        "items": 10
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,36 @@
       }
     ],
     "images": {
-      "available": 111,
+      "available": 109,
       "missing": 9,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "aacb2c78fde9c0ff2a7e",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Knicks Waive John Konchar, N'Faly Dante; Sign Jaden Akins To Two-Way Contract; Sign Tony Bradley To Camp Deal",
+      "summary": "The New York Knicks announced a series of transactions, as they continue tinkering with their training camp roster. New York waived John Konchar and N'Faly Dante, who had been signed to non-guaranteed camp deals. The Knicks signed Jaden Akins to a two-way deal, after signing-and-waiving him twice previously this offseason. New York also signed veteran center Tony Bradley to a training camp deal. In addition, the Knicks signed-and-waived Toby Okani. This was done in order to meet roster minimum requirements while making their other transactions. Okani is expected to join the Westchester Knicks for the G League season.",
+      "author": null,
+      "published_at": "2026-09-30T14:15:12.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287469/Knicks-Waive-John-Konchar-NFaly-Dante;-Sign-Jaden-Akins-To-Two-Way-Contract;-Sign-Tony-Bradley-To-Camp-Deal",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Konchar_John_mem_230109.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287469/Knicks-Waive-John-Konchar-NFaly-Dante;-Sign-Jaden-Akins-To-Two-Way-Contract;-Sign-Tony-Bradley-To-Camp-Deal"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_fb8b40af3ac8"
+    },
     {
       "id": "be90fbb6eca3cd465cf0",
       "type": "social",
@@ -209,7 +232,8 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-waive-john-konchar-nfaly-dante.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_fb8b40af3ac8"
     },
     {
       "id": "f15b648f800612cfe56c",
@@ -1797,48 +1821,6 @@
       "image_checked_at": "2026-09-29T16:00:26.415Z"
     },
     {
-      "id": "2d23405a22e8d14149f9",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Former Knicks star J.R. Smith arrested on family assault charge",
-      "summary": "The ex-Knick was arrested on a charge of family violence on Tuesday in Texas, according to Hunt County jail records.",
-      "author": null,
-      "published_at": "2026-09-29T15:31:13.000Z",
-      "url": "https://sports.yahoo.com/articles/former-knicks-star-j-r-153113646.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/baf4b977310c5577b4461909d158913b.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/former-knicks-star-j-r-153113646.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "f5fb5f4dfdf59bcbc61d",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks Bulletin: ‘That’s going to help us, but that can also hurt us’",
-      "summary": "Here’s the second Bulletin covering Media Day with everything else that I couldn’t find yesterday. Apologies in advance for any repeated quotes, but hey, y’all can’t have it all. Here’s the latest before training camp gets going today, with the first preseason game less than a week away. Jalen Brunson On playing through his left […]",
-      "author": null,
-      "published_at": "2026-09-29T15:30:00.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-going-help-us-153000736.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/f2cf005ae7c136c82996c059f22507e3.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-bulletin-going-help-us-153000736.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "803a8c00fca60bb922aa",
       "type": "social",
       "source": "Bluesky",
@@ -2661,9 +2643,9 @@
         "url": "https://www.si.com/nba/knicks/jalen-brunson-era-new-york-sports-is-upon-us",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-30T14:30:47.765Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-29T14:30:47.094Z"
+      "image_status": "available"
     },
     {
       "id": "e6c1eec1340cc42d9da8",
@@ -2731,27 +2713,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwleuu6fn22m",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "030037e3795a5d48239a",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Bryson Warren, Pistons Sign Exhibit 10 Contract",
-      "summary": "The Detroit Pistons signed guard Bryson Warren to an Exhibit 10 contract. Detroit's G League affiliate, the Motor City Cruise, recently acquired Warren's G League rights. Following the NBA preseason, Warren is expected to join the Cruise for the G League season. Warren played in 28 G League games for the Westchester Knicks last season. The 6-foot-3 guard averaged 18.8 points, 2.8 rebounds, 4.9 assists and 1.2 steals per game.",
-      "author": null,
-      "published_at": "2026-09-28T12:54:47.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287438/Bryson-Warren-Pistons-Sign-Exhibit-10-Contract",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/nba_detroitpistons.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287438/Bryson-Warren-Pistons-Sign-Exhibit-10-Contract"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3516,6 +3477,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_fb8b40af3ac8",
+      "lead_item_id": "aacb2c78fde9c0ff2a7e",
+      "item_ids": [
+        "aacb2c78fde9c0ff2a7e",
+        "dcdb65fca9599c501179"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-30T14:15:12.000Z"
+    },
     {
       "id": "cluster_7bed4847b7a1",
       "lead_item_id": "e199f4ddf1af8ffc869c",
