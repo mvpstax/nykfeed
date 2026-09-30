@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T13:00:27.111Z",
+  "generated_at": "2026-09-30T13:15:23.672Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5666,
+    "refresh_duration_ms": 6164,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 14
+        "items": 12
       },
       {
         "source_key": "cbs_sports_nba",
@@ -94,12 +94,82 @@
     "images": {
       "available": 111,
       "missing": 9,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "baab250048ce257c84c4",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:fdpfucsmqcwjwvjvujyqxlxx/app.bsky.feed.post/3mwqg573s7c2y",
+      "author": "Mike Vaccaro",
+      "handle": "mikevacc.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreieimrayaipe3f2oaknywlhulonr4hnfkzmb5lsmnqiefclyskeaca",
+      "text": "ICYMI, Column: The Captain knows the secret to Andre Drummond’s success this year: “He’s not coming here to be Mitch,” Jalen Brunson said. “He’s coming to be himself.” And after 14 years and 967 games, that is one thing Drummond knows how to be. nypost.com/2026/09/29/s...",
+      "published_at": "2026-09-30T13:10:35.130Z",
+      "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwqg573s7c2y",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreideunm7oawemgtrkhozrkdqulwxrxsyjccsxffstm6jkvjwhnhhly",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwqg573s7c2y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "58081d709df232cb1079",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwqfq2xzuj2o",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "‘No Doctors Are Messing With That,’ ‘Pay This Man’ - Knicks Fans Rally Behind Josh Hart’s Plan to Play Through Career-Altering Injury (via AOL)",
+      "published_at": "2026-09-30T13:03:14.402Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwqfq2xzuj2o",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifbgwjx3xytdtq33pej7cg73vhnhh7axbg6k3geniiqeqjepett64",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwqfq2xzuj2o",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "a0caad23cea46c335e0f",
       "type": "social",
@@ -343,7 +413,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -455,7 +525,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -1695,63 +1765,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "e8d0cc3ce26b004f4471",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwo4fvqosp2p",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Spurs star has surprising Knicks fan take after Finals",
-      "published_at": "2026-09-29T15:11:10.198Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwo4fvqosp2p",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidsy56phcpyvwpbkfkpwkdfvtl3fzmlcq7r4otj5dzhrtxitmvsiu",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwo4fvqosp2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b68de3ceb5900292a87b",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Spurs star has surprising Knicks fan take after Finals",
-      "summary": "stephon castle knicsk fansStephon Castle apparently wasn’t feeling the heat in Madison Square Garden. Castle, who shot 37.7 percent from the field in the Knicks’ five-game NBA Finals series win,...",
-      "author": null,
-      "published_at": "2026-09-29T15:08:45.000Z",
-      "url": "https://sports.yahoo.com/articles/spurs-star-surprising-knicks-fan-150845315.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/7b7bb55d76f904aa4aa1b885b1f13f2c.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/spurs-star-surprising-knicks-fan-150845315.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_b7010d8010f1"
-    },
-    {
       "id": "803a8c00fca60bb922aa",
       "type": "social",
       "source": "Bluesky",
@@ -1782,27 +1795,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwo463mroj2e",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "342aafba9cc2d92c87aa",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks players ‘very surprised’ by Mitchell Robinson’s departure: ‘Heartbroken’",
-      "summary": "For most people outside the Knicks, Mitchell Robinson leaving in free agency was an expected outcome. Apparently, that wasn’t the case inside the organization, at least for the players.",
-      "author": null,
-      "published_at": "2026-09-29T14:52:02.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-players-very-surprised-mitchell-145202419.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/8411a2cf5c5833e10a7d8965128fb1ef.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-players-very-surprised-mitchell-145202419.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2167,8 +2159,7 @@
         "url": "https://www.cbssports.com/nba/news/spurs-stephon-castle-knicks-crowd-msg-underwhelming/"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_b7010d8010f1"
+      "image_source": "source_feed"
     },
     {
       "id": "f4c4d209e2094afe1077",
@@ -2992,44 +2983,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "6b5a88ed639971274100",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwjpc7zxng2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "23 Days until we raise the Championship banner on opening night for the 2026 NBA Champions, your New York Knicks!! (via r/NYKnicks)",
-      "published_at": "2026-09-27T21:05:49.196Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjpc7zxng2x",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreifhdvlpify5yo4bg2b4ne3syn6lhpir47dkdbnpmjvrsbwg2ndiny/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreifhdvlpify5yo4bg2b4ne3syn6lhpir47dkdbnpmjvrsbwg2ndiny/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreifhdvlpify5yo4bg2b4ne3syn6lhpir47dkdbnpmjvrsbwg2ndiny/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1002,
-        "width": 720
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjpc7zxng2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "6f9ab8638d45ad46cd29",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3522,6 +3475,49 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_eb608b486489"
+    },
+    {
+      "id": "621de575e3339a7bdef7",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
+      "summary": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
+      "author": null,
+      "published_at": "2026-09-23T19:35:32.000Z",
+      "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat",
+      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0923/ss_20260923_152112217_3671906928/ss_20260923_152112217_3671906928.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "161f6e35858dba8d3fad",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Atlantic Notes: Knicks, Nickel, Nets, Marks, Raptors",
+      "summary": "James L. Edwards III of The Athletic examines some of the training camp storylines to watch for the Knicks, including how Jalen Brunson’s surgically repaired wrist looks, who will win the battle for the 14th roster spot, and whether the team might still have a trade up its sleeve before opening night. As Edwards writes, […]",
+      "author": "Luke Adams",
+      "published_at": "2026-09-23T15:34:22.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/07/USATSI_28539184-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html"
+      },
+      "image_checked_at": "2026-09-30T13:15:23.589Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
@@ -3545,16 +3541,6 @@
       ],
       "source_count": 2,
       "updated_at": "2026-09-29T21:14:13.000Z"
-    },
-    {
-      "id": "cluster_b7010d8010f1",
-      "lead_item_id": "b68de3ceb5900292a87b",
-      "item_ids": [
-        "b68de3ceb5900292a87b",
-        "6495f7f586e0a8af699a"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-29T15:08:45.000Z"
     },
     {
       "id": "cluster_9fb9cb16f75d",
