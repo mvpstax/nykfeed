@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T04:30:21.068Z",
+  "generated_at": "2026-09-30T04:45:44.266Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4618,
+    "refresh_duration_ms": 28586,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 12
+        "items": 13
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -557,6 +558,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwp2bo3cj22e",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "3c55df1ed1f0e4d7892c",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks ready to ‘do a lot of different things’ in title defense — which could mean some role changes",
+      "summary": "Last year’s playoffs might have only been an appetizer.",
+      "author": null,
+      "published_at": "2026-09-30T00:04:26.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-ready-lot-different-things-000426469.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/2aed96c9c82a038b442cba8e1bedea08.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-ready-lot-different-things-000426469.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3129,9 +3151,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/minor-roster-moves-knicks-grizzlies-hornets-clippers.html"
       },
-      "image_checked_at": "2026-09-30T04:30:21.027Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-30T04:30:21.027Z"
     },
     {
       "id": "872003aa40ed8e77f6ce",
@@ -3443,9 +3465,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/minor-transactions-jazz-nuggets-spurs-trail-blazers-celtics-wolves-cavaliers.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-30T04:45:44.073Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-29T04:45:41.820Z"
+      "image_status": "available"
     },
     {
       "id": "52db53aa5fcdaad25fdd",
@@ -3512,27 +3534,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_eb608b486489"
-    },
-    {
-      "id": "621de575e3339a7bdef7",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
-      "summary": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
-      "author": null,
-      "published_at": "2026-09-23T19:35:32.000Z",
-      "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat",
-      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0923/ss_20260923_152112217_3671906928/ss_20260923_152112217_3671906928.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": [
