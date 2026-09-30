@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T22:15:46.533Z",
+  "generated_at": "2026-09-30T22:30:26.275Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 115,
+    "item_count": 116,
     "game_count": 0,
-    "refresh_duration_ms": 28282,
+    "refresh_duration_ms": 4617,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 105,
+      "available": 106,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -582,6 +581,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwqwk6tyhe22",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "227bfa2fab5a0d7f1570",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Karl Anthony Towns’ wife Jordyn stopped going to Knicks games over fan vitriol: ‘It was turning dark’",
+      "summary": "Knicks center Karl-Anthony Towns' wife Jordyn Woods took a break from attending his games after witnessing the New York fan base heckle him in front of her.",
+      "author": null,
+      "published_at": "2026-09-30T18:02:12.000Z",
+      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-wife-jordyn-180212503.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/ffb5e93ae6071596edefadd624d7a62e.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-wife-jordyn-180212503.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
