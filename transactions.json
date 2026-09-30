@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T22:00:28.128Z",
+  "generated_at": "2026-09-30T22:15:48.314Z",
   "source": "NBA.com",
   "source_url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json",
   "transactions": [
@@ -54,6 +54,19 @@
       "player_id": "1629723",
       "player_slug": "john-konchar",
       "is_knicks": true,
+      "source_url": "https://www.nba.com/players/transactions"
+    },
+    {
+      "id": "68fbc4343967858acbf9",
+      "date": "2026-09-30",
+      "type": "Signing",
+      "trade_group_id": null,
+      "description": "Denver Nuggets signed guard Ryan Nembhard to a Two-Way Contract.",
+      "team_id": "1610612743",
+      "team_slug": "nuggets",
+      "player_id": "1642948",
+      "player_slug": "ryan-nembhard",
+      "is_knicks": false,
       "source_url": "https://www.nba.com/players/transactions"
     },
     {
@@ -1289,19 +1302,6 @@
       "player_id": "1643701",
       "player_slug": "aziz-bandaogo",
       "is_knicks": false,
-      "source_url": "https://www.nba.com/players/transactions"
-    },
-    {
-      "id": "8aee084de625fa9ed01f",
-      "date": "2026-09-16",
-      "type": "Waive",
-      "trade_group_id": null,
-      "description": "New York Knicks waived center Liam Robbins.",
-      "team_id": "1610612752",
-      "team_slug": "knicks",
-      "player_id": "1641857",
-      "player_slug": "liam-robbins",
-      "is_knicks": true,
       "source_url": "https://www.nba.com/players/transactions"
     }
   ]
