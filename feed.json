@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T22:30:26.275Z",
+  "generated_at": "2026-09-30T22:45:18.608Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 4617,
+    "refresh_duration_ms": 4770,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 106,
-      "missing": 10,
-      "article_pages_checked": 0
+      "available": 105,
+      "missing": 9,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "2569b772e0078e4cc517",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwrg3u5aqa2o",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Landry Shamet 'proud' to finally have his rewarding Knicks clarity",
+      "published_at": "2026-09-30T22:42:29.598Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwrg3u5aqa2o",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreieyivez6bgnzp3ifoxtcxszgvevvptwtjssix7egsuqv2iszld66e",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwrg3u5aqa2o",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "452d5492a8382fc767e3",
       "type": "social",
@@ -1753,40 +1788,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "c8617375f1795a5b21bb",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwp2wexlgs24",
-      "author": "Joe Flynn",
-      "handle": "chinajoeflynn.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
-      "text": "A Knicks player teaching the Yankees about winning titles...I never would have believed it.",
-      "published_at": "2026-09-30T00:17:15.504Z",
-      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwp2wexlgs24",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 2,
-        "likes": 17
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwp2wexlgs24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "3c2cdb0cb47eb1c907cb",
       "type": "article",
       "source": "Hoops Rumors",
@@ -1839,48 +1840,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwp2bo3cj22e",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "3c55df1ed1f0e4d7892c",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks ready to ‘do a lot of different things’ in title defense — which could mean some role changes",
-      "summary": "Last year’s playoffs might have only been an appetizer.",
-      "author": null,
-      "published_at": "2026-09-30T00:04:26.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-ready-lot-different-things-000426469.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/2aed96c9c82a038b442cba8e1bedea08.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-ready-lot-different-things-000426469.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "d49d9d443e96154d453a",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Mike Brown sets Knicks’ regular-season expectations as adversity awaits reigning champs",
-      "summary": "And after Tuesday’s first practice, the championship coach acknowledged the impossibility of maintaining the near perfection of the playoffs.",
-      "author": null,
-      "published_at": "2026-09-30T00:00:03.000Z",
-      "url": "https://sports.yahoo.com/articles/mike-brown-sets-knicks-regular-000003218.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/c35d1f4ce1d16f272641456b4df2cecb.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/mike-brown-sets-knicks-regular-000003218.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3056,9 +3015,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-fernandez-knicks-clowney-walker.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-30T22:45:18.575Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-29T22:30:44.228Z"
+      "image_status": "available"
     },
     {
       "id": "6f9ab8638d45ad46cd29",
