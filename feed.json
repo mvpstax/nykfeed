@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T13:45:31.134Z",
+  "generated_at": "2026-09-30T14:00:24.222Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 9786,
+    "refresh_duration_ms": 3466,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 26
+        "items": 27
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,8 +92,8 @@
       }
     ],
     "images": {
-      "available": 111,
-      "missing": 9,
+      "available": 110,
+      "missing": 10,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
@@ -101,12 +101,67 @@
   "games": [],
   "items": [
     {
+      "id": "80683a65481b689e4e02",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Sign Jaden Akins To Two-Way Contract",
+      "summary": "As part of a busy morning of transactions, the Knicks have filled their third and final two-way opening by signing free agent guard Jaden Akins to a two-way contract, the team announced in a press release (Twitter link). Akins will slot in alongside Kevin McCullar Jr. and 2026 second-round pick Tyler Nickel as New York’s […]",
+      "author": "Luke Adams",
+      "published_at": "2026-09-30T13:57:32.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-jaden-akins-to-two-way-contract.html",
+      "image_url": "https://www.hoopsrumors.com/files/2026/09/Jaden-Akins-MSU-200x300.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-jaden-akins-to-two-way-contract.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "3a209efe6e2b5a767915",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mwqin2445g2h",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "NEWS: The Knicks (@NY_KnicksPR) announced the following roster moves:\n\n- Waived John Konchar & N'Faly Dante\n- Signed Toby Okani to an Exhibit 10 Contract\n- Signed Tony Bradley to an Exhibit 9 Contract (h/t: @IanBegley)\n- Waived Toby Okani\n- Signed Jaden Akins to a Two-Way Contract (h/t: @SbondyNBA)",
+      "published_at": "2026-09-30T13:55:14.230Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwqin2445g2h",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwqin2445g2h",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
       "id": "dcdb65fca9599c501179",
       "type": "article",
       "source": "Hoops Rumors",
       "source_key": "hoops_rumors",
       "title": "Knicks Waive John Konchar, Sign Tony Bradley",
-      "summary": "8:41 am: The Knicks have indeed signed Bradley to an Exhibit 9 contract, the team confirmed (via Twitter). A veteran center with eight years of NBA experience, the 38-year-old spent last season with Indiana and Atlanta, appearing in 41 games and averaging 4.0 points and 2.8 rebounds in 11.0 minutes per night. The Knicks also […]",
+      "summary": "8:41 am: The Knicks have indeed signed Bradley to an Exhibit 9 contract, the team confirmed (via Twitter). A veteran center with eight years of NBA experience, the 28-year-old spent last season with Indiana and Atlanta, appearing in 41 games and averaging 4.0 points and 2.8 rebounds in 11.0 minutes per night. The Knicks also […]",
       "author": "Luke Adams",
       "published_at": "2026-09-30T13:41:59.000Z",
       "url": "https://www.hoopsrumors.com/2026/09/knicks-waive-john-konchar-nfaly-dante.html",
@@ -3448,7 +3503,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_eb608b486489"
+      "cluster_id": "cluster_fa0a6fa69581"
     },
     {
       "id": "1add455d8ed253fdb76c",
@@ -3470,50 +3525,7 @@
       },
       "image_status": "available",
       "image_source": "source_feed",
-      "cluster_id": "cluster_eb608b486489"
-    },
-    {
-      "id": "3e7c50f8f805f07e0de0",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Knicks’ Extension Talks With Karl-Anthony Towns Have ‘Stagnated’",
-      "summary": "It appears Karl-Anthony Towns isn’t willing to give the Knicks a nice discount on an extension. Talks have “stagnated” between the two parties, according to Shams Charania and Vincent Goodwill of ESPN, and an agreement is considered unlikely before the team begins training camp next week. Towns will make $57MM during the upcoming season and […]",
-      "author": "Dana Gauruder",
-      "published_at": "2026-09-23T19:39:21.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/knicks-extension-talks-with-karl-anthony-towns-have-stagnated.html",
-      "image_url": "https://www.hoopsrumors.com/files/2026/06/Karl-Anthony-Towns-vert-200x300.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/knicks-extension-talks-with-karl-anthony-towns-have-stagnated.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_eb608b486489"
-    },
-    {
-      "id": "621de575e3339a7bdef7",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
-      "summary": "Why Windy believes KAT-Knicks extension will get done, with one caveat",
-      "author": null,
-      "published_at": "2026-09-23T19:35:32.000Z",
-      "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat",
-      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0923/ss_20260923_152112217_3671906928/ss_20260923_152112217_3671906928.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/video/clip/_/id/50014879/why-windy-believes-kat-knicks-extension-get-done-one-caveat"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
+      "cluster_id": "cluster_fa0a6fa69581"
     }
   ],
   "clusters": [
@@ -3580,14 +3592,13 @@
       "updated_at": "2026-09-25T19:38:28.000Z"
     },
     {
-      "id": "cluster_eb608b486489",
+      "id": "cluster_fa0a6fa69581",
       "lead_item_id": "52db53aa5fcdaad25fdd",
       "item_ids": [
         "52db53aa5fcdaad25fdd",
-        "1add455d8ed253fdb76c",
-        "3e7c50f8f805f07e0de0"
+        "1add455d8ed253fdb76c"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "updated_at": "2026-09-23T21:18:51.000Z"
     }
   ]
