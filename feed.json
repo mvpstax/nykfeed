@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T00:15:46.535Z",
+  "generated_at": "2026-09-30T00:30:22.030Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 29731,
+    "refresh_duration_ms": 5710,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,82 @@
       }
     ],
     "images": {
-      "available": 114,
-      "missing": 5,
-      "article_pages_checked": 2
+      "available": 112,
+      "missing": 7,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "1a3dc4d65219bfcd5d0f",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:clxmwmbtstczv2oihd5hzsdz/app.bsky.feed.post/3mwp325zvxc24",
+      "author": "knickerbacker.bsky.social",
+      "handle": "knickerbacker.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:clxmwmbtstczv2oihd5hzsdz/bafkreiasazolcf5qzcuxdcn7b4ztaudrojbihwg6kk6z2dindjlk6pl6ne",
+      "text": "Repeat it to yourself as many times as you need to: \n\nThe Knicks are world champions. Nobody can hurt me.",
+      "published_at": "2026-09-30T00:19:22.458Z",
+      "url": "https://bsky.app/profile/did:plc:clxmwmbtstczv2oihd5hzsdz/post/3mwp325zvxc24",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 2,
+        "likes": 9
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:clxmwmbtstczv2oihd5hzsdz/post/3mwp325zvxc24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "c8617375f1795a5b21bb",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwp2wexlgs24",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "A Knicks player teaching the Yankees about winning titles...I never would have believed it.",
+      "published_at": "2026-09-30T00:17:15.504Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwp2wexlgs24",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 9
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwp2wexlgs24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "3c2cdb0cb47eb1c907cb",
       "type": "article",
@@ -119,9 +186,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-tatum-robinson-leonard-yoshimoto.html"
       },
-      "image_checked_at": "2026-09-30T00:15:46.100Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-30T00:15:46.100Z"
     },
     {
       "id": "d9ca1d6f06180cf1d8bf",
@@ -250,7 +317,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -343,7 +410,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -377,7 +444,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -450,7 +517,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1563,41 +1630,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "20d7c16aee918865f356",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:j4spygbxn74y4dx2qejadwvk/app.bsky.feed.post/3mwnvdd3bhc2w",
-      "author": "Adam Zagoria",
-      "handle": "adamzagoria.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreihphjbhoytwx4l4nqhz5xg32puaysk7grujsxk4ryscwxv3lqmqoq",
-      "text": "Victor Wembanyama suffered ‘sleepless nights’ after losing NBA Finals to Knicks\n\nwww.nj.com/knicks/2026/...",
-      "published_at": "2026-09-29T13:04:27.546Z",
-      "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwnvdd3bhc2w",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreibpjp3zdhq7x4b4jfl2wmjdks2eyaczxxc5in4exo4ibxr2ak4wau",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwnvdd3bhc2w",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c33ca9bf6cf4257d4212",
       "type": "social",
       "source": "Bluesky",
@@ -1627,41 +1659,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwnvcgmdjd2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "c61b1df570e50b72981b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:fdpfucsmqcwjwvjvujyqxlxx/app.bsky.feed.post/3mwns2cl2bk2b",
-      "author": "Mike Vaccaro",
-      "handle": "mikevacc.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreieimrayaipe3f2oaknywlhulonr4hnfkzmb5lsmnqiefclyskeaca",
-      "text": "ICYMI, Column: as the #Knicks reassemble to defend a championship for the first time in 53 years, it is a day to squeeze a few last drops out of a glorious summer before pondering the sobering potential realities in this Age of the Apron. nypost.com/2026/09/28/s...",
-      "published_at": "2026-09-29T12:05:43.797Z",
-      "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwns2cl2bk2b",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreibjns55t2euonxt46wqrhea52od7r4dwjvzuvcgo3hyfl5ytikhwy",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwns2cl2bk2b",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2707,9 +2704,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-of-a-slimmed-down-karl-anthony-towns-01m3ajw0jg7g",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-30T00:15:46.100Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-30T00:15:46.100Z"
     },
     {
       "id": "9beae21cdd55e0f83fa5",
