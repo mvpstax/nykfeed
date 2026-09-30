@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T16:15:21.522Z",
+  "generated_at": "2026-09-30T16:30:23.479Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 117,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 4234,
+    "refresh_duration_ms": 6103,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 11
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 108,
+      "available": 110,
       "missing": 9,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d8f35dbc13274f7b1038",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vcumvue2gcsxexermtdg6cr7/app.bsky.feed.post/3mwqqiuhadc2t",
+      "author": "Tommy Beer",
+      "handle": "tommybeernba.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreifi5xitqwmihnc6t7jaskafbqemysh5klbfju44ks527gz43xw6pe",
+      "text": "🚨 New Words 🚨\n\nThe Work Begins Again: Knicks Roster Moves, Camp Quotes\n\n\"I’m surprised the Knicks didn’t use their final two-way slot on a big man who could provide spot minutes during the first half of the regular season.\"\n\n📬 Freshly Delivered to Inboxes 📬\n\ntommybeer.substack.com/p/the-work-b...",
+      "published_at": "2026-09-30T16:16:04.040Z",
+      "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mwqqiuhadc2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreienhehrszyk2hlrhigp3hmqsiplpzq7kczvpvdmsj6g6tstylckma",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mwqqiuhadc2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "fa26441f270a8fdf4616",
       "type": "social",
@@ -194,6 +229,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "43900ba8735d24774963",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks Bulletin: ‘If I get a joint replacement, my career is over’",
+      "summary": "Can you feel it in the air? It’s Knicks basketball scent. New York keeps working through the early days of training camp, gearing up for a preseason matchup with the 76ers on Oct. 5. Meanwhile, here’s the latest we’ve heard about the Knickerbockers inside the Tarrytown facilities and elsewhere. Mike Brown On Andre Drummond being […]",
+      "author": null,
+      "published_at": "2026-09-30T14:18:57.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-bulletin-joint-replacement-career-141857816.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/19178198d9df9387979565fdbc6bfbc5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-bulletin-joint-replacement-career-141857816.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "aacb2c78fde9c0ff2a7e",
       "type": "article",
       "source": "RealGM",
@@ -214,6 +270,27 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_fb8b40af3ac8"
+    },
+    {
+      "id": "a9c5fd31f93f9c0e4aac",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "There’s finally a silver lining to the Knicks’ championship for the Sixers",
+      "summary": "LeBron James confirmed Monday that he would have joined the Knicks this summer had they not won a championship last year.",
+      "author": null,
+      "published_at": "2026-09-30T14:10:56.000Z",
+      "url": "https://sports.yahoo.com/articles/finally-silver-lining-knicks-championship-141056535.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/f12c25b9fe8019697e8592c85678924a.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/finally-silver-lining-knicks-championship-141056535.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "be90fbb6eca3cd465cf0",
@@ -1715,41 +1792,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwoganxswj2c",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "ec736f7286a6cc0cf33f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwoftt2be62l",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Why Mitchell Robinson wanted apology from Celtics coach Joe Mazzulla after leaving Knicks",
-      "published_at": "2026-09-29T18:00:00.697Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwoftt2be62l",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreige6t5adlkeyxkpynvvhn7xtrmfrwfrgz2nawkkm7d3dp5gqnm43e",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwoftt2be62l",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3317,9 +3359,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/2026-27-nba-over-unders-atlantic-division.html"
       },
-      "image_checked_at": "2026-09-30T16:15:21.470Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-30T16:15:21.470Z"
     },
     {
       "id": "30ea7292914addd43f91",
