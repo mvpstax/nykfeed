@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T00:00:26.953Z",
+  "generated_at": "2026-09-30T00:15:46.535Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 118,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 5783,
+    "refresh_duration_ms": 29731,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,141 @@
       }
     ],
     "images": {
-      "available": 112,
-      "missing": 6,
-      "article_pages_checked": 0
+      "available": 114,
+      "missing": 5,
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "3c2cdb0cb47eb1c907cb",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Atlantic Notes: Tatum, Robinson, Leonard, Yoshimoto",
+      "summary": "Celtics star forward Jayson Tatum is 16 months removed from Achilles’ tendon surgery and says he’s fully healthy as the team begins its first week of training camp, according to the Associated Press’ Kyle Hightower. “I feel great having this offseason to get stronger,” he said. “Get more explosive and just work on my body […]",
+      "author": "Dana Gauruder",
+      "published_at": "2026-09-30T00:06:30.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-tatum-robinson-leonard-yoshimoto.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/05/Jayson-Tatum1-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-tatum-robinson-leonard-yoshimoto.html"
+      },
+      "image_checked_at": "2026-09-30T00:15:46.100Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "d9ca1d6f06180cf1d8bf",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwp2bs5i4j2l",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Knicks ready to 'do a lot of different things' in title defense - which could mean some role changes",
+      "published_at": "2026-09-30T00:05:44.454Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwp2bs5i4j2l",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicdpyydizu447nvubba6mclek4mgkdmycbkymdmxbftvnu7ywfi64",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwp2bs5i4j2l",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "c8cf5679a905aad5da51",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwp2bo3cj22e",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Mike Brown’s Knicks Media Day Comments Should Be Turning Heads (via Sports Illustrated)",
+      "published_at": "2026-09-30T00:05:40.225Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwp2bo3cj22e",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreie7pzf5e6wq6j2qlx5apbzhfruyepxtxr5rkm6o6c6yqcxlh2otw4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwp2bo3cj22e",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "9f6033636856012542a8",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwozzsdt6n2u",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Mike Brown sets Knicks' regular-season expectations as adversity awaits reigning champs",
+      "published_at": "2026-09-30T00:01:16.136Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwozzsdt6n2u",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreid4e72t66pln7rfqfhmdx7nyp66c5r56pft77jkxyllq76l2nvj5e",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwozzsdt6n2u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "e1364c1023ccbe25f9d2",
       "type": "social",
@@ -519,7 +647,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 10
+        "likes": 11
       },
       "team": "NYK",
       "presentation": {
@@ -1534,75 +1662,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mwns2cl2bk2b",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "1e0f8ef557a293534183",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:2pcjoeylzg3uqk4aricwh5jo/app.bsky.feed.post/4hrebzxlvjlnd",
-      "author": "NY Times",
-      "handle": "nytimes-news.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:2pcjoeylzg3uqk4aricwh5jo/bafkreichjzyrlwumjyziyxhgg3sqted2vzuzf4otbwwloojj5q5epfgbza",
-      "text": "Knicks extensions for Karl-Anthony Towns, Josh Hart loom: 'I would like to get it done'",
-      "published_at": "2026-09-29T09:59:03.000Z",
-      "url": "https://bsky.app/profile/did:plc:2pcjoeylzg3uqk4aricwh5jo/post/4hrebzxlvjlnd",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:2pcjoeylzg3uqk4aricwh5jo/post/4hrebzxlvjlnd",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "d90c880a718cc176ca02",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwmz3evonq24",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Jalen Brunson ready to go after 'painful' injury he didn't let derail Knicks' title hopes",
-      "published_at": "2026-09-29T04:38:56.024Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwmz3evonq24",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreia76yajq5vei27mslt2m7lplli2twlctxyvds5zwzxgbepemm2zve",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwmz3evonq24",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2648,9 +2707,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-of-a-slimmed-down-karl-anthony-towns-01m3ajw0jg7g",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-30T00:15:46.100Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-29T00:15:43.610Z"
+      "image_status": "available"
     },
     {
       "id": "9beae21cdd55e0f83fa5",
@@ -2972,44 +3031,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjbpbtl3f2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "03a478663b6b78bbd8ea",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwj6i722bc2o",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "SNL Brunson: Hart’s thumb and the missed Finals layup (via r/NYKnicks)",
-      "published_at": "2026-09-27T16:04:55.863Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwj6i722bc2o",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigbclzxsh7pf5d7yai7njrmtkuz6uw3rfenrk7dt6egqvpecsjrky/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigbclzxsh7pf5d7yai7njrmtkuz6uw3rfenrk7dt6egqvpecsjrky/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigbclzxsh7pf5d7yai7njrmtkuz6uw3rfenrk7dt6egqvpecsjrky/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 608,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwj6i722bc2o",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
