@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T01:15:20.088Z",
+  "generated_at": "2026-09-30T01:30:24.572Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 119,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5029,
+    "refresh_duration_ms": 4138,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 10
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 112,
+      "available": 113,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -601,6 +601,28 @@
       "image_source": "source_feed"
     },
     {
+      "id": "3364d88d46c35336c77c",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks still mulling whether to go to White House",
+      "summary": "The Knicks are apparently still deciding whether to become the first NBA champs to visit Donald Trump’s White House.",
+      "author": null,
+      "published_at": "2026-09-29T21:14:13.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-still-mulling-whether-white-211413054.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/364bd6f33166bfc04e719cf94c97c306.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-still-mulling-whether-white-211413054.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_52d61eed9c49"
+    },
+    {
       "id": "1c51c80bcfefd074b356",
       "type": "social",
       "source": "Bluesky",
@@ -749,7 +771,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 11
+        "likes": 12
       },
       "team": "NYK",
       "presentation": {
@@ -780,7 +802,8 @@
         "url": "https://www.espn.com/nba/story/_/id/50060343/knicks-undecided-visit-white-house"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_52d61eed9c49"
     },
     {
       "id": "ff72047889f2f8fcb80f",
@@ -3546,6 +3569,16 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_52d61eed9c49",
+      "lead_item_id": "3364d88d46c35336c77c",
+      "item_ids": [
+        "3364d88d46c35336c77c",
+        "33336a53ef5f30a72193"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-09-29T21:14:13.000Z"
+    },
     {
       "id": "cluster_b7010d8010f1",
       "lead_item_id": "b68de3ceb5900292a87b",
