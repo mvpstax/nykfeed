@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T04:15:17.293Z",
+  "generated_at": "2026-09-30T04:30:21.068Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3950,
+    "refresh_duration_ms": 4618,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 11
+        "items": 12
       },
       {
         "source_key": "cbs_sports_nba",
@@ -94,7 +94,7 @@
     "images": {
       "available": 111,
       "missing": 9,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -592,6 +592,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwozzsdt6n2u",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "d49d9d443e96154d453a",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Mike Brown sets Knicks’ regular-season expectations as adversity awaits reigning champs",
+      "summary": "And after Tuesday’s first practice, the championship coach acknowledged the impossibility of maintaining the near perfection of the playoffs.",
+      "author": null,
+      "published_at": "2026-09-30T00:00:03.000Z",
+      "url": "https://sports.yahoo.com/articles/mike-brown-sets-knicks-regular-000003218.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/c35d1f4ce1d16f272641456b4df2cecb.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/mike-brown-sets-knicks-regular-000003218.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3108,9 +3129,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/minor-roster-moves-knicks-grizzlies-hornets-clippers.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-30T04:30:21.027Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-29T04:15:18.268Z"
+      "image_status": "available"
     },
     {
       "id": "872003aa40ed8e77f6ce",
@@ -3512,28 +3533,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "161f6e35858dba8d3fad",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Atlantic Notes: Knicks, Nickel, Nets, Marks, Raptors",
-      "summary": "James L. Edwards III of The Athletic examines some of the training camp storylines to watch for the Knicks, including how Jalen Brunson’s surgically repaired wrist looks, who will win the battle for the 14th roster spot, and whether the team might still have a trade up its sleeve before opening night. As Edwards writes, […]",
-      "author": "Luke Adams",
-      "published_at": "2026-09-23T15:34:22.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/07/USATSI_28539184-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-knicks-nickel-nets-marks-raptors.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-30T03:00:27.438Z"
     }
   ],
   "clusters": [
