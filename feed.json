@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T16:00:48.568Z",
+  "generated_at": "2026-09-30T16:15:21.522Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 118,
+    "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 29241,
+    "refresh_duration_ms": 4234,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 10
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 109,
+      "available": 108,
       "missing": 9,
       "article_pages_checked": 1
     },
@@ -101,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "fa26441f270a8fdf4616",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwqpw3yaaa2x",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "What Knicks' Flurry of Wednesday Moves Means for Their Roster (via Sports Illustrated)",
+      "published_at": "2026-09-30T16:05:34.197Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwqpw3yaaa2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifindxgtyihkrta7phaarhcm3cwqbjmjatapmkcvemeauwlt6jdd4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwqpw3yaaa2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "790f51bdbb26e0365b0f",
       "type": "article",
@@ -1799,28 +1833,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "d63bf34e2f85fe4d8902",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Former Knicks and Cavs standout J.R. Smith arrested in Texas on assault charge",
-      "summary": "J.R. Smith spent 16 seasons in the NBA, winning two championships.",
-      "author": "Chris Cwik",
-      "published_at": "2026-09-29T16:28:30.000Z",
-      "url": "https://sports.yahoo.com/nba/breaking-news/article/former-knicks-and-cavs-standout-jr-smith-reportedly-arrested-on-assault-charges-162830477.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/250f3cb7319c3e05302750bab5fc9298ce2e5af68e4cecb7d6ae02b3cce1f981/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F9263c0e7-c562-492f-bf7d-2cb79ec5fc75",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/breaking-news/article/former-knicks-and-cavs-standout-jr-smith-reportedly-arrested-on-assault-charges-162830477.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-29T16:45:24.415Z"
-    },
-    {
       "id": "fed8912f448659ccdba2",
       "type": "social",
       "source": "Bluesky",
@@ -1874,9 +1886,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-s-knicks-arrow-is-pointing-way-up-after-media-day-01m3pra29hsd",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-30T16:00:48.060Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-30T16:00:48.060Z"
     },
     {
       "id": "803a8c00fca60bb922aa",
@@ -2949,41 +2961,6 @@
       "image_checked_at": "2026-09-30T00:15:46.100Z"
     },
     {
-      "id": "9beae21cdd55e0f83fa5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwjzerv74q2p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Mohamed Diawara’s Knicks contract deserves a real rotation test (via Yahoo Sports)",
-      "published_at": "2026-09-28T00:06:12.431Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjzerv74q2p",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigbj3lmjfi5dijmlfyuv5boe7i5pe5spzd7oevfkm3nb6tta6akru",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwjzerv74q2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "7d5c5787c7796aa3bc5d",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3340,9 +3317,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/2026-27-nba-over-unders-atlantic-division.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-30T16:15:21.470Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-29T16:15:19.274Z"
+      "image_status": "available"
     },
     {
       "id": "30ea7292914addd43f91",
