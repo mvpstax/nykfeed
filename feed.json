@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-30T15:45:24.939Z",
+  "generated_at": "2026-09-30T16:00:48.568Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 118,
     "game_count": 0,
-    "refresh_duration_ms": 5997,
+    "refresh_duration_ms": 29241,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 109,
       "missing": 9,
-      "article_pages_checked": 2
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -119,9 +120,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-flurry-of-wednesday-moves-means-for-their-roster-01m3saz81b9r",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-30T15:45:24.710Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-30T15:45:24.710Z"
     },
     {
       "id": "7fc4ba843b210a6fcb36",
@@ -499,7 +500,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -533,7 +534,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1873,9 +1874,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-s-knicks-arrow-is-pointing-way-up-after-media-day-01m3pra29hsd",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-09-30T16:00:48.060Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-29T16:00:26.415Z"
+      "image_status": "available"
     },
     {
       "id": "803a8c00fca60bb922aa",
@@ -3204,9 +3205,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-could-be-strong-match-johni-broome-after-his-release-01m3d3h4pn0b",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-09-30T15:45:24.711Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-09-30T15:45:24.711Z"
     },
     {
       "id": "c47fca667f118e64da65",
