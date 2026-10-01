@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T12:00:50.585Z",
+  "generated_at": "2026-10-01T12:15:43.660Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 29594,
+    "refresh_duration_ms": 28296,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -72,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 29
+        "items": 28
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,9 +93,9 @@
       }
     ],
     "images": {
-      "available": 116,
-      "missing": 4,
-      "article_pages_checked": 2
+      "available": 117,
+      "missing": 3,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -375,40 +375,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "b58c69722a12cf12e9d8",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ykboyrq2vyoqf23felvhcfro/app.bsky.feed.post/3mwrvh5u4ms2m",
-      "author": "Joylessdivision",
-      "handle": "joylessdivision.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ykboyrq2vyoqf23felvhcfro/bafkreieskthletx6ao52vcfwecfir6p2rjrf65ffludd2vkl33ypajogde",
-      "text": "Yankees, take a cue from the Knicks, and don’t celebrate simply advancing a round",
-      "published_at": "2026-10-01T03:17:15.240Z",
-      "url": "https://bsky.app/profile/did:plc:ykboyrq2vyoqf23felvhcfro/post/3mwrvh5u4ms2m",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ykboyrq2vyoqf23felvhcfro/post/3mwrvh5u4ms2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "231a151a09c1e35cc13b",
@@ -3402,9 +3368,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-just-got-served-towering-young-center-silver-platter-01m3f5adr27w",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-01T12:00:50.442Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-01T12:00:50.442Z"
     },
     {
       "id": "fdc8781b54358e4697d3",
@@ -3537,9 +3503,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-recent-moves-hint-early-andre-drummond-feelings-01m3b6gm1fhg",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-01T12:00:50.443Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-01T12:00:50.443Z"
     },
     {
       "id": "27cc582ca28337a43a4d",
@@ -3585,6 +3551,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-09-30T23:45:22.324Z"
+    },
+    {
+      "id": "aa86b071e7f1bc995ebc",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Knicks' Jalen Brunson cleared after offseason wrist surgery",
+      "summary": "Knicks star guard Jalen Brunson is ready for the 2026-27 season after acknowledging that he underwent left wrist surgery.",
+      "author": null,
+      "published_at": "2026-09-25T19:38:28.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50028559/knicks-jalen-brunson-cleared-offseason-wrist-surgery",
+      "image_url": "https://a.espncdn.com/photo/2026/0616/r1674413_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50028559/knicks-jalen-brunson-cleared-offseason-wrist-surgery"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
