@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T17:30:23.301Z",
+  "generated_at": "2026-10-01T17:45:43.198Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 118,
     "game_count": 0,
-    "refresh_duration_ms": 4969,
+    "refresh_duration_ms": 28081,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -249,7 +250,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -3046,9 +3047,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/lebron-james-says-hes-living-in-the-moment-with-sixers.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-01T17:45:42.967Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-09-30T17:45:22.010Z"
+      "image_status": "available"
     },
     {
       "id": "4e73d56ad95d258d76f3",
@@ -3069,9 +3070,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/losing-mitchell-robinson-is-the-knicks-headache-that-keeps-aching-01m3me8zk200",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-01T17:30:22.854Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-01T17:30:22.854Z"
     },
     {
       "id": "f61291d702c5a9cf89f7",
