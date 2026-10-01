@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T13:00:51.358Z",
+  "generated_at": "2026-10-01T13:15:20.161Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 29480,
+    "refresh_duration_ms": 2666,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 12
+        "items": 11
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,47 @@
     "images": {
       "available": 114,
       "missing": 6,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "c8d85dbf0630c1fde42e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwsw7rsllb2q",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Where the Knicks’ Roster, Contracts Stand After Last-Minute Tweaks (via Si)",
+      "published_at": "2026-10-01T13:03:41.023Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwsw7rsllb2q",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreif4ngoat7ynlbjuxwzk7kbenpqpong5xv6esrpyjt4b6c2u5g43me",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwsw7rsllb2q",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "dfba7a5b75a7b57527cd",
       "type": "social",
@@ -121,7 +155,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
         "likes": 0
       },
@@ -157,7 +191,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -281,9 +315,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -1767,28 +1801,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "f11a784866af636da247",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Five teams with the best chance to dethrone the New York Knicks",
-      "summary": "Sure the Thunder and Spurs are on the list, but what other teams make the cut?",
-      "author": null,
-      "published_at": "2026-09-30T16:26:28.000Z",
-      "url": "https://sports.yahoo.com/articles/five-teams-best-chance-dethrone-162628405.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/eb9582ad789e60588567f1377b2e5e5af54524b1864323c45c77fde7d23341ae/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2Fa95cf6ffb5d316632342422305c7d98a.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/five-teams-best-chance-dethrone-162628405.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-09-30T16:45:22.465Z"
-    },
-    {
       "id": "fa26441f270a8fdf4616",
       "type": "social",
       "source": "Bluesky",
@@ -2919,44 +2931,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "5497ea540d3bc58357c9",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwm4l2zxnu2p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "June 10, 2026: The biggest comeback in NBA Finals history (29pts) (via r/NYKnicks)",
-      "published_at": "2026-09-28T20:08:44.066Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwm4l2zxnu2p",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreie7esrv5omsrziz5uoimjmslql73ubjb5n6iw4py6ocsp6ak2mkfa/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreie7esrv5omsrziz5uoimjmslql73ubjb5n6iw4py6ocsp6ak2mkfa/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreie7esrv5omsrziz5uoimjmslql73ubjb5n6iw4py6ocsp6ak2mkfa/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1280,
-        "width": 720
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwm4l2zxnu2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "6495f7f586e0a8af699a",
       "type": "article",
       "source": "CBS Sports",
@@ -3556,6 +3530,28 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-01T12:45:44.205Z"
+    },
+    {
+      "id": "30ea7292914addd43f91",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks’ Jalen Brunson ‘Fully Cleared’ For Training Camp",
+      "summary": "Reigning NBA Finals MVP Jalen Brunson announced Thursday on a live edition of his Roommates Show podcast (Twitter video link) that he’s “fully cleared” for training camp following July wrist surgery. Reporting at the time of Brunson’s procedure indicated that his availability for the 2026/27 regular season opener in October wasn’t in jeopardy. The Knicks’ […]",
+      "author": "Rory Maher",
+      "published_at": "2026-09-25T00:40:10.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/knicks-jalen-brunson-fully-cleared-for-training-camp.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/01/Jalen-Brunson-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/knicks-jalen-brunson-fully-cleared-for-training-camp.html"
+      },
+      "image_checked_at": "2026-10-01T13:15:20.106Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
