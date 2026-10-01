@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T14:30:57.928Z",
+  "generated_at": "2026-10-01T14:45:24.344Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 120,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 29399,
+    "refresh_duration_ms": 5261,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 115,
+      "available": 114,
       "missing": 5,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -1761,27 +1760,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "227bfa2fab5a0d7f1570",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl Anthony Towns’ wife Jordyn stopped going to Knicks games over fan vitriol: ‘It was turning dark’",
-      "summary": "Knicks center Karl-Anthony Towns' wife Jordyn Woods took a break from attending his games after witnessing the New York fan base heckle him in front of her.",
-      "author": null,
-      "published_at": "2026-09-30T18:02:12.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-wife-jordyn-180212503.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/ffb5e93ae6071596edefadd624d7a62e.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-wife-jordyn-180212503.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "aa2a8699ce466db63cf9",
       "type": "social",
       "source": "Bluesky",
@@ -3105,9 +3083,9 @@
         "url": "https://www.si.com/nba/knicks/jalen-brunson-era-new-york-sports-is-upon-us",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-01T14:30:57.643Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-01T14:30:57.643Z"
     },
     {
       "id": "2a1194c03be7f67d4a8d",
