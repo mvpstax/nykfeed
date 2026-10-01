@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T01:00:25.837Z",
+  "generated_at": "2026-10-01T01:15:19.812Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 115,
     "game_count": 0,
-    "refresh_duration_ms": 4218,
+    "refresh_duration_ms": 4703,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -93,13 +93,48 @@
     ],
     "images": {
       "available": 109,
-      "missing": 7,
+      "missing": 6,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "a26eb1a1817e1ac78c66",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwrobf3cgw2s",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Knicks sign Tony Bradley as final roster spot battle takes another twist",
+      "published_at": "2026-10-01T01:08:44.938Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwrobf3cgw2s",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicfwygrmjbmuy4ikfd34hs4kjdl5y74kkjhjl4zgkloc47bj4zccy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwrobf3cgw2s",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "d6febd65768ca8352148",
       "type": "social",
@@ -1828,61 +1863,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwpb2bbktr2t",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b2ef05d670d66ebd92be",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:pgok625ocobq7t3decm3o5vu/app.bsky.feed.post/3mwpauhw6pchi",
-      "author": "Jared Dubin",
-      "handle": "jadubin5.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pgok625ocobq7t3decm3o5vu/bafkreibzev32m2ogs6r3qxy7nsub4iv4ussiesz5rxnsmxvnzy2oaanlvq",
-      "text": "Cam Schlittler earning at least OG Anunoby and verging on Jalen Brunson levels of trust.",
-      "published_at": "2026-09-30T02:03:33.944Z",
-      "url": "https://bsky.app/profile/did:plc:pgok625ocobq7t3decm3o5vu/post/3mwpauhw6pchi",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 5
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:pgok625ocobq7t3decm3o5vu/post/3mwpauhw6pchi",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "cf414fb5a6fca7561a7a",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "New Jalen Brunson pal Rajon Rondo visits Knicks practice",
-      "summary": "The Knicks had a special visitor Tuesday. NBA legend Rajon Rondo was a guest at the first official practice of the season.",
-      "author": null,
-      "published_at": "2026-09-30T01:38:24.000Z",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-pal-rajon-rondo-013824226.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/295533f1fb448c2262fec2cce5781de4.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/jalen-brunson-pal-rajon-rondo-013824226.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
