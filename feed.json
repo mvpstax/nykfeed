@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T14:00:27.433Z",
+  "generated_at": "2026-10-01T14:15:18.944Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3926,
+    "refresh_duration_ms": 4170,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 11
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -94,12 +94,47 @@
     "images": {
       "available": 115,
       "missing": 5,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "bf15b0422dc9c7e90ff9",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwszpyeny32d",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks can stop worrying about Jalen Brunson’s wrist (via Yahoo Sports)",
+      "published_at": "2026-10-01T14:06:26.000Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwszpyeny32d",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreic4etzk3ug6eihelu6u47ucw4f3lp3aympuu2x6ilxioeknm44g7y",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwszpyeny32d",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "1c0ab38388b4b6e3afca",
       "type": "social",
@@ -192,7 +227,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -1746,27 +1781,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "f70d5c305bc0b2d98074",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns’ dad shades Jimmy Butler over longtime beef: ‘Ain’t got no championship’",
-      "summary": "The father of NBA champion Karl-Anthony Towns is keeping receipts.",
-      "author": null,
-      "published_at": "2026-09-30T17:07:36.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-dad-shades-170736062.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/b258bacc666d17dea378574ecb26f92d.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-dad-shades-170736062.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "aa2a8699ce466db63cf9",
       "type": "social",
       "source": "Bluesky",
@@ -1797,27 +1811,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwqtcwskha24",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "89a5f9b854a0c48a40ea",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks sign Tony Bradley and Jaden Akins in training camp roster shakeup",
-      "summary": "A recent playoff foe will get a chance to fight for a roster spot.",
-      "author": null,
-      "published_at": "2026-09-30T16:54:32.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-sign-tony-bradley-jaden-165432611.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/a7067a319de5b85bc4aaac06a6225a24.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-sign-tony-bradley-jaden-165432611.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2918,41 +2911,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "a81f89c9d0a9f2ef8e3a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwm7qnrdp52x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Karl-Anthony Towns wants extension to stay with Knicks (via ESPN Philippines)",
-      "published_at": "2026-09-28T21:05:32.709Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwm7qnrdp52x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreidkprvvgfqnnjzqgaqbugl5uirryey4khgmeeelnqoircrfkq2sve",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwm7qnrdp52x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "6495f7f586e0a8af699a",
       "type": "article",
       "source": "CBS Sports",
@@ -3552,6 +3510,49 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-01T12:45:44.205Z"
+    },
+    {
+      "id": "30ea7292914addd43f91",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks’ Jalen Brunson ‘Fully Cleared’ For Training Camp",
+      "summary": "Reigning NBA Finals MVP Jalen Brunson announced Thursday on a live edition of his Roommates Show podcast (Twitter video link) that he’s “fully cleared” for training camp following July wrist surgery. Reporting at the time of Brunson’s procedure indicated that his availability for the 2026/27 regular season opener in October wasn’t in jeopardy. The Knicks’ […]",
+      "author": "Rory Maher",
+      "published_at": "2026-09-25T00:40:10.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/knicks-jalen-brunson-fully-cleared-for-training-camp.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/01/Jalen-Brunson-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/knicks-jalen-brunson-fully-cleared-for-training-camp.html"
+      },
+      "image_checked_at": "2026-10-01T14:15:18.915Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "ca4a8fb9fc9ed3c963d9",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Why Stephen A. is worried about KAT, Knicks extension talks",
+      "summary": "Why Stephen A. is worried about KAT, Knicks extension talks",
+      "author": null,
+      "published_at": "2026-09-24T14:58:10.000Z",
+      "url": "https://www.espn.com/video/clip/_/id/50020500/why-stephen-worried-kat-knicks-extension-talks",
+      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0924/ss_20260924_104144124_3672595651/ss_20260924_104144124_3672595651.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/video/clip/_/id/50020500/why-stephen-worried-kat-knicks-extension-talks"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
