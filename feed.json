@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T12:30:21.530Z",
+  "generated_at": "2026-10-01T12:45:44.427Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3491,
+    "refresh_duration_ms": 29174,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 28
+        "items": 27
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -94,7 +95,7 @@
     "images": {
       "available": 116,
       "missing": 4,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -1685,41 +1686,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwqvpxscx22s",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "89687f6628056de2bf90",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mwqvplte2s24",
-      "author": "Joe Flynn",
-      "handle": "chinajoeflynn.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
-      "text": "Karl-Anthony Towns Sr. is very correct.",
-      "published_at": "2026-09-30T17:49:18.588Z",
-      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwqvplte2s24",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreiarbvzqvomwzagwjga5y62p3kxxx7o7475hzxakfk6u42c7zkha4i",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwqvplte2s24",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3570,6 +3536,28 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "ab7ef22a11b52be58fd5",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "2026/27 NBA Over/Unders: Atlantic Division",
+      "summary": "With the 2026/27 NBA regular season set to tip off in a matter of weeks, we’re getting serious about predictions for the upcoming campaign and continuing an annual Hoops Rumors tradition. With the help of the lines from a series of sports betting sites – including BetMGM and BetOnline – we’re running through the predicted win […]",
+      "author": "Luke Adams",
+      "published_at": "2026-09-25T15:28:58.000Z",
+      "url": "https://www.hoopsrumors.com/2026/09/2026-27-nba-over-unders-atlantic-division.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/towns-brunson-NBA-title-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/09/2026-27-nba-over-unders-atlantic-division.html"
+      },
+      "image_checked_at": "2026-10-01T12:45:44.205Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
