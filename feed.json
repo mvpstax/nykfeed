@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T19:30:28.862Z",
+  "generated_at": "2026-10-01T19:45:43.039Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 118,
     "game_count": 0,
-    "refresh_duration_ms": 12490,
+    "refresh_duration_ms": 28667,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 107,
       "missing": 11,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -331,8 +332,8 @@
       },
       "engagement": {
         "replies": 0,
-        "reposts": 1,
-        "likes": 2
+        "reposts": 2,
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -551,7 +552,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
+        "replies": 2,
         "reposts": 0,
         "likes": 5
       },
@@ -621,7 +622,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -691,7 +692,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 10
+        "likes": 11
       },
       "team": "NYK",
       "presentation": {
@@ -854,7 +855,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -3203,9 +3204,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-brown-mcbride-training-camp.html"
       },
-      "image_checked_at": "2026-10-01T19:30:28.698Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-01T19:30:28.698Z"
     },
     {
       "id": "bc0383762f189ec31695",
