@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T12:15:43.660Z",
+  "generated_at": "2026-10-01T12:30:21.530Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 28296,
+    "refresh_duration_ms": 3491,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,48 @@
       }
     ],
     "images": {
-      "available": 117,
-      "missing": 3,
+      "available": 116,
+      "missing": 4,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "203cf7cf7dea374e226e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:rtnawvgru7pkebpfifmfqhde/app.bsky.feed.post/3mwstmt4uwc2f",
+      "author": "Mo Spade",
+      "handle": "mospade.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnawvgru7pkebpfifmfqhde/bafkreiee6v7hjymx2upd4ajvt5wxli2ms2pluz3oixfcdywygix2r3biwy",
+      "text": "Not sure the impact is the same in baseball but I’m guessing the Trop is gonna be filled with New Yorkers like Philly was during the Knicks series",
+      "published_at": "2026-10-01T12:17:17.569Z",
+      "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3mwstmt4uwc2f",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3mwstmt4uwc2f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "78c9d5c338e5ecc3a9b9",
       "type": "article",
@@ -1687,41 +1720,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mwqvplte2s24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "62d7955c0cd8776ebf7f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwqtgfcanz2c",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Karl-Anthony Towns' dad shades Jimmy Butler over longtime beef: 'Ain't got no championship'",
-      "published_at": "2026-09-30T17:08:22.038Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwqtgfcanz2c",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreiaqmx6jh7bj5y7xw3sfxk2pdg3742jproix7rrvhe5lk6wekn5x5i",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwqtgfcanz2c",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
