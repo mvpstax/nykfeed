@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T12:00:21.380Z",
+  "generated_at": "2026-10-02T12:15:40.720Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 3512,
+    "refresh_duration_ms": 27972,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,47 @@
     "images": {
       "available": 100,
       "missing": 12,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "8a23a03ff469db6a8ae3",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:j4spygbxn74y4dx2qejadwvk/app.bsky.feed.post/3mwvdtb6suc2t",
+      "author": "Adam Zagoria",
+      "handle": "adamzagoria.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreihphjbhoytwx4l4nqhz5xg32puaysk7grujsxk4ryscwxv3lqmqoq",
+      "text": "Knicks star: Yankees ace ‘might be’ at God’s left hand\n\nwww.nj.com/yankees/2026...",
+      "published_at": "2026-10-02T12:12:32.990Z",
+      "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwvdtb6suc2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreigxhy7v6wvg3sx6yune6rsb7a3ie433amrowiqkagedvap2a4kn4y",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mwvdtb6suc2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "b25f023b5f27a0d919d7",
       "type": "article",
@@ -957,7 +993,7 @@
       "source": "Yahoo Sports",
       "source_key": "yahoo_sports_nba",
       "title": "Knicks Bulletin: ‘I’ll let the front office and my agency handle that’",
-      "summary": "Would you believe the Knicks play basketball tomorrow!? That’s right, and they do so against the Philadelphia 76ers of all teams, one that surely pays homage to the age of their roster with their moniker. Here’s the latest we heard straight out of Tarrytown and elsewhere on Wednesday. Mike Brown On eventually discussing Miles McBride’s […]",
+      "summary": "Would you believe the Knicks play basketball next week!? That’s right, and they do so against the Philadelphia 76ers of all teams, one that surely pays homage to the age of their roster with their moniker. Here’s the latest we heard straight out of Tarrytown and elsewhere on Wednesday. Mike Brown On eventually discussing Miles […]",
       "author": null,
       "published_at": "2026-10-01T17:00:00.000Z",
       "url": "https://sports.yahoo.com/articles/knicks-bulletin-ll-let-front-170000136.html",
@@ -1602,41 +1638,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwrybipxm22z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "007bc3b14ab995ee2554",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mwrvwuydyl2o",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Isiah Thomas to be appointed to new Knicks board of directors",
-      "published_at": "2026-10-01T03:26:02.416Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwrvwuydyl2o",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicaympjivmt7lcrwzy3hz6vyxedvguiuiuu6mf3prjpzqwg6ijcsa",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mwrvwuydyl2o",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3230,9 +3231,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-just-got-served-towering-young-center-silver-platter-01m3f5adr27w",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-02T12:15:40.660Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-01T12:00:50.442Z"
+      "image_status": "available"
     },
     {
       "id": "fdc8781b54358e4697d3",
