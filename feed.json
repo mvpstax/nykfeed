@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T13:15:44.719Z",
+  "generated_at": "2026-10-02T13:30:24.349Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 30279,
+    "refresh_duration_ms": 6927,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "espn",
@@ -55,13 +55,12 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 100,
       "missing": 13,
       "article_pages_checked": 0
     },
@@ -101,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "2241e2d49176991ed0ed",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mwvi2v5ss22q",
+      "author": "Posting and Toasting",
+      "handle": "postingandtoasting.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
+      "text": "On This Date in Knicks History: October 2",
+      "published_at": "2026-10-02T13:28:23.771Z",
+      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwvi2v5ss22q",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreifp2cfcxrto6qo3xbfksn2xggdt5qbsha6lsnavkemx7r6w6klygq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwvi2v5ss22q",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "3b7e6c3771d6ee6ac3a8",
       "type": "social",
@@ -132,6 +166,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwvgqmme7c2i",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "a144f6d4b29917eb3946",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Mavericks Fully Guarantee 26-27 Contract For Moussa Cisse",
+      "summary": "The Dallas Mavericks have fully guaranteed Moussa Cisse's contract for the 2026-27 season. Cisse will now make $2.2 million for this season. The deadline for Dallas to waive Cisse at a cost of $1.1 million was October 1. Cisse played well on a two-way contract with the Mavs last season. The 6-foot-11 big man averaged 4.5 points, 5.7 rebounds and 1.2 blocks in 13.9 minutes per game in 38 NBA appearances. The New York Knicks signed Cisse to an offer sheet this offseason. The Mavericks quickly matched that offer sheet to keep Cisse in Dallas. The Mavericks now have 15 players on the roster with fully guaranteed contracts. Dallas also recently re-signed veteran center Dwight Powell to a partially guaranteed deal. The Mavs reportedly intend to keep Powell on the regular season roster, which will necessitate another move to free up a roster spot.",
+      "author": null,
+      "published_at": "2026-10-02T12:57:08.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287493/Mavericks-Fully-Guarantee-26-27-Contract-For-Moussa-Cisse",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/nba_dallasmavericks.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287493/Mavericks-Fully-Guarantee-26-27-Contract-For-Moussa-Cisse"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1637,41 +1692,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwryecfmpc2z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "9127e84a8d84b5673471",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwrydyny2c2z",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "The Knicks' two-way contracts imply their final standard spot will go to a center.\n\nUnless... dailyknicks.com/knicks-two-w...",
-      "published_at": "2026-10-01T04:09:10.358Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwrydyny2c2z",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreifobfic53r4v56yexj5xet5okzaz7wazjc3zysbls2aah3hlvp33q",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwrydyny2c2z",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
