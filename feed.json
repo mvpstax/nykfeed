@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T12:15:40.720Z",
+  "generated_at": "2026-10-02T12:30:21.616Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 27972,
+    "refresh_duration_ms": 5472,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,48 @@
       }
     ],
     "images": {
-      "available": 100,
-      "missing": 12,
-      "article_pages_checked": 1
+      "available": 99,
+      "missing": 13,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "e8f99abb880ff9e6d886",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vrahtax2rt4snds5r4bk53d4/app.bsky.feed.post/3mwvefqe5e22x",
+      "author": "🏆KonaBrunson🏆",
+      "handle": "konabrunson.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrahtax2rt4snds5r4bk53d4/bafkreifxmn34rxudffcgwa6nlbv5l6cgy3r32ld3olwyyto44msxcya2yy",
+      "text": "What a dream. \n\nI dreamt that I was playing for the Knicks coming off the bench. It’s game 3 of some playoff series. We won game 1 and lost game 2 on the road. \n\nI arrive late at 7 pm when game time is 7:30 pm. Mike Brown looks at me like WTH. \n\nI’m bummed because my game 2 shooting was horrible. 🧡💙",
+      "published_at": "2026-10-02T12:22:52.867Z",
+      "url": "https://bsky.app/profile/did:plc:vrahtax2rt4snds5r4bk53d4/post/3mwvefqe5e22x",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vrahtax2rt4snds5r4bk53d4/post/3mwvefqe5e22x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "8a23a03ff469db6a8ae3",
       "type": "social",
@@ -1603,41 +1636,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwrydyny2c2z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "ed6cdca6d9ff6a405cc9",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwrybipxm22z",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "Mike Brown has faith in Leon Rose to extend Miles McBride's contract.\n\nIt's well-placed: dailyknicks.com/browns-faith...",
-      "published_at": "2026-10-01T04:07:46.537Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwrybipxm22z",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiha6o3vk3dulyig43426vfafwmoyfheq7sshui6dqawe3bxnlhrhe",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwrybipxm22z",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3231,9 +3229,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-just-got-served-towering-young-center-silver-platter-01m3f5adr27w",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-02T12:15:40.660Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-02T12:15:40.660Z"
     },
     {
       "id": "fdc8781b54358e4697d3",
