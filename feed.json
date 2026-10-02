@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T13:00:25.639Z",
+  "generated_at": "2026-10-02T13:15:44.719Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 3765,
+    "refresh_duration_ms": 30279,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -55,12 +55,13 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,47 @@
     "images": {
       "available": 99,
       "missing": 13,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "3b7e6c3771d6ee6ac3a8",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwvgqmme7c2i",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Newest Miles McBride Buzz Shows There's Still Hope for Knicks Future (via Sports Illustrated)",
+      "published_at": "2026-10-02T13:04:45.335Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwvgqmme7c2i",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifmoznpj24rjdbjnpkrzwpoywc4lv3utzf4n4sccb4ed2pkiqdqy4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwvgqmme7c2i",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "e8f99abb880ff9e6d886",
       "type": "social",
@@ -122,7 +158,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -213,7 +249,7 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
+        "reposts": 1,
         "likes": 0
       },
       "team": "NYK",
@@ -388,7 +424,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 21,
-        "likes": 50
+        "likes": 51
       },
       "team": "NYK",
       "presentation": {
@@ -2775,41 +2811,6 @@
       "image_checked_at": "2026-10-01T19:15:29.436Z"
     },
     {
-      "id": "3284578b1f06d802fef1",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwoganxswj2c",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Stephen A. says he would have 'BEGGED' LeBron James to join the Knicks if… (via ESPN)",
-      "published_at": "2026-09-29T18:07:11.701Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwoganxswj2c",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicyra3nqlfgrfnyxgphxy4usiiurxjw37hft2usmloj2t3iv2zpmm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwoganxswj2c",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "bfaae0d368ce84672ff1",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3383,9 +3384,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/2026-27-nba-over-unders-atlantic-division.html"
       },
-      "image_checked_at": "2026-10-02T13:00:25.599Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-02T13:00:25.599Z"
     }
   ],
   "clusters": [
