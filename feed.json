@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T17:00:21.864Z",
+  "generated_at": "2026-10-02T17:15:45.099Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 2697,
+    "refresh_duration_ms": 30317,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 2
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,49 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 98,
       "missing": 13,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d8b03a43752c1030cc7f",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwvu5l4v4h2w",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks Face Concerning Development Involving Key Player as Season Nears (via Yahoo Sports)",
+      "published_at": "2026-10-02T17:04:38.641Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwvu5l4v4h2w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreict7iyp3bm5xkbulfsdpjwg4qwnixq4hekdotbzue4xfshoico7ja",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwvu5l4v4h2w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "5e06398407173cd11e92",
       "type": "article",
@@ -1057,27 +1093,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "bb5128652187693be061",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Rumored Warriors free agent target headed to Italy",
-      "summary": "The Golden State Warriors were tied to Kelly Olynyk this offseason, but after they moved on he’s heading to Italy.",
-      "author": null,
-      "published_at": "2026-10-01T18:57:14.000Z",
-      "url": "https://sports.yahoo.com/articles/rumored-warriors-free-agent-target-185714975.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/b6ac6412891c02845f465a95774b4008.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/rumored-warriors-free-agent-target-185714975.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "614b56e2182e1da45f20",
       "type": "social",
       "source": "Bluesky",
@@ -1311,9 +1326,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-knicks-re-signing-kevin-mccullar-jr-makes-sense-01m3se7dkbmd",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-02T17:15:44.463Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-01T17:00:23.939Z"
+      "image_status": "available"
     },
     {
       "id": "ed3d230445487ab9ea7e",
@@ -2752,41 +2767,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwotliv5ge2c",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "1c51c80bcfefd074b356",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwoq5kvdtr2p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks stalled extension talks with Josh Hart hint at mid-season trade possibility (via Daily Knicks)",
-      "published_at": "2026-09-29T21:04:25.229Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwoq5kvdtr2p",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihywowoforik25oiv4xnurcpups2st6nmw5va3yqn7laytdbysgye",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwoq5kvdtr2p",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
