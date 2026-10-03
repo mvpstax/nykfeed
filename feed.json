@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T16:45:23.599Z",
+  "generated_at": "2026-10-03T17:00:27.712Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 7199,
+    "refresh_duration_ms": 4700,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,35 @@
     "images": {
       "available": 100,
       "missing": 11,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "9a49bc474da9eb663ed5",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Tony Bradley Could Help Knicks at Center More Than Most Think",
+      "summary": "New Knicks addition Tony Bradley isn't being considered as a major threat in the team's camp center battle, but there's more to him than meets the eye.",
+      "author": "Steven Simineri",
+      "published_at": "2026-10-03T17:00:00.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/tony-bradley-could-help-knicks-center-more-than-most-think-01m404xhjvf8",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_504,w_6000,h_3375/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4132zhgkpvxctj13w.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/tony-bradley-could-help-knicks-center-more-than-most-think-01m404xhjvf8",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-03T17:00:27.393Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "06df8f95697277ccb756",
       "type": "social",
@@ -157,7 +180,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -3302,30 +3325,6 @@
       "image_checked_at": "2026-10-02T19:45:22.930Z"
     },
     {
-      "id": "bc0383762f189ec31695",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks Finally Sign Tyler Nickel to Two-Way Deal (What It Means for New York This Season)",
-      "summary": "Ahead of media day and training camp, the New York Knicks have officially signed second-round pick Tyler Nickel to a two-way contract on Sunday.",
-      "author": "Jovan Alford",
-      "published_at": "2026-09-27T17:36:34.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-finally-sign-tyler-nickel-two-way-deal-what-it-means-new-york-season-01m3hwejtk47",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_121,w_5407,h_3041/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3hxg3r2d9pb6jf42e.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/knicks-finally-sign-tyler-nickel-two-way-deal-what-it-means-new-york-season-01m3hwejtk47",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-03T16:30:45.447Z",
-      "cluster_id": "cluster_6ed7095cb03f"
-    },
-    {
       "id": "b7b35f93f9e26a847935",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3344,8 +3343,7 @@
         "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_6ed7095cb03f"
+      "image_source": "source_feed"
     },
     {
       "id": "323c2507de381cd572af",
@@ -3384,21 +3382,6 @@
       "event_type": "extension",
       "entities": [
         "karl anthony towns"
-      ]
-    },
-    {
-      "id": "cluster_6ed7095cb03f",
-      "lead_item_id": "bc0383762f189ec31695",
-      "item_ids": [
-        "bc0383762f189ec31695",
-        "b7b35f93f9e26a847935"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-27T17:36:34.000Z",
-      "title": "Knicks Finally Sign Tyler Nickel to Two-Way Deal (What It Means for New York This Season)",
-      "event_type": "signing",
-      "entities": [
-        "tyler nickel"
       ]
     }
   ]
