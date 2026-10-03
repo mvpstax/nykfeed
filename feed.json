@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T02:15:17.347Z",
+  "generated_at": "2026-10-03T02:30:48.049Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 3881,
+    "refresh_duration_ms": 28261,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,74 @@
       }
     ],
     "images": {
-      "available": 101,
-      "missing": 13,
-      "article_pages_checked": 0
+      "available": 102,
+      "missing": 12,
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d500cf54410ee1e2e11d",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: Wiseman, Center, Bradley, Drummond, Towns",
+      "summary": "The Knicks are prioritizing a center with their 14th standard roster spot, according to Stefan Bondy of The New York Post (subscriber link), who says James Wiseman has emerged as the frontrunner to make the team out of training camp. However, Bondy’s report comes with an important caveat — Wiseman becoming New York’s third center […]",
+      "author": "Rory Maher",
+      "published_at": "2026-10-03T02:27:16.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-wiseman-center-bradley-drummond-towns.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2024/10/James-Wiseman-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-wiseman-center-bradley-drummond-towns.html"
+      },
+      "image_checked_at": "2026-10-03T02:30:47.780Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "1497efd1562922202967",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mwwsyfeyw22b",
+      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
+      "handle": "kingfitch1990.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreibk5k75qcfumwzdnhcmeatqv5ozkw3k3s664vshovpuodj6fdxff4",
+      "text": "#Knicks",
+      "published_at": "2026-10-03T02:16:31.024Z",
+      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwwsyfeyw22b",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiht2zh42j6mlws63zhsv5ismfywx5lghr7nwhojvcrtders5dhc64/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiht2zh42j6mlws63zhsv5ismfywx5lghr7nwhojvcrtders5dhc64/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiht2zh42j6mlws63zhsv5ismfywx5lghr7nwhojvcrtders5dhc64/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1024,
+        "width": 576
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mwwsyfeyw22b",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "404f2aa587105c99b9a4",
       "type": "social",
@@ -2032,40 +2093,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "c22bb46350541b98ccfe",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:5snsqcpdjobpqhme4re2jse3/app.bsky.feed.post/3mwt6lwpszc2m",
-      "author": "Strictly 4 My Navigators",
-      "handle": "lizzslockeroom.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5snsqcpdjobpqhme4re2jse3/bafkreiggzfgcojqxwygm66af5rtg5qw5yzj3skzemnhb3xrlw4b4kntky4",
-      "text": "October 2007: A federal jury found that Thomas had sexually harassed former Knicks executive Anucha Browne Sanders. The jury also found MSG liable in connection with a hostile work environment and retaliation. MSG and Thomas later reached an $11.5 million settlement with Browne Sanders.",
-      "published_at": "2026-10-01T15:33:38.946Z",
-      "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mwt6lwpszc2m",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 3,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mwt6lwpszc2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "6eb2c12f3b103715502e",
       "type": "social",
       "source": "Bluesky",
@@ -2845,9 +2872,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/new-york-notes-drummond-porter-jr-mann-marks-nickel.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-03T02:30:47.780Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-02T02:15:19.121Z"
+      "image_status": "available"
     },
     {
       "id": "3c2cdb0cb47eb1c907cb",
@@ -3404,28 +3431,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "27cc582ca28337a43a4d",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Knicks Notes: Towns, Nickel, McCullar, 14th Roster Spot",
-      "summary": "Shams Charania and Vincent Goodwill of ESPN reported Wednesday that extension talks between the Knicks and star center Karl-Anthony Towns have “stagnated” and that a deal seems unlikely to be reached in the short term. On Friday’s episode of the Hoop Collective podcast (YouTube link), ESPN’s Brian Windhorst and Tim MacMahon said they think the […]",
-      "author": "Rory Maher",
-      "published_at": "2026-09-26T02:16:49.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-towns-nickel-mccullar-14th-roster-spot.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/09/Karl-Anthony-Towns-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-towns-nickel-mccullar-14th-roster-spot.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-02T03:30:44.302Z"
     }
   ],
   "clusters": [
