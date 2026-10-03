@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T21:15:55.520Z",
+  "generated_at": "2026-10-03T21:30:48.285Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 5497,
+    "refresh_duration_ms": 27933,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 27
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,7 +94,7 @@
     ],
     "images": {
       "available": 101,
-      "missing": 10,
+      "missing": 9,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
@@ -2260,40 +2261,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "f205bb7055da92f071ce",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:f757g3nzbf5wky2hzim27zom/app.bsky.feed.post/3mwtkha5ya22f",
-      "author": "💙🇵🇷Mr NYC STEELER 🇺🇸💙",
-      "handle": "nycsteeler.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:f757g3nzbf5wky2hzim27zom/bafkreidehrnhizcqcgbglpdy5m45co2lmu4kj42y5ld576w5gcyn6g45bu",
-      "text": "@tophtalk.bsky.social thank you sir for allowing me to join this chat and for following you and also welcome to my fabulous circle of smart, funny, crazy Bluesky, friends, orange, and blue skies forever. OG Knick Fan since I was taught to  say ” let’s GO KNICKS around 1971 when I was 3.  👍👍👍👍👍👍👍👍👍👍",
-      "published_at": "2026-10-01T19:05:45.973Z",
-      "url": "https://bsky.app/profile/did:plc:f757g3nzbf5wky2hzim27zom/post/3mwtkha5ya22f",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:f757g3nzbf5wky2hzim27zom/post/3mwtkha5ya22f",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "9c2f175c481eb41b0bc2",
