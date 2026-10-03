@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T19:15:41.966Z",
+  "generated_at": "2026-10-03T19:30:19.555Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 28498,
+    "refresh_duration_ms": 3853,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,19 +94,89 @@
     "images": {
       "available": 101,
       "missing": 11,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
     {
+      "id": "8df556eec82bc9f0faea",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwymctmevk2h",
+      "author": "Kris Pursiainen",
+      "handle": "krisap.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
+      "text": "Landry Shamet's tenure in New York is a testament to the Knicks' front office, on several levels: dailyknicks.com/shamets-knic...",
+      "published_at": "2026-10-03T19:22:24.775Z",
+      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwymctmevk2h",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreifhiia44re2u2isfudhh3jy6ppxgaefq4jehmymwqkyjj2sg5pdla",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwymctmevk2h",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "d8bdb6fc4f7f712461c1",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwymbg7vfs2h",
+      "author": "Kris Pursiainen",
+      "handle": "krisap.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
+      "text": "Josh Hart's \"ugly\" finger represents the Knicks' grit, which goes far beyond stat sheets: dailyknicks.com/josh-hart-ma...",
+      "published_at": "2026-10-03T19:21:37.179Z",
+      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwymbg7vfs2h",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiackbsy4hwcwee5xcm47e24vfd5yqvfhx3rowyz5xpkz3xwlj2kre",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwymbg7vfs2h",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "5ff550cfffc6b82f1626",
       "type": "article",
       "source": "Yahoo Sports",
       "source_key": "yahoo_sports_nba",
       "title": "Knicks' Mike Brown challenges Mo Diawara to 'take a step forward' in 2026-27",
-      "summary": "New York Knicks head coach Mike Brown is challenging second-year swingman Mohamed Diawara to 'take a step forward' during the 2026-27 NBA season.",
+      "summary": "Knicks head coach Mike Brown is challenging second-year swingman Mohamed Diawara to 'take a step forward' during the 2026-27 NBA season.",
       "author": null,
       "published_at": "2026-10-03T18:56:24.000Z",
       "url": "https://sports.yahoo.com/articles/knicks-mike-brown-challenges-mo-185624959.html",
@@ -119,9 +188,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/knicks-mike-brown-challenges-mo-185624959.html"
       },
-      "image_checked_at": "2026-10-03T19:15:41.672Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-03T19:15:41.672Z"
     },
     {
       "id": "0a7dbd7e9865282b4e9c",
@@ -370,7 +439,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1097,9 +1166,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-two-way-situation-could-change-after-filling-last-spot-01m3wy5nw7",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-03T19:15:41.673Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-03T19:15:41.673Z"
     },
     {
       "id": "4a5ffb128cd76c79c5bb",
@@ -2207,76 +2276,6 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
-    },
-    {
-      "id": "dda0f54f46fcc2c21353",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:f757g3nzbf5wky2hzim27zom/app.bsky.feed.post/3mwthj7rbls2f",
-      "author": "💙🇵🇷Mr NYC STEELER 🇺🇸💙",
-      "handle": "nycsteeler.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:f757g3nzbf5wky2hzim27zom/bafkreidehrnhizcqcgbglpdy5m45co2lmu4kj42y5ld576w5gcyn6g45bu",
-      "text": "OK To ALL MY KNICKERBOCKER PEEPS OUT THERE!!  4 MO DAYS until OUR KNiCKS return to the court for a preseason!! Let’s GO YALL ready????",
-      "published_at": "2026-10-01T18:13:11.444Z",
-      "url": "https://bsky.app/profile/did:plc:f757g3nzbf5wky2hzim27zom/post/3mwthj7rbls2f",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:f757g3nzbf5wky2hzim27zom/bafkreibpn777ozw7ksrigsiyta6cbcjcxg6c3xznput53l7jwrqzxka2i4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:f757g3nzbf5wky2hzim27zom/post/3mwthj7rbls2f",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "7140f127bc00bf662583",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mwthgc3h2n2z",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "🔥🚨🏀NEW EPISODE🏀🚨🔥\n\nWhich Team Is The Knicks Biggest Threat In The East?! feat. @YourManDevine of @YahooSports\n\n🎙️ : @JCMacriNBA \nyoutu.be/OxmjxMvxLnk",
-      "published_at": "2026-10-01T18:11:33.194Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwthgc3h2n2z",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiemmo2nyofjoywu4q5b4uiy37ln3v7sae4bqy37viftmobfnjithe",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mwthgc3h2n2z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "9c2f175c481eb41b0bc2",
