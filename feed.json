@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T19:00:20.533Z",
+  "generated_at": "2026-10-03T19:15:41.966Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 3477,
+    "refresh_duration_ms": 28498,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,36 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 101,
       "missing": 11,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "5ff550cfffc6b82f1626",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks' Mike Brown challenges Mo Diawara to 'take a step forward' in 2026-27",
+      "summary": "New York Knicks head coach Mike Brown is challenging second-year swingman Mohamed Diawara to 'take a step forward' during the 2026-27 NBA season.",
+      "author": null,
+      "published_at": "2026-10-03T18:56:24.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-mike-brown-challenges-mo-185624959.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/4e96140e2e2bd9de537dda4e9a82b8bd579fa04ab98ad3c2316f82f1602ae2f9/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F0de53790d431b55caf0c696aea0e3b86.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-mike-brown-challenges-mo-185624959.html"
+      },
+      "image_checked_at": "2026-10-03T19:15:41.672Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "0a7dbd7e9865282b4e9c",
       "type": "social",
@@ -1074,9 +1097,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-two-way-situation-could-change-after-filling-last-spot-01m3wy5nw7",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-03T19:15:41.673Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-02T19:00:21.404Z"
+      "image_status": "available"
     },
     {
       "id": "4a5ffb128cd76c79c5bb",
