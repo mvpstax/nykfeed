@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T18:45:41.251Z",
+  "generated_at": "2026-10-03T19:00:20.533Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 27917,
+    "refresh_duration_ms": 3477,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 100,
       "missing": 11,
       "article_pages_checked": 0
     },
@@ -1326,27 +1325,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwvnjzlevg2j",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "9cf5693cd4e2ada5bdbc",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "A few notes from the first three days of Knicks training camp...",
-      "author": null,
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-training-camp-notes-latest-145508652.html",
-      "image_url": "https://media.zenfs.com/en/sny_articles_235/d8e2fc6f6506c125aec8b18ae14127c6.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-training-camp-notes-latest-145508652.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
