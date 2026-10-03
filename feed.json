@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T03:30:23.620Z",
+  "generated_at": "2026-10-03T03:45:41.089Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 5646,
+    "refresh_duration_ms": 27772,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -100,6 +101,40 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "982c955fdc5d966783b1",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:kmojvvlnah4lk5ipykzeyrbw/app.bsky.feed.post/3mwwxibscs222",
+      "author": "Rafa",
+      "handle": "ewing33.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:kmojvvlnah4lk5ipykzeyrbw/bafkreifbilpgt3zhvprplqautrqr2qk2ilzjksc4hn3gcxgegdhgphwpoq",
+      "text": "Rewatching the NBA finals and wow did the Knicks get a horrible whistle in games 1 and 2.",
+      "published_at": "2026-10-03T03:36:59.096Z",
+      "url": "https://bsky.app/profile/did:plc:kmojvvlnah4lk5ipykzeyrbw/post/3mwwxibscs222",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:kmojvvlnah4lk5ipykzeyrbw/post/3mwwxibscs222",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "d500cf54410ee1e2e11d",
       "type": "article",
@@ -2053,40 +2088,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:qkbkgv6tgnvbyw2xfh2iaqny/post/3mwt6z7nmvk2g",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "8b6b40939d2ade3e7a53",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:5snsqcpdjobpqhme4re2jse3/app.bsky.feed.post/3mwt6mqmars2m",
-      "author": "Strictly 4 My Navigators",
-      "handle": "lizzslockeroom.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5snsqcpdjobpqhme4re2jse3/bafkreiggzfgcojqxwygm66af5rtg5qw5yzj3skzemnhb3xrlw4b4kntky4",
-      "text": "Why bring him back? Dolan makes me sick. #KnicksSky",
-      "published_at": "2026-10-01T15:34:06.091Z",
-      "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mwt6mqmars2m",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 5,
-        "reposts": 0,
-        "likes": 10
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mwt6mqmars2m",
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
