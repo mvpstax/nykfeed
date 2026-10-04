@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T19:45:24.531Z",
+  "generated_at": "2026-10-04T20:00:50.723Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 9827,
+    "refresh_duration_ms": 32831,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 106,
       "missing": 7,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -548,7 +549,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 1,
-        "likes": 24
+        "likes": 23
       },
       "team": "NYK",
       "presentation": {
@@ -2911,9 +2912,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/early-signs-between-knicks-james-wiseman-are-hard-to-ignore-01m3q4cx0dqs",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-04T19:45:23.876Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-04T19:45:23.876Z"
     },
     {
       "id": "790f51bdbb26e0365b0f",
@@ -3131,9 +3132,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/5-big-notes-from-knicks-1st-official-preseason-practice-01m3q4gkp42k",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-04T19:45:23.877Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-04T19:45:23.877Z"
     },
     {
       "id": "bfaae0d368ce84672ff1",
