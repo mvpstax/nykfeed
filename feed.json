@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T13:00:22.995Z",
+  "generated_at": "2026-10-04T13:15:42.595Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 3624,
+    "refresh_duration_ms": 28946,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 105,
+      "available": 104,
       "missing": 6,
       "article_pages_checked": 0
     },
@@ -100,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "9682aceba4fe91f50f00",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx2hpvl6a522",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Why Knicks star Jose Alvarado started crying during a street sign ceremony (via Yahoo Sports)",
+      "published_at": "2026-10-04T13:05:33.608Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2hpvl6a522",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreieeqqled7kivwxg76cs5ztx6umbocokq26li5kw2zqn6yrdntlwt4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2hpvl6a522",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "2a487e43beddb8351269",
       "type": "article",
@@ -478,7 +514,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -1551,27 +1587,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mww4crikyn2p",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "33de9a89b1ea292516d1",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Anne Hathaway reveals what she’d give up for a second Knicks championship",
-      "summary": "Anne Hathaway made it clear that her Knicks fandom doesn't waver.",
-      "author": null,
-      "published_at": "2026-10-02T19:30:03.000Z",
-      "url": "https://www.yahoo.com/entertainment/celebrity/articles/anne-hathaway-reveals-she-d-193003148.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/06a664b028ad2b1aa6d2439b458cbc0b.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.yahoo.com/entertainment/celebrity/articles/anne-hathaway-reveals-she-d-193003148.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2685,44 +2700,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwruywi2ry2c",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "000e57a02d379e383c89",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwrrhzuxcu2s",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "[SNY] Miles McBride: \"At the end of the day, it's a business. At the end of the day, I'm paid to play a game I love and I get an opportunity to go out there. Whoever I'm out there with, I want to give it my all.\" (via r/NYKnicks)",
-      "published_at": "2026-10-01T02:06:09.443Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwrrhzuxcu2s",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreie7t27vewhv3zhtoxaelaqfym2kjsqkkqkxi7eslp5qvrlwbvabru/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreie7t27vewhv3zhtoxaelaqfym2kjsqkkqkxi7eslp5qvrlwbvabru/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreie7t27vewhv3zhtoxaelaqfym2kjsqkkqkxi7eslp5qvrlwbvabru/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 900,
-        "width": 720
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwrrhzuxcu2s",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
