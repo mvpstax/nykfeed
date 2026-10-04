@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T14:15:18.595Z",
+  "generated_at": "2026-10-04T14:30:48.925Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 5401,
+    "refresh_duration_ms": 28845,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,71 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 104,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "2e184aa8b903fefaa68e",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: Diawara, Guards, Alvarado, Preseason Opener",
+      "summary": "The Knicks are hoping 2025 second-round pick Mohamed Diawara will continue to improve in his second season after a solid rookie campaign in which he received rotation minutes at times, writes Jared Schwartz of The New York Post. At 6’9″ with a 7’4″ wingspan, Diawara has excellent size for a forward. Teammate OG Anunoby believes […]",
+      "author": "Rory Maher",
+      "published_at": "2026-10-04T14:22:09.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-diawara-guards-alvarado-preseason-opener.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/Mohamed-Diawara-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-diawara-guards-alvarado-preseason-opener.html"
+      },
+      "image_checked_at": "2026-10-04T14:30:48.778Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "fa691dff56780f84dadb",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mx2lr3wjc62y",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Josh Hart was every Yankees fan after Austin Wells blunder: 'Why are you going for third?'",
+      "published_at": "2026-10-04T14:17:48.769Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mx2lr3wjc62y",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidh6ah5swboghmknx7uezgpxggcwgilmqmgyqx6x2rbxdprntwfwm",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mx2lr3wjc62y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "507d6bed98b6557d6eda",
       "type": "social",
@@ -157,7 +215,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -168,6 +226,28 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "a7d5a491848004c5fe70",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "3 Knicks due for bigger roles for the 2026-27 NBA season",
+      "summary": "Here are the three Knicks whose roles are likeliest to grow this season, as New York pursues the first repeat in recent NBA history.",
+      "author": null,
+      "published_at": "2026-10-04T13:45:00.000Z",
+      "url": "https://sports.yahoo.com/articles/3-knicks-due-bigger-roles-134500291.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/44c2fc710790aaa9bdd034741894a223e1dc1e05bd874ac5f6a6f3c862415537/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F261e19bbdc3a645ca9b2cea1279e2903.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/3-knicks-due-bigger-roles-134500291.html"
+      },
+      "image_checked_at": "2026-10-04T14:30:48.778Z",
+      "image_source": "og:image",
+      "image_status": "available"
     },
     {
       "id": "69551b45eec614703e06",
@@ -191,7 +271,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 1,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -2052,41 +2132,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "2241e2d49176991ed0ed",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mwvi2v5ss22q",
-      "author": "Posting and Toasting",
-      "handle": "postingandtoasting.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
-      "text": "On This Date in Knicks History: October 2",
-      "published_at": "2026-10-02T13:28:23.771Z",
-      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwvi2v5ss22q",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreifp2cfcxrto6qo3xbfksn2xggdt5qbsha6lsnavkemx7r6w6klygq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mwvi2v5ss22q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "3b7e6c3771d6ee6ac3a8",
       "type": "social",
       "source": "Bluesky",
@@ -3319,27 +3364,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-03T20:00:21.088Z"
-    },
-    {
-      "id": "b7b35f93f9e26a847935",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Knicks Sign Kevin McCullar, Tyler Nickel To Two-Way Deals",
-      "summary": "The Knicks have signed Kevin McCullar Jr. and Tyler Nickel to two-way contracts, the team announced today (Twitter links). McCullar has spent the past two seasons with New York on two-way deals after being selected 56th overall in the 2024 draft. The 25-year-old made 21 regular season appearances in 2025/26, averaging 2.4 points in 7.4 […]",
-      "author": "Rory Maher",
-      "published_at": "2026-09-27T14:25:09.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html",
-      "image_url": "https://www.hoopsrumors.com/files/2026/07/Tyler-Nickel-300x200.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/knicks-sign-kevin-mccullar-tyler-nickel-to-two-way-deals.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": [
