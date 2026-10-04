@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T18:00:23.790Z",
+  "generated_at": "2026-10-04T18:15:19.937Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 4983,
+    "refresh_duration_ms": 5211,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,47 @@
     "images": {
       "available": 107,
       "missing": 7,
-      "article_pages_checked": 1
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "38f585b6e916820d8b9d",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx2ygvocpu2r",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks are taking three contract decisions into the season (via Yahoo Sports)",
+      "published_at": "2026-10-04T18:04:45.331Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2ygvocpu2r",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiguydcliv76far6fasqgdqrm4lap5fdktfg355wq4ec3zg6ireyta",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2ygvocpu2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "66885948b4952d1e6602",
       "type": "article",
@@ -119,9 +154,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-s-next-knicks-tyler-nickel-after-his-two-way-deal-01m3ywps09xz",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-04T18:00:23.505Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-04T18:00:23.505Z"
     },
     {
       "id": "b678d646a18eefaeea7e",
@@ -2746,41 +2781,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "9c2f175c481eb41b0bc2",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwtdorpl642d",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Why the Knicks Re-Signing Kevin McCullar Jr. Makes Sense (via Sports Illustrated)",
-      "published_at": "2026-10-01T17:04:42.881Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwtdorpl642d",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicpe2wstxlfudt7orvn5hzt4pja7oft4nxyjmey6csknw5hr46vwu",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwtdorpl642d",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "2cac5b827abb43c93d7a",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3306,9 +3306,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-media-day-comments-make-extension-more-likely-than-ever-despite-frustration-01m3mffrc1jx",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T18:15:19.380Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T18:15:17.013Z",
+      "image_status": "available",
       "cluster_id": "cluster_9fb9cb16f75d"
     },
     {
@@ -3329,9 +3329,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/09/lebron-james-says-hes-living-in-the-moment-with-sixers.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T18:15:19.381Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T18:00:24.690Z"
+      "image_status": "available"
     },
     {
       "id": "4e73d56ad95d258d76f3",
