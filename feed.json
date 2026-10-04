@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T23:45:18.994Z",
+  "generated_at": "2026-10-04T00:00:50.685Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 5400,
+    "refresh_duration_ms": 29546,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,35 @@
     "images": {
       "available": 102,
       "missing": 8,
-      "article_pages_checked": 0
+      "article_pages_checked": 5
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "e8786b102ed1420335a1",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Knicks Getting Great Signs From Tyler Kolek Despite Tricky Position",
+      "summary": "Tyler Kolek may be buried in the depth chart behind Jalen Brunson and Jose Alvarado. But his recent quotes prove he’s maintained the right mindset, which is something the Knicks should be excited about.",
+      "author": "Kento Kato",
+      "published_at": "2026-10-04T00:00:01.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/knicks-getting-great-signs-tyler-kolek-despite-tricky-position-01m3jbxtmw4y",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3721,h_2093/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3yv3y6hjq20qh73q1.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/knicks-getting-great-signs-tyler-kolek-despite-tricky-position-01m3jbxtmw4y",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-04T00:00:49.948Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "fc0809ccf2efcb75ff20",
       "type": "social",
@@ -999,9 +1023,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/target-knicks-back-already-been-made-clear-by-other-teams-01m3q2q5nabe",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T00:00:49.949Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T00:00:23.300Z"
+      "image_status": "available"
     },
     {
       "id": "75e5826b883ffa7501d2",
@@ -2083,9 +2107,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-towns-shamet-starters-thomas-more.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T00:00:49.950Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-02T23:45:19.283Z"
+      "image_status": "available"
     },
     {
       "id": "3d8f868ad3cd3d8a19e1",
@@ -2893,9 +2917,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/mike-brown-s-knicks-media-day-comments-should-be-turning-heads-01m3pwcfrsk4",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T00:00:50.105Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-02T23:45:19.283Z"
+      "image_status": "available"
     },
     {
       "id": "33336a53ef5f30a72193",
@@ -2983,9 +3007,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-biggest-takeaways-from-knicks-2026-27-media-day-remarks-01m3mnsav1x9",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T00:00:50.180Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-02T23:45:19.283Z"
+      "image_status": "available"
     },
     {
       "id": "6495f7f586e0a8af699a",
@@ -3228,29 +3252,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "3b0164fda9f94592f7b5",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "What Knicks Fans Should Make of a Slimmed-Down Karl-Anthony Towns",
-      "summary": "Karl-Anthony Towns looks slimmer as the 2026-27 NBA season approaches, and here's what Knicks fans should make of his new appearance.",
-      "author": "Steven Simineri",
-      "published_at": "2026-09-28T00:06:23.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-of-a-slimmed-down-karl-anthony-towns-01m3ajw0jg7g",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_862,y_549,w_1028,h_578/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3jmm2sy2v2ba4rdv5.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-of-a-slimmed-down-karl-anthony-towns-01m3ajw0jg7g",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-03T00:45:19.688Z"
     },
     {
       "id": "7d5c5787c7796aa3bc5d",
