@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T16:00:48.640Z",
+  "generated_at": "2026-10-04T16:15:17.154Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 28186,
+    "refresh_duration_ms": 4101,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 104,
+      "available": 105,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "5993e7262a9777bb5e6e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx2rpkeio322",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "8 Items That Should Be on Knicks’ Wishlist for 2026-27 Season (via Sports Illustrated)",
+      "published_at": "2026-10-04T16:04:19.279Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2rpkeio322",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifsmgvaap33gwd5bo6f3nvh2z7hrdo7e2xkcy5fwk6vsspp22ubc4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2rpkeio322",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "33bed04e2da2e1feb0bc",
       "type": "social",
@@ -263,6 +297,27 @@
       "image_status": "not_provided"
     },
     {
+      "id": "734dc0635f4f45f8671b",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks Bulletin: ‘I think he has endless upside’",
+      "summary": "Paying homage to my biggest brain fart… Would you believe the Knicks play basketball tomorrow!? Here’s the latest from around Tarrytown and those places. Mike Brown On Mohamed Diawara’s increased comfort and development entering Year 2: “Last year, you could see he was a little jittery when he was out there, because he didn’t quite […]",
+      "author": null,
+      "published_at": "2026-10-04T14:00:00.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-bulletin-think-endless-upside-140000523.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/5a93c9a40a0dab8ef735cabf0f4bf282.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-bulletin-think-endless-upside-140000523.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "a7d5a491848004c5fe70",
       "type": "article",
       "source": "Yahoo Sports",
@@ -306,7 +361,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 1,
-        "likes": 19
+        "likes": 20
       },
       "team": "NYK",
       "presentation": {
@@ -2023,9 +2078,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-renewed-moussa-cisse-dream-is-all-but-dead-now-01m3ygqjpvva",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T16:15:16.815Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T16:00:50.400Z"
+      "image_status": "available"
     },
     {
       "id": "e0350dd89ff6d16bec9c",
@@ -2667,41 +2722,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "bf15b0422dc9c7e90ff9",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwszpyeny32d",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks can stop worrying about Jalen Brunson’s wrist (via Yahoo Sports)",
-      "published_at": "2026-10-01T14:06:26.000Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwszpyeny32d",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreic4etzk3ug6eihelu6u47ucw4f3lp3aympuu2x6ilxioeknm44g7y",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwszpyeny32d",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "a2b10013b33492a610b1",
       "type": "article",
       "source": "RealGM",
@@ -2832,9 +2852,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-flurry-of-wednesday-moves-means-for-their-roster-01m3saz81b9r",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T16:15:16.815Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T16:00:50.401Z"
+      "image_status": "available"
     },
     {
       "id": "80683a65481b689e4e02",
