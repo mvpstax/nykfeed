@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T19:00:26.299Z",
+  "generated_at": "2026-10-04T19:15:43.725Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 8135,
+    "refresh_duration_ms": 30036,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,49 @@
       }
     ],
     "images": {
-      "available": 107,
+      "available": 106,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "867fed4b0e2148f82c1a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx33tzrmzt2p",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks' Jalen Brunson gets huge $290M contract update as extension with New York nears (via Yahoo Sports)",
+      "published_at": "2026-10-04T19:05:47.064Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx33tzrmzt2p",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreih5pjwuhglufdk3p6q357sch3f37cwbgu6pclxat4valulmmdnj4m",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx33tzrmzt2p",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "38f585b6e916820d8b9d",
       "type": "social",
@@ -1112,9 +1148,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/knicks-mike-brown-challenges-mo-185624959.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T19:15:43.128Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T19:15:41.672Z"
+      "image_status": "available"
     },
     {
       "id": "0a7dbd7e9865282b4e9c",
@@ -2069,9 +2105,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-two-way-situation-could-change-after-filling-last-spot-01m3wy5nw7",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T19:15:43.128Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T19:15:41.673Z"
+      "image_status": "available"
     },
     {
       "id": "4a5ffb128cd76c79c5bb",
@@ -2746,41 +2782,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "d22069eb81934f82fd68",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwtkneycq32m",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "NY Knicks Could Soon Land Perfect Mitchell Robinson Replacement in Trade With Mavericks (via Yahoo Sports)",
-      "published_at": "2026-10-01T19:09:12.162Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwtkneycq32m",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicbruqdqzd4fokpqwx3wyguxpzooqjx2gqgyafajvgtz5romjsaya",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwtkneycq32m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "2cac5b827abb43c93d7a",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3421,28 +3422,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-03T23:00:50.035Z"
-    },
-    {
-      "id": "6f9ab8638d45ad46cd29",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Knicks Notes: Brown, McBride, Training Camp",
-      "summary": "Knicks head coach Mike Brown doesn’t get enough credit for the role he played in last season’s championship run, according to assistant coach Rick Brunson. On the Locked on Knicks Squad Show (YouTube link), Brunson said Brown met with all five starters individually at the end of the regular season, when the team was struggling, […]",
-      "author": "Rory Maher",
-      "published_at": "2026-09-27T19:05:43.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-brown-mcbride-training-camp.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2025/11/Mike-Brown1-900x599.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-brown-mcbride-training-camp.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-03T20:00:21.088Z"
     }
   ],
   "clusters": [
