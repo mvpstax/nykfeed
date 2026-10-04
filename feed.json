@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T15:00:23.609Z",
+  "generated_at": "2026-10-04T15:15:23.471Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 5836,
+    "refresh_duration_ms": 8635,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,47 @@
     "images": {
       "available": 104,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "33bed04e2da2e1feb0bc",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx2oeaxc7622",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Josh Hart was every Yankees fan after Austin Wells blunder: ‘Why are you going for third?’ (via New York Post)",
+      "published_at": "2026-10-04T15:04:19.086Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2oeaxc7622",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigj4lo5i34ecj7wb6nyctltek6de6fykljunl6l53tbzbkp4opj24",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2oeaxc7622",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "2e184aa8b903fefaa68e",
       "type": "article",
@@ -270,7 +305,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 1,
-        "likes": 12
+        "likes": 16
       },
       "team": "NYK",
       "presentation": {
@@ -2666,41 +2701,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c8d85dbf0630c1fde42e",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwsw7rsllb2q",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Where the Knicks’ Roster, Contracts Stand After Last-Minute Tweaks (via Si)",
-      "published_at": "2026-10-01T13:03:41.023Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwsw7rsllb2q",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreif4ngoat7ynlbjuxwzk7kbenpqpong5xv6esrpyjt4b6c2u5g43me",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwsw7rsllb2q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "a2b10013b33492a610b1",
       "type": "article",
       "source": "RealGM",
@@ -3272,9 +3272,9 @@
         "url": "https://www.si.com/nba/knicks/jalen-brunson-era-new-york-sports-is-upon-us",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-04T15:15:23.361Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-03T15:00:53.594Z"
+      "image_status": "available"
     },
     {
       "id": "2a1194c03be7f67d4a8d",
