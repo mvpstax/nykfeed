@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T11:45:19.827Z",
+  "generated_at": "2026-10-05T12:00:50.424Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 4948,
+    "refresh_duration_ms": 29348,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -122,7 +123,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -270,8 +271,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 4,
-        "reposts": 19,
-        "likes": 185
+        "reposts": 21,
+        "likes": 196
       },
       "team": "NYK",
       "presentation": {
