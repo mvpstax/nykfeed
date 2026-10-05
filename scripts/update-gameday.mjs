@@ -1,14 +1,22 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-const BASE = (process.env.HIGHLIGHTLY_BASE_URL || 'https://nba.highlightly.net').replace(/\/$/, '');
+const BASE = (
+  process.env.HIGHLIGHTLY_BASE_URL ||
+  'https://nba.highlightly.net'
+).replace(/\/$/, '');
+
 const KEY = process.env.HIGHLIGHTLY_API_KEY || '';
 const NOW = new Date(process.env.GAMEDAY_NOW || Date.now());
-const SEASON = NOW.getUTCMonth() >= 6 ? NOW.getUTCFullYear() : NOW.getUTCFullYear() - 1;
+
+const SEASON =
+  NOW.getUTCMonth() >= 6
+    ? NOW.getUTCFullYear()
+    : NOW.getUTCFullYear() - 1;
+
 const OUT = process.env.GAMEDAY_OUTPUT || 'gameday.json';
 const RETRYABLE = new Set([429, 500, 502, 503, 504]);
 
-// Fixtures verified against the official Knicks 2026 preseason schedule.
-// They provide a matchup preview until Highlightly publishes the game.
+// Schedule fallback only. Scores never come from this list.
 const KNICKS = {
   abbreviation: 'NYK',
   displayName: 'New York Knicks',
@@ -79,8 +87,9 @@ const PRESEASON_2026 = [
 
 function preseasonFallback(now) {
   const next = PRESEASON_2026.find(
-    fixture => Date.parse(fixture.date) > now.getTime()
+    game => Date.parse(game.date) > now.getTime()
   );
+
   if (!next) return null;
 
   const team = value => ({
@@ -119,7 +128,9 @@ async function api(path, params = {}) {
   const url = new URL(BASE + path);
 
   for (const [key, value] of Object.entries(params)) {
-    if (value != null) url.searchParams.set(key, String(value));
+    if (value != null) {
+      url.searchParams.set(key, String(value));
+    }
   }
 
   for (let attempt = 0; attempt < 2; attempt++) {
@@ -134,7 +145,10 @@ async function api(path, params = {}) {
     });
 
     if (response.ok) return response.json();
-    if (attempt === 0 && RETRYABLE.has(response.status)) continue;
+
+    if (attempt === 0 && RETRYABLE.has(response.status)) {
+      continue;
+    }
 
     throw new Error(`${path}: HTTP ${response.status}`);
   }
@@ -149,7 +163,9 @@ function rows(value) {
 }
 
 function one(value) {
-  return Array.isArray(value) ? value[0] : value?.data ?? value;
+  return Array.isArray(value)
+    ? value[0]
+    : value?.data ?? value;
 }
 
 function idOf(team) {
@@ -175,8 +191,12 @@ function isLive(game) {
 
 function score(game, side) {
   const pieces = game?.state?.score?.[side];
+
   return Array.isArray(pieces) && pieces.length
-    ? pieces.reduce((total, value) => total + (Number(value) || 0), 0)
+    ? pieces.reduce(
+        (total, value) => total + (Number(value) || 0),
+        0
+      )
     : null;
 }
 
@@ -213,7 +233,9 @@ function recentGames(games, now = NOW) {
         Date.parse(game.date) >= now.getTime() - 36 * 3600000
     )
     .sort((a, b) => {
-      if (isLive(a) !== isLive(b)) return isLive(a) ? -1 : 1;
+      if (isLive(a) !== isLive(b)) {
+        return isLive(a) ? -1 : 1;
+      }
 
       const aFuture = Date.parse(a.date) >= now.getTime();
       const bFuture = Date.parse(b.date) >= now.getTime();
@@ -249,49 +271,184 @@ function totals(value) {
   };
 }
 
-function previews(feed, opponent, now = NOW) {
-  const name = opponent?.name || '';
-  const full = opponent?.displayName || '';
-  const terms = [...new Set([name, full].filter(value => value.length > 3))];
-  const cutoff = now.getTime() - 21 * 86400000;
+export function selectPreviewStories(
+  feed,
+  opponent,
+  now = NOW
+) {
+  const aliases = {
+    PHI: ['76ers', 'sixers', 'philadelphia'],
+    WAS: ['wizards', 'washington'],
+    MIN: ['timberwolves', 'wolves', 'minnesota'],
+    TOR: ['raptors', 'toronto'],
+  };
 
-  return (feed?.items || [])
-    .filter(
-      item =>
-        item.type === 'article' &&
-        Date.parse(item.published_at) >= cutoff
-    )
-    .map(item => {
-      const copy = `${item.title || ''} ${item.summary || ''}`;
+  const terms = [
+    ...new Set(
+      [
+        opponent?.name,
+        opponent?.displayName,
+        ...(aliases[opponent?.abbreviation] || []),
+      ]
+        .filter(
+          value => typeof value === 'string' && value.length > 3
+        )
+        .map(value => value.toLowerCase())
+    ),
+  ];
+
+  const categories = [
+    [
+      'matchup',
+      'The matchup',
+      /game preview|preseason (?:game|opener)|opening preseason|tipoff|tip off|tonight|matchup|scrimmage/i,
+    ],
+    [
+      'rotation',
+      'Rotation watch',
+      /rotation|minutes|starter|starting|bench|roster spot|center battle|evaluate|newcomer/i,
+    ],
+    [
+      'development',
+      'Development watch',
+      /diawara|kolek|dadiet|mccullar|nickel|youngster|young player|rookie|development|year 2|second season/i,
+    ],
+    [
+      'identity',
+      'On-court changes',
+      /offens|defens|system|pace|chemistry|continuity|practice|training camp|preseason/i,
+    ],
+    [
+      'availability',
+      'Reported availability',
+      /injur|ruled out|rest|sidelined|questionable|availability|health/i,
+    ],
+  ];
+
+  const candidates = (feed?.items || [])
+    .filter(item => item.type === 'article')
+    .flatMap(item => {
+      const age =
+        (now.getTime() - Date.parse(item.published_at)) /
+        3600000;
+
+      if (!Number.isFinite(age) || age < -1 || age > 7 * 24) {
+        return [];
+      }
+
+      const title = String(item.title || '');
+      const copy = `${title} ${item.summary || ''}`;
+
+      if (
+        !/knicks|new york|brunson|towns|bridges|anunoby|diawara|kolek|dadiet|mcbride/i.test(
+          copy
+        )
+      ) {
+        return [];
+      }
+
+      if (
+        /contract extension|extension talks|trade rumor|trade proposal|white house|nearly joined|free agent.*summer|living.*new york/i.test(
+          title
+        )
+      ) {
+        return [];
+      }
+
       const mentionsOpponent = terms.some(term =>
-        copy.toLowerCase().includes(term.toLowerCase())
+        copy.toLowerCase().includes(term)
       );
-      const relevant =
-        mentionsOpponent ||
-        /preseason|training camp|rotation|starting lineup|season preview/i.test(
+
+      const directPreview =
+        /game preview|preseason (?:game|opener)|opening preseason/i.test(
+          title
+        );
+
+      if (
+        directPreview &&
+        /\b(?:at|vs|versus|against)\b/i.test(title) &&
+        !terms.some(term => title.toLowerCase().includes(term))
+      ) {
+        return [];
+      }
+
+      const category =
+        categories.find(
+          ([key, , expression]) =>
+            key !== 'matchup' && expression.test(title)
+        ) ||
+        categories.find(
+          ([key, , expression]) =>
+            key !== 'matchup' && expression.test(copy)
+        );
+
+      const matchup =
+        mentionsOpponent &&
+        /game preview|preseason|tipoff|tonight|matchup|scrimmage|injur|health/i.test(
           copy
         );
 
-      return { item, mentionsOpponent, relevant };
+      if (!directPreview && !matchup && !category) return [];
+
+      const topic =
+        directPreview || matchup ? 'matchup' : category[0];
+
+      const label =
+        directPreview || matchup ? 'The matchup' : category[1];
+
+      const priority =
+        (directPreview ? 30 : matchup ? 22 : 14) +
+        (age <= 24 ? 8 : age <= 72 ? 4 : 0) -
+        age / 48;
+
+      return [{ item, topic, label, priority }];
     })
-    .filter(result => result.relevant)
     .sort(
       (a, b) =>
-        Number(b.mentionsOpponent) - Number(a.mentionsOpponent) ||
-        Date.parse(b.item.published_at) - Date.parse(a.item.published_at)
+        b.priority - a.priority ||
+        Date.parse(b.item.published_at) -
+          Date.parse(a.item.published_at)
+    );
+
+  const selected = [];
+  const topics = new Set();
+  const used = new Set();
+
+  const clusterFor = new Map(
+    (feed?.clusters || []).flatMap(cluster =>
+      (cluster.item_ids || []).map(id => [id, cluster.id])
     )
-    .slice(0, 3)
-    .map(({ item, mentionsOpponent }) => ({
-      id: String(item.id),
-      title: item.title,
-      summary: item.summary || null,
-      image_url: item.image_url || null,
-      source: item.source,
-      published_at: item.published_at,
-      url: item.url,
-      relevance: mentionsOpponent ? 'matchup' : 'knicks_preseason',
-      generated: false,
-    }));
+  );
+
+  for (const candidate of candidates) {
+    const group =
+      clusterFor.get(candidate.item.id) || candidate.item.id;
+
+    if (used.has(group) || topics.has(candidate.topic)) {
+      continue;
+    }
+
+    selected.push(candidate);
+    used.add(group);
+    topics.add(candidate.topic);
+
+    if (selected.length === 3) break;
+  }
+
+  return selected.map(({ item, topic, label }) => ({
+    id: String(item.id),
+    title: item.title,
+    summary: item.summary || null,
+    image_url: item.image_url || null,
+    source: item.source,
+    published_at: item.published_at,
+    url: item.url,
+    topic,
+    label,
+    relevance:
+      topic === 'matchup' ? 'matchup' : 'knicks_preseason',
+    generated: false,
+  }));
 }
 
 async function safe(label, fn, errors) {
@@ -338,11 +495,16 @@ export async function buildGameDay({
 
   const unique = new Map(
     [...rows(home), ...rows(away)]
-      .filter(game => isKnicks(game.homeTeam) || isKnicks(game.awayTeam))
+      .filter(
+        game =>
+          isKnicks(game.homeTeam) ||
+          isKnicks(game.awayTeam)
+      )
       .map(game => [game.id, game])
   );
 
-  const game = recentGames([...unique.values()], now)[0] || null;
+  const candidates = recentGames([...unique.values()], now);
+  const game = candidates[0] || null;
   const fallback = preseasonFallback(now);
 
   const useFallback =
@@ -370,7 +532,10 @@ export async function buildGameDay({
     predictions: null,
     highlights: [],
     storylines: [],
-    meta: { errors },
+    meta: {
+      errors,
+      feed_generated_at: feed?.generated_at || null,
+    },
   };
 
   if (useFallback || !game) {
@@ -381,7 +546,11 @@ export async function buildGameDay({
       document.phase = 'preseason';
       document.game = fallback.game;
       document.venue = fallback.venue;
-      document.storylines = previews(feed, fallback.opponent, now);
+      document.storylines = selectPreviewStories(
+        feed,
+        fallback.opponent,
+        now
+      );
       document.meta.fixture_fallback = true;
     }
 
@@ -390,60 +559,66 @@ export async function buildGameDay({
 
   document.phase =
     SEASON === 2026 &&
-    Date.parse(game.date) < Date.parse('2026-10-20T00:00:00-04:00')
+    Date.parse(game.date) <
+      Date.parse('2026-10-20T00:00:00-04:00')
       ? 'preseason'
       : 'season';
 
   const knicks = isKnicks(game.homeTeam)
     ? game.homeTeam
     : game.awayTeam;
+
   const opponent = isKnicks(game.homeTeam)
     ? game.awayTeam
     : game.homeTeam;
 
-  const knicksId = idOf(knicks);
-  const opponentId = idOf(opponent);
+  const a = idOf(knicks);
+  const b = idOf(opponent);
 
-  document.storylines = previews(feed, opponent, now);
+  document.storylines = selectPreviewStories(feed, opponent, now);
 
   const sameGame = previous?.game?.id === String(game.id);
+
   const staticFresh =
     sameGame &&
-    Number.isFinite(Date.parse(previous.meta?.static_updated_at)) &&
-    now.getTime() - Date.parse(previous.meta.static_updated_at) <
+    Number.isFinite(
+      Date.parse(previous.meta?.static_updated_at)
+    ) &&
+    now.getTime() -
+      Date.parse(previous.meta.static_updated_at) <
       18 * 3600000;
 
   const nearGame =
-    Math.abs(Date.parse(game.date) - now.getTime()) < 3 * 3600000 ||
+    Math.abs(Date.parse(game.date) - now.getTime()) <
+      3 * 3600000 ||
     isLive(game);
 
   const calls = [
     ['detail', `/matches/${game.id}`],
-
-    ...(knicksId && opponentId && !staticFresh
+    ...(a && b && !staticFresh
       ? [
           [
             'knicks stats',
-            `/teams/statistics/${knicksId}`,
+            `/teams/statistics/${a}`,
             { fromDate: `${SEASON - 1}-10-01` },
           ],
           [
             'opponent stats',
-            `/teams/statistics/${opponentId}`,
+            `/teams/statistics/${b}`,
             { fromDate: `${SEASON - 1}-10-01` },
           ],
-          ['knicks form', '/last-five-games', { teamId: knicksId }],
-          ['opponent form', '/last-five-games', { teamId: opponentId }],
+          ['knicks form', '/last-five-games', { teamId: a }],
+          ['opponent form', '/last-five-games', { teamId: b }],
           [
             'head to head',
             '/head-2-head',
-            { teamIdOne: knicksId, teamIdTwo: opponentId },
+            { teamIdOne: a, teamIdTwo: b },
           ],
         ]
       : []),
-
-    ...(nearGame ? [['lineups', `/lineups/${game.id}`]] : []),
-
+    ...(nearGame
+      ? [['lineups', `/lineups/${game.id}`]]
+      : []),
     ...(!isLive(game) && !isFinished(game)
       ? []
       : [
@@ -459,7 +634,11 @@ export async function buildGameDay({
   const results = await Promise.all(
     calls.map(async ([label, path, params]) => [
       label,
-      await safe(label, () => request(path, params), errors),
+      await safe(
+        label,
+        () => request(path, params),
+        errors
+      ),
     ])
   );
 
@@ -467,11 +646,16 @@ export async function buildGameDay({
   const detail = one(result.detail);
 
   document.venue =
-    detail?.venue || (sameGame ? previous.venue : null) || null;
+    detail?.venue ||
+    (sameGame ? previous.venue : null) ||
+    null;
+
   document.game_statistics = detail?.matchStatistics || null;
+
   document.events = Array.isArray(detail?.events)
     ? detail.events.slice(-30)
     : [];
+
   document.predictions = detail?.predictions || null;
 
   document.team_comparison = {
@@ -530,7 +714,8 @@ export async function buildGameDay({
 
 if (
   process.argv[1] &&
-  import.meta.url === new URL(`file://${process.argv[1]}`).href
+  import.meta.url ===
+    new URL(`file://${process.argv[1]}`).href
 ) {
   if (!KEY) {
     console.error(
@@ -546,27 +731,48 @@ if (
     const roster = await jsonFile('players.json');
     const stats = await jsonFile('player-stats.json');
 
+    const coverage = data.storylines
+      .map(story => `${story.title} ${story.summary || ''}`)
+      .join(' ')
+      .toLowerCase();
+
     data.players_to_watch = (roster?.players || [])
       .map(player => {
         const season = stats?.players?.[player.id]?.season;
 
-        return season && Number.isFinite(Number(season.points))
-          ? {
-              id: player.id,
-              name: player.name,
-              jersey: player.jersey,
-              photo_url: player.photo_url,
-              season: season.season,
-              points: season.points,
-              rebounds: season.rebounds,
-              assists: season.assists,
-              games: season.games,
-            }
-          : null;
+        const hasStats =
+          season &&
+          season.points != null &&
+          Number.isFinite(Number(season.points)) &&
+          Number(season.games) > 0;
+
+        const name = String(player.name || '');
+        const lastName = name
+          .split(' ')
+          .at(-1)
+          .toLowerCase();
+
+        return {
+          id: player.id,
+          name,
+          jersey: player.jersey,
+          position: player.position,
+          photo_url: player.photo_url,
+          season: hasStats ? season.season : null,
+          points: hasStats ? Number(season.points) : null,
+          rebounds: hasStats ? season.rebounds : null,
+          assists: hasStats ? season.assists : null,
+          games: hasStats ? season.games : null,
+          priority: coverage.includes(lastName)
+            ? 10
+            : /brunson|towns/i.test(name)
+              ? 3
+              : 0,
+        };
       })
-      .filter(Boolean)
-      .sort((a, b) => Number(b.points) - Number(a.points))
-      .slice(0, 3);
+      .sort((a, b) => b.priority - a.priority)
+      .slice(0, 4)
+      .map(({ priority, ...player }) => player);
 
     if (data.meta.errors.length && !data.game) {
       console.error(data.meta.errors.join('\n'));
@@ -575,7 +781,11 @@ if (
       );
       process.exitCode = 1;
     } else {
-      await writeFile(OUT, JSON.stringify(data, null, 2) + '\n');
+      await writeFile(
+        OUT,
+        JSON.stringify(data, null, 2) + '\n'
+      );
+
       console.log(
         `Wrote ${OUT}: ${data.status}${
           data.game
