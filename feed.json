@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T17:30:26.775Z",
+  "generated_at": "2026-10-05T17:45:20.323Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 7515,
+    "refresh_duration_ms": 4560,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,36 @@
       }
     ],
     "images": {
-      "available": 106,
+      "available": 104,
       "missing": 8,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "cd9484b8880bcb7d518f",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Karl-Anthony Towns on chances of signing extension with Knicks before season: 'It don't look good'",
+      "summary": "The All-Star big man continues to sound pessimistic about his odds of signing a new deal before the start of the 2026-27 NBA season.",
+      "author": "Dan Devine",
+      "published_at": "2026-10-05T17:35:14.000Z",
+      "url": "https://sports.yahoo.com/nba/article/karl-anthony-towns-on-chances-of-signing-extension-with-knicks-before-season-it-dont-look-good-173514657.html",
+      "image_url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/255630bb-68f6-48ab-9d15-056ef0fd41ae",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/nba/article/karl-anthony-towns-on-chances-of-signing-extension-with-knicks-before-season-it-dont-look-good-173514657.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4ad34153d3e4"
+    },
     {
       "id": "4a0ab62b54400781e4ae",
       "type": "social",
@@ -135,6 +157,28 @@
       "image_status": "not_provided"
     },
     {
+      "id": "abf89d537e68947aec73",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Knicks' Karl-Anthony Towns not expecting extension soon",
+      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
+      "author": null,
+      "published_at": "2026-10-05T17:11:40.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
+      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4ad34153d3e4"
+    },
+    {
       "id": "d2c0849bb53c1f2e6b49",
       "type": "article",
       "source": "CBS Sports",
@@ -151,28 +195,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-extension-negotiations/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4ad34153d3e4"
-    },
-    {
-      "id": "abf89d537e68947aec73",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks' Karl-Anthony Towns not expecting extension soon",
-      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
-      "author": null,
-      "published_at": "2026-10-05T17:03:36.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
-      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon"
       },
       "image_status": "available",
       "image_source": "source_feed",
@@ -313,9 +335,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 3,
+        "replies": 4,
         "reposts": 0,
-        "likes": 9
+        "likes": 11
       },
       "team": "NYK",
       "presentation": {
@@ -944,7 +966,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 39,
-        "likes": 299
+        "likes": 300
       },
       "team": "NYK",
       "presentation": {
@@ -1533,49 +1555,6 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
-    },
-    {
-      "id": "734dc0635f4f45f8671b",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks Bulletin: ‘I think he has endless upside’",
-      "summary": "Paying homage to my biggest brain fart… Would you believe the Knicks play basketball tomorrow!? Here’s the latest from around Tarrytown and those places. Mike Brown On Mohamed Diawara’s increased comfort and development entering Year 2: “Last year, you could see he was a little jittery when he was out there, because he didn’t quite […]",
-      "author": null,
-      "published_at": "2026-10-04T14:00:00.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-think-endless-upside-140000523.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/5a93c9a40a0dab8ef735cabf0f4bf282.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-bulletin-think-endless-upside-140000523.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "a7d5a491848004c5fe70",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "3 Knicks due for bigger roles for the 2026-27 NBA season",
-      "summary": "Here are the three Knicks whose roles are likeliest to grow this season, as New York pursues the first repeat in recent NBA history.",
-      "author": null,
-      "published_at": "2026-10-04T13:45:00.000Z",
-      "url": "https://sports.yahoo.com/articles/3-knicks-due-bigger-roles-134500291.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/44c2fc710790aaa9bdd034741894a223e1dc1e05bd874ac5f6a6f3c862415537/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F261e19bbdc3a645ca9b2cea1279e2903.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/3-knicks-due-bigger-roles-134500291.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-05T14:45:20.267Z"
     },
     {
       "id": "69551b45eec614703e06",
@@ -2933,9 +2912,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-knicks-re-signing-kevin-mccullar-jr-makes-sense-01m3se7dkbmd",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-05T17:30:26.410Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-05T17:30:26.410Z"
     },
     {
       "id": "78c9d5c338e5ecc3a9b9",
@@ -3376,8 +3355,7 @@
         "url": "https://www.espn.com/nba/story/_/id/50053583/karl-anthony-towns-wants-extension-stay-knicks"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_9fb9cb16f75d"
+      "image_source": "source_feed"
     },
     {
       "id": "88566c6939e10b5dbe7e",
@@ -3399,59 +3377,21 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "8a58154d84648cf0ef60",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Karl-Anthony Towns' Media Day Comments Make Extension More Likely Than Ever, Despite Frustration",
-      "summary": "One of the biggest unknown surrounding the Knicks’ offseason following their NBA title run has been Karl-Anthony Towns’ contract discussions. Towns only has two",
-      "author": "Max Wildstein",
-      "published_at": "2026-09-28T17:44:23.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-media-day-comments-make-extension-more-likely-than-ever-despite-frustration-01m3mffrc1jx",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_1376,y_87,w_2479,h_1394/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3mhjgs8t74r0h39qv.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-media-day-comments-make-extension-more-likely-than-ever-despite-frustration-01m3mffrc1jx",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-04T18:15:19.380Z",
-      "cluster_id": "cluster_9fb9cb16f75d"
     }
   ],
   "clusters": [
     {
       "id": "cluster_4ad34153d3e4",
-      "lead_item_id": "d2c0849bb53c1f2e6b49",
+      "lead_item_id": "cd9484b8880bcb7d518f",
       "item_ids": [
-        "d2c0849bb53c1f2e6b49",
+        "cd9484b8880bcb7d518f",
         "abf89d537e68947aec73",
+        "d2c0849bb53c1f2e6b49",
         "ff30f2b32fc6423477f6"
       ],
-      "source_count": 3,
-      "updated_at": "2026-10-05T17:08:35.000Z",
-      "title": "Karl-Anthony Towns says extension negotiations with Knicks 'don't look good' as two sides remain apart on deal",
-      "event_type": "extension",
-      "entities": [
-        "karl anthony towns"
-      ]
-    },
-    {
-      "id": "cluster_9fb9cb16f75d",
-      "lead_item_id": "e3f6839eb57540efd071",
-      "item_ids": [
-        "e3f6839eb57540efd071",
-        "8a58154d84648cf0ef60"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-09-28T18:19:00.000Z",
-      "title": "Karl-Anthony Towns wants extension to stay with Knicks",
+      "source_count": 4,
+      "updated_at": "2026-10-05T17:35:14.000Z",
+      "title": "Karl-Anthony Towns on chances of signing extension with Knicks before season: 'It don't look good'",
       "event_type": "extension",
       "entities": [
         "karl anthony towns"
