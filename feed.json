@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T17:00:30.119Z",
+  "generated_at": "2026-10-05T17:15:21.318Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,12 +19,12 @@
   "meta": {
     "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 6246,
+    "refresh_duration_ms": 6154,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 23
+        "items": 24
       },
       {
         "source_key": "knicks_film_school",
@@ -45,7 +45,7 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 22
+        "items": 23
       },
       {
         "source_key": "yahoo_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 28
+        "items": 27
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -94,12 +94,92 @@
     "images": {
       "available": 107,
       "missing": 7,
-      "article_pages_checked": 1
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "abf89d537e68947aec73",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Knicks' Karl-Anthony Towns not expecting extension soon",
+      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
+      "author": null,
+      "published_at": "2026-10-05T17:03:36.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
+      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4ad34153d3e4"
+    },
+    {
+      "id": "41703762addc0b0ef638",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "James Wiseman Must Realize the Knicks Opportunity in Front of Him",
+      "summary": "James Wiseman is an archetype and a low-risk, high-reward move worth betting on, and the New York Knicks will hope they'll be proven right.",
+      "author": "Steven Simineri",
+      "published_at": "2026-10-05T17:03:03.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/james-wiseman-must-realize-the-knicks-opportunity-in-front-of-him-01m45575d1fm",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_6053,h_3404/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m46f6f6ny6pawdyb1h.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/james-wiseman-must-realize-the-knicks-opportunity-in-front-of-him-01m45575d1fm",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-05T17:15:20.761Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "d6c2b5f001d093688324",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx5fhgcqdz2x",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks’ former No. 2 pick is ahead in a crowded roster fight (via Yahoo Sports)",
+      "published_at": "2026-10-05T17:03:00.903Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx5fhgcqdz2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreighpicubenm3hgzrunh42g7fuyyu3o6cp56rs7qveloglmu2v7vo4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx5fhgcqdz2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "ff30f2b32fc6423477f6",
       "type": "article",
@@ -119,7 +199,8 @@
         "url": "https://www.hoopsrumors.com/2026/10/karl-anthony-towns-frustrated-by-knicks-contract-talks.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4ad34153d3e4"
     },
     {
       "id": "de503f94e290219b92bd",
@@ -141,7 +222,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
         "likes": 0
       },
@@ -807,7 +888,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 39,
-        "likes": 296
+        "likes": 298
       },
       "team": "NYK",
       "presentation": {
@@ -1953,41 +2034,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "8df556eec82bc9f0faea",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mwymctmevk2h",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "Landry Shamet's tenure in New York is a testament to the Knicks' front office, on several levels: dailyknicks.com/shamets-knic...",
-      "published_at": "2026-10-03T19:22:24.775Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwymctmevk2h",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreifhiia44re2u2isfudhh3jy6ppxgaefq4jehmymwqkyjj2sg5pdla",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mwymctmevk2h",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "0a7dbd7e9865282b4e9c",
       "type": "social",
       "source": "Bluesky",
@@ -2076,9 +2122,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/tony-bradley-could-help-knicks-center-more-than-most-think-01m404xhjvf8",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-05T17:15:20.762Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-04T17:15:17.565Z"
+      "image_status": "available"
     },
     {
       "id": "299f9210470163267517",
@@ -2806,41 +2852,6 @@
       "image_checked_at": "2026-10-05T11:30:23.417Z"
     },
     {
-      "id": "3e406509c50c7c405fdc",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwuf5yc37l2q",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Mitchell Robinson explains why he didn't sign with the Knicks: \"It's a business at the end of the day\" (via Yahoo Sports)",
-      "published_at": "2026-10-02T03:03:46.576Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwuf5yc37l2q",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiao6e24xfml5evnxdoyo3lal2fgvpwq7wj4eagtp4c7k4vhsc5q3i",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwuf5yc37l2q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "541bb15e0edc6862dc49",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3238,9 +3249,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-s-knicks-arrow-is-pointing-way-up-after-media-day-01m3pra29hsd",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-05T17:00:29.723Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-05T17:00:29.723Z"
     },
     {
       "id": "ba3d2b3e41faf3e22b8e",
@@ -3416,32 +3427,24 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-04T18:15:19.381Z"
-    },
-    {
-      "id": "4e73d56ad95d258d76f3",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Losing Mitchell Robinson is the Knicks' Headache That Keeps Aching",
-      "summary": "After winning the title in San Antonio last June, the New York Knicks returned home to celebrate with the fans. The morning of the parade, owner James Dolan dec",
-      "author": "Matthew Miranda",
-      "published_at": "2026-09-28T17:06:22.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/losing-mitchell-robinson-is-the-knicks-headache-that-keeps-aching-01m3me8zk200",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4560,h_2565/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3med2ze2m7m22cdxr.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/losing-mitchell-robinson-is-the-knicks-headache-that-keeps-aching-01m3me8zk200",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-04T17:45:41.932Z"
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_4ad34153d3e4",
+      "lead_item_id": "abf89d537e68947aec73",
+      "item_ids": [
+        "abf89d537e68947aec73",
+        "ff30f2b32fc6423477f6"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-10-05T17:03:36.000Z",
+      "title": "Knicks' Karl-Anthony Towns not expecting extension soon",
+      "event_type": "extension",
+      "entities": [
+        "karl anthony towns"
+      ]
+    },
     {
       "id": "cluster_9fb9cb16f75d",
       "lead_item_id": "e3f6839eb57540efd071",
