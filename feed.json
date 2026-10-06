@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T19:15:18.558Z",
+  "generated_at": "2026-10-06T19:30:50.041Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 4081,
+    "refresh_duration_ms": 27925,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,46 @@
     "images": {
       "available": 99,
       "missing": 10,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4c5df40898794cb2b238",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mxa5htphrs2s",
+      "author": "🏆Knicks Forever🏆",
+      "handle": "wildstreet.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
+      "text": "🙏🏽 for his surgery today and healing soon #OAKAAK #knickssky",
+      "published_at": "2026-10-06T19:18:04.425Z",
+      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mxa5htphrs2s",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mxa5htphrs2s",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "98d2d0d62eca150b2677",
       "type": "social",
@@ -293,7 +328,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -992,7 +1027,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 1,
-        "likes": 13
+        "likes": 14
       },
       "team": "NYK",
       "presentation": {
@@ -1398,7 +1433,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 7
+        "likes": 8
       },
       "team": "NYK",
       "presentation": {
@@ -1441,40 +1476,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mx6bkqhtjc27",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "b04a80b7b3880aff4489",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:e2dd3yamwzknwwd4qfb647d7/app.bsky.feed.post/3mx66pmdy3s2z",
-      "author": "CarolineNDAciti",
-      "handle": "carolinendaciti.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:e2dd3yamwzknwwd4qfb647d7/bafkreia2p2ilsmiyjc7c6zjligknk5swe625agyorlaj3e3yxufa2umvim",
-      "text": "I may or may have not shed a tear watching this pre season opener #Knicks we back baby!!!!🥲🧡💙🧡💙",
-      "published_at": "2026-10-06T00:34:59.408Z",
-      "url": "https://bsky.app/profile/did:plc:e2dd3yamwzknwwd4qfb647d7/post/3mx66pmdy3s2z",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 5
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:e2dd3yamwzknwwd4qfb647d7/post/3mx66pmdy3s2z",
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
@@ -1659,9 +1660,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-offers-contract-negotiation-update-it-s-surprising-and-demoralizing-01m46ecdpbsv",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-06T19:15:18.079Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-06T19:15:18.079Z"
     },
     {
       "id": "b69f7bc1f245b6269a9d",
