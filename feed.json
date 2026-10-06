@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T20:00:23.162Z",
+  "generated_at": "2026-10-06T20:15:43.483Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 4264,
+    "refresh_duration_ms": 27755,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 23
+        "items": 24
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -94,12 +95,82 @@
     "images": {
       "available": 98,
       "missing": 11,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "7c070779a6182acd3d20",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mxaac3ktts2k",
+      "author": "Kris Pursiainen",
+      "handle": "krisap.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
+      "text": "I projected a Karl-Anthony Towns extension I think could leave KAT, the Knicks, and their fans happy: dailyknicks.com/knicks-fix-karl-towns-stalemate-220-million-offer",
+      "published_at": "2026-10-06T20:08:32.563Z",
+      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxaac3ktts2k",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreieoif4vuhrbzciunwnfql4gz7mjrkmooc6snbnekhz5tjbmqegvrq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxaac3ktts2k",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "4e12f0a37495fea871fd",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxaa6mobap2w",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks Fall To Sixers As KAT Turns Up Contract Pressure | New York Got Game (via New York Post)",
+      "published_at": "2026-10-06T20:06:36.075Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxaa6mobap2w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib6vqtztdlzozn2txkpb4sq5hiphtimr7awslnfa2ysutoydsjqka",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxaa6mobap2w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "085c642f585ccaf43019",
       "type": "article",
@@ -119,9 +190,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-mohamed-diawara-start-knicks-preseason-so-exciting-01m493n0ckmt",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-06T20:00:22.950Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-06T20:00:22.950Z"
     },
     {
       "id": "806a71b3a61e9ac55f64",
@@ -1114,8 +1185,7 @@
         "url": "https://basketball.realgm.com/wiretap/287531/Ariel-Hukporti-Leaves-Game-With-Noncontact-Right-Leg-Injury"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_2c90479c9034"
+      "image_source": "source_feed"
     },
     {
       "id": "f8d3ea9254eb4b3f8c27",
@@ -1388,28 +1458,6 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
-    },
-    {
-      "id": "685351cdbac77d51e075",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Ariel Hukporti leaves game vs. Knicks with apparent leg injury",
-      "summary": "We await word on the severity of the injury for the backup big man.",
-      "author": null,
-      "published_at": "2026-10-06T01:38:00.000Z",
-      "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/bbd1b044c4a9b3eaeda87ef63c0ad04a.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_2c90479c9034"
     },
     {
       "id": "9165d5631e669f81bd69",
@@ -2772,41 +2820,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c2d0a9d5f7c8108bcc78",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwxx52eovs2t",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "The Knicks, per sources, are prioritizing a center. (via HoopsHype)",
-      "published_at": "2026-10-03T13:03:21.753Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwxx52eovs2t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreih3otrc7cpvc2pznrqewsnkzjtvsmxbjsftrljkfzbiq6zcyecdey",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwxx52eovs2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "442ce0cc802a41258224",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3273,19 +3286,6 @@
       "entities": [
         "karl anthony towns"
       ]
-    },
-    {
-      "id": "cluster_2c90479c9034",
-      "lead_item_id": "0c7425a2941cd21ae69d",
-      "item_ids": [
-        "0c7425a2941cd21ae69d",
-        "685351cdbac77d51e075"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-10-06T05:12:11.000Z",
-      "title": "Ariel Hukporti Leaves Game With Noncontact Right Leg Injury",
-      "event_type": "injury",
-      "entities": []
     }
   ]
 }
