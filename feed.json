@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T17:00:50.749Z",
+  "generated_at": "2026-10-06T17:15:24.242Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 6432,
+    "refresh_duration_ms": 6003,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,87 @@
       }
     ],
     "images": {
-      "available": 97,
+      "available": 96,
       "missing": 12,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "117a89b433bf82745015",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx7w6nooiz2i",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks' Mike Brown gives blunt reaction to 76ers' loaded roster, championship contender status (via Yahoo Sports)",
+      "published_at": "2026-10-06T17:07:39.729Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx7w6nooiz2i",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreieuvemkhmacdu7wfqfeyj4fgm67fa4myawdx7jpkax6hytjvxok7a",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx7w6nooiz2i",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "26b652c5373aba352eb7",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mx7vtzneja2c",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "The latest on KAT/Knicks extentsion talks...  \n\n#Knicks #NBA #Podcast #KnicksNews #KnicksIn5",
+      "published_at": "2026-10-06T17:01:43.346Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mx7vtzneja2c",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreifqqfwqjkudhbbfcl3oymgnbcojvkj4aud7nwrq7repghlmupzhhq/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreifqqfwqjkudhbbfcl3oymgnbcojvkj4aud7nwrq7repghlmupzhhq/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreifqqfwqjkudhbbfcl3oymgnbcojvkj4aud7nwrq7repghlmupzhhq/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1920,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mx7vtzneja2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c59d2f0eef4e1a389084",
       "type": "social",
@@ -1293,62 +1366,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "dd4f6c461d8704106c0f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mx65eft4dp2m",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Ex-Knick Ariel Hukporti exits in scary 79ers preseason debut moment",
-      "published_at": "2026-10-06T00:10:49.512Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mx65eft4dp2m",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreiemjtoudecue622uys3wtoexbwg75wawfiytzumwm4qryzbdfwwam",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mx65eft4dp2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b412f141be9a963fc099",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Ex-Knick Ariel Hukporti suffers scary injury five minutes into his 76ers debut: ‘Heartbreaking’",
-      "summary": "Former Knicks reserve Ariel Hukporti suffered a noncontact injury just five minutes into his Sixers career.",
-      "author": null,
-      "published_at": "2026-10-06T00:10:07.000Z",
-      "url": "https://sports.yahoo.com/articles/ex-knick-ariel-hukporti-suffers-001007882.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/683d23f1ab801a992d554ad4be0599e5.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/ex-knick-ariel-hukporti-suffers-001007882.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "f66df61b0fb8760b6fe1",
       "type": "social",
       "source": "Bluesky",
@@ -1630,9 +1647,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/james-wiseman-must-realize-the-knicks-opportunity-in-front-of-him-01m45575d1fm",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-06T17:15:23.884Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-05T17:15:20.761Z"
+      "image_status": "available"
     },
     {
       "id": "d6c2b5f001d093688324",
@@ -2531,9 +2548,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/tony-bradley-could-help-knicks-center-more-than-most-think-01m404xhjvf8",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-06T17:15:23.885Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-05T17:15:20.762Z"
+      "image_status": "available"
     },
     {
       "id": "e75f9bf6025ff7bd5613",
@@ -2750,41 +2767,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwwoyzywph2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "d79b8bebe10b4645f875",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwwlojlhem2t",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "There’s already a frontrunner emerging in battle for Knicks’ final roster spot (via New York Post)",
-      "published_at": "2026-10-03T00:05:43.500Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwwlojlhem2t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiemxkz2ssby5muuvx7wir7znkrfas3sp5cc5mpeqieobza2rflyyy",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwwlojlhem2t",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
