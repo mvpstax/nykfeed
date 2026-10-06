@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T04:30:43.330Z",
+  "generated_at": "2026-10-06T04:45:19.133Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 28182,
+    "refresh_duration_ms": 4212,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 11
+        "items": 12
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 95,
+      "available": 96,
       "missing": 16,
       "article_pages_checked": 0
     },
@@ -779,6 +778,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mx65eft4dp2m",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "b412f141be9a963fc099",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Ex-Knick Ariel Hukporti suffers scary injury five minutes into his 76ers debut: ‘Heartbreaking’",
+      "summary": "Former Knicks reserve Ariel Hukporti suffered a noncontact injury just five minutes into his Sixers career.",
+      "author": null,
+      "published_at": "2026-10-06T00:10:07.000Z",
+      "url": "https://sports.yahoo.com/articles/ex-knick-ariel-hukporti-suffers-001007882.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/683d23f1ab801a992d554ad4be0599e5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/ex-knick-ariel-hukporti-suffers-001007882.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
