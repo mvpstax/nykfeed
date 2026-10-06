@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T03:30:20.357Z",
+  "generated_at": "2026-10-06T03:45:42.516Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 3895,
+    "refresh_duration_ms": 28411,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 22
+        "items": 23
       },
       {
         "source_key": "knicks_film_school",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 10
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 21
+        "items": 22
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +93,106 @@
       }
     ],
     "images": {
-      "available": 91,
+      "available": 94,
       "missing": 16,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "f8d3ea9254eb4b3f8c27",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:2e2ccgbatxsuj6tojncotybe/app.bsky.feed.post/3mx6j4sabms2s",
+      "author": "KnicksVerse",
+      "handle": "knicksverse.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:2e2ccgbatxsuj6tojncotybe/bafkreifsfc5j4xlnpe2fyc5632qzqg5ntyp46iufdfxuzpllsgz5ppguvi",
+      "text": "🏀 KNICKS RECAP VIDEO 🏀\n\nJames Wiseman & Mohamed Diawara SHOW UP! | Knicks Preseason Game 1 | Sixers vs #Knicks \n\nWATCH NOW!\nyoutu.be/4psmbR-OtWc?...",
+      "published_at": "2026-10-06T03:41:19.207Z",
+      "url": "https://bsky.app/profile/did:plc:2e2ccgbatxsuj6tojncotybe/post/3mx6j4sabms2s",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:2e2ccgbatxsuj6tojncotybe/bafkreiagmyppsavvrkh5pisa6txc673ddo4fuumkcckl6b22z6wwxmfjjm",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:2e2ccgbatxsuj6tojncotybe/post/3mx6j4sabms2s",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "638ce5604bbb075cafb4",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Three Things That Mattered Most From Knicks' Opening Preseason Game",
+      "summary": "Looking at a few noteworthy developments from the Knicks' first preseason game of the 2026-27 season against the 76ers.",
+      "author": "Matthew Miranda",
+      "published_at": "2026-10-06T03:41:08.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/three-things-mattered-most-knicks-opening-preseason-game-01m47e9yb0p9",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3479,h_1956/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m47gqdbgdn8xj8fk92.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/three-things-mattered-most-knicks-opening-preseason-game-01m47e9yb0p9",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-06T03:45:42.194Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "3d04d8f1bf5b5b6b0065",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mx6j2cuzrc22",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "Watching the first half of Knicks-Sixers and yeah I see the vision behind skinny KAT. @robertsilverman.bsky.social",
+      "published_at": "2026-10-06T03:39:56.000Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mx6j2cuzrc22",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mx6j2cuzrc22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "6ed4d38c211d16ef1848",
       "type": "social",
@@ -260,6 +353,27 @@
       "image_status": "not_provided"
     },
     {
+      "id": "685351cdbac77d51e075",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Ariel Hukporti leaves game vs. Knicks with apparent leg injury",
+      "summary": "We await word on the severity of the injury for the backup big man.",
+      "author": null,
+      "published_at": "2026-10-06T01:38:00.000Z",
+      "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/bbd1b044c4a9b3eaeda87ef63c0ad04a.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "9165d5631e669f81bd69",
       "type": "social",
       "source": "Bluesky",
@@ -281,7 +395,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 11
+        "likes": 12
       },
       "team": "NYK",
       "presentation": {
@@ -346,6 +460,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mx6brodsqc27",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "bef8e14406116b074227",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Brown, Edgecombe dominant, but Hukporti injury looms over Sixers’ preseason win vs. Knicks",
+      "summary": "Jaylen Brown was dominant, VJ Edgecombe looked confident and the Sixers held their own against the Knicks’ regulars.",
+      "author": null,
+      "published_at": "2026-10-06T01:27:17.000Z",
+      "url": "https://sports.yahoo.com/articles/brown-edgecombe-dominant-hukporti-injury-012717702.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/a70fabfbf864d33e199330d5baf16b77.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/brown-edgecombe-dominant-hukporti-injury-012717702.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -474,7 +609,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 10
+        "likes": 11
       },
       "team": "NYK",
       "presentation": {
@@ -868,61 +1003,6 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
-    },
-    {
-      "id": "f063ae8d84d17917c466",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:srnkqtcpptdtesojmwbgoek2/app.bsky.feed.post/3mx64aau6os26",
-      "author": "Rodger Sherman",
-      "handle": "rodger.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:srnkqtcpptdtesojmwbgoek2/bafkreicr3xfn2q4rkwun45esimkx2a66ze34jct5t7obilp5cmadebuxa4",
-      "text": "New York Knicks nba champions",
-      "published_at": "2026-10-05T23:50:36.559Z",
-      "url": "https://bsky.app/profile/did:plc:srnkqtcpptdtesojmwbgoek2/post/3mx64aau6os26",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 2,
-        "likes": 58
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:srnkqtcpptdtesojmwbgoek2/post/3mx64aau6os26",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "685351cdbac77d51e075",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Ariel Hukporti leaves game vs. Knicks with apparent leg injury",
-      "summary": "We await word on the severity of the injury for the backup big man.",
-      "author": null,
-      "published_at": "2026-10-05T23:35:35.000Z",
-      "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/bbd1b044c4a9b3eaeda87ef63c0ad04a.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "e078a3cc9b394a776688",
