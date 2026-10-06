@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T01:45:40.831Z",
+  "generated_at": "2026-10-06T02:00:20.695Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 104,
+    "item_count": 105,
     "game_count": 0,
-    "refresh_duration_ms": 28221,
+    "refresh_duration_ms": 3002,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 88,
-      "missing": 16,
-      "article_pages_checked": 0
+      "available": 90,
+      "missing": 15,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "93e1091c0816938e841c",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mx6cqb5iok24",
+      "author": "Posting and Toasting",
+      "handle": "postingandtoasting.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
+      "text": "76ers 120, Knicks 97: Scenes from a sleepy scrimmage",
+      "published_at": "2026-10-06T01:46:56.186Z",
+      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mx6cqb5iok24",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreifv7pp52xtqwwwmyhrujstijtsc6l3lxkvgdw57qgdut7qyk3lkvm",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mx6cqb5iok24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "d7f65437392627fc5b5e",
       "type": "social",
@@ -123,7 +157,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -155,9 +189,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
+        "replies": 2,
         "reposts": 1,
-        "likes": 5
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -168,6 +202,28 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "a89eb87e0b96a9cf71f5",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks struggle shooting in first preseason game, fall to 76ers",
+      "summary": "The Knicks played their first game since winning Game 5 of the NBA Finals, falling to the Philadelphia 76ers in the preseason.",
+      "author": null,
+      "published_at": "2026-10-06T01:35:09.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-struggle-shooting-first-preseason-013509837.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/320959f47810bfc0116f7c7b81fedc2875c8b1bf38cce948ba68730a6ab1a7d2/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F15f1029a974cfd835fbaf4075ed59c0e.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-struggle-shooting-first-preseason-013509837.html"
+      },
+      "image_checked_at": "2026-10-06T02:00:20.548Z",
+      "image_source": "og:image",
+      "image_status": "available"
     },
     {
       "id": "3c6108cb3e16f652497f",
@@ -189,7 +245,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 1,
         "likes": 3
       },
@@ -226,7 +282,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -758,40 +814,6 @@
       "also_reported_by": [
         "Bluesky"
       ],
-      "image_status": "not_provided"
-    },
-    {
-      "id": "4f37314e86fb9b6b3c3d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4ovpvfq55k7foxyh37yzyqll/app.bsky.feed.post/3mx63vpe2722a",
-      "author": "Knickas Wit Attitude",
-      "handle": "knickaswitattitude.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4ovpvfq55k7foxyh37yzyqll/bafkreibcoy3ap7pir2ggqhszuui2stytwoqcgs3l5iu2mf2d2ldpqlbgja",
-      "text": "DRUMMOND NOOOOOO!!!\n\n#Knicks #KnicksSky #NBASky",
-      "published_at": "2026-10-05T23:44:42.660Z",
-      "url": "https://bsky.app/profile/did:plc:4ovpvfq55k7foxyh37yzyqll/post/3mx63vpe2722a",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4ovpvfq55k7foxyh37yzyqll/post/3mx63vpe2722a",
-        "render_mode": "native_social_card"
-      },
       "image_status": "not_provided"
     },
     {
