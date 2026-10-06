@@ -31,18 +31,18 @@ jobs:
           HIGHLIGHTLY_BASE_URL: ${{ vars.HIGHLIGHTLY_BASE_URL || 'https://nba.highlightly.net' }}
         run: node scripts/update-last-game.mjs
 
-      - name: Save last-game.json
+      - name: Save game feeds
         run: |
           git config user.name "knicks-feed-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add last-game.json
+          git add last-game.json games.json
 
           if git diff --cached --quiet; then
             exit 0
           fi
 
-          git commit -m "Refresh Knicks last-game recap"
+          git commit -m "Refresh Knicks games and recap"
 
           for attempt in 1 2 3; do
             git pull --rebase origin main
