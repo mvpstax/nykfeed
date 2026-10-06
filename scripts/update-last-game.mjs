@@ -1,26 +1,14 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
+import { execFile } from 'node:child_process'
+import { promisify } from 'node:util'
+
+const run = promisify(execFile)
 
 const ROOT =
   'https://site.api.espn.com/apis/site/v2/sports/basketball/nba'
 
 const CHANNEL = 'UCWJ2lWNubArHWmf3FIHbfcQ'
-
-const CURATED = [
-  {
-    video_id: 'XyZNAtpEWb8',
-    game_id: 'espn:401914101',
-    game_date: '2026-10-05',
-    home: 'PHI',
-    away: 'NYK',
-    title:
-      'KNICKS at 76ERS | NBA PRESEASON FULL GAME HIGHLIGHTS | October 5, 2026',
-    channel: 'NBA',
-    channel_url: 'https://www.youtube.com/@NBA',
-    duration_seconds: 957,
-    published_at: '2026-10-06T01:40:54Z',
-  },
-]
 
 const easternDate = date =>
   new Intl.DateTimeFormat('en-CA', {
@@ -46,23 +34,19 @@ async function file(path) {
 }
 
 async function get(url, text = false) {
-  const response = await fetch(url, {
+  const res = await fetch(url, {
     signal: AbortSignal.timeout(20000),
     headers: {
       'User-Agent': 'KnicksFeed/1.0',
-      Accept: text
-        ? 'application/atom+xml'
-        : 'application/json',
+      Accept: text ? 'application/atom+xml' : 'application/json',
     },
   })
 
-  if (!response.ok) {
-    throw new Error(
-      `HTTP ${response.status}: ${new URL(url).pathname}`
-    )
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}: ${new URL(url).pathname}`)
   }
 
-  return text ? response.text() : response.json()
+  return text ? res.text() : res.json()
 }
 
 const number = value =>
@@ -82,28 +66,22 @@ const decode = text =>
 const tag = (xml, name) =>
   decode(
     xml.match(
-      new RegExp(
-        `<${name}[^>]*>([\\s\\S]*?)</${name}>`
-      )
-    )?.[1] || ''
+      new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`),
+    )?.[1] || '',
   )
 
 export function compact(event, phase) {
   const competition = event.competitions?.[0]
 
   const home = competition?.competitors?.find(
-    team => team.homeAway === 'home'
+    team => team.homeAway === 'home',
   )
 
   const away = competition?.competitors?.find(
-    team => team.homeAway === 'away'
+    team => team.homeAway === 'away',
   )
 
-  if (
-    !home ||
-    !away ||
-    !Number.isFinite(Date.parse(event.date))
-  ) {
+  if (!home || !away || !Number.isFinite(Date.parse(event.date))) {
     return null
   }
 
@@ -112,22 +90,19 @@ export function compact(event, phase) {
 
   const team = side => ({
     name: side.team.displayName,
-
     abbreviation:
       side.team.abbreviation === 'NY'
         ? 'NYK'
         : side.team.abbreviation,
-
     logo:
       side.team.logo ||
       side.team.logos?.[0]?.href ||
       null,
-
     score: status?.completed
       ? number(
           typeof side.score === 'object'
             ? side.score.value
-            : side.score
+            : side.score,
         )
       : null,
   })
@@ -135,13 +110,11 @@ export function compact(event, phase) {
   return {
     id: `espn:${event.id}`,
     date: event.date,
-
     status: status?.completed
       ? 'Finished'
       : status?.state === 'in'
         ? 'In progress'
         : status?.description || 'Scheduled',
-
     phase,
     home: team(home),
     away: team(away),
@@ -152,13 +125,11 @@ export function boxScore(data) {
   return (data.boxscore?.players || []).map(group => ({
     team: {
       name: group.team.displayName,
-
       boxScores: (group.statistics || []).flatMap(section =>
         (section.athletes || []).map(row => ({
           player: {
             name: row.athlete.displayName,
           },
-
           statistics: row.didNotPlay
             ? []
             : [
@@ -182,21 +153,31 @@ export function boxScore(data) {
                   ? []
                   : [{ name, value }]
               }),
-        }))
+        })),
       ),
     },
   }))
 }
 
 export function matchVideo(video, game) {
-  if (
-    video.channel_id.replace(/^UC/, '') !==
-    CHANNEL.replace(/^UC/, '')
-  ) {
+  const channel = String(video.channel_id || '')
+    .replace(/^UC/, '')
+
+  if (channel !== CHANNEL.replace(/^UC/, '')) {
     return false
   }
 
-  const title = video.title.toLowerCase()
+  const title = String(video.title || '').toLowerCase()
+
+  if (
+    video.is_short ||
+    (
+      video.duration_seconds != null &&
+      video.duration_seconds < 120
+    )
+  ) {
+    return false
+  }
 
   if (
     !/knicks/.test(title) ||
@@ -221,7 +202,7 @@ export function matchVideo(video, game) {
 
   if (
     !terms.some(term =>
-      title.includes(term.toLowerCase())
+      title.includes(term.toLowerCase()),
     )
   ) {
     return false
@@ -238,21 +219,23 @@ export function matchVideo(video, game) {
     .replace(/,/g, '')
     .replace(/\s+/g, ' ')
 
-  if (
-    !title
-      .replace(/[,|]/g, ' ')
-      .replace(/\s+/g, ' ')
-      .includes(expected)
-  ) {
+  const normalizedTitle = title
+    .replace(/[,|]/g, ' ')
+    .replace(/\s+/g, ' ')
+
+  if (!normalizedTitle.includes(expected)) {
     return false
   }
 
-  const stamp = Date.parse(video.published_at || '')
+  const published = Date.parse(video.published_at || '')
+  const gameTime = Date.parse(game.date)
 
   return (
-    !Number.isFinite(stamp) ||
-    (stamp >= Date.parse(game.date) &&
-      stamp <= Date.parse(game.date) + 72 * 3600000)
+    !Number.isFinite(published) ||
+    (
+      published >= gameTime &&
+      published <= gameTime + 72 * 3600000
+    )
   )
 }
 
@@ -264,9 +247,9 @@ export async function main() {
   const requests = await Promise.allSettled(
     [1, 2, 3].map(type =>
       get(
-        `${ROOT}/teams/ny/schedule?season=${YEAR}&seasontype=${type}`
-      )
-    )
+        `${ROOT}/teams/ny/schedule?season=${YEAR}&seasontype=${type}`,
+      ),
+    ),
   )
 
   const phases = [
@@ -281,7 +264,7 @@ export async function main() {
     (cached?.games || []).map(entry => [
       entry.game.id,
       entry,
-    ])
+    ]),
   )
 
   if (last?.game) {
@@ -293,7 +276,7 @@ export async function main() {
 
     if (result.status === 'rejected') {
       errors.push(
-        `${phases[index]} schedule: ${result.reason.message}`
+        `${phases[index]} schedule: ${result.reason.message}`,
       )
       continue
     }
@@ -312,22 +295,19 @@ export async function main() {
 
   if (!entries.length) {
     throw new Error(
-      `No Knicks schedule returned; existing files retained. ${errors.join(
-        '; '
-      )}`
+      `No Knicks schedule returned; existing files retained. ${errors.join('; ')}`,
     )
   }
 
+  // Preserve cached games if a schedule request temporarily fails.
   for (const entry of old.values()) {
+    const date = Date.parse(entry.game.date)
+
     if (
       entry.game.id.startsWith('espn:') &&
-      Date.parse(entry.game.date) >=
-        Date.UTC(YEAR - 1, 6, 1) &&
-      Date.parse(entry.game.date) <
-        Date.UTC(YEAR, 6, 1) &&
-      !entries.some(
-        existing => existing.game.id === entry.game.id
-      )
+      date >= Date.UTC(YEAR - 1, 6, 1) &&
+      date < Date.UTC(YEAR, 6, 1) &&
+      !entries.some(item => item.game.id === entry.game.id)
     ) {
       entries.push(entry)
     }
@@ -335,45 +315,45 @@ export async function main() {
 
   entries.sort(
     (a, b) =>
-      Date.parse(a.game.date) - Date.parse(b.game.date)
+      Date.parse(a.game.date) - Date.parse(b.game.date),
   )
 
   const finished = entries
     .filter(
       entry =>
         entry.game.status === 'Finished' &&
-        Date.parse(entry.game.date) <= NOW.getTime()
+        Date.parse(entry.game.date) <= NOW.getTime(),
     )
     .sort(
       (a, b) =>
-        Date.parse(b.game.date) - Date.parse(a.game.date)
+        Date.parse(b.game.date) - Date.parse(a.game.date),
     )
 
-  for (const entry of finished
-    .filter(entry => !entry.box_score?.length)
-    .slice(0, 3)) {
+  for (
+    const entry of finished
+      .filter(item => !item.box_score?.length)
+      .slice(0, 3)
+  ) {
     try {
+      const eventId = entry.game.id.replace('espn:', '')
+
       entry.box_score = boxScore(
-        await get(
-          `${ROOT}/summary?event=${entry.game.id.replace(
-            'espn:',
-            ''
-          )}`
-        )
+        await get(`${ROOT}/summary?event=${eventId}`),
       )
     } catch (error) {
       errors.push(
-        `Box score ${entry.game.id}: ${error.message}`
+        `Box score ${entry.game.id}: ${error.message}`,
       )
     }
   }
 
   let videos = []
 
+  // Start with the official NBA RSS feed.
   try {
     const xml = await get(
       `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL}`,
-      true
+      true,
     )
 
     videos = [
@@ -386,24 +366,23 @@ export async function main() {
         title: tag(entry, 'title'),
         channel_id: tag(entry, 'yt:channelId'),
         published_at: tag(entry, 'published'),
-        image_url:
-          `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+        image_url: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
         url: `https://www.youtube.com/watch?v=${id}`,
-        embed_url:
-          `https://www.youtube.com/embed/${id}`,
+        embed_url: `https://www.youtube.com/embed/${id}`,
       }
     })
   } catch (error) {
     errors.push(`NBA YouTube: ${error.message}`)
   }
 
+  // Reuse official NBA videos already collected by your feed.
   const youtube = await file('youtube.json')
 
   for (const row of youtube?.rows || []) {
     if (
       row.channel !== 'NBA' ||
       !/@NBA(?:\/|$)|\/UCWJ2lWNubArHWmf3FIHbfcQ(?:\/|$)/i.test(
-        row.channel_url || ''
+        row.channel_url || '',
       )
     ) {
       continue
@@ -417,100 +396,245 @@ export async function main() {
     }
   }
 
-  for (const entry of finished) {
-    const curated = CURATED.find(
-      video =>
-        video.game_id === entry.game.id &&
-        video.game_date === easternDate(entry.game.date) &&
-        video.home === entry.game.home.abbreviation &&
-        video.away === entry.game.away.abbreviation
+  const needsArchive = finished.slice(0, 10).some(
+    entry =>
+      !(entry.video && matchVideo(entry.video, entry.game)) &&
+      !videos.some(video => matchVideo(video, entry.game)),
+  )
+
+  if (needsArchive) {
+    const pending = finished.slice(0, 3).filter(
+      entry =>
+        !(entry.video && matchVideo(entry.video, entry.game)) &&
+        !videos.some(video => matchVideo(video, entry.game)),
     )
 
-    if (curated) {
-      let metadata = null
+    const sources = [
+      `https://www.youtube.com/channel/${CHANNEL}/videos`,
+      ...pending.map(entry => {
+        const opponent =
+          entry.game.home.abbreviation === 'NYK'
+            ? entry.game.away
+            : entry.game.home
 
-      try {
-        metadata = await get(
-          `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${curated.video_id}&format=json`
+        const date = new Intl.DateTimeFormat('en-US', {
+          timeZone: 'America/New_York',
+          month: 'long',
+          day: 'numeric',
+          year: 'numeric',
+        }).format(new Date(entry.game.date))
+
+        const query =
+          `KNICKS ${opponent.name.split(' ').at(-1)} ` +
+          `FULL GAME HIGHLIGHTS ${date}`
+
+        return (
+          `https://www.youtube.com/channel/${CHANNEL}/search` +
+          `?query=${encodeURIComponent(query)}`
         )
-      } catch (error) {
-        errors.push(`Video metadata: ${error.message}`)
-      }
+      }),
+    ]
 
-      if (!metadata || metadata.author_name === 'NBA') {
-        entry.video = {
-          video_id: curated.video_id,
-          title: metadata?.title || curated.title,
+    const playlists = new Set()
+
+    const searches = await Promise.allSettled(
+      sources.map(async (url, index) => {
+        const { stdout } = await run(
+          'python3',
+          [
+            '-m',
+            'yt_dlp',
+            '--ignore-config',
+            '--flat-playlist',
+            '--playlist-end',
+            index === 0 ? '240' : '20',
+            '--dump-single-json',
+            '--skip-download',
+            '--no-warnings',
+            '--socket-timeout',
+            '15',
+            '--retries',
+            '1',
+            url,
+          ],
+          {
+            timeout: 120000,
+            maxBuffer: 16 * 1024 * 1024,
+          },
+        )
+
+        const listing = JSON.parse(stdout)
+
+        if (listing.channel_id !== CHANNEL) {
+          throw new Error('Unexpected YouTube channel')
+        }
+
+        const season =
+          `${YEAR - 1}-${String(YEAR).slice(-2)}`
+
+        for (const item of listing.entries || []) {
+          if (
+            /full game highlights/i.test(item.title || '') &&
+            (item.title || '').includes(season) &&
+            /^https:\/\/www\.youtube\.com\/playlist\?list=[\w-]+$/.test(
+              item.url || '',
+            )
+          ) {
+            playlists.add(item.url)
+          }
+        }
+
+        return (listing.entries || []).flatMap(item => {
+          if (
+            item.channel_id &&
+            item.channel_id !== CHANNEL
+          ) {
+            return []
+          }
+
+          const id = item.id
+
+          if (!/^[\w-]{11}$/.test(id || '')) {
+            return []
+          }
+
+          return [{
+            video_id: id,
+            title: item.title,
+            channel_id: CHANNEL,
+            duration_seconds: number(item.duration),
+            published_at: item.timestamp
+              ? new Date(item.timestamp * 1000).toISOString()
+              : null,
+            image_url:
+              `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+            url: `https://www.youtube.com/watch?v=${id}`,
+            embed_url:
+              `https://www.youtube.com/embed/${id}`,
+          }]
+        })
+      }),
+    )
+
+    for (const result of searches) {
+      if (result.status === 'fulfilled') {
+        videos.push(...result.value)
+      } else {
+        errors.push(
+          `NBA upload search: ${result.reason.message.slice(0, 400)}`,
+        )
+      }
+    }
+
+    // Some full-game recaps are found through seasonal playlists.
+    for (const url of [...playlists].slice(0, 2)) {
+      try {
+        const { stdout } = await run(
+          'python3',
+          [
+            '-m',
+            'yt_dlp',
+            '--ignore-config',
+            '--flat-playlist',
+            '--playlist-end',
+            '120',
+            '--dump-single-json',
+            '--skip-download',
+            '--no-warnings',
+            '--socket-timeout',
+            '15',
+            '--retries',
+            '1',
+            url,
+          ],
+          {
+            timeout: 90000,
+            maxBuffer: 16 * 1024 * 1024,
+          },
+        )
+
+        const listing = JSON.parse(stdout)
+
+        if (listing.channel_id !== CHANNEL) {
+          throw new Error('Unexpected playlist owner')
+        }
+
+        for (const item of listing.entries || []) {
+          // Check the video's channel as playlists can mix authors.
+          if (
+            item.channel_id !== CHANNEL ||
+            !/^[\w-]{11}$/.test(item.id || '')
+          ) {
+            continue
+          }
+
+          videos.push({
+            video_id: item.id,
+            title: item.title,
+            channel_id: CHANNEL,
+            duration_seconds: number(item.duration),
+            published_at: item.timestamp
+              ? new Date(item.timestamp * 1000).toISOString()
+              : null,
+            image_url:
+              `https://i.ytimg.com/vi/${item.id}/hqdefault.jpg`,
+            url:
+              `https://www.youtube.com/watch?v=${item.id}`,
+            embed_url:
+              `https://www.youtube.com/embed/${item.id}`,
+          })
+        }
+      } catch (error) {
+        errors.push(
+          `NBA highlights playlist: ${error.message.slice(0, 400)}`,
+        )
+      }
+    }
+  }
+
+  for (const entry of finished) {
+    // Revalidate previously saved associations.
+    if (
+      entry.video &&
+      !matchVideo(entry.video, entry.game)
+    ) {
+      entry.video = null
+    }
+
+    const candidate =
+      entry.video ||
+      videos.find(
+        video =>
+          /^[\w-]{11}$/.test(video.video_id || '') &&
+          matchVideo(video, entry.game),
+      )
+
+    entry.video = candidate
+      ? {
+          ...candidate,
           channel: 'NBA',
           channel_id: CHANNEL,
-
-          channel_url:
-            metadata?.author_url || curated.channel_url,
-
-          url:
-            `https://www.youtube.com/watch?v=${curated.video_id}`,
-
-          embed_url:
-            `https://www.youtube.com/embed/${curated.video_id}`,
-
-          image_url:
-            metadata?.thumbnail_url ||
-            `https://i.ytimg.com/vi/${curated.video_id}/hqdefault.jpg`,
-
-          thumbnail_width:
-            metadata?.thumbnail_width || 480,
-
-          thumbnail_height:
-            metadata?.thumbnail_height || 360,
-
-          published_at: curated.published_at,
-          upload_date: curated.published_at,
-          duration_seconds: curated.duration_seconds,
-          association: 'curated',
-
-          metadata_source: metadata
-            ? 'YouTube oEmbed and verified public player metadata'
-            : 'Previously verified YouTube metadata',
+          channel_url: 'https://www.youtube.com/@NBA',
+          game_id: entry.game.id,
+          game_date: easternDate(entry.game.date),
+          game_date_utc: entry.game.date,
+          matchup: {
+            home: entry.game.home,
+            away: entry.game.away,
+          },
+          competition: 'NBA',
+          phase: entry.game.phase,
+          season: `${YEAR - 1}-${String(YEAR).slice(-2)}`,
+          association: 'official-channel-teams-and-date',
+          metadata_checked_at: NOW.toISOString(),
+          published_at: candidate.published_at || null,
+          duration_seconds:
+            candidate.duration_seconds ?? null,
         }
-      }
-    }
+      : null
 
-    if (!entry.video) {
-      entry.video =
-        videos.find(
-          video =>
-            /^[\w-]{11}$/.test(video.video_id || '') &&
-            matchVideo(video, entry.game)
-        ) || null
-    }
-
-    if (entry.video) {
-      entry.video = {
-        ...entry.video,
-        game_id: entry.game.id,
-        game_date: easternDate(entry.game.date),
-        game_date_utc: entry.game.date,
-
-        matchup: {
-          home: entry.game.home,
-          away: entry.game.away,
-        },
-
-        competition: 'NBA',
-        phase: entry.game.phase,
-        season:
-          `${YEAR - 1}-${String(YEAR).slice(-2)}`,
-
-        association:
-          entry.video.association || 'title-and-date',
-
-        metadata_checked_at: NOW.toISOString(),
-        published_at: entry.video.published_at || null,
-
-        duration_seconds:
-          entry.video.duration_seconds ?? null,
-      }
-    }
+    entry.highlight_status =
+      entry.video ? 'available' : 'pending'
 
     const value = (row, name) =>
       row.statistics.find(stat => stat.name === name)
@@ -545,8 +669,8 @@ export async function main() {
         meta,
       },
       null,
-      2
-    ) + '\n'
+      2,
+    ) + '\n',
   )
 
   await writeFile(
@@ -558,14 +682,14 @@ export async function main() {
         meta,
       },
       null,
-      2
-    ) + '\n'
+      2,
+    ) + '\n',
   )
 
   console.log(
-    `Wrote ${entries.length} games; latest result: ${
-      finished[0]?.game.id || 'none'
-    }; ${errors.length} optional errors`
+    `Wrote ${entries.length} games; ` +
+    `latest result: ${finished[0]?.game.id || 'none'}; ` +
+    `${errors.length} optional errors`,
   )
 }
 
