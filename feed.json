@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T20:15:43.483Z",
+  "generated_at": "2026-10-06T20:30:23.829Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 27755,
+    "refresh_duration_ms": 5444,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "espn",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 99,
       "missing": 11,
       "article_pages_checked": 0
     },
@@ -227,6 +226,27 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "255c3a0fc8aba260742d",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Ariel Hukporti Suffers Torn Achilles Tendon",
+      "summary": "Ariel Hukporti has suffered a torn Achilles in Monday's preseason game between the Philadelphia 76ers and New York Knicks. An MRI confirmed the injury on Tuesday and he will undergo surgery immediately. Hukporti signed a one-year, $3.4 million contract with the Sixers over the offseason. The Sixers are already without Adem Bona and Tacko Fall due to injuries. Philadelphia will likely apply for a $1.7 million Disabled Player Exception. But the Sixers cannot currently sign a player as they're $1.8 million below the first apron.",
+      "author": null,
+      "published_at": "2026-10-06T19:35:13.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287542/Ariel-Hukporti-Suffers-Torn-Achilles-Tendon",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Hukporti_Ariel_nyk_250227.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287542/Ariel-Hukporti-Suffers-Torn-Achilles-Tendon"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "4c5df40898794cb2b238",
