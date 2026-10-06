@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T15:30:20.717Z",
+  "generated_at": "2026-10-06T15:45:24.602Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 3611,
+    "refresh_duration_ms": 10070,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -92,14 +92,72 @@
       }
     ],
     "images": {
-      "available": 96,
-      "missing": 13,
-      "article_pages_checked": 0
+      "available": 98,
+      "missing": 12,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "566b86f39c0f363a9057",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "James Wiseman Is Already Changing Knicks' Entire Center Outlook",
+      "summary": "James Wiseman made his Knicks’ preseason debut on Monday, and there's a ton to be excited about in terms of New York's center depth now.",
+      "author": "Max Wildstein",
+      "published_at": "2026-10-06T15:44:17.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/james-wiseman-already-changing-knicks-entire-center-outlook-01m48wcmqcdt",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_382,w_1825,h_1026/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m48xdj343000gmewdj.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/james-wiseman-already-changing-knicks-entire-center-outlook-01m48wcmqcdt",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-06T15:45:23.997Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "fc1b58ba4c0d44f6c9ab",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:gmjy73he2oxzpdlzhuyarnai/app.bsky.feed.post/3mx7rb75dpc26",
+      "author": "donna 도나",
+      "handle": "daaffi515.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:gmjy73he2oxzpdlzhuyarnai/bafkreibgivpanigkpwckx56q7ctzxxoowehkrqxxsclqsmggb3idjsoi6y",
+      "text": "www.nytimes.com/athletic/764...\n\n#KnicksSky\n#Knicks",
+      "published_at": "2026-10-06T15:39:36.632Z",
+      "url": "https://bsky.app/profile/did:plc:gmjy73he2oxzpdlzhuyarnai/post/3mx7rb75dpc26",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:gmjy73he2oxzpdlzhuyarnai/bafkreigjlbbkpuduiiua2sb2k4jtwnminwimriosegqwhgye7lmjmscmka",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:gmjy73he2oxzpdlzhuyarnai/post/3mx7rb75dpc26",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "6f441a0de7898c85bd3a",
       "type": "social",
@@ -131,6 +189,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mx7qgkw2hh2t",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "188ff252bab848a6a475",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+      "summary": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+      "author": null,
+      "published_at": "2026-10-06T15:22:05.000Z",
+      "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
+      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_111606687_3686839/ss_20261006_111606687_3686839.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -361,7 +440,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -475,7 +554,7 @@
       "engagement": {
         "replies": 4,
         "reposts": 1,
-        "likes": 12
+        "likes": 13
       },
       "team": "NYK",
       "presentation": {
@@ -1212,40 +1291,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "1d1babbad66f0be8e7a8",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:qwxmqq22a6wwhacvyjyrn5vq/app.bsky.feed.post/3mx65bcl5a22n",
-      "author": "Tony Always Knicks 🏆🧡💙",
-      "handle": "tomarc.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:qwxmqq22a6wwhacvyjyrn5vq/bafkreieyhrclbiwv7obd6qcicezd6hkkaqwlb3jacpceyr42s6uabofgtu",
-      "text": "Ok, how long before Knicks fans start calling James Wiseman \"Wiseguy\"?",
-      "published_at": "2026-10-06T00:09:05.657Z",
-      "url": "https://bsky.app/profile/did:plc:qwxmqq22a6wwhacvyjyrn5vq/post/3mx65bcl5a22n",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 1,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:qwxmqq22a6wwhacvyjyrn5vq/post/3mx65bcl5a22n",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "e078a3cc9b394a776688",
@@ -3215,29 +3260,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "4c1724df7b0fcf031793",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "5 Big Notes From Knicks’ 1st Official Preseason Practice",
-      "summary": "Following the team's Media Day, the New York Knicks began their training camp practices on Tuesday. We break down a few of the noteworthy developments.",
-      "author": "Isaiah De Los Santos",
-      "published_at": "2026-09-29T19:00:14.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/5-big-notes-from-knicks-1st-official-preseason-practice-01m3q4gkp42k",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_156,w_4131,h_2323/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3q4mr3nzm1sndfw1s.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/5-big-notes-from-knicks-1st-official-preseason-practice-01m3q4gkp42k",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-05T20:36:48.548Z"
     }
   ],
   "clusters": [
