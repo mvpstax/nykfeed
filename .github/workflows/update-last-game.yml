@@ -25,13 +25,13 @@ jobs:
           node-version: '24'
           package-manager-cache: false
 
+      - name: Install YouTube metadata reader
+        run: python3 -m pip install yt-dlp==2026.08.19
+
       - name: Build last-game.json
-        env:
-          HIGHLIGHTLY_API_KEY: ${{ secrets.HIGHLIGHTLY_API_KEY }}
-          HIGHLIGHTLY_BASE_URL: ${{ vars.HIGHLIGHTLY_BASE_URL || 'https://nba.highlightly.net' }}
         run: node scripts/update-last-game.mjs
 
-      - name: Save game feeds
+      - name: Save last-game.json
         run: |
           git config user.name "knicks-feed-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -42,7 +42,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Refresh Knicks games and recap"
+          git commit -m "Refresh Knicks last-game recap"
 
           for attempt in 1 2 3; do
             git pull --rebase origin main
