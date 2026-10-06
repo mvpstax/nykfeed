@@ -1,0 +1,60 @@
+name: Refresh Knicks Odds
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13,28,43,58 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: knicks-odds
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Refresh pregame odds
+        env:
+          HIGHLIGHTLY_API_KEY: ${{ secrets.HIGHLIGHTLY_API_KEY }}
+        run: node scripts/update-odds.mjs
+
+      - name: Save odds
+        run: |
+          git config user.name "knicks-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add odds.json
+
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git commit -m "Refresh Knicks pregame odds"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            if [ "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" ]; then
+              exit 0
+            fi
+
+            sleep 5
+          done
+
+          exit 1
