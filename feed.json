@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T13:30:25.194Z",
+  "generated_at": "2026-10-06T13:45:24.997Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 107,
     "game_count": 0,
-    "refresh_duration_ms": 6089,
+    "refresh_duration_ms": 5987,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 22
+        "items": 21
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,7 +93,7 @@
     ],
     "images": {
       "available": 94,
-      "missing": 14,
+      "missing": 13,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
@@ -136,6 +136,28 @@
       "image_source": "source_feed"
     },
     {
+      "id": "abf89d537e68947aec73",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
+      "author": null,
+      "published_at": "2026-10-06T13:01:23.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
+      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_4ad34153d3e4"
+    },
+    {
       "id": "d79f7e577ce95a9f2354",
       "type": "social",
       "source": "Bluesky",
@@ -157,7 +179,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 1
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -192,7 +214,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 2,
-        "likes": 4
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -1116,40 +1138,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "69ca61d7bcce53dd544a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:mlc6pzuop5takh7fw432vmq7/app.bsky.feed.post/3mx64ttgaas2m",
-      "author": "David Goodman",
-      "handle": "dgoodmantrublu.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:mlc6pzuop5takh7fw432vmq7/bafkreievdnmx4zkmnb5nto6lwa6gb4qb6vot4pdrxzzqyqmfsgw6wk36hq",
-      "text": "Knicks definitely playing preseason defense",
-      "published_at": "2026-10-06T00:01:33.560Z",
-      "url": "https://bsky.app/profile/did:plc:mlc6pzuop5takh7fw432vmq7/post/3mx64ttgaas2m",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:mlc6pzuop5takh7fw432vmq7/post/3mx64ttgaas2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "e078a3cc9b394a776688",
       "type": "article",
       "source": "Yahoo Sports",
@@ -1262,28 +1250,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "abf89d537e68947aec73",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
-      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
-      "author": null,
-      "published_at": "2026-10-05T20:50:17.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
-      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4ad34153d3e4"
     },
     {
       "id": "f2a98ee870ba701a6499",
@@ -3222,6 +3188,24 @@
   ],
   "clusters": [
     {
+      "id": "cluster_4ad34153d3e4",
+      "lead_item_id": "abf89d537e68947aec73",
+      "item_ids": [
+        "abf89d537e68947aec73",
+        "e078a3cc9b394a776688",
+        "02489a3b8277436f6d17",
+        "d2c0849bb53c1f2e6b49",
+        "ff30f2b32fc6423477f6"
+      ],
+      "source_count": 5,
+      "updated_at": "2026-10-06T13:01:23.000Z",
+      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "event_type": "extension",
+      "entities": [
+        "karl anthony towns"
+      ]
+    },
+    {
       "id": "cluster_2c90479c9034",
       "lead_item_id": "0c7425a2941cd21ae69d",
       "item_ids": [
@@ -3233,24 +3217,6 @@
       "title": "Ariel Hukporti Leaves Game With Noncontact Right Leg Injury",
       "event_type": "injury",
       "entities": []
-    },
-    {
-      "id": "cluster_4ad34153d3e4",
-      "lead_item_id": "e078a3cc9b394a776688",
-      "item_ids": [
-        "e078a3cc9b394a776688",
-        "abf89d537e68947aec73",
-        "02489a3b8277436f6d17",
-        "d2c0849bb53c1f2e6b49",
-        "ff30f2b32fc6423477f6"
-      ],
-      "source_count": 5,
-      "updated_at": "2026-10-05T23:16:29.000Z",
-      "title": "Karl-Anthony Towns, Knicks face contract extension stalemate. Where do they go from here?",
-      "event_type": "extension",
-      "entities": [
-        "karl anthony towns"
-      ]
     }
   ]
 }
