@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T01:30:22.498Z",
+  "generated_at": "2026-10-06T01:45:40.831Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 5663,
+    "refresh_duration_ms": 28221,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 22
+        "items": 21
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 89,
+      "available": 88,
       "missing": 16,
       "article_pages_checked": 0
     },
@@ -100,6 +101,74 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "d7f65437392627fc5b5e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mx6cc4n6ks24",
+      "author": "🏆Knicks Forever🏆",
+      "handle": "wildstreet.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
+      "text": "Prayers up for HukSporty 🙏🏽 #OAKAAK #knickssky",
+      "published_at": "2026-10-06T01:39:01.695Z",
+      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mx6cc4n6ks24",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 6
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mx6cc4n6ks24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "9165d5631e669f81bd69",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mx6c67me7224",
+      "author": "🏆Knicks Forever🏆",
+      "handle": "wildstreet.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
+      "text": "Lost the 4th quarter and the game, but the Knicks are still the 2026 NBA Champions!! 😊🏆🧡💙",
+      "published_at": "2026-10-06T01:36:50.595Z",
+      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mx6c67me7224",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 1,
+        "likes": 5
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mx6c67me7224",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "3c6108cb3e16f652497f",
       "type": "social",
@@ -122,7 +191,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 1
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -157,7 +226,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -259,7 +328,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -726,107 +795,25 @@
       "image_status": "not_provided"
     },
     {
-      "id": "86f9cdf1d246d006e974",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:bnrvxigpgotzdtuz6c5wahcb/app.bsky.feed.post/3mx63rec2rs2r",
-      "author": "BugsySig",
-      "handle": "bugsysig.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:bnrvxigpgotzdtuz6c5wahcb/bafkreiavtbn4jceohrlp4syqgt5bq7egen3htbfh3pcelzdsvvo3tm3jye",
-      "text": "Problems with #Knicks after 1Q:\n\nMo Diawara has yet to play. \n\nTyler Nickel has yet to play. \n\nThat is all.",
-      "published_at": "2026-10-05T23:42:16.844Z",
-      "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mx63rec2rs2r",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 1,
-        "likes": 2
-      },
+      "id": "685351cdbac77d51e075",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Ariel Hukporti leaves game vs. Knicks with apparent leg injury",
+      "summary": "We await word on the severity of the injury for the backup big man.",
+      "author": null,
+      "published_at": "2026-10-05T23:35:35.000Z",
+      "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/bbd1b044c4a9b3eaeda87ef63c0ad04a.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mx63rec2rs2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "2b3067a9bfbd47383a77",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zatuc3eivscvrv3aey3mfvzj/app.bsky.feed.post/3mx63pykdrc2h",
-      "author": "Spicy Nurse🌶🌶🇦🇬🇬🇧",
-      "handle": "spicynurse38.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zatuc3eivscvrv3aey3mfvzj/bafkreicfysyfvuehvuppw3jnznfq4fnt3veeydk7ljgcixvnbocblkrnkm",
-      "text": "Knicks are scrimmaging. Sixers stll mad about the sweep.",
-      "published_at": "2026-10-05T23:41:30.976Z",
-      "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mx63pykdrc2h",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zatuc3eivscvrv3aey3mfvzj/bafkreifilxugb62cyrqduoztiu5tzmeo6ofinraze2q3a7nhlftkcogm7a",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 1,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mx63pykdrc2h",
-        "render_mode": "native_social_card"
+        "url": "https://sports.yahoo.com/articles/ariel-hukporti-leaves-game-vs-233535383.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "949b8a7e56c76b5083cc",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mx63pkw5r22g",
-      "author": "🏆Knicks Forever🏆",
-      "handle": "wildstreet.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
-      "text": "Lost the 1st quarter by 1, win the 2nd #knickssky",
-      "published_at": "2026-10-05T23:41:16.685Z",
-      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mx63pkw5r22g",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mx63pkw5r22g",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "e078a3cc9b394a776688",
@@ -1526,27 +1513,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-05T11:00:23.972Z"
-    },
-    {
-      "id": "bb54fd1c9d56cb0e4cb4",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Preseason Game Preview: Knicks at 76ers, October 5, 2026",
-      "summary": "New York open’s the preseason with a tilt against the new look Sixers",
-      "author": null,
-      "published_at": "2026-10-05T06:49:25.000Z",
-      "url": "https://sports.yahoo.com/articles/preseason-game-preview-knicks-76ers-064925576.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/875868cbf08cec244064e3fa45ec1daa.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/preseason-game-preview-knicks-76ers-064925576.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "f6d3e1cd1e076b03aa22",
