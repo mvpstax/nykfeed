@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T11:30:20.714Z",
+  "generated_at": "2026-10-06T11:45:22.656Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 3609,
+    "refresh_duration_ms": 6647,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,37 @@
       }
     ],
     "images": {
-      "available": 93,
+      "available": 92,
       "missing": 16,
-      "article_pages_checked": 0
+      "article_pages_checked": 5
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ecbb52a473c71aaa272d",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Grading Every Knicks Player After Preseason Loss vs. 76ers",
+      "summary": "Who on the New York Knicks impressed, and who disappointing in their first preseason game of the season- a loss- to the Philadelphia 76ers?",
+      "author": "Kento Kato",
+      "published_at": "2026-10-06T11:30:30.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/grading-every-knicks-player-after-preseason-loss-vs-76ers-01m47fj7bb5d",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_887,y_852,w_2755,h_1549/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m48ffz53x2erw2gkmj.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/grading-every-knicks-player-after-preseason-loss-vs-76ers-01m47fj7bb5d",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-06T11:45:22.107Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "056c701abefa8c2d46ae",
       "type": "article",
@@ -108,7 +131,7 @@
       "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
       "summary": "KAT and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
       "author": "NBA insiders",
-      "published_at": "2026-10-06T11:13:08.000Z",
+      "published_at": "2026-10-06T11:19:05.000Z",
       "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
       "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
       "team": "NYK",
@@ -1109,7 +1132,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-05T23:30:38.244Z"
+      "image_checked_at": "2026-10-05T23:30:38.244Z",
+      "cluster_id": "cluster_4ad34153d3e4"
     },
     {
       "id": "83ff03f0667fd8ee4e17",
@@ -1372,29 +1396,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "19d46f060a97e30bc78e",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns on odds of contract extension before season: 'It don’t look good'",
-      "summary": "A clearly frustrated Towns ramped up the pressure on negotiations with his comments on Monday.",
-      "author": null,
-      "published_at": "2026-10-05T17:48:00.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-odds-contract-174800414.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/c6ce6b787bb85d1b1e0e44bc49ed5363dafb8ee7e5f85e8da0da6cc90f27430b/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F29a57ccc767d81f458f0ac69a0041cdc.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-odds-contract-174800414.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-05T18:15:21.916Z",
-      "cluster_id": "cluster_4ad34153d3e4"
     },
     {
       "id": "02489a3b8277436f6d17",
@@ -2509,9 +2510,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-little-reason-worry-knicks-karl-anthony-towns-extension-talks-01m3w60ak3rv",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-06T11:45:22.108Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-05T11:30:23.417Z"
+      "image_status": "available"
     },
     {
       "id": "d500cf54410ee1e2e11d",
@@ -2833,9 +2834,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/newest-miles-mcbride-buzz-shows-there-s-still-hope-for-knicks-future-01m3whe2ts2w",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-06T11:45:22.108Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-05T11:30:23.417Z"
+      "image_status": "available"
     },
     {
       "id": "541bb15e0edc6862dc49",
@@ -2924,9 +2925,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/where-knicks-roster-contracts-stand-last-minute-tweaks-01m3sbk0k53b",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-06T11:45:22.526Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-05T11:30:23.418Z"
+      "image_status": "available"
     },
     {
       "id": "32e0d6fb6fa71cf842ef",
@@ -3080,9 +3081,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-new-center-nfaly-dante-brings-exciting-upside-table-01m3qb095k6s",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-06T11:45:22.536Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-05T11:30:23.840Z"
+      "image_status": "available"
     },
     {
       "id": "e199f4ddf1af8ffc869c",
@@ -3215,29 +3216,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-05T20:36:48.548Z"
-    },
-    {
-      "id": "bfaae0d368ce84672ff1",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Andre Drummond’s Knicks Arrow Is Pointing Way Up After Media Day",
-      "summary": "Media Day was one of Andre Drummond's first official appearances with the New York Knicks, and it went even better than imagined.",
-      "author": "Isaiah De Los Santos",
-      "published_at": "2026-09-29T16:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-s-knicks-arrow-is-pointing-way-up-after-media-day-01m3pra29hsd",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_57,w_5693,h_3202/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3prgg502vg6zevntw.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-s-knicks-arrow-is-pointing-way-up-after-media-day-01m3pra29hsd",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-05T17:00:29.723Z"
     }
   ],
   "clusters": [
@@ -3256,17 +3234,17 @@
     },
     {
       "id": "cluster_4ad34153d3e4",
-      "lead_item_id": "abf89d537e68947aec73",
+      "lead_item_id": "e078a3cc9b394a776688",
       "item_ids": [
+        "e078a3cc9b394a776688",
         "abf89d537e68947aec73",
-        "19d46f060a97e30bc78e",
         "02489a3b8277436f6d17",
         "d2c0849bb53c1f2e6b49",
         "ff30f2b32fc6423477f6"
       ],
       "source_count": 5,
-      "updated_at": "2026-10-05T20:50:17.000Z",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "updated_at": "2026-10-05T23:16:29.000Z",
+      "title": "Karl-Anthony Towns, Knicks face contract extension stalemate. Where do they go from here?",
       "event_type": "extension",
       "entities": [
         "karl anthony towns"
