@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T15:00:25.345Z",
+  "generated_at": "2026-10-06T15:15:19.754Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 4896,
+    "refresh_duration_ms": 4062,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -55,7 +55,7 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "fox_sports_nba",
@@ -92,14 +92,84 @@
       }
     ],
     "images": {
-      "available": 95,
-      "missing": 14,
-      "article_pages_checked": 1
+      "available": 97,
+      "missing": 13,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ca5e92701a2e07cefcfa",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx7phecyez2t",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks struggle shooting in first preseason game, fall to 76ers (via SNY)",
+      "published_at": "2026-10-06T15:07:15.703Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx7phecyez2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihscayuli7tz4gzw6dd46czaqatfpdur7o6y4elxlumvklh7k3nha",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx7phecyez2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "523f764b31a628489002",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:fdpfucsmqcwjwvjvujyqxlxx/app.bsky.feed.post/3mx7p4rfyis2s",
+      "author": "Mike Vaccaro",
+      "handle": "mikevacc.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreieimrayaipe3f2oaknywlhulonr4hnfkzmb5lsmnqiefclyskeaca",
+      "text": "ICYMI, Column: Maybe the Karl-Anthony Towns contract impasse with the #Knicks is only a temporary blip that won’t impede the team’s mission to repeat. But there are 29 other teams who are certainly rooting the other way. nypost.com/2026/10/05/s...",
+      "published_at": "2026-10-06T15:01:20.533Z",
+      "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mx7p4rfyis2s",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreidh5hq4xe5ta74mq2qvpuzmqtfdo62m7w5caewjxvwb4ggsrq6qra",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mx7p4rfyis2s",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "9e49317c76235518802e",
       "type": "article",
@@ -118,9 +188,30 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/james-wiseman-makes-strong-first-143501490.html"
       },
-      "image_checked_at": "2026-10-06T15:00:25.161Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-06T15:00:25.161Z"
+    },
+    {
+      "id": "7e533e377b6d839ddea4",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Why James Dolan doesn't deserve blame in Knicks' contract standoff with Karl-Anthony Towns",
+      "summary": "Dolan is an easy target for attacks like this, but in this case, the Knicks are simply doing smart business",
+      "author": "Brad Botkin",
+      "published_at": "2026-10-06T14:33:27.000Z",
+      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/06/435236f6-c2ad-4dd9-bf26-9663284459bb/kat-contract-getty-1.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "507f531b2bccfd09ae37",
@@ -1158,40 +1249,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "3d5dceb05f36966b4811",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:bnrvxigpgotzdtuz6c5wahcb/app.bsky.feed.post/3mx653qd5v227",
-      "author": "BugsySig",
-      "handle": "bugsysig.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:bnrvxigpgotzdtuz6c5wahcb/bafkreiavtbn4jceohrlp4syqgt5bq7egen3htbfh3pcelzdsvvo3tm3jye",
-      "text": "Mo looks big out there. Def put in the gym time this offseason. I really think he could be a sleeper as the 3rd C option. #Knicks",
-      "published_at": "2026-10-06T00:05:58.747Z",
-      "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mx653qd5v227",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mx653qd5v227",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "e078a3cc9b394a776688",
@@ -2753,41 +2810,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwwigeyzey2i",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "40c54c8d05c27a918763",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwwf3hcbdq2t",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "New Karl-Anthony Towns Rumors Reveal Big Gap in Knicks Contract Talks amid Pay Cut Buzz (via Bleacher Report)",
-      "published_at": "2026-10-02T22:07:41.127Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwwf3hcbdq2t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicx4xrzu7r5i4mcxn3yyqmvidtneqhxaibf7d6qrvzjp4dgexkbk4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwwf3hcbdq2t",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
