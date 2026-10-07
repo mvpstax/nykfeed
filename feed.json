@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T23:15:17.024Z",
+  "generated_at": "2026-10-07T23:30:22.737Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 2637,
+    "refresh_duration_ms": 5117,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "espn",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 99,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -100,6 +100,28 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "86ca5c51698c315972a2",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Mike Breen Apologizes After LeBron James Refutes Joel Embiid Practice Story",
+      "summary": "ESPN's Mike Breen apologized on Wednesday after LeBron James disputed a story Breen shared about new Philadelphia 76ers teammate Joel Embiid. Breen told ESPN he regrets the attention the anecdote brought to Embiid. \"I'm so disappointed how the story was interpreted,\" said Breen. \"The whole intent was praising LeBron for already having an impact on the team's professionalism and accountability, even something so benign as a player getting on the court for practice a minute or two late.\" Breen relayed the story during the fourth quarter of Monday's preseason opener, a 120-97 Sixers win over the New York Knicks on MSG. Breen said on air that Embiid arrived at practice a couple of minutes late and James called him out. Breen said the information came from someone he trusts and shared it to highlight James' early leadership in Philadelphia. James rejected the account Tuesday on Instagram, writing that Embiid has not been late and urging people to stop spreading lies. Breen accepted James' version of events. \"I don't know why the person who told me the story would make it up, but if LeBron says it never happened then I believe him and apologize for putting it out there,\" said Breen. Two seasons ago, during a 2-11 start, sources told ESPN's Shams Charania that teammates had called Embiid out for being late. Nick Nurse said he only learned of the situation after Wednesday's practice. He praised Embiid's work in camp. \"I'm just surprised by what I was told before and what you guys are asking me about, because he's been excellent,\" said Nurse. \"He's in great shape, he's been on the practice floor. He's worked very hard and he looks really great. So, it just surprises me that something like that came out right now.\" James, Embiid and Tyrese Maxey did not play against the Knicks. Philadelphia visits the Brooklyn Nets on Thursday.",
+      "author": null,
+      "published_at": "2026-10-07T23:02:02.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287550/Mike-Breen-Apologizes-After-LeBron-James-Refutes-Joel-Embiid-Practice-Story",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Embiid_Joel_phi_260406.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287550/Mike-Breen-Apologizes-After-LeBron-James-Refutes-Joel-Embiid-Practice-Story"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_570998fa066f"
+    },
     {
       "id": "f51db6911c477269c142",
       "type": "article",
@@ -119,7 +141,8 @@
         "url": "https://www.cbssports.com/nba/news/mike-breen-apologizes-lebron-james-joel-embiid-76ers-knicks/"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_570998fa066f"
     },
     {
       "id": "008af4820e435923662c",
@@ -216,7 +239,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 2,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -3220,6 +3243,19 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_570998fa066f",
+      "lead_item_id": "86ca5c51698c315972a2",
+      "item_ids": [
+        "86ca5c51698c315972a2",
+        "f51db6911c477269c142"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-10-07T23:02:02.000Z",
+      "title": "Mike Breen Apologizes After LeBron James Refutes Joel Embiid Practice Story",
+      "event_type": "other",
+      "entities": []
+    },
     {
       "id": "cluster_4ad34153d3e4",
       "lead_item_id": "abf89d537e68947aec73",
