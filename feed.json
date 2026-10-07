@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T19:45:24.007Z",
+  "generated_at": "2026-10-07T20:00:48.353Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 9395,
+    "refresh_duration_ms": 29201,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,35 @@
     "images": {
       "available": 97,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ca75787a35ffba049dd4",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "What Knicks Fans Should Make of Tyler Nickel's Rocky Debut",
+      "summary": "Tyler Nickel did not star for the Knicks in his rookie preseason debut, but fans shouldn't be too worried.",
+      "author": "Matthew Miranda",
+      "published_at": "2026-10-07T20:00:00.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-tyler-nickel-rocky-debut-01m4bnwspf3w",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_123,w_5407,h_3041/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4brmsqjf2seg3ck90.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-tyler-nickel-rocky-debut-01m4bnwspf3w",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-07T20:00:47.819Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "5e7fefe372b0fcd0ca95",
       "type": "social",
@@ -1253,9 +1277,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-mohamed-diawara-start-knicks-preseason-so-exciting-01m493n0ckmt",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-07T20:00:47.820Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-06T20:00:22.950Z"
+      "image_status": "available"
     },
     {
       "id": "806a71b3a61e9ac55f64",
@@ -3145,29 +3169,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-07T00:15:42.548Z"
-    },
-    {
-      "id": "2cac5b827abb43c93d7a",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Why the Knicks Re-Signing Kevin McCullar Jr. Makes Sense",
-      "summary": "We break down the Knicks' decision to bring back Kevin McCullar Jr. as a two-way player and why it's a good thing.",
-      "author": "Matthew Miranda",
-      "published_at": "2026-10-01T17:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/why-knicks-re-signing-kevin-mccullar-jr-makes-sense-01m3se7dkbmd",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_227,w_2264,h_1273/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3w56r83wtmjxntdr2.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/why-knicks-re-signing-kevin-mccullar-jr-makes-sense-01m3se7dkbmd",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-07T18:45:22.245Z"
     },
     {
       "id": "d24f6b71f25c89e1e8fe",
