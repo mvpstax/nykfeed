@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T00:00:24.211Z",
+  "generated_at": "2026-10-07T00:15:42.858Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 107,
     "game_count": 0,
-    "refresh_duration_ms": 5172,
+    "refresh_duration_ms": 28036,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,49 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 99,
       "missing": 8,
-      "article_pages_checked": 1
+      "article_pages_checked": 3
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "176618502ac384f19b26",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxanmkz5vh22",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Ochai Agbaji Might Already Be in Preseason Danger With Knicks (via Sports Illustrated)",
+      "published_at": "2026-10-07T00:07:02.757Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxanmkz5vh22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibwni6e2xzudnecbvbgm56sn546g23dj27kixgw3mbdleukmijhmu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxanmkz5vh22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "dbc9968f33f6305764b1",
       "type": "article",
@@ -119,9 +155,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/ochai-agbaji-already-be-preseason-danger-knicks-01m490c0rnag",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-07T00:00:23.742Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-07T00:00:23.742Z"
     },
     {
       "id": "f27e712b2019da1c393e",
@@ -2736,9 +2772,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-getting-great-signs-tyler-kolek-despite-tricky-position-01m3jbxtmw4y",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-07T00:15:42.546Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-06T00:15:21.558Z"
+      "image_status": "available"
     },
     {
       "id": "b84c0745dcb86ff6e7df",
@@ -2770,41 +2806,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwyrzjohmn2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "0a7dbd7e9865282b4e9c",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mwyhx2xslt2r",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Jose Alvarado Assures He Always Wanted to Return to Knicks (via Yahoo Sports)",
-      "published_at": "2026-10-03T18:04:14.685Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwyhx2xslt2r",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigfctzsmqosullmasd5qrxjk42mr346dkdqloe4jfzmy4lv6yzau4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mwyhx2xslt2r",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2897,9 +2898,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/target-knicks-back-already-been-made-clear-by-other-teams-01m3q2q5nabe",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-07T00:15:42.547Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-06T00:15:21.559Z"
+      "image_status": "available"
     },
     {
       "id": "595c3861c0605a643cd3",
@@ -3011,9 +3012,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-towns-shamet-starters-thomas-more.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-07T00:15:42.548Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-06T00:15:21.560Z"
+      "image_status": "available"
     },
     {
       "id": "2cac5b827abb43c93d7a",
@@ -3213,28 +3214,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-06T03:00:23.047Z"
-    },
-    {
-      "id": "3c2cdb0cb47eb1c907cb",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Atlantic Notes: Tatum, Robinson, Leonard, Yoshimoto",
-      "summary": "Celtics star forward Jayson Tatum is 16 months removed from Achilles tendon surgery and says he’s fully healthy as the team begins its first week of training camp, according to The Associated Press’ Kyle Hightower. “I feel great having this offseason to get stronger,” he said. “Get more explosive and just work on my body […]",
-      "author": "Dana Gauruder",
-      "published_at": "2026-09-30T00:06:30.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-tatum-robinson-leonard-yoshimoto.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/05/Jayson-Tatum1-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/atlantic-notes-tatum-robinson-leonard-yoshimoto.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-06T01:15:20.168Z"
     }
   ],
   "clusters": [
