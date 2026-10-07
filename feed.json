@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T01:30:21.569Z",
+  "generated_at": "2026-10-07T01:45:42.402Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 5061,
+    "refresh_duration_ms": 28645,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 99,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -3195,28 +3196,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "49c51038d73ad29bee61",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "New York Notes: Drummond, Porter Jr., Mann, Marks, Nickel",
-      "summary": "Andre Drummond, the Knicks’ new backup big man, isn’t a prolific shot blocker like Mitchell Robinson, who signed with the Celtics. But Drummond brings some other things to the table that he believes will help the Knicks win a second consecutive championship, he told James Edwards III of The Athletic. “I’ve been a master at […]",
-      "author": "Dana Gauruder",
-      "published_at": "2026-09-30T01:33:34.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/new-york-notes-drummond-porter-jr-mann-marks-nickel.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/01/andre-drummond-sixers-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/new-york-notes-drummond-porter-jr-mann-marks-nickel.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-06T03:00:23.047Z"
     }
   ],
   "clusters": [
