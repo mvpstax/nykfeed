@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T21:30:30.364Z",
+  "generated_at": "2026-10-07T21:45:44.694Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 6158,
+    "refresh_duration_ms": 28201,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 97,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -157,7 +158,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 2,
-        "likes": 2
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -1047,7 +1048,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -3193,28 +3194,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-07T00:15:42.548Z"
-    },
-    {
-      "id": "d24f6b71f25c89e1e8fe",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Knicks Notes: Hart, McBride, Randle, Rondo, Towns",
-      "summary": "Josh Hart will have to deal with a mangled finger for the rest of his playing career, he revealed on social media (Twitter link). The Knicks wing’s right ring finger will need to be taped or wrapped as a necessity. “Just so I don’t got to answer this question anymore. There is no other surgery for […]",
-      "author": "Dana Gauruder",
-      "published_at": "2026-09-30T21:45:11.000Z",
-      "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-hart-mcbride-randle-rondo-towns.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/08/Josh-Hart-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/09/knicks-notes-hart-mcbride-randle-rondo-towns.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-06T22:45:19.982Z"
     }
   ],
   "clusters": [
