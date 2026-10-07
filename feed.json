@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T20:00:48.353Z",
+  "generated_at": "2026-10-07T20:15:18.908Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 29201,
+    "refresh_duration_ms": 5232,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,85 @@
     "images": {
       "available": 97,
       "missing": 7,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "a8682e49598471c62397",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mxcqs2wj5s23",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "\"I just can't see the Eastern Conference team that's gonna beat the Knicks in a playoff series\"\n\nHow many playoff games will the Knicks win this season? (o/u: 12.5)",
+      "published_at": "2026-10-07T20:09:08.091Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxcqs2wj5s23",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreieh5wq5yht63isvnyhejssnkxcsli5f2ty6anqufdgs4toptvqyae/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreieh5wq5yht63isvnyhejssnkxcsli5f2ty6anqufdgs4toptvqyae/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreieh5wq5yht63isvnyhejssnkxcsli5f2ty6anqufdgs4toptvqyae/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1920,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxcqs2wj5s23",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "592a55a027e7b6f0d7da",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxcqovgrg22y",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Preseason Scouting Report: What Should the Wizards Know About Looming Knicks? (via Sports Illustrated)",
+      "published_at": "2026-10-07T20:07:21.504Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxcqovgrg22y",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihjit7jpceucrnjoljaphl3me2crzcajps5wotz5qa67q23fqyifq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxcqovgrg22y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "ca75787a35ffba049dd4",
       "type": "article",
@@ -120,9 +192,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-tyler-nickel-rocky-debut-01m4bnwspf3w",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-07T20:00:47.819Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-07T20:00:47.819Z"
     },
     {
       "id": "5e7fefe372b0fcd0ca95",
@@ -144,7 +216,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
         "likes": 0
       },
@@ -1277,9 +1349,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-mohamed-diawara-start-knicks-preseason-so-exciting-01m493n0ckmt",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-07T20:00:47.820Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-07T20:00:47.820Z"
     },
     {
       "id": "806a71b3a61e9ac55f64",
@@ -1931,41 +2003,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx7phecyez2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "523f764b31a628489002",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:fdpfucsmqcwjwvjvujyqxlxx/app.bsky.feed.post/3mx7p4rfyis2s",
-      "author": "Mike Vaccaro",
-      "handle": "mikevacc.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreieimrayaipe3f2oaknywlhulonr4hnfkzmb5lsmnqiefclyskeaca",
-      "text": "ICYMI, Column: Maybe the Karl-Anthony Towns contract impasse with the #Knicks is only a temporary blip that won’t impede the team’s mission to repeat. But there are 29 other teams who are certainly rooting the other way. nypost.com/2026/10/05/s...",
-      "published_at": "2026-10-06T15:01:20.533Z",
-      "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mx7p4rfyis2s",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fdpfucsmqcwjwvjvujyqxlxx/bafkreidh5hq4xe5ta74mq2qvpuzmqtfdo62m7w5caewjxvwb4ggsrq6qra",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:fdpfucsmqcwjwvjvujyqxlxx/post/3mx7p4rfyis2s",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2861,41 +2898,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-07T18:15:21.512Z"
-    },
-    {
-      "id": "7732720ab44644cf86ac",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx2v4ls6kb2p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "“My wife thought I looked good,” Karl-Anthony Towns says after the transformation (via Yahoo Sports)",
-      "published_at": "2026-10-04T17:05:18.200Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2v4ls6kb2p",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreig73imsolbgqoxgtsh6haj2qrdstdvcnuseiuxe3dys7n5f5yxwke",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx2v4ls6kb2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "2e184aa8b903fefaa68e",
