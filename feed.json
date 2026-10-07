@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T12:30:27.682Z",
+  "generated_at": "2026-10-07T12:45:19.068Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 103,
+    "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 5523,
+    "refresh_duration_ms": 4656,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 96,
+      "available": 97,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "30e1986c2b2bb7ea01d3",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uucydzqvqrozot6y3ido63vp/app.bsky.feed.post/3mxbx7fb6ic2t",
+      "author": "jimbiringer.bsky.social",
+      "handle": "jimbiringer.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uucydzqvqrozot6y3ido63vp/bafkreiapczcwvakcrt2skd6wrei5n5sxaogmwi4fwjijlfh3rxzfhy7gpy",
+      "text": "🚨New Episode 🚨\n\nNight Cap Recap is back alongside @Ted_X discussing:\n\n- NFL teams stock up and stock down #nfl #bigblue  #dawgpound  #fttb  #flyeaglesfly  \n- Alex Ovechkin Last Dance #allcaps  \n- #mitb  & #mlb\n- #nyknicks pay your guys\n\nWatch, Like, Subscribe:",
+      "published_at": "2026-10-07T12:31:17.867Z",
+      "url": "https://bsky.app/profile/did:plc:uucydzqvqrozot6y3ido63vp/post/3mxbx7fb6ic2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:uucydzqvqrozot6y3ido63vp/bafkreibx5gwl2rcr2xw7w6umhbnwnk2oik4f72vaihpiww5ybg5exrawgi",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uucydzqvqrozot6y3ido63vp/post/3mxbx7fb6ic2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "f56e667eb78519630d27",
       "type": "article",
@@ -178,7 +213,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
+        "replies": 2,
         "reposts": 0,
         "likes": 1
       },
