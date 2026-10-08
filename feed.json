@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-08T17:01:26.373Z",
+  "generated_at": "2026-10-08T17:15:20.655Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 107,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 27619,
+    "refresh_duration_ms": 4331,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,52 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 99,
       "missing": 9,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "55619f1d164689b77afd",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxex5iuo3x24",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Anne Hathaway knows ball (via r/NYKnicks)",
+      "published_at": "2026-10-08T17:08:13.555Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxex5iuo3x24",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewoxy6gni2twmwodn6dywc3kygdxcxo5w2bcsy2nfwezkke7ucny/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewoxy6gni2twmwodn6dywc3kygdxcxo5w2bcsy2nfwezkke7ucny/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewoxy6gni2twmwodn6dywc3kygdxcxo5w2bcsy2nfwezkke7ucny/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1280,
+        "width": 720
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxex5iuo3x24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "e1fdda721708da99bb59",
       "type": "social",
@@ -297,6 +334,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxeqe2osbx2m",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "cafad5c1c27f51184b5b",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks Bulletin: ‘At the end of the day, everybody has a short-term memory’",
+      "summary": "New York will watch the Knicks play basketball inside the Garden for the first time since they waved them goodbye after the Game 4 win over the Spurs and before they hoisted the Larry O’B back in Texas. The MSG faithful will have to wait a couple of weeks for the unveiling of the banner(s?), […]",
+      "author": null,
+      "published_at": "2026-10-08T15:03:25.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-bulletin-end-day-everybody-150325024.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/d65652003f9323b7f16bc1411e9ca9d9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-bulletin-end-day-everybody-150325024.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1700,9 +1758,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-knicks-frustrations-harsh-fair-01m46k4pk36q",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-08T17:15:20.275Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-07T17:15:18.290Z"
+      "image_status": "available"
     },
     {
       "id": "ebb206c0b8de71efd24d",
@@ -2796,41 +2854,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx5pqrjz7p2y",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "e3c3ee0bbf6a5ed4d013",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx5mepxoif2y",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "‘I’d Give Anything Up,’ ‘All-Star Potential’ - Calls Mount for Knicks To Pounce on Trade for Rising 3rd-Year Big Man (via Yahoo Sports)",
-      "published_at": "2026-10-05T19:06:46.553Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx5mepxoif2y",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreie47xhglzwkdlzws6vuee7rouwftdvgf54ilslumacjegnkhkhjki",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx5mepxoif2y",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
