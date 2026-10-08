@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-08T03:00:23.256Z",
+  "generated_at": "2026-10-08T03:15:24.274Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 104,
+    "item_count": 105,
     "game_count": 0,
-    "refresh_duration_ms": 5180,
+    "refresh_duration_ms": 6086,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,13 +93,82 @@
     ],
     "images": {
       "available": 98,
-      "missing": 6,
-      "article_pages_checked": 0
+      "missing": 7,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4793931b67fe7bf25cc7",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxdi3jvofm22",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Mikal Bridges ready for whatever comes next as Knicks’ title should ease past trade scrutiny (via New York Post)",
+      "published_at": "2026-10-08T03:06:01.656Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxdi3jvofm22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifppfyiut5r6olfcfkbldehdrsuczw67zsofho7lmc624m2vrt6ei",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxdi3jvofm22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "2f0e00c11c86de90f706",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:lur5p3tfrlj42k2ph74voo34/app.bsky.feed.post/3mxdhxknedc24",
+      "author": "Josh Kail",
+      "handle": "thatjoshkail.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreiekif5suc73ob7wrrkhtckxbi7x4p264vefrtyfacxjinx3itbcrq",
+      "text": "When you finally realize your Jalen Brunson takes were trash:",
+      "published_at": "2026-10-08T03:03:48.425Z",
+      "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3mxdhxknedc24",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3mxdhxknedc24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "a2389ebc7826ded2f4ca",
       "type": "social",
@@ -194,7 +263,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -2822,41 +2891,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "aeeb5b4d6683ec314f01",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mx53is4qqj2p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Mike Brown teases more pick and roll opportunities for Mikal Bridges and OG Anunoby in the Knicks' offense. via Sports Illustrated",
-      "published_at": "2026-10-05T14:04:49.424Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx53is4qqj2p",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiho4ipeys6gknpbxtlivcrzfmv7qbsqjmnjcbe6dsrdoflqfx7bhq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mx53is4qqj2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "737313e838231622eb33",
       "type": "article",
       "source": "CBS Sports",
@@ -3055,9 +3089,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-wiseman-center-bradley-drummond-towns.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-08T03:15:24.083Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-07T03:15:18.546Z"
+      "image_status": "available"
     },
     {
       "id": "098fb2f72dea52a64c88",
