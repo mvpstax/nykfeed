@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-08T01:30:18.930Z",
+  "generated_at": "2026-10-08T01:45:47.958Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 4235,
+    "refresh_duration_ms": 28776,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 100,
       "missing": 6,
       "article_pages_checked": 0
     },
@@ -416,6 +417,28 @@
       "image_source": "source_feed"
     },
     {
+      "id": "57d0d9eda1ab85b9691a",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks voice Mike Breen apologizes after LeBron James calls out Joel Embiid story",
+      "summary": "During Monday’s game broadcast on MSG Networks, Breen explained he’d caught wind of about James reaming out Embiid for being late to practice.",
+      "author": null,
+      "published_at": "2026-10-07T21:23:21.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-voice-mike-breen-apologizes-212321458.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/9e2a1382c5c958cbb4228e4aaef0de64.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-voice-mike-breen-apologizes-212321458.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_570998fa066f"
+    },
+    {
       "id": "4f115313ad56619b9b6f",
       "type": "social",
       "source": "Bluesky",
@@ -436,8 +459,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 1,
-        "reposts": 2,
-        "likes": 5
+        "reposts": 3,
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -827,7 +850,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
+        "replies": 2,
         "reposts": 1,
         "likes": 6
       },
@@ -3211,9 +3234,10 @@
       "lead_item_id": "86ca5c51698c315972a2",
       "item_ids": [
         "86ca5c51698c315972a2",
-        "f51db6911c477269c142"
+        "f51db6911c477269c142",
+        "57d0d9eda1ab85b9691a"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "updated_at": "2026-10-07T23:02:02.000Z",
       "title": "Mike Breen Apologizes After LeBron James Refutes Joel Embiid Practice Story",
       "event_type": "other",
