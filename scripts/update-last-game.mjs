@@ -71,22 +71,25 @@ const tag = (xml, name) =>
   )
 
 export function compact(event, phase) {
-  const competition = event.competitions?.[0]
+  const c = event.competitions?.[0]
 
-  const home = competition?.competitors?.find(
+  const home = c?.competitors?.find(
     team => team.homeAway === 'home',
   )
 
-  const away = competition?.competitors?.find(
+  const away = c?.competitors?.find(
     team => team.homeAway === 'away',
   )
 
-  if (!home || !away || !Number.isFinite(Date.parse(event.date))) {
+  if (
+    !home ||
+    !away ||
+    !Number.isFinite(Date.parse(event.date))
+  ) {
     return null
   }
 
-  const status =
-    competition.status?.type || event.status?.type
+  const status = c.status?.type || event.status?.type
 
   const team = side => ({
     name: side.team.displayName,
@@ -94,10 +97,7 @@ export function compact(event, phase) {
       side.team.abbreviation === 'NY'
         ? 'NYK'
         : side.team.abbreviation,
-    logo:
-      side.team.logo ||
-      side.team.logos?.[0]?.href ||
-      null,
+    logo: side.team.logo || side.team.logos?.[0]?.href || null,
     score: status?.completed
       ? number(
           typeof side.score === 'object'
@@ -121,49 +121,156 @@ export function compact(event, phase) {
   }
 }
 
+const BOX_VERSION = 2
+
+const STAT_NAMES = {
+  MIN: 'Total Minutes Played',
+  PTS: 'Total Points Scored',
+  REB: 'Total Rebounds',
+  AST: 'Total Assists',
+  STL: 'Total Steals',
+  BLK: 'Total Blocks',
+  TO: 'Total Turnovers',
+  OREB: 'Offensive Rebounds',
+  DREB: 'Defensive Rebounds',
+  PF: 'Personal Fouls',
+  '+/-': 'Plus Minus',
+}
+
+const SHOOTING = {
+  FG: ['Field Goals Made', 'Field Goals Attempted'],
+  '3PT': ['Three Pointers Made', 'Three Pointers Attempted'],
+  FT: ['Free Throws Made', 'Free Throws Attempted'],
+}
+
+export function parseStats(section, values = []) {
+  const stats = []
+
+  const indexOf = key => {
+    for (const labels of [section.labels, section.names]) {
+      const index =
+        labels?.findIndex(
+          label => String(label).toUpperCase() === key,
+        ) ?? -1
+
+      if (index >= 0) return index
+    }
+
+    return -1
+  }
+
+  for (const [key, name] of Object.entries(STAT_NAMES)) {
+    const raw = values[indexOf(key)]
+    let value = number(raw)
+
+    if (key === 'MIN' && /^\d+:\d{2}$/.test(String(raw))) {
+      const [minutes, seconds] = String(raw)
+        .split(':')
+        .map(Number)
+
+      value = seconds < 60 ? minutes + seconds / 60 : null
+    }
+
+    if (value !== null) stats.push({ name, value })
+  }
+
+  for (const [key, names] of Object.entries(SHOOTING)) {
+    const pair = String(values[indexOf(key)] ?? '').match(
+      /^(\d+)\s*[-/]\s*(\d+)$/,
+    )
+
+    if (pair) {
+      const made = Number(pair[1])
+      const attempted = Number(pair[2])
+
+      if (made <= attempted) {
+        stats.push(
+          { name: names[0], value: made },
+          { name: names[1], value: attempted },
+        )
+      }
+    }
+  }
+
+  return stats
+}
+
 export function boxScore(data) {
-  return (data.boxscore?.players || []).map(group => ({
-    team: {
-      name: group.team.displayName,
-      boxScores: (group.statistics || []).flatMap(section =>
-        (section.athletes || []).map(row => ({
-          player: {
-            name: row.athlete.displayName,
+  return (data.boxscore?.players || []).map(group => {
+    const seen = new Set()
+
+    const rows = (group.statistics || []).flatMap(section =>
+      (section.athletes || []).flatMap(row => {
+        if (!row.athlete?.displayName) return []
+
+        const id = String(
+          row.athlete.id || row.athlete.displayName,
+        )
+
+        if (seen.has(id)) return []
+        seen.add(id)
+
+        const minuteIndex = (
+          section.labels ||
+          section.names ||
+          []
+        ).indexOf('MIN')
+
+        return [
+          {
+            player: {
+              id,
+              name: row.athlete.displayName,
+              position:
+                row.athlete.position?.abbreviation || null,
+              jersey: row.athlete.jersey ?? null,
+              photo_url: row.athlete.headshot?.href || null,
+            },
+            starter:
+              typeof row.starter === 'boolean'
+                ? row.starter
+                : null,
+            didNotPlay: row.didNotPlay === true,
+            reason: row.didNotPlay
+              ? row.reason || 'Did not play'
+              : null,
+            minutes_display: row.didNotPlay
+              ? null
+              : row.stats?.[minuteIndex] || null,
+            statistics: row.didNotPlay
+              ? []
+              : parseStats(section, row.stats),
           },
-          statistics: row.didNotPlay
-            ? []
-            : [
-                ['PTS', 'Total Points Scored'],
-                ['REB', 'Total Rebounds'],
-                ['AST', 'Total Assists'],
-                ['MIN', 'Total Minutes Played'],
-              ].flatMap(([key, name]) => {
-                const index = (
-                  section.labels ||
-                  section.names ||
-                  []
-                ).indexOf(key)
+        ]
+      }),
+    )
 
-                const value =
-                  index >= 0
-                    ? number(row.stats?.[index])
-                    : null
+    // Team rebounds need not equal the sum of player rebounds.
+    const totals = (group.statistics || []).find(
+      section => section.totals?.length,
+    )
 
-                return value === null
-                  ? []
-                  : [{ name, value }]
-              }),
-        })),
-      ),
-    },
-  }))
+    return {
+      team: {
+        id: String(group.team?.id || ''),
+        name: group.team?.displayName || 'Team',
+        abbreviation:
+          group.team?.abbreviation === 'NY'
+            ? 'NYK'
+            : group.team?.abbreviation || null,
+        logo: group.team?.logo || null,
+        boxScores: rows,
+        totals: totals ? parseStats(totals, totals.totals) : [],
+      },
+    }
+  })
 }
 
 export function matchVideo(video, game) {
-  const channel = String(video.channel_id || '')
-    .replace(/^UC/, '')
-
-  if (channel !== CHANNEL.replace(/^UC/, '')) {
+  if (
+    String(video.channel_id || '').replace(/^UC/, '') !==
+    CHANNEL.replace(/^UC/, '')
+  ) {
     return false
   }
 
@@ -171,10 +278,8 @@ export function matchVideo(video, game) {
 
   if (
     video.is_short ||
-    (
-      video.duration_seconds != null &&
-      video.duration_seconds < 120
-    )
+    (video.duration_seconds != null &&
+      video.duration_seconds < 120)
   ) {
     return false
   }
@@ -188,9 +293,7 @@ export function matchVideo(video, game) {
   }
 
   const opponent =
-    game.home.abbreviation === 'NYK'
-      ? game.away
-      : game.home
+    game.home.abbreviation === 'NYK' ? game.away : game.home
 
   const terms = [
     opponent.name,
@@ -201,9 +304,7 @@ export function matchVideo(video, game) {
   ]
 
   if (
-    !terms.some(term =>
-      title.includes(term.toLowerCase()),
-    )
+    !terms.some(term => title.includes(term.toLowerCase()))
   ) {
     return false
   }
@@ -219,23 +320,21 @@ export function matchVideo(video, game) {
     .replace(/,/g, '')
     .replace(/\s+/g, ' ')
 
-  const normalizedTitle = title
-    .replace(/[,|]/g, ' ')
-    .replace(/\s+/g, ' ')
-
-  if (!normalizedTitle.includes(expected)) {
+  if (
+    !title
+      .replace(/[,|]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .includes(expected)
+  ) {
     return false
   }
 
-  const published = Date.parse(video.published_at || '')
-  const gameTime = Date.parse(game.date)
+  const stamp = Date.parse(video.published_at || '')
 
   return (
-    !Number.isFinite(published) ||
-    (
-      published >= gameTime &&
-      published <= gameTime + 72 * 3600000
-    )
+    !Number.isFinite(stamp) ||
+    (stamp >= Date.parse(game.date) &&
+      stamp <= Date.parse(game.date) + 72 * 3600000)
   )
 }
 
@@ -252,12 +351,7 @@ export async function main() {
     ),
   )
 
-  const phases = [
-    'Preseason',
-    'Regular season',
-    'Playoffs',
-  ]
-
+  const phases = ['Preseason', 'Regular season', 'Playoffs']
   const entries = []
 
   const old = new Map(
@@ -267,22 +361,20 @@ export async function main() {
     ]),
   )
 
-  if (last?.game) {
-    old.set(last.game.id, last)
-  }
+  if (last?.game) old.set(last.game.id, last)
 
-  for (let index = 0; index < requests.length; index++) {
-    const result = requests[index]
+  for (let i = 0; i < requests.length; i++) {
+    const result = requests[i]
 
     if (result.status === 'rejected') {
       errors.push(
-        `${phases[index]} schedule: ${result.reason.message}`,
+        `${phases[i]} schedule: ${result.reason.message}`,
       )
       continue
     }
 
     for (const event of result.value.events || []) {
-      const game = compact(event, phases[index])
+      const game = compact(event, phases[i])
 
       if (game) {
         entries.push({
@@ -299,15 +391,15 @@ export async function main() {
     )
   }
 
-  // Preserve cached games if a schedule request temporarily fails.
+  // Keep cached season games if a schedule request temporarily fails.
   for (const entry of old.values()) {
-    const date = Date.parse(entry.game.date)
-
     if (
       entry.game.id.startsWith('espn:') &&
-      date >= Date.UTC(YEAR - 1, 6, 1) &&
-      date < Date.UTC(YEAR, 6, 1) &&
-      !entries.some(item => item.game.id === entry.game.id)
+      Date.parse(entry.game.date) >=
+        Date.UTC(YEAR - 1, 6, 1) &&
+      Date.parse(entry.game.date) <
+        Date.UTC(YEAR, 6, 1) &&
+      !entries.some(e => e.game.id === entry.game.id)
     ) {
       entries.push(entry)
     }
@@ -329,17 +421,32 @@ export async function main() {
         Date.parse(b.game.date) - Date.parse(a.game.date),
     )
 
-  for (
-    const entry of finished
-      .filter(item => !item.box_score?.length)
-      .slice(0, 3)
-  ) {
+  // Upgrade up to three cached box scores per refresh.
+  for (const entry of finished
+    .filter(
+      entry =>
+        !entry.box_score?.length ||
+        entry.box_score_version !== BOX_VERSION,
+    )
+    .slice(0, 3)) {
     try {
-      const eventId = entry.game.id.replace('espn:', '')
-
-      entry.box_score = boxScore(
-        await get(`${ROOT}/summary?event=${eventId}`),
+      const updated = boxScore(
+        await get(
+          `${ROOT}/summary?event=${entry.game.id.replace('espn:', '')}`,
+        ),
       )
+
+      if (
+        updated.length &&
+        updated.some(group => group.team.boxScores.length)
+      ) {
+        entry.box_score = updated
+        entry.box_score_version = BOX_VERSION
+      } else {
+        errors.push(
+          `Box score ${entry.game.id}: player stats not yet available`,
+        )
+      }
     } catch (error) {
       errors.push(
         `Box score ${entry.game.id}: ${error.message}`,
@@ -349,7 +456,6 @@ export async function main() {
 
   let videos = []
 
-  // Start with the official NBA RSS feed.
   try {
     const xml = await get(
       `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL}`,
@@ -375,7 +481,6 @@ export async function main() {
     errors.push(`NBA YouTube: ${error.message}`)
   }
 
-  // Reuse official NBA videos already collected by your feed.
   const youtube = await file('youtube.json')
 
   for (const row of youtube?.rows || []) {
@@ -429,8 +534,8 @@ export async function main() {
           `FULL GAME HIGHLIGHTS ${date}`
 
         return (
-          `https://www.youtube.com/channel/${CHANNEL}/search` +
-          `?query=${encodeURIComponent(query)}`
+          `https://www.youtube.com/channel/${CHANNEL}/search?query=` +
+          encodeURIComponent(query)
         )
       }),
     ]
@@ -469,13 +574,12 @@ export async function main() {
           throw new Error('Unexpected YouTube channel')
         }
 
-        const season =
-          `${YEAR - 1}-${String(YEAR).slice(-2)}`
-
         for (const item of listing.entries || []) {
           if (
             /full game highlights/i.test(item.title || '') &&
-            (item.title || '').includes(season) &&
+            (item.title || '').includes(
+              `${YEAR - 1}-${String(YEAR).slice(-2)}`,
+            ) &&
             /^https:\/\/www\.youtube\.com\/playlist\?list=[\w-]+$/.test(
               item.url || '',
             )
@@ -494,24 +598,26 @@ export async function main() {
 
           const id = item.id
 
-          if (!/^[\w-]{11}$/.test(id || '')) {
-            return []
-          }
+          if (!/^[\w-]{11}$/.test(id || '')) return []
 
-          return [{
-            video_id: id,
-            title: item.title,
-            channel_id: CHANNEL,
-            duration_seconds: number(item.duration),
-            published_at: item.timestamp
-              ? new Date(item.timestamp * 1000).toISOString()
-              : null,
-            image_url:
-              `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
-            url: `https://www.youtube.com/watch?v=${id}`,
-            embed_url:
-              `https://www.youtube.com/embed/${id}`,
-          }]
+          return [
+            {
+              video_id: id,
+              title: item.title,
+              channel_id: CHANNEL,
+              duration_seconds: number(item.duration),
+              published_at: item.timestamp
+                ? new Date(
+                    item.timestamp * 1000,
+                  ).toISOString()
+                : null,
+              image_url:
+                `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+              url: `https://www.youtube.com/watch?v=${id}`,
+              embed_url:
+                `https://www.youtube.com/embed/${id}`,
+            },
+          ]
         })
       }),
     )
@@ -526,7 +632,6 @@ export async function main() {
       }
     }
 
-    // Some full-game recaps are found through seasonal playlists.
     for (const url of [...playlists].slice(0, 2)) {
       try {
         const { stdout } = await run(
@@ -560,7 +665,6 @@ export async function main() {
         }
 
         for (const item of listing.entries || []) {
-          // Check the video's channel as playlists can mix authors.
           if (
             item.channel_id !== CHANNEL ||
             !/^[\w-]{11}$/.test(item.id || '')
@@ -574,7 +678,9 @@ export async function main() {
             channel_id: CHANNEL,
             duration_seconds: number(item.duration),
             published_at: item.timestamp
-              ? new Date(item.timestamp * 1000).toISOString()
+              ? new Date(
+                  item.timestamp * 1000,
+                ).toISOString()
               : null,
             image_url:
               `https://i.ytimg.com/vi/${item.id}/hqdefault.jpg`,
@@ -593,7 +699,6 @@ export async function main() {
   }
 
   for (const entry of finished) {
-    // Revalidate previously saved associations.
     if (
       entry.video &&
       !matchVideo(entry.video, entry.game)
@@ -633,8 +738,9 @@ export async function main() {
         }
       : null
 
-    entry.highlight_status =
-      entry.video ? 'available' : 'pending'
+    entry.highlight_status = entry.video
+      ? 'available'
+      : 'pending'
 
     const value = (row, name) =>
       row.statistics.find(stat => stat.name === name)
@@ -660,17 +766,15 @@ export async function main() {
       'ESPN public schedule and game summary; official NBA YouTube',
   }
 
+  const document = {
+    generated_at: NOW.toISOString(),
+    games: entries,
+    meta,
+  }
+
   await writeFile(
     'games.json',
-    JSON.stringify(
-      {
-        generated_at: NOW.toISOString(),
-        games: entries,
-        meta,
-      },
-      null,
-      2,
-    ) + '\n',
+    JSON.stringify(document, null, 2) + '\n',
   )
 
   await writeFile(
@@ -687,9 +791,9 @@ export async function main() {
   )
 
   console.log(
-    `Wrote ${entries.length} games; ` +
-    `latest result: ${finished[0]?.game.id || 'none'}; ` +
-    `${errors.length} optional errors`,
+    `Wrote ${entries.length} games; latest result: ${
+      finished[0]?.game.id || 'none'
+    }; ${errors.length} optional errors`,
   )
 }
 
