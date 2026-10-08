@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T10:26:36.844Z",
+  "generated_at": "2026-10-08T14:23:23.461Z",
   "games": [
     {
       "generated_at": "2026-10-06T16:38:12.194Z",
@@ -24,13 +24,28 @@
       "box_score": [
         {
           "team": {
+            "id": "18",
             "name": "New York Knicks",
+            "abbreviation": "NYK",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
             "boxScores": [
               {
                 "player": {
-                  "name": "OG Anunoby"
+                  "id": "3934719",
+                  "name": "OG Anunoby",
+                  "position": "F",
+                  "jersey": "8",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "14",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 14
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 12
@@ -44,62 +59,242 @@
                     "value": 0
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 14
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Karl-Anthony Towns"
-                },
-                "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 5
+                    "name": "Total Steals",
+                    "value": 0
                   },
                   {
-                    "name": "Total Rebounds",
-                    "value": 5
+                    "name": "Total Blocks",
+                    "value": 0
                   },
                   {
-                    "name": "Total Assists",
-                    "value": 2
+                    "name": "Total Turnovers",
+                    "value": 0
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 15
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Josh Hart"
-                },
-                "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 2
+                    "name": "Offensive Rebounds",
+                    "value": 3
                   },
                   {
-                    "name": "Total Rebounds",
+                    "name": "Defensive Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Personal Fouls",
                     "value": 1
                   },
                   {
-                    "name": "Total Assists",
+                    "name": "Plus Minus",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 7
+                  },
+                  {
+                    "name": "Three Pointers Made",
                     "value": 0
                   },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 6
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 6
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "3136195",
+                  "name": "Karl-Anthony Towns",
+                  "position": "C",
+                  "jersey": "32",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png"
+                },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "15",
+                "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 15
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 5
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 5
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 2
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 2
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 5
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 2
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -10
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 4
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "3062679",
+                  "name": "Josh Hart",
+                  "position": "G",
+                  "jersey": "3",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png"
+                },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "13",
+                "statistics": [
                   {
                     "name": "Total Minutes Played",
                     "value": 13
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 2
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 2
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -7
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Mikal Bridges"
+                  "id": "3147657",
+                  "name": "Mikal Bridges",
+                  "position": "G",
+                  "jersey": "25",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "15",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 15
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 3
@@ -113,16 +308,76 @@
                     "value": 3
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 15
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -8
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 2
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Jalen Brunson"
+                  "id": "3934672",
+                  "name": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "15",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 15
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 12
@@ -136,85 +391,325 @@
                     "value": 3
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 15
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Drew Eubanks"
-                },
-                "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 1
-                  },
-                  {
-                    "name": "Total Rebounds",
-                    "value": 1
-                  },
-                  {
-                    "name": "Total Assists",
+                    "name": "Total Steals",
                     "value": 0
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 6
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Tyler Nickel"
-                },
-                "statistics": [
-                  {
-                    "name": "Total Points Scored",
+                    "name": "Total Blocks",
                     "value": 0
                   },
                   {
-                    "name": "Total Rebounds",
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Personal Fouls",
                     "value": 1
                   },
                   {
-                    "name": "Total Assists",
-                    "value": 1
+                    "name": "Plus Minus",
+                    "value": -10
                   },
                   {
-                    "name": "Total Minutes Played",
+                    "name": "Field Goals Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Field Goals Attempted",
                     "value": 8
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Pacome Dadiet"
-                },
-                "statistics": [
+                  },
                   {
-                    "name": "Total Points Scored",
+                    "name": "Three Pointers Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
                     "value": 5
                   },
                   {
+                    "name": "Free Throws Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "3914285",
+                  "name": "Drew Eubanks",
+                  "position": "F",
+                  "jersey": "17",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3914285.png"
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "6",
+                "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 6
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 1
+                  },
+                  {
                     "name": "Total Rebounds",
-                    "value": 3
+                    "value": 1
                   },
                   {
                     "name": "Total Assists",
                     "value": 0
                   },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 2
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -7
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "4838721",
+                  "name": "Tyler Nickel",
+                  "position": "F",
+                  "jersey": "55",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4838721.png"
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "8",
+                "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 8
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -5
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 4
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "5211983",
+                  "name": "Pacome Dadiet",
+                  "position": "F",
+                  "jersey": "4",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5211983.png"
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "18",
+                "statistics": [
                   {
                     "name": "Total Minutes Played",
                     "value": 18
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 5
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 4
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -18
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 6
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Mohamed Diawara"
+                  "id": "5289900",
+                  "name": "Mohamed Diawara",
+                  "position": "F",
+                  "jersey": "51",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5289900.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "17",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 17
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 8
@@ -228,16 +723,76 @@
                     "value": 0
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 17
+                    "name": "Total Steals",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 2
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -7
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 8
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Andre Drummond"
+                  "id": "6585",
+                  "name": "Andre Drummond",
+                  "position": "C",
+                  "jersey": "0",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "12",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 12
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 6
@@ -251,16 +806,76 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 12
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 3
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 3
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 9
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 5
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Tony Bradley"
+                  "id": "4065673",
+                  "name": "Tony Bradley",
+                  "position": "C",
+                  "jersey": "18",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065673.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "6",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 6
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 2
@@ -274,131 +889,159 @@
                     "value": 0
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 6
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -2
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "James Wiseman"
+                  "id": "4432808",
+                  "name": "James Wiseman",
+                  "position": "C",
+                  "jersey": "35",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "9",
                 "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 8
-                  },
-                  {
-                    "name": "Total Rebounds",
-                    "value": 5
-                  },
-                  {
-                    "name": "Total Assists",
-                    "value": 0
-                  },
                   {
                     "name": "Total Minutes Played",
                     "value": 9
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 8
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 5
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 2
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -13
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 4
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 6
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Jordan Clarkson"
+                  "id": "2528426",
+                  "name": "Jordan Clarkson",
+                  "position": "G",
+                  "jersey": "00",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2528426.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "14",
                 "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 6
-                  },
-                  {
-                    "name": "Total Rebounds",
-                    "value": 4
-                  },
-                  {
-                    "name": "Total Assists",
-                    "value": 1
-                  },
                   {
                     "name": "Total Minutes Played",
                     "value": 14
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Landry Shamet"
-                },
-                "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 10
                   },
-                  {
-                    "name": "Total Rebounds",
-                    "value": 0
-                  },
-                  {
-                    "name": "Total Assists",
-                    "value": 0
-                  },
-                  {
-                    "name": "Total Minutes Played",
-                    "value": 11
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Bruce Brown"
-                },
-                "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 2
-                  },
-                  {
-                    "name": "Total Rebounds",
-                    "value": 0
-                  },
-                  {
-                    "name": "Total Assists",
-                    "value": 0
-                  },
-                  {
-                    "name": "Total Minutes Played",
-                    "value": 10
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Ochai Agbaji"
-                },
-                "statistics": [
-                  {
-                    "name": "Total Points Scored",
-                    "value": 1
-                  },
-                  {
-                    "name": "Total Rebounds",
-                    "value": 1
-                  },
-                  {
-                    "name": "Total Assists",
-                    "value": 0
-                  },
-                  {
-                    "name": "Total Minutes Played",
-                    "value": 8
-                  }
-                ]
-              },
-              {
-                "player": {
-                  "name": "Kevin McCullar Jr."
-                },
-                "statistics": [
                   {
                     "name": "Total Points Scored",
                     "value": 6
@@ -412,16 +1055,408 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 10
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 2
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -19
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 8
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 4
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Miles McBride"
+                  "id": "3914044",
+                  "name": "Landry Shamet",
+                  "position": "G",
+                  "jersey": "44",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "11",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 11
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 10
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 7
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 8
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "4065670",
+                  "name": "Bruce Brown",
+                  "position": "G",
+                  "jersey": "1",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065670.png"
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "10",
+                "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 10
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 2
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 4
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -14
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "4397018",
+                  "name": "Ochai Agbaji",
+                  "position": "G",
+                  "jersey": "30",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397018.png"
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "8",
+                "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 8
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -11
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "4411057",
+                  "name": "Kevin McCullar Jr.",
+                  "position": "G",
+                  "jersey": "9",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4411057.png"
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "10",
+                "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 10
+                  },
+                  {
+                    "name": "Total Points Scored",
+                    "value": 6
+                  },
+                  {
+                    "name": "Total Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Total Assists",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 2
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -6
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "player": {
+                  "id": "4431823",
+                  "name": "Miles McBride",
+                  "position": "G",
+                  "jersey": "2",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png"
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "12",
+                "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 12
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 0
@@ -435,16 +1470,76 @@
                     "value": 3
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 12
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 7
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 4
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 4
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Tyler Kolek"
+                  "id": "4433225",
+                  "name": "Tyler Kolek",
+                  "position": "G",
+                  "jersey": "13",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433225.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "17",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 17
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 5
@@ -458,16 +1553,76 @@
                     "value": 5
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 17
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 3
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 1
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Jaden Akins"
+                  "id": "4683730",
+                  "name": "Jaden Akins",
+                  "position": "G",
+                  "jersey": "14",
+                  "photo_url": null
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "8",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 8
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 3
@@ -481,29 +1636,162 @@
                     "value": 3
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 8
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 2
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -5
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Jose Alvarado"
+                  "id": "4277869",
+                  "name": "Jose Alvarado",
+                  "position": "G",
+                  "jersey": "5",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
+              }
+            ],
+            "totals": [
+              {
+                "name": "Total Points Scored",
+                "value": 97
+              },
+              {
+                "name": "Total Rebounds",
+                "value": 51
+              },
+              {
+                "name": "Total Assists",
+                "value": 23
+              },
+              {
+                "name": "Total Steals",
+                "value": 1
+              },
+              {
+                "name": "Total Blocks",
+                "value": 8
+              },
+              {
+                "name": "Total Turnovers",
+                "value": 13
+              },
+              {
+                "name": "Offensive Rebounds",
+                "value": 15
+              },
+              {
+                "name": "Defensive Rebounds",
+                "value": 36
+              },
+              {
+                "name": "Personal Fouls",
+                "value": 27
+              },
+              {
+                "name": "Field Goals Made",
+                "value": 35
+              },
+              {
+                "name": "Field Goals Attempted",
+                "value": 91
+              },
+              {
+                "name": "Three Pointers Made",
+                "value": 8
+              },
+              {
+                "name": "Three Pointers Attempted",
+                "value": 41
+              },
+              {
+                "name": "Free Throws Made",
+                "value": 19
+              },
+              {
+                "name": "Free Throws Attempted",
+                "value": 32
               }
             ]
           }
         },
         {
           "team": {
+            "id": "20",
             "name": "Philadelphia 76ers",
+            "abbreviation": "PHI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
             "boxScores": [
               {
                 "player": {
-                  "name": "Dean Wade"
+                  "id": "3912848",
+                  "name": "Dean Wade",
+                  "position": "F",
+                  "jersey": "45",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3912848.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "13",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 13
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 2
@@ -517,16 +1805,76 @@
                     "value": 0
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 13
+                    "name": "Total Steals",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 2
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 6
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Ariel Hukporti"
+                  "id": "4871141",
+                  "name": "Ariel Hukporti",
+                  "position": "C",
+                  "jersey": "55",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4871141.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "5",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 5
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 0
@@ -540,16 +1888,76 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 5
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -2
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Kentavious Caldwell-Pope"
+                  "id": "2581018",
+                  "name": "Kentavious Caldwell-Pope",
+                  "position": "G",
+                  "jersey": "1",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2581018.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "13",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 13
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 7
@@ -563,16 +1971,76 @@
                     "value": 2
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 13
+                    "name": "Total Steals",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 3
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 6
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Jaylen Brown"
+                  "id": "3917376",
+                  "name": "Jaylen Brown",
+                  "position": "G",
+                  "jersey": "7",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "17",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 17
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 22
@@ -586,16 +2054,76 @@
                     "value": 2
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 17
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 2
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 7
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 8
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 13
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 5
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "VJ Edgecombe"
+                  "id": "5124612",
+                  "name": "VJ Edgecombe",
+                  "position": "G",
+                  "jersey": "77",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png"
                 },
+                "starter": true,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "20",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 20
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 12
@@ -609,16 +2137,76 @@
                     "value": 7
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 20
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 12
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 9
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 5
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Jabari Walker"
+                  "id": "4432446",
+                  "name": "Jabari Walker",
+                  "position": "F",
+                  "jersey": "33",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432446.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "19",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 19
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 11
@@ -632,16 +2220,76 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 19
+                    "name": "Total Steals",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 9
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 3
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 3
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 9
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Dillon Jones"
+                  "id": "4702159",
+                  "name": "Dillon Jones",
+                  "position": "F",
+                  "jersey": "35",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702159.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "18",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 18
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 11
@@ -655,16 +2303,76 @@
                     "value": 2
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 18
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 3
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 21
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 6
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 4
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Justin Edwards"
+                  "id": "4711297",
+                  "name": "Justin Edwards",
+                  "position": "F",
+                  "jersey": "11",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4711297.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "24",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 24
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 6
@@ -678,16 +2386,76 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 24
+                    "name": "Total Steals",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 2
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 0
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Saint Thomas"
+                  "id": "4897471",
+                  "name": "Saint Thomas",
+                  "position": "F",
+                  "jersey": "19",
+                  "photo_url": null
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "15",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 15
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 11
@@ -701,16 +2469,76 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 15
+                    "name": "Total Steals",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 7
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 4
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 17
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 5
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 8
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 1
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Caleb Love"
+                  "id": "4433144",
+                  "name": "Caleb Love",
+                  "position": "G",
+                  "jersey": "8",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433144.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "24",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 24
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 15
@@ -724,16 +2552,76 @@
                     "value": 6
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 24
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 2
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 3
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 18
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 10
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 6
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 4
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 6
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Jameer Nelson Jr."
+                  "id": "4592444",
+                  "name": "Jameer Nelson Jr.",
+                  "position": "G",
+                  "jersey": "14",
+                  "photo_url": null
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "15",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 15
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 7
@@ -747,16 +2635,76 @@
                     "value": 0
                   },
                   {
-                    "name": "Total Minutes Played",
+                    "name": "Total Steals",
+                    "value": 1
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 2
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 2
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 3
+                  },
+                  {
+                    "name": "Plus Minus",
                     "value": 15
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 3
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Duke Miles"
+                  "id": "4702049",
+                  "name": "Duke Miles",
+                  "position": "G",
+                  "jersey": "31",
+                  "photo_url": null
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "9",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 9
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 4
@@ -770,16 +2718,76 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 9
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 0
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 5
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 3
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 1
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 2
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Labaron Philon Jr."
+                  "id": "4873090",
+                  "name": "Labaron Philon Jr.",
+                  "position": "G",
+                  "jersey": "00",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4873090.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "25",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 25
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 6
@@ -793,16 +2801,76 @@
                     "value": 4
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 25
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 0
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 1
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": -2
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 9
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 4
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 2
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "Rayan Rupert"
+                  "id": "5099752",
+                  "name": "Rayan Rupert",
+                  "position": "G",
+                  "jersey": "12",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5099752.png"
                 },
+                "starter": false,
+                "didNotPlay": false,
+                "reason": null,
+                "minutes_display": "25",
                 "statistics": [
+                  {
+                    "name": "Total Minutes Played",
+                    "value": 25
+                  },
                   {
                     "name": "Total Points Scored",
                     "value": 6
@@ -816,52 +2884,218 @@
                     "value": 1
                   },
                   {
-                    "name": "Total Minutes Played",
-                    "value": 25
+                    "name": "Total Steals",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Blocks",
+                    "value": 0
+                  },
+                  {
+                    "name": "Total Turnovers",
+                    "value": 1
+                  },
+                  {
+                    "name": "Offensive Rebounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "Defensive Rebounds",
+                    "value": 4
+                  },
+                  {
+                    "name": "Personal Fouls",
+                    "value": 4
+                  },
+                  {
+                    "name": "Plus Minus",
+                    "value": 12
+                  },
+                  {
+                    "name": "Field Goals Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Field Goals Attempted",
+                    "value": 8
+                  },
+                  {
+                    "name": "Three Pointers Made",
+                    "value": 2
+                  },
+                  {
+                    "name": "Three Pointers Attempted",
+                    "value": 5
+                  },
+                  {
+                    "name": "Free Throws Made",
+                    "value": 0
+                  },
+                  {
+                    "name": "Free Throws Attempted",
+                    "value": 0
                   }
                 ]
               },
               {
                 "player": {
-                  "name": "LeBron James"
+                  "id": "1966",
+                  "name": "LeBron James",
+                  "position": "F",
+                  "jersey": "23",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
               },
               {
                 "player": {
-                  "name": "Dominick Barlow"
+                  "id": "4870562",
+                  "name": "Dominick Barlow",
+                  "position": "F",
+                  "jersey": "25",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
               },
               {
                 "player": {
-                  "name": "Joel Embiid"
+                  "id": "3059318",
+                  "name": "Joel Embiid",
+                  "position": "C",
+                  "jersey": "21",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3059318.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
               },
               {
                 "player": {
-                  "name": "Tacko Fall"
+                  "id": "3904625",
+                  "name": "Tacko Fall",
+                  "position": "C",
+                  "jersey": "99",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3904625.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
               },
               {
                 "player": {
-                  "name": "Adem Bona"
+                  "id": "5105637",
+                  "name": "Adem Bona",
+                  "position": "C",
+                  "jersey": "30",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105637.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
               },
               {
                 "player": {
-                  "name": "Anfernee Simons"
+                  "id": "4351851",
+                  "name": "Anfernee Simons",
+                  "position": "G",
+                  "jersey": "5",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4351851.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
               },
               {
                 "player": {
-                  "name": "Tyrese Maxey"
+                  "id": "4431678",
+                  "name": "Tyrese Maxey",
+                  "position": "G",
+                  "jersey": "0",
+                  "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png"
                 },
+                "starter": false,
+                "didNotPlay": true,
+                "reason": "COACH'S DECISION",
+                "minutes_display": null,
                 "statistics": []
+              }
+            ],
+            "totals": [
+              {
+                "name": "Total Points Scored",
+                "value": 120
+              },
+              {
+                "name": "Total Rebounds",
+                "value": 53
+              },
+              {
+                "name": "Total Assists",
+                "value": 29
+              },
+              {
+                "name": "Total Steals",
+                "value": 6
+              },
+              {
+                "name": "Total Blocks",
+                "value": 7
+              },
+              {
+                "name": "Total Turnovers",
+                "value": 8
+              },
+              {
+                "name": "Offensive Rebounds",
+                "value": 10
+              },
+              {
+                "name": "Defensive Rebounds",
+                "value": 43
+              },
+              {
+                "name": "Personal Fouls",
+                "value": 25
+              },
+              {
+                "name": "Field Goals Made",
+                "value": 41
+              },
+              {
+                "name": "Field Goals Attempted",
+                "value": 97
+              },
+              {
+                "name": "Three Pointers Made",
+                "value": 16
+              },
+              {
+                "name": "Three Pointers Attempted",
+                "value": 46
+              },
+              {
+                "name": "Free Throws Made",
+                "value": 22
+              },
+              {
+                "name": "Free Throws Attempted",
+                "value": 28
               }
             ]
           }
@@ -899,7 +3133,7 @@
         "phase": "Preseason",
         "season": "2026-27",
         "association": "official-channel-teams-and-date",
-        "metadata_checked_at": "2026-10-08T10:26:36.844Z",
+        "metadata_checked_at": "2026-10-08T14:23:23.461Z",
         "published_at": null,
         "duration_seconds": null
       },
@@ -924,12 +3158,11 @@
         }
       ],
       "meta": {
-        "errors": [
-          "NBA YouTube: HTTP 404: /feeds/videos.xml"
-        ],
+        "errors": [],
         "source": "ESPN public schedule and game summary; official NBA YouTube"
       },
-      "highlight_status": "available"
+      "highlight_status": "available",
+      "box_score_version": 2
     },
     {
       "game": {
