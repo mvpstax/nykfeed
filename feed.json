@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T17:45:20.177Z",
+  "generated_at": "2026-10-09T18:00:49.709Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 113,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 4763,
+    "refresh_duration_ms": 30469,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 21
+        "items": 20
       },
       {
         "source_key": "knicks_film_school",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,59 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 104,
       "missing": 10,
-      "article_pages_checked": 1
+      "article_pages_checked": 3
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "cca60b6523c9eaeb102a",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Bruce Brown Just Gave Knicks a Good Glimpse of His Potential Value",
+      "summary": "Bruce Brown Jr.'s tryout with the Knicks took a positive step forward Thursday night, as the veteran made a case for the team to keep him against the Wizards.",
+      "author": "Shaz Ally",
+      "published_at": "2026-10-09T18:00:02.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/bruce-brown-just-gave-knicks-good-glimpse-potential-value-01m4gft4ab1y",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_66,w_2200,h_1237/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4gpq8qbmkj32dp3wc.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/bruce-brown-just-gave-knicks-good-glimpse-potential-value-01m4gft4ab1y",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-09T18:00:49.070Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "2ddacc5068e30114a7d9",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Atlantic Notes: Clarkson, Embiid, D. Jones, K. Anderson",
+      "summary": "Jordan Clarkson averaged a career-low 17.8 minutes per game with the Knicks last season and occasionally fell out of Mike Brown’s rotation, but the veteran guard didn’t take any meetings or field any offers from rival suitors as a free agent during the offseason, writes Stefan Bondy of The New York Post. “It was pretty […]",
+      "author": "Luke Adams",
+      "published_at": "2026-10-09T17:58:12.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/atlantic-notes-clarkson-embiid-d-jones-k-anderson.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/03/Jordan-Clarkson-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/atlantic-notes-clarkson-embiid-d-jones-k-anderson.html"
+      },
+      "image_checked_at": "2026-10-09T18:00:49.071Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "e48a00e02320b6deb6e2",
       "type": "social",
@@ -740,6 +786,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxh3s3s4ca2r",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "756693f5bafc0dbce371",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks shut down Karl-Anthony Towns contract talks before season",
+      "summary": "The Knicks announced on Friday morning that they would not be doing any contract negotiations at the moment.",
+      "author": null,
+      "published_at": "2026-10-09T13:35:30.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-shut-down-karl-anthony-133530241.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/6db28350a4f61714d1edb1d1f35deb56.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-shut-down-karl-anthony-133530241.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1798,9 +1865,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/kevin-mccullar-should-be-worried-knicks-turn-up-heat-camp-01m4e5wcpy0a",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-09T18:00:49.071Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-08T18:00:26.438Z"
+      "image_status": "available"
     },
     {
       "id": "55619f1d164689b77afd",
@@ -3171,9 +3238,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/james-wiseman-must-realize-the-knicks-opportunity-in-front-of-him-01m45575d1fm",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-09T17:45:20.104Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-09T17:45:20.104Z"
     },
     {
       "id": "ff30f2b32fc6423477f6",
@@ -3242,29 +3309,6 @@
       "image_checked_at": "2026-10-09T11:30:25.510Z"
     },
     {
-      "id": "66885948b4952d1e6602",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "What’s Next for Knicks and Tyler Nickel After His Two-Way Deal",
-      "summary": "A breakdown of what Knicks fans can expect from rookie guard Tyler Nickel after recently signing a two-way contract.",
-      "author": "Kento Kato",
-      "published_at": "2026-10-04T18:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/what-s-next-knicks-tyler-nickel-after-his-two-way-deal-01m3ywps09xz",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_59,w_3976,h_2236/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3ywszvdzr8nsqbcan.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/what-s-next-knicks-tyler-nickel-after-his-two-way-deal-01m3ywps09xz",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-08T18:30:23.253Z"
-    },
-    {
       "id": "2e184aa8b903fefaa68e",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3285,29 +3329,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-09T15:15:19.403Z"
-    },
-    {
-      "id": "2a487e43beddb8351269",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "8 Items That Should Be on Knicks’ Wishlist for 2026-27 Season",
-      "summary": "If the Knicks want to repeat as NBA champions, they'll need some key developments up and down their roster.",
-      "author": "Scott Davis",
-      "published_at": "2026-10-04T11:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/8-items-should-be-knicks-wishlist-2026-27-season-01m3sshtv2pg",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_144,y_0,w_3861,h_2171/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3stgmj2fgaftmx6e4.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/8-items-should-be-knicks-wishlist-2026-27-season-01m3sshtv2pg",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-09T11:30:25.511Z"
     },
     {
       "id": "d500cf54410ee1e2e11d",
