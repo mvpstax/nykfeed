@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T18:15:18.150Z",
+  "generated_at": "2026-10-09T18:30:21.623Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 115,
     "game_count": 0,
-    "refresh_duration_ms": 4835,
+    "refresh_duration_ms": 4097,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 21
+        "items": 22
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 104,
+      "available": 105,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "fbbfa429d460c9157afd",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxhlmxvuln2t",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Breaking down the NBA's second apron - and the Knicks headache that comes with it",
+      "published_at": "2026-10-09T18:20:07.102Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxhlmxvuln2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreihhy6h355mfdi6di4websnqi2h7ytt2wpbsma2kdamclpb6luovua",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxhlmxvuln2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "35b552c9b0685126736e",
       "type": "social",
