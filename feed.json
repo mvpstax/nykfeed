@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T06:00:24.636Z",
+  "generated_at": "2026-10-09T06:15:18.965Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 104,
+    "item_count": 105,
     "game_count": 0,
-    "refresh_duration_ms": 3722,
+    "refresh_duration_ms": 4603,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 16
+        "items": 17
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 95,
+      "available": 96,
       "missing": 9,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "e814eee3214288069c4e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxgcsirzcn2x",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Knicks starters effective after Mike Brown gives them extended minutes",
+      "published_at": "2026-10-09T06:09:28.907Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxgcsirzcn2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidranc4ogsiz57sjxnytjaeojfnwcrr5bjbitbxabgqpkiedci4bu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxgcsirzcn2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "fd0c908a8aa83e969a39",
       "type": "article",
