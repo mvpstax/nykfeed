@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T03:15:42.227Z",
+  "generated_at": "2026-10-09T03:30:26.323Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 101,
     "game_count": 0,
-    "refresh_duration_ms": 28276,
+    "refresh_duration_ms": 6313,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -101,6 +100,29 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "9e471f29bd1db8198502",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "3 Biggest Knicks Storylines Coming Out of Preseason Loss vs. Wizards",
+      "summary": "The Knicks lost to the Wizards in a close preseason game on Thursday, and here are the noteworthy storylines from that tight defeat.",
+      "author": "Matthew Miranda",
+      "published_at": "2026-10-09T03:19:53.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/3-biggest-knicks-storylines-coming-out-preseason-loss-vs-wizards-01m4f8gngv3h",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4079,h_2294/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4f8k93gh829mmbrc5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/3-biggest-knicks-storylines-coming-out-preseason-loss-vs-wizards-01m4f8gngv3h",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-09T03:30:25.929Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "cf15ce3436a229b9b8c1",
       "type": "social",
@@ -2944,9 +2966,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-wiseman-center-bradley-drummond-towns.html"
       },
-      "image_checked_at": "2026-10-09T03:15:42.009Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-09T03:15:42.009Z"
     },
     {
       "id": "098fb2f72dea52a64c88",
@@ -2970,29 +2992,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-08T18:45:23.474Z"
-    },
-    {
-      "id": "595c3861c0605a643cd3",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks' Two-Way Situation Could Change Even After Filling Last Spot",
-      "summary": "Even though the Knicks just filled their final two-way contract spot, there's reason to believe they could shake things up here in the coming weeks.",
-      "author": "Steven Simineri",
-      "published_at": "2026-10-02T19:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-two-way-situation-could-change-after-filling-last-spot-01m3wy5nw7",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3574,h_2010/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m3ytv9cjb51shk66nx.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/knicks-two-way-situation-could-change-after-filling-last-spot-01m3wy5nw7",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-08T18:45:23.475Z"
     }
   ],
   "clusters": [
