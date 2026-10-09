@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T14:45:22.042Z",
+  "generated_at": "2026-10-09T15:00:23.219Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 5393,
+    "refresh_duration_ms": 4221,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -55,7 +55,7 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 10
+        "items": 11
       },
       {
         "source_key": "fox_sports_nba",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 100,
-      "missing": 12,
+      "available": 103,
+      "missing": 11,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "a6ead515443cb8479633",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vcumvue2gcsxexermtdg6cr7/app.bsky.feed.post/3mxh7owydyc2e",
+      "author": "Tommy Beer",
+      "handle": "tommybeernba.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreifi5xitqwmihnc6t7jaskafbqemysh5klbfju44ks527gz43xw6pe",
+      "text": "🚨 New Words 🚨\n\nKnicks Halt Extension Talks\n\nLeon Rose and the front office press pause on extensions as Karl-Anthony Towns' uncertain future hangs over the defending champs.\n\n📬 Freshly Delivered to Inboxes 📬\n\ntommybeer.substack.com/p/knicks-hal...",
+      "published_at": "2026-10-09T14:46:28.398Z",
+      "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mxh7owydyc2e",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreiga76iraclrtwkgwpxkt3sirwznx4yejue4w3o6wllrzn5727pbum",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mxh7owydyc2e",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "f83dbd73d08fc2fd77eb",
       "type": "social",
@@ -135,6 +170,48 @@
       "image_status": "not_provided"
     },
     {
+      "id": "56c70adbe4f822dc1ac1",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Knicks pause contract negotiations with Karl-Athony Towns, Josh Hart, others until 'later in the season'",
+      "summary": "The Knicks released a statement on Friday, and the future of key players will remain uncertain as they begin their NBA title defense",
+      "author": "Robby Kalland",
+      "published_at": "2026-10-09T14:21:24.000Z",
+      "url": "https://www.cbssports.com/nba/news/knicks-pause-contract-negotiations-karl-athony-towns-josh-hart/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/09/4805c597-72df-46b7-9858-f26022428fcb/kat-hart-getty.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/knicks-pause-contract-negotiations-karl-athony-towns-josh-hart/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "58e2d20526a53fdb8f97",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Knicks tabling Karl-Anthony Towns, Josh Hart contract talks",
+      "summary": "The Knicks have said they are tabling contract extension talks with Karl-Anthony Towns and Josh Hart \"until later in the season and will remain solely focused on preparing for the start of the season.\"",
+      "author": null,
+      "published_at": "2026-10-09T14:18:21.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50140136/knicks-tabling-karl-anthony-towns-josh-hart-contract-talks",
+      "image_url": "https://a.espncdn.com/photo/2026/1009/r1728230_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50140136/knicks-tabling-karl-anthony-towns-josh-hart-contract-talks"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "4f95d46cd8ebddd892e5",
       "type": "social",
       "source": "Bluesky",
@@ -167,6 +244,27 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "6b2277ff6b5e95cdcd44",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
+      "summary": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
+      "author": null,
+      "published_at": "2026-10-09T14:14:29.000Z",
+      "url": "https://www.espn.com/video/clip/_/id/50140391/evan-cohen-perplexed-knicks-tabling-contract-talks-kat-hart",
+      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/ss_20261009_100909951_3689682612/ss_20261009_100909951_3689682612.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/video/clip/_/id/50140391/evan-cohen-perplexed-knicks-tabling-contract-talks-kat-hart"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "2b52c1a9eae30b620702",
@@ -312,27 +410,6 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
-    },
-    {
-      "id": "58e2d20526a53fdb8f97",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks tabling Karl-Anthony Towns, Josh Hart contract talks",
-      "summary": "The Knicks have said they are tabling contract extension talks with Karl-Anthony Towns and Josh Hart \"until later in the season and will remain solely focused on preparing for the start of the season.\"",
-      "author": null,
-      "published_at": "2026-10-09T13:40:39.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50140136/knicks-tabling-karl-anthony-towns-josh-hart-contract-talks",
-      "image_url": "https://a.espncdn.com/photo/2026/1009/r1728230_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50140136/knicks-tabling-karl-anthony-towns-josh-hart-contract-talks"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "bd4a23fef743c014aac9",
@@ -1302,40 +1379,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:n5de22vugorstr3f6kbf656m/post/3mxfpqm25ms2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "e9a7e0ee643f6dcd69e5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:vwxutee6gopkcochlvzuafki/app.bsky.feed.post/3mxfpmzxlbc2m",
-      "author": "NBA Champion Raquel🗽",
-      "handle": "raquelnyc1990.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vwxutee6gopkcochlvzuafki/bafkreig2y7j3qz3oskd4wh2hjp46armbr42ew6mdsprk3wqpdc4ocultsy",
-      "text": "Good evening 🌇 hope you are having a good evening. I miss almost the whole preseason game of the Knicks",
-      "published_at": "2026-10-09T00:26:24.799Z",
-      "url": "https://bsky.app/profile/did:plc:vwxutee6gopkcochlvzuafki/post/3mxfpmzxlbc2m",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:vwxutee6gopkcochlvzuafki/post/3mxfpmzxlbc2m",
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
