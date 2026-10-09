@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T18:00:49.709Z",
+  "generated_at": "2026-10-09T18:15:18.150Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 30469,
+    "refresh_duration_ms": 4835,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,47 @@
     "images": {
       "available": 104,
       "missing": 10,
-      "article_pages_checked": 3
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "35b552c9b0685126736e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxhkrvemnj2t",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "How Tabling Extension Talks Could Impact Knicks Both Now and Later (via Sports Illustrated)",
+      "published_at": "2026-10-09T18:04:58.327Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhkrvemnj2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreidylow4z3cc43httovndrrfep7icpgrupzxzcr6c2pf6s2slrxj5a",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhkrvemnj2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "cca60b6523c9eaeb102a",
       "type": "article",
@@ -120,9 +154,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/bruce-brown-just-gave-knicks-good-glimpse-potential-value-01m4gft4ab1y",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-09T18:00:49.070Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-09T18:00:49.070Z"
     },
     {
       "id": "2ddacc5068e30114a7d9",
@@ -142,9 +176,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/atlantic-notes-clarkson-embiid-d-jones-k-anderson.html"
       },
-      "image_checked_at": "2026-10-09T18:00:49.071Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-09T18:00:49.071Z"
     },
     {
       "id": "e48a00e02320b6deb6e2",
@@ -316,7 +350,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -1865,9 +1899,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/kevin-mccullar-should-be-worried-knicks-turn-up-heat-camp-01m4e5wcpy0a",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-09T18:00:49.071Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-09T18:00:49.071Z"
     },
     {
       "id": "55619f1d164689b77afd",
@@ -2832,41 +2866,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-09T00:15:19.288Z"
-    },
-    {
-      "id": "1a12bc7029e4e61d0b06",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxak7p4h5c22",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Bruce Brown ‘very surprised’ to be fighting different kind of second-apron battle for Knicks chance (via New York Post)",
-      "published_at": "2026-10-06T23:06:09.620Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxak7p4h5c22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiaehmnujt6bq2m62hjwtpmngdaqliz4y2hdnj2jkjwyyyxzs3dl6e",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxak7p4h5c22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "f60e6d9458e60d34cfc9",
