@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T00:15:19.610Z",
+  "generated_at": "2026-10-09T00:30:46.729Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 91,
+    "item_count": 90,
     "game_count": 0,
-    "refresh_duration_ms": 4456,
+    "refresh_duration_ms": 29219,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 24
+        "items": 22
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 84,
+      "available": 83,
       "missing": 7,
       "article_pages_checked": 1
     },
@@ -100,6 +101,74 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "b4de85ab906e49228bec",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:n5de22vugorstr3f6kbf656m/app.bsky.feed.post/3mxfpqm25ms2p",
+      "author": "RobbDobbs",
+      "handle": "robbdobbs.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:n5de22vugorstr3f6kbf656m/bafkreighkxjqve2psjsllisecfpvth6jap7suspepq3ah7adsppqeasjha",
+      "text": "The Knicks have to stop treating Drummond like he's KAT",
+      "published_at": "2026-10-09T00:28:24.422Z",
+      "url": "https://bsky.app/profile/did:plc:n5de22vugorstr3f6kbf656m/post/3mxfpqm25ms2p",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:n5de22vugorstr3f6kbf656m/post/3mxfpqm25ms2p",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "e9a7e0ee643f6dcd69e5",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vwxutee6gopkcochlvzuafki/app.bsky.feed.post/3mxfpmzxlbc2m",
+      "author": "NBA Champion Raquel🗽",
+      "handle": "raquelnyc1990.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vwxutee6gopkcochlvzuafki/bafkreig2y7j3qz3oskd4wh2hjp46armbr42ew6mdsprk3wqpdc4ocultsy",
+      "text": "Good evening 🌇 hope you are having a good evening. I miss almost the whole preseason game of the Knicks",
+      "published_at": "2026-10-09T00:26:24.799Z",
+      "url": "https://bsky.app/profile/did:plc:vwxutee6gopkcochlvzuafki/post/3mxfpmzxlbc2m",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vwxutee6gopkcochlvzuafki/post/3mxfpmzxlbc2m",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "42600484b1bd2acb818b",
       "type": "social",
@@ -122,7 +191,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -306,40 +375,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "63d71306e6ce9804a4ad",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:qkbkgv6tgnvbyw2xfh2iaqny/app.bsky.feed.post/3mxfmdjmiec24",
-      "author": "Kate",
-      "handle": "katec111.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:qkbkgv6tgnvbyw2xfh2iaqny/bafkreiebfvqzijpr72zklbeylkttpmmfsyhutvo6xqimhgkzvaoshkkfle",
-      "text": "Back in the land of the living after several days in the far north.  \n\nKnicks vs Wizards preseason let’s go!!!!  \n\nLGK 🧡💙\n#KnicksSky",
-      "published_at": "2026-10-08T23:27:24.442Z",
-      "url": "https://bsky.app/profile/did:plc:qkbkgv6tgnvbyw2xfh2iaqny/post/3mxfmdjmiec24",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:qkbkgv6tgnvbyw2xfh2iaqny/post/3mxfmdjmiec24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "afc0fbea0c2f146a128d",
       "type": "social",
       "source": "Bluesky",
@@ -369,41 +404,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxflakgnym23",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "d657e35df15d96dc8585",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxfjc6bndr22",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Knicks' Tyler Kolek's girlfriend reveals parade incident that 'not a lot of people know'",
-      "published_at": "2026-10-08T22:32:57.555Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxfjc6bndr22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreigixdkuopi4vzoyvhhe4h63n3s3cenpjze3emcfof4r6n5ueddyja",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxfjc6bndr22",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -501,40 +501,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-08T21:00:42.315Z"
-    },
-    {
-      "id": "c005872151fc36393a3b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:vcumvue2gcsxexermtdg6cr7/app.bsky.feed.post/3mxfch5dshc2p",
-      "author": "Tommy Beer",
-      "handle": "tommybeernba.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreifi5xitqwmihnc6t7jaskafbqemysh5klbfju44ks527gz43xw6pe",
-      "text": "the Knicks play at MSG tonight \n\nthe last shot made in basketball game at MSG was OG's tip-in\n\njust a reminder",
-      "published_at": "2026-10-08T20:30:28.377Z",
-      "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mxfch5dshc2p",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 6,
-        "likes": 18
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mxfch5dshc2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "ffa84b0c3a75f817656d",
@@ -1695,9 +1661,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/ochai-agbaji-already-be-preseason-danger-knicks-01m490c0rnag",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-09T00:15:19.288Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-09T00:15:19.288Z"
     },
     {
       "id": "1a12bc7029e4e61d0b06",
@@ -2562,9 +2528,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-getting-great-signs-tyler-kolek-despite-tricky-position-01m3jbxtmw4y",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-09T00:30:46.374Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-08T00:30:20.273Z"
+      "image_status": "available"
     },
     {
       "id": "9a49bc474da9eb663ed5",
