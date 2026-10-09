@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T06:15:18.965Z",
+  "generated_at": "2026-10-09T06:30:49.590Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 4603,
+    "refresh_duration_ms": 29456,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "espn",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 96,
+      "available": 97,
       "missing": 9,
       "article_pages_checked": 0
     },
@@ -131,6 +132,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxgcsirzcn2x",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "9676ea88f5bce549f289",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Karl-Anthony Towns, Knicks Remain Far Apart On Extension",
+      "summary": "Karl-Anthony Towns and the New York Knicks are still far apart on agreeing to a contract extension, according to Chris Haynes. Haynes said that Towns is willing to take less money to get an extension signed. Towns is currently eligible for a four-year, $276 million extension. \"Karl-Anthony Towns is willing to take less, but they're nowhere close to that ... the Knicks have offered four years, $200 million. And Karl-Anthony Towns, his representation, they're not going for that right now. \"So this is a situation where Karl-Anthony Towns believes that this should be done ... he's willing to take a little less than his max. He believes he's done all he could do to sacrifice for the team to help them get the championship,\" said Haynes. Haynes added it's looking like Towns will enter the season without an extension, with Towns saying earlier this week that getting the situation resolved \" don't look good. \" \"This is something that he wished was resolved sooner than later, but it doesn't look like that's the case as of right now,\" said Haynes.",
+      "author": null,
+      "published_at": "2026-10-09T05:27:44.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287562/Karl-Anthony-Towns-Knicks-Remain-Far-Apart-On-Extension",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Towns_Karlanthony_nyk_260605.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287562/Karl-Anthony-Towns-Knicks-Remain-Far-Apart-On-Extension"
       },
       "image_status": "available",
       "image_source": "source_feed"
