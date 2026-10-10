@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T19:15:43.149Z",
+  "generated_at": "2026-10-10T19:30:24.088Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 119,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 28859,
+    "refresh_duration_ms": 5622,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 5
+        "items": 6
       },
       {
         "source_key": "espn",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 109,
+      "available": 110,
       "missing": 10,
-      "article_pages_checked": 0
+      "article_pages_checked": 3
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -135,6 +134,28 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "ad99077baca970f56b6c",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Josh Hart 'Not Too Stressed' About Knicks Stopping Extension Talks",
+      "summary": "New York Knicks wing Josh Hart was asked about the team tabling extension talks for eligible players, such as himself. Hart didn't seem as worried about the situation as teammates Karl-Anthony Towns and Miles McBride seem to be. \"Everything is going to work out. I'm not really too stressed over it,\" Hart said. \"I'm not putting too much into it. We have expectations, so it's good we are able to focus on the season.\" Hart has two years left on his contract. This season, the veteran wing is owed $20.9 million. Next season, the Knicks hold a $22.4 million team option for Hart. In order for Hart to extend after October 19, New York would need to decline that team option first. As things play out, Hart was honest that their next deals would occasionally be on the minds of the extension-eligible players. \"There will be days where we don't think about it,\" Hart said. \"There will be days where it's top of the mind. We're humans.\"",
+      "author": null,
+      "published_at": "2026-10-10T18:51:48.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287584/Josh-Hart-Not-Too-Stressed-About-Knicks-Stopping-Extension-Talks",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Hart_Josh_nyk_250429.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287584/Josh-Hart-Not-Too-Stressed-About-Knicks-Stopping-Extension-Talks"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_cab159d7f8db"
     },
     {
       "id": "f1fbab8889957004096d",
@@ -289,7 +310,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -1067,7 +1088,8 @@
         "url": "https://www.cbssports.com/nba/news/knicks-pause-contract-extension-talks-karl-anthony-towns-josh-hart-deuce-mcbride/"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_cab159d7f8db"
     },
     {
       "id": "980783a39fae4d349bc0",
@@ -1087,9 +1109,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/nba-disputes-notion-that-second-apron-is-hurting-middle-class.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T19:30:23.880Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T19:30:20.890Z"
+      "image_status": "available"
     },
     {
       "id": "9ec454cc4f8e9b3d623a",
@@ -2585,9 +2607,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-bridges-reserves-14th-man-more.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T19:30:23.880Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T19:30:20.891Z"
+      "image_status": "available"
     },
     {
       "id": "9c8d67d6e0f8995e9f0b",
@@ -3186,9 +3208,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/extension-notes-miller-wallace-towns-davis.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T19:30:23.881Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T19:30:20.892Z"
+      "image_status": "available"
     },
     {
       "id": "056c701abefa8c2d46ae",
@@ -3498,6 +3520,21 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_cab159d7f8db",
+      "lead_item_id": "ad99077baca970f56b6c",
+      "item_ids": [
+        "ad99077baca970f56b6c",
+        "ebd4ce88792c08f25fcf"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-10-10T18:51:48.000Z",
+      "title": "Josh Hart 'Not Too Stressed' About Knicks Stopping Extension Talks",
+      "event_type": "extension",
+      "entities": [
+        "josh hart"
+      ]
+    },
     {
       "id": "cluster_4ad34153d3e4",
       "lead_item_id": "abf89d537e68947aec73",
