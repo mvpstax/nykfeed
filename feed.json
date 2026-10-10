@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T22:30:21.190Z",
+  "generated_at": "2026-10-10T22:45:23.501Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4740,
+    "refresh_duration_ms": 8068,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -45,7 +45,7 @@
       {
         "source_key": "espn",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "yahoo_sports_nba",
@@ -100,6 +100,27 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "ed4b254c6563804ac576",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Knicks' Towns opens up about grief for World Mental Health Day",
+      "summary": "Karl-Anthony Towns shared his emotional journey following the death of his mother six years ago to mark World Mental Health Day on Saturday.",
+      "author": null,
+      "published_at": "2026-10-10T22:08:59.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50151066/knicks-towns-opens-grief-world-mental-health-day",
+      "image_url": "https://a.espncdn.com/photo/2026/0424/r1648593_600x400_3-2.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50151066/knicks-towns-opens-grief-world-mental-health-day"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "4e70d051c138b69d550d",
       "type": "article",
@@ -412,7 +433,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -3255,7 +3276,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-10T19:30:23.881Z"
+      "image_checked_at": "2026-10-10T19:30:23.881Z",
+      "cluster_id": "cluster_4ad34153d3e4"
     },
     {
       "id": "056c701abefa8c2d46ae",
@@ -3497,28 +3519,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_4ad34153d3e4"
-    },
-    {
-      "id": "ff30f2b32fc6423477f6",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Karl-Anthony Towns Frustrated By Knicks Extension Talks",
-      "summary": "There remains a significant gap in contract talks between the Knicks and star center Karl-Anthony Towns, writes James L. Edwards III of The Athletic. Speaking to reporters after shootaround on Monday morning, Towns expressed skepticism about signing an extension before the 2026/27 season begins. “It don’t look good,” Towns said. ESPN reported a couple weeks […]",
-      "author": "Rory Maher",
-      "published_at": "2026-10-05T16:49:32.000Z",
-      "url": "https://www.hoopsrumors.com/2026/10/karl-anthony-towns-frustrated-by-knicks-contract-talks.html",
-      "image_url": "https://www.hoopsrumors.com/files/2026/01/Karl-Anthony-Towns-vert-200x300.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/10/karl-anthony-towns-frustrated-by-knicks-contract-talks.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4ad34153d3e4"
     }
   ],
   "clusters": [
@@ -3540,15 +3540,15 @@
     },
     {
       "id": "cluster_4ad34153d3e4",
-      "lead_item_id": "abf89d537e68947aec73",
+      "lead_item_id": "e2829117d2879bf0a560",
       "item_ids": [
+        "e2829117d2879bf0a560",
         "abf89d537e68947aec73",
-        "d2c0849bb53c1f2e6b49",
-        "ff30f2b32fc6423477f6"
+        "d2c0849bb53c1f2e6b49"
       ],
       "source_count": 3,
-      "updated_at": "2026-10-06T13:01:23.000Z",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "updated_at": "2026-10-06T18:57:35.000Z",
+      "title": "Extension Notes: Miller, Wallace, Towns, Davis",
       "event_type": "extension",
       "entities": [
         "karl anthony towns"
