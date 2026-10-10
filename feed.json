@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T20:30:23.567Z",
+  "generated_at": "2026-10-10T20:45:47.109Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4766,
+    "refresh_duration_ms": 30020,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 110,
       "missing": 10,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -3075,9 +3076,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-tyler-nickel-rocky-debut-01m4bnwspf3w",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-10T20:30:23.183Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-10T20:30:23.183Z"
     },
     {
       "id": "02c5bd54a3635c66754c",
@@ -3209,9 +3210,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-mohamed-diawara-start-knicks-preseason-so-exciting-01m493n0ckmt",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-10T20:30:23.183Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-10T20:30:23.183Z"
     },
     {
       "id": "e2829117d2879bf0a560",
