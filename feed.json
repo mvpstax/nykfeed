@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T21:00:22.359Z",
+  "generated_at": "2026-10-10T21:15:43.121Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4271,
+    "refresh_duration_ms": 29327,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 110,
       "missing": 10,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -296,9 +297,9 @@
         "width": 720
       },
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -949,9 +950,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-quietly-easing-knicks-concerns-early-days-01m4gpgvaebv",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T21:15:42.571Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T21:00:22.537Z"
+      "image_status": "available"
     },
     {
       "id": "094483bc668fc93d7260",
@@ -2538,9 +2539,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-need-to-know-wizards-oct-8-tv-info-lineups-rotation-injuries-more-01m4e74ka46m",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T21:15:42.572Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T21:15:20.131Z"
+      "image_status": "available"
     },
     {
       "id": "ffa84b0c3a75f817656d",
