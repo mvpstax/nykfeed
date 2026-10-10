@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T11:00:21.995Z",
+  "generated_at": "2026-10-10T11:15:43.468Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3912,
+    "refresh_duration_ms": 29518,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,49 @@
       }
     ],
     "images": {
-      "available": 108,
-      "missing": 12,
+      "available": 109,
+      "missing": 11,
       "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "207040b872754998c072",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mxjdqekrus22",
+      "author": "Posting and Toasting",
+      "handle": "postingandtoasting.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
+      "text": "Three winners and three losers from Knicks’ first two preseason games",
+      "published_at": "2026-10-10T11:04:10.630Z",
+      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxjdqekrus22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreifroq3dra6o4yqqcx5xrtmonuigjiw4cq7qfok3kf6kawe3vsgxc4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxjdqekrus22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "5a7faa0847e6056f6ce2",
       "type": "article",
@@ -119,9 +155,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/miles-mcbride-knicks-biggest-preseason-letdown-so-far-01m4gwmayp9x",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-10T11:00:21.560Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-10T11:00:21.560Z"
     },
     {
       "id": "7d08955aba4322d7ece8",
@@ -2177,40 +2213,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "5d223a70949a1ad80cc1",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3mxfuszwt522z",
-      "author": "🏆Knicks Forever🏆",
-      "handle": "wildstreet.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
-      "text": "Lost the 4th quarter and the game, but guess what…the Knicks are the 2026 NBA Champions!! 😊🏆🧡💙",
-      "published_at": "2026-10-09T01:59:14.809Z",
-      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mxfuszwt522z",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 8
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3mxfuszwt522z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "e480b998e4429e7d69ba",
       "type": "social",
       "source": "Bluesky",
@@ -2709,9 +2711,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-points-interest-watch-knicks-preseason-game-wizards-01m4bvx8x5aq",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T11:15:43.028Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T11:00:54.447Z"
+      "image_status": "available"
     },
     {
       "id": "4793931b67fe7bf25cc7",
