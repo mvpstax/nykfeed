@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T21:30:26.319Z",
+  "generated_at": "2026-10-10T21:45:19.370Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 8828,
+    "refresh_duration_ms": 6015,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,34 @@
     "images": {
       "available": 110,
       "missing": 10,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4e70d051c138b69d550d",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Josh Hart Reacts To Knicks’ Decision To Table Extension Talks",
+      "summary": "The Knicks put out a statement on Friday that they’re tabling contract talks with players who are eligible for extensions until later in the 2026/27 season. One of those extension-eligible players, Josh Hart, spoke about his contract situation at media day last month, acknowledging that he’d prefer to get a deal done sooner rather than later […]",
+      "author": "Rory Maher",
+      "published_at": "2026-10-10T21:39:09.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/josh-hart-reacts-to-knicks-decision-to-table-extension-talks.html",
+      "image_url": "https://www.hoopsrumors.com/files/2026/10/Josh-Hart-vert-200x300.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/josh-hart-reacts-to-knicks-decision-to-table-extension-talks.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_cab159d7f8db"
+    },
     {
       "id": "6a2f8639717bcdb97208",
       "type": "article",
@@ -1735,7 +1757,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 1,
-        "likes": 7
+        "likes": 8
       },
       "team": "NYK",
       "presentation": {
@@ -3052,9 +3074,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/atlantic-notes-brown-leonard-demin-porter-jr-randle.html"
       },
-      "image_checked_at": "2026-10-10T21:30:26.234Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-10T21:30:26.234Z"
     },
     {
       "id": "ca75787a35ffba049dd4",
@@ -3497,40 +3519,20 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_4ad34153d3e4"
-    },
-    {
-      "id": "737313e838231622eb33",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Ranking the NBA's best starting fives: 76ers look great on paper, but champion Knicks hold No. 1 spot",
-      "summary": "With the 2026-27 NBA season fast approaching, we're ranking the five best starting units in the league",
-      "author": "John Gonzalez",
-      "published_at": "2026-10-05T12:52:31.000Z",
-      "url": "https://www.cbssports.com/nba/news/ranking-nba-best-starting-fives-76ers-knicks/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/04/f39ff464-b03c-4dc2-9984-63199866baf4/knicks-starting-five-getty.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/nba/news/ranking-nba-best-starting-fives-76ers-knicks/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": [
     {
       "id": "cluster_cab159d7f8db",
-      "lead_item_id": "ad99077baca970f56b6c",
+      "lead_item_id": "4e70d051c138b69d550d",
       "item_ids": [
+        "4e70d051c138b69d550d",
         "ad99077baca970f56b6c",
         "ebd4ce88792c08f25fcf"
       ],
-      "source_count": 2,
-      "updated_at": "2026-10-10T18:51:48.000Z",
-      "title": "Josh Hart 'Not Too Stressed' About Knicks Stopping Extension Talks",
+      "source_count": 3,
+      "updated_at": "2026-10-10T21:39:09.000Z",
+      "title": "Josh Hart Reacts To Knicks’ Decision To Table Extension Talks",
       "event_type": "extension",
       "entities": [
         "josh hart"
