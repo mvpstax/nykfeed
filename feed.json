@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T15:15:46.136Z",
+  "generated_at": "2026-10-10T15:30:23.796Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 28543,
+    "refresh_duration_ms": 4830,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 6
+        "items": 5
       },
       {
         "source_key": "espn",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,50 @@
     "images": {
       "available": 110,
       "missing": 10,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "a3b78296ded3672fd01e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:7okgq3dsknx6wmzaoltr3pe4/app.bsky.feed.post/3mxjshkbus22u",
+      "author": "theSoreWinner",
+      "handle": "thesorewinner.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreib6gdhfh3diegqifm2kxbszmtki6bghe5a337wlfizvab4wvgiosu",
+      "text": "ticket prides are pure insanity and james dolan still an ass. PAY KAT. \n#KNICKS #KnicksBlueSkies #KnicksSky\n#KnicksIn5 ✋🏽💥",
+      "published_at": "2026-10-10T15:27:40.769Z",
+      "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3mxjshkbus22u",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A7okgq3dsknx6wmzaoltr3pe4/bafkreigjs46vwpe736zz4cnmkqdtm3ltdalywdlshnkadlp744rjvyppji/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A7okgq3dsknx6wmzaoltr3pe4/bafkreigjs46vwpe736zz4cnmkqdtm3ltdalywdlshnkadlp744rjvyppji/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A7okgq3dsknx6wmzaoltr3pe4/bafkreigjs46vwpe736zz4cnmkqdtm3ltdalywdlshnkadlp744rjvyppji/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1280,
+        "width": 720
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3mxjshkbus22u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c97feee0bc6147c06050",
       "type": "social",
@@ -123,7 +160,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -1658,27 +1695,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "2b52c1a9eae30b620702",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks suspend contract extension talks for Karl-Anthony Towns, Josh Hart 'until later in the season'",
-      "summary": "On the eve of a new season, the Knicks have tabled negotiations with extension-eligible players — including two key starters from last year's title team.",
-      "author": "Dan Devine",
-      "published_at": "2026-10-09T14:12:32.000Z",
-      "url": "https://sports.yahoo.com/nba/breaking-news/article/knicks-suspend-contract-extension-talks-for-karl-anthony-towns-josh-hart-until-later-in-the-season-141716316.html",
-      "image_url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/8bc2f6f1-7431-4ea8-8a0c-bcfd48a5a68e",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/breaking-news/article/knicks-suspend-contract-extension-talks-for-karl-anthony-towns-josh-hart-until-later-in-the-season-141716316.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "24bbe46ddb1e5d43a10c",
       "type": "article",
       "source": "RealGM",
@@ -2059,41 +2075,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:2e2ccgbatxsuj6tojncotybe/post/3mxg7y4zvss22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "af41c2ff4aee8a2484cc",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mxg5srzhck2k",
-      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
-      "handle": "kingfitch1990.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreibk5k75qcfumwzdnhcmeatqv5ozkw3k3s664vshovpuodj6fdxff4",
-      "text": "Is it time for the Knicks to move on from Pacome Dadiet? \n\n#knicks #nba #firesideknicks",
-      "published_at": "2026-10-09T04:40:10.181Z",
-      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxg5srzhck2k",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreigonv5yhlumyhgikyzfx2lwnuokfiwzs27bcqwscnpapmivc5pe2m",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxg5srzhck2k",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2905,28 +2886,6 @@
       "image_checked_at": "2026-10-10T00:00:24.397Z"
     },
     {
-      "id": "86ca5c51698c315972a2",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Mike Breen Apologizes After LeBron James Refutes Joel Embiid Practice Story",
-      "summary": "ESPN's Mike Breen apologized on Wednesday after LeBron James disputed a story Breen shared about new Philadelphia 76ers teammate Joel Embiid. Breen told ESPN he regrets the attention the anecdote brought to Embiid. \"I'm so disappointed how the story was interpreted,\" said Breen. \"The whole intent was praising LeBron for already having an impact on the team's professionalism and accountability, even something so benign as a player getting on the court for practice a minute or two late.\" Breen relayed the story during the fourth quarter of Monday's preseason opener, a 120-97 Sixers win over the New York Knicks on MSG. Breen said on air that Embiid arrived at practice a couple of minutes late and James called him out. Breen said the information came from someone he trusts and shared it to highlight James' early leadership in Philadelphia. James rejected the account Tuesday on Instagram, writing that Embiid has not been late and urging people to stop spreading lies. Breen accepted James' version of events. \"I don't know why the person who told me the story would make it up, but if LeBron says it never happened then I believe him and apologize for putting it out there,\" said Breen. Two seasons ago, during a 2-11 start, sources told ESPN's Shams Charania that teammates had called Embiid out for being late. Nick Nurse said he only learned of the situation after Wednesday's practice. He praised Embiid's work in camp. \"I'm just surprised by what I was told before and what you guys are asking me about, because he's been excellent,\" said Nurse. \"He's in great shape, he's been on the practice floor. He's worked very hard and he looks really great. So, it just surprises me that something like that came out right now.\" James, Embiid and Tyrese Maxey did not play against the Knicks. Philadelphia visits the Brooklyn Nets on Thursday.",
-      "author": null,
-      "published_at": "2026-10-07T23:02:02.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287550/Mike-Breen-Apologizes-After-LeBron-James-Refutes-Joel-Embiid-Practice-Story",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Embiid_Joel_phi_260406.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287550/Mike-Breen-Apologizes-After-LeBron-James-Refutes-Joel-Embiid-Practice-Story"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_570998fa066f"
-    },
-    {
       "id": "f51db6911c477269c142",
       "type": "article",
       "source": "CBS Sports",
@@ -2945,8 +2904,7 @@
         "url": "https://www.cbssports.com/nba/news/mike-breen-apologizes-lebron-james-joel-embiid-76ers-knicks/"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_570998fa066f"
+      "image_source": "source_feed"
     },
     {
       "id": "008af4820e435923662c",
@@ -3519,6 +3477,49 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_4ad34153d3e4"
+    },
+    {
+      "id": "737313e838231622eb33",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Ranking the NBA's best starting fives: 76ers look great on paper, but champion Knicks hold No. 1 spot",
+      "summary": "With the 2026-27 NBA season fast approaching, we're ranking the five best starting units in the league",
+      "author": "John Gonzalez",
+      "published_at": "2026-10-05T12:52:31.000Z",
+      "url": "https://www.cbssports.com/nba/news/ranking-nba-best-starting-fives-76ers-knicks/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/04/f39ff464-b03c-4dc2-9984-63199866baf4/knicks-starting-five-getty.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/ranking-nba-best-starting-fives-76ers-knicks/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "2e184aa8b903fefaa68e",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: Diawara, Guards, Alvarado, Preseason Opener",
+      "summary": "The Knicks are hoping 2025 second-round pick Mohamed Diawara will continue to improve in his second season after a solid rookie campaign in which he received rotation minutes at times, writes Jared Schwartz of The New York Post. At 6’9″ with a 7’4″ wingspan, Diawara has excellent size for a forward. Teammate OG Anunoby believes […]",
+      "author": "Rory Maher",
+      "published_at": "2026-10-04T14:22:09.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-diawara-guards-alvarado-preseason-opener.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/Mohamed-Diawara-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-diawara-guards-alvarado-preseason-opener.html"
+      },
+      "image_checked_at": "2026-10-10T15:30:23.769Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
@@ -3536,19 +3537,6 @@
       "entities": [
         "karl anthony towns"
       ]
-    },
-    {
-      "id": "cluster_570998fa066f",
-      "lead_item_id": "86ca5c51698c315972a2",
-      "item_ids": [
-        "86ca5c51698c315972a2",
-        "f51db6911c477269c142"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-10-07T23:02:02.000Z",
-      "title": "Mike Breen Apologizes After LeBron James Refutes Joel Embiid Practice Story",
-      "event_type": "other",
-      "entities": []
     },
     {
       "id": "cluster_4ad34153d3e4",
