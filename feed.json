@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T19:00:28.174Z",
+  "generated_at": "2026-10-10T19:15:43.149Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 120,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 5420,
+    "refresh_duration_ms": 28859,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 110,
+      "available": 109,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -100,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "07943c449dce4239f9a1",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxk6mdrh752w",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Josh Hart 'Not Too Stressed' About Knicks Ending Extensions Talks (via RealGM)",
+      "published_at": "2026-10-10T19:05:06.415Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxk6mdrh752w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiakkbqmlutgtkybshdx7kwsxekzafaz6mzlb57o4ldwz7xjjzszn4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxk6mdrh752w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "f1fbab8889957004096d",
       "type": "social",
@@ -1414,28 +1450,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-10T17:00:28.457Z"
-    },
-    {
-      "id": "31b6c6af6880eb972b37",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns, Josh Hart in contract limbo after Knicks talks paused",
-      "summary": "The Knicks said they are pausing negotiations with all extension-eligible players. It could have a big impact on Karl-Anthony Towns and Josh Hart.",
-      "author": null,
-      "published_at": "2026-10-09T16:42:38.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-josh-hart-164238395.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/030ea02e482c0563b6ed850fc11ed5062bcc0d222abece3fb2e51b1fa64332f0/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2Faa9fca07a71b6ac0c36265e74950b03e.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-josh-hart-164238395.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-10T17:00:28.458Z"
     },
     {
       "id": "3055d45b0cc1cba397b1",
@@ -2971,44 +2985,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.cbssports.com/nba/news/mike-breen-apologizes-lebron-james-joel-embiid-76ers-knicks/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "008af4820e435923662c",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxcxmay4sz2r",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "[SNY] Mikal Bridges talks about Knicks fans: \"I hold myself accountable at all times. That's the thing that I do love about this organization and the fans, even though some might be a little more crazy than others, but they want the best out of you. I'll never take",
-      "published_at": "2026-10-07T22:11:09.123Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxcxmay4sz2r",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihwof7zdhcuxyd4totmya7ra4pgrnjvfr766hcf6kgbwv4owtfll4/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihwof7zdhcuxyd4totmya7ra4pgrnjvfr766hcf6kgbwv4owtfll4/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreihwof7zdhcuxyd4totmya7ra4pgrnjvfr766hcf6kgbwv4owtfll4/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1350,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxcxmay4sz2r",
-        "render_mode": "native_social_card"
       },
       "image_status": "available",
       "image_source": "source_feed"
