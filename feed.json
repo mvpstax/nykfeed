@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T10:45:46.340Z",
+  "generated_at": "2026-10-10T11:00:21.995Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 29961,
+    "refresh_duration_ms": 3912,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,35 @@
     "images": {
       "available": 108,
       "missing": 12,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "5a7faa0847e6056f6ce2",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Miles McBride Is Knicks’ Biggest Preseason Letdown So Far",
+      "summary": "Miles McBride is struggling offensively through the Knicks' first two preseason games, raising questions about his shooting and playmaking despite his defensive value.",
+      "author": "Kento Kato",
+      "published_at": "2026-10-10T11:00:04.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/miles-mcbride-knicks-biggest-preseason-letdown-so-far-01m4gwmayp9x",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_267,w_2737,h_1539/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4gxrd058gm95v54hc.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/miles-mcbride-knicks-biggest-preseason-letdown-so-far-01m4gwmayp9x",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-10T11:00:21.560Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "7d08955aba4322d7ece8",
       "type": "social",
@@ -3428,29 +3450,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "15091d3fded9041a3025",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Karl-Anthony Towns Offers Contract Negotiation Update - It’s Surprising and Demoralizing",
-      "summary": "Karl-Anthony Towns' contract talks with the New York Knicks appear stalled, creating uncertainty as New York tries to keep its championship core together while maintaining financial flexibility.",
-      "author": "Kento Kato",
-      "published_at": "2026-10-05T19:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-offers-contract-negotiation-update-it-s-surprising-and-demoralizing-01m46ecdpbsv",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4560,h_2565/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m46gzw7q7ag5h38wxj.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/karl-anthony-towns-offers-contract-negotiation-update-it-s-surprising-and-demoralizing-01m46ecdpbsv",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-09T19:30:20.932Z"
     },
     {
       "id": "d2c0849bb53c1f2e6b49",
