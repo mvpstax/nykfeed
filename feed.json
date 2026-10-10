@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T13:30:19.053Z",
+  "generated_at": "2026-10-10T13:45:19.465Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4153,
+    "refresh_duration_ms": 5368,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,34 @@
     "images": {
       "available": 109,
       "missing": 11,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "f28ae09e21031a5bc47e",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "New York Notes: Demin, Towns, McBride, Randle",
+      "summary": "The Nets’ Egor Demin is displaying during training camp and preseason games that he’s ready to be a major factor at either guard spot, Brian Lewis of the New York Post writes. “I think back to last year in summer league — and even before that on the predraft when I was in the workout […]",
+      "author": "Dana Gauruder",
+      "published_at": "2026-10-10T13:33:49.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/new-york-notes-demin-towns-mcbride-randle.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/03/Egor-Demin-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/new-york-notes-demin-towns-mcbride-randle.html"
+      },
+      "image_checked_at": "2026-10-10T13:45:19.250Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "207040b872754998c072",
       "type": "social",
@@ -383,9 +405,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -3252,7 +3274,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T19:30:20.892Z"
+      "image_checked_at": "2026-10-09T19:30:20.892Z",
+      "cluster_id": "cluster_4ad34153d3e4"
     },
     {
       "id": "056c701abefa8c2d46ae",
@@ -3494,28 +3517,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_4ad34153d3e4"
-    },
-    {
-      "id": "ff30f2b32fc6423477f6",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Karl-Anthony Towns Frustrated By Knicks Extension Talks",
-      "summary": "There remains a significant gap in contract talks between the Knicks and star center Karl-Anthony Towns, writes James L. Edwards III of The Athletic. Speaking to reporters after shootaround on Monday morning, Towns expressed skepticism about signing an extension before the 2026/27 season begins. “It don’t look good,” Towns said. ESPN reported a couple weeks […]",
-      "author": "Rory Maher",
-      "published_at": "2026-10-05T16:49:32.000Z",
-      "url": "https://www.hoopsrumors.com/2026/10/karl-anthony-towns-frustrated-by-knicks-contract-talks.html",
-      "image_url": "https://www.hoopsrumors.com/files/2026/01/Karl-Anthony-Towns-vert-200x300.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/10/karl-anthony-towns-frustrated-by-knicks-contract-talks.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4ad34153d3e4"
     }
   ],
   "clusters": [
@@ -3549,15 +3550,15 @@
     },
     {
       "id": "cluster_4ad34153d3e4",
-      "lead_item_id": "abf89d537e68947aec73",
+      "lead_item_id": "e2829117d2879bf0a560",
       "item_ids": [
+        "e2829117d2879bf0a560",
         "abf89d537e68947aec73",
-        "d2c0849bb53c1f2e6b49",
-        "ff30f2b32fc6423477f6"
+        "d2c0849bb53c1f2e6b49"
       ],
       "source_count": 3,
-      "updated_at": "2026-10-06T13:01:23.000Z",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "updated_at": "2026-10-06T18:57:35.000Z",
+      "title": "Extension Notes: Miller, Wallace, Towns, Davis",
       "event_type": "extension",
       "entities": [
         "karl anthony towns"
