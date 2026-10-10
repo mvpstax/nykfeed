@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-10T16:45:19.408Z",
+  "generated_at": "2026-10-10T17:00:28.815Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4732,
+    "refresh_duration_ms": 7905,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -94,7 +94,7 @@
     "images": {
       "available": 110,
       "missing": 10,
-      "article_pages_checked": 0
+      "article_pages_checked": 3
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -1376,9 +1376,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/warriors-knicks-top-2026-nba-franchise-valuations.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T17:00:28.457Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T17:00:23.020Z"
+      "image_status": "available"
     },
     {
       "id": "31b6c6af6880eb972b37",
@@ -1398,9 +1398,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/karl-anthony-towns-josh-hart-164238395.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-10T17:00:28.458Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-09T17:00:23.021Z"
+      "image_status": "available"
     },
     {
       "id": "3055d45b0cc1cba397b1",
@@ -1548,29 +1548,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "6b945a134223a6938513",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks announce they are pausing all contract extension talks, including with Karl-Anthony Towns",
-      "summary": "Contract extension talks were becoming a distraction around the team, so the Knicks postponed them.",
-      "author": null,
-      "published_at": "2026-10-09T15:36:04.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-announce-pausing-contract-extension-153604780.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/863cad070f1073ac9647e3709731ec602c9625956e91ea2eb828189fa558553b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2Fb20722b0971a509decb20f6ea3417429.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-announce-pausing-contract-extension-153604780.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-10T16:15:19.074Z",
-      "cluster_id": "cluster_9fbbb16ba067"
     },
     {
       "id": "7b747c3b24b7a0075d0a",
@@ -2100,8 +2077,7 @@
         "url": "https://basketball.realgm.com/wiretap/287562/Karl-Anthony-Towns-Knicks-Remain-Far-Apart-On-Extension"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_9fbbb16ba067"
+      "image_source": "source_feed"
     },
     {
       "id": "8a9201b24b403b067f81",
@@ -3521,24 +3497,31 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "2e184aa8b903fefaa68e",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: Diawara, Guards, Alvarado, Preseason Opener",
+      "summary": "The Knicks are hoping 2025 second-round pick Mohamed Diawara will continue to improve in his second season after a solid rookie campaign in which he received rotation minutes at times, writes Jared Schwartz of The New York Post. At 6’9″ with a 7’4″ wingspan, Diawara has excellent size for a forward. Teammate OG Anunoby believes […]",
+      "author": "Rory Maher",
+      "published_at": "2026-10-04T14:22:09.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-diawara-guards-alvarado-preseason-opener.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/Mohamed-Diawara-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-diawara-guards-alvarado-preseason-opener.html"
+      },
+      "image_checked_at": "2026-10-10T17:00:28.459Z",
+      "image_source": "og:image",
+      "image_status": "available"
     }
   ],
   "clusters": [
-    {
-      "id": "cluster_9fbbb16ba067",
-      "lead_item_id": "6b945a134223a6938513",
-      "item_ids": [
-        "6b945a134223a6938513",
-        "9676ea88f5bce549f289"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-10-09T15:36:04.000Z",
-      "title": "Knicks announce they are pausing all contract extension talks, including with Karl-Anthony Towns",
-      "event_type": "extension",
-      "entities": [
-        "karl anthony towns"
-      ]
-    },
     {
       "id": "cluster_4ad34153d3e4",
       "lead_item_id": "abf89d537e68947aec73",
