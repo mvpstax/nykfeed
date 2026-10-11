@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T14:00:47.043Z",
+  "generated_at": "2026-10-11T14:15:22.963Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 119,
+    "item_count": 118,
     "game_count": 0,
-    "refresh_duration_ms": 29099,
+    "refresh_duration_ms": 4336,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 1
+        "items": 0
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 109,
+      "available": 108,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -101,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "cb8e466a3cc3b36fce2a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxm6d7zcjl2f",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "NBA Analyst Warns Karl-Anthony Towns About Owners’ Heartless Betrayal Amid Paused Contract Talks: 'Stop Enabling These Guys' (via Yardbarker)",
+      "published_at": "2026-10-11T14:05:19.969Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxm6d7zcjl2f",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibjk6qwnoqybednpuj7vjjbd3rtrzsy3migv7bjlvo7bu6hsg46za",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxm6d7zcjl2f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "1f25eaec7beb77d37cfb",
       "type": "social",
@@ -181,7 +215,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -655,27 +689,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-11T11:00:24.337Z"
-    },
-    {
-      "id": "01497fd7bfc2f7481b33",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Three winners and three losers from Knicks’ first two preseason games",
-      "summary": "With two games down and three to go before the Knicks open their regular season, here's who's who in the preseason.",
-      "author": null,
-      "published_at": "2026-10-10T11:00:00.000Z",
-      "url": "https://sports.yahoo.com/articles/three-winners-three-losers-knicks-110000134.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/d94be35be0af9ee2664c044a75733dea.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/three-winners-three-losers-knicks-110000134.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "7d08955aba4322d7ece8",
@@ -2953,44 +2966,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxdi3jvofm22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "6077c45ca1926b0353d5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxdeviwmfd23",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Jose Alvarado, the hero of the Knicks 4th quarter comeback against the Rockets (via r/NYKnicks)",
-      "published_at": "2026-10-08T02:08:58.096Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxdeviwmfd23",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibnscyhihzamzlxyklfs7pig5urzwaspk45dhk3mjpfpgirtwmh4e/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibnscyhihzamzlxyklfs7pig5urzwaspk45dhk3mjpfpgirtwmh4e/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibnscyhihzamzlxyklfs7pig5urzwaspk45dhk3mjpfpgirtwmh4e/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 498,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxdeviwmfd23",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
