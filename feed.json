@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T20:15:16.341Z",
+  "generated_at": "2026-10-11T20:30:24.872Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3924,
+    "refresh_duration_ms": 8351,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +92,69 @@
       }
     ],
     "images": {
-      "available": 110,
-      "missing": 10,
-      "article_pages_checked": 1
+      "available": 109,
+      "missing": 11,
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "e8eca95176b40d3876c2",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mxmt7owgac2l",
+      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
+      "handle": "kingfitch1990.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreibk5k75qcfumwzdnhcmeatqv5ozkw3k3s664vshovpuodj6fdxff4",
+      "text": "Karl-Anthony Towns says he is \"disappointed\" with Knicks tabling contract talks  espn.com/app",
+      "published_at": "2026-10-11T20:19:10.158Z",
+      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxmt7owgac2l",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxmt7owgac2l",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "1451fac000eceac46b69",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Karl-Anthony Towns 'disappointed' with Knicks tabling talks",
+      "summary": "Karl-Anthony Towns responded to the Knicks' statement that they are tabling all extension talks until later in the season, saying he was \"disappointed.\"",
+      "author": "Vincent Goodwill",
+      "published_at": "2026-10-11T20:16:15.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50159713/karl-anthony-towns-disappointed-knicks-tabling-talks",
+      "image_url": "https://a.espncdn.com/photo/2026/0604/r1667963_600x400_3-2.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50159713/karl-anthony-towns-disappointed-knicks-tabling-talks"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "3b3d41645cb0738990b7",
       "type": "social",
@@ -635,9 +690,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/tyler-kolek-making-knicks-life-harder-preseason-showing-01m4kfqxqbcc",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-11T20:15:15.934Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-11T20:15:15.934Z"
     },
     {
       "id": "07943c449dce4239f9a1",
@@ -3130,9 +3185,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-should-make-tyler-nickel-rocky-debut-01m4bnwspf3w",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-11T20:30:24.044Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-10T20:30:23.183Z"
+      "image_status": "available"
     },
     {
       "id": "02c5bd54a3635c66754c",
@@ -3264,9 +3319,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-mohamed-diawara-start-knicks-preseason-so-exciting-01m493n0ckmt",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-11T20:30:24.045Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-10T20:30:23.183Z"
+      "image_status": "available"
     },
     {
       "id": "e2829117d2879bf0a560",
@@ -3288,7 +3343,8 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-11T19:45:18.291Z"
+      "image_checked_at": "2026-10-11T19:45:18.291Z",
+      "cluster_id": "cluster_4ad34153d3e4"
     },
     {
       "id": "056c701abefa8c2d46ae",
@@ -3461,49 +3517,6 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_4ad34153d3e4"
-    },
-    {
-      "id": "ff30f2b32fc6423477f6",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Karl-Anthony Towns Frustrated By Knicks Extension Talks",
-      "summary": "There remains a significant gap in contract talks between the Knicks and star center Karl-Anthony Towns, writes James L. Edwards III of The Athletic. Speaking to reporters after shootaround on Monday morning, Towns expressed skepticism about signing an extension before the 2026/27 season begins. “It don’t look good,” Towns said. ESPN reported a couple weeks […]",
-      "author": "Rory Maher",
-      "published_at": "2026-10-05T16:49:32.000Z",
-      "url": "https://www.hoopsrumors.com/2026/10/karl-anthony-towns-frustrated-by-knicks-contract-talks.html",
-      "image_url": "https://www.hoopsrumors.com/files/2026/01/Karl-Anthony-Towns-vert-200x300.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/10/karl-anthony-towns-frustrated-by-knicks-contract-talks.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4ad34153d3e4"
-    },
-    {
-      "id": "737313e838231622eb33",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Ranking the NBA's best starting fives: 76ers look great on paper, but champion Knicks hold No. 1 spot",
-      "summary": "With the 2026-27 NBA season fast approaching, we're ranking the five best starting units in the league",
-      "author": "John Gonzalez",
-      "published_at": "2026-10-05T12:52:31.000Z",
-      "url": "https://www.cbssports.com/nba/news/ranking-nba-best-starting-fives-76ers-knicks/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/04/f39ff464-b03c-4dc2-9984-63199866baf4/knicks-starting-five-getty.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/nba/news/ranking-nba-best-starting-fives-76ers-knicks/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": [
@@ -3540,15 +3553,15 @@
     },
     {
       "id": "cluster_4ad34153d3e4",
-      "lead_item_id": "abf89d537e68947aec73",
+      "lead_item_id": "e2829117d2879bf0a560",
       "item_ids": [
+        "e2829117d2879bf0a560",
         "abf89d537e68947aec73",
-        "d2c0849bb53c1f2e6b49",
-        "ff30f2b32fc6423477f6"
+        "d2c0849bb53c1f2e6b49"
       ],
       "source_count": 3,
-      "updated_at": "2026-10-06T13:01:23.000Z",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "updated_at": "2026-10-06T18:57:35.000Z",
+      "title": "Extension Notes: Miller, Wallace, Towns, Davis",
       "event_type": "extension",
       "entities": [
         "karl anthony towns"
