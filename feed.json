@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T22:00:27.023Z",
+  "generated_at": "2026-10-11T22:15:24.327Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5563,
+    "refresh_duration_ms": 8693,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,34 @@
     "images": {
       "available": 108,
       "missing": 12,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "8f4855ff9bd1e158d048",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: Brown, Towns, Bridges, Brunson",
+      "summary": "The Knicks are still trying to determine how they will fill out their remaining available roster spots after seeing success using training camp battles as research last season, when Landry Shamet emerged as the clear candidate. This year, another veteran wing with playoff experience is hoping to prove himself worthy of taking a swing on, […]",
+      "author": "Eli Cohen",
+      "published_at": "2026-10-11T22:01:17.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-brown-towns-bridges-brunson.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/09/Bruce-Brown2-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-brown-towns-bridges-brunson.html"
+      },
+      "image_checked_at": "2026-10-11T22:15:24.161Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "c81056a4a67dfccb172f",
       "type": "social",
@@ -190,8 +212,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 2,
-        "reposts": 1,
-        "likes": 5
+        "reposts": 2,
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -3491,28 +3513,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "d2c0849bb53c1f2e6b49",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Karl-Anthony Towns says extension negotiations with Knicks 'don't look good' as two sides remain apart on deal",
-      "summary": "Towns expected a contract to be quickly worked out easily after his playoff showcase, but it's now clear that will not come before the season begins",
-      "author": "Robby Kalland",
-      "published_at": "2026-10-05T17:08:35.000Z",
-      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-extension-negotiations/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/05/e21ecff5-beec-4cb1-a05a-5893e521097c/kat-getty.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-knicks-extension-negotiations/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4ad34153d3e4"
     }
   ],
   "clusters": [
@@ -3552,10 +3552,9 @@
       "lead_item_id": "e2829117d2879bf0a560",
       "item_ids": [
         "e2829117d2879bf0a560",
-        "abf89d537e68947aec73",
-        "d2c0849bb53c1f2e6b49"
+        "abf89d537e68947aec73"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "updated_at": "2026-10-06T18:57:35.000Z",
       "title": "Extension Notes: Miller, Wallace, Towns, Davis",
       "event_type": "extension",
