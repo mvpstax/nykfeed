@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T21:00:46.073Z",
+  "generated_at": "2026-10-11T21:15:17.786Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 28204,
+    "refresh_duration_ms": 4378,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,83 @@
       }
     ],
     "images": {
-      "available": 109,
-      "missing": 11,
+      "available": 108,
+      "missing": 12,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "c81056a4a67dfccb172f",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxmvoiffz42w",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "In order for Towns to negotiate with New York during … (via Yahoo Sports)",
+      "published_at": "2026-10-11T21:03:13.907Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxmvoiffz42w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicsm7msq46sfywaltaggsituaf5bnhtxsix4vmy2snb54mx5gdde4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxmvoiffz42w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "ab133f86a37b63eaeb70",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:qof4zqprgyiouvvslujfmjtn/app.bsky.feed.post/3mxmvmfwqvk2k",
+      "author": "Bobby B 🏆🏆",
+      "handle": "rudeboynyk.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:qof4zqprgyiouvvslujfmjtn/bafkreifgequznqppsf4f4e26g3tazrguxweqm46vg2tu7tqr27h6bs4sqe",
+      "text": "🎯 💯 \n\nComplaints about Knicks For Clicks are vindicated.\nThe anti ny bias is real.\n#Knicks4Clicks",
+      "published_at": "2026-10-11T21:02:04.421Z",
+      "url": "https://bsky.app/profile/did:plc:qof4zqprgyiouvvslujfmjtn/post/3mxmvmfwqvk2k",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:qof4zqprgyiouvvslujfmjtn/post/3mxmvmfwqvk2k",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "26ea9e3f72bd591378bf",
       "type": "social",
@@ -121,9 +189,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 3
+        "replies": 2,
+        "reposts": 1,
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -2415,41 +2483,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "bd4a23fef743c014aac9",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxh3s3s4ca2r",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Knicks shut down Karl-Anthony Towns contract talks before season",
-      "published_at": "2026-10-09T13:36:38.924Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxh3s3s4ca2r",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreibga3kxe7uzrouzzxc4najnlau3h6zfiyqb3npn4ziq5tqwcwybvq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxh3s3s4ca2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "b89d13af0d5c740c5cfd",
       "type": "article",
       "source": "RealGM",
@@ -3018,44 +3051,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-11T18:30:21.516Z"
-    },
-    {
-      "id": "55619f1d164689b77afd",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxex5iuo3x24",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Anne Hathaway knows ball (via r/NYKnicks)",
-      "published_at": "2026-10-08T17:08:13.555Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxex5iuo3x24",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewoxy6gni2twmwodn6dywc3kygdxcxo5w2bcsy2nfwezkke7ucny/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewoxy6gni2twmwodn6dywc3kygdxcxo5w2bcsy2nfwezkke7ucny/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiewoxy6gni2twmwodn6dywc3kygdxcxo5w2bcsy2nfwezkke7ucny/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1280,
-        "width": 720
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxex5iuo3x24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "28b8c7d9560f17a0c973",
