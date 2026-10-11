@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T19:15:20.773Z",
+  "generated_at": "2026-10-11T19:30:20.848Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 119,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4200,
+    "refresh_duration_ms": 4209,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "espn",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 109,
+      "available": 110,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -119,7 +119,30 @@
         "url": "https://www.hoopsrumors.com/2026/10/towns-very-disappointed-by-knicks-pausing-extension-talks.html"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_078429fc5adc"
+    },
+    {
+      "id": "dba374767efe49f6a7c9",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Karl-Anthony Towns 'Very Disappointed' By Knicks' Decision To Pause Extension Talks",
+      "summary": "Karl-Anthony Towns said Sunday he was caught off guard by the New York Knicks' decision to delay contract extension talks until later in the season. The team announced late last week that it would not negotiate with eligible players until then. \"It was news to me,\" said Towns. \"Very disappointed, to say the least. Let's state the obvious: It's a business, but there is business on the court for us to handle.\" Towns is one of four Knicks eligible for extensions, along with Josh Hart, Miles McBride and Tyler Kolek. Towns has been the most outspoken of the group about his frustration. The Knicks' offer to Towns has centered on a deal worth close to $200 million in total, league sources said. Towns is eligible to sign for up to a four-year, $276 million extension. The Knicks face tight financial constraints. Owner James Dolan has instructed the front office not to cross the second apron, which has complicated negotiations following the team's NBA championship. The timeline now hinges on Towns' $61 million player option for next season. He must decline it by Oct. 19 to negotiate with the Knicks during the season. If he does not, New York cannot legally discuss an extension with Towns or his representatives until after the season. Towns would then be officially entering the final year of his contract.",
+      "author": null,
+      "published_at": "2026-10-11T18:46:56.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287591/Karl-Anthony-Towns-Very-Disappointed-By-Knicks-Decision-To-Pause-Extension-Talks",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Towns_Karlanthony_nyk_260605.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287591/Karl-Anthony-Towns-Very-Disappointed-By-Knicks-Decision-To-Pause-Extension-Talks"
+      },
+      "image_status": "available",
+      "image_source": "source_feed",
+      "cluster_id": "cluster_078429fc5adc"
     },
     {
       "id": "c680311523fd8da7c76b",
@@ -3487,6 +3510,21 @@
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_078429fc5adc",
+      "lead_item_id": "cc604dcb2b87cbb917b0",
+      "item_ids": [
+        "cc604dcb2b87cbb917b0",
+        "dba374767efe49f6a7c9"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-10-11T18:59:42.000Z",
+      "title": "Towns ‘Very Disappointed’ By Knicks Pausing Extension Talks",
+      "event_type": "extension",
+      "entities": [
+        "karl anthony towns"
+      ]
+    },
     {
       "id": "cluster_cab159d7f8db",
       "lead_item_id": "4e70d051c138b69d550d",
