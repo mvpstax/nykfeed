@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T20:45:19.804Z",
+  "generated_at": "2026-10-11T21:00:46.073Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5031,
+    "refresh_duration_ms": 28204,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -101,6 +102,41 @@
   "games": [],
   "items": [
     {
+      "id": "26ea9e3f72bd591378bf",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:rxyiusciuniq4bcggehjmxvg/app.bsky.feed.post/3mxmvbx7dbk2x",
+      "author": "Omar Zahran",
+      "handle": "omarzahran.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rxyiusciuniq4bcggehjmxvg/bafkreifch3thfls64d6coznlndbl5llwg43dzccfrm7v6654rz3767br4e",
+      "text": "Typically, when a team wins a title, they are afforded a degree of slack in the subsequent year or two. Championships often buy equity in that way. But for the Knicks, the same treatment doesn't apply. Wrote more about the way this franchise is discussed in my latest for Knicks Fan TV 👇",
+      "published_at": "2026-10-11T20:56:13.428Z",
+      "url": "https://bsky.app/profile/did:plc:rxyiusciuniq4bcggehjmxvg/post/3mxmvbx7dbk2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rxyiusciuniq4bcggehjmxvg/bafkreiecsoojwtmrr4isc4ymv7lodnqerwtoe3bw7wbk4ne3ql6lzh2tua",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 3
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:rxyiusciuniq4bcggehjmxvg/post/3mxmvbx7dbk2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "1451fac000eceac46b69",
       "type": "article",
       "source": "ESPN",
@@ -108,7 +144,7 @@
       "title": "Karl-Anthony Towns 'disappointed' with Knicks tabling talks",
       "summary": "Karl-Anthony Towns responded to the Knicks' statement that they are tabling all extension talks until later in the season, saying he was \"disappointed.\"",
       "author": "Vincent Goodwill",
-      "published_at": "2026-10-11T20:24:18.000Z",
+      "published_at": "2026-10-11T20:40:35.000Z",
       "url": "https://www.espn.com/nba/story/_/id/50159713/karl-anthony-towns-disappointed-knicks-tabling-talks",
       "image_url": "https://a.espncdn.com/photo/2026/0604/r1667963_600x400_3-2.jpg",
       "team": "NYK",
@@ -141,9 +177,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "replies": 1,
+        "reposts": 1,
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -443,7 +479,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -2408,41 +2444,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxh3s3s4ca2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "ec6aea161dc9103cf5c3",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mxh3nflty52r",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "BREAKING NEWS: Per @ShamsCharania, the Knicks are tabling all contract extension negotiations until later in the season.",
-      "published_at": "2026-10-09T13:34:01.621Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxh3nflty52r",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreif4dazwdgsiewm7wgdukc6amiibwpgfho5utzfagirqpq5mv3t2dm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxh3nflty52r",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
