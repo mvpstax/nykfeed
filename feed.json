@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T21:30:20.022Z",
+  "generated_at": "2026-10-11T21:45:43.926Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4954,
+    "refresh_duration_ms": 29198,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 108,
       "missing": 12,
-      "article_pages_checked": 2
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -247,7 +248,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -1526,9 +1527,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-quietly-easing-knicks-concerns-early-days-01m4gpgvaebv",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-11T21:30:19.428Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-11T21:30:19.428Z"
     },
     {
       "id": "094483bc668fc93d7260",
@@ -2933,9 +2934,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-need-to-know-wizards-oct-8-tv-info-lineups-rotation-injuries-more-01m4e74ka46m",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-11T21:30:19.428Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-11T21:30:19.428Z"
     },
     {
       "id": "ffa84b0c3a75f817656d",
@@ -3158,9 +3159,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/atlantic-notes-brown-leonard-demin-porter-jr-randle.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-11T21:45:43.742Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-10T21:30:26.234Z"
+      "image_status": "available"
     },
     {
       "id": "ca75787a35ffba049dd4",
