@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T22:45:19.728Z",
+  "generated_at": "2026-10-12T23:00:22.923Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4799,
+    "refresh_duration_ms": 3110,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -157,7 +157,7 @@
       "engagement": {
         "replies": 4,
         "reposts": 1,
-        "likes": 18
+        "likes": 19
       },
       "team": "NYK",
       "presentation": {
@@ -1055,7 +1055,7 @@
       "engagement": {
         "replies": 11,
         "reposts": 14,
-        "likes": 210
+        "likes": 211
       },
       "team": "NYK",
       "presentation": {
@@ -1067,29 +1067,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "306af58a8c4de46c44dd",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns on Knicks tabling contract extension talks: 'It was news to me'",
-      "summary": "Towns and the Knicks remain far apart on a potential contract extension.",
-      "author": null,
-      "published_at": "2026-10-12T01:30:11.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-knicks-tabling-013011685.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/e89627b02f634638ea6053487c31cba5dfb6e24ca40697de75aecebbd0e57ad7/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F2cfc8b1009013fa57175633ce230f3a1.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-knicks-tabling-013011685.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-12T09:45:21.038Z",
-      "cluster_id": "cluster_078429fc5adc"
     },
     {
       "id": "9c7d30e0bb8563cdbaa9",
@@ -3534,20 +3511,40 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "7e533e377b6d839ddea4",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Why James Dolan doesn't deserve blame in Knicks' contract standoff with Karl-Anthony Towns",
+      "summary": "Dolan is an easy target for attacks like this, but in this case, the Knicks are simply doing smart business",
+      "author": "Brad Botkin",
+      "published_at": "2026-10-06T14:33:27.000Z",
+      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/06/435236f6-c2ad-4dd9-bf26-9663284459bb/kat-contract-getty-1.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
     {
       "id": "cluster_078429fc5adc",
-      "lead_item_id": "306af58a8c4de46c44dd",
+      "lead_item_id": "cc604dcb2b87cbb917b0",
       "item_ids": [
-        "306af58a8c4de46c44dd",
         "cc604dcb2b87cbb917b0",
         "dba374767efe49f6a7c9"
       ],
-      "source_count": 3,
-      "updated_at": "2026-10-12T01:30:11.000Z",
-      "title": "Karl-Anthony Towns on Knicks tabling contract extension talks: 'It was news to me'",
+      "source_count": 2,
+      "updated_at": "2026-10-11T18:59:42.000Z",
+      "title": "Towns ‘Very Disappointed’ By Knicks Pausing Extension Talks",
       "event_type": "extension",
       "entities": [
         "karl anthony towns"
