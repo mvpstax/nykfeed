@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T06:15:15.584Z",
+  "generated_at": "2026-10-12T06:30:21.920Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3260,
+    "refresh_duration_ms": 5209,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 5
+        "items": 6
       },
       {
         "source_key": "espn",
@@ -100,6 +100,27 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "6e2528a8b93978190366",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Knicks To Prioritize Re-Signing Karl-Anthony Towns Over Josh Hart, Could Trade Deuce McBride",
+      "summary": "The New York Knicks will prioritize re-signing Karl-Anthony Towns over Josh Hart, sources told Marc Stein and Jake Fischer of The Stein Line. The team recently announced that they will no longer hold contract discussions with Towns or Hart until later this season. It was reported last week that Towns and the Knicks remain far apart on agreeing to an extension. The Knicks hold a $22.4 million team option on Hart next offseason. Stein adds that rival teams expect Deuce McBride to eventually become available in trade talks this season.",
+      "author": null,
+      "published_at": "2026-10-12T05:30:55.000Z",
+      "url": "https://basketball.realgm.com/wiretap/287602/Knicks-To-Prioritize-Re-Signing-Karl-Anthony-Towns-Over-Josh-Hart-Could-Trade-Deuce-McBride",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Towns_Karlanthony_nyk_260605.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/287602/Knicks-To-Prioritize-Re-Signing-Karl-Anthony-Towns-Over-Josh-Hart-Could-Trade-Deuce-McBride"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "9f33a4fa0d04167ab303",
       "type": "article",
@@ -3432,8 +3453,7 @@
       },
       "image_status": "available",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-11T19:45:18.291Z",
-      "cluster_id": "cluster_4ad34153d3e4"
+      "image_checked_at": "2026-10-11T19:45:18.291Z"
     },
     {
       "id": "056c701abefa8c2d46ae",
@@ -3497,28 +3517,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "abf89d537e68947aec73",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
-      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
-      "author": null,
-      "published_at": "2026-10-06T13:01:23.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
-      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_4ad34153d3e4"
     }
   ],
   "clusters": [
@@ -3552,21 +3550,6 @@
       "event_type": "extension",
       "entities": [
         "josh hart"
-      ]
-    },
-    {
-      "id": "cluster_4ad34153d3e4",
-      "lead_item_id": "e2829117d2879bf0a560",
-      "item_ids": [
-        "e2829117d2879bf0a560",
-        "abf89d537e68947aec73"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-10-06T18:57:35.000Z",
-      "title": "Extension Notes: Miller, Wallace, Towns, Davis",
-      "event_type": "extension",
-      "entities": [
-        "karl anthony towns"
       ]
     }
   ]
