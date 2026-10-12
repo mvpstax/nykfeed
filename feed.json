@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T10:45:19.811Z",
+  "generated_at": "2026-10-12T11:02:49.277Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5456,
+    "refresh_duration_ms": 4729,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,72 @@
       }
     ],
     "images": {
-      "available": 110,
-      "missing": 10,
-      "article_pages_checked": 0
+      "available": 111,
+      "missing": 9,
+      "article_pages_checked": 3
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "c04b916e4ef0f37861cb",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxoek4lsry22",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Knicks 2026-27 season odds: Best bets, win totals, and futures lines",
+      "published_at": "2026-10-12T11:01:53.331Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxoek4lsry22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreibu7nbh3z4shzkb34uokqh7uihtwjnohmccp3b2rshgkeapnguiy4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxoek4lsry22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "36ce62289408634eb6e6",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Knicks Have a Secret Weapon Who Could Help Unlock James Wiseman",
+      "summary": "Knicks assistant coach Mark Bryant can play an instrumental role in the development of James Wiseman this season, assuming he makes the opening night roster.",
+      "author": "Steven Simineri",
+      "published_at": "2026-10-12T11:00:01.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/knicks-have-secret-weapon-help-unlock-james-wiseman-01m4mmvdjamq",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_160,w_5253,h_2954/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4pz1s107mskek6ff0.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/knicks-have-secret-weapon-help-unlock-james-wiseman-01m4mmvdjamq",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-12T11:02:48.629Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "add3388d8dc951bd7cbf",
       "type": "social",
@@ -131,6 +189,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxocqxoabc2u",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "59f8d91baf6ce5d32407",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "YouTube Gold: Pete Maravich Torches The Knicks",
+      "summary": "Pete Maravich was an absolute ahead-of-his-time freak.",
+      "author": null,
+      "published_at": "2026-10-12T10:29:39.000Z",
+      "url": "https://sports.yahoo.com/articles/youtube-gold-pete-maravich-torches-102939790.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/c07398a1b5ad65632eb2d2a99cc85e48.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/youtube-gold-pete-maravich-torches-102939790.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -986,9 +1065,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/mohamed-diawara-start-2nd-knicks-year-falling-bit-flat-01m4gn3xsf66",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-12T11:02:48.630Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-11T11:00:24.337Z"
+      "image_status": "available"
     },
     {
       "id": "b85329262551da80b83f",
@@ -1448,9 +1527,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/miles-mcbride-knicks-biggest-preseason-letdown-so-far-01m4gwmayp9x",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-12T11:02:48.630Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-11T11:00:24.337Z"
+      "image_status": "available"
     },
     {
       "id": "7d08955aba4322d7ece8",
@@ -2690,40 +2769,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "4f95d46cd8ebddd892e5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:gmjy73he2oxzpdlzhuyarnai/app.bsky.feed.post/3mxh62amj7k2f",
-      "author": "donna 도나",
-      "handle": "daaffi515.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:gmjy73he2oxzpdlzhuyarnai/bafkreibgivpanigkpwckx56q7ctzxxoowehkrqxxsclqsmggb3idjsoi6y",
-      "text": "Dolan found a way to remind us all that he's still a complete piece of shit before the season even begins.\n\nRemarkable.😡\n\n#KnicksSky\n#Knicks",
-      "published_at": "2026-10-09T14:17:00.108Z",
-      "url": "https://bsky.app/profile/did:plc:gmjy73he2oxzpdlzhuyarnai/post/3mxh62amj7k2f",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:gmjy73he2oxzpdlzhuyarnai/post/3mxh62amj7k2f",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "6b2277ff6b5e95cdcd44",
       "type": "article",
       "source": "ESPN",
@@ -3433,29 +3478,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "085c642f585ccaf43019",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Why Mohamed Diawara's Start to Knicks' Preseason Was So Exciting",
-      "summary": "The Knicks got their first glimpse of second-year Mohamed Diawara against the 76ers in the preseason opener, and the results were more than promising.",
-      "author": "Matthew Miranda",
-      "published_at": "2026-10-06T20:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/why-mohamed-diawara-start-knicks-preseason-so-exciting-01m493n0ckmt",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_260,w_5851,h_3291/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4990nsmf1a15mmn2r.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/why-mohamed-diawara-start-knicks-preseason-so-exciting-01m493n0ckmt",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-11T20:30:24.045Z"
-    },
-    {
       "id": "e2829117d2879bf0a560",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3494,27 +3516,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "188ff252bab848a6a475",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-      "summary": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-      "author": null,
-      "published_at": "2026-10-06T15:22:05.000Z",
-      "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
-      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_111606687_3686839/ss_20261006_111606687_3686839.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
       },
       "image_status": "available",
       "image_source": "source_feed"
