@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T20:00:23.547Z",
+  "generated_at": "2026-10-12T20:15:19.112Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5543,
+    "refresh_duration_ms": 4462,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 27
+        "items": 28
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -94,12 +94,82 @@
     "images": {
       "available": 112,
       "missing": 8,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "bbb16554a911bbcac2e3",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxpcx34dzh22",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks, Warriors, Timberwolves missed chance to sign $3.5M three-time All-Star, former No. 1 pick (via Sporting News)",
+      "published_at": "2026-10-12T20:06:00.098Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpcx34dzh22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiedjdeuxqexyyoqceb6cw3awvgepgxnpqted7snfha3rttddq2wdu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpcx34dzh22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "3b7d00d78918b1a75ce9",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mxpcmoanxx2r",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "TONIGHT...\n\nKnicks vs Timberwolves (Preseason) | 7:30pm ET | Madison Square Garden\n\nJoin @JCMacriNBA LIVE after the game for a full recap & reaction on the KFS Postgame Show - presented by @FanaticsSports!",
+      "published_at": "2026-10-12T20:00:11.237Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxpcmoanxx2r",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreihe6pbjzv7eb3li76cm7itz7mcbdk3ogttzjcj3uwvr2cxh5gmqte",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxpcmoanxx2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "dc4fae6ef1aa40c64590",
       "type": "social",
@@ -792,7 +862,7 @@
       "engagement": {
         "replies": 8,
         "reposts": 13,
-        "likes": 187
+        "likes": 192
       },
       "team": "NYK",
       "presentation": {
@@ -1654,9 +1724,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/tyler-kolek-making-knicks-life-harder-preseason-showing-01m4kfqxqbcc",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-12T20:15:18.791Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-11T20:15:15.934Z"
+      "image_status": "available"
     },
     {
       "id": "07943c449dce4239f9a1",
@@ -3083,41 +3153,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "e50259a040f627ec9644",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxgzyfxeia24",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Grading Every Knicks Player After Preseason Loss to Wizards (via Sports Illustrated)",
-      "published_at": "2026-10-09T13:04:23.441Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxgzyfxeia24",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicej77uhtqemfkr2aeu4efvnmnadqlmg2eybabikwtkmd4ffj3joe",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxgzyfxeia24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "df451f89e44701978a9c",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3511,27 +3546,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "188ff252bab848a6a475",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-      "summary": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-      "author": null,
-      "published_at": "2026-10-06T15:22:05.000Z",
-      "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
-      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_111606687_3686839/ss_20261006_111606687_3686839.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
       },
       "image_status": "available",
       "image_source": "source_feed"
