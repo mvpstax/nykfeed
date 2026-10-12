@@ -1,21 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T01:42:17.521Z",
+  "generated_at": "2026-10-12T02:41:39.253Z",
   "games": {
     "espn:401914124": {
       "game_id": "espn:401914124",
       "game_date": "2026-10-12T23:30Z",
       "home": "NYK",
       "away": "MIN",
-      "status": "unavailable",
-      "reason": "No betting lines were reported for this game.",
-      "line": null,
+      "status": "available",
+      "reason": null,
+      "line": {
+        "source": "ESPN",
+        "bookmaker": "DraftKings",
+        "bookmaker_id": "100",
+        "captured_at": "2026-10-12T02:41:39.253Z",
+        "line_type": "pregame",
+        "spread": -2.5,
+        "total": 227.5,
+        "moneyline": -135
+      },
       "final_points": null,
       "knicks_margin": null,
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-10-12T01:42:17.521Z"
+      "checked_at": "2026-10-12T02:41:39.253Z"
     },
     "espn:401908944": {
       "game_id": "espn:401908944",
@@ -30,7 +39,7 @@
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-10-12T01:42:17.521Z"
+      "checked_at": "2026-10-12T02:41:39.253Z"
     },
     "espn:401908945": {
       "game_id": "espn:401908945",
@@ -45,7 +54,7 @@
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-10-12T01:42:17.521Z"
+      "checked_at": "2026-10-12T02:41:39.253Z"
     },
     "espn:401906508": {
       "game_id": "espn:401906508",
