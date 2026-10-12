@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T10:15:41.314Z",
+  "generated_at": "2026-10-12T10:30:23.506Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 27438,
+    "refresh_duration_ms": 5053,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 109,
-      "missing": 11,
+      "available": 110,
+      "missing": 10,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "add3388d8dc951bd7cbf",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mxocqxoabc2u",
+      "author": "Posting and Toasting",
+      "handle": "postingandtoasting.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
+      "text": "Preseason Game Preview: Knicks vs. Timberwolves, October 12, 2026",
+      "published_at": "2026-10-12T10:29:55.614Z",
+      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxocqxoabc2u",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreib7hirse6erswp3jfxujiz6ojy5krh27yu57eamgzz4qjuqqyj6gu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxocqxoabc2u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "6e2528a8b93978190366",
       "type": "article",
@@ -2765,40 +2799,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "fcf28214f49785b297f4",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:lur5p3tfrlj42k2ph74voo34/app.bsky.feed.post/3mxh4mnhu6c2x",
-      "author": "Josh Kail",
-      "handle": "thatjoshkail.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreiekif5suc73ob7wrrkhtckxbi7x4p264vefrtyfacxjinx3itbcrq",
-      "text": "Do not like this. Really hoped the Knicks would come to an agreement with KAT prior to the season. As much as they’d like to think otherwise, it’s going to be a distraction. It’s going to be very hard to ask KAT to make sacrifices, especially when it comes to scoring with the contract in the air",
-      "published_at": "2026-10-09T13:51:30.081Z",
-      "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3mxh4mnhu6c2x",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3mxh4mnhu6c2x",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "b29cc23ac5634714b0b8",
