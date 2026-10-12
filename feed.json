@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T06:45:18.746Z",
+  "generated_at": "2026-10-12T07:00:48.311Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4892,
+    "refresh_duration_ms": 28720,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -173,6 +174,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxnjvn2rex22",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "67ff07cd1ca94fe730c5",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Mike Brown takes moment to bring Knicks together amid off-court drama: ‘Really cool’",
+      "summary": "This was a day for “mindfulness.”",
+      "author": null,
+      "published_at": "2026-10-12T02:40:30.000Z",
+      "url": "https://sports.yahoo.com/articles/mike-brown-takes-moment-bring-024030106.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/baad600eda148f778739935ec9cb1879.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/mike-brown-takes-moment-bring-024030106.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3493,27 +3515,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "7e533e377b6d839ddea4",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Why James Dolan doesn't deserve blame in Knicks' contract standoff with Karl-Anthony Towns",
-      "summary": "Dolan is an easy target for attacks like this, but in this case, the Knicks are simply doing smart business",
-      "author": "Brad Botkin",
-      "published_at": "2026-10-06T14:33:27.000Z",
-      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/06/435236f6-c2ad-4dd9-bf26-9663284459bb/kat-contract-getty-1.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/"
       },
       "image_status": "available",
       "image_source": "source_feed"
