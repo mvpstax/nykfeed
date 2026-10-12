@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T22:00:25.637Z",
+  "generated_at": "2026-10-12T22:15:17.793Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5369,
+    "refresh_duration_ms": 3997,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 28
+        "items": 27
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 110,
-      "missing": 10,
-      "article_pages_checked": 1
+      "available": 111,
+      "missing": 9,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "1e1ad11ccaf2e15658f9",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxpjplha6z2x",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Exclusive | Knicks owner James Dolan to host $10K-per-ticket MSG fundraiser for NY gov candidate Bruce Blakeman (via New York Post)",
+      "published_at": "2026-10-12T22:07:04.988Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpjplha6z2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigjobfnbca4ex5pp4gamgh3j7agcv2zx4ydd2h2ofoqfmzday5p6q",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpjplha6z2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c4002d70d7136a5bc6a2",
       "type": "social",
@@ -120,9 +155,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 3,
+        "replies": 4,
         "reposts": 1,
-        "likes": 16
+        "likes": 17
       },
       "team": "NYK",
       "presentation": {
@@ -1020,7 +1055,7 @@
       "engagement": {
         "replies": 10,
         "reposts": 14,
-        "likes": 206
+        "likes": 208
       },
       "team": "NYK",
       "presentation": {
@@ -2668,40 +2703,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "817531fe2e6750a2a454",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mxhrxzw3bs2s",
-      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
-      "handle": "kingfitch1990.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreibk5k75qcfumwzdnhcmeatqv5ozkw3k3s664vshovpuodj6fdxff4",
-      "text": "Why Evan Cohen is perplexed by New York tabling contract talks with Karl-Anthony Towns and Josh Hart ➡  espn.com/app",
-      "published_at": "2026-10-09T20:13:40.812Z",
-      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxhrxzw3bs2s",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxhrxzw3bs2s",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "123ab4e867eafb4dd571",
       "type": "social",
       "source": "Bluesky",
@@ -3053,41 +3054,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "7b747c3b24b7a0075d0a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxhatbwe772y",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks Pause Contract Talks with KAT, Josh Hart, Deuce McBride to Focus on Prep for NBA Season (via Bleacher Report)",
-      "published_at": "2026-10-09T15:06:47.637Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhatbwe772y",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifsbkozb74o27ljndxqo2fov7vewulezkhawtbpjqewl7lryqmw3a",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhatbwe772y",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "56c70adbe4f822dc1ac1",
       "type": "article",
       "source": "CBS Sports",
@@ -3413,9 +3379,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/atlantic-notes-brown-leonard-demin-porter-jr-randle.html"
       },
-      "image_checked_at": "2026-10-12T22:00:25.500Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-12T22:00:25.500Z"
     },
     {
       "id": "ca75787a35ffba049dd4",
@@ -3544,6 +3510,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "188ff252bab848a6a475",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+      "summary": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+      "author": null,
+      "published_at": "2026-10-06T15:22:05.000Z",
+      "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
+      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_111606687_3686839/ss_20261006_111606687_3686839.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
       },
       "image_status": "available",
       "image_source": "source_feed"
