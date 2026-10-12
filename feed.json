@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T02:30:19.467Z",
+  "generated_at": "2026-10-12T02:45:43.959Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4385,
+    "refresh_duration_ms": 29510,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,49 @@
       }
     ],
     "images": {
-      "available": 108,
-      "missing": 12,
-      "article_pages_checked": 0
+      "available": 109,
+      "missing": 11,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "53f06d9bcc8d373c383f",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:rxyiusciuniq4bcggehjmxvg/app.bsky.feed.post/3mxni2lh7is2p",
+      "author": "Omar Zahran",
+      "handle": "omarzahran.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rxyiusciuniq4bcggehjmxvg/bafkreifch3thfls64d6coznlndbl5llwg43dzccfrm7v6654rz3767br4e",
+      "text": "My partner has been learning how to embroider and she was working on towels today. Look at this awesome Knicks one she made!",
+      "published_at": "2026-10-12T02:32:07.316Z",
+      "url": "https://bsky.app/profile/did:plc:rxyiusciuniq4bcggehjmxvg/post/3mxni2lh7is2p",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rxyiusciuniq4bcggehjmxvg/bafkreiafq6xa3wtxzzfsfa2koedevtm5dtvjk4c2slmvjahshfgd4zvv2u",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 3
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:rxyiusciuniq4bcggehjmxvg/post/3mxni2lh7is2p",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "306af58a8c4de46c44dd",
       "type": "article",
@@ -2646,40 +2682,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "87507f42b45263ff708f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:rtnawvgru7pkebpfifmfqhde/app.bsky.feed.post/3mxh47qvdpc2e",
-      "author": "Mo Spade",
-      "handle": "mospade.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnawvgru7pkebpfifmfqhde/bafkreiee6v7hjymx2upd4ajvt5wxli2ms2pluz3oixfcdywygix2r3biwy",
-      "text": "Maybe Dolan is pissed the Knicks aren’t going to the White House or somethingbut most likely he’s just being Dolan",
-      "published_at": "2026-10-09T13:44:17.466Z",
-      "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3mxh47qvdpc2e",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3mxh47qvdpc2e",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "b89d13af0d5c740c5cfd",
       "type": "article",
       "source": "RealGM",
@@ -2876,9 +2878,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/and-ones-swing-players-team-needs-aivazoglou-mutual-options.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-12T02:45:43.742Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-11T02:45:19.465Z"
+      "image_status": "available"
     },
     {
       "id": "2affb0722086d2874c1d",
