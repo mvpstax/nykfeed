@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T18:00:25.948Z",
+  "generated_at": "2026-10-12T18:15:20.428Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5164,
+    "refresh_duration_ms": 5524,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 10
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -94,12 +94,47 @@
     "images": {
       "available": 111,
       "missing": 9,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "71485c384ac4c189cc47",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxp4ejt3562p",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks, Timberwolves, Warriors were interested in Ben Simmons before he signed with Kings (via HoopsHype)",
+      "published_at": "2026-10-12T18:08:15.525Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxp4ejt3562p",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreie6byqmsqunnqvlxlptxiqits7cnsqdwkidzxoxq6eeonplwdyr6y",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxp4ejt3562p",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "3cc21517fbc20def3181",
       "type": "article",
@@ -119,9 +154,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/predicting-knicks-roster-cuts-after-first-two-games-of-the-preseason-01m4r7rntdyx",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-12T18:00:25.516Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-12T18:00:25.516Z"
     },
     {
       "id": "766db1fa4f8c215700a3",
@@ -145,7 +180,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -686,8 +721,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 6,
-        "reposts": 8,
-        "likes": 141
+        "reposts": 9,
+        "likes": 150
       },
       "team": "NYK",
       "presentation": {
@@ -1284,27 +1319,6 @@
       "also_reported_by": [
         "Bluesky"
       ],
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "fc4a840800d2b532b5f8",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks Bulletin: ‘We’re gonna have each other’s back, regardless’",
-      "summary": "No Knicks basketball on Sunday; what did you expect on the day we all have for resting and disconnecting? (As if I ever do lol) However, New York folks keep logging practices and sending quotes out to the world for us to enjoy. Here’s the latest from Tarrytown before Monday’s clash against the LaMelo-Ant Wolves. […]",
-      "author": null,
-      "published_at": "2026-10-11T14:13:57.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-gonna-other-back-141357414.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/8d9eb8f2874cbc76bfe5ca9406408493.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-bulletin-gonna-other-back-141357414.html"
-      },
       "image_status": "available",
       "image_source": "source_feed"
     },
@@ -3213,41 +3227,6 @@
       "image_checked_at": "2026-10-12T02:45:43.742Z"
     },
     {
-      "id": "2affb0722086d2874c1d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxfv6tuxjh23",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Mike Brown Makes Notable Knicks Decision With Roster Spots at Stake (via Yahoo Sports)",
-      "published_at": "2026-10-09T02:05:50.915Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxfv6tuxjh23",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibswako2ml6x6hsrgogwoy7q5nugltanzc5bubebwetfrbagaw6my",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxfv6tuxjh23",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "7885343b233f4665cada",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3534,6 +3513,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-11T19:45:18.291Z"
+    },
+    {
+      "id": "056c701abefa8c2d46ae",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
+      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
+      "author": "NBA insiders",
+      "published_at": "2026-10-06T18:37:19.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
+      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
