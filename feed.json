@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T21:30:21.592Z",
+  "generated_at": "2026-10-12T21:45:42.703Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3665,
+    "refresh_duration_ms": 29176,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 110,
       "missing": 10,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -120,9 +121,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 1,
+        "replies": 3,
         "reposts": 1,
-        "likes": 9
+        "likes": 15
       },
       "team": "NYK",
       "presentation": {
@@ -1020,7 +1021,7 @@
       "engagement": {
         "replies": 9,
         "reposts": 14,
-        "likes": 201
+        "likes": 204
       },
       "team": "NYK",
       "presentation": {
@@ -2593,9 +2594,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-quietly-easing-knicks-concerns-early-days-01m4gpgvaebv",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-12T21:30:21.256Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-12T21:30:21.256Z"
     },
     {
       "id": "094483bc668fc93d7260",
@@ -3258,9 +3259,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-need-to-know-wizards-oct-8-tv-info-lineups-rotation-injuries-more-01m4e74ka46m",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-12T21:30:21.257Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-12T21:30:21.257Z"
     },
     {
       "id": "5e558675c2a4c8c35da4",
