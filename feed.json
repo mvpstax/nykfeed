@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T13:30:24.905Z",
+  "generated_at": "2026-10-13T13:45:21.323Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 119,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5122,
+    "refresh_duration_ms": 3831,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,13 +93,69 @@
     ],
     "images": {
       "available": 102,
-      "missing": 17,
-      "article_pages_checked": 0
+      "missing": 18,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "e9c385b9677e5a255e13",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mxr63axer22n",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "The vibes do indeed seem to be off with the Knicks on the court. But then I remember the vibes seemed to be off with them like 3 times at various points last season, and...",
+      "published_at": "2026-10-13T13:44:11.404Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mxr63axer22n",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mxr63axer22n",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "ef4c857a3d86ca6e31c8",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: Third Center, Dadiet, Rotation, Second Apron",
+      "summary": "As James Wiseman, Drew Eubanks, and Tony Bradley continue to battle to become the third center on the Knicks’ roster behind Karl-Anthony Towns and Andre Drummond, head coach Mike Brown told reporters on Monday that deciding which player to retain will be difficult, per Kristian Winfield of The New York Daily News. “They should all be […]",
+      "author": "Luke Adams",
+      "published_at": "2026-10-13T13:41:40.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-third-center-dadiet-rotation-second-apron.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/10/Tony-Bradley-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-third-center-dadiet-rotation-second-apron.html"
+      },
+      "image_checked_at": "2026-10-13T13:45:21.292Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "c8253561ac7130e03246",
       "type": "social",
@@ -157,7 +213,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -1267,7 +1323,7 @@
       "engagement": {
         "replies": 4,
         "reposts": 4,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -3451,27 +3507,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "7e533e377b6d839ddea4",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Why James Dolan doesn't deserve blame in Knicks' contract standoff with Karl-Anthony Towns",
-      "summary": "Dolan is an easy target for attacks like this, but in this case, the Knicks are simply doing smart business",
-      "author": "Brad Botkin",
-      "published_at": "2026-10-06T14:33:27.000Z",
-      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/06/435236f6-c2ad-4dd9-bf26-9663284459bb/kat-contract-getty-1.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/"
       },
       "image_status": "available",
       "image_source": "source_feed"
