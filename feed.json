@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T14:30:47.810Z",
+  "generated_at": "2026-10-13T14:45:42.377Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 120,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 27801,
+    "refresh_duration_ms": 28363,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -72,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 102,
+      "available": 101,
       "missing": 18,
       "article_pages_checked": 0
     },
@@ -101,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "ec2d44dcba188c8309f1",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxrax4slu72t",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Relive Knicks championship glory before their new season kicks off",
+      "published_at": "2026-10-13T14:35:33.752Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxrax4slu72t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicsermbgotbmat3deqp23qyjztf37yidfvvjy3mavjoizyysullom",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxrax4slu72t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "d64f2064aa7894b1065c",
       "type": "social",
@@ -158,7 +193,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -813,27 +848,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxpy36lvzk2z",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "55630c09e4b3c2cf7690",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Timberwolves 122, Knicks 104: Scenes from another unimpressive dress rehearsal",
-      "summary": "Defense was mostly optional as the Timberwolves rained threes at the Garden.",
-      "author": null,
-      "published_at": "2026-10-13T02:23:12.000Z",
-      "url": "https://sports.yahoo.com/articles/timberwolves-122-knicks-104-scenes-022312412.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/aead6117c056a74b4298ce810152b7b6.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/timberwolves-122-knicks-104-scenes-022312412.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3473,27 +3487,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "7e533e377b6d839ddea4",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Why James Dolan doesn't deserve blame in Knicks' contract standoff with Karl-Anthony Towns",
-      "summary": "Dolan is an easy target for attacks like this, but in this case, the Knicks are simply doing smart business",
-      "author": "Brad Botkin",
-      "published_at": "2026-10-06T14:33:27.000Z",
-      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/06/435236f6-c2ad-4dd9-bf26-9663284459bb/kat-contract-getty-1.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/"
       },
       "image_status": "available",
       "image_source": "source_feed"
