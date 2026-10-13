@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T00:30:25.407Z",
+  "generated_at": "2026-10-13T00:45:44.363Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5843,
+    "refresh_duration_ms": 29847,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 26
+        "items": 25
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -94,12 +95,47 @@
     "images": {
       "available": 108,
       "missing": 12,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4cc946bc635048d1c90d",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxprwpaejg2t",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Knicks' Andre Drummond tells The Post how he flipped the script on his free throw woes",
+      "published_at": "2026-10-13T00:34:13.672Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxprwpaejg2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreibllg4tozmcthkimkwo3rhx2azeiv53xbchjas3wxomeidmqino3y",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxprwpaejg2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "6aa5b56bc87a1f609f2f",
       "type": "social",
@@ -282,7 +318,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -1336,7 +1372,7 @@
       "engagement": {
         "replies": 11,
         "reposts": 14,
-        "likes": 223
+        "likes": 224
       },
       "team": "NYK",
       "presentation": {
@@ -2312,41 +2348,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c97feee0bc6147c06050",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mxjnnmn3ad27",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "🔥🏀KNICKS SPORCLE QUIZ🏀🔥 \n\nCan @JCMacriNBA & @AndrewJClaudio_ name all 57 Knicks who have averaged 10 PPG this century? (Min 10 games played)\nyoutu.be/XvUih-Ayx0o",
-      "published_at": "2026-10-10T14:01:35.833Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxjnnmn3ad27",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreibr3mjyoupnjufzgysmdzqdw2ah52gqdmxw6zwyz2u2pezuqr4kzm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxjnnmn3ad27",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "f28ae09e21031a5bc47e",
       "type": "article",
       "source": "Hoops Rumors",
@@ -2367,41 +2368,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-12T14:00:24.806Z"
-    },
-    {
-      "id": "207040b872754998c072",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mxjdqekrus22",
-      "author": "Posting and Toasting",
-      "handle": "postingandtoasting.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
-      "text": "Three winners and three losers from Knicks’ first two preseason games",
-      "published_at": "2026-10-10T11:04:10.630Z",
-      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxjdqekrus22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreifroq3dra6o4yqqcx5xrtmonuigjiw4cq7qfok3kf6kawe3vsgxc4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxjdqekrus22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "5a7faa0847e6056f6ce2",
@@ -2585,9 +2551,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/why-there-s-hope-knicks-making-pacome-dadiet-trade-soon-01m4gtfms1df",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-13T00:30:24.869Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T00:30:24.869Z"
     },
     {
       "id": "a051736319558521b014",
@@ -3281,9 +3247,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-real-problem-emerging-early-days-camp-01m4bstyzmeg",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-13T00:30:24.870Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T00:30:24.870Z"
     },
     {
       "id": "f51db6911c477269c142",
@@ -3523,6 +3489,27 @@
       "image_status": "available",
       "image_source": "source_feed",
       "cluster_id": "cluster_bc32ea5ac025"
+    },
+    {
+      "id": "4185d89226e4d23eefe6",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
+      "summary": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
+      "author": null,
+      "published_at": "2026-10-06T02:46:03.000Z",
+      "url": "https://www.espn.com/video/clip/_/id/50113916/game-highlights",
+      "image_url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/e2b76986-3e01-47f1-94bd-89b8892f1d77/e2b76986-3e01-47f1-94bd-89b8892f1d77.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/video/clip/_/id/50113916/game-highlights"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
