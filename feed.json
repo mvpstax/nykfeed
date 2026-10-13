@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T12:00:27.104Z",
+  "generated_at": "2026-10-13T12:15:19.357Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 6329,
+    "refresh_duration_ms": 5200,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 10
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -100,6 +100,40 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "4725b34e14a271e495f6",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vq76kvbhxplwtmmbi5om6p3v/app.bsky.feed.post/3mxqyp4syq22j",
+      "author": "Matt 🎙️🏀💙🧡",
+      "handle": "mattraytalk.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vq76kvbhxplwtmmbi5om6p3v/bafkreifmzp37nn7mzdipc7c3aj2uqto7pzvgdqa4fpt47hzagx2rikdmom",
+      "text": "#KnicksSky",
+      "published_at": "2026-10-13T12:07:55.701Z",
+      "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mxqyp4syq22j",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mxqyp4syq22j",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "71df5b000debe6da4272",
       "type": "article",
@@ -1246,40 +1280,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "5c8192810a40c8930bf3",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:mx62ni2prhriaagd7jfa65zk/app.bsky.feed.post/3mxpr335ohc2a",
-      "author": "Steve Jones",
-      "handle": "stevejones20.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:mx62ni2prhriaagd7jfa65zk/bafkreibsasqbomwgwfh2pcbppafnejcmsib2rcnagdsyaeenusuzh5zfqa",
-      "text": "The Knicks leaning in on flow and movement in the preseason feels like an overall plus. Being able to do it with bench units should add to their attack. Underrated part of the Drummond addition is he's got a comfort with handoff work.",
-      "published_at": "2026-10-13T00:18:46.937Z",
-      "url": "https://bsky.app/profile/did:plc:mx62ni2prhriaagd7jfa65zk/post/3mxpr335ohc2a",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 8
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:mx62ni2prhriaagd7jfa65zk/post/3mxpr335ohc2a",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "7a5af5cf9b6977f93324",
       "type": "social",
       "source": "Bluesky",
@@ -1668,27 +1668,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://basketball.realgm.com/wiretap/287605/Duncd-On-Podz-Extension;-Knicks-Non-Extensions-Camp-News-Blazers-Bumbles"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "aed57b10a6cd4a6bb251",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks Bulletin: ‘Very disappointed, to say the least’",
-      "summary": "The Knicks are back in action today, hosting the Wolves at MSG this evening. By chance, have you heard anything about contract issues and pending extensions? Yeah, me neither. Here’s the latest from Coach, KAT, and a couple folks in the know. Mike Brown On what might help Pacome Dadiet earn more minutes: “The first […]",
-      "author": null,
-      "published_at": "2026-10-12T14:14:11.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-very-disappointed-least-141411183.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/533a65eef2aeec67f4d046f03cc8b6f9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-bulletin-very-disappointed-least-141411183.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3493,6 +3472,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "7e533e377b6d839ddea4",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Why James Dolan doesn't deserve blame in Knicks' contract standoff with Karl-Anthony Towns",
+      "summary": "Dolan is an easy target for attacks like this, but in this case, the Knicks are simply doing smart business",
+      "author": "Brad Botkin",
+      "published_at": "2026-10-06T14:33:27.000Z",
+      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/06/435236f6-c2ad-4dd9-bf26-9663284459bb/kat-contract-getty-1.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/"
       },
       "image_status": "available",
       "image_source": "source_feed"
