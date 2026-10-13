@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T22:15:18.134Z",
+  "generated_at": "2026-10-13T22:30:22.260Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 113,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 4615,
+    "refresh_duration_ms": 5672,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -60,7 +60,7 @@
       {
         "source_key": "fox_sports_nba",
         "ok": true,
-        "items": 1
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 102,
+      "available": 103,
       "missing": 11,
       "article_pages_checked": 1
     },
@@ -100,6 +100,27 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
@@ -2389,9 +2410,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-brown-towns-bridges-brunson.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-13T22:30:22.040Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-12T22:30:20.083Z"
+      "image_status": "available"
     },
     {
       "id": "c81056a4a67dfccb172f",
@@ -3376,9 +3397,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/atlantic-notes-brown-leonard-demin-porter-jr-randle.html"
       },
-      "image_checked_at": "2026-10-13T22:15:18.093Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T22:15:18.093Z"
     },
     {
       "id": "57110b3779e86302cf18",
