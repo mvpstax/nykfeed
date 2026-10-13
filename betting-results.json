@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T01:30:01.835Z",
+  "generated_at": "2026-10-13T03:59:04.588Z",
   "games": {
     "espn:401914124": {
       "game_id": "espn:401914124",
@@ -31,15 +31,24 @@
       "game_date": "2026-10-13T23:00Z",
       "home": "TOR",
       "away": "NYK",
-      "status": "unavailable",
-      "reason": "No betting lines were reported for this game.",
-      "line": null,
+      "status": "available",
+      "reason": null,
+      "line": {
+        "source": "ESPN",
+        "bookmaker": "Draft Kings",
+        "bookmaker_id": "100",
+        "captured_at": "2026-10-13T03:59:04.588Z",
+        "line_type": "pregame",
+        "spread": 10.5,
+        "total": 218.5,
+        "moneyline": 350
+      },
       "final_points": null,
       "knicks_margin": null,
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-10-13T01:30:01.835Z"
+      "checked_at": "2026-10-13T03:59:04.588Z"
     },
     "espn:401908945": {
       "game_id": "espn:401908945",
@@ -54,7 +63,7 @@
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-10-13T01:30:01.835Z"
+      "checked_at": "2026-10-13T03:59:04.588Z"
     },
     "espn:401906508": {
       "game_id": "espn:401906508",
