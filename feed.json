@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T14:00:24.288Z",
+  "generated_at": "2026-10-13T14:15:20.927Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 3889,
+    "refresh_duration_ms": 4995,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 26
+        "items": 25
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -94,12 +94,47 @@
     "images": {
       "available": 102,
       "missing": 18,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d64f2064aa7894b1065c",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxr7bjjmjp2t",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "The Knicks’ 0-3 start hides a bigger issue than shooting (via Yahoo Sports)",
+      "published_at": "2026-10-13T14:05:35.253Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxr7bjjmjp2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreidmrpo5tog5d3yrtvsdpguhh6blfbcsz2snix57gguzirou2kkqzq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxr7bjjmjp2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "e9c385b9677e5a255e13",
       "type": "social",
@@ -1331,41 +1366,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mxpslb2ln22u",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "4cc946bc635048d1c90d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxprwpaejg2t",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Knicks' Andre Drummond tells The Post how he flipped the script on his free throw woes",
-      "published_at": "2026-10-13T00:34:13.672Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxprwpaejg2t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreibllg4tozmcthkimkwo3rhx2azeiv53xbchjas3wxomeidmqino3y",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxprwpaejg2t",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2660,9 +2660,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/new-york-notes-demin-towns-mcbride-randle.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-13T14:15:20.761Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-12T14:00:24.806Z"
+      "image_status": "available"
     },
     {
       "id": "5a7faa0847e6056f6ce2",
@@ -2880,41 +2880,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxi3nigvec2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "ff8eed807cee33823ca1",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxhy7gcmfz24",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "‘James Dolan Was Worth Nothing’ - ESPN’s Stephen A. Smith Rips Knicks Owner After Franchise Puts Contract Talks On Hold (via Yahoo Sports)",
-      "published_at": "2026-10-09T22:05:10.935Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhy7gcmfz24",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihgezt4pjhj3d5kkfdjsqwtcrv43f2xuphdwiyeacxis4y6whp4xi",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhy7gcmfz24",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3507,6 +3472,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "7e533e377b6d839ddea4",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Why James Dolan doesn't deserve blame in Knicks' contract standoff with Karl-Anthony Towns",
+      "summary": "Dolan is an easy target for attacks like this, but in this case, the Knicks are simply doing smart business",
+      "author": "Brad Botkin",
+      "published_at": "2026-10-06T14:33:27.000Z",
+      "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/06/435236f6-c2ad-4dd9-bf26-9663284459bb/kat-contract-getty-1.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/karl-anthony-towns-contract-knicks-james-dolan-second-apron/"
       },
       "image_status": "available",
       "image_source": "source_feed"
