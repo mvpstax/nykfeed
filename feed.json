@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T16:15:44.982Z",
+  "generated_at": "2026-10-13T16:30:22.930Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 28963,
+    "refresh_duration_ms": 4315,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -101,6 +100,28 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "3bd2015f44cce6291129",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "What's next in Karl-Anthony Towns, Knicks contract drama: Will he pick up his player option?",
+      "summary": "The deadline is Oct. 19 and most likely he turns down the option, but that can make him free agent.",
+      "author": null,
+      "published_at": "2026-10-13T16:13:08.000Z",
+      "url": "https://sports.yahoo.com/articles/whats-next-karl-anthony-towns-161308889.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/7bfe7d65147071426663d63d8d34ec285148bf8a901e13a6a8f26f0171c4bec2/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F76e9e8bb2799e8807358f04f48bcc234.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/whats-next-karl-anthony-towns-161308889.html"
+      },
+      "image_checked_at": "2026-10-13T16:30:22.800Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "163cd89ea6ac83350629",
       "type": "social",
@@ -467,8 +488,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 3
+        "reposts": 1,
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1836,27 +1857,6 @@
       "image_checked_at": "2026-10-12T18:00:25.516Z"
     },
     {
-      "id": "57d3489ceee015f41d7e",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "2026-27 Fantasy Basketball: 8 players we can't stop drafting",
-      "summary": "The Rotoworld Basketball staff unveils their favorite draft picks this season, including Darius Garland and OG Anunoby.",
-      "author": null,
-      "published_at": "2026-10-12T17:00:00.000Z",
-      "url": "https://sports.yahoo.com/articles/2026-27-fantasy-basketball-8-170000570.html",
-      "image_url": "https://media.zenfs.com/en/nbcsports.com/15e79faa60bd6d1f5a6faa36f8405882.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/2026-27-fantasy-basketball-8-170000570.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "895c910bfd07bf14f015",
       "type": "social",
       "source": "Bluesky",
@@ -2789,9 +2789,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/4-thoughts-knicks-starters-after-first-few-preseason-games-01m4gy0bv1yp",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-13T16:15:44.842Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T16:15:44.842Z"
     },
     {
       "id": "f28ae09e21031a5bc47e",
