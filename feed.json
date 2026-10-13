@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T19:45:43.364Z",
+  "generated_at": "2026-10-13T20:00:28.168Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 28742,
+    "refresh_duration_ms": 5529,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,86 @@
       }
     ],
     "images": {
-      "available": 106,
-      "missing": 13,
-      "article_pages_checked": 2
+      "available": 107,
+      "missing": 12,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d2519ca82b312fa0795a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mxrspkcrp22b",
+      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
+      "handle": "kingfitch1990.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreidwamuzd5ze4pyetx3oxglaavjvns4i5dj4orgorqdmzjgerqbsxu",
+      "text": "Happy 4 month Anniversay to those who celebrate the New York Knicks winning the NBA FINALS..",
+      "published_at": "2026-10-13T19:53:27.140Z",
+      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxrspkcrp22b",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiay46fpgxlddr6rkxh7dj5qhjpgh6axqywro252ghvi3kfl6wbje4/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiay46fpgxlddr6rkxh7dj5qhjpgh6axqywro252ghvi3kfl6wbje4/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiay46fpgxlddr6rkxh7dj5qhjpgh6axqywro252ghvi3kfl6wbje4/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 576,
+        "width": 576
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxrspkcrp22b",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "ca7d6718438d80b01834",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vq76kvbhxplwtmmbi5om6p3v/app.bsky.feed.post/3mxrsdj7sqc2b",
+      "author": "Matt 🎙️🏀💙🧡",
+      "handle": "mattraytalk.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vq76kvbhxplwtmmbi5om6p3v/bafkreifmzp37nn7mzdipc7c3aj2uqto7pzvgdqa4fpt47hzagx2rikdmom",
+      "text": "The Knicks have genuine good PEOPLE on the team, and then there’s that piece of garbage James Dolan. Someone needs to distract his stupid ass again.",
+      "published_at": "2026-10-13T19:46:43.342Z",
+      "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mxrsdj7sqc2b",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mxrsdj7sqc2b",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "9bf50efcb3298e971e2a",
       "type": "social",
@@ -157,8 +228,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "reposts": 1,
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -361,8 +432,8 @@
       },
       "engagement": {
         "replies": 0,
-        "reposts": 3,
-        "likes": 4
+        "reposts": 4,
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -876,7 +947,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 7
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -1068,7 +1139,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -1631,74 +1702,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxpujpiqvs2d",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "2bd982862e6e114ca425",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zatuc3eivscvrv3aey3mfvzj/app.bsky.feed.post/3mxpuhqlpw22i",
-      "author": "Spicy Nurse🌶🌶🇦🇬🇬🇧",
-      "handle": "spicynurse38.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zatuc3eivscvrv3aey3mfvzj/bafkreicfysyfvuehvuppw3jnznfq4fnt3veeydk7ljgcixvnbocblkrnkm",
-      "text": "I forgot Knicks playing.",
-      "published_at": "2026-10-13T01:19:33.297Z",
-      "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mxpuhqlpw22i",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mxpuhqlpw22i",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "d269b40f30fb4eb4fdaf",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mxpuczfpj22g",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "Knicks have Alvarado, McBride, Shamet, and Diawara in with Towns.\n\nTimberwolves lead 77-72. 5:30 3Q",
-      "published_at": "2026-10-13T01:16:54.765Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxpuczfpj22g",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxpuczfpj22g",
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
@@ -3098,9 +3101,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/nba-disputes-notion-that-second-apron-is-hurting-middle-class.html"
       },
-      "image_checked_at": "2026-10-13T19:45:43.201Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T19:45:43.201Z"
     },
     {
       "id": "cca60b6523c9eaeb102a",
@@ -3406,9 +3409,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-notes-bridges-reserves-14th-man-more.html"
       },
-      "image_checked_at": "2026-10-13T19:45:43.202Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T19:45:43.202Z"
     },
     {
       "id": "28b8c7d9560f17a0c973",
