@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T03:00:24.839Z",
+  "generated_at": "2026-10-13T03:15:40.498Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 118,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 6414,
+    "refresh_duration_ms": 27841,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,104 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 100,
       "missing": 19,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ed089f401d47f2cd71b7",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxq2nx3swj2y",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen Brunson leads New York with 20 points (via NBC Sports)",
+      "published_at": "2026-10-13T03:10:23.668Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxq2nx3swj2y",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifsdaw2q26u26hmve73cbmdxgqtyhsmtc5feoetom73ev5bvbgq2m",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxq2nx3swj2y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "446084702e2d24a9a96a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zatuc3eivscvrv3aey3mfvzj/app.bsky.feed.post/3mxq2jgkcx223",
+      "author": "Spicy Nurse🌶🌶🇦🇬🇬🇧",
+      "handle": "spicynurse38.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zatuc3eivscvrv3aey3mfvzj/bafkreicfysyfvuehvuppw3jnznfq4fnt3veeydk7ljgcixvnbocblkrnkm",
+      "text": "The transition of the Knicks fans, we would have been mad we lost pre season..Shit it was that serious for us. Lol. Now we are so relaxed we just have a calm about us. They can't do no wrong! Teams trying to make adjustments but honestly it's about the heart and mentality.",
+      "published_at": "2026-10-13T03:07:52.325Z",
+      "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mxq2jgkcx223",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mxq2jgkcx223",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "063fca155090c3b60f0c",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Madison Square Garden to host GOP fundraiser ahead of Knicks game",
+      "summary": "James Dolan is set to host a fundraiser for New York Gov. Kathy Hochul's Republican challenger at Madison Square Garden, the New York Post reports.",
+      "author": null,
+      "published_at": "2026-10-13T03:02:38.000Z",
+      "url": "https://sports.yahoo.com/articles/madison-square-garden-host-gop-030238535.html",
+      "image_url": "https://media.zenfs.com/en/usa_today_sports_articles_558/1e4ac688da331b0aeb7a7fc346833c68.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/madison-square-garden-host-gop-030238535.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "61efcdfaf996eafcda0e",
       "type": "article",
@@ -119,9 +210,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/grading-every-knicks-player-preseason-loss-vs-timberwolves-01m4s7rxkgm2",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-13T03:00:24.291Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T03:00:24.291Z"
     },
     {
       "id": "266d6f696328613700eb",
@@ -145,7 +236,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -269,8 +360,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 1
+        "reposts": 1,
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -373,7 +464,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -680,7 +771,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -804,7 +895,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -1025,40 +1116,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "4146be2f2a6c07811ae9",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:vq76kvbhxplwtmmbi5om6p3v/app.bsky.feed.post/3mxpofnpy6k2z",
-      "author": "Matt 🎙️🏀💙🧡",
-      "handle": "mattraytalk.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vq76kvbhxplwtmmbi5om6p3v/bafkreifmzp37nn7mzdipc7c3aj2uqto7pzvgdqa4fpt47hzagx2rikdmom",
-      "text": "Let’s go Knicks!",
-      "published_at": "2026-10-12T23:31:00.727Z",
-      "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mxpofnpy6k2z",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3mxpofnpy6k2z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "99b68a7e93c71b90c2fb",
@@ -2718,41 +2775,6 @@
       "image_checked_at": "2026-10-12T21:30:21.256Z"
     },
     {
-      "id": "123ab4e867eafb4dd571",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxhrh2xwjj22",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Chris Mannix’s Mailbag: Are Knicks Playing With Fire by Cutting Off Extension Talks? (via Sports Illustrated)",
-      "published_at": "2026-10-09T20:04:11.294Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhrh2xwjj22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicrbyk3rvrkh4wfnrbtpj5ntndytqi45a6fkhkiveac7omgbaziua",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxhrh2xwjj22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "ebd4ce88792c08f25fcf",
       "type": "article",
       "source": "CBS Sports",
@@ -3076,9 +3098,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/and-ones-swing-players-team-needs-aivazoglou-mutual-options.html"
       },
-      "image_checked_at": "2026-10-13T03:00:24.292Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-13T03:00:24.292Z"
     },
     {
       "id": "7885343b233f4665cada",
