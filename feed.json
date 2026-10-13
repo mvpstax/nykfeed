@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T02:30:45.025Z",
+  "generated_at": "2026-10-13T02:45:17.161Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 117,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 29477,
+    "refresh_duration_ms": 3897,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -72,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 22
+        "items": 23
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,14 +92,104 @@
       }
     ],
     "images": {
-      "available": 99,
-      "missing": 18,
-      "article_pages_checked": 0
+      "available": 100,
+      "missing": 19,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "266d6f696328613700eb",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mxpyn5s7y22y",
+      "author": "Kris Pursiainen",
+      "handle": "krisap.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
+      "text": "Mike Brown says the Knicks played well in spurts but didn't do a good job of maximizing their possessions/shot selection.\n\nCites 0 sprays in second quarter — said guards were taking lots of tough shots.",
+      "published_at": "2026-10-13T02:34:09.881Z",
+      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxpyn5s7y22y",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxpyn5s7y22y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "8fd61aa4bf108e4db465",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3mxpyltba7s2y",
+      "author": "Kris Pursiainen",
+      "handle": "krisap.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
+      "text": "Mike Brown says the Knicks' starters had a poor close to the first half and spent halftime watching the last three minutes of the 2Q, just defensively, to see where they could be better.\n\n\"They went out in the second half, I thought defensively, they executed the right way.\"",
+      "published_at": "2026-10-13T02:33:25.283Z",
+      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxpyltba7s2y",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3mxpyltba7s2y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "b6319db644f7dc1723f5",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks still searching for first preseason win after 122-104 loss to Timberwolves",
+      "summary": "The Knicks are still in search for their first preseason win after losing to the Minnesota Timberwolves on Monday night, 122-104, at Madison Square Garden.",
+      "author": null,
+      "published_at": "2026-10-13T02:29:27.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-still-searching-first-preseason-022927243.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/581857cec6cd9eaf0f2d803f4dbe7b3b828afbcb6f9c6c5b0810665b2e477ab0/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F89314f23378d7fcf45fb0765609eedf9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-still-searching-first-preseason-022927243.html"
+      },
+      "image_checked_at": "2026-10-13T02:45:17.038Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "48045539b2e8e697e144",
       "type": "social",
@@ -158,7 +247,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -295,7 +384,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -1041,40 +1130,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "c4002d70d7136a5bc6a2",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:dopbstmnsij5ipmn6sr3fd43/app.bsky.feed.post/3mxphjfht3s2i",
-      "author": "Seth Rosenthal",
-      "handle": "sethrosenthal.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:dopbstmnsij5ipmn6sr3fd43/bafkreif2nalttdyf2va4pskcdsbq7rji2mggz44j5ccd4sfput37ivsj6q",
-      "text": "lol I just felt a pang of insult that the Knicks aren’t on this cover. It happened to me. I’m a Lakers fan",
-      "published_at": "2026-10-12T21:27:50.085Z",
-      "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3mxphjfht3s2i",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 4,
-        "reposts": 1,
-        "likes": 23
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3mxphjfht3s2i",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "3ea6ed0885674dadd538",
