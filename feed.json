@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T01:00:48.307Z",
+  "generated_at": "2026-10-14T01:15:19.251Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 115,
+    "item_count": 116,
     "game_count": 0,
-    "refresh_duration_ms": 30927,
+    "refresh_duration_ms": 4033,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 104,
+      "available": 105,
       "missing": 11,
       "article_pages_checked": 0
     },
@@ -101,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "6611782b65909bd754a5",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxse5seig724",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "A humbled James Wiseman knows what this Knicks chance means for him (via New York Post)",
+      "published_at": "2026-10-14T01:05:38.750Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxse5seig724",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib22f6utmmyrxos6dizj6qscrhvkfoqt2ghff7s273f3cftkv3ljm",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxse5seig724",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "904f5a854285d85cc405",
       "type": "social",
@@ -364,6 +398,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
       "source": "Bluesky",
@@ -528,7 +583,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -561,9 +616,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 2,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1638,7 +1693,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -2755,41 +2810,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxmbor7udx2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "cb8e466a3cc3b36fce2a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxm6d7zcjl2f",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "NBA Analyst Warns Karl-Anthony Towns About Owners’ Heartless Betrayal Amid Paused Contract Talks: 'Stop Enabling These Guys' (via Yardbarker)",
-      "published_at": "2026-10-11T14:05:19.969Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxm6d7zcjl2f",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibjk6qwnoqybednpuj7vjjbd3rtrzsy3migv7bjlvo7bu6hsg46za",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxm6d7zcjl2f",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
