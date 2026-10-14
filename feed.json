@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T20:30:26.171Z",
+  "generated_at": "2026-10-14T20:45:20.157Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 5985,
+    "refresh_duration_ms": 5259,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,12 +94,47 @@
     "images": {
       "available": 105,
       "missing": 12,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "43230d8769327a2b0a19",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mxufdcyqwn2r",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "Last night’s game? Doesn’t mattwr. \nCome watch real basketball with us next week! We’ll be at @penn6nyc with @sophieedash for Knicks vs. Celtics next Friday night!",
+      "published_at": "2026-10-14T20:31:57.364Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxufdcyqwn2r",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreihgyo3zu4d7ssmdlsly5kxpblirx6gkfp4qre3zfvu56virjezc3i",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxufdcyqwn2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "1ba1e3b8f63c297b0f1e",
       "type": "social",
@@ -1978,41 +2013,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c0a6ac6ac7495c752ad1",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxrobsrjge2m",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Knicks owner James Dolan challenges NYC business group to grow backbone and step into governor race 'before its too late'",
-      "published_at": "2026-10-13T18:34:11.065Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxrobsrjge2m",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreib2yvcxsya6iernub23jaxwn4hoxjovqeaep6wlai56bcvr5funqe",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxrobsrjge2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "0619ba8624d5acb32adb",
       "type": "social",
       "source": "Bluesky",
@@ -3066,9 +3066,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/tyler-kolek-making-knicks-life-harder-preseason-showing-01m4kfqxqbcc",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-14T20:30:25.634Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-14T20:30:25.634Z"
     },
     {
       "id": "7a81f98ae41601ca8900",
