@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T04:30:42.995Z",
+  "generated_at": "2026-10-14T04:45:18.383Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 118,
     "game_count": 0,
-    "refresh_duration_ms": 27667,
+    "refresh_duration_ms": 4312,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 106,
+      "available": 108,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -214,6 +213,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-14T02:30:19.869Z"
+    },
+    {
+      "id": "a2dfe3465ef6ba023657",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Thoughts & Quotes for Your Group Chat: Raptors vs. Knicks",
+      "summary": "A cheat sheet for one of the most electric pre-season games in Toronto Raptors history.",
+      "author": null,
+      "published_at": "2026-10-14T02:21:03.000Z",
+      "url": "https://sports.yahoo.com/articles/thoughts-quotes-group-chat-raptors-022103580.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/1ad4b86589d848b8fcca69ed92d3a5e7.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/thoughts-quotes-group-chat-raptors-022103580.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "98a904b489422f9c2443",
@@ -341,7 +361,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -758,6 +778,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/preseason-game-thread-knicks-raptors-223000059.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
