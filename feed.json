@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T13:15:18.942Z",
+  "generated_at": "2026-10-14T13:30:45.168Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 4253,
+    "refresh_duration_ms": 28300,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -55,12 +55,13 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 11
+        "items": 10
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,48 @@
       }
     ],
     "images": {
-      "available": 104,
-      "missing": 10,
+      "available": 102,
+      "missing": 11,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "3fa73990306d2ee2e0c9",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:n6xcp3cp7o5bxqo25gr4mvcy/app.bsky.feed.post/3mxtnbi7ayc24",
+      "author": "Tatted4lifefitness",
+      "handle": "tatted4life.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:n6xcp3cp7o5bxqo25gr4mvcy/bafkreifevni2wuoffrt3zs3acs7cy7detnypxvnjf5nuurz3cfn5feofwe",
+      "text": "Ok it's only preseason but 0-3 and see some contract issues with our roster... Definitely hope things change at the start of the season I have faith... #Knicks #KnicksSky #NBASky #KnicksFans #NYKnicks #NBA #Basketball #Knicksin5 🏀",
+      "published_at": "2026-10-14T13:21:25.931Z",
+      "url": "https://bsky.app/profile/did:plc:n6xcp3cp7o5bxqo25gr4mvcy/post/3mxtnbi7ayc24",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:n6xcp3cp7o5bxqo25gr4mvcy/post/3mxtnbi7ayc24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "d2aedd104b6b7708ea3d",
       "type": "social",
@@ -912,27 +947,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/preseason-game-thread-knicks-raptors-223000059.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1906,41 +1920,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50170683/game-highlights"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "1864e4f567bbb3c74d22",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxq6z5or5i2r",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "The one thing Knicks need to repeat as champs with possible 'issue' looming: Reggie Miller",
-      "published_at": "2026-10-13T04:28:14.554Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxq6z5or5i2r",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreiaemegil3nwnl5zqwrvyk5svxawv7bp7kizydfo6blmixh76vrpwq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxq6z5or5i2r",
-        "render_mode": "native_social_card"
       },
       "image_status": "available",
       "image_source": "source_feed"
