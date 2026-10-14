@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T23:00:24.389Z",
+  "generated_at": "2026-10-14T23:15:44.330Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 3565,
+    "refresh_duration_ms": 29251,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,85 @@
     "images": {
       "available": 100,
       "missing": 11,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ede240fac91432e2ab0c",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxuo2cjx5623",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen Boneson and OG AnunoBOO (via r/NYKnicks)",
+      "published_at": "2026-10-14T23:07:58.383Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxuo2cjx5623",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiayx5gfs6363y7542lhiiqk2th4uirjsglze7o4ur57wtvh6kesje/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiayx5gfs6363y7542lhiiqk2th4uirjsglze7o4ur57wtvh6kesje/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiayx5gfs6363y7542lhiiqk2th4uirjsglze7o4ur57wtvh6kesje/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1280,
+        "width": 720
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxuo2cjx5623",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "69d5e631c0032e70cb76",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:7okgq3dsknx6wmzaoltr3pe4/app.bsky.feed.post/3mxunrobqds2u",
+      "author": "theSoreWinner",
+      "handle": "thesorewinner.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreib6gdhfh3diegqifm2kxbszmtki6bghe5a337wlfizvab4wvgiosu",
+      "text": "‘KEEP MY TEAM’S NAME OUT YOUR F——\nMOUTH…’ 🤪 #KNICKS #KnicksIn5 ✋🏽💥\n#KnicksBlueSkies #KnicksSky",
+      "published_at": "2026-10-14T23:03:08.911Z",
+      "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3mxunrobqds2u",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreieukzy6dbl2bakf7l5bo6dhh3lec2u7sdas2xpnay2cswsxpt24q4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3mxunrobqds2u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "65349aa72a7c66d94aa2",
       "type": "social",
@@ -836,6 +910,28 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
+    },
+    {
+      "id": "a380e56484f43ccf0d26",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "When was the last repeat NBA champion? Looking back at history as Knicks defend title",
+      "summary": "It's been nearly a decade since the last back-to-back champion in the NBA.",
+      "author": null,
+      "published_at": "2026-10-14T15:06:33.000Z",
+      "url": "https://sports.yahoo.com/articles/last-repeat-nba-champion-looking-150633717.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/bfdc8a4c328be54c670441e3d76bb10669ebb4a2513ab16de4c6263349f07c22/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcsnphilly.com%2Fb5df9d2193edc9af415303bd48764de6.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/last-repeat-nba-champion-looking-150633717.html"
+      },
+      "image_checked_at": "2026-10-14T23:15:43.975Z",
+      "image_source": "og:image",
+      "image_status": "available"
     },
     {
       "id": "a97126ff4889ce1274da",
@@ -1765,27 +1861,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
       "source": "Bluesky",
@@ -1920,44 +1995,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxrtfxcpfr22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "d2519ca82b312fa0795a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mxrspkcrp22b",
-      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
-      "handle": "kingfitch1990.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreidwamuzd5ze4pyetx3oxglaavjvns4i5dj4orgorqdmzjgerqbsxu",
-      "text": "Happy 4 month Anniversay to those who celebrate the New York Knicks winning the NBA FINALS..",
-      "published_at": "2026-10-13T19:53:27.140Z",
-      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxrspkcrp22b",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiay46fpgxlddr6rkxh7dj5qhjpgh6axqywro252ghvi3kfl6wbje4/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiay46fpgxlddr6rkxh7dj5qhjpgh6axqywro252ghvi3kfl6wbje4/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A4kxaujevio7kizmcshgxvseq/bafkreiay46fpgxlddr6rkxh7dj5qhjpgh6axqywro252ghvi3kfl6wbje4/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 576,
-        "width": 576
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxrspkcrp22b",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2657,41 +2694,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxp7o4kz2l2p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "71485c384ac4c189cc47",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxp4ejt3562p",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks, Timberwolves, Warriors were interested in Ben Simmons before he signed with Kings (via HoopsHype)",
-      "published_at": "2026-10-12T18:08:15.525Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxp4ejt3562p",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreie6byqmsqunnqvlxlptxiqits7cnsqdwkidzxoxq6eeonplwdyr6y",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxp4ejt3562p",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
