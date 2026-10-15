@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T12:15:42.736Z",
+  "generated_at": "2026-10-15T12:30:26.277Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 28802,
+    "refresh_duration_ms": 5319,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 101,
       "missing": 8,
       "article_pages_checked": 0
     },
@@ -101,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "08e6b1f528aa26db38f2",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:j4spygbxn74y4dx2qejadwvk/app.bsky.feed.post/3mxw23cf25c2g",
+      "author": "Adam Zagoria",
+      "handle": "adamzagoria.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreihphjbhoytwx4l4nqhz5xg32puaysk7grujsxk4ryscwxv3lqmqoq",
+      "text": "Former Knicks’ star breaks silence on absence: ‘I don’t have HIV or AIDS'\n\nwww.nj.com/knicks/2026/...",
+      "published_at": "2026-10-15T12:15:56.625Z",
+      "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mxw23cf25c2g",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreicwdt5ocvodhcaffusjlbnk2gco36wjujpfa4cmhm3zwg2qwz6gtu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3mxw23cf25c2g",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "2cf15989e282cf3fc9e9",
       "type": "social",
@@ -1928,41 +1962,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "c41133744abc17dcc1c0",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mxsglnlki22n",
-      "author": "Posting and Toasting",
-      "handle": "postingandtoasting.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
-      "text": "Raptors 148, Knicks 98: Scenes from Kawhi’s return",
-      "published_at": "2026-10-14T01:49:11.192Z",
-      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxsglnlki22n",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreiam4oeoayatlkin3jh6vbowrtukrhjkljtq5bwhyysayxthhzrveq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 12
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxsglnlki22n",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "6611782b65909bd754a5",
       "type": "social",
       "source": "Bluesky",
@@ -2063,6 +2062,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
