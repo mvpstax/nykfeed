@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-15T14:53:02.165Z",
+  "generated_at": "2026-10-15T16:50:36.839Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "nba:0012600055",
@@ -48,7 +48,23 @@
         "three": 35.96491228070175,
         "rebounds": 47.333333333333336,
         "assists": 28,
-        "turnovers": 16
+        "turnovers": 16,
+        "factors": {
+          "efg": 56.6793893129771,
+          "tov": 13.59311282283643,
+          "orb": 28.676470588235293,
+          "ftr": 26.717557251908396,
+          "three_rate": 43.51145038167939,
+          "fta_rate": 37.404580152671755,
+          "games": 3,
+          "samples": {
+            "efg": 3,
+            "tov": 3,
+            "orb": 3,
+            "ftr": 3
+          },
+          "definition_version": 1
+        }
       },
       "lineup": {
         "status": "estimated",
@@ -162,7 +178,23 @@
         "three": 22.36842105263158,
         "rebounds": 41,
         "assists": 24.75,
-        "turnovers": 16.5
+        "turnovers": 16.5,
+        "factors": {
+          "efg": 46.13180515759312,
+          "tov": 14.148516549476934,
+          "orb": 25.37313432835821,
+          "ftr": 24.64183381088825,
+          "three_rate": 43.55300859598854,
+          "fta_rate": 33.5243553008596,
+          "games": 4,
+          "samples": {
+            "efg": 4,
+            "tov": 4,
+            "orb": 4,
+            "ftr": 4
+          },
+          "definition_version": 1
+        }
       },
       "lineup": {
         "status": "estimated",
