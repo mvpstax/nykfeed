@@ -1,0 +1,81 @@
+name: Refresh Knicks Matchup
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9,24,39,54 * * * *'
+
+  workflow_run:
+    workflows: ['Refresh Knicks Game Day']
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: knicks-betting-results
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Refresh matchup and available pregame odds
+        env:
+          HIGHLIGHTLY_API_KEY: ${{ secrets.HIGHLIGHTLY_API_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "knicks-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            node scripts/update-matchup.mjs
+
+            if [ -f scripts/refresh-pregame-odds.mjs ]; then
+              node scripts/refresh-pregame-odds.mjs
+            fi
+
+            git add matchup.json
+
+            if [ -f matchup-cache.json ]; then
+              git add matchup-cache.json
+            fi
+
+            if [ -f odds.json ]; then
+              git add odds.json
+            fi
+
+            if [ -f betting-results.json ]; then
+              git add betting-results.json
+            fi
+
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+
+            git commit -m "Refresh Knicks matchup hub"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          exit 1
