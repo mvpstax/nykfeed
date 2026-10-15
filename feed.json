@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T04:15:42.526Z",
+  "generated_at": "2026-10-15T04:30:19.893Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 28451,
+    "refresh_duration_ms": 4514,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -334,7 +333,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1458,27 +1457,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "098760984d48c5e8b780",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks Bulletin: ‘Stay diligent’",
-      "summary": "Four of the five Knicks starters didn’t board a plane north of the border, the fifth one didn’t play basketball on Tuesday, and it all showed badly. New York will host a preseason game for one final time on Thursday before dressing in gold for Tuesday’s banner night. Here’s the latest from Mike, James, and […]",
-      "author": null,
-      "published_at": "2026-10-14T14:01:40.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-stay-diligent-140140647.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/f6e7b57f83ba4a97df6616422c80fcb4.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-bulletin-stay-diligent-140140647.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "3fa73990306d2ee2e0c9",
       "type": "social",
       "source": "Bluesky",
@@ -2094,6 +2072,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
