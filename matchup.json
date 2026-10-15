@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-15T21:50:53.505Z",
+  "generated_at": "2026-10-15T23:57:50.341Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "nba:0012600055",
@@ -67,10 +67,18 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
+          {
+            "id": "6450",
+            "name": "Kawhi Leonard",
+            "position": "F",
+            "jersey": "2",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6450.png",
+            "availability": null
+          },
           {
             "id": "4395625",
             "name": "RJ Barrett",
@@ -102,14 +110,6 @@
             "jersey": "5",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4395724.png",
             "availability": null
-          },
-          {
-            "id": "4684272",
-            "name": "Ja'Kobe Walter",
-            "position": "G",
-            "jersey": "14",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4684272.png",
-            "availability": null
           }
         ]
       },
@@ -125,6 +125,16 @@
             "status": "Day-To-Day",
             "detail": "Foot · Leg",
             "reported_at": "2026-10-13T21:35Z"
+          },
+          {
+            "id": "4590360",
+            "name": "Chucky Hepburn",
+            "position": "G",
+            "jersey": "24",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4590360.png",
+            "status": "Day-To-Day",
+            "detail": "Hamstring · Leg",
+            "reported_at": "2026-10-12T20:12Z"
           }
         ]
       },
@@ -197,10 +207,18 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "position": "F",
+            "jersey": "8",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
+            "availability": null
+          },
           {
             "id": "5289900",
             "name": "Mohamed Diawara",
@@ -210,51 +228,12 @@
             "availability": null
           },
           {
-            "id": "4431823",
-            "name": "Miles McBride",
-            "position": "G",
-            "jersey": "2",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png",
-            "availability": null
-          },
-          {
-            "id": "4277869",
-            "name": "Jose Alvarado",
-            "position": "G",
-            "jersey": "5",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png",
-            "availability": null
-          },
-          {
-            "id": "4432808",
-            "name": "James Wiseman",
-            "position": "C",
-            "jersey": "35",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png",
-            "availability": null
-          },
-          {
-            "id": "3062679",
-            "name": "Josh Hart",
-            "position": "G",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-            "availability": "Day-To-Day"
-          }
-        ]
-      },
-      "availability": {
-        "reported": true,
-        "players": [
-          {
             "id": "3136195",
             "name": "Karl-Anthony Towns",
             "position": "C",
             "jersey": "32",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-            "status": "Day-To-Day",
-            "detail": "Rest",
-            "reported_at": "2026-10-13T02:47Z"
+            "availability": null
           },
           {
             "id": "3147657",
@@ -262,29 +241,7 @@
             "position": "G",
             "jersey": "25",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
-            "status": "Day-To-Day",
-            "detail": "Rest",
-            "reported_at": "2026-10-13T02:47Z"
-          },
-          {
-            "id": "3062679",
-            "name": "Josh Hart",
-            "position": "G",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-            "status": "Day-To-Day",
-            "detail": "Rest",
-            "reported_at": "2026-10-13T02:40Z"
-          },
-          {
-            "id": "3934719",
-            "name": "OG Anunoby",
-            "position": "F",
-            "jersey": "8",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
-            "status": "Day-To-Day",
-            "detail": "Rest",
-            "reported_at": "2026-10-13T02:40Z"
+            "availability": null
           },
           {
             "id": "3934672",
@@ -292,9 +249,22 @@
             "position": "G",
             "jersey": "11",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+            "availability": null
+          }
+        ]
+      },
+      "availability": {
+        "reported": true,
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "position": "G",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
             "status": "Day-To-Day",
-            "detail": "Rest",
-            "reported_at": "2026-10-13T02:20Z"
+            "detail": "Ankle · Leg",
+            "reported_at": "2026-10-15T23:29Z"
           }
         ]
       },
