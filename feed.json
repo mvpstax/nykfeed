@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T13:00:27.049Z",
+  "generated_at": "2026-10-15T13:15:18.666Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 4499,
+    "refresh_duration_ms": 4510,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 2
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 101,
+      "available": 102,
       "missing": 8,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "9a411433d2055b6e25a1",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxw4s4mh2y2x",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Mitchell Robinson Explains His Expanded Role in Celtics' Offense Compared to Knicks Tenure (via Bleacher Report)",
+      "published_at": "2026-10-15T13:04:29.616Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxw4s4mh2y2x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreienxcip5toi67ifdurtksunbrsqkge5ji3c6oxk37sckic3wop3da",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxw4s4mh2y2x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "08e6b1f528aa26db38f2",
       "type": "social",
@@ -280,6 +315,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxvoakcihb2p",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "d08b613d3251d157e180",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Former Knicks star Amar’e Stoudemire graduates Florida police academy, becomes officer",
+      "summary": "The former NBA All-Star graduated from the Miami-Dade police academy Wednesday and will join the county’s school police department.",
+      "author": null,
+      "published_at": "2026-10-15T08:41:42.000Z",
+      "url": "https://sports.yahoo.com/articles/former-knicks-star-amar-e-084142663.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/5e1a455b9733cc1100f6e9255a28f853.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/former-knicks-star-amar-e-084142663.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2687,44 +2743,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpqcpn42723",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "99b68a7e93c71b90c2fb",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxpn3mwka32w",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Mike Brown says he \"isn't sure yet\" but Karl-Anthony Towns could play more minutes at PF this season (via r/NYKnicks)",
-      "published_at": "2026-10-12T23:07:30.417Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpn3mwka32w",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreid643fp6l3u6omvskmvtrrul62xion4d4rhhrhith77drw6lni7mm/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreid643fp6l3u6omvskmvtrrul62xion4d4rhhrhith77drw6lni7mm/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreid643fp6l3u6omvskmvtrrul62xion4d4rhhrhith77drw6lni7mm/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 900,
-        "width": 720
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpn3mwka32w",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
