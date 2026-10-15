@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T06:15:22.096Z",
+  "generated_at": "2026-10-15T06:30:44.416Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 107,
     "game_count": 0,
-    "refresh_duration_ms": 4055,
+    "refresh_duration_ms": 28332,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 2
+        "items": 1
       },
       {
         "source_key": "espn",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 97,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -2021,27 +2022,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
       "source": "Bluesky",
@@ -2514,27 +2494,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxq2nx3swj2y",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "a08f2d6e1417010ffcd2",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Chris Finch: LaMelo Ball Has Helped Wolves Trade 'Moodiness For Giddiness'",
-      "summary": "Chris Finch said LaMelo Ball has transformed the Minnesota Timberwolves' attitude since arriving in an offseason trade from the Charlotte Hornets. Finch spoke Monday at Madison Square Garden before a preseason game against the New York Knicks. \"He's always in a great mood,\" said Finch. \"Always comes in smiling. He and Anthony have a shared quality: They're really hard to stay mad at. And they do some things that you want to get mad at. They have a reflective joy, and I think that's important. They tease the joy out of each other as practice goes along. So, that kind of adds to the overall spirit of the group, which we really needed. \"We referred to ourselves as a moody team in the last couple of years at times, and it's probably gotten in our way. We've traded moodiness for giddiness, so we've got to kind of get back to some sort of equilibrium. But it's been fun to go to work every day so far.\" Minnesota acquired Ball from the Charlotte Hornets this summer for Naz Reid, a 2033 first-round pick, three second-round picks and three first-round pick swaps. Finch said team president Tim Connelly had discussed Ball with Charlotte several times over the previous year. Two days earlier, the Wolves sent Julius Randle and the No. 28 pick to the Brooklyn Nets in a three-team deal. Minnesota received an early second-round pick and salary-cap space. Ball helped lead Charlotte to 44 wins last season as he averaged 20.1 points, 7.1 assists and 4.8 rebounds while shooting 36.8% on 10.3 3-point attempts per game. The San Antonio Spurs eliminated Minnesota in six games in the second round last season. Finch said Ball gives the Wolves another player alongside Anthony Edwards who can create and make shots late in games.",
-      "author": null,
-      "published_at": "2026-10-13T03:03:13.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287608/Chris-Finch-LaMelo-Ball-Has-Helped-Wolves-Trade-Moodiness-For-Giddiness",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Ball_Lamelo_min_261009.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287608/Chris-Finch-LaMelo-Ball-Has-Helped-Wolves-Trade-Moodiness-For-Giddiness"
       },
       "image_status": "available",
       "image_source": "source_feed"
