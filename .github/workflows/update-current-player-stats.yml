@@ -1,0 +1,59 @@
+name: Refresh Knicks Player Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: knicks-player-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Update and save player stats
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "knicks-feed-bot"
+          git config user.email "knicks-feed-bot@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            node scripts/update-current-player-stats.mjs
+
+            git add player-stats.json player-box-cache.json
+
+            if git diff --cached --quiet; then
+              echo "Player stats are current."
+              exit 0
+            fi
+
+            git commit -m "Refresh Knicks player stats"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "Could not publish stats after three attempts."
+          exit 1
