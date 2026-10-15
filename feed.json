@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T21:45:18.144Z",
+  "generated_at": "2026-10-15T22:00:46.980Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 115,
+    "item_count": 116,
     "game_count": 0,
-    "refresh_duration_ms": 5084,
+    "refresh_duration_ms": 28179,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,36 @@
       }
     ],
     "images": {
-      "available": 109,
+      "available": 110,
       "missing": 6,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "1f759fb1d3ed8350e5b2",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "NBA GMs High On Sixers’ Offseason Moves, Wembanyama’s Impact",
+      "summary": "The Sixers made the best roster moves during the 2026 offseason, according to the NBA’s general managers. Within his annual survey of the league’s top basketball decision-makers, John Schuhmann of NBA.com writes that 73% of his respondents picked Philadelphia as having the best summer, with the Heat coming in a distant second place at 10% […]",
+      "author": "Rory Maher",
+      "published_at": "2026-10-15T21:48:05.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/nba-gms-high-on-sixers-offseason-moves-wembanyamas-impact.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/04/Victor-Wembanyama-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/nba-gms-high-on-sixers-offseason-moves-wembanyamas-impact.html"
+      },
+      "image_checked_at": "2026-10-15T22:00:46.795Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "63f756ab78d56c41d9a0",
       "type": "social",
@@ -194,8 +217,8 @@
       },
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 2
+        "reposts": 1,
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -512,6 +535,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxwmnl7vsm2m",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "32aeaef011308e9b2255",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Two players remain in battle for final Knicks roster spot",
+      "summary": "The Knicks waived three players on nonguaranteed contracts ahead of Thursday’s preseason finale, leaving two remaining for at least one roster spot.",
+      "author": null,
+      "published_at": "2026-10-15T17:46:41.000Z",
+      "url": "https://sports.yahoo.com/articles/two-players-remain-battle-final-174641509.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/371929300d9d6af54495691ae003427a.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/two-players-remain-battle-final-174641509.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2592,27 +2636,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
