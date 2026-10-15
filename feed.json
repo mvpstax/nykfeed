@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T05:00:46.262Z",
+  "generated_at": "2026-10-15T05:15:16.501Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 28349,
+    "refresh_duration_ms": 3776,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -72,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 30
+        "items": 29
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,8 +92,8 @@
       }
     ],
     "images": {
-      "available": 99,
-      "missing": 11,
+      "available": 100,
+      "missing": 10,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
@@ -1974,40 +1973,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c58e30d1012ce02e897d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:bnrvxigpgotzdtuz6c5wahcb/app.bsky.feed.post/3mxsaunssxc22",
-      "author": "BugsySig",
-      "handle": "bugsysig.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:bnrvxigpgotzdtuz6c5wahcb/bafkreiavtbn4jceohrlp4syqgt5bq7egen3htbfh3pcelzdsvvo3tm3jye",
-      "text": "What idiot schedules back-to-back preseason games? No reason to watch this #Knicks game. Yeesh.",
-      "published_at": "2026-10-14T00:06:50.967Z",
-      "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mxsaunssxc22",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3mxsaunssxc22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "592bdc8a9aa8f68a5411",
       "type": "social",
       "source": "Bluesky",
@@ -2073,6 +2038,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
