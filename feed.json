@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T12:00:27.057Z",
+  "generated_at": "2026-10-15T12:15:42.736Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 3989,
+    "refresh_duration_ms": 28802,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,13 +94,48 @@
     ],
     "images": {
       "available": 100,
-      "missing": 9,
+      "missing": 8,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "2cf15989e282cf3fc9e9",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3mxvzaa4sqg2i",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "🔥🚨🏀NBA OVER/UNDERS🏀🚨🔥\n\n@JCMacriNBA, @AndrewJClaudio_, @JeffJSays & @shawnwithaW_ make their picks for the 2026-27 season while also asking their biggest Knicks related question for every NBA franchise. \n\nh/t: @FanaticsSports\n\nWEST - youtu.be/ymPnnkW0x5o \nEAST - youtu.be/PxRS9-CMn8U",
+      "published_at": "2026-10-15T12:00:47.359Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxvzaa4sqg2i",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreibkpplgyxupvta2zuxlbzlnvufzuovo5m3ynaaeezivfg2inzpgvu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mxvzaa4sqg2i",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "f6a871ef030e0f056de7",
       "type": "article",
@@ -1927,40 +1963,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "7c0db6a2cdf3d6aaf27f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcihvwdx4zaltgddhtz5a4ct/app.bsky.feed.post/3mxsgjlo3kc2i",
-      "author": "Merks.",
-      "handle": "merks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcihvwdx4zaltgddhtz5a4ct/bafkreif3rzeyikfod3zjk2vgbsiocf2ibeciyhapfuoszwsg5ejwbq75f4",
-      "text": "I didn’t even know we picked up James wiseman but I always thought he was a good player #lfgknicks",
-      "published_at": "2026-10-14T01:48:02.069Z",
-      "url": "https://bsky.app/profile/did:plc:wcihvwdx4zaltgddhtz5a4ct/post/3mxsgjlo3kc2i",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcihvwdx4zaltgddhtz5a4ct/post/3mxsgjlo3kc2i",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "6611782b65909bd754a5",
       "type": "social",
       "source": "Bluesky",
@@ -2061,27 +2063,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
