@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T03:00:26.000Z",
+  "generated_at": "2026-10-15T03:15:48.882Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 114,
+    "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 7113,
+    "refresh_duration_ms": 29447,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,49 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 101,
       "missing": 11,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "b031dcb8caaae29f6214",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxv3fwnlkf2t",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "NBA champion urges Knicks to keep Karl-Anthony Towns with blunt reminder (via Yahoo Sports)",
+      "published_at": "2026-10-15T03:07:07.219Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxv3fwnlkf2t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibrib5sbp3j3bzhqgqgpgrvi4vfj5xk3irkccp3ug74qkijkbub3m",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxv3fwnlkf2t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "f60ecafe161717aa0977",
       "type": "social",
@@ -1512,28 +1548,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "648e96c9f52dd7f81e23",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "2026-27 NBA Championship predictions roundtable: Can Knicks repeat? Is this Wemby and the Spurs’ year?",
-      "summary": "The Spurs, Thunder and Knicks are the obvious contenders, but which teams can challenge them.",
-      "author": null,
-      "published_at": "2026-10-14T12:00:00.000Z",
-      "url": "https://sports.yahoo.com/articles/2026-27-nba-championship-predictions-120000520.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/def1edce4edeb16297326e338363fedf7f4f82a44a5d5f0ced39b4ec3c6731e2/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F1921a4c7999d96eb3cd1a317c8ca6752.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/2026-27-nba-championship-predictions-120000520.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-14T12:15:42.866Z"
-    },
-    {
       "id": "10e8ef761bcad67b8e19",
       "type": "social",
       "source": "Bluesky",
@@ -2085,27 +2099,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
       "source": "Bluesky",
@@ -2622,9 +2615,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/grading-every-knicks-player-preseason-loss-vs-timberwolves-01m4s7rxkgm2",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-15T03:00:25.422Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-15T03:00:25.422Z"
     },
     {
       "id": "828c687dc53f14a02eec",
@@ -2764,41 +2757,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpn3mwka32w",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "1e1ad11ccaf2e15658f9",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxpjplha6z2x",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Exclusive | Knicks owner James Dolan to host $10K-per-ticket MSG fundraiser for NY gov candidate Bruce Blakeman (via New York Post)",
-      "published_at": "2026-10-12T22:07:04.988Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpjplha6z2x",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigjobfnbca4ex5pp4gamgh3j7agcv2zx4ydd2h2ofoqfmzday5p6q",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpjplha6z2x",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -3418,9 +3376,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/and-ones-swing-players-team-needs-aivazoglou-mutual-options.html"
       },
-      "image_checked_at": "2026-10-15T03:00:25.423Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-15T03:00:25.423Z"
     },
     {
       "id": "5e558675c2a4c8c35da4",
