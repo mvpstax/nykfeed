@@ -1,12 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T01:50:32.473Z",
-  "source": "Highlightly",
+  "generated_at": "2026-10-15T05:08:06.300Z",
+  "converted_at": "2026-10-15T06:34:48.256Z",
+  "source": "ESPN",
   "game_id": "nba:0012600055",
-  "match_id": 1546327,
+  "archive_game_id": "espn:401908945",
+  "match_id": null,
   "odds_type": "prematch",
   "price_format": "decimal",
-  "status": "unavailable",
-  "reason": "The odds provider rejected access. Check the GitHub secret and your Highlightly plan.",
-  "bookmakers": []
+  "status": "available",
+  "reason": null,
+  "bookmakers": [
+    {
+      "id": "espn:100",
+      "name": "DraftKings (ESPN)",
+      "markets": [
+        {
+          "market": "Spread -5.5/+5.5",
+          "values": []
+        },
+        {
+          "market": "Totals 225.5",
+          "values": []
+        },
+        {
+          "market": "Moneyline",
+          "values": [
+            {
+              "value": "Home",
+              "odd": 1.4587155963302751
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
