@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T01:00:23.082Z",
+  "generated_at": "2026-10-15T01:15:43.226Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 112,
     "game_count": 0,
-    "refresh_duration_ms": 4440,
+    "refresh_duration_ms": 28231,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 29
+        "items": 30
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +93,83 @@
       }
     ],
     "images": {
-      "available": 101,
-      "missing": 11,
+      "available": 100,
+      "missing": 12,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "15722df167915b58545b",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxuuo4vknk2m",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Who Deserves Knicks Final Roster Spot? | NY Got Game (via New York Post)",
+      "published_at": "2026-10-15T01:06:26.024Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxuuo4vknk2m",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibxqjsmdxjs72ivmwfpxszq3g4rwdmmxvxrlewa4sxdzemhqqunty",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxuuo4vknk2m",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "aa1e23b015c2fa9e30cb",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zatuc3eivscvrv3aey3mfvzj/app.bsky.feed.post/3mxuuj436gs2j",
+      "author": "Spicy Nurse🌶🌶🇦🇬🇬🇧",
+      "handle": "spicynurse38.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zatuc3eivscvrv3aey3mfvzj/bafkreicfysyfvuehvuppw3jnznfq4fnt3veeydk7ljgcixvnbocblkrnkm",
+      "text": "Knicks reserves demolished by starting line up of the Raptors. Fixed it.",
+      "published_at": "2026-10-15T01:03:37.583Z",
+      "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mxuuj436gs2j",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3mxuuj436gs2j",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "840c66cce9be61e40063",
       "type": "social",
@@ -120,9 +190,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -288,9 +358,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 2,
+        "replies": 4,
         "reposts": 1,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -325,7 +395,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -398,7 +468,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -433,7 +503,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -503,7 +573,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -538,7 +608,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -1956,27 +2026,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
       "source": "Bluesky",
@@ -2705,41 +2754,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpgeieja72m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "bbb16554a911bbcac2e3",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxpcx34dzh22",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks, Warriors, Timberwolves missed chance to sign $3.5M three-time All-Star, former No. 1 pick (via Sporting News)",
-      "published_at": "2026-10-12T20:06:00.098Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpcx34dzh22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiedjdeuxqexyyoqceb6cw3awvgepgxnpqted7snfha3rttddq2wdu",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxpcx34dzh22",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
