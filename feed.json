@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T14:15:18.991Z",
+  "generated_at": "2026-10-15T14:30:50.191Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 4269,
+    "refresh_duration_ms": 29056,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -55,12 +55,13 @@
       {
         "source_key": "cbs_sports_nba",
         "ok": true,
-        "items": 9
+        "items": 10
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,7 +95,7 @@
     "images": {
       "available": 103,
       "missing": 8,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -152,6 +153,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/nba/article/new-york-knicks-season-preview-opening-schedule-win-projection-and-everything-to-know-for-2026-27-135114328.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "dfd33d2f6bbf02fed6e1",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "NBA Eastern Conference tiers: Knicks on top, but new-look contenders emerge after eventful offseason",
+      "summary": "The Knicks just won the title, but the loaded East will provide plenty of competition as they look to repeat",
+      "author": "John Gonzalez",
+      "published_at": "2026-10-15T13:34:09.000Z",
+      "url": "https://www.cbssports.com/nba/news/nba-eastern-conference-knicks-on-top-contenders-emerge/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/14/fa8cb972-71dc-42b2-aa8d-fce79f72e475/j-brunson-imagn.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/nba-eastern-conference-knicks-on-top-contenders-emerge/"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2179,27 +2201,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
       "source": "Bluesky",
@@ -3078,9 +3079,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/new-york-notes-demin-towns-mcbride-randle.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-15T14:30:50.003Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-14T14:30:22.675Z"
+      "image_status": "available"
     },
     {
       "id": "5a7faa0847e6056f6ce2",
