@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T14:45:42.565Z",
+  "generated_at": "2026-10-15T15:00:25.690Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 110,
+    "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 28940,
+    "refresh_duration_ms": 4570,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,58 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 104,
       "missing": 7,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "9a7107b37db82be0e132",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Knicks Should Be All Over Trey Jemison for Reunion After Release",
+      "summary": "Following his release, the Knicks have the chance to bring back center Trey Jemison III, who is a great fit for a two-way deal.",
+      "author": "Steven Simineri",
+      "published_at": "2026-10-15T15:00:00.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/knicks-should-be-all-over-trey-jemison-reunion-after-release-01m4yj6t9w1a",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_435,w_5323,h_2994/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m5000pphd97ed93x91.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/knicks-should-be-all-over-trey-jemison-reunion-after-release-01m4yj6t9w1a",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-15T15:00:25.413Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "7edba8c3374d03c4774b",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks’ Eubanks Suffers Torn Pectoral Muscle, Will Be Waived",
+      "summary": "A torn pectoral muscle will sideline Drew Eubanks for an “extended period of time” and will take him out of the race for the Knicks’ third center spot, according to Shams Charania of ESPN, who reports (via Twitter) that New York intends to waive the big man. Eubanks, 29, is an eight-year NBA veteran who […]",
+      "author": "Luke Adams",
+      "published_at": "2026-10-15T14:48:27.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/knicks-eubanks-suffers-torn-pectoral-muscle-will-be-waived.html",
+      "image_url": "https://www.hoopsrumors.com/files/2026/10/Drew-Eubanks-Knicks-300x200.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/10/knicks-eubanks-suffers-torn-pectoral-muscle-will-be-waived.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "cf124e640179df565f31",
       "type": "social",
@@ -741,27 +784,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxureqts7y22",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "21ac205c7b57b3544c04",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Raptors look to go up 2-0 on the Knicks in Thursday road game",
-      "summary": "Toronto heads to Madison Square Garden, looking to build chemistry before the regular season.",
-      "author": null,
-      "published_at": "2026-10-14T23:42:08.000Z",
-      "url": "https://sports.yahoo.com/articles/raptors-look-2-0-knicks-234208286.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/6f8bb8343d0322e7ed8d99f7e647b6c8.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/raptors-look-2-0-knicks-234208286.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2167,6 +2189,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "c69356ff2fdd0df8de7c",
       "type": "social",
       "source": "Bluesky",
@@ -3071,29 +3114,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-15T11:30:19.982Z"
-    },
-    {
-      "id": "2aad3119f98cdb577069",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Why There's Hope for Knicks Making a Pacome Dadiet Trade Soon",
-      "summary": "Pacome Dadiet looking like a lost cause for the Knicks has reignited trade hopes. Luckily, New York is well equipped to find a taker.",
-      "author": "Isaiah De Los Santos",
-      "published_at": "2026-10-10T00:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/why-there-s-hope-knicks-making-pacome-dadiet-trade-soon-01m4gtfms1df",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_61,w_5244,h_2949/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4gthep10yh1hrqs95.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/why-there-s-hope-knicks-making-pacome-dadiet-trade-soon-01m4gtfms1df",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-15T00:45:27.512Z"
     },
     {
       "id": "ebd4ce88792c08f25fcf",
