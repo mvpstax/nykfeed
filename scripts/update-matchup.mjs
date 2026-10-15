@@ -85,6 +85,7 @@ export function injuriesFor(summary, teamId) {
 
   return {
     reported: !!group,
+
     players: (group?.injuries || []).map(item => ({
       ...person(item.athlete),
       status: item.status || "Not specified",
@@ -208,6 +209,7 @@ export function normalizeBox(summary) {
 
     return {
       id: String(group.team?.id),
+      version: 2,
 
       fg:
         pair(
@@ -231,6 +233,18 @@ export function normalizeBox(summary) {
           ]
         ),
 
+      ft:
+        pair(
+          stats.freeThrowsMade +
+          "-" +
+          stats.freeThrowsAttempted
+        ) ||
+        pair(
+          stats["freeThrowsMade-freeThrowsAttempted"]
+        ),
+
+      offensive: number(stats.offensiveRebounds),
+      defensive: number(stats.defensiveRebounds),
       rebounds: number(stats.totalRebounds),
       assists: number(stats.assists),
       turnovers: number(stats.totalTurnovers),
@@ -239,11 +253,174 @@ export function normalizeBox(summary) {
   });
 }
 
-export function aggregate(games, boxes, teamId) {
+export function fourFactors(
+  games,
+  boxes,
+  teamId
+) {
+  const pairs = games.map(game => {
+    const rows = boxes[game.id] || [];
+
+    return {
+      own: rows.find(
+        row => row.id === String(teamId)
+      ),
+      opponent: rows.find(
+        row => row.id !== String(teamId)
+      )
+    };
+  });
+
+  const finite = value =>
+    typeof value === "number" &&
+    Number.isFinite(value) &&
+    value >= 0;
+
+  const pair = value =>
+    Array.isArray(value) &&
+    value.length === 2 &&
+    value.every(finite) &&
+    value[0] <= value[1];
+
+  const sum = (rows, getter) =>
+    rows.reduce(
+      (total, row) => total + getter(row),
+      0
+    );
+
+  function rate(
+    filter,
+    numerator,
+    denominator
+  ) {
+    const rows = pairs.filter(filter);
+
+    if (
+      !games.length ||
+      rows.length !== games.length
+    ) {
+      return {
+        value: null,
+        games: rows.length
+      };
+    }
+
+    const divisor = sum(
+      rows,
+      denominator
+    );
+
+    return {
+      value:
+        divisor > 0
+          ? 100 *
+            sum(rows, numerator) /
+            divisor
+          : null,
+      games: rows.length
+    };
+  }
+
+  const efg = rate(
+    row =>
+      pair(row.own?.fg) &&
+      pair(row.own?.three) &&
+      row.own.three[0] <=
+        row.own.fg[0],
+
+    row =>
+      row.own.fg[0] +
+      0.5 * row.own.three[0],
+
+    row => row.own.fg[1]
+  );
+
+  const tov = rate(
+    row =>
+      pair(row.own?.fg) &&
+      pair(row.own?.ft) &&
+      finite(row.own?.turnovers),
+
+    row => row.own.turnovers,
+
+    row =>
+      row.own.fg[1] +
+      0.44 * row.own.ft[1] +
+      row.own.turnovers
+  );
+
+  const orb = rate(
+    row =>
+      finite(row.own?.offensive) &&
+      finite(row.opponent?.defensive),
+
+    row => row.own.offensive,
+
+    row =>
+      row.own.offensive +
+      row.opponent.defensive
+  );
+
+  const ftr = rate(
+    row =>
+      pair(row.own?.fg) &&
+      pair(row.own?.ft),
+
+    row => row.own.ft[0],
+
+    row => row.own.fg[1]
+  );
+
+  const threeRate = rate(
+    row =>
+      pair(row.own?.fg) &&
+      pair(row.own?.three),
+
+    row => row.own.three[1],
+
+    row => row.own.fg[1]
+  );
+
+  const ftaRate = rate(
+    row =>
+      pair(row.own?.fg) &&
+      pair(row.own?.ft),
+
+    row => row.own.ft[1],
+
+    row => row.own.fg[1]
+  );
+
+  return {
+    efg: efg.value,
+    tov: tov.value,
+    orb: orb.value,
+    ftr: ftr.value,
+    three_rate: threeRate.value,
+    fta_rate: ftaRate.value,
+    games: games.length,
+
+    samples: {
+      efg: efg.games,
+      tov: tov.games,
+      orb: orb.games,
+      ftr: ftr.games
+    },
+
+    definition_version: 1
+  };
+}
+
+export function aggregate(
+  games,
+  boxes,
+  teamId
+) {
   const samples = games
     .map(game =>
       boxes[game.id]?.find(
-        team => team.id === String(teamId)
+        team =>
+          team.id === String(teamId)
       )
     )
     .filter(Boolean);
@@ -251,9 +428,12 @@ export function aggregate(games, boxes, teamId) {
   const mean = key =>
     samples.length === games.length &&
     games.length &&
-    samples.every(item => item[key] != null)
+    samples.every(
+      item => item[key] != null
+    )
       ? samples.reduce(
-          (total, item) => total + item[key],
+          (total, item) =>
+            total + item[key],
           0
         ) / games.length
       : null;
@@ -262,18 +442,22 @@ export function aggregate(games, boxes, teamId) {
     if (
       samples.length !== games.length ||
       !games.length ||
-      !samples.every(item => item[key])
+      !samples.every(
+        item => item[key]
+      )
     ) {
       return null;
     }
 
     const made = samples.reduce(
-      (total, item) => total + item[key][0],
+      (total, item) =>
+        total + item[key][0],
       0
     );
 
     const attempts = samples.reduce(
-      (total, item) => total + item[key][1],
+      (total, item) =>
+        total + item[key][1],
       0
     );
 
@@ -285,23 +469,27 @@ export function aggregate(games, boxes, teamId) {
   return {
     games: games.length,
     boxes: samples.length,
+
     wins: games.filter(
       game => game.result === "W"
     ).length,
+
     losses: games.filter(
       game => game.result === "L"
     ).length,
 
     points: games.length
       ? games.reduce(
-          (total, game) => total + game.points,
+          (total, game) =>
+            total + game.points,
           0
         ) / games.length
       : null,
 
     allowed: games.length
       ? games.reduce(
-          (total, game) => total + game.allowed,
+          (total, game) =>
+            total + game.allowed,
           0
         ) / games.length
       : null,
@@ -310,7 +498,13 @@ export function aggregate(games, boxes, teamId) {
     three: pct("three"),
     rebounds: mean("rebounds"),
     assists: mean("assists"),
-    turnovers: mean("turnovers")
+    turnovers: mean("turnovers"),
+
+    factors: fourFactors(
+      games,
+      boxes,
+      teamId
+    )
   };
 }
 
@@ -322,7 +516,9 @@ export function estimateLineup(
   injuries
 ) {
   const current = new Map(
-    roster.map(player => [player.id, player])
+    roster.map(
+      player => [player.id, player]
+    )
   );
 
   const excluded = new Set(
@@ -342,14 +538,23 @@ export function estimateLineup(
     const [index, game] of
     games.slice(0, 3).entries()
   ) {
-    const sample = boxes[game.id]?.find(
-      team => team.id === String(teamId)
-    );
+    const sample =
+      boxes[game.id]?.find(
+        team =>
+          team.id === String(teamId)
+      );
 
-    if (!sample?.players.length) continue;
+    if (
+      !sample?.players.length
+    ) {
+      continue;
+    }
+
     used++;
 
-    for (const player of sample.players) {
+    for (
+      const player of sample.players
+    ) {
       if (
         !current.has(player.id) ||
         excluded.has(player.id)
@@ -357,30 +562,49 @@ export function estimateLineup(
         continue;
       }
 
-      const old = candidates.get(player.id) || {
-        ...current.get(player.id),
-        weight: 0
-      };
+      const old =
+        candidates.get(player.id) ||
+        {
+          ...current.get(player.id),
+          weight: 0
+        };
 
       old.weight +=
-        (player.starter ? 100 : 0) *
+        (
+          player.starter
+            ? 100
+            : 0
+        ) *
           (3 - index) +
-        player.minutes * (3 - index);
+        player.minutes *
+          (3 - index);
 
-      candidates.set(player.id, old);
+      candidates.set(
+        player.id,
+        old
+      );
     }
   }
 
-  const selected = [...candidates.values()]
-    .sort((a, b) => b.weight - a.weight)
+  const selected = [
+    ...candidates.values()
+  ]
+    .sort(
+      (a, b) =>
+        b.weight - a.weight
+    )
     .slice(0, 5)
-    .map(({ weight, ...player }) => ({
-      ...player,
-      availability:
-        injuries.find(
-          item => item.id === player.id
-        )?.status || null
-    }));
+    .map(
+      ({ weight, ...player }) => ({
+        ...player,
+
+        availability:
+          injuries.find(
+            item =>
+              item.id === player.id
+          )?.status || null
+      })
+    );
 
   return {
     status:
@@ -388,7 +612,8 @@ export function estimateLineup(
         ? "estimated"
         : "unavailable",
 
-    source: "Estimate from ESPN game logs",
+    source:
+      "Estimate from ESPN game logs",
 
     method:
       `Estimated from starts and minutes in ${used} recent ` +
@@ -397,7 +622,9 @@ export function estimateLineup(
       "Not a reported lineup.",
 
     players:
-      selected.length === 5 ? selected : []
+      selected.length === 5
+        ? selected
+        : []
   };
 }
 
@@ -410,13 +637,17 @@ function reportedLineup(
   injuries
 ) {
   const byId = new Map(
-    roster.map(player => [player.id, player])
+    roster.map(
+      player => [player.id, player]
+    )
   );
 
-  const group = summary.boxscore?.players?.find(
-    item =>
-      String(item.team?.id) === String(teamId)
-  );
+  const group =
+    summary.boxscore?.players?.find(
+      item =>
+        String(item.team?.id) ===
+        String(teamId)
+    );
 
   const espn = (
     group?.statistics || []
@@ -429,32 +660,50 @@ function reportedLineup(
       )
       .map(row => ({
         ...person(row.athlete),
-        ...(byId.get(
-          String(row.athlete.id)
-        ) || {})
+
+        ...(
+          byId.get(
+            String(row.athlete.id)
+          ) || {}
+        )
       }))
   );
 
-  const payload = preview.lineups?.[side];
+  const payload =
+    preview.lineups?.[side];
 
   const provider =
-    abbr(payload?.team?.abbreviation) ===
-    abbr(preview.game?.[side]?.abbreviation)
+    abbr(
+      payload?.team?.abbreviation
+    ) ===
+    abbr(
+      preview.game?.[side]
+        ?.abbreviation
+    )
       ? (payload.lineup || [])
-          .filter(row => row.isStarter === true)
+          .filter(
+            row =>
+              row.isStarter === true
+          )
           .map(row => {
-            const found = roster.find(
-              player =>
-                player.name.toLowerCase() ===
-                String(row.player).toLowerCase()
-            );
+            const found =
+              roster.find(
+                player =>
+                  player.name
+                    .toLowerCase() ===
+                  String(row.player)
+                    .toLowerCase()
+              );
 
             return found || {
-              id: `highlightly:${row.id}`,
+              id:
+                `highlightly:${row.id}`,
               name: row.player,
               position:
-                row.positionAbbreviation || "",
-              jersey: row.jersey ?? null,
+                row.positionAbbreviation ||
+                "",
+              jersey:
+                row.jersey ?? null,
               photo: null
             };
           })
@@ -462,35 +711,53 @@ function reportedLineup(
 
   const rows = [
     ...new Map(
-      (espn.length === 5 ? espn : provider)
-        .map(player => [player.id, player])
+      (
+        espn.length === 5
+          ? espn
+          : provider
+      ).map(
+        player =>
+          [player.id, player]
+      )
     ).values()
   ];
 
-  if (rows.length !== 5) return null;
+  if (
+    rows.length !== 5
+  ) {
+    return null;
+  }
 
   return {
     status: "reported",
+
     source:
       espn.length === 5
         ? "ESPN"
         : "Highlightly",
+
     method:
       "Starters marked by the data provider. " +
       "Check availability for late changes.",
+
     players: rows.map(player => ({
       ...player,
+
       availability:
         injuries.find(
-          item => item.id === player.id
+          item =>
+            item.id === player.id
         )?.status || null
     }))
   };
 }
 
 export async function main() {
-  const preview = await read("gameday.json");
-  const schedule = await read("games.json");
+  const preview =
+    await read("gameday.json");
+
+  const schedule =
+    await read("games.json");
 
   if (
     !preview?.game ||
@@ -498,12 +765,17 @@ export async function main() {
   ) {
     await writeFile(
       "matchup.json",
-      JSON.stringify({
-        schema_version: 1,
-        status: "no_game",
-        generated_at: new Date().toISOString(),
-        game: null
-      }, null, 2) + "\n"
+      JSON.stringify(
+        {
+          schema_version: 1,
+          status: "no_game",
+          generated_at:
+            new Date().toISOString(),
+          game: null
+        },
+        null,
+        2
+      ) + "\n"
     );
 
     return;
@@ -511,19 +783,30 @@ export async function main() {
 
   const game = preview.game;
 
-  const match = (schedule?.games || []).find(
+  const match = (
+    schedule?.games || []
+  ).find(
     entry =>
       /^espn:\d+$/.test(
         entry.game?.id || ""
       ) &&
-      sameGame(entry.game, game)
+      sameGame(
+        entry.game,
+        game
+      )
   );
 
   const espnId =
-    match?.game.id.replace("espn:", "") ||
+    match?.game.id.replace(
+      "espn:",
+      ""
+    ) ||
     (
       /^espn:\d+$/.test(game.id)
-        ? game.id.replace("espn:", "")
+        ? game.id.replace(
+            "espn:",
+            ""
+          )
         : null
     );
 
@@ -539,13 +822,17 @@ export async function main() {
   );
 
   if (
-    String(summary.header?.id) !== espnId
+    String(summary.header?.id) !==
+    espnId
   ) {
-    throw new Error("Summary game mismatch");
+    throw new Error(
+      "Summary game mismatch"
+    );
   }
 
   const competition =
-    summary.header?.competitions?.[0];
+    summary.header
+      ?.competitions?.[0];
 
   const year = Number(
     summary.header?.season?.year
@@ -572,130 +859,182 @@ export async function main() {
   }[phase];
 
   const season =
-    `${year - 1}–${String(year).slice(-2)}`;
+    `${year - 1}–${
+      String(year).slice(-2)
+    }`;
 
   const boxes = {
     ...(
-      (await read("matchup-cache.json"))
-        ?.boxes || {}
+      (
+        await read(
+          "matchup-cache.json"
+        )
+      )?.boxes || {}
     )
   };
 
   const errors = [];
 
-  const teams = await Promise.all(
-    ["away", "home"].map(async side => {
-      const competitor =
-        competition?.competitors?.find(
-          item => item.homeAway === side
-        );
+  const teams =
+    await Promise.all(
+      ["away", "home"].map(
+        async side => {
+          const competitor =
+            competition
+              ?.competitors
+              ?.find(
+                item =>
+                  item.homeAway ===
+                  side
+              );
 
-      if (
-        !competitor ||
-        abbr(
-          competitor.team.abbreviation
-        ) !==
-          abbr(game[side].abbreviation)
-      ) {
-        throw new Error(
-          "Matchup teams do not match"
-        );
-      }
+          if (
+            !competitor ||
+            abbr(
+              competitor.team
+                .abbreviation
+            ) !==
+              abbr(
+                game[side]
+                  .abbreviation
+              )
+          ) {
+            throw new Error(
+              "Matchup teams do not match"
+            );
+          }
 
-      const teamId = competitor.team.id;
+          const teamId =
+            competitor.team.id;
 
-      const [
-        scheduleResult,
-        rosterResult
-      ] = await Promise.allSettled([
-        get(
-          `${ROOT}/teams/${teamId}/schedule` +
-          `?season=${year}&seasontype=${phase}`
-        ),
-        get(
-          `${ROOT}/teams/${teamId}/roster`
-        )
-      ]);
+          const [
+            scheduleResult,
+            rosterResult
+          ] =
+            await Promise.allSettled([
+              get(
+                `${ROOT}/teams/${teamId}/schedule` +
+                `?season=${year}&seasontype=${phase}`
+              ),
+              get(
+                `${ROOT}/teams/${teamId}/roster`
+              )
+            ]);
 
-      let events = [];
+          let events = [];
 
-      if (
-        scheduleResult.status === "fulfilled" &&
-        Number(
-          scheduleResult.value
-            .requestedSeason?.year ??
-          scheduleResult.value.season?.year
-        ) === year &&
-        Number(
-          scheduleResult.value
-            .requestedSeason?.type ??
-          scheduleResult.value.season?.type
-        ) === phase
-      ) {
-        events =
-          scheduleResult.value.events || [];
-      } else {
-        errors.push(
-          `${competitor.team.abbreviation}: ` +
-          "current-phase schedule unavailable"
-        );
-      }
+          if (
+            scheduleResult.status ===
+              "fulfilled" &&
+            Number(
+              scheduleResult.value
+                .requestedSeason
+                ?.year ??
+              scheduleResult.value
+                .season?.year
+            ) === year &&
+            Number(
+              scheduleResult.value
+                .requestedSeason
+                ?.type ??
+              scheduleResult.value
+                .season?.type
+            ) === phase
+          ) {
+            events =
+              scheduleResult.value
+                .events || [];
+          } else {
+            errors.push(
+              `${
+                competitor.team
+                  .abbreviation
+              }: current-phase schedule unavailable`
+            );
+          }
 
-      const games = events
-        .map(event =>
-          eventGame(event, teamId)
-        )
-        .filter(
-          item =>
-            item &&
-            Date.parse(item.date) <
-              Date.parse(game.date)
-        )
-        .sort(
-          (a, b) =>
-            Date.parse(b.date) -
-            Date.parse(a.date)
-        );
+          const games = events
+            .map(event =>
+              eventGame(
+                event,
+                teamId
+              )
+            )
+            .filter(
+              item =>
+                item &&
+                Date.parse(
+                  item.date
+                ) <
+                Date.parse(
+                  game.date
+                )
+            )
+            .sort(
+              (a, b) =>
+                Date.parse(
+                  b.date
+                ) -
+                Date.parse(
+                  a.date
+                )
+            );
 
-      const roster =
-        rosterResult.status === "fulfilled"
-          ? (
-              rosterResult.value.athletes ||
-              []
-            ).map(person)
-          : [];
+          const roster =
+            rosterResult.status ===
+            "fulfilled"
+              ? (
+                  rosterResult.value
+                    .athletes || []
+                ).map(person)
+              : [];
 
-      if (
-        rosterResult.status === "rejected"
-      ) {
-        errors.push(
-          `${competitor.team.abbreviation}: ` +
-          "roster unavailable"
-        );
-      }
+          if (
+            rosterResult.status ===
+            "rejected"
+          ) {
+            errors.push(
+              `${
+                competitor.team
+                  .abbreviation
+              }: roster unavailable`
+            );
+          }
 
-      return {
-        side,
-        id: String(teamId),
-        name: competitor.team.displayName,
-        abbreviation: abbr(
-          competitor.team.abbreviation
-        ),
-        logo:
-          competitor.team.logos?.[0]?.href ||
-          game[side].logo ||
-          null,
-        color:
-          `#${competitor.team.color || "006bb6"}`,
-        games,
-        roster,
-        availability: injuriesFor(
-          summary,
-          teamId
-        )
-      };
-    })
-  );
+          return {
+            side,
+            id: String(teamId),
+            name:
+              competitor.team
+                .displayName,
+            abbreviation:
+              abbr(
+                competitor.team
+                  .abbreviation
+              ),
+            logo:
+              competitor.team
+                .logos?.[0]
+                ?.href ||
+              game[side].logo ||
+              null,
+            color:
+              `#${
+                competitor.team
+                  .color ||
+                "006bb6"
+              }`,
+            games,
+            roster,
+            availability:
+              injuriesFor(
+                summary,
+                teamId
+              )
+          };
+        }
+      )
+    );
 
   const ids = [
     ...new Set(
@@ -705,8 +1044,11 @@ export async function main() {
             item =>
               !boxes[item.id]?.some(
                 box =>
-                  box.id === team.id &&
-                  box.players?.length
+                  box.id ===
+                    team.id &&
+                  box.version === 2 &&
+                  box.players
+                    ?.length
               )
           )
           .map(item => item.id)
@@ -721,23 +1063,34 @@ export async function main() {
   ) {
     await Promise.all(
       ids
-        .slice(index, index + 4)
+        .slice(
+          index,
+          index + 4
+        )
         .map(async id => {
           try {
-            const data = await get(
-              `${ROOT}/summary?event=${id}`
-            );
+            const data =
+              await get(
+                `${ROOT}/summary?event=${id}`
+              );
 
             if (
-              String(data.header?.id) !== id
+              String(
+                data.header?.id
+              ) !== id
             ) {
-              throw new Error("Game mismatch");
+              throw new Error(
+                "Game mismatch"
+              );
             }
 
-            boxes[id] = normalizeBox(data);
+            boxes[id] =
+              normalizeBox(data);
           } catch (error) {
             errors.push(
-              `Box ${id}: ${error.message}`
+              `Box ${id}: ${
+                error.message
+              }`
             );
           }
         })
@@ -749,37 +1102,53 @@ export async function main() {
   const output = {
     schema_version: 1,
     status: "ready",
-    generated_at: now.toISOString(),
+    generated_at:
+      now.toISOString(),
+
     source:
       "ESPN; Highlightly when reported",
+
     game: {
       ...game,
       espn_id: espnId
     },
+
     season,
     phase: phaseName,
+
     venue:
-      summary.gameInfo?.venue?.fullName ||
+      summary.gameInfo
+        ?.venue?.fullName ||
       preview.venue?.name ||
       null,
 
     broadcasts: [
       ...new Set([
-        ...(preview.broadcasts || []),
-
         ...(
-          competition?.broadcasts || []
-        ).flatMap(
-          item => item.names || []
+          preview.broadcasts ||
+          []
         ),
 
         ...(
-          summary.broadcasts || []
+          competition
+            ?.broadcasts ||
+          []
+        ).flatMap(
+          item =>
+            item.names || []
+        ),
+
+        ...(
+          summary.broadcasts ||
+          []
         ).flatMap(item =>
           item.names ||
           item.media?.shortName
             ? item.names ||
-              [item.media.shortName]
+              [
+                item.media
+                  .shortName
+              ]
             : []
         )
       ])
@@ -790,7 +1159,8 @@ export async function main() {
   };
 
   for (const team of teams) {
-    const latest = team.games[0];
+    const latest =
+      team.games[0];
 
     const restDays = latest
       ? Math.max(
@@ -798,12 +1168,17 @@ export async function main() {
           Math.round(
             (
               Date.parse(
-                dateKey(game.date)
+                dateKey(
+                  game.date
+                )
               ) -
               Date.parse(
-                dateKey(latest.date)
+                dateKey(
+                  latest.date
+                )
               )
-            ) / 86400000
+            ) /
+            86400000
           ) - 1
         )
       : null;
@@ -815,20 +1190,23 @@ export async function main() {
         team.side,
         team.id,
         team.roster,
-        team.availability.players
+        team.availability
+          .players
       ) ||
       estimateLineup(
         team.games,
         boxes,
         team.id,
         team.roster,
-        team.availability.players
+        team.availability
+          .players
       );
 
     output.teams[team.side] = {
       id: team.id,
       name: team.name,
-      abbreviation: team.abbreviation,
+      abbreviation:
+        team.abbreviation,
       logo: team.logo,
       color: team.color,
 
@@ -839,9 +1217,11 @@ export async function main() {
       ),
 
       lineup,
-      availability: team.availability,
+      availability:
+        team.availability,
       rest_days: restDays,
-      recent: team.games.slice(0, 5),
+      recent:
+        team.games.slice(0, 5),
 
       home_record:
         `${
@@ -877,28 +1257,44 @@ export async function main() {
 
   await writeFile(
     "matchup-cache.json",
-    JSON.stringify({
-      schema_version: 1,
-      boxes
-    }, null, 2) + "\n"
+    JSON.stringify(
+      {
+        schema_version: 1,
+        boxes
+      },
+      null,
+      2
+    ) + "\n"
   );
 
   await writeFile(
     "matchup.json",
-    JSON.stringify(output, null, 2) + "\n"
+    JSON.stringify(
+      output,
+      null,
+      2
+    ) + "\n"
   );
 
   console.log(
-    `Matchup: ${output.teams.away.abbreviation} ` +
-    `at ${output.teams.home.abbreviation}; ` +
-    `${phaseName}; ${errors.length} optional errors.`
+    `Matchup: ${
+      output.teams.away
+        .abbreviation
+    } at ${
+      output.teams.home
+        .abbreviation
+    }; ${phaseName}; ${
+      errors.length
+    } optional errors.`
   );
 }
 
 if (
   process.argv[1] &&
   import.meta.url ===
-    pathToFileURL(process.argv[1]).href
+    pathToFileURL(
+      process.argv[1]
+    ).href
 ) {
   main().catch(error => {
     console.error(error.message);
