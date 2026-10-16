@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T10:15:21.246Z",
+  "generated_at": "2026-10-16T10:30:34.226Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 119,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 5263,
+    "refresh_duration_ms": 17025,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -39,8 +39,9 @@
       },
       {
         "source_key": "realgm",
-        "ok": true,
-        "items": 6
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "espn",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 92,
       "missing": 21,
       "article_pages_checked": 0
     },
@@ -134,28 +135,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "a84f108078cde0abe1a4",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Knicks Waive Drew Eubanks, Tony Bradley, Ochai Agbaji",
-      "summary": "The New York Knicks waived Drew Eubanks, Tony Bradley, and Ochai Agbaji on Thursday. It was also announced that Eubanks suffered a torn pectoral muscle and will miss an extended amount of time. Eubanks and Bradley were competing for the reserve center spot with the team.",
-      "author": null,
-      "published_at": "2026-10-16T05:04:00.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287666/Knicks-Waive-Drew-Eubanks-Tony-Bradley-Ochai-Agbaji",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/nba_newyorkknicks.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287666/Knicks-Waive-Drew-Eubanks-Tony-Bradley-Ochai-Agbaji"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_b3d0491adcf6"
     },
     {
       "id": "2636525192db4762c02a",
@@ -1665,8 +1644,7 @@
         "url": "https://www.hoopsrumors.com/2026/10/knicks-waiving-tony-bradley-ochai-agbaji.html"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_b3d0491adcf6"
+      "image_source": "source_feed"
     },
     {
       "id": "7edba8c3374d03c4774b",
@@ -1685,27 +1663,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/knicks-eubanks-suffers-torn-pectoral-muscle-will-be-waived.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b4e2e3bcfe08f2ede34b",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Dunc'd On: Inside the Brain of Kostya Medvedovsky",
-      "summary": "Kostya Medvedovsky, creator of DARKO, joins Nate to explain how his projections work, what we can learn from preseason, and where his team and player evaluations differ from conventional wisdom. They also explore aging curves for the NBA's veteran stars, the impact of tanking reform, and which player profiles translate best to the playoffs. 0:00 - Introducing Kostya Medvedovsky and DARKO's player projections and historical ratings. 4:17 - How DARKO weighs career history, recent performance, and garbage time. 7:02 - Sample sizes, shooting percentages, and identifying real improvement. 9:30 - What Summer League and preseason results can tell us about teams and players. 14:46 - Team projections: Houston's young core and potential for improvement. 17:10 - Boston's roster through an analytical lens. 20:15 - Philadelphia's talent, offensive fit, and changing player roles. 23:27 - Miami's depth and regular-season outlook. 25:15 - Kawhi Leonard's offensive impact. 28:02 - Aging curves for veteran stars and which skill sets hold up. 33:43 - OG Anunoby and the value of ceiling raisers versus floor raisers. 37:08 - Tanking reform, competitive incentives, and the league's win distribution. 44:51 - Projecting playoff performance: which player profiles translate best? Join Dunc'd On Prime ! It's the only place to get every episode with Nate & Danny, plus every pod with John Hollinger & Nate as well! Subscribe for 35% off using code PRESEASON26! Subscribe on YouTube to get Dunc'd On Clutch Calls, Real Video Scouts, and more. Or, sign up for our FREE mailing list to get Dan Feldman's Daily Duncs with all the major topics around the league twice a week.",
-      "author": null,
-      "published_at": "2026-10-15T17:24:17.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287658/Duncd-On-Inside-the-Brain-of-Kostya-Medvedovsky",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Anuoby_OG_nyk_240102.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287658/Duncd-On-Inside-the-Brain-of-Kostya-Medvedovsky"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1826,27 +1783,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "bd5e6fc7106b70c455c0",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Victor Wembanyama Sets Survey Record As NBA GMs' Top Choice To Start Franchise",
-      "summary": "Victor Wembanyama received 93% of the votes as the player NBA general managers would most want to start a franchise with. That was up from 83% a year ago. The San Antonio Spurs star led eight categories in the 25th annual NBA GM Survey. Wembanyama's 93% set a record for the highest share in the survey's history. Shai Gilgeous-Alexander of the Oklahoma City Thunder and Cooper Flagg of the Dallas Mavericks also received votes. GMs also see Wembanyama as the favorite for MVP as he received 77% of the votes, also a survey record. Nikola Jokic of the Denver Nuggets was second at 10%, and Minnesota's Anthony Edwards was third at 7%. Gilgeous-Alexander and Boston's Jayson Tatum also received votes. Last year, 67% of GMs picked Jokic to win MVP. Wembanyama, 22, dominated the defensive categories. He received 97% of the votes for both best defensive player and best interior defender. He also topped the lists for most versatile player and the player who forces the most coaching adjustments. Jokic still led Wembanyama in two head-to-head categories. GMs voted Jokic the best center, 63% to 37%, and the best international player, 53% to 47%. Past GM picks for the player to start a franchise with: 2002-03: Shaquille O'Neal, 64% 2003-04: Tim Duncan, 57% 2004-05: Tim Duncan, 48% 2005-06: Tim Duncan, 40% 2006-07: LeBron James, 71% 2007-08: LeBron James, 59% 2008-09: LeBron James, 67% 2009-10: LeBron James, 79% 2010-11: Kevin Durant, 56% 2011-12: Kevin Durant and LeBron James (tie), 37% 2012-13: LeBron James, 80% 2013-14: LeBron James, 90% 2014-15: LeBron James, 50% 2015-16: Anthony Davis, 86% 2016-17: Karl-Anthony Towns, 48% 2017-18: Karl-Anthony Towns, 29% 2018-19: Giannis Antetokounmpo, 30% 2019-20: Giannis Antetokounmpo, 86% 2020-21: Giannis Antetokounmpo and Luka Doncic (tie), 43% 2021-22: Luka Doncic, 43% 2022-23: Giannis Antetokounmpo, 55% 2023-24: Nikola Jokic, 33% 2024-25: Victor Wembanyama, 77% 2025-26: Victor Wembanyama, 83% 2026-27: Victor Wembanyama, 93%",
-      "author": null,
-      "published_at": "2026-10-15T15:58:03.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287655/Victor-Wembanyama-Sets-Survey-Record-As-NBA-GMs-Top-Choice-To-Start-Franchise",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Wembanyama_Victor_sas_260607b.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287655/Victor-Wembanyama-Sets-Survey-Record-As-NBA-GMs-Top-Choice-To-Start-Franchise"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "380e0f26c2da41f64190",
       "type": "article",
       "source": "Yahoo Sports",
@@ -1863,27 +1799,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/knicks-roster-battle-thins-waive-155628115.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "8f7ce966066cd9e2a204",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "93 Percent Of NBA GMs Pick Spurs Or Thunder To Win 2027 NBA Championship",
-      "summary": "NBA general managers overwhelmingly predict the 2027 champion to come from the Western Conference. In the 25th annual NBA GM Survey, 93 percent picked either the San Antonio Spurs or the Oklahoma City Thunder to win the title. San Antonio received 50% of the votes and Oklahoma City got 43%. The New York Knicks and Philadelphia 76ers also received votes. GMs could not vote for their own teams. A year ago, 80% of GMs picked the Thunder to win the championship, and the Knicks won it instead when they defeated the Spurs. Oklahoma City was eliminated by the Spurs in the Western Conference Finals in seven games. The Spurs and Thunder are also close in the West rankings. San Antonio received 53% of first-place votes to Oklahoma City's 47%, and both teams finished with 34% of the total points. Last year, 87% picked the Thunder to win the West. The Knicks are the clear favorite in the East, with 60% of first-place votes. The 76ers were second at 23%. Last year, 63% of GMs picked the Cleveland Cavaliers to win the East. San Antonio also led in other categories. The Spurs received 87% of votes for the most promising young core. Victor Wembanyama, Stephon Castle and Dylan Harper are 22, 21 and 20 years old. The Thunder are at +250 to win the NBA Championship, while the Spurs are at +280, according to the latest basketball betting odds . Past GM Title Predictions and the Actual Champions: 2002-03: Los Angeles Lakers, 62% (Champion: San Antonio Spurs) 2003-04: Los Angeles Lakers, 52% (Champion: Detroit Pistons) 2004-05: San Antonio Spurs, 45% (Champion: San Antonio Spurs) 2005-06: San Antonio Spurs, 77% (Champion: Miami Heat) 2006-07: San Antonio Spurs, 43% (Champion: San Antonio Spurs) 2007-08: San Antonio Spurs, 37% (Champion: Boston Celtics) 2008-09: Los Angeles Lakers, 46% (Champion: Los Angeles Lakers) 2009-10: Los Angeles Lakers, 61% (Champion: Los Angeles Lakers) 2010-11: Los Angeles Lakers, 63% (Champion: Dallas Mavericks) 2011-12: Miami Heat, 74% (Champion: Miami Heat) 2012-13: Miami Heat, 70% (Champion: Miami Heat) 2013-14: Miami Heat, 76% (Champion: San Antonio Spurs) 2014-15: San Antonio Spurs, 46% (Champion: Golden State Warriors) 2015-16: Cleveland Cavaliers, 54% (Champion: Cleveland Cavaliers) 2016-17: Golden State Warriors, 69% (Champion: Golden State Warriors) 2017-18: Golden State Warriors, 93% (Champion: Golden State Warriors) 2018-19: Golden State Warriors, 87% (Champion: Toronto Raptors) 2019-20: LA Clippers, 46% (Champion: Los Angeles Lakers) 2020-21: Los Angeles Lakers, 81% (Champion: Milwaukee Bucks) 2021-22: Brooklyn Nets, 72% (Champion: Golden State Warriors) 2022-23: Milwaukee Bucks, 43% (Champion: Denver Nuggets) 2023-24: Boston Celtics and Denver Nuggets (tie), 33% (Champion: Boston Celtics) 2024-25: Boston Celtics, 83% (Champion: Oklahoma City Thunder) 2025-26: Oklahoma City Thunder, 80% (Champion: New York Knicks) 2026-27: San Antonio Spurs, 50% (Champion: TBD)",
-      "author": null,
-      "published_at": "2026-10-15T15:39:51.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287654/93-Percent-Of-NBA-GMs-Pick-Spurs-Or-Thunder-To-Win-2027-NBA-Championship",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Gilgeousalexander_Shai_okc_260406F.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287654/93-Percent-Of-NBA-GMs-Pick-Spurs-Or-Thunder-To-Win-2027-NBA-Championship"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1966,27 +1881,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-15T15:00:25.413Z"
-    },
-    {
-      "id": "36f7dc095e2f5c3fa4b3",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Tim Connelly Unconcerned About Job Security As Timberwolves Keep Taking 'Big Swings'",
-      "summary": "Minnesota Timberwolves president Tim Connelly says the risk of being fired won't stop him from making bold moves. Connelly is entering the final season of his contract and has reshaped the roster every year since 2022. \"If it doesn't work and it's my job, I'll get fired,\" said Connelly. \"That's fine. But I don't ever want to be in a position where we're reluctant to take big swings.\" Connelly has turned down other opportunities and said his family is happy in Minnesota. Connelly made more big changes this summer after a second-round loss to the San Antonio Spurs. Minnesota traded Julius Randle and Naz Reid, acquired LaMelo Ball and signed Jonathan Kuminga. \"My industry has become so risk-averse,\" said Connelly. \"They're so concerned about real-time analysis (from the media). ... In all reality, either you're trying to win, or you're chasing that.\" Connelly has made at least one major deal every season since leaving the Denver Nuggets. Six weeks into the job, he traded five players, four first-round picks and a pick swap for Rudy Gobert. In 2024, Connelly sent Karl-Anthony Towns to the New York Knicks for Randle, Donte DiVincenzo and a first-round pick. Last February, Connelly traded Rob Dillingham, the No. 8 pick in 2024, to the Chicago Bulls for Ayo Dosunmu. Over four years, Connelly's major trades have used six first-round picks, five first-round swaps and seven second-round picks. Minnesota has made the playoffs in each of Connelly's four seasons and won at least one series in each of the last three. The Wolves lost in five games in the Western Conference finals in both 2024 and 2025. Anthony Edwards, 25, has played with a different supporting cast in each of the past three seasons. \"It means a lot,\" said Edwards. \"We've had, what, three different teams going into three different years. So hopefully we can settle in with this squad.\"",
-      "author": null,
-      "published_at": "2026-10-15T14:57:19.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287652/Tim-Connelly-Unconcerned-About-Job-Security-As-Timberwolves-Keep-Taking-Big-Swings",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Connelly_Tim_den_220523.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287652/Tim-Connelly-Unconcerned-About-Job-Security-As-Timberwolves-Keep-Taking-Big-Swings"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "cf124e640179df565f31",
@@ -2080,27 +1974,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-15T11:00:24.391Z"
-    },
-    {
-      "id": "aa1ce8152d2f3fe03789",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "NBA Regional Sports Networks: Full List Of Broadcasters, Markets, Online Streaming Services",
-      "summary": "Main NBA Team Main Market Regional Sports Network Atlanta Hawks Atlanta, GA WANF Boston Celtics Boston, MA NBC Sports Boston Brooklyn Nets New York, NY YES Network Charlotte Hornets Charlotte, NC WSOC Chicago Bulls Chicago, IL Chicago Home Sports Network Cleveland Cavaliers Cleveland, OH DAZN Dallas Mavericks Dallas, TX KFAA Denver Nuggets Denver, CO Altitude Sports Detroit Pistons Detroit, MI WMYD Golden State Warriors San Francisco, CA NBC Sports Bay Area Houston Rockets Houston, TX Space City Home Network Indiana Pacers Indianapolis, IN DAZN Los Angeles Clippers Los Angeles, CA ClippersVision Los Angeles Lakers Los Angeles, CA Spectrum SportsNet Memphis Grizzlies Memphis, TN DAZN Miami Heat Miami, F: WPLG Milwaukee Bucks Milwaukee, WI Bucks TV Network Minnesota Timberwolves Minneapolis, MN DAZN New Orleans Pelicans New Orleans, LA Gulf Coast Sports Network New York Knicks New York, NY MSG / MSG+ Oklahoma City Thunder Oklahoma City, OK KSBI Orlando Magic Orlando, FL WRDQ Philadelphia 76ers Philadelphia, PA NBC Sports Philadelphia Phoenix Suns Phoenix, AZ KPHE / KTVK Portland Trail Blazers Portland, OR Rip City Network Sacramento Kings San Francisco, CA NBC Sports California San Antonio Spurs San Antonio, TX DAZN Utah Jazz Salt Lake City, UT KJZZ Washington Wizards Washington, DC Monumental Sports Can I watch NBA Regional Sports Networks for free? The NBA television landscape has changed drastically recently. Beyond streaming platforms and traditional cable, over-the-air (OTA) antennas have become a powerful, free tool for watching local games in many markets. Many teams have shifted away from traditional Regional Sports Networks (RSNs) and moved their broadcasts to local, free-to-air channels. For these teams, a one-time purchase of a digital HD antenna will grant you completely free access to their local broadcasts without needing Fubo, DirecTV Stream, or any monthly subscription. Teams Available on Free OTA TV The following teams broadcast some or all of their local games on free, over-the-air channels (subject to market availability): Dallas Mavericks (KFAA 29, WFAA 8) Phoenix Suns (KTVK 3TV, KPHO-TV CBS 5, Arizona's Family Sports) Utah Jazz (KJZZ-TV 14) Chicago Bulls (Chicago Sports Network - OTA in select markets) Cleveland Cavaliers (WOIO CBS 19, WUAB MyNet 43 - select games) Indiana Pacers (WTTV CBS 4, WXIN FOX 59 - select games) LA Clippers (KTLA CW 5 - select games) Miami Heat (WSFL-TV - select games) Milwaukee Bucks (WVTV My24 - select games) Orlando Magic (WRDQ MagicTV 27, WFTV ABC 9 - select games) Can I live stream NBA Regional Sports Networks for free? Yes, you can temporarily watch your local NBA team for free by taking advantage of the free trials offered by Fubo and DirecTV Stream. Both services carry most Regional Sports Networks (RSNs), allowing you to stream in-market games without a cable subscription. Streaming Service Free Trial Length Package Required for RSNs Fubo 5 days Pro (Base plan) DirecTV Stream 5 days CHOICE (or higher) For an overview of which streaming service carries the RSN of your favoured team, check out the table below. NBA Team Fubo DirecTV Atlanta Hawks Yes No Boston Celtics Yes Yes Brooklyn Nets Yes Yes Charlotte Hornets No Yes Chicago Bulls Yes Yes Cleveland Cavaliers No No Dallas Mavericks Yes Yes Denver Nuggets Yes Yes Detroit Pistons Yes No Golden State Warriors Yes Yes Houston Rockets Yes Yes Indiana Pacers No No Los Angeles Clippers No Yes Los Angeles Lakers No Yes Memphis Grizzlies No No Miami Heat No No Milwaukee Bucks No No Minnesota Timberwolves No No New Orleans Pelicans Yes Yes New York Knicks Yes Yes Oklahoma City Thunder No No Orlando Magic No No Philadelphia 76ers Yes No Phoenix Suns Yes Yes Portland Trail Blazers Yes Yes Sacramento Kings Yes Yes San Antonio Spurs No No Utah Jazz Yes Yes Washington Wizards No Yes",
-      "author": null,
-      "published_at": "2026-10-15T09:12:34.000Z",
-      "url": "https://basketball.realgm.com/wiretap/287643/NBA-Regional-Sports-Networks-Full-List-Of-Broadcasters-Markets-Online-Streaming-Services",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Gilgeousalexander_Shai_okc_191019.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/287643/NBA-Regional-Sports-Networks-Full-List-Of-Broadcasters-Markets-Online-Streaming-Services"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "b031dcb8caaae29f6214",
@@ -3498,19 +3371,6 @@
     }
   ],
   "clusters": [
-    {
-      "id": "cluster_b3d0491adcf6",
-      "lead_item_id": "a84f108078cde0abe1a4",
-      "item_ids": [
-        "a84f108078cde0abe1a4",
-        "3eb620fbafff29225bbc"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-10-16T05:04:00.000Z",
-      "title": "Knicks Waive Drew Eubanks, Tony Bradley, Ochai Agbaji",
-      "event_type": "waiver",
-      "entities": []
-    },
     {
       "id": "cluster_cab159d7f8db",
       "lead_item_id": "4e70d051c138b69d550d",
