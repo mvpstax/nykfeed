@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T05:00:21.155Z",
+  "generated_at": "2026-10-16T05:15:21.172Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 117,
+    "item_count": 118,
     "game_count": 0,
-    "refresh_duration_ms": 3443,
+    "refresh_duration_ms": 6239,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 8
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 95,
-      "missing": 22,
-      "article_pages_checked": 1
+      "available": 97,
+      "missing": 21,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "2636525192db4762c02a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mxxse4ljvu22",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Karl-Anthony Towns doesn't miss a beat in return to Knicks playoff-like form",
+      "published_at": "2026-10-16T05:03:01.769Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxxse4ljvu22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicfuo5cgcpbaeyjih7baof33qcs33a3soy7ammuuq5srytgamrcle",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mxxse4ljvu22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "1e3df9163ba6b469680d",
       "type": "article",
@@ -118,9 +153,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/knicks-weighing-options-keep-both-043706251.html"
       },
-      "image_checked_at": "2026-10-16T05:00:21.027Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-16T05:00:21.027Z"
     },
     {
       "id": "05a23f178d3ba94d492e",
@@ -388,6 +423,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mxxjvrm6322y",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "573334bb24f5b836ef27",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks 122, Raptors 120: Scenes from Towns toppling Toronto",
+      "summary": "KAT misses a triple-double by one dime and leads NY to their first preseason win in their last game.",
+      "author": null,
+      "published_at": "2026-10-16T02:31:08.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-122-raptors-120-scenes-023108511.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/cab9794a595203cbfc679996cdef6d5a.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-122-raptors-120-scenes-023108511.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1189,40 +1245,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "a888d962b680ce5cad7d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4upmxyqo5lrcp7kfa2z5xaqm/app.bsky.feed.post/3mxxbufubrk2v",
-      "author": "🏆Champion Knicks🏆",
-      "handle": "aangtifa.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4upmxyqo5lrcp7kfa2z5xaqm/bafkreiffk3olubbh5id2ne773mz37a4lr55u2ct7qt26cgd7iaqzb3kipi",
-      "text": "Knicks in 5",
-      "published_at": "2026-10-16T00:07:55.062Z",
-      "url": "https://bsky.app/profile/did:plc:4upmxyqo5lrcp7kfa2z5xaqm/post/3mxxbufubrk2v",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 5
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4upmxyqo5lrcp7kfa2z5xaqm/post/3mxxbufubrk2v",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "266a3586c85b2aa4186f",
