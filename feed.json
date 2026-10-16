@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T13:15:43.029Z",
+  "generated_at": "2026-10-16T13:30:20.984Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 27839,
+    "refresh_duration_ms": 4539,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 11
+        "items": 9
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -192,7 +191,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -226,8 +225,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 1,
-        "likes": 6
+        "reposts": 2,
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1848,27 +1847,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "a92576643a234add1b82",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Jalen Brunson named “Best Leader” in latest NBA GM Poll",
-      "summary": "Brunson, Coach Brown, among those named in high regard in the annual poll.",
-      "author": null,
-      "published_at": "2026-10-15T16:35:45.000Z",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-named-best-leader-163545069.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/df4b76996f4fc870d509e183c8bee82b.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/jalen-brunson-named-best-leader-163545069.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "79c769f6861ac3375a94",
       "type": "social",
       "source": "Bluesky",
@@ -2945,6 +2923,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxsatnpcde23",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
