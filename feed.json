@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T13:00:49.859Z",
+  "generated_at": "2026-10-16T13:15:43.029Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 118,
+    "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 28306,
+    "refresh_duration_ms": 27839,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 10
+        "items": 11
       },
       {
         "source_key": "cbs_sports_nba",
@@ -93,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 97,
       "missing": 20,
       "article_pages_checked": 0
     },
@@ -101,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "770d912b77d7f0614732",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxyn5r6p7m2y",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks exploring trades involving Pacome Dadiet, Tyler Kolek to make room for Bruce Brown? (via Yahoo Sports)",
+      "published_at": "2026-10-16T13:02:39.631Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxyn5r6p7m2y",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihqtixbatvghludk54k3isfphd5srof5o4b4okdjrn5fq7wuxb6gy",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxyn5r6p7m2y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "daf90ab82f747b48eafb",
       "type": "social",
@@ -2915,41 +2950,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "363402ccd09346db76ba",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mxs5jwvama2m",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks Training Camp Battle: Mike Brown Says Competition for Last Roster Spot Is Tight; Who Should Get It (via Yahoo Sports)",
-      "published_at": "2026-10-13T23:07:09.968Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreial7yjrqn3go7kriwce27hakmoxzzbqp5gsnnbfygf7lkhox2zrei",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "dfb64e7e3f555c6168b9",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3452,27 +3452,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50140391/evan-cohen-perplexed-knicks-tabling-contract-talks-kat-hart"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b29cc23ac5634714b0b8",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Knicks Announce They’re Pausing All Extension Negotiations",
-      "summary": "The Knicks have put out a statement announcing that they’re tabling contract talks with players who are eligible for extensions until later in the 2026/27 season, per Steve Popper of Newsday (Twitter link). “As an organization, our entire focus is on preparing for the upcoming season and delivering another year for our fans to be […]",
-      "author": "Luke Adams",
-      "published_at": "2026-10-09T13:09:21.000Z",
-      "url": "https://www.hoopsrumors.com/2026/10/knicks-announce-theyre-pausing-all-extension-negotiations.html",
-      "image_url": "https://www.hoopsrumors.com/files/2026/10/Karl-Anthony-Towns-Knicks-200x300.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/10/knicks-announce-theyre-pausing-all-extension-negotiations.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
