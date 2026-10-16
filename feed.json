@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T02:45:19.092Z",
+  "generated_at": "2026-10-16T03:00:22.384Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 115,
+    "item_count": 116,
     "game_count": 0,
-    "refresh_duration_ms": 4130,
+    "refresh_duration_ms": 4800,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,13 +93,81 @@
     ],
     "images": {
       "available": 94,
-      "missing": 21,
-      "article_pages_checked": 1
+      "missing": 22,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "a0c8b934f2e0e1df774b",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4upmxyqo5lrcp7kfa2z5xaqm/app.bsky.feed.post/3mxxktglntk27",
+      "author": "🏆Champion Knicks🏆",
+      "handle": "aangtifa.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4upmxyqo5lrcp7kfa2z5xaqm/bafkreiffk3olubbh5id2ne773mz37a4lr55u2ct7qt26cgd7iaqzb3kipi",
+      "text": "Wishing my feed was all Knicks and Seven Havens and nothing else.",
+      "published_at": "2026-10-16T02:48:25.951Z",
+      "url": "https://bsky.app/profile/did:plc:4upmxyqo5lrcp7kfa2z5xaqm/post/3mxxktglntk27",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4upmxyqo5lrcp7kfa2z5xaqm/post/3mxxktglntk27",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "60fd36188bad5621e06e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:msdl65eakj32yep7ulddld2d/app.bsky.feed.post/3mxxkqxb3hk2v",
+      "author": "Enciclopedia Marrón",
+      "handle": "laconicicon.blacksky.app",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:msdl65eakj32yep7ulddld2d/bafkreievll6tj45lm5gxr57wq6zhxj2nlmsfeaqo3tqk3yzeyx7jdrht6u",
+      "text": "Knicks finally won a preseason game, raise the banner…oh wait, they will be raising one on Tuesday.",
+      "published_at": "2026-10-16T02:47:02.747Z",
+      "url": "https://bsky.app/profile/did:plc:msdl65eakj32yep7ulddld2d/post/3mxxkqxb3hk2v",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:msdl65eakj32yep7ulddld2d/post/3mxxkqxb3hk2v",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "cf71a5ead581486ac511",
       "type": "social",
@@ -188,9 +256,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/knicks-raptors-preseason-takeaways-10-214437153.html"
       },
-      "image_checked_at": "2026-10-16T02:45:18.969Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-16T02:45:18.969Z"
     },
     {
       "id": "620c2b439eddb6163ed9",
@@ -214,7 +282,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -441,7 +509,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -782,7 +850,7 @@
       "engagement": {
         "replies": 6,
         "reposts": 9,
-        "likes": 140
+        "likes": 142
       },
       "team": "NYK",
       "presentation": {
@@ -1074,40 +1142,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "6f0dbe6cbf4f887d3a82",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mxxbngdmz22v",
-      "author": "Joe Flynn",
-      "handle": "chinajoeflynn.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
-      "text": "It would appear the New York Knicks still know how to play basketball",
-      "published_at": "2026-10-16T00:04:00.685Z",
-      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mxxbngdmz22v",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mxxbngdmz22v",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "c7da574de64018f74120",
