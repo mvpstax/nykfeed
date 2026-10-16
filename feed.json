@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T17:16:17.725Z",
+  "generated_at": "2026-10-16T17:30:22.786Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 120,
+    "item_count": 115,
     "game_count": 0,
-    "refresh_duration_ms": 28634,
+    "refresh_duration_ms": 5023,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 2
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,29 +92,37 @@
       }
     ],
     "images": {
-      "available": 97,
+      "available": 98,
       "missing": 17,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-10-16T17:16:17.725Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "0ff3d2e00d4688c36b80",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "6 Cut Candidates Knicks Must Keep Tabs on Over Next Few Days",
+      "summary": "With preseason wrapping up across the NBA, the New York Knicks should keep tabs on these various cut candidates.",
+      "author": "Steven Simineri",
+      "published_at": "2026-10-16T17:20:11.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/6-cut-candidates-knicks-must-keep-tabs-on-over-next-few-days-01m2f6c85s40",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4052,h_2279/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m52syqadvamt65rskf.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/6-cut-candidates-knicks-must-keep-tabs-on-over-next-few-days-01m2f6c85s40",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-10-16T17:30:22.556Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "92d21e2dfaece1130a49",
       "type": "social",
@@ -927,27 +934,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-16T05:00:21.027Z"
-    },
-    {
-      "id": "3862ea1ffc0834878bf4",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks weighing options to keep both James Wiseman, Bruce Brown on roster",
-      "summary": "NY would have to make a trade by Monday to keep both",
-      "author": "Ian Begley",
-      "published_at": "2026-10-16T04:37:06.000Z",
-      "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt541060bf4b202938/6ad1a78a7963af06f36ce02e/Bruce_Brown_knicks_blue_guarding_raptors_not_great_image.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "05a23f178d3ba94d492e",
@@ -3019,6 +3005,27 @@
       "image_checked_at": "2026-10-16T02:30:26.899Z"
     },
     {
+      "id": "b8d57795bbdd28815834",
+      "type": "article",
+      "source": "FOX Sports",
+      "source_key": "fox_sports_nba",
+      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
+      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
+      "author": null,
+      "published_at": "2026-10-13T22:18:13.000Z",
+      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
+      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "dfb64e7e3f555c6168b9",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3264,29 +3271,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "e9212014c0b7635b7072",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks Should View James Wiseman's Risk as a Good Thing",
-      "summary": "If the New York Knicks develop James Wiseman as their third-string center this season, it could pay off down the road.",
-      "author": "Scott Davis",
-      "published_at": "2026-10-11T17:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-should-view-james-wiseman-s-risk-as-a-good-thing-01m4e699dznq",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_371,w_1825,h_1026/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m4e6ky3tmfvc5pexa5.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/knicks-should-view-james-wiseman-s-risk-as-a-good-thing-01m4e699dznq",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-15T17:45:19.953Z"
-    },
-    {
       "id": "ed4b254c6563804ac576",
       "type": "article",
       "source": "ESPN",
@@ -3416,111 +3400,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-15T18:45:21.218Z"
-    },
-    {
-      "id": "a60774acfbdcd97a33bc",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Bruce Brown making a strong case to crack Knicks' roster",
-      "summary": "Second apron limitations could prevent Brown from making team",
-      "author": "Ian Begley",
-      "published_at": "2026-10-09T05:27:32.000Z",
-      "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt6f50fc8f29953459/6ac875d202eecbdf8d076b67/2026-01-28T031300Z_136793587_MT1USATODAY28099559_RTRMADP_3_NBA-DETROIT-PISTONS-AT-DENVER-NUGGETS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2788aa3bc029aa94c0ae",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "It appears unlikely New York will agree to deals with Karl-Anthony Towns, Josh Hart, and Miles McBride before regular season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt71445e7f91815c65/69d9a3def8a69f5f6a7d1c14/USATSI_28703057_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "cf9bd348f739d8e6ed1b",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "3 things to watch at Knicks training camp, including Karl-Anthony Towns extension talks",
-      "summary": "Per a league source familiar with the matter, the talks with Towns have been positive",
-      "author": "Ian Begley",
-      "published_at": "2026-09-25T14:43:41.000Z",
-      "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt336fb537eeb9207a/6a2ea98e7fffe62022a840b7/USATSI_29195181_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "31ac710ca1a62964c2e8",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Sources on extension talks between Karl-Anthony Towns and Knicks",
-      "summary": "New York has made it known they want Towns to be a Knick for a long time",
-      "author": "Ian Begley, Robert Sanchez",
-      "published_at": "2026-09-23T19:57:49.000Z",
-      "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt44a29ee045b02921/69fc02fceca92e1289f690eb/USATSI_28894964_168393353_lowres_2.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "0c4419ffc8082c0e3e23",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "James Wiseman, Bruce Brown among veterans joining Knicks on Exhibit 9 deal",
-      "summary": "The players will compete in camp for a roster spot",
-      "author": "Ian Begley",
-      "published_at": "2026-09-16T17:53:03.000Z",
-      "url": "https://sny.tv/articles/james-wiseman-bruce-brown-veterans-joining-knicks-exhibit-9-deal",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb9abf20e0c532722/6aaad742e96fa68da57b6517/2024-10-11T014739Z_1967780022_MT1USATODAY24457180_RTRMADP_3_NBA-PRESEASON-INDIANA-PACERS-AT-CLEVELAND-CAVALIERS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/james-wiseman-bruce-brown-veterans-joining-knicks-exhibit-9-deal",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": [
