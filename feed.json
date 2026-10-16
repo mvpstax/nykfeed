@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T01:15:19.587Z",
+  "generated_at": "2026-10-16T01:30:44.806Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 115,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 4520,
+    "refresh_duration_ms": 28301,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 97,
       "missing": 17,
       "article_pages_checked": 0
     },
@@ -100,6 +101,40 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "11943b137788f999d556",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wodtry44lzuq7cnp5bs6xmtm/app.bsky.feed.post/3mxxgareoek27",
+      "author": "Nai",
+      "handle": "naiwi.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wodtry44lzuq7cnp5bs6xmtm/bafkreicmjxiqrn3zn5ia7mm6dspmejzyuplljaprlimy6bpjwqtid3u7pe",
+      "text": "Where’s Josh? #KnicksSky",
+      "published_at": "2026-10-16T01:26:24.755Z",
+      "url": "https://bsky.app/profile/did:plc:wodtry44lzuq7cnp5bs6xmtm/post/3mxxgareoek27",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wodtry44lzuq7cnp5bs6xmtm/post/3mxxgareoek27",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "828b53c79ba0261a4043",
       "type": "social",
@@ -156,7 +191,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -293,7 +328,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -361,7 +396,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -395,7 +430,7 @@
       "engagement": {
         "replies": 4,
         "reposts": 9,
-        "likes": 104
+        "likes": 114
       },
       "team": "NYK",
       "presentation": {
@@ -640,7 +675,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -710,7 +745,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1156,40 +1191,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "0a1846f3d90ef4a9a51d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mxwrorwnss27",
-      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
-      "handle": "kingfitch1990.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreidwamuzd5ze4pyetx3oxglaavjvns4i5dj4orgorqdmzjgerqbsxu",
-      "text": "After a season of sacrifices, Karl-Anthony Towns is now being asked to do it again - Vincent Goodwill  espn.com/app",
-      "published_at": "2026-10-15T19:18:26.527Z",
-      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxwrorwnss27",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mxwrorwnss27",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "8b856ea943c407b91c8b",
@@ -2686,27 +2687,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mxs5jwvama2m",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-13T22:18:13.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/brunson-511.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
