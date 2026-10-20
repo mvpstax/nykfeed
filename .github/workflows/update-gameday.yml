@@ -3,54 +3,60 @@ name: Refresh Knicks Game Day
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 */2 * * *'
+    - cron: '7,22,37,52 * * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: knicks-gameday
+  group: knicks-betting-results
   cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
 
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main
 
       - uses: actions/setup-node@v7
         with:
           node-version: '24'
 
-      - name: Build Game Day JSON
+      - name: Refresh preview and pregame odds
         env:
           HIGHLIGHTLY_API_KEY: ${{ secrets.HIGHLIGHTLY_API_KEY }}
           HIGHLIGHTLY_BASE_URL: ${{ vars.HIGHLIGHTLY_BASE_URL || 'https://nba.highlightly.net' }}
-        run: node scripts/update-gameday.mjs
+        run: node scripts/refresh-game-preview.mjs
 
-      - name: Save Game Day JSON
+      - name: Save updated preview and odds
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "knicks-feed-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add gameday.json
+
+          git add gameday.json odds.json
+
+          if [ -f betting-results.json ]; then
+            git add betting-results.json
+          fi
 
           if git diff --cached --quiet; then
-            echo "No Game Day changes."
+            echo "No changes."
             exit 0
           fi
 
-          git commit -m "Refresh Knicks Game Day"
+          git commit -m "Refresh Knicks preview and pregame odds"
 
           for attempt in 1 2 3; do
             git pull --rebase origin main
 
             if git push origin HEAD:main; then
-              exit 0
-            fi
-
-            if [ "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" ]; then
               exit 0
             fi
 
