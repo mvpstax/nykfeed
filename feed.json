@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-20T22:00:56.575Z",
+  "generated_at": "2026-10-20T22:15:46.217Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 126,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4803,
+    "refresh_duration_ms": 29003,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,29 +93,213 @@
       }
     ],
     "images": {
-      "available": 110,
-      "missing": 10,
-      "article_pages_checked": 1
+      "available": 109,
+      "missing": 11,
+      "article_pages_checked": 3
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-10-20T22:00:56.575Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "d07a15089ee501ea8798",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:5snsqcpdjobpqhme4re2jse3/app.bsky.feed.post/3mydnncxets24",
+      "author": "Strictly 4 My Navigators",
+      "handle": "lizzslockeroom.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5snsqcpdjobpqhme4re2jse3/bafkreiggzfgcojqxwygm66af5rtg5qw5yzj3skzemnhb3xrlw4b4kntky4",
+      "text": "This jacket is 🔥🔥 #KnicksSky",
+      "published_at": "2026-10-20T22:10:38.894Z",
+      "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mydnncxets24",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5snsqcpdjobpqhme4re2jse3/bafkreibjyieqd6h5nci6acxd4f5maqf3r53bww4tqr56xxjdqadmsly65y",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mydnncxets24",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "ab8f5dba68e5c0f6565e",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "'2026-27 Champions Night?' Knicks championship celebration shirts raise eyebrows",
+      "summary": "It's \"Champions Night\" for the New York Knicks as they celebrate their first title since 1973 at MSG.",
+      "author": null,
+      "published_at": "2026-10-20T22:07:49.000Z",
+      "url": "https://sports.yahoo.com/articles/2026-27-champions-night-knicks-220749374.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/305620f2f05aa72739f2994ff2ec37a293cf5d994f341fe9a8c397a6952ab241/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F50bfaca698e6039d3b7b76a378a8330b.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/2026-27-champions-night-knicks-220749374.html"
+      },
+      "image_checked_at": "2026-10-20T22:15:45.953Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "79e5eb0290da7baf8269",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mydnf26qvj2w",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen Brunson’s Knicks heroics inspired a New York baby name boom (via New York Post)",
+      "published_at": "2026-10-20T22:06:01.074Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mydnf26qvj2w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreihpbebtlausbu3mdukffggnzl4np2f7f6lnc4rr7g2zkrgpduq6b4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mydnf26qvj2w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "2989dbb93ddfeba4e622",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:nx7znvoex7ev3wcxn3tipovm/app.bsky.feed.post/3mydn7g7kus2i",
+      "author": "Mayor Zohran Kwame Mamdani",
+      "handle": "mayor.nyc.gov",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:nx7znvoex7ev3wcxn3tipovm/bafkreibbqmf7c4ftvq56afxguu27ezixr4yqu2e3h4yclrelwhtf7367jq",
+      "text": "New Yorkers have waited their entire lives for tonight: when the Knicks championship banner will be raised into the rafters of Madison Square Garden. \n\nWhat a testament to the incredible 2025-26 Knicks and the city that stood alongside them every step of the way. \n\nLGK.",
+      "published_at": "2026-10-20T22:02:52.548Z",
+      "url": "https://bsky.app/profile/did:plc:nx7znvoex7ev3wcxn3tipovm/post/3mydn7g7kus2i",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 3,
+        "reposts": 35,
+        "likes": 305
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:nx7znvoex7ev3wcxn3tipovm/post/3mydn7g7kus2i",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "1da55e454810b42ea69a",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:5snsqcpdjobpqhme4re2jse3/app.bsky.feed.post/3mydn43mtd224",
+      "author": "Strictly 4 My Navigators",
+      "handle": "lizzslockeroom.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5snsqcpdjobpqhme4re2jse3/bafkreiggzfgcojqxwygm66af5rtg5qw5yzj3skzemnhb3xrlw4b4kntky4",
+      "text": "Raise That Banner!!!! #Knicks #NBAChampions #GoNYGoNYGo #KnicksSky \n🧡💙🏆",
+      "published_at": "2026-10-20T22:01:00.788Z",
+      "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mydn43mtd224",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5snsqcpdjobpqhme4re2jse3/bafkreicwkcvgycm2jaanmd4aij2fyz4clo4ideslyb3vcyvjaxlmidp45m/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5snsqcpdjobpqhme4re2jse3/bafkreicwkcvgycm2jaanmd4aij2fyz4clo4ideslyb3vcyvjaxlmidp45m/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5snsqcpdjobpqhme4re2jse3/bafkreicwkcvgycm2jaanmd4aij2fyz4clo4ideslyb3vcyvjaxlmidp45m/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 480,
+        "width": 480
+      },
+      "engagement": {
+        "replies": 2,
+        "reposts": 1,
+        "likes": 4
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3mydn43mtd224",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "288c471f48f1dc4bcd29",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mydmsunwgf2y",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Jalen Brunson's Knicks heroics inspired a New York baby name boom",
+      "published_at": "2026-10-20T21:55:51.192Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mydmsunwgf2y",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreie2czug4eoh3xr3ntl6atsc6b3rewazdugubmqbi7jnmglixwqh4a",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mydmsunwgf2y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "03bf1399b24d2ebb0c66",
       "type": "social",
@@ -137,7 +322,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 5
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -201,9 +386,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/nba/live/76ers-knicks-score-live-updates-lineups-highlights-where-to-watch-lebron-james-jaylen-brown-debut-banner-raising-214900339.html"
       },
-      "image_checked_at": "2026-10-20T22:00:24.825Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-20T22:00:24.825Z"
     },
     {
       "id": "0c0c9d6911df02afed34",
@@ -366,7 +551,7 @@
         "width": 720
       },
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 1,
         "likes": 6
       },
@@ -473,7 +658,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -565,7 +750,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 3,
-        "likes": 37
+        "likes": 40
       },
       "team": "NYK",
       "presentation": {
@@ -599,7 +784,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -797,7 +982,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 2,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1131,9 +1316,6 @@
         "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3mydbw6iwij24",
         "render_mode": "native_social_card"
       },
-      "also_reported_by": [
-        "Bluesky"
-      ],
       "image_status": "available",
       "image_source": "source_feed"
     },
@@ -1154,111 +1336,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.cbssports.com/betting/news/nba-2026-27-championship-futures-odds-thunder-spurs-favored-but-knicks-lebron-james-76ers-not-far-behind/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "f64810f89e08f3e8a50a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mydbmp2lkx22",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Where to watch 76ers vs. Knicks opening night, championship ceremony for free",
-      "published_at": "2026-10-20T18:35:32.909Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mydbmp2lkx22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreihcytgzrcmeqvgdrikpj5ys3jwbjzzod46jk6j55jd53exvr6p2mm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mydbmp2lkx22",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "c61729c60be5a18d596b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3mydbiwh3us2w",
-      "author": "Posting and Toasting",
-      "handle": "postingandtoasting.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
-      "text": "Knicks Bulletin: ‘That’s also why I can’t wait for that opening night tip’",
-      "published_at": "2026-10-20T18:33:26.664Z",
-      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mydbiwh3us2w",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreiebjjgur7zvfdvjeqqfvvaostkxwofx32uwv2ugtqxsjyjgbqrkcm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mydbiwh3us2w",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "1cf7e2af332ba72a12c2",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mydbiwazpb2f",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Polymarket promo code NYPMAX1: Deposit $10, get $25 for Knicks vs. 76ers",
-      "published_at": "2026-10-20T18:33:26.400Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mydbiwazpb2f",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreifcfjigod4p6pd6bhadosot54kul2y5uyyqy32dbamw3kcmm6qdz4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mydbiwazpb2f",
-        "render_mode": "native_social_card"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1528,12 +1605,12 @@
       "type": "article",
       "source": "Yahoo Sports",
       "source_key": "yahoo_sports_nba",
-      "title": "LeBron to make 76ers debut vs Knicks. What to expect from King James.",
+      "title": "LeBron James to make 76ers debut vs Knicks. What to expect in NBA opener",
       "summary": "For the fourth time in his historic 24-year career, LeBron James will make his debut with an entirely new team, this time with the Philadelphia 76ers.",
       "author": null,
       "published_at": "2026-10-20T16:00:50.000Z",
       "url": "https://sports.yahoo.com/articles/lebron-76ers-debut-vs-knicks-160050023.html",
-      "image_url": "https://media.zenfs.com/en/usa_today_sports_articles_558/70637ba1fb95ac055838d2570dd4ad43.jpg",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/3bc09cd635c07c0f70c3b72cefc2b2054062c7127e2258850a650e5279c0d2ae/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F70637ba1fb95ac055838d2570dd4ad43.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
@@ -1541,8 +1618,9 @@
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/lebron-76ers-debut-vs-knicks-160050023.html"
       },
-      "image_status": "available",
-      "image_source": "source_feed"
+      "image_checked_at": "2026-10-20T22:15:45.954Z",
+      "image_source": "og:image",
+      "image_status": "available"
     },
     {
       "id": "c8620600217910378b9a",
@@ -1608,27 +1686,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-20T16:15:21.401Z"
-    },
-    {
-      "id": "2799d481c921ddbd238d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks savior Jalen Brunson will be front and center as title team is celebrated on Opening Night",
-      "summary": "Knicks to hang championship banner, give out rings in pregame ceremony Tuesday",
-      "author": "Ian Begley",
-      "published_at": "2026-10-20T15:21:30.000Z",
-      "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt83a8994c3c50a509/6ad78159f07733922df8ac07/2026-10-16T024255Z_94011362_MT1USATODAY30093902_RTRMADP_3_NBA-PRESEASON-TORONTO-RAPTORS-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "6e16f871681f5eb802b1",
@@ -1776,8 +1833,8 @@
       },
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "reposts": 3,
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -1789,28 +1846,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "bcb5596ce0ca25ca93aa",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "What Knicks are saying about LeBron James, new-look Sixers before opener",
-      "summary": "New York sees enormous talent, a possible adjustment period and the makings of a rivalry in Philadelphia’s revamped roster.",
-      "author": null,
-      "published_at": "2026-10-20T13:01:00.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-saying-lebron-james-look-130100256.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/a096bfa281d1c9e085f188d9e9908606b4de27154e18d6fcb011ebc38c40dfd5/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcsnphilly.com%2F483323fb47961ad4eb2b9e9a4d788a3f.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-saying-lebron-james-look-130100256.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-20T17:30:47.224Z"
     },
     {
       "id": "625eba16f0c99f872ca7",
@@ -2422,27 +2457,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3myaffzserh2t",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-19T14:39:11.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/10/128/72/artboard-1title-odds-1.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3185,41 +3199,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b2c898decf7a24a6818d",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3my5rickcpf2i",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks coach Mike Brown preparing his players for the mental, physical challenges of defending an NBA title (via Newsday)",
-      "published_at": "2026-10-18T14:03:27.019Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3my5rickcpf2i",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreig4bhyuqvhsrtoe7nb4ooxfvjpdsasezwdbzq3p3qcklavyhr7w2y",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3my5rickcpf2i",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "5a7b7340719f03fb8c52",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3347,9 +3326,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/and-ones-knox-star-situations-hagan-euroleague.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-20T22:15:45.954Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-19T22:00:26.974Z"
+      "image_status": "available"
     },
     {
       "id": "06967ca38e0c0ad290dd",
@@ -3595,111 +3574,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-20T20:00:25.775Z"
-    },
-    {
-      "id": "3862ea1ffc0834878bf4",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks weighing options to keep both James Wiseman, Bruce Brown on roster",
-      "summary": "NY would have to make a trade by Monday to keep both",
-      "author": "Ian Begley",
-      "published_at": "2026-10-16T04:37:06.000Z",
-      "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb4a184ebdbf397e9/6ad298750179ea4ae82e59fe/2026-10-14T021821Z_1395779667_MT1USATODAY30077122_RTRMADP_3_NBA-PRESEASON-NEW-YORK-KNICKS-AT-TORONTO-RAPTORS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a60774acfbdcd97a33bc",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Bruce Brown making a strong case to crack Knicks' roster",
-      "summary": "Second apron limitations could prevent Brown from making team",
-      "author": "Ian Begley",
-      "published_at": "2026-10-09T05:27:32.000Z",
-      "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt6f50fc8f29953459/6ac875d202eecbdf8d076b67/2026-01-28T031300Z_136793587_MT1USATODAY28099559_RTRMADP_3_NBA-DETROIT-PISTONS-AT-DENVER-NUGGETS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2788aa3bc029aa94c0ae",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "It appears unlikely New York will agree to deals with Karl-Anthony Towns, Josh Hart, and Miles McBride before regular season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt71445e7f91815c65/69d9a3def8a69f5f6a7d1c14/USATSI_28703057_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "cf9bd348f739d8e6ed1b",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "3 things to watch at Knicks training camp, including Karl-Anthony Towns extension talks",
-      "summary": "Per a league source familiar with the matter, the talks with Towns have been positive",
-      "author": "Ian Begley",
-      "published_at": "2026-09-25T14:43:41.000Z",
-      "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt336fb537eeb9207a/6a2ea98e7fffe62022a840b7/USATSI_29195181_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "31ac710ca1a62964c2e8",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Sources on extension talks between Karl-Anthony Towns and Knicks",
-      "summary": "New York has made it known they want Towns to be a Knick for a long time",
-      "author": "Ian Begley, Robert Sanchez",
-      "published_at": "2026-09-23T19:57:49.000Z",
-      "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt44a29ee045b02921/69fc02fceca92e1289f690eb/USATSI_28894964_168393353_lowres_2.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": []
