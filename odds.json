@@ -1,12 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T10:12:49.093Z",
-  "source": "Highlightly",
-  "game_id": null,
+  "generated_at": "2026-10-20T11:21:31.187Z",
+  "converted_at": "2026-10-20T11:21:31.187Z",
+  "source": "ESPN",
+  "game_id": "espn:401909089",
+  "archive_game_id": "espn:401909089",
   "match_id": null,
   "odds_type": "prematch",
   "price_format": "decimal",
-  "status": "unavailable",
-  "reason": "No matchup is available yet.",
-  "bookmakers": []
+  "status": "available",
+  "reason": null,
+  "bookmakers": [
+    {
+      "id": "espn:100",
+      "name": "Draft Kings (ESPN)",
+      "markets": [
+        {
+          "market": "Spread -4.5/+4.5",
+          "values": []
+        },
+        {
+          "market": "Totals 232.5",
+          "values": []
+        },
+        {
+          "market": "Moneyline",
+          "values": [
+            {
+              "value": "Home",
+              "odd": 1.5555555555555556
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
