@@ -1,6 +1,189 @@
 {
   "schema_version": 1,
-  "status": "no_game",
-  "generated_at": "2026-10-20T10:12:49.055Z",
-  "game": null
+  "status": "ready",
+  "generated_at": "2026-10-20T11:21:44.405Z",
+  "source": "ESPN; Highlightly when reported",
+  "game": {
+    "id": "espn:401909089",
+    "date": "2026-10-20T23:00Z",
+    "status": "Scheduled",
+    "phase": "Regular season",
+    "home": {
+      "name": "New York Knicks",
+      "abbreviation": "NYK",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "score": null
+    },
+    "away": {
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+      "score": null
+    },
+    "period": null,
+    "clock": null,
+    "espn_id": "401909089"
+  },
+  "season": "2026–27",
+  "phase": "Regular season",
+  "venue": "Madison Square Garden",
+  "broadcasts": [
+    "ERADM"
+  ],
+  "teams": {
+    "away": {
+      "id": "20",
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+      "color": "#1d428a",
+      "stats": {
+        "games": 0,
+        "boxes": 0,
+        "wins": 0,
+        "losses": 0,
+        "points": null,
+        "allowed": null,
+        "fg": null,
+        "three": null,
+        "rebounds": null,
+        "assists": null,
+        "turnovers": null,
+        "factors": {
+          "efg": null,
+          "tov": null,
+          "orb": null,
+          "ftr": null,
+          "three_rate": null,
+          "fta_rate": null,
+          "games": 0,
+          "samples": {
+            "efg": 0,
+            "tov": 0,
+            "orb": 0,
+            "ftr": 0
+          },
+          "definition_version": 1
+        }
+      },
+      "lineup": {
+        "status": "unavailable",
+        "source": "Estimate from ESPN game logs",
+        "method": "Estimated from starts and minutes in 0 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "players": []
+      },
+      "availability": {
+        "reported": true,
+        "players": [
+          {
+            "id": "3912848",
+            "name": "Dean Wade",
+            "position": "F",
+            "jersey": "45",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3912848.png",
+            "status": "Day-To-Day",
+            "detail": "Ankle · Leg",
+            "reported_at": "2026-10-19T21:14Z"
+          },
+          {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "position": "C",
+            "jersey": "30",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5105637.png",
+            "status": "Day-To-Day",
+            "detail": "Foot · Leg",
+            "reported_at": "2026-10-19T21:13Z"
+          },
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "position": "G",
+            "jersey": "5",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4351851.png",
+            "status": "Day-To-Day",
+            "detail": "Hamstring · Leg",
+            "reported_at": "2026-10-19T21:11Z"
+          },
+          {
+            "id": "3904625",
+            "name": "Tacko Fall",
+            "position": "C",
+            "jersey": "99",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3904625.png",
+            "status": "Out",
+            "detail": "Hip · Torso",
+            "reported_at": "2026-10-19T21:10Z"
+          },
+          {
+            "id": "4870562",
+            "name": "Dominick Barlow",
+            "position": "F",
+            "jersey": "25",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
+            "status": "Out",
+            "detail": "Back · Torso",
+            "reported_at": "2026-10-19T21:07Z"
+          }
+        ]
+      },
+      "rest_days": null,
+      "recent": [],
+      "home_record": "0–0",
+      "away_record": "0–0"
+    },
+    "home": {
+      "id": "18",
+      "name": "New York Knicks",
+      "abbreviation": "NYK",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "color": "#1d428a",
+      "stats": {
+        "games": 0,
+        "boxes": 0,
+        "wins": 0,
+        "losses": 0,
+        "points": null,
+        "allowed": null,
+        "fg": null,
+        "three": null,
+        "rebounds": null,
+        "assists": null,
+        "turnovers": null,
+        "factors": {
+          "efg": null,
+          "tov": null,
+          "orb": null,
+          "ftr": null,
+          "three_rate": null,
+          "fta_rate": null,
+          "games": 0,
+          "samples": {
+            "efg": 0,
+            "tov": 0,
+            "orb": 0,
+            "ftr": 0
+          },
+          "definition_version": 1
+        }
+      },
+      "lineup": {
+        "status": "unavailable",
+        "source": "Estimate from ESPN game logs",
+        "method": "Estimated from starts and minutes in 0 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "players": []
+      },
+      "availability": {
+        "reported": true,
+        "players": []
+      },
+      "rest_days": null,
+      "recent": [],
+      "home_record": "0–0",
+      "away_record": "0–0"
+    }
+  },
+  "meta": {
+    "errors": []
+  }
 }
