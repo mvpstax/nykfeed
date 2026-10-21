@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-20T22:43:47.134Z",
+  "generated_at": "2026-10-21T00:57:42.928Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909089",
@@ -67,10 +67,51 @@
         }
       },
       "lineup": {
-        "status": "unavailable",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 0 recent games. Out and doubtful players excluded. Not a reported lineup.",
-        "players": []
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "position": "F",
+            "jersey": "23",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+            "availability": null
+          },
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "position": "C",
+            "jersey": "21",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3059318.png",
+            "availability": null
+          },
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "position": "G",
+            "jersey": "7",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png",
+            "availability": null
+          },
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "position": "G",
+            "jersey": "0",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
+            "availability": null
+          },
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "position": "G",
+            "jersey": "77",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
+            "availability": null
+          }
+        ]
       },
       "availability": {
         "reported": true,
@@ -158,10 +199,51 @@
         }
       },
       "lineup": {
-        "status": "unavailable",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 0 recent games. Out and doubtful players excluded. Not a reported lineup.",
-        "players": []
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "position": "F",
+            "jersey": "8",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
+            "availability": null
+          },
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "position": "C",
+            "jersey": "32",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+            "availability": null
+          },
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "position": "G",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
+            "availability": null
+          },
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "position": "G",
+            "jersey": "25",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
+            "availability": null
+          },
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+            "availability": null
+          }
+        ]
       },
       "availability": {
         "reported": true,
