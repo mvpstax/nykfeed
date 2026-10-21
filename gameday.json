@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T01:01:22.310Z",
+  "generated_at": "2026-10-21T05:53:55.592Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
@@ -8,22 +8,22 @@
   "game": {
     "id": "espn:401909089",
     "date": "2026-10-20T23:00Z",
-    "status": "In progress",
+    "status": "Finished",
     "phase": "Regular season",
     "home": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": 63
+      "score": 100
     },
     "away": {
       "name": "Philadelphia 76ers",
       "abbreviation": "PHI",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "score": 62
+      "score": 106
     },
-    "period": 3,
-    "clock": "7:55"
+    "period": null,
+    "clock": null
   },
   "venue": {
     "id": "1830",
@@ -59,16 +59,16 @@
   "highlights": [],
   "storylines": [
     {
-      "id": "30f694befb590c7fb152",
-      "title": "Where to watch 76ers vs. Knicks opening night, championship ceremony for free",
-      "summary": "Brunson, KAT, OG, Mikal and Josh will finally get their rings tonight.",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/212496dcbcdcd22b420c5837645b8ca0.jpg",
+      "id": "535a411019b2398831e0",
+      "title": "Andre Drummond enjoys historic first half before running out of steam in Knicks debut",
+      "summary": "Andre Drummond was one of the Knicks’ biggest early contributors off the bench Tuesday night, before seemingly running out of steam down the stretch in the second half.",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/c53c717811116c55ffa3b6bfa84c38518f1e0f8b6691d0e3351eede1935de522/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F588db43be3e35ae04e3809cc20775480.jpg",
       "source": "Yahoo Sports",
-      "published_at": "2026-10-20T18:30:00.000Z",
-      "url": "https://sports.yahoo.com/articles/where-watch-76ers-vs-knicks-183000390.html",
-      "topic": "matchup",
-      "label": "The matchup",
-      "relevance": "matchup",
+      "published_at": "2026-10-21T03:09:45.000Z",
+      "url": "https://sports.yahoo.com/articles/andre-drummond-enjoys-historic-first-030945103.html",
+      "topic": "rotation",
+      "label": "Rotation watch",
+      "relevance": "knicks_preseason",
       "generated": false
     },
     {
@@ -85,20 +85,32 @@
       "generated": false
     },
     {
-      "id": "77c84e21abd12a250306",
-      "title": "Knicks Enter Opening Night With a Real Starting Lineup Worry",
-      "summary": "The Knicks head into Opening Night as a threat to win the title again, but what lies beyond this season for the starting lineup is a real mystery.",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_197,w_4026,h_2264/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m5b9ybhg55t0r2wm19.jpg",
+      "id": "2e7210bc5d8640db5afa",
+      "title": "3 Ways Andre Drummond Has Already Impressed With Knicks",
+      "summary": "Andre Drummond is impressing the Knicks with his passing, defensive activity, and screening. He's showing that he can contribute beyond rebounding as Mitchell Robinson's replacement.",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_378,w_3840,h_2160/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m58903znz02hmhsft3.jpg",
       "source": "Sports Illustrated",
-      "published_at": "2026-10-20T17:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-enter-opening-night-with-real-starting-lineup-worry-01m5b9q89srq",
-      "topic": "rotation",
-      "label": "Rotation watch",
+      "published_at": "2026-10-19T19:00:00.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/3-ways-andre-drummond-has-already-impressed-with-knicks-01m586bx4ppw",
+      "topic": "identity",
+      "label": "On-court changes",
       "relevance": "knicks_preseason",
       "generated": false
     }
   ],
   "players_to_watch": [
+    {
+      "id": "nba:203083",
+      "name": "Andre Drummond",
+      "jersey": "0",
+      "position": "Center",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/203083.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
+    },
     {
       "id": "nba:1628973",
       "name": "Jalen Brunson",
@@ -134,23 +146,11 @@
       "rebounds": null,
       "assists": null,
       "games": null
-    },
-    {
-      "id": "nba:1628384",
-      "name": "OG Anunoby",
-      "jersey": "8",
-      "position": "Forward-Guard",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
     }
   ],
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-10-21T01:00:54.367Z"
+    "feed_generated_at": "2026-10-21T05:46:13.457Z"
   }
 }
