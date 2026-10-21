@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-21T04:15:55.008Z",
+  "generated_at": "2026-10-21T04:30:46.487Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 126,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4319,
+    "refresh_duration_ms": 28214,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 16
+        "items": 20
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,26 +95,9 @@
     "images": {
       "available": 100,
       "missing": 20,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-10-21T04:15:55.008Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": false,
-        "error": "HTTP 404"
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": false,
-        "error": "HTTP 404"
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
@@ -174,7 +158,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -219,6 +203,28 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "47f20fe59558f16da9da",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks lose sight of little details in season-opening loss to 76ers: 'We put ourselves in the hole'",
+      "summary": "After a disappointing loss to the Philadelphia 76ers on banner night at Madison Square Garden, Knicks head coach Mike Brown was clear about his disappointment in his team's poor attention to detail.",
+      "author": null,
+      "published_at": "2026-10-21T04:05:39.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-lose-sight-little-details-040539536.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/d04983cf2458b455f793e6b36bf561d3c9bcdc3c4a59c0781716b81c6589f3ac/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F8685670f09f32e874f18878750760a19.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-lose-sight-little-details-040539536.html"
+      },
+      "image_checked_at": "2026-10-21T04:30:46.296Z",
+      "image_source": "og:image",
+      "image_status": "available"
     },
     {
       "id": "b34e40d0449c00bd8b8f",
@@ -1024,6 +1030,27 @@
       "image_status": "not_provided"
     },
     {
+      "id": "240887308a0b4ed3196e",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "76ers 106, Knicks 100: Scenes from banner night",
+      "summary": "A mixed performance on the court can’t tarnish banner night.",
+      "author": null,
+      "published_at": "2026-10-21T02:14:19.000Z",
+      "url": "https://sports.yahoo.com/articles/76ers-106-knicks-100-scenes-021419999.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/9fe41201261aee41640fb01e4dd95fa5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/76ers-106-knicks-100-scenes-021419999.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "995d50de1db785003e43",
       "type": "article",
       "source": "Yahoo Sports",
@@ -1363,27 +1390,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-21T01:08:10.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/10/128/72/7ab2e31f-artboard-1.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "3968d96f4d3486e96445",
       "type": "social",
       "source": "Bluesky",
@@ -1414,6 +1420,48 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mydxigc7pk2e",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "cb44a4e931ee55b5ab65",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks celebrate a banner night 53 years in the making — with sights set on another",
+      "summary": "It was at 6:57 p.m. that Jalen Brunson’s voice delivered the line Knicks fans have long been waiting for.",
+      "author": null,
+      "published_at": "2026-10-21T00:15:15.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-celebrate-banner-night-53-001515826.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/480c2dae1efdbe766e99d99878594dc3.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-celebrate-banner-night-53-001515826.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "38e8012142a63021299b",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks quietly raise NBA Cup banner to rafters in Garden surprise",
+      "summary": "Like a thief in the night, the Knicks raised their NBA Cup banner.",
+      "author": null,
+      "published_at": "2026-10-21T00:11:57.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-quietly-raise-nba-cup-001157258.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/b311cbadda3e6144e9386a378c6c61d3.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-quietly-raise-nba-cup-001157258.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1580,7 +1628,7 @@
       "type": "article",
       "source": "Yahoo Sports",
       "source_key": "yahoo_sports_nba",
-      "title": "NBA winners, losers live: Pistons' mount historic comeback; Drummond shines for Knicks",
+      "title": "NBA winners, losers live: LeBron pays dividends; Knicks suffer letdown",
       "summary": "The 2026-27 NBA regular season is officially underway and we're tracking the winners and losers from the three opening-night games on the schedule.",
       "author": null,
       "published_at": "2026-10-20T22:34:44.000Z",
@@ -2208,27 +2256,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "2799d481c921ddbd238d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks savior Jalen Brunson will be front and center as title team is celebrated on Opening Night",
-      "summary": "Knicks to hang championship banner, give out rings in pregame ceremony Tuesday",
-      "author": "Ian Begley",
-      "published_at": "2026-10-20T15:21:30.000Z",
-      "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt83a8994c3c50a509/6ad78159f07733922df8ac07/2026-10-16T024255Z_94011362_MT1USATODAY30093902_RTRMADP_3_NBA-PRESEASON-TORONTO-RAPTORS-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "6e16f871681f5eb802b1",
@@ -3516,177 +3543,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-20T17:00:46.789Z"
-    },
-    {
-      "id": "5a7b7340719f03fb8c52",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "5 Knicks on Thin Ice Following a Poor Preseason",
-      "summary": "There's a handful of Knicks players who didn't perform well in the preseason, putting them in a worse spot for their rotation and roster outlooks.",
-      "author": "Isaiah De Los Santos",
-      "published_at": "2026-10-18T11:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/5-knicks-thin-ice-following-poor-preseason-01m55anm49fq",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4535,h_2550/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m55az0hke014b9d6bq.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/5-knicks-thin-ice-following-poor-preseason-01m55anm49fq",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-20T11:15:42.247Z"
-    },
-    {
-      "id": "d5d97f9b0c8ca7f7a8a1",
-      "type": "article",
-      "source": "Hoops Rumors",
-      "source_key": "hoops_rumors",
-      "title": "Pacific Notes: D. Green, Simmons, I. Jackson, Z. Williams",
-      "summary": "Draymond Green says the trust he has developed in coach Steve Kerr is helping him accept changes to his role in the Warriors’ offense, Luca Evans of The San Francisco Chronicle writes in a subscriber-only story. Green will see less time trailing plays and directing teammates from the top of the key and will be […]",
-      "author": "Arthur Hill",
-      "published_at": "2026-10-18T04:00:45.000Z",
-      "url": "https://www.hoopsrumors.com/2026/10/pacific-notes-d-green-simmons-i-jackson-z-williams.html",
-      "image_url": "https://cdn.hoopsrumors.com/files/2026/04/Draymond-Green-Warriors-900x600.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.hoopsrumors.com/2026/10/pacific-notes-d-green-simmons-i-jackson-z-williams.html"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-20T04:30:45.997Z"
-    },
-    {
-      "id": "5698edb5d0bdffe4720a",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks waive Bruce Brown, keep James Wiseman ahead of opener",
-      "summary": "The Knicks are waiving Bruce Brown and keeping James Wiseman on the roster as the team heads into its regular-season opener, sources told ESPN.",
-      "author": null,
-      "published_at": "2026-10-18T01:41:18.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50204321/sources-knicks-waiving-bruce-brown-keeping-james-wiseman",
-      "image_url": "https://a.espncdn.com/photo/2026/1017/r1732162_600x400_3-2.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50204321/sources-knicks-waiving-bruce-brown-keeping-james-wiseman"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "3862ea1ffc0834878bf4",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks weighing options to keep both James Wiseman, Bruce Brown on roster",
-      "summary": "NY would have to make a trade by Monday to keep both",
-      "author": "Ian Begley",
-      "published_at": "2026-10-16T04:37:06.000Z",
-      "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb4a184ebdbf397e9/6ad298750179ea4ae82e59fe/2026-10-14T021821Z_1395779667_MT1USATODAY30077122_RTRMADP_3_NBA-PRESEASON-NEW-YORK-KNICKS-AT-TORONTO-RAPTORS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a60774acfbdcd97a33bc",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Bruce Brown making a strong case to crack Knicks' roster",
-      "summary": "Second apron limitations could prevent Brown from making team",
-      "author": "Ian Begley",
-      "published_at": "2026-10-09T05:27:32.000Z",
-      "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt6f50fc8f29953459/6ac875d202eecbdf8d076b67/2026-01-28T031300Z_136793587_MT1USATODAY28099559_RTRMADP_3_NBA-DETROIT-PISTONS-AT-DENVER-NUGGETS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2788aa3bc029aa94c0ae",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "It appears unlikely New York will agree to deals with Karl-Anthony Towns, Josh Hart, and Miles McBride before regular season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt71445e7f91815c65/69d9a3def8a69f5f6a7d1c14/USATSI_28703057_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "cf9bd348f739d8e6ed1b",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "3 things to watch at Knicks training camp, including Karl-Anthony Towns extension talks",
-      "summary": "Per a league source familiar with the matter, the talks with Towns have been positive",
-      "author": "Ian Begley",
-      "published_at": "2026-09-25T14:43:41.000Z",
-      "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt336fb537eeb9207a/6a2ea98e7fffe62022a840b7/USATSI_29195181_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "31ac710ca1a62964c2e8",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Sources on extension talks between Karl-Anthony Towns and Knicks",
-      "summary": "New York has made it known they want Towns to be a Knick for a long time",
-      "author": "Ian Begley, Robert Sanchez",
-      "published_at": "2026-09-23T19:57:49.000Z",
-      "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt44a29ee045b02921/69fc02fceca92e1289f690eb/USATSI_28894964_168393353_lowres_2.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": []
