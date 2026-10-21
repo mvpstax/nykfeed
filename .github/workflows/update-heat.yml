@@ -1,0 +1,54 @@
+name: Refresh Heat content
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: heat-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Build Heat content
+        run: node scripts/update-heat.mjs
+
+      - name: Save Heat content
+        run: |
+          git config user.name "knickside-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add heat.json
+
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git commit -m "Refresh Heat content"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            sleep 5
+          done
+
+          exit 1
