@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T22:43:23.634Z",
+  "generated_at": "2026-10-21T01:01:22.310Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
@@ -8,22 +8,22 @@
   "game": {
     "id": "espn:401909089",
     "date": "2026-10-20T23:00Z",
-    "status": "Scheduled",
+    "status": "In progress",
     "phase": "Regular season",
     "home": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": null
+      "score": 63
     },
     "away": {
       "name": "Philadelphia 76ers",
       "abbreviation": "PHI",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "score": null
+      "score": 62
     },
-    "period": null,
-    "clock": null
+    "period": 3,
+    "clock": "7:55"
   },
   "venue": {
     "id": "1830",
@@ -59,6 +59,19 @@
   "highlights": [],
   "storylines": [
     {
+      "id": "30f694befb590c7fb152",
+      "title": "Where to watch 76ers vs. Knicks opening night, championship ceremony for free",
+      "summary": "Brunson, KAT, OG, Mikal and Josh will finally get their rings tonight.",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/212496dcbcdcd22b420c5837645b8ca0.jpg",
+      "source": "Yahoo Sports",
+      "published_at": "2026-10-20T18:30:00.000Z",
+      "url": "https://sports.yahoo.com/articles/where-watch-76ers-vs-knicks-183000390.html",
+      "topic": "matchup",
+      "label": "The matchup",
+      "relevance": "matchup",
+      "generated": false
+    },
+    {
       "id": "7ce0d1e9b73fd4051da0",
       "title": "Dunc'd On: Season Predictions 2026-27",
       "summary": "Nate and Danny Leroux make their 2026-27 NBA predictions, working through all 30 teams' regular-season outlooks before picking conference finalists, a champion, and the teams most at risk of relegation. They also debate Victor Wembanyama's next step, the MVP race, coaching honors and the hot seat, defensive breakout candidates, Sixth Man of the Year, and the top rookies and sophomores. 1:15 - Eastern Conference standings and tiers. 10:13 - Charlotte, Washington, and the bottom of the East. 14:10 - Western Conference standings: Oklahoma City, San Antonio, and the next tier. 22:07 - Western Conference depth concerns, the play-in race, and the lower tiers. 33:50 - Relegation predictions and leaguewide win totals. 35:55 - Which teams qualify as championship contenders? 40:25 - Conference finals predictions and a potential Thunder-Spurs showdown. 46:04 - Eastern Conference playoff matchups and the biggest threats to the Knicks. 49:02 - NBA Finals and championship picks. 49:40 - Victor Wembanyama's next step and the MVP race. 58:54 - Coach of the Year. 1:02:28 - Who will be the first coach fired? 1:07:37 - Defensive Player of the Year. 1:09:52 - Defensive breakout candidates. 1:12:57 - Sixth Man of the Year. 1:15:57 - Rookie of the Year. 1:18:56 - Sophomore of the Year. Join Dunc'd On Prime ! It's the only place to get every episode with Nate & Danny, plus every pod with John Hollinger & Nate as well! Subscribe for 35% off using code PRESEASON26! Subscribe on YouTube to get Dunc'd On Clutch Calls, Real Video Scouts, and more. Or, sign up for our FREE mailing list to get Dan Feldman's Dai",
@@ -83,34 +96,9 @@
       "label": "Rotation watch",
       "relevance": "knicks_preseason",
       "generated": false
-    },
-    {
-      "id": "d57bf60ac626ba4e7809",
-      "title": "Why Landry Shamet is Knicks' X-Factor in New York's title defense",
-      "summary": "To get back to the mountaintop this season, the Knicks will need the entire roster to contribute, but Landry Shamet's play will be crucial this season.",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/96178001971a9fe0f233369b5b50aa8b0060a5d5cd6cf7d84d6cc6f09d910aa9/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Fda460a2ee0a27730e0008bcdf3b01671.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-10-20T14:20:59.000Z",
-      "url": "https://sports.yahoo.com/articles/why-landry-shamet-knicks-x-142059981.html",
-      "topic": "identity",
-      "label": "On-court changes",
-      "relevance": "knicks_preseason",
-      "generated": false
     }
   ],
   "players_to_watch": [
-    {
-      "id": "nba:1629013",
-      "name": "Landry Shamet",
-      "jersey": "44",
-      "position": "Guard",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629013.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
-    },
     {
       "id": "nba:1628973",
       "name": "Jalen Brunson",
@@ -146,11 +134,23 @@
       "rebounds": null,
       "assists": null,
       "games": null
+    },
+    {
+      "id": "nba:1628384",
+      "name": "OG Anunoby",
+      "jersey": "8",
+      "position": "Forward-Guard",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
     }
   ],
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-10-20T22:36:44.352Z"
+    "feed_generated_at": "2026-10-21T01:00:54.367Z"
   }
 }
