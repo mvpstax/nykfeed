@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-23T17:15:48.733Z",
+  "generated_at": "2026-10-23T17:30:50.650Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 129,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 4957,
+    "refresh_duration_ms": 29426,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 2
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,24 +95,9 @@
     "images": {
       "available": 111,
       "missing": 9,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-10-23T17:15:48.733Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
@@ -150,6 +136,29 @@
       "image_status": "not_provided"
     },
     {
+      "id": "8500b6229193dd64f686",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Dalton Knecht reportedly to sign two-way contract with Knicks",
+      "summary": "The Lakers waived the former No. 17 pick to create roster space, New York jumped in.",
+      "author": null,
+      "published_at": "2026-10-23T17:09:15.000Z",
+      "url": "https://sports.yahoo.com/articles/dalton-knecht-reportedly-sign-two-170915936.html",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/6a84cf18d91c3b1b010a5ae4472279fb6885c59c0e55155437601f6146beb40c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F5617abd90f5f4c50a2d552eb13236857.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/dalton-knecht-reportedly-sign-two-170915936.html"
+      },
+      "image_checked_at": "2026-10-23T17:30:50.450Z",
+      "image_source": "og:image",
+      "image_status": "available",
+      "cluster_id": "cluster_7ccc1b1d2ae3"
+    },
+    {
       "id": "c5e1ad4e3ef36c149c32",
       "type": "social",
       "source": "Bluesky",
@@ -180,6 +189,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3myko2ekrzt2z",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "6a8964c8ee72b86e93be",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Dalton Knecht signs with Knicks, per report: Could ex-Lakers first-round pick find role in New York?",
+      "summary": "Knecht showed promise as a rookie with the Lakers but was waived last week",
+      "author": "Cameron Salerno",
+      "published_at": "2026-10-23T17:00:01.000Z",
+      "url": "https://www.cbssports.com/nba/news/dalton-knecht-contract-new-york-knicks-los-angeles-lakers/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/23/bf7b58a4-d779-4c63-9319-d7252ac6cb9c/untitled-design-31.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/nba/news/dalton-knecht-contract-new-york-knicks-los-angeles-lakers/"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -227,7 +257,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -384,7 +414,8 @@
         "url": "https://www.espn.com/nba/story/_/id/50258464/ex-laker-dalton-knecht-joins-knicks-two-way-contract"
       },
       "image_status": "available",
-      "image_source": "source_feed"
+      "image_source": "source_feed",
+      "cluster_id": "cluster_7ccc1b1d2ae3"
     },
     {
       "id": "ce27baba3bf53732d256",
@@ -522,7 +553,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -556,27 +587,6 @@
       "image_source": "og:image",
       "image_checked_at": "2026-10-23T00:15:18.906Z",
       "cluster_id": "cluster_66fdec60f0f0"
-    },
-    {
-      "id": "e57de7918d1e17259786",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks signing forward Dalton Knecht to two-way deal",
-      "summary": "Kevin McCullar Jr. will be waived to make room for Knecht",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-23T15:25:58.000Z",
-      "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "7564f930dbc7b00c1796",
@@ -691,7 +701,7 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
+        "reposts": 1,
         "likes": 4
       },
       "team": "NYK",
@@ -1836,27 +1846,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "51d936d30b707bcb459b",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns’ continued foul trouble no laughing matter for Knicks",
-      "summary": "Karl-Anthony Towns provided a reminder of one of comedy’s greatest lessons.",
-      "author": null,
-      "published_at": "2026-10-23T00:11:37.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-continued-foul-001137459.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/d12031dbea2499797b543257975eb935.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-continued-foul-001137459.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "bed0230aebf180a93d7d",
       "type": "social",
       "source": "Bluesky",
@@ -1913,27 +1902,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-23T00:00:23.987Z"
-    },
-    {
-      "id": "9c34e8a779799d0d9d24",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks among teams interested in free agent forward Dalton Knecht",
-      "summary": "Knecht is eligible to sign two-way deal",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-22T23:15:00.000Z",
-      "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "807a09240763d4c7976b",
@@ -3153,27 +3121,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "83525d41dd1af7d0cc80",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Jalen Brunson believes some positives can come from Knicks' ugly opening night loss",
-      "summary": "'I think it's good for us to, you know, kind of get knocked down off the mountain, humble ourselves'",
-      "author": "Ian Begley",
-      "published_at": "2026-10-21T05:31:17.000Z",
-      "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt8e4f1b03597714fd/6ad84dfb81337767a35c0f25/2026-10-21T003345Z_1945279395_MT1USATODAY30139944_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "ddfd681ddfade7d9da80",
       "type": "article",
       "source": "CBS Sports",
@@ -3395,27 +3342,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b8d57795bbdd28815834",
-      "type": "article",
-      "source": "FOX Sports",
-      "source_key": "fox_sports_nba",
-      "title": "2026 NBA Finals Odds: Spurs, Thunder Favored; Knicks, 76ers Giving Chase",
-      "summary": "See the updated NBA title odds now that the regular season is set to begin.",
-      "author": null,
-      "published_at": "2026-10-21T01:08:10.000Z",
-      "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds",
-      "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/10/128/72/7ab2e31f-artboard-1.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.foxsports.com/stories/nba/2026-27-nba-finals-odds"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "662f2788cbcba365d9cf",
       "type": "article",
       "source": "CBS Sports",
@@ -3500,48 +3426,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "c4a1d2e40a3460d4dbf0",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Today's top games to watch, best bets, odds: Knicks vs. Lebron and 76ers, Spurs vs. Thunder and more",
-      "summary": "Find best bets and props for the biggest games in sports on Tuesday from the SportsLine Projection Model and top CBS Sports experts",
-      "author": "Gene Menez",
-      "published_at": "2026-10-20T19:30:51.000Z",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-knicks-vs-lebron-and-76ers-spurs-vs-thunder-and-more/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/19/3c0c3ccc-7d1a-4a9d-8cdf-59e14f7ceefb/jalen-brunson.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-knicks-vs-lebron-and-76ers-spurs-vs-thunder-and-more/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "2799d481c921ddbd238d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks savior Jalen Brunson will be front and center as title team is celebrated on Opening Night",
-      "summary": "Knicks to hang championship banner, give out rings in pregame ceremony Tuesday",
-      "author": "Ian Begley",
-      "published_at": "2026-10-20T15:21:30.000Z",
-      "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt83a8994c3c50a509/6ad78159f07733922df8ac07/2026-10-16T024255Z_94011362_MT1USATODAY30093902_RTRMADP_3_NBA-PRESEASON-TORONTO-RAPTORS-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "625eba16f0c99f872ca7",
       "type": "article",
       "source": "ESPN",
@@ -3584,112 +3468,41 @@
       "image_source": "source_feed"
     },
     {
-      "id": "3862ea1ffc0834878bf4",
+      "id": "8a813fd46943a4385893",
       "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks weighing options to keep both James Wiseman, Bruce Brown on roster",
-      "summary": "NY would have to make a trade by Monday to keep both",
-      "author": "Ian Begley",
-      "published_at": "2026-10-16T04:37:06.000Z",
-      "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb4a184ebdbf397e9/6ad298750179ea4ae82e59fe/2026-10-14T021821Z_1395779667_MT1USATODAY30077122_RTRMADP_3_NBA-PRESEASON-NEW-YORK-KNICKS-AT-TORONTO-RAPTORS.JPG",
-      "image_status": "available",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "NBA Set To Tip Off 2026/27 Season",
+      "summary": "After a 128-day offseason, NBA opening day is here! The 2026/27 regular season will tip off on Tuesday, and rather than having to wait until the evening for the action to get underway, we’ve got an afternoon contest on tap. In the first game of an opening-day triple-header, the Pistons and Celtics will square off […]",
+      "author": "Luke Adams",
+      "published_at": "2026-10-20T12:40:43.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/nba-set-to-tip-off-2026-27-season.html",
+      "image_url": "https://www.hoopsrumors.com/files/2026/05/Shai-Gilgeous-Alexander-Victor-Wembanyama-200x300.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a60774acfbdcd97a33bc",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Bruce Brown making a strong case to crack Knicks' roster",
-      "summary": "Second apron limitations could prevent Brown from making team",
-      "author": "Ian Begley",
-      "published_at": "2026-10-09T05:27:32.000Z",
-      "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt6f50fc8f29953459/6ac875d202eecbdf8d076b67/2026-01-28T031300Z_136793587_MT1USATODAY28099559_RTRMADP_3_NBA-DETROIT-PISTONS-AT-DENVER-NUGGETS.JPG",
+        "url": "https://www.hoopsrumors.com/2026/10/nba-set-to-tip-off-2026-27-season.html"
+      },
       "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2788aa3bc029aa94c0ae",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "It appears unlikely New York will agree to deals with Karl-Anthony Towns, Josh Hart, and Miles McBride before regular season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt71445e7f91815c65/69d9a3def8a69f5f6a7d1c14/USATSI_28703057_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "cf9bd348f739d8e6ed1b",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "3 things to watch at Knicks training camp, including Karl-Anthony Towns extension talks",
-      "summary": "Per a league source familiar with the matter, the talks with Towns have been positive",
-      "author": "Ian Begley",
-      "published_at": "2026-09-25T14:43:41.000Z",
-      "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt336fb537eeb9207a/6a2ea98e7fffe62022a840b7/USATSI_29195181_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "31ac710ca1a62964c2e8",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Sources on extension talks between Karl-Anthony Towns and Knicks",
-      "summary": "New York has made it known they want Towns to be a Knick for a long time",
-      "author": "Ian Begley, Robert Sanchez",
-      "published_at": "2026-09-23T19:57:49.000Z",
-      "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt44a29ee045b02921/69fc02fceca92e1289f690eb/USATSI_28894964_168393353_lowres_2.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/sources-extension-talks-between-karl-anthony-towns-knicks",
-        "render_mode": "article_preview"
-      }
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
+    {
+      "id": "cluster_7ccc1b1d2ae3",
+      "lead_item_id": "8500b6229193dd64f686",
+      "item_ids": [
+        "8500b6229193dd64f686",
+        "78b0480ed6ffec6ef5a6"
+      ],
+      "source_count": 2,
+      "updated_at": "2026-10-23T17:09:15.000Z",
+      "title": "Dalton Knecht reportedly to sign two-way contract with Knicks",
+      "event_type": "signing",
+      "entities": []
+    },
     {
       "id": "cluster_66fdec60f0f0",
       "lead_item_id": "6efbf8d175ea1d5baf75",
