@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-24T14:30:54.271Z",
+  "generated_at": "2026-10-24T14:45:18.569Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 128,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5337,
+    "refresh_duration_ms": 4940,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 26
+        "items": 23
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,29 +92,83 @@
       }
     ],
     "images": {
-      "available": 101,
-      "missing": 19,
+      "available": 105,
+      "missing": 15,
       "article_pages_checked": 0
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-10-24T14:30:54.271Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ac53e5633871ddb7fe6e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vcumvue2gcsxexermtdg6cr7/app.bsky.feed.post/3mymwh527y22x",
+      "author": "Tommy Beer",
+      "handle": "tommybeernba.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreifi5xitqwmihnc6t7jaskafbqemysh5klbfju44ks527gz43xw6pe",
+      "text": "🚨 New Words 🚨\n\nKnicks Fall to 0-2 as Tatum Takes Over Late\n\nNew York’s comeback falls short in 107-103 loss to Celtics; Bridges goes scoreless, McBride shines, and the defending champs are still searching for their first win.\n\n📬 Freshly Delivered to Inboxes 📬\n\ntommybeer.substack.com/p/knicks-fal...",
+      "published_at": "2026-10-24T14:42:12.696Z",
+      "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mymwh527y22x",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vcumvue2gcsxexermtdg6cr7/bafkreiayet2vbr2scp7sobsl7ve7n4mxpkzououwnobix4hfojf3gg2f5a",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vcumvue2gcsxexermtdg6cr7/post/3mymwh527y22x",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "d0988aab70af4bbc3170",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mymvxksql22d",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "Since the NBA Finals, it seems that both the Knicks players and Spurs players were extremely self-satisfied and did nothing to improve heading into the next season. \n\nHowever, only the Knicks players actually won the NBA Finals.",
+      "published_at": "2026-10-24T14:33:30.261Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mymvxksql22d",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 3
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mymvxksql22d",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "3482ab3873e1cf5f3191",
       "type": "social",
@@ -364,7 +418,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 1,
         "likes": 1
       },
@@ -375,6 +429,69 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3mymozwew6k2q",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "2646498b16a5c3e38f27",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "The Celtics’ play of the night was years in the making",
+      "summary": "Neemias Queta spoke with CelticsBlog about his big corner three-pointer in the Celtics’ win against the Knicks — and the long journey to get there.",
+      "author": null,
+      "published_at": "2026-10-24T12:24:51.000Z",
+      "url": "https://sports.yahoo.com/articles/celtics-play-night-years-making-122451658.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/2cb1dfe63fde383d3d9564e60bf260af.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/celtics-play-night-years-making-122451658.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "e0998c53d26c4648eda5",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Jayson Tatum dismantled the Knicks’ defense in a primetime statement",
+      "summary": "As a passer and as a scorer, Jayson Tatum did it all.",
+      "author": null,
+      "published_at": "2026-10-24T12:23:27.000Z",
+      "url": "https://sports.yahoo.com/articles/jayson-tatum-dismantled-knicks-defense-122327213.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/bb98c10855871689372a11c4878ec3f5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/jayson-tatum-dismantled-knicks-defense-122327213.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "8cda8599a19850984943",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "10 Takeaways from the Celtics Home Opener Win over the Knicks",
+      "summary": "Boston clutched up to take down the defending champs",
+      "author": null,
+      "published_at": "2026-10-24T12:23:03.000Z",
+      "url": "https://sports.yahoo.com/articles/10-takeaways-celtics-home-opener-122303632.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/bb98c10855871689372a11c4878ec3f5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/10-takeaways-celtics-home-opener-122303632.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -568,8 +685,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 1,
-        "reposts": 0,
-        "likes": 27
+        "reposts": 1,
+        "likes": 28
       },
       "team": "NYK",
       "presentation": {
@@ -841,27 +958,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "35a9c560d7ab758d613a",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Celtics 107, Knicks 103: “I took the over at 58. Still alive.”",
-      "summary": "Tatum leads his team in points, rebounds, and dimes to hand the champs their second loss.",
-      "author": null,
-      "published_at": "2026-10-24T02:08:01.000Z",
-      "url": "https://sports.yahoo.com/articles/celtics-107-knicks-103-took-020801261.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/94fec9722be393ea1adfac11f7111b96.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/celtics-107-knicks-103-took-020801261.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "3f0c97fc0747983575f6",
       "type": "social",
       "source": "Bluesky",
@@ -947,27 +1043,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "http://www.espn.com/nba/recap?gameId=401909095"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "bf3d57a8fcb5a31c0f19",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Jayson Tatum saves the day, Celtics beat Knicks 107-103",
-      "summary": "Tatum’s 36 points led the way as the Celtics got a bounce back win against the defending champs.",
-      "author": null,
-      "published_at": "2026-10-24T02:01:34.000Z",
-      "url": "https://sports.yahoo.com/articles/jayson-tatum-saves-day-celtics-020134471.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/427656d8f8754369c3bbbfb859815bef.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/jayson-tatum-saves-day-celtics-020134471.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1275,176 +1350,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3myll6sv5jk2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "aa3e35091f6edab66be8",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:j4spygbxn74y4dx2qejadwvk/app.bsky.feed.post/3myll6eewzs2q",
-      "author": "Adam Zagoria",
-      "handle": "adamzagoria.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:j4spygbxn74y4dx2qejadwvk/bafkreihphjbhoytwx4l4nqhz5xg32puaysk7grujsxk4ryscwxv3lqmqoq",
-      "text": "The defending NBA champion Knicks are now 0-2\n\nThe Celtics are 1-1\n\nThe 76ers 2-0\n\nOne thing's for sure: the East is gonna be a dogfight all season and every one of these heavyweight matchups involving the top teams will be Must-see TV and will carry weight as the season moves on",
-      "published_at": "2026-10-24T01:47:47.500Z",
-      "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3myll6eewzs2q",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:j4spygbxn74y4dx2qejadwvk/post/3myll6eewzs2q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "f410d0de99ed0e8d1eff",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:lur5p3tfrlj42k2ph74voo34/app.bsky.feed.post/3myll5q7yec2o",
-      "author": "Josh Kail",
-      "handle": "thatjoshkail.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreiekif5suc73ob7wrrkhtckxbi7x4p264vefrtyfacxjinx3itbcrq",
-      "text": "Whatever. It’s still Knicks in 5.",
-      "published_at": "2026-10-24T01:47:26.366Z",
-      "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3myll5q7yec2o",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3myll5q7yec2o",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "a686aff95cee9443e065",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:6y3zulpfknfey5qemwhc4frl/app.bsky.feed.post/3myll4qujz22z",
-      "author": "James L. Edwards III",
-      "handle": "jledwardsiii.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:6y3zulpfknfey5qemwhc4frl/bafkreifhtnxhta5dy2tekna4lqrvlxjwyim4e2fvat5bxdfhr7o5qqjmze",
-      "text": "Knicks drop to 0-2 to start the season after another nail-biter in Boston. New York came close but couldn't pull out their 10000th comeback win in this building, lose 107-103.\n\n18 New York turnovers for 19 Boston points",
-      "published_at": "2026-10-24T01:46:53.482Z",
-      "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3myll4qujz22z",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3myll4qujz22z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "981d076151ec4049b376",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:bnrvxigpgotzdtuz6c5wahcb/app.bsky.feed.post/3myll25vzoc27",
-      "author": "BugsySig",
-      "handle": "bugsysig.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:bnrvxigpgotzdtuz6c5wahcb/bafkreiavtbn4jceohrlp4syqgt5bq7egen3htbfh3pcelzdsvvo3tm3jye",
-      "text": "I said earlier letting the Cs role players get off from 3 is how you lose to them. The other way is if Tatum is just on one. And he is tonight. Elite shot making to put this one away. \n\n#Knicks Will fall to 0-2. Ain’t no championship hangover like a New York championship hangover.",
-      "published_at": "2026-10-24T01:45:26.501Z",
-      "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3myll25vzoc27",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 2,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:bnrvxigpgotzdtuz6c5wahcb/post/3myll25vzoc27",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "35c4300b966e6d955654",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wkaq5uhmegk5jtiulsyb66oq/app.bsky.feed.post/3mylkx2gsfc2i",
-      "author": "And Son",
-      "handle": "ansonsination.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wkaq5uhmegk5jtiulsyb66oq/bafkreiafk7xx6evfrfn26fs32yygpgizu2fysgied777m7awyyk2cpsryi",
-      "text": "I h8 2 say this but the #nyknicks aren't repeating this year, especially based on these 2 games they're playing like they're outmatched and out-talented.",
-      "published_at": "2026-10-24T01:43:42.188Z",
-      "url": "https://bsky.app/profile/did:plc:wkaq5uhmegk5jtiulsyb66oq/post/3mylkx2gsfc2i",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wkaq5uhmegk5jtiulsyb66oq/post/3mylkx2gsfc2i",
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
@@ -2149,27 +2054,6 @@
       "image_checked_at": "2026-10-23T15:45:20.381Z"
     },
     {
-      "id": "e57de7918d1e17259786",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks signing forward Dalton Knecht to two-way deal",
-      "summary": "Kevin McCullar Jr. will be waived to make room for Knecht",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-23T15:25:58.000Z",
-      "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "a583f4d39a7d5c7733f7",
       "type": "social",
       "source": "Bluesky",
@@ -2634,27 +2518,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-24T00:15:19.796Z"
-    },
-    {
-      "id": "9c34e8a779799d0d9d24",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks among teams interested in free agent forward Dalton Knecht",
-      "summary": "Knecht is eligible to sign two-way deal",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-22T23:15:00.000Z",
-      "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "807a09240763d4c7976b",
@@ -3415,27 +3278,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "83525d41dd1af7d0cc80",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Jalen Brunson believes some positives can come from Knicks' ugly opening night loss",
-      "summary": "'I think it's good for us to, you know, kind of get knocked down off the mountain, humble ourselves'",
-      "author": "Ian Begley",
-      "published_at": "2026-10-21T05:31:17.000Z",
-      "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt8e4f1b03597714fd/6ad84dfb81337767a35c0f25/2026-10-21T003345Z_1945279395_MT1USATODAY30139944_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "ddfd681ddfade7d9da80",
       "type": "article",
       "source": "CBS Sports",
@@ -3583,109 +3425,46 @@
       "image_source": "source_feed"
     },
     {
-      "id": "2799d481c921ddbd238d",
+      "id": "67181adc14318d076546",
       "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks savior Jalen Brunson will be front and center as title team is celebrated on Opening Night",
-      "summary": "Knicks to hang championship banner, give out rings in pregame ceremony Tuesday",
-      "author": "Ian Begley",
-      "published_at": "2026-10-20T15:21:30.000Z",
-      "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt83a8994c3c50a509/6ad78159f07733922df8ac07/2026-10-16T024255Z_94011362_MT1USATODAY30093902_RTRMADP_3_NBA-PRESEASON-TORONTO-RAPTORS-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "76ers vs. Knicks NBA odds: LeBron James and Philly open as biggest title liability, look to ruin banner night",
+      "summary": "Can LeBron James and the 76ers ruin the Knicks' championship celebration night as the NBA season tips off?",
+      "author": "Matt Severance",
+      "published_at": "2026-10-20T21:30:57.000Z",
+      "url": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-and-philly-open-as-biggest-title-liability-look-to-ruin-banner-night/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/19/ab61a40f-d49e-428c-a8ce-c03e33c7d242/lebron-james-jaylen-browns-76ers-cbs-reuters.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-        "render_mode": "article_preview"
-      }
+        "url": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-and-philly-open-as-biggest-title-liability-look-to-ruin-banner-night/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
-      "id": "3862ea1ffc0834878bf4",
+      "id": "ebd4ce88792c08f25fcf",
       "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks weighing options to keep both James Wiseman, Bruce Brown on roster",
-      "summary": "NY would have to make a trade by Monday to keep both",
-      "author": "Ian Begley",
-      "published_at": "2026-10-16T04:37:06.000Z",
-      "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb4a184ebdbf397e9/6ad298750179ea4ae82e59fe/2026-10-14T021821Z_1395779667_MT1USATODAY30077122_RTRMADP_3_NBA-PRESEASON-NEW-YORK-KNICKS-AT-TORONTO-RAPTORS.JPG",
-      "image_status": "available",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Karl-Anthony Towns contract: What to know as Knicks enter season with question marks",
+      "summary": "Coming off a title, four Knicks players are eligible for contract extensions, including Karl-Anthony Towns and Josh Hart",
+      "author": "Sam Quinn",
+      "published_at": "2026-10-20T21:21:34.000Z",
+      "url": "https://www.cbssports.com/nba/news/knicks-pause-contract-extension-talks-karl-anthony-towns-josh-hart-deuce-mcbride/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/10/20/ff12fe04-bdb0-443b-9ca9-182447f60c05/kat-getty-12.png",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a60774acfbdcd97a33bc",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Bruce Brown making a strong case to crack Knicks' roster",
-      "summary": "Second apron limitations could prevent Brown from making team",
-      "author": "Ian Begley",
-      "published_at": "2026-10-09T05:27:32.000Z",
-      "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt6f50fc8f29953459/6ac875d202eecbdf8d076b67/2026-01-28T031300Z_136793587_MT1USATODAY28099559_RTRMADP_3_NBA-DETROIT-PISTONS-AT-DENVER-NUGGETS.JPG",
+        "url": "https://www.cbssports.com/nba/news/knicks-pause-contract-extension-talks-karl-anthony-towns-josh-hart-deuce-mcbride/"
+      },
       "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2788aa3bc029aa94c0ae",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "It appears unlikely New York will agree to deals with Karl-Anthony Towns, Josh Hart, and Miles McBride before regular season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt71445e7f91815c65/69d9a3def8a69f5f6a7d1c14/USATSI_28703057_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "cf9bd348f739d8e6ed1b",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "3 things to watch at Knicks training camp, including Karl-Anthony Towns extension talks",
-      "summary": "Per a league source familiar with the matter, the talks with Towns have been positive",
-      "author": "Ian Begley",
-      "published_at": "2026-09-25T14:43:41.000Z",
-      "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt336fb537eeb9207a/6a2ea98e7fffe62022a840b7/USATSI_29195181_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/3-things-to-watch-knicks-training-camp-karl-anthony-towns-extension",
-        "render_mode": "article_preview"
-      }
+      "image_source": "source_feed"
     }
   ],
   "clusters": [
