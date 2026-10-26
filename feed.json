@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-26T23:30:42.786Z",
+  "generated_at": "2026-10-26T23:45:18.923Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 128,
+    "item_count": 116,
     "game_count": 0,
-    "refresh_duration_ms": 5876,
+    "refresh_duration_ms": 5308,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 17
+        "items": 11
       },
       {
         "source_key": "knicks_film_school",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 26
+        "items": 25
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,28 +92,11 @@
       }
     ],
     "images": {
-      "available": 110,
+      "available": 106,
       "missing": 10,
       "article_pages_checked": 0
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-10-26T23:30:42.786Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": false,
-        "error": "HTTP 404"
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": false,
-        "error": "HTTP 404"
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
@@ -949,7 +932,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1625,27 +1608,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "a9b5f62fbd806e2e55cf",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks believe early season struggles are fixable: 'We're not quite there yet'",
-      "summary": "Also, bench roles are still up for grabs",
-      "author": "Ian Begley",
-      "published_at": "2026-10-26T05:11:59.000Z",
-      "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltcfa1a901b6757b30/6adedfd074643acf3ad0b60d/2026-10-26T011308Z_829541207_MT1USATODAY30188350_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "c6111b92e235f08905b6",
       "type": "article",
       "source": "ESPN",
@@ -1757,41 +1719,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-10-26T04:00:23.590Z"
-    },
-    {
-      "id": "f3d6c16941edc2a2a2ff",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3myqsjnctta2f",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "These Knicks have had bad stretches before, so don't panic at 0-3 - yet",
-      "published_at": "2026-10-26T03:42:40.632Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3myqsjnctta2f",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicsfuasjv3eeaume54l6b3mu5tbjmjtwgv4pq7gparxghwghhi2hy",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3myqsjnctta2f",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "39d123af0ce29321207c",
@@ -2903,29 +2830,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "1a50456f2435dd58b8e9",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks' Loss vs. Celtics Unearthed More Worrying Evidence About Offense",
-      "summary": "The Knicks' offense could be a real problem after another poor effort against the Celtics led to an 0-2 start.",
-      "author": "Max Wildstein",
-      "published_at": "2026-10-24T11:00:02.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-loss-vs-celtics-unearthed-more-worrying-evidence-about-offense-01m5nyn2jgmd",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_2159,h_1214/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/all_knicks/01m5p55mkejspk6f5m3x.webp",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/knicks-loss-vs-celtics-unearthed-more-worrying-evidence-about-offense-01m5nyn2jgmd",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-26T11:15:21.180Z"
-    },
-    {
       "id": "588f66b0e7b1c1aa8b81",
       "type": "social",
       "source": "Bluesky",
@@ -3193,75 +3097,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "4b451ac4e56ef640a1cc",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "One Knicks Adjustment Might Do Wonders for Them vs. Celtics",
-      "summary": "One way Knicks head coach Mike Brown can help the team avoid an 0-2 start against the Celtics.",
-      "author": "Scott Davis",
-      "published_at": "2026-10-23T21:00:02.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/one-knicks-adjustment-might-do-wonders-them-vs-celtics-01m5mt6mb2nm",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_5113,h_2876/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m5mtrf8x8r50j3cmk4.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/one-knicks-adjustment-might-do-wonders-them-vs-celtics-01m5mt6mb2nm",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-26T21:30:26.146Z"
-    },
-    {
-      "id": "de98e92cd0559a8daac3",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "The Knicks’ Short-Lived Championship Ring Saga Has a Happy Ending—and a Cruel Twist",
-      "summary": "Amid recent scrutiny, the Knicks plan to gift more than 275 championships rings.",
-      "author": "Kristen Wong",
-      "published_at": "2026-10-23T20:59:03.000Z",
-      "url": "https://www.si.com/nba/knicks/knicks-short-lived-championship-ring-saga-happy-ending-cruel-twist",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_297,w_6000,h_3375/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m5n4jn6m3sas4bragm.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/knicks-short-lived-championship-ring-saga-happy-ending-cruel-twist",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-26T21:30:26.146Z"
-    },
-    {
-      "id": "5175571ae3e14f988ddc",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks' Starters Are Getting the Early Test They Needed Post-Title",
-      "summary": "The New York Knicks main unit struggled against the Sixers, but they're hoping to bounce back against the Boston Celtics.",
-      "author": "Joseph Randazzo",
-      "published_at": "2026-10-23T20:00:02.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/why-knicks-starters-set-up-bounce-back-vs-celtics-01m5j7656n4w",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_2739,h_1540/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m5j7714symsr29dmr2.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/why-knicks-starters-set-up-bounce-back-vs-celtics-01m5j7656n4w",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-26T20:30:27.129Z"
-    },
-    {
       "id": "82545fb0377844235fcd",
       "type": "article",
       "source": "CBS Sports",
@@ -3281,29 +3116,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "40ebaad67a4dca28a917",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks' Dalton Knecht Addition Is Another Bad Miles McBride Sign",
-      "summary": "The Knicks signed Dalton Knecht, raising questions about Miles McBride's future in New York and whether the team could trade its valuable backup guard for a bench upgrade.",
-      "author": "Kento Kato",
-      "published_at": "2026-10-23T18:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-dalton-knecht-addition-another-bad-miles-mcbride-sign-01m5mqtdep0x",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4943,h_2780/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m5mtc94sy8fma0wnjy.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/knicks-dalton-knecht-addition-another-bad-miles-mcbride-sign-01m5mqtdep0x",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-26T18:30:25.162Z"
     },
     {
       "id": "6a8964c8ee72b86e93be",
@@ -3348,50 +3160,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "ce27baba3bf53732d256",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Knicks’ Dalton Knecht Signing Is a Huge Win and Stroke of Genius",
-      "summary": "The Knicks' signing of Dalton Knecht on Friday was a no-brainer between what they need and what he brings to the table as a two-way player.",
-      "author": "Steven Simineri",
-      "published_at": "2026-10-23T15:37:17.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/knicks-dalton-knecht-signing-huge-win-stroke-of-genius-01m5kr4fe0vh",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4601,h_2588/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m5mpfcjy81qc3avf9k.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/knicks-dalton-knecht-signing-huge-win-stroke-of-genius-01m5kr4fe0vh",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-10-26T16:13:51.296Z"
-    },
-    {
-      "id": "e57de7918d1e17259786",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks signing forward Dalton Knecht to two-way deal",
-      "summary": "Kevin McCullar Jr. will be waived to make room for Knecht",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-23T15:25:58.000Z",
-      "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "3b5811f4b0024ff8a29f",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3433,27 +3201,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "9c34e8a779799d0d9d24",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks among teams interested in free agent forward Dalton Knecht",
-      "summary": "Knecht is eligible to sign two-way deal",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-22T23:15:00.000Z",
-      "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "807a09240763d4c7976b",
@@ -3542,27 +3289,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "83525d41dd1af7d0cc80",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Jalen Brunson believes some positives can come from Knicks' ugly opening night loss",
-      "summary": "'I think it's good for us to, you know, kind of get knocked down off the mountain, humble ourselves'",
-      "author": "Ian Begley",
-      "published_at": "2026-10-21T05:31:17.000Z",
-      "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt8e4f1b03597714fd/6ad84dfb81337767a35c0f25/2026-10-21T003345Z_1945279395_MT1USATODAY30139944_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "c10764b77d9901c2007e",
       "type": "article",
       "source": "ESPN",
@@ -3605,27 +3331,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "2799d481c921ddbd238d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks savior Jalen Brunson will be front and center as title team is celebrated on Opening Night",
-      "summary": "Knicks to hang championship banner, give out rings in pregame ceremony Tuesday",
-      "author": "Ian Begley",
-      "published_at": "2026-10-20T15:21:30.000Z",
-      "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt83a8994c3c50a509/6ad78159f07733922df8ac07/2026-10-16T024255Z_94011362_MT1USATODAY30093902_RTRMADP_3_NBA-PRESEASON-TORONTO-RAPTORS-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "625eba16f0c99f872ca7",
       "type": "article",
       "source": "ESPN",
@@ -3647,67 +3352,67 @@
       "image_source": "source_feed"
     },
     {
-      "id": "3862ea1ffc0834878bf4",
+      "id": "9ecf62f185945dfaf439",
       "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks weighing options to keep both James Wiseman, Bruce Brown on roster",
-      "summary": "NY would have to make a trade by Monday to keep both",
-      "author": "Ian Begley",
-      "published_at": "2026-10-16T04:37:06.000Z",
-      "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb4a184ebdbf397e9/6ad298750179ea4ae82e59fe/2026-10-14T021821Z_1395779667_MT1USATODAY30077122_RTRMADP_3_NBA-PRESEASON-NEW-YORK-KNICKS-AT-TORONTO-RAPTORS.JPG",
-      "image_status": "available",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "LeBron James' most notable Madison Square Garden appearances",
+      "summary": "Here are some of LeBron James' memorable performances at the world's most famous arena throughout the years as he faces the Knicks on Tuesday.",
+      "author": "Anthony Gharib",
+      "published_at": "2026-10-20T12:43:07.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/39431648/lebron-james-madison-square-garden-best-performances",
+      "image_url": "https://a.espncdn.com/photo/2024/0131/r1285187_608x342_16-9.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-        "render_mode": "article_preview"
-      }
+        "url": "https://www.espn.com/nba/story/_/id/39431648/lebron-james-madison-square-garden-best-performances"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
-      "id": "a60774acfbdcd97a33bc",
+      "id": "8a813fd46943a4385893",
       "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Bruce Brown making a strong case to crack Knicks' roster",
-      "summary": "Second apron limitations could prevent Brown from making team",
-      "author": "Ian Begley",
-      "published_at": "2026-10-09T05:27:32.000Z",
-      "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt6f50fc8f29953459/6ac875d202eecbdf8d076b67/2026-01-28T031300Z_136793587_MT1USATODAY28099559_RTRMADP_3_NBA-DETROIT-PISTONS-AT-DENVER-NUGGETS.JPG",
-      "image_status": "available",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "NBA Set To Tip Off 2026/27 Season",
+      "summary": "After a 128-day offseason, NBA opening day is here! The 2026/27 regular season will tip off on Tuesday, and rather than having to wait until the evening for the action to get underway, we’ve got an afternoon contest on tap. In the first game of an opening-day triple-header, the Pistons and Celtics will square off […]",
+      "author": "Luke Adams",
+      "published_at": "2026-10-20T12:40:43.000Z",
+      "url": "https://www.hoopsrumors.com/2026/10/nba-set-to-tip-off-2026-27-season.html",
+      "image_url": "https://www.hoopsrumors.com/files/2026/05/Shai-Gilgeous-Alexander-Victor-Wembanyama-200x300.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-        "render_mode": "article_preview"
-      }
+        "url": "https://www.hoopsrumors.com/2026/10/nba-set-to-tip-off-2026-27-season.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
-      "id": "2788aa3bc029aa94c0ae",
+      "id": "056c701abefa8c2d46ae",
       "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "It appears unlikely New York will agree to deals with Karl-Anthony Towns, Josh Hart, and Miles McBride before regular season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt71445e7f91815c65/69d9a3def8a69f5f6a7d1c14/USATSI_28703057_168393353_lowres.jpg",
-      "image_status": "available",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
+      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
+      "author": "NBA insiders",
+      "published_at": "2026-10-20T11:02:07.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
+      "image_url": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-        "render_mode": "article_preview"
-      }
+        "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": []
