@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-27T23:05:45.913Z",
+  "generated_at": "2026-10-28T01:40:22.979Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909878",
@@ -65,16 +65,16 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
           {
-            "id": "4432166",
-            "name": "Cade Cunningham",
-            "position": "G",
-            "jersey": "2",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+            "id": "3157465",
+            "name": "Duncan Robinson",
+            "position": "F",
+            "jersey": "55",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3157465.png",
             "availability": null
           },
           {
@@ -86,27 +86,27 @@
             "availability": null
           },
           {
-            "id": "3157465",
-            "name": "Duncan Robinson",
-            "position": "F",
-            "jersey": "55",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3157465.png",
-            "availability": null
-          },
-          {
-            "id": "5107199",
-            "name": "Daniss Jenkins",
-            "position": "G",
-            "jersey": "24",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5107199.png",
-            "availability": null
-          },
-          {
             "id": "4278562",
             "name": "Paul Reed",
             "position": "F",
             "jersey": "7",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4278562.png",
+            "availability": null
+          },
+          {
+            "id": "4432166",
+            "name": "Cade Cunningham",
+            "position": "G",
+            "jersey": "2",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+            "availability": null
+          },
+          {
+            "id": "4684742",
+            "name": "Ausar Thompson",
+            "position": "G",
+            "jersey": "9",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
             "availability": null
           }
         ]
@@ -115,24 +115,14 @@
         "reported": true,
         "players": [
           {
-            "id": "4684742",
-            "name": "Ausar Thompson",
-            "position": "G",
-            "jersey": "9",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
-            "status": "Day-To-Day",
-            "detail": "Ankle · Leg",
-            "reported_at": "2026-10-27T15:24Z"
-          },
-          {
             "id": "4395702",
             "name": "Isaiah Joe",
             "position": "G",
             "jersey": "17",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4395702.png",
-            "status": "Day-To-Day",
+            "status": "Out",
             "detail": "Hip · Torso",
-            "reported_at": "2026-10-26T20:54Z"
+            "reported_at": "2026-10-27T23:21Z"
           },
           {
             "id": "4433621",
@@ -215,32 +205,16 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
-          {
-            "id": "3062679",
-            "name": "Josh Hart",
-            "position": "G",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-            "availability": null
-          },
           {
             "id": "3934719",
             "name": "OG Anunoby",
             "position": "F",
             "jersey": "8",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
-            "availability": null
-          },
-          {
-            "id": "3934672",
-            "name": "Jalen Brunson",
-            "position": "G",
-            "jersey": "11",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
             "availability": null
           },
           {
@@ -252,11 +226,27 @@
             "availability": null
           },
           {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "position": "G",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
+            "availability": null
+          },
+          {
             "id": "3147657",
             "name": "Mikal Bridges",
             "position": "G",
             "jersey": "25",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
+            "availability": null
+          },
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
             "availability": null
           }
         ]
