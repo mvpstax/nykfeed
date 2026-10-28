@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T23:05:30.175Z",
+  "generated_at": "2026-10-28T02:07:51.305Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401909878",
-    "date": "2026-10-28T00:00Z",
+    "id": "espn:401909886",
+    "date": "2026-10-29T00:00Z",
     "status": "Scheduled",
     "phase": "Regular season",
     "home": {
-      "name": "New York Knicks",
-      "abbreviation": "NYK",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "name": "Chicago Bulls",
+      "abbreviation": "CHI",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
       "score": null
     },
     "away": {
-      "name": "Detroit Pistons",
-      "abbreviation": "DET",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+      "name": "New York Knicks",
+      "abbreviation": "NYK",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "score": null
     },
     "period": null,
     "clock": null
   },
   "venue": {
-    "id": "1830",
-    "guid": "20a70788-c601-3a43-bb71-9cb9eca4be33",
-    "fullName": "Madison Square Garden",
-    "shortName": "Madison Square Garde",
+    "id": "1847",
+    "guid": "3a95b5ba-39e5-33e6-bf26-487324b58a74",
+    "fullName": "United Center",
+    "shortName": "United Center",
     "address": {
-      "city": "New York",
-      "state": "NY"
+      "city": "Chicago",
+      "state": "IL"
     },
     "grass": false,
     "images": [
       {
-        "href": "https://a.espncdn.com/i/venues/nba/day/1830.jpg",
+        "href": "https://a.espncdn.com/i/venues/nba/day/1847.jpg",
         "width": 2000,
         "height": 1125,
         "alt": "",
@@ -58,19 +58,6 @@
   "predictions": null,
   "highlights": [],
   "storylines": [
-    {
-      "id": "bcb1f4f85ee0a6c870e7",
-      "title": "How to watch Detroit Pistons vs New York Knicks: TV/live stream info for tonight's game",
-      "summary": "Tip-off is at 8:00 PM ET on NBC and Peacock.",
-      "image_url": "https://media.zenfs.com/en/nbcsports.com/8ad3462e29199d0f75b75626a74d42a1.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-10-27T15:10:08.000Z",
-      "url": "https://sports.yahoo.com/articles/watch-detroit-pistons-vs-york-151008612.html",
-      "topic": "matchup",
-      "label": "The matchup",
-      "relevance": "matchup",
-      "generated": false
-    },
     {
       "id": "75b19b14fcf76aff4c9c",
       "title": "Knicks Injury Tracker: Jose Alvarado out against Pistons with sprained ankle",
@@ -96,6 +83,19 @@
       "label": "On-court changes",
       "relevance": "knicks_preseason",
       "generated": false
+    },
+    {
+      "id": "6b5f1840f88c8fdc2b54",
+      "title": "Andre Drummond Is Knicks' Biggest Surprise So Far (And Not in a Good Way)",
+      "summary": "The New York Knicks' biggest development from the first week of the season is that they went winless. Should they lose Tuesday in Detroit, they’ll be the first",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_448,w_4299,h_2418/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m5yywr7eszrr0t4qg7.jpg",
+      "source": "Sports Illustrated",
+      "published_at": "2026-10-27T15:58:08.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/andre-drummond-knicks-biggest-surprise-so-far-not-good-way-01m5yytj281k",
+      "topic": "development",
+      "label": "Development watch",
+      "relevance": "knicks_preseason",
+      "generated": false
     }
   ],
   "players_to_watch": [
@@ -105,6 +105,18 @@
       "jersey": "8",
       "position": "Forward-Guard",
       "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
+    },
+    {
+      "id": "nba:203083",
+      "name": "Andre Drummond",
+      "jersey": "0",
+      "position": "Center",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/203083.png",
       "season": null,
       "points": null,
       "rebounds": null,
@@ -134,23 +146,11 @@
       "rebounds": null,
       "assists": null,
       "games": null
-    },
-    {
-      "id": "nba:1626157",
-      "name": "Karl-Anthony Towns",
-      "jersey": "32",
-      "position": "Center-Forward",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
     }
   ],
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-10-27T23:00:52.297Z"
+    "feed_generated_at": "2026-10-28T02:00:58.636Z"
   }
 }
