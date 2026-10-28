@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-28T02:08:16.435Z",
+  "generated_at": "2026-10-28T07:33:48.033Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909886",
@@ -36,30 +36,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "color": "#1d428a",
       "stats": {
-        "games": 3,
-        "boxes": 3,
-        "wins": 0,
+        "games": 4,
+        "boxes": 4,
+        "wins": 1,
         "losses": 3,
-        "points": 101.66666666666667,
-        "allowed": 108,
-        "fg": 40.823970037453186,
-        "three": 32.432432432432435,
-        "rebounds": 47.333333333333336,
-        "assists": 24.666666666666668,
-        "turnovers": 16.333333333333332,
+        "points": 104,
+        "allowed": 105.25,
+        "fg": 41.40845070422535,
+        "three": 32.6530612244898,
+        "rebounds": 47.75,
+        "assists": 25.5,
+        "turnovers": 16.75,
         "factors": {
-          "efg": 47.56554307116105,
-          "tov": 14.093419236079153,
-          "orb": 26.573426573426573,
-          "ftr": 19.10112359550562,
-          "three_rate": 41.57303370786517,
-          "fta_rate": 26.96629213483146,
-          "games": 3,
+          "efg": 48.16901408450704,
+          "tov": 14.377682403433477,
+          "orb": 29.6875,
+          "ftr": 20.845070422535212,
+          "three_rate": 41.40845070422535,
+          "fta_rate": 28.169014084507044,
+          "games": 4,
           "samples": {
-            "efg": 3,
-            "tov": 3,
-            "orb": 3,
-            "ftr": 3
+            "efg": 4,
+            "tov": 4,
+            "orb": 4,
+            "ftr": 4
           },
           "definition_version": 1
         }
@@ -69,14 +69,6 @@
         "source": "Estimate from ESPN game logs",
         "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
         "players": [
-          {
-            "id": "3062679",
-            "name": "Josh Hart",
-            "position": "G",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-            "availability": null
-          },
           {
             "id": "3934719",
             "name": "OG Anunoby",
@@ -108,6 +100,14 @@
             "jersey": "25",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
             "availability": null
+          },
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "position": "G",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
+            "availability": null
           }
         ]
       },
@@ -120,14 +120,23 @@
             "position": "G",
             "jersey": "5",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png",
-            "status": "Out",
+            "status": "Day-To-Day",
             "detail": "Ankle · Leg",
-            "reported_at": "2026-10-26T20:50Z"
+            "reported_at": "2026-10-28T05:12Z"
           }
         ]
       },
-      "rest_days": 2,
+      "rest_days": 0,
       "recent": [
+        {
+          "id": "401909878",
+          "date": "2026-10-28T00:00Z",
+          "points": 111,
+          "allowed": 97,
+          "home": true,
+          "opponent": "DET",
+          "result": "W"
+        },
         {
           "id": "401909863",
           "date": "2026-10-25T23:00Z",
@@ -156,7 +165,7 @@
           "result": "L"
         }
       ],
-      "home_record": "0–2",
+      "home_record": "1–2",
       "away_record": "0–1"
     },
     "home": {
