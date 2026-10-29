@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-28T23:44:12.139Z",
+  "generated_at": "2026-10-29T00:18:15.560Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
-    "id": "espn:401909886",
-    "date": "2026-10-29T00:00Z",
+    "id": "espn:401909280",
+    "date": "2026-10-30T23:30Z",
     "status": "Scheduled",
     "phase": "Regular season",
     "home": {
-      "name": "Chicago Bulls",
-      "abbreviation": "CHI",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
       "score": null
     },
     "away": {
@@ -22,12 +22,14 @@
     },
     "period": null,
     "clock": null,
-    "espn_id": "401909886"
+    "espn_id": "401909280"
   },
   "season": "2026–27",
   "phase": "Regular season",
-  "venue": "United Center",
-  "broadcasts": [],
+  "venue": "Xfinity Mobile Arena",
+  "broadcasts": [
+    "Prime Video"
+  ],
   "teams": {
     "away": {
       "id": "18",
@@ -126,7 +128,7 @@
           }
         ]
       },
-      "rest_days": 0,
+      "rest_days": 2,
       "recent": [
         {
           "id": "401909878",
@@ -169,30 +171,30 @@
       "away_record": "0–1"
     },
     "home": {
-      "id": "4",
-      "name": "Chicago Bulls",
-      "abbreviation": "CHI",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-      "color": "#ce1141",
+      "id": "20",
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+      "color": "#1d428a",
       "stats": {
         "games": 4,
         "boxes": 4,
-        "wins": 1,
-        "losses": 3,
-        "points": 110.75,
-        "allowed": 129.5,
-        "fg": 40.55555555555556,
-        "three": 23.809523809523807,
-        "rebounds": 46.25,
-        "assists": 22.5,
-        "turnovers": 19.5,
+        "wins": 3,
+        "losses": 1,
+        "points": 110,
+        "allowed": 107,
+        "fg": 42.00542005420054,
+        "three": 31.654676258992804,
+        "rebounds": 41.5,
+        "assists": 25,
+        "turnovers": 12.75,
         "factors": {
-          "efg": 46.111111111111114,
-          "tov": 15.640038498556303,
-          "orb": 28.934010152284262,
-          "ftr": 30.833333333333332,
-          "three_rate": 46.666666666666664,
-          "fta_rate": 38.333333333333336,
+          "efg": 47.96747967479675,
+          "tov": 10.847371107708014,
+          "orb": 18.04123711340206,
+          "ftr": 23.306233062330623,
+          "three_rate": 37.669376693766935,
+          "fta_rate": 30.89430894308943,
           "games": 4,
           "samples": {
             "efg": 4,
@@ -209,43 +211,43 @@
         "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
         "players": [
           {
-            "id": "5095151",
-            "name": "Caleb Wilson",
-            "position": "F",
-            "jersey": "8",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5095151.png",
-            "availability": null
-          },
-          {
-            "id": "2595516",
-            "name": "Norman Powell",
+            "id": "3917376",
+            "name": "Jaylen Brown",
             "position": "G",
-            "jersey": "24",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/2595516.png",
+            "jersey": "7",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png",
             "availability": null
           },
           {
-            "id": "4871145",
-            "name": "Josh Giddey",
+            "id": "4431678",
+            "name": "Tyrese Maxey",
             "position": "G",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4871145.png",
+            "jersey": "0",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
             "availability": null
           },
           {
-            "id": "4711294",
-            "name": "Matas Buzelis",
+            "id": "3912848",
+            "name": "Dean Wade",
             "position": "F",
-            "jersey": "14",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4711294.png",
+            "jersey": "45",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3912848.png",
             "availability": null
           },
           {
-            "id": "4397189",
-            "name": "Jalen Smith",
+            "id": "1966",
+            "name": "LeBron James",
             "position": "F",
-            "jersey": "25",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4397189.png",
+            "jersey": "23",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+            "availability": null
+          },
+          {
+            "id": "2581018",
+            "name": "Kentavious Caldwell-Pope",
+            "position": "G",
+            "jersey": "1",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/2581018.png",
             "availability": null
           }
         ]
@@ -254,78 +256,88 @@
         "reported": true,
         "players": [
           {
-            "id": "5105555",
-            "name": "Tobe Awaka",
-            "position": "F",
-            "jersey": "19",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5105555.png",
-            "status": "Out",
-            "detail": "Ankle · Leg",
-            "reported_at": "2026-10-28T22:24Z"
-          },
-          {
-            "id": "4431687",
-            "name": "Patrick Williams",
-            "position": "F",
-            "jersey": "44",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4431687.png",
-            "status": "Out",
-            "detail": "Groin · Groin",
-            "reported_at": "2026-10-28T22:20Z"
-          },
-          {
-            "id": "4278067",
-            "name": "Nic Claxton",
+            "id": "3904625",
+            "name": "Tacko Fall",
             "position": "C",
-            "jersey": "9",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4278067.png",
+            "jersey": "99",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3904625.png",
             "status": "Out",
-            "detail": "Hamstring · Leg",
-            "reported_at": "2026-10-26T22:20Z"
+            "detail": "Quadriceps · Leg",
+            "reported_at": "2026-10-27T21:10Z"
+          },
+          {
+            "id": "4432446",
+            "name": "Jabari Walker",
+            "position": "F",
+            "jersey": "33",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432446.png",
+            "status": "Out",
+            "detail": "Knee · Leg",
+            "reported_at": "2026-10-27T21:08Z"
+          },
+          {
+            "id": "4870562",
+            "name": "Dominick Barlow",
+            "position": "F",
+            "jersey": "25",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
+            "status": "Out",
+            "detail": "Back · Torso",
+            "reported_at": "2026-10-19T21:07Z"
+          },
+          {
+            "id": "4871141",
+            "name": "Ariel Hukporti",
+            "position": "C",
+            "jersey": "55",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4871141.png",
+            "status": "Out",
+            "detail": "Achilles · Leg",
+            "reported_at": "2026-10-06T19:17Z"
           }
         ]
       },
-      "rest_days": 1,
+      "rest_days": 4,
       "recent": [
         {
-          "id": "401909870",
-          "date": "2026-10-26T23:30Z",
-          "points": 99,
-          "allowed": 134,
-          "home": false,
-          "opponent": "BOS",
-          "result": "L"
-        },
-        {
-          "id": "401909857",
-          "date": "2026-10-25T00:00Z",
-          "points": 120,
-          "allowed": 124,
+          "id": "401909866",
+          "date": "2026-10-25T23:30Z",
+          "points": 93,
+          "allowed": 106,
           "home": true,
-          "opponent": "WSH",
+          "opponent": "DET",
           "result": "L"
         },
         {
-          "id": "401909848",
-          "date": "2026-10-23T20:00Z",
-          "points": 132,
-          "allowed": 125,
-          "home": false,
+          "id": "401909855",
+          "date": "2026-10-24T23:30Z",
+          "points": 127,
+          "allowed": 116,
+          "home": true,
           "opponent": "MIL",
           "result": "W"
         },
         {
-          "id": "401909837",
-          "date": "2026-10-21T23:30Z",
-          "points": 92,
-          "allowed": 135,
+          "id": "401909093",
+          "date": "2026-10-22T23:00Z",
+          "points": 114,
+          "allowed": 106,
+          "home": true,
+          "opponent": "CLE",
+          "result": "W"
+        },
+        {
+          "id": "401909089",
+          "date": "2026-10-20T23:00Z",
+          "points": 106,
+          "allowed": 100,
           "home": false,
-          "opponent": "TOR",
-          "result": "L"
+          "opponent": "NYK",
+          "result": "W"
         }
       ],
-      "home_record": "0–1",
-      "away_record": "1–2"
+      "home_record": "2–1",
+      "away_record": "1–0"
     }
   },
   "meta": {
