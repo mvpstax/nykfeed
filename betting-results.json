@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T13:40:18.564Z",
+  "generated_at": "2026-10-29T16:02:39.984Z",
   "games": {
     "espn:401914124": {
       "game_id": "espn:401914124",
@@ -247,15 +247,24 @@
       "game_date": "2026-10-30T23:30Z",
       "home": "PHI",
       "away": "NYK",
-      "status": "unavailable",
-      "reason": "No betting lines were reported for this game.",
-      "line": null,
+      "status": "available",
+      "reason": null,
+      "line": {
+        "source": "ESPN",
+        "bookmaker": "DraftKings",
+        "bookmaker_id": "100",
+        "captured_at": "2026-10-29T16:02:39.984Z",
+        "line_type": "pregame",
+        "spread": -1.5,
+        "total": 228.5,
+        "moneyline": -112
+      },
       "final_points": null,
       "knicks_margin": null,
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-10-29T13:40:18.564Z"
+      "checked_at": "2026-10-29T16:02:39.984Z"
     },
     "espn:401909910": {
       "game_id": "espn:401909910",
