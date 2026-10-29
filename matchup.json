@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-29T00:18:15.560Z",
+  "generated_at": "2026-10-29T02:57:03.436Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909280",
@@ -38,30 +38,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "color": "#1d428a",
       "stats": {
-        "games": 4,
-        "boxes": 4,
-        "wins": 1,
+        "games": 5,
+        "boxes": 5,
+        "wins": 2,
         "losses": 3,
-        "points": 104,
-        "allowed": 105.25,
-        "fg": 41.40845070422535,
-        "three": 32.6530612244898,
-        "rebounds": 47.75,
-        "assists": 25.5,
-        "turnovers": 16.75,
+        "points": 109.8,
+        "allowed": 109.6,
+        "fg": 42.173913043478265,
+        "three": 35.8974358974359,
+        "rebounds": 48.2,
+        "assists": 26.8,
+        "turnovers": 16,
         "factors": {
-          "efg": 48.16901408450704,
-          "tov": 14.377682403433477,
-          "orb": 29.6875,
-          "ftr": 20.845070422535212,
-          "three_rate": 41.40845070422535,
-          "fta_rate": 28.169014084507044,
-          "games": 4,
+          "efg": 49.78260869565217,
+          "tov": 13.495276653171391,
+          "orb": 30.543933054393307,
+          "ftr": 19.782608695652176,
+          "three_rate": 42.391304347826086,
+          "fta_rate": 26.08695652173913,
+          "games": 5,
           "samples": {
-            "efg": 4,
-            "tov": 4,
-            "orb": 4,
-            "ftr": 4
+            "efg": 5,
+            "tov": 5,
+            "orb": 5,
+            "ftr": 5
           },
           "definition_version": 1
         }
@@ -72,6 +72,14 @@
         "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
         "players": [
           {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+            "availability": null
+          },
+          {
             "id": "3934719",
             "name": "OG Anunoby",
             "position": "F",
@@ -80,11 +88,11 @@
             "availability": null
           },
           {
-            "id": "3934672",
-            "name": "Jalen Brunson",
+            "id": "3062679",
+            "name": "Josh Hart",
             "position": "G",
-            "jersey": "11",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
             "availability": null
           },
           {
@@ -101,14 +109,6 @@
             "position": "G",
             "jersey": "25",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
-            "availability": null
-          },
-          {
-            "id": "3062679",
-            "name": "Josh Hart",
-            "position": "G",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
             "availability": null
           }
         ]
@@ -128,8 +128,17 @@
           }
         ]
       },
-      "rest_days": 2,
+      "rest_days": 1,
       "recent": [
+        {
+          "id": "401909886",
+          "date": "2026-10-29T00:00Z",
+          "points": 133,
+          "allowed": 127,
+          "home": false,
+          "opponent": "CHI",
+          "result": "W"
+        },
         {
           "id": "401909878",
           "date": "2026-10-28T00:00Z",
@@ -168,7 +177,7 @@
         }
       ],
       "home_record": "1–2",
-      "away_record": "0–1"
+      "away_record": "1–1"
     },
     "home": {
       "id": "20",
@@ -177,30 +186,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
       "color": "#1d428a",
       "stats": {
-        "games": 4,
-        "boxes": 4,
-        "wins": 3,
+        "games": 5,
+        "boxes": 5,
+        "wins": 4,
         "losses": 1,
-        "points": 110,
-        "allowed": 107,
-        "fg": 42.00542005420054,
-        "three": 31.654676258992804,
-        "rebounds": 41.5,
-        "assists": 25,
-        "turnovers": 12.75,
+        "points": 110.8,
+        "allowed": 107.4,
+        "fg": 42.76315789473684,
+        "three": 32.57142857142858,
+        "rebounds": 42.2,
+        "assists": 24.6,
+        "turnovers": 13.4,
         "factors": {
-          "efg": 47.96747967479675,
-          "tov": 10.847371107708014,
-          "orb": 18.04123711340206,
-          "ftr": 23.306233062330623,
-          "three_rate": 37.669376693766935,
-          "fta_rate": 30.89430894308943,
-          "games": 4,
+          "efg": 49.01315789473684,
+          "tov": 11.478105941204687,
+          "orb": 18.907563025210084,
+          "ftr": 23.464912280701753,
+          "three_rate": 38.37719298245614,
+          "fta_rate": 30.263157894736842,
+          "games": 5,
           "samples": {
-            "efg": 4,
-            "tov": 4,
-            "orb": 4,
-            "ftr": 4
+            "efg": 5,
+            "tov": 5,
+            "orb": 5,
+            "ftr": 5
           },
           "definition_version": 1
         }
@@ -227,14 +236,6 @@
             "availability": null
           },
           {
-            "id": "3912848",
-            "name": "Dean Wade",
-            "position": "F",
-            "jersey": "45",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3912848.png",
-            "availability": null
-          },
-          {
             "id": "1966",
             "name": "LeBron James",
             "position": "F",
@@ -243,11 +244,19 @@
             "availability": null
           },
           {
-            "id": "2581018",
-            "name": "Kentavious Caldwell-Pope",
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "position": "C",
+            "jersey": "21",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3059318.png",
+            "availability": null
+          },
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
             "position": "G",
-            "jersey": "1",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/2581018.png",
+            "jersey": "77",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
             "availability": null
           }
         ]
@@ -297,8 +306,17 @@
           }
         ]
       },
-      "rest_days": 4,
+      "rest_days": 1,
       "recent": [
+        {
+          "id": "401909884",
+          "date": "2026-10-28T23:00Z",
+          "points": 114,
+          "allowed": 109,
+          "home": false,
+          "opponent": "IND",
+          "result": "W"
+        },
         {
           "id": "401909866",
           "date": "2026-10-25T23:30Z",
@@ -337,7 +355,7 @@
         }
       ],
       "home_record": "2–1",
-      "away_record": "1–0"
+      "away_record": "2–0"
     }
   },
   "meta": {
