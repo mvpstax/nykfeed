@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T20:10:54.302Z",
+  "generated_at": "2026-10-30T23:52:37.301Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401909280",
-    "date": "2026-10-30T23:30Z",
+    "id": "espn:401909910",
+    "date": "2026-11-03T00:30Z",
     "status": "Scheduled",
     "phase": "Regular season",
     "home": {
-      "name": "Philadelphia 76ers",
-      "abbreviation": "PHI",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "score": null
-    },
-    "away": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "score": null
+    },
+    "away": {
+      "name": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
       "score": null
     },
     "period": null,
     "clock": null
   },
   "venue": {
-    "id": "1845",
-    "guid": "5c91d4ea-46af-3b85-a87d-54422ed1e8c3",
-    "fullName": "Xfinity Mobile Arena",
-    "shortName": "Wells Fargo Center",
+    "id": "1830",
+    "guid": "20a70788-c601-3a43-bb71-9cb9eca4be33",
+    "fullName": "Madison Square Garden",
+    "shortName": "Madison Square Garde",
     "address": {
-      "city": "Philadelphia",
-      "state": "PA"
+      "city": "New York",
+      "state": "NY"
     },
     "grass": false,
     "images": [
       {
-        "href": "https://a.espncdn.com/i/venues/nba/day/1845.jpg",
+        "href": "https://a.espncdn.com/i/venues/nba/day/1830.jpg",
         "width": 2000,
         "height": 1125,
         "alt": "",
@@ -59,19 +59,6 @@
   "highlights": [],
   "storylines": [
     {
-      "id": "29cd98605f42e5064f6d",
-      "title": "Game Preview: Knicks at 76ers, October 30, 2026",
-      "summary": "Knicks and Sixers square off in the fist NBA Cup game of the year.",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/c9ac65156545a746dd6b17e6c34d1e9f.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-10-30T04:31:11.000Z",
-      "url": "https://sports.yahoo.com/articles/game-preview-knicks-76ers-october-043111342.html",
-      "topic": "matchup",
-      "label": "The matchup",
-      "relevance": "matchup",
-      "generated": false
-    },
-    {
       "id": "c589803f2437cd7c8154",
       "title": "Ochai Agbaji, Thunder Agree To Contract",
       "summary": "Ochai Agbaji has agreed to sign with the Oklahoma City Thunder. The Thunder had an open roster spot and a major need on the wing following injuries to Jalen Williams and Cason Wallace last Sunday. Agbaji was waived by the New York Knicks at the end of preseason. In 62 games last season with the Toronto Raptors and Brooklyn Nets, Agbaji averaged 5.1 points and 2.3 rebounds in 15.7 minutes. Agbaji was the 14th overall pick in the 2022 NBA draft by the Utah Jazz.",
@@ -79,8 +66,21 @@
       "source": "RealGM",
       "published_at": "2026-10-30T19:01:33.000Z",
       "url": "https://basketball.realgm.com/wiretap/287984/Ochai-Agbaji-Thunder-Agree-To-Contract",
-      "topic": "rotation",
-      "label": "Rotation watch",
+      "topic": "matchup",
+      "label": "The matchup",
+      "relevance": "matchup",
+      "generated": false
+    },
+    {
+      "id": "3547d9a2c3fbd98904a6",
+      "title": "Philadelphia 76ers star Brown to miss Friday NBA Cup game vs. New York Knicks",
+      "summary": "Philadelphia 76ers veteran forward Jaylen Brown will be out of Friday's NBA Cup game against the New York Knicks with a left knee patella injury, the team announced.",
+      "image_url": "https://a.espncdn.com/photo/2026/1030/r1738760_600x600_1-1.jpg",
+      "source": "ESPN",
+      "published_at": "2026-10-30T23:28:24.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50331446/76ers-jaylen-brown-friday-nba-cup-game",
+      "topic": "availability",
+      "label": "Reported availability",
       "relevance": "knicks_preseason",
       "generated": false
     },
@@ -151,6 +151,6 @@
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-10-30T20:00:52.654Z"
+    "feed_generated_at": "2026-10-30T23:45:41.117Z"
   }
 }
