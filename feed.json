@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T20:00:52.654Z",
+  "generated_at": "2026-10-30T20:15:18.373Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 130,
+    "item_count": 120,
     "game_count": 0,
-    "refresh_duration_ms": 5384,
+    "refresh_duration_ms": 4916,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -94,27 +94,68 @@
     "images": {
       "available": 117,
       "missing": 3,
-      "article_pages_checked": 2
+      "article_pages_checked": 1
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-10-30T20:00:52.654Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "16b75da1f4d68bc9f1ad",
+      "type": "article",
+      "source": "CBS Sports",
+      "source_key": "cbs_sports_nba",
+      "title": "Use BetMGM bonus code CBSSPORTS to land $1,500 bonus bets for 76ers-Knicks, NBA, Baylor-UCF, college football",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football and NFL betting",
+      "author": "Owen OBrien",
+      "published_at": "2026-10-30T20:07:05.000Z",
+      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-land-1500-bonus-bets-76ers-knicks-nba-baylor-ucf-college-football/",
+      "image_url": "https://sportshub.cbsistatic.com/i/2026/09/08/8c9b2f2a-2dd9-45bb-932a-45e8faf837ef/betmgm-promo-code-september-2026.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-land-1500-bonus-bets-76ers-knicks-nba-baylor-ucf-college-football/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "3c5ee29dd4fa80ed3838",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mz4lffbgwr22",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Is Jaylen Brown playing tonight? 76ers vs. Knicks NBA Cup injury report (via Yahoo Sports)",
+      "published_at": "2026-10-30T20:06:58.663Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mz4lffbgwr22",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifgprfuzdfvx7lbn67n5hp4mla6yts55pwftea4ypuwizaxlkeljq",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mz4lffbgwr22",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "044bd718bf52a4e20ff1",
       "type": "article",
@@ -134,9 +175,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/what-knicks-fans-need-to-know-about-nba-cup-schedule-results-history-and-more-01m66wbyzgjw",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-10-30T20:00:22.965Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-30T20:00:22.965Z"
     },
     {
       "id": "7343624d75ec0b9883bc",
@@ -159,8 +200,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "reposts": 1,
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -1017,7 +1058,7 @@
       "engagement": {
         "replies": 5,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -1172,27 +1213,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-knicks-76ers-nba-ucf-baylor-friday/"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "84be43c7928487a8d662",
-      "type": "article",
-      "source": "CBS Sports",
-      "source_key": "cbs_sports_nba",
-      "title": "Use BetMGM bonus code CBSSPORTS to land $1,500 bonus bets for Knicks-76ers, NBA, Baylor-UCF, college football",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football and NFL betting",
-      "author": "Owen OBrien",
-      "published_at": "2026-10-30T13:15:41.000Z",
-      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-land-1500-bonus-bets-knicks-76ers-nba-baylor-ucf-college-football/",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/09/08/8c9b2f2a-2dd9-45bb-932a-45e8faf837ef/betmgm-promo-code-september-2026.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-land-1500-bonus-bets-knicks-76ers-nba-baylor-ucf-college-football/"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2258,9 +2278,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/one-clear-positive-negative-knicks-win-over-bulls-01m641kns5a0",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-10-30T20:15:18.015Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-10-29T20:00:48.069Z"
+      "image_status": "available"
     },
     {
       "id": "833e362666c4b45f8fb3",
@@ -2562,27 +2582,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "5a925083920b1490cf89",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Jalen Brunson and the offense beginning to emerge; Tyler Kolek impressing",
-      "summary": "Plus, Mike Brown on testing out different lineups early in the season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-29T05:30:30.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt563498432291d6bf/6ae2d52b7b2fd2507b7a7402/JBBulls.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "6f2fa1cea98afb45d86b",
@@ -3379,41 +3378,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "3ae330e9c545705cd360",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3myvhgxgilm2y",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks are reportedly considering trading Mikal Bridges to create salary cap flexibility for future signings like Karl-Anthony Towns and Josh Hart, via Heavy.",
-      "published_at": "2026-10-28T00:07:38.129Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3myvhgxgilm2y",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreidf5sfasnu72764wjthdxoxgpndigsvgmeqdlrpm5mgl3dhl54ixy",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3myvhgxgilm2y",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "61ba4cd24ba75529eac3",
       "type": "article",
       "source": "CBS Sports",
@@ -3454,27 +3418,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "4257e82cc4b9c9d24520",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Mailbag: Why is Andre Drummond in Mike Brown's doghouse?",
-      "summary": "Plus notes on Karl-Anthony Towns, the starting five, and more",
-      "author": "Ian Begley",
-      "published_at": "2026-10-27T14:20:00.000Z",
-      "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltd6c934ffa251cf79/6ad81e047cefb1175dce61b4/2026-10-21T005955Z_2052361074_MT1USATODAY30140216_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-        "render_mode": "article_preview"
-      }
     },
     {
       "id": "b8d57795bbdd28815834",
@@ -3541,27 +3484,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "a9b5f62fbd806e2e55cf",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks believe early season struggles are fixable: 'We're not quite there yet'",
-      "summary": "Also, bench roles are still up for grabs",
-      "author": "Ian Begley",
-      "published_at": "2026-10-26T05:11:59.000Z",
-      "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltcfa1a901b6757b30/6adedfd074643acf3ad0b60d/2026-10-26T011308Z_829541207_MT1USATODAY30188350_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-        "render_mode": "article_preview"
-      }
-    },
-    {
       "id": "c6111b92e235f08905b6",
       "type": "article",
       "source": "ESPN",
@@ -3622,9 +3544,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/10/and-ones-smith-vegas-g-league-trades-breakout-team-more.html"
       },
-      "image_checked_at": "2026-10-30T20:00:22.966Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-10-30T20:00:22.966Z"
     },
     {
       "id": "e6827c571898903148f3",
@@ -3668,153 +3590,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "e57de7918d1e17259786",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks signing forward Dalton Knecht to two-way deal",
-      "summary": "Kevin McCullar Jr. will be waived to make room for Knecht",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-23T15:25:58.000Z",
-      "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "9c34e8a779799d0d9d24",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks among teams interested in free agent forward Dalton Knecht",
-      "summary": "Knecht is eligible to sign two-way deal",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-22T23:15:00.000Z",
-      "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "83525d41dd1af7d0cc80",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Jalen Brunson believes some positives can come from Knicks' ugly opening night loss",
-      "summary": "'I think it's good for us to, you know, kind of get knocked down off the mountain, humble ourselves'",
-      "author": "Ian Begley",
-      "published_at": "2026-10-21T05:31:17.000Z",
-      "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt8e4f1b03597714fd/6ad84dfb81337767a35c0f25/2026-10-21T003345Z_1945279395_MT1USATODAY30139944_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2799d481c921ddbd238d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks savior Jalen Brunson will be front and center as title team is celebrated on Opening Night",
-      "summary": "Knicks to hang championship banner, give out rings in pregame ceremony Tuesday",
-      "author": "Ian Begley",
-      "published_at": "2026-10-20T15:21:30.000Z",
-      "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt83a8994c3c50a509/6ad78159f07733922df8ac07/2026-10-16T024255Z_94011362_MT1USATODAY30093902_RTRMADP_3_NBA-PRESEASON-TORONTO-RAPTORS-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "3862ea1ffc0834878bf4",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks weighing options to keep both James Wiseman, Bruce Brown on roster",
-      "summary": "NY would have to make a trade by Monday to keep both",
-      "author": "Ian Begley",
-      "published_at": "2026-10-16T04:37:06.000Z",
-      "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb4a184ebdbf397e9/6ad298750179ea4ae82e59fe/2026-10-14T021821Z_1395779667_MT1USATODAY30077122_RTRMADP_3_NBA-PRESEASON-NEW-YORK-KNICKS-AT-TORONTO-RAPTORS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-roster-james-wiseman-bruce-brown-center-battle",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a60774acfbdcd97a33bc",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Bruce Brown making a strong case to crack Knicks' roster",
-      "summary": "Second apron limitations could prevent Brown from making team",
-      "author": "Ian Begley",
-      "published_at": "2026-10-09T05:27:32.000Z",
-      "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt6f50fc8f29953459/6ac875d202eecbdf8d076b67/2026-01-28T031300Z_136793587_MT1USATODAY28099559_RTRMADP_3_NBA-DETROIT-PISTONS-AT-DENVER-NUGGETS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-bruce-brown-roster-spot-second-apron",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2788aa3bc029aa94c0ae",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Training Camp Notes: Latest contract extension talks; backup center battle",
-      "summary": "It appears unlikely New York will agree to deals with Karl-Anthony Towns, Josh Hart, and Miles McBride before regular season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-02T14:55:08.000Z",
-      "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt71445e7f91815c65/69d9a3def8a69f5f6a7d1c14/USATSI_28703057_168393353_lowres.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-training-camp-notes-10-2-26",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": []
