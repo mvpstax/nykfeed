@@ -1,37 +1,186 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-30T23:11:47.406Z",
+  "generated_at": "2026-10-30T23:52:50.891Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
-    "id": "espn:401909280",
-    "date": "2026-10-30T23:30Z",
+    "id": "espn:401909910",
+    "date": "2026-11-03T00:30Z",
     "status": "Scheduled",
     "phase": "Regular season",
     "home": {
-      "name": "Philadelphia 76ers",
-      "abbreviation": "PHI",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "score": null
-    },
-    "away": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "score": null
     },
+    "away": {
+      "name": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+      "score": null
+    },
     "period": null,
     "clock": null,
-    "espn_id": "401909280"
+    "espn_id": "401909910"
   },
   "season": "2026–27",
   "phase": "Regular season",
-  "venue": "Xfinity Mobile Arena",
+  "venue": "Madison Square Garden",
   "broadcasts": [
-    "Prime Video"
+    "DAZN (YES)"
   ],
   "teams": {
     "away": {
+      "id": "17",
+      "name": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+      "color": "#000000",
+      "stats": {
+        "games": 4,
+        "boxes": 4,
+        "wins": 0,
+        "losses": 4,
+        "points": 114.25,
+        "allowed": 124,
+        "fg": 42.93628808864266,
+        "three": 36.68639053254438,
+        "rebounds": 43.5,
+        "assists": 24,
+        "turnovers": 18,
+        "factors": {
+          "efg": 51.52354570637119,
+          "tov": 14.942719574962641,
+          "orb": 27.127659574468087,
+          "ftr": 23.545706371191137,
+          "three_rate": 46.81440443213297,
+          "fta_rate": 30.74792243767313,
+          "games": 4,
+          "samples": {
+            "efg": 4,
+            "tov": 4,
+            "orb": 4,
+            "ftr": 4
+          },
+          "definition_version": 1
+        }
+      },
+      "lineup": {
+        "status": "estimated",
+        "source": "Estimate from ESPN game logs",
+        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "players": [
+          {
+            "id": "3064514",
+            "name": "Julius Randle",
+            "position": "F",
+            "jersey": "30",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
+            "availability": null
+          },
+          {
+            "id": "4278104",
+            "name": "Michael Porter Jr.",
+            "position": "F",
+            "jersey": "17",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4278104.png",
+            "availability": null
+          },
+          {
+            "id": "4432194",
+            "name": "Day'Ron Sharpe",
+            "position": "C",
+            "jersey": "20",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432194.png",
+            "availability": null
+          },
+          {
+            "id": "4702177",
+            "name": "Keon Ellis",
+            "position": "G",
+            "jersey": "1",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4702177.png",
+            "availability": null
+          },
+          {
+            "id": "5279130",
+            "name": "Nolan Traore",
+            "position": "G",
+            "jersey": "10",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5279130.png",
+            "availability": null
+          }
+        ]
+      },
+      "availability": {
+        "reported": true,
+        "players": [
+          {
+            "id": "5175643",
+            "name": "Egor Demin",
+            "position": "G",
+            "jersey": "8",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5175643.png",
+            "status": "Out",
+            "detail": "Leg · Leg",
+            "reported_at": "2026-10-29T17:09Z"
+          },
+          {
+            "id": "5105626",
+            "name": "Tyler Bilodeau",
+            "position": "F",
+            "jersey": "34",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5105626.png",
+            "status": "Out",
+            "detail": "Shoulder · Arm",
+            "reported_at": "2026-10-25T17:19Z"
+          }
+        ]
+      },
+      "rest_days": 5,
+      "recent": [
+        {
+          "id": "401909877",
+          "date": "2026-10-27T23:30Z",
+          "points": 124,
+          "allowed": 125,
+          "home": false,
+          "opponent": "BOS",
+          "result": "L"
+        },
+        {
+          "id": "401909862",
+          "date": "2026-10-25T22:00Z",
+          "points": 109,
+          "allowed": 136,
+          "home": true,
+          "opponent": "IND",
+          "result": "L"
+        },
+        {
+          "id": "401909854",
+          "date": "2026-10-24T23:30Z",
+          "points": 121,
+          "allowed": 125,
+          "home": false,
+          "opponent": "CLE",
+          "result": "L"
+        },
+        {
+          "id": "401909836",
+          "date": "2026-10-21T23:30Z",
+          "points": 103,
+          "allowed": 110,
+          "home": true,
+          "opponent": "CHA",
+          "result": "L"
+        }
+      ],
+      "home_record": "0–2",
+      "away_record": "0–2"
+    },
+    "home": {
       "id": "18",
       "name": "New York Knicks",
       "abbreviation": "NYK",
@@ -128,7 +277,7 @@
           }
         ]
       },
-      "rest_days": 1,
+      "rest_days": 4,
       "recent": [
         {
           "id": "401909886",
@@ -178,194 +327,6 @@
       ],
       "home_record": "1–2",
       "away_record": "1–1"
-    },
-    "home": {
-      "id": "20",
-      "name": "Philadelphia 76ers",
-      "abbreviation": "PHI",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "color": "#1d428a",
-      "stats": {
-        "games": 5,
-        "boxes": 5,
-        "wins": 4,
-        "losses": 1,
-        "points": 110.8,
-        "allowed": 107.4,
-        "fg": 42.76315789473684,
-        "three": 32.57142857142858,
-        "rebounds": 42.2,
-        "assists": 24.6,
-        "turnovers": 13.4,
-        "factors": {
-          "efg": 49.01315789473684,
-          "tov": 11.478105941204687,
-          "orb": 18.907563025210084,
-          "ftr": 23.464912280701753,
-          "three_rate": 38.37719298245614,
-          "fta_rate": 30.263157894736842,
-          "games": 5,
-          "samples": {
-            "efg": 5,
-            "tov": 5,
-            "orb": 5,
-            "ftr": 5
-          },
-          "definition_version": 1
-        }
-      },
-      "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
-        "players": [
-          {
-            "id": "4431678",
-            "name": "Tyrese Maxey",
-            "position": "G",
-            "jersey": "0",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
-            "availability": null
-          },
-          {
-            "id": "1966",
-            "name": "LeBron James",
-            "position": "F",
-            "jersey": "23",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
-            "availability": null
-          },
-          {
-            "id": "3059318",
-            "name": "Joel Embiid",
-            "position": "C",
-            "jersey": "21",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3059318.png",
-            "availability": null
-          },
-          {
-            "id": "5124612",
-            "name": "VJ Edgecombe",
-            "position": "G",
-            "jersey": "77",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
-            "availability": null
-          },
-          {
-            "id": "3912848",
-            "name": "Dean Wade",
-            "position": "F",
-            "jersey": "45",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3912848.png",
-            "availability": null
-          }
-        ]
-      },
-      "availability": {
-        "reported": true,
-        "players": [
-          {
-            "id": "3917376",
-            "name": "Jaylen Brown",
-            "position": "G",
-            "jersey": "7",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png",
-            "status": "Out",
-            "detail": "Knee · Leg",
-            "reported_at": "2026-10-30T21:50Z"
-          },
-          {
-            "id": "4432446",
-            "name": "Jabari Walker",
-            "position": "F",
-            "jersey": "33",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432446.png",
-            "status": "Out",
-            "detail": "Knee · Leg",
-            "reported_at": "2026-10-29T21:34Z"
-          },
-          {
-            "id": "3904625",
-            "name": "Tacko Fall",
-            "position": "C",
-            "jersey": "99",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3904625.png",
-            "status": "Out",
-            "detail": "Quadriceps · Leg",
-            "reported_at": "2026-10-27T21:10Z"
-          },
-          {
-            "id": "4870562",
-            "name": "Dominick Barlow",
-            "position": "F",
-            "jersey": "25",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
-            "status": "Out",
-            "detail": "Back · Torso",
-            "reported_at": "2026-10-19T21:07Z"
-          },
-          {
-            "id": "4871141",
-            "name": "Ariel Hukporti",
-            "position": "C",
-            "jersey": "55",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4871141.png",
-            "status": "Out",
-            "detail": "Achilles · Leg",
-            "reported_at": "2026-10-06T19:17Z"
-          }
-        ]
-      },
-      "rest_days": 1,
-      "recent": [
-        {
-          "id": "401909884",
-          "date": "2026-10-28T23:00Z",
-          "points": 114,
-          "allowed": 109,
-          "home": false,
-          "opponent": "IND",
-          "result": "W"
-        },
-        {
-          "id": "401909866",
-          "date": "2026-10-25T23:30Z",
-          "points": 93,
-          "allowed": 106,
-          "home": true,
-          "opponent": "DET",
-          "result": "L"
-        },
-        {
-          "id": "401909855",
-          "date": "2026-10-24T23:30Z",
-          "points": 127,
-          "allowed": 116,
-          "home": true,
-          "opponent": "MIL",
-          "result": "W"
-        },
-        {
-          "id": "401909093",
-          "date": "2026-10-22T23:00Z",
-          "points": 114,
-          "allowed": 106,
-          "home": true,
-          "opponent": "CLE",
-          "result": "W"
-        },
-        {
-          "id": "401909089",
-          "date": "2026-10-20T23:00Z",
-          "points": 106,
-          "allowed": 100,
-          "home": false,
-          "opponent": "NYK",
-          "result": "W"
-        }
-      ],
-      "home_record": "2–1",
-      "away_record": "2–0"
     }
   },
   "meta": {
