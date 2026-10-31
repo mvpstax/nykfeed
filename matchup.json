@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-10-30T23:52:50.891Z",
+  "generated_at": "2026-10-31T02:32:38.681Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909910",
@@ -38,30 +38,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
       "color": "#000000",
       "stats": {
-        "games": 4,
-        "boxes": 4,
+        "games": 5,
+        "boxes": 5,
         "wins": 0,
-        "losses": 4,
-        "points": 114.25,
-        "allowed": 124,
-        "fg": 42.93628808864266,
-        "three": 36.68639053254438,
-        "rebounds": 43.5,
-        "assists": 24,
-        "turnovers": 18,
+        "losses": 5,
+        "points": 110.2,
+        "allowed": 121.2,
+        "fg": 42.465753424657535,
+        "three": 35.43689320388349,
+        "rebounds": 44.8,
+        "assists": 23.2,
+        "turnovers": 19.2,
         "factors": {
-          "efg": 51.52354570637119,
-          "tov": 14.942719574962641,
-          "orb": 27.127659574468087,
-          "ftr": 23.545706371191137,
-          "three_rate": 46.81440443213297,
-          "fta_rate": 30.74792243767313,
-          "games": 4,
+          "efg": 50.79908675799087,
+          "tov": 16.15400148078347,
+          "orb": 26.200873362445414,
+          "ftr": 24.200913242009133,
+          "three_rate": 47.03196347031963,
+          "fta_rate": 31.27853881278539,
+          "games": 5,
           "samples": {
-            "efg": 4,
-            "tov": 4,
-            "orb": 4,
-            "ftr": 4
+            "efg": 5,
+            "tov": 5,
+            "orb": 5,
+            "ftr": 5
           },
           "definition_version": 1
         }
@@ -96,19 +96,19 @@
             "availability": null
           },
           {
-            "id": "4702177",
-            "name": "Keon Ellis",
-            "position": "G",
-            "jersey": "1",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4702177.png",
-            "availability": null
-          },
-          {
             "id": "5279130",
             "name": "Nolan Traore",
             "position": "G",
             "jersey": "10",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5279130.png",
+            "availability": null
+          },
+          {
+            "id": "5174655",
+            "name": "Chaney Johnson",
+            "position": "F",
+            "jersey": "31",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5174655.png",
             "availability": null
           }
         ]
@@ -138,8 +138,17 @@
           }
         ]
       },
-      "rest_days": 5,
+      "rest_days": 2,
       "recent": [
+        {
+          "id": "401909279",
+          "date": "2026-10-30T23:30Z",
+          "points": 94,
+          "allowed": 110,
+          "home": true,
+          "opponent": "DET",
+          "result": "L"
+        },
         {
           "id": "401909877",
           "date": "2026-10-27T23:30Z",
@@ -177,7 +186,7 @@
           "result": "L"
         }
       ],
-      "home_record": "0–2",
+      "home_record": "0–3",
       "away_record": "0–2"
     },
     "home": {
@@ -187,30 +196,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "color": "#1d428a",
       "stats": {
-        "games": 5,
-        "boxes": 5,
+        "games": 6,
+        "boxes": 6,
         "wins": 2,
-        "losses": 3,
-        "points": 109.8,
-        "allowed": 109.6,
-        "fg": 42.173913043478265,
-        "three": 35.8974358974359,
-        "rebounds": 48.2,
-        "assists": 26.8,
-        "turnovers": 16,
+        "losses": 4,
+        "points": 107,
+        "allowed": 107.66666666666667,
+        "fg": 41.94139194139194,
+        "three": 35.16949152542373,
+        "rebounds": 47.666666666666664,
+        "assists": 26.166666666666668,
+        "turnovers": 15.5,
         "factors": {
-          "efg": 49.78260869565217,
-          "tov": 13.495276653171391,
-          "orb": 30.543933054393307,
-          "ftr": 19.782608695652176,
-          "three_rate": 42.391304347826086,
-          "fta_rate": 26.08695652173913,
-          "games": 5,
+          "efg": 49.54212454212454,
+          "tov": 13.324545819244657,
+          "orb": 30.313588850174217,
+          "ftr": 18.498168498168496,
+          "three_rate": 43.223443223443226,
+          "fta_rate": 24.542124542124544,
+          "games": 6,
           "samples": {
-            "efg": 5,
-            "tov": 5,
-            "orb": 5,
-            "ftr": 5
+            "efg": 6,
+            "tov": 6,
+            "orb": 6,
+            "ftr": 6
           },
           "definition_version": 1
         }
@@ -237,19 +246,19 @@
             "availability": null
           },
           {
-            "id": "3062679",
-            "name": "Josh Hart",
-            "position": "G",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-            "availability": null
-          },
-          {
             "id": "3136195",
             "name": "Karl-Anthony Towns",
             "position": "C",
             "jersey": "32",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+            "availability": null
+          },
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "position": "G",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
             "availability": null
           },
           {
@@ -277,8 +286,17 @@
           }
         ]
       },
-      "rest_days": 4,
+      "rest_days": 2,
       "recent": [
+        {
+          "id": "401909280",
+          "date": "2026-10-30T23:30Z",
+          "points": 93,
+          "allowed": 98,
+          "home": false,
+          "opponent": "PHI",
+          "result": "L"
+        },
         {
           "id": "401909886",
           "date": "2026-10-29T00:00Z",
@@ -314,19 +332,10 @@
           "home": false,
           "opponent": "BOS",
           "result": "L"
-        },
-        {
-          "id": "401909089",
-          "date": "2026-10-20T23:00Z",
-          "points": 100,
-          "allowed": 106,
-          "home": true,
-          "opponent": "PHI",
-          "result": "L"
         }
       ],
       "home_record": "1–2",
-      "away_record": "1–1"
+      "away_record": "1–2"
     }
   },
   "meta": {
