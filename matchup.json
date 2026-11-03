@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-02T20:18:59.181Z",
+  "generated_at": "2026-11-03T01:51:42.439Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909910",
     "date": "2026-11-03T00:30Z",
-    "status": "Scheduled",
+    "status": "In progress",
     "phase": "Regular season",
     "home": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": null
+      "score": 51
     },
     "away": {
       "name": "Brooklyn Nets",
       "abbreviation": "BKN",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-      "score": null
+      "score": 44
     },
-    "period": null,
-    "clock": null,
+    "period": 2,
+    "clock": "0.0",
     "espn_id": "401909910"
   },
   "season": "2026–27",
@@ -67,9 +67,9 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
           {
             "id": "3064514",
@@ -88,11 +88,11 @@
             "availability": null
           },
           {
-            "id": "5279130",
-            "name": "Nolan Traore",
-            "position": "G",
-            "jersey": "10",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5279130.png",
+            "id": "5174655",
+            "name": "Chaney Johnson",
+            "position": "F",
+            "jersey": "31",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5174655.png",
             "availability": null
           },
           {
@@ -104,11 +104,11 @@
             "availability": null
           },
           {
-            "id": "5174655",
-            "name": "Chaney Johnson",
-            "position": "F",
-            "jersey": "31",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5174655.png",
+            "id": "5279130",
+            "name": "Nolan Traore",
+            "position": "G",
+            "jersey": "10",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5279130.png",
             "availability": null
           }
         ]
@@ -225,18 +225,10 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
-          {
-            "id": "3934672",
-            "name": "Jalen Brunson",
-            "position": "G",
-            "jersey": "11",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-            "availability": null
-          },
           {
             "id": "3934719",
             "name": "OG Anunoby",
@@ -268,23 +260,20 @@
             "jersey": "25",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
             "availability": null
+          },
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+            "availability": null
           }
         ]
       },
       "availability": {
         "reported": true,
-        "players": [
-          {
-            "id": "4277869",
-            "name": "Jose Alvarado",
-            "position": "G",
-            "jersey": "5",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png",
-            "status": "Out",
-            "detail": "Ankle · Leg",
-            "reported_at": "2026-11-01T22:16Z"
-          }
-        ]
+        "players": []
       },
       "rest_days": 2,
       "recent": [
