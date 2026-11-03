@@ -1,12 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T17:46:48.942Z",
-  "source": "Highlightly",
+  "generated_at": "2026-11-03T21:15:24.909Z",
+  "converted_at": "2026-11-03T21:15:24.909Z",
+  "source": "ESPN",
   "game_id": "espn:401909926",
-  "match_id": 1551030,
+  "archive_game_id": "espn:401909926",
+  "match_id": null,
   "odds_type": "prematch",
   "price_format": "decimal",
-  "status": "unavailable",
-  "reason": "The odds provider rejected access. Check the GitHub secret and your Highlightly plan.",
-  "bookmakers": []
+  "status": "available",
+  "reason": null,
+  "bookmakers": [
+    {
+      "id": "espn:100",
+      "name": "Draft Kings (ESPN)",
+      "markets": [
+        {
+          "market": "Spread -12.5/+12.5",
+          "values": []
+        },
+        {
+          "market": "Totals 232.5",
+          "values": []
+        },
+        {
+          "market": "Moneyline",
+          "values": [
+            {
+              "value": "Home",
+              "odd": 1.15625
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
