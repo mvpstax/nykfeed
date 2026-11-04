@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-04T16:00:30.078Z",
+  "generated_at": "2026-11-04T16:15:20.485Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 113,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 9064,
+    "refresh_duration_ms": 5438,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 8
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 104,
       "missing": 10,
       "article_pages_checked": 0
     },
@@ -100,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "62b3f366b14cd9e85d0e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mziqdogluz2y",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "One Silver Lining for Knicks Amid Slow Start Is Flying Under Radar (via Sports Illustrated)",
+      "published_at": "2026-11-04T16:07:26.733Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mziqdogluz2y",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreierxb5a7dca4wivid3zd37yiqfs4fndjls4vtdkjjswkhkcex3inm",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mziqdogluz2y",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c32de48b5bd06d3fce44",
       "type": "social",
@@ -122,7 +157,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -274,7 +309,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -309,7 +344,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -343,7 +378,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -377,7 +412,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -455,6 +490,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mzijbc5se22c",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "dd313fa63c66815d5396",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks Bulletin: ‘I’m a little excited that we’re struggling’",
+      "summary": "New York hosts the 1-6 Bulls tonight for their second game in a week after beating them last Wednesday. Chicago is not a team the Knicks should be too worried about, but hey, this is a matchup between sub-.500 teams, so who knows what will happen then and there. Here’s some of what we heard […]",
+      "author": null,
+      "published_at": "2026-11-04T14:00:00.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-bulletin-m-little-excited-140000359.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/ffe2ffd180e850d5d38e5c803d7b68dd.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-bulletin-m-little-excited-140000359.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2865,41 +2921,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-04T11:45:22.685Z"
-    },
-    {
-      "id": "e833b47ff04bee22e9c9",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mz7tckgn4j26",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks Have Nothing to Worry About With Latest Jalen Brunson Injury Update (via Yahoo Sports)",
-      "published_at": "2026-11-01T03:06:32.558Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mz7tckgn4j26",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicb6fketmi7d77ibmwesojqww3vzwapz75peivtenda5efz4zuffu",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mz7tckgn4j26",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "c2e0251ffe9aefb2166a",
