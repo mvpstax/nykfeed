@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T22:48:53.051Z",
+  "generated_at": "2026-11-05T02:52:48.694Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
@@ -8,22 +8,22 @@
   "game": {
     "id": "espn:401909926",
     "date": "2026-11-05T00:30Z",
-    "status": "Scheduled",
+    "status": "In progress",
     "phase": "Regular season",
     "home": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": null
+      "score": 129
     },
     "away": {
       "name": "Chicago Bulls",
       "abbreviation": "CHI",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-      "score": null
+      "score": 96
     },
-    "period": null,
-    "clock": null
+    "period": 4,
+    "clock": "3:35"
   },
   "venue": {
     "id": "1830",
@@ -151,6 +151,6 @@
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-04T22:45:46.648Z"
+    "feed_generated_at": "2026-11-05T02:45:41.287Z"
   }
 }
