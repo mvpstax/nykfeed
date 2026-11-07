@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-07T06:00:48.122Z",
+  "generated_at": "2026-11-07T06:15:20.177Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 28238,
+    "refresh_duration_ms": 5986,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +92,48 @@
       }
     ],
     "images": {
-      "available": 102,
-      "missing": 4,
+      "available": 101,
+      "missing": 5,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "f61ab38c2a4333a95d25",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:rxyiusciuniq4bcggehjmxvg/app.bsky.feed.post/3mzpa56id5c2j",
+      "author": "Omar Zahran",
+      "handle": "omarzahran.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rxyiusciuniq4bcggehjmxvg/bafkreifch3thfls64d6coznlndbl5llwg43dzccfrm7v6654rz3767br4e",
+      "text": "Out here writing about celebrity fans at Knicks games on a Friday night. What a time to be alive!",
+      "published_at": "2026-11-07T06:06:07.186Z",
+      "url": "https://bsky.app/profile/did:plc:rxyiusciuniq4bcggehjmxvg/post/3mzpa56id5c2j",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:rxyiusciuniq4bcggehjmxvg/post/3mzpa56id5c2j",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "6b733dee3f8111a90c54",
       "type": "social",
@@ -1884,41 +1917,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:gmjy73he2oxzpdlzhuyarnai/post/3mzmfgzrzak2r",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "89ccf2849d3999c70f39",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3mzmffz454c22",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Jalen Brunson drops Knicks reference on ‘Law & Order: SVU’ debut with pal Mariska Hargitay",
-      "published_at": "2026-11-06T03:02:32.796Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mzmffz454c22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreid3ttxfyqexn44lctgf3qebf6vyjie4rwvsas6gb7acf2ofa7ac74",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mzmffz454c22",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
