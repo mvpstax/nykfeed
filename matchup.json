@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-07T02:52:43.083Z",
+  "generated_at": "2026-11-07T06:33:35.371Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909940",
@@ -186,30 +186,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
       "color": "#860038",
       "stats": {
-        "games": 8,
-        "boxes": 8,
-        "wins": 4,
+        "games": 9,
+        "boxes": 9,
+        "wins": 5,
         "losses": 4,
-        "points": 119.25,
-        "allowed": 117.125,
-        "fg": 46.36488340192044,
-        "three": 37.202380952380956,
-        "rebounds": 47.5,
-        "assists": 27.75,
-        "turnovers": 14,
+        "points": 119.22222222222223,
+        "allowed": 114.66666666666667,
+        "fg": 46.266829865361075,
+        "three": 36.99731903485255,
+        "rebounds": 48.44444444444444,
+        "assists": 27.444444444444443,
+        "turnovers": 14.11111111111111,
         "factors": {
-          "efg": 54.93827160493827,
-          "tov": 12.050266827336891,
-          "orb": 25.20775623268698,
-          "ftr": 20.987654320987655,
-          "three_rate": 46.09053497942387,
-          "fta_rate": 27.57201646090535,
-          "games": 8,
+          "efg": 54.71236230110159,
+          "tov": 12.12526255489784,
+          "orb": 25.798525798525798,
+          "ftr": 21.909424724602204,
+          "three_rate": 45.65483476132191,
+          "fta_rate": 28.76376988984088,
+          "games": 9,
           "samples": {
-            "efg": 8,
-            "tov": 8,
-            "orb": 8,
-            "ftr": 8
+            "efg": 9,
+            "tov": 9,
+            "orb": 9,
+            "ftr": 9
           },
           "definition_version": 1
         }
@@ -219,14 +219,6 @@
         "source": "Estimate from ESPN game logs",
         "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
         "players": [
-          {
-            "id": "3992",
-            "name": "James Harden",
-            "position": "G",
-            "jersey": "1",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
-            "availability": null
-          },
           {
             "id": "3908809",
             "name": "Donovan Mitchell",
@@ -244,19 +236,27 @@
             "availability": null
           },
           {
+            "id": "3992",
+            "name": "James Harden",
+            "position": "G",
+            "jersey": "1",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
+            "availability": null
+          },
+          {
+            "id": "4576087",
+            "name": "Peyton Watson",
+            "position": "G",
+            "jersey": "8",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4576087.png",
+            "availability": null
+          },
+          {
             "id": "5023693",
             "name": "Tyrese Proctor",
             "position": "G",
             "jersey": "24",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5023693.png",
-            "availability": null
-          },
-          {
-            "id": "5041951",
-            "name": "Meleek Thomas",
-            "position": "G",
-            "jersey": "15",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5041951.png",
             "availability": null
           }
         ]
@@ -296,8 +296,17 @@
           }
         ]
       },
-      "rest_days": 2,
+      "rest_days": 0,
       "recent": [
+        {
+          "id": "401909289",
+          "date": "2026-11-07T00:30Z",
+          "points": 119,
+          "allowed": 95,
+          "home": true,
+          "opponent": "PHI",
+          "result": "W"
+        },
         {
           "id": "401909929",
           "date": "2026-11-05T01:00Z",
@@ -333,18 +342,9 @@
           "home": false,
           "opponent": "ATL",
           "result": "L"
-        },
-        {
-          "id": "401909882",
-          "date": "2026-10-28T23:00Z",
-          "points": 121,
-          "allowed": 111,
-          "home": true,
-          "opponent": "WSH",
-          "result": "W"
         }
       ],
-      "home_record": "3–1",
+      "home_record": "4–1",
       "away_record": "1–3"
     }
   },
