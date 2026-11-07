@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-07T05:45:22.200Z",
+  "generated_at": "2026-11-07T06:00:48.122Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 5756,
+    "refresh_duration_ms": 28238,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -369,6 +370,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3mzorkv7m522h",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "dcda48cf50abfda799b2",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Contract drama be damned, Karl-Anthony Towns has been Knicks’ best player",
+      "summary": "Back in mid-October, as Karl-Anthony Towns voiced his displeasure with the lack of a new contract extension, he also maintained it wouldn’t impact his performance.",
+      "author": null,
+      "published_at": "2026-11-07T01:43:49.000Z",
+      "url": "https://sports.yahoo.com/articles/contract-drama-damned-karl-anthony-014349490.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/d083e81fadda1301a1f12d89db73dfd7.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/contract-drama-damned-karl-anthony-014349490.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1244,28 +1266,6 @@
         "fallback": "external_browser",
         "url": "https://www.si.com/nba/knicks/onsi/knicks-james-wiseman-experiment-just-got-revived-big-way-01m6qazdx9py",
         "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-11-06T18:00:23.084Z"
-    },
-    {
-      "id": "14f89e562b03275fd063",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Taylor Swift called the 'fakest' celebrity fan by Knicks player",
-      "summary": "Asked on TikTok Live who the 'fakest' celebrity fan was during the Knicks' championship run, Tyler Kolek named Taylor Swift.",
-      "author": null,
-      "published_at": "2026-11-06T17:43:07.000Z",
-      "url": "https://sports.yahoo.com/articles/taylor-swift-called-fakest-celebrity-174307738.html",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/b5cd8183a9cb6c99fa935e50091bc5dcfcc184a80a52c873c9be0333790e0ef7/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2Fa8fef98ccf8f757b7c73e9bfeca62f08.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/taylor-swift-called-fakest-celebrity-174307738.html"
       },
       "image_status": "available",
       "image_source": "og:image",
