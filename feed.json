@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-08T01:00:23.201Z",
+  "generated_at": "2026-11-08T01:15:21.916Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 5336,
+    "refresh_duration_ms": 5145,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,70 @@
       }
     ],
     "images": {
-      "available": 95,
+      "available": 97,
       "missing": 13,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "b030e639171987522b72",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzr7rvit4l2s",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Cavaliers vs. Knicks: A Deeper Look into the Eastern Conference Finals Rematch (via Sports Illustrated)",
+      "published_at": "2026-11-08T01:05:07.947Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzr7rvit4l2s",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibcdze525ibyc3pu25xul333x7l5aaunsdy6mspedmjhecps54cy4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzr7rvit4l2s",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "51685170ecdab422efe9",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Cavs vs. Knicks game thread",
+      "summary": "The Cavs will look to avenge last postseason.",
+      "author": null,
+      "published_at": "2026-11-08T01:00:00.000Z",
+      "url": "https://sports.yahoo.com/articles/cavs-vs-knicks-game-thread-010000183.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/f89d563189eac1353f44372c9acb01f7.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/cavs-vs-knicks-game-thread-010000183.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "167f261dced9928ec36b",
       "type": "social",
@@ -122,7 +178,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -133,6 +189,27 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "16ea90ab2f09f1f5408b",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Cavs’ Kenny Atkinson clarifies his infamous quote vs Knicks: ‘they dominated us’",
+      "summary": "Analytically, Kenny said all the right words this time.",
+      "author": null,
+      "published_at": "2026-11-08T00:56:52.000Z",
+      "url": "https://sports.yahoo.com/articles/cavs-kenny-atkinson-clarifies-infamous-005652559.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/bf21d1cb0ee77a6e37c96a8eefeef835.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/cavs-kenny-atkinson-clarifies-infamous-005652559.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "e19b7fb6107177282f1d",
@@ -292,7 +369,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 3,
-        "likes": 10
+        "likes": 13
       },
       "team": "NYK",
       "presentation": {
@@ -469,7 +546,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 4,
-        "likes": 56
+        "likes": 58
       },
       "team": "NYK",
       "presentation": {
@@ -1767,9 +1844,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/stars-quickly-aligning-knicks-make-trade-clippers-01m6rj8ftfes",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-08T01:15:21.482Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-07T01:00:25.485Z"
+      "image_status": "available"
     },
     {
       "id": "d053ee2ff061a2d54a0d",
@@ -2448,9 +2525,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/harsh-trade-reality-emerging-knicks-bench-8-games-in-01m6hf2fade4",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-08T01:15:21.483Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-07T01:15:18.715Z"
+      "image_status": "available"
     },
     {
       "id": "ae6ef20aa3c9bb08c461",
@@ -2781,41 +2858,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://basketball.realgm.com/wiretap/288037/NBA-Players-30-And-Older-Fall-Below-20-Percent-Of-Minutes-For-First-Time"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "6871525c9511e990e88a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzl5ijf5oh22",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks' Kolek-Alvarado Competition Has Taken a Major New Turn (via Sports Illustrated)",
-      "published_at": "2026-11-05T15:08:07.323Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzl5ijf5oh22",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiejsg5q6wktu5tn7phm6xqoayibaqw4sidn3b4676jhvtarwssj7q",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzl5ijf5oh22",
-        "render_mode": "native_social_card"
       },
       "image_status": "available",
       "image_source": "source_feed"
