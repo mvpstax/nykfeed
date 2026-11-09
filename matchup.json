@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-09T02:16:35.514Z",
+  "generated_at": "2026-11-09T05:58:43.785Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909960",
@@ -38,30 +38,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
       "color": "#00471b",
       "stats": {
-        "games": 9,
-        "boxes": 9,
+        "games": 10,
+        "boxes": 10,
         "wins": 1,
-        "losses": 8,
-        "points": 109.66666666666667,
-        "allowed": 122.11111111111111,
-        "fg": 43.409915356711004,
-        "three": 33.33333333333333,
-        "rebounds": 47.666666666666664,
-        "assists": 25.88888888888889,
-        "turnovers": 17,
+        "losses": 9,
+        "points": 108.4,
+        "allowed": 121.6,
+        "fg": 43.4878587196468,
+        "three": 33.48623853211009,
+        "rebounds": 46.5,
+        "assists": 25.7,
+        "turnovers": 16.8,
         "factors": {
-          "efg": 51.33010882708585,
-          "tov": 14.385107183151561,
-          "orb": 29.953917050691246,
-          "ftr": 16.68681983071342,
-          "three_rate": 47.521160822249094,
-          "fta_rate": 22.97460701330109,
-          "games": 9,
+          "efg": 51.54525386313466,
+          "tov": 14.435966178593528,
+          "orb": 29.51167728237792,
+          "ftr": 16.556291390728475,
+          "three_rate": 48.12362030905077,
+          "fta_rate": 22.516556291390728,
+          "games": 10,
           "samples": {
-            "efg": 9,
-            "tov": 9,
-            "orb": 9,
-            "ftr": 9
+            "efg": 10,
+            "tov": 10,
+            "orb": 10,
+            "ftr": 10
           },
           "definition_version": 1
         }
@@ -72,14 +72,6 @@
         "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
         "players": [
           {
-            "id": "4395725",
-            "name": "Tyler Herro",
-            "position": "G",
-            "jersey": "11",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4395725.png",
-            "availability": null
-          },
-          {
             "id": "5082206",
             "name": "Brayden Burries",
             "position": "G",
@@ -88,11 +80,19 @@
             "availability": null
           },
           {
-            "id": "3133628",
-            "name": "Myles Turner",
-            "position": "C",
-            "jersey": "3",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3133628.png",
+            "id": "3134907",
+            "name": "Kyle Kuzma",
+            "position": "F",
+            "jersey": "18",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3134907.png",
+            "availability": null
+          },
+          {
+            "id": "4395725",
+            "name": "Tyler Herro",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4395725.png",
             "availability": null
           },
           {
@@ -104,11 +104,11 @@
             "availability": null
           },
           {
-            "id": "3134907",
-            "name": "Kyle Kuzma",
-            "position": "F",
-            "jersey": "18",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3134907.png",
+            "id": "3133628",
+            "name": "Myles Turner",
+            "position": "C",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3133628.png",
             "availability": null
           }
         ]
@@ -128,8 +128,17 @@
           }
         ]
       },
-      "rest_days": 3,
+      "rest_days": 1,
       "recent": [
+        {
+          "id": "401909949",
+          "date": "2026-11-09T01:00Z",
+          "points": 97,
+          "allowed": 117,
+          "home": true,
+          "opponent": "BOS",
+          "result": "L"
+        },
         {
           "id": "401909292",
           "date": "2026-11-07T01:00Z",
@@ -165,18 +174,9 @@
           "home": true,
           "opponent": "CLE",
           "result": "L"
-        },
-        {
-          "id": "401909887",
-          "date": "2026-10-29T00:00Z",
-          "points": 100,
-          "allowed": 132,
-          "home": true,
-          "opponent": "HOU",
-          "result": "L"
         }
       ],
-      "home_record": "1–4",
+      "home_record": "1–5",
       "away_record": "0–4"
     },
     "home": {
