@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T02:15:20.064Z",
+  "generated_at": "2026-11-10T02:30:20.698Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 4121,
+    "refresh_duration_ms": 3298,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 2
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 101,
       "missing": 9,
       "article_pages_checked": 0
     },
@@ -201,6 +201,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzw5ickgf32t",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "f50db5d09aa54057bb23",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks’ Jalen Brunson earns NBA accolade after great week of play",
+      "summary": "Looks like he’s fine after all",
+      "author": null,
+      "published_at": "2026-11-10T00:02:25.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-jalen-brunson-earns-nba-000225086.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/ddd6aaf9595e4784c31e055126785226.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-jalen-brunson-earns-nba-000225086.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -605,7 +626,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 3,
-        "likes": 17
+        "likes": 18
       },
       "team": "NYK",
       "presentation": {
