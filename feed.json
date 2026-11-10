@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T03:00:24.298Z",
+  "generated_at": "2026-11-10T03:15:41.320Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 5229,
+    "refresh_duration_ms": 28437,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 27
+        "items": 28
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 101,
       "missing": 9,
       "article_pages_checked": 0
     },
@@ -100,6 +101,76 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "a116b9bc17ffdc2597ee",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mzwhr4nna22t",
+      "author": "KingFitch Channel 1🤴🏿🏀💙🗽🌁🇺🇸🦺",
+      "handle": "kingfitch1990.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreiajfldwpzt464ykdi6fjjjqirlkl4harcvlzhqgumdbv6mno622g4",
+      "text": "Detective 🕵️‍♂️  Brunson & Luka Magic! 🎩 🪄 #Lakers #Knicks",
+      "published_at": "2026-11-10T03:11:10.710Z",
+      "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mzwhr4nna22t",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4kxaujevio7kizmcshgxvseq/bafkreido5i5fsx2dzv7pwvk3nz4spwfslmu54ng2sdnl5zmycyjzes2y7q",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3mzwhr4nna22t",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "2f295abc84b937d4e0c2",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzwhlvfw222w",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Bucks may be without key piece against the New York Knicks (via Sports Illustrated)",
+      "published_at": "2026-11-10T03:08:15.295Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzwhlvfw222w",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigezal2mugwtdjvbrvi6zgcwte5nnywixzxcqr7fr4jfaapm5cj2q",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzwhlvfw222w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "07ce8dfcf24b7ab0dbe7",
       "type": "social",
@@ -340,7 +411,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -375,7 +446,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 12
+        "likes": 13
       },
       "team": "NYK",
       "presentation": {
@@ -626,7 +697,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 3,
-        "likes": 21
+        "likes": 23
       },
       "team": "NYK",
       "presentation": {
@@ -2779,41 +2850,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzoiqgki6a2j",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "e4a772b9eb5591bd2e05",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzofeqom2g26",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Knicks Guards Take Aim at Taylor Swift as They Claim She’s a Fake Fan (via Yahoo Sports)",
-      "published_at": "2026-11-06T22:07:09.922Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzofeqom2g26",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreic75zacdfq5txijsk7elm3sdwfxiz3jeacljmarrh2sstgfgwp23u",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzofeqom2g26",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
