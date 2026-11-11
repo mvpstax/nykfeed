@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-11T05:30:21.090Z",
+  "generated_at": "2026-11-11T05:45:44.310Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 5111,
+    "refresh_duration_ms": 28763,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,9 +93,9 @@
       }
     ],
     "images": {
-      "available": 85,
+      "available": 86,
       "missing": 20,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -531,6 +532,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3mzyy2drw422q",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "f51db7b993ac9e2b687a",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks 117, Bucks 85: Scenes from some spicy OG, KAT & Kolek cooking",
+      "summary": "KAT and Kolek cook as NYK clobbers MIL in the second and fourth quarters.",
+      "author": null,
+      "published_at": "2026-11-11T03:06:57.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-117-bucks-85-scenes-030657733.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/7747cac0fcbaacef8e368a07531b728f.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-117-bucks-85-scenes-030657733.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2648,9 +2670,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/3-most-eye-catching-box-score-numbers-knicks-109-97-win-vs-cavaliers-01m6wm3bckt5",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-11T05:45:44.210Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-10T05:30:48.561Z"
+      "image_status": "available"
     },
     {
       "id": "1438585391db6a4b7e17",
