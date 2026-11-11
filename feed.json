@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-11T01:30:45.625Z",
+  "generated_at": "2026-11-11T01:45:18.035Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 103,
+    "item_count": 102,
     "game_count": 0,
-    "refresh_duration_ms": 29213,
+    "refresh_duration_ms": 4602,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -72,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 22
+        "items": 21
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,14 +92,82 @@
       }
     ],
     "images": {
-      "available": 87,
+      "available": 86,
       "missing": 16,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "47060c08ba567d58b434",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:clxmwmbtstczv2oihd5hzsdz/app.bsky.feed.post/3mzyt2jsajc2i",
+      "author": "knickerbacker.bsky.social",
+      "handle": "knickerbacker.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:clxmwmbtstczv2oihd5hzsdz/bafkreiasazolcf5qzcuxdcn7b4ztaudrojbihwg6kk6z2dindjlk6pl6ne",
+      "text": "Edgecombe one of my absolute favorite non-Knicks in the league",
+      "published_at": "2026-11-11T01:38:37.119Z",
+      "url": "https://bsky.app/profile/did:plc:clxmwmbtstczv2oihd5hzsdz/post/3mzyt2jsajc2i",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 2,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:clxmwmbtstczv2oihd5hzsdz/post/3mzyt2jsajc2i",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "aa5cba4895cac3cd2820",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:pu475gkwzjapusiz2rrpie3a/app.bsky.feed.post/3mzyszhf37k2q",
+      "author": "Joe Flynn",
+      "handle": "chinajoeflynn.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:pu475gkwzjapusiz2rrpie3a/bafkreifqsm2wnjk7rzy6eycl356dsxn24xqjegnjepnf57trt5zrmfpawy",
+      "text": "Checking the TL and apparently there's another basketball game besides Knicks-Bucks?",
+      "published_at": "2026-11-11T01:38:01.036Z",
+      "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mzyszhf37k2q",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:pu475gkwzjapusiz2rrpie3a/post/3mzyszhf37k2q",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "9d704f4b1eade8122148",
       "type": "social",
@@ -123,7 +190,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 0
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -158,7 +225,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 8
+        "likes": 14
       },
       "team": "NYK",
       "presentation": {
@@ -192,7 +259,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -226,7 +293,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -294,7 +361,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -397,7 +464,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -434,7 +501,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -888,75 +955,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "798ed08a120511ba9cc5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:kxlbbeyyfbgstfdyobv6n32y/app.bsky.feed.post/3mzynkfn5d423",
-      "author": "LinEchoes | Live Odds",
-      "handle": "linechoes.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:kxlbbeyyfbgstfdyobv6n32y/bafkreiaoanopda2gelkrx4jiybsofehc4ghm7x57w5zw2yy35npimxpnta",
-      "text": "🚨 Last call, NBA: MIL @ NEW — tip-off within the hour. Compare the board 👇 21+ https://linechoes.com/nba\n#NBA #BasketballOdds #SportsBetting #NewYorkKnicks",
-      "published_at": "2026-11-11T00:00:07.095Z",
-      "url": "https://bsky.app/profile/did:plc:kxlbbeyyfbgstfdyobv6n32y/post/3mzynkfn5d423",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:kxlbbeyyfbgstfdyobv6n32y/bafkreiajjwufho2ae63ou2dxajgyxhd4ni6ha6atuef7uxyjs3z6uk7yci",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:kxlbbeyyfbgstfdyobv6n32y/post/3mzynkfn5d423",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "07887b5ab1115685ce34",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:jsmgbe3bmfsogmseyxc2ynrr/app.bsky.feed.post/3mzyne27vuc2t",
-      "author": "FrancineNewYorkForever🏒🏀⚾️",
-      "handle": "sportlover.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:jsmgbe3bmfsogmseyxc2ynrr/bafkreih4y6q3onpwfe22cjvircmfjxhv3rwsozmmiaxzgzfwkvngalpuiu",
-      "text": "Knicks 7:30 tonight\n#NewYorkForever",
-      "published_at": "2026-11-10T23:56:33.883Z",
-      "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mzyne27vuc2t",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:jsmgbe3bmfsogmseyxc2ynrr/post/3mzyne27vuc2t",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "b671d797bcab9b0dec0a",
       "type": "social",
       "source": "Bluesky",
@@ -990,40 +988,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "2e5eae93078c6d59c7cc",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3mzyjzcltd22p",
-      "author": "Fred Katz",
-      "handle": "fredkatz.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
-      "text": "Mike Brown said if Josh Hart were not sick, he’d play tonight. So the ankle that kept him out for the past two games seems to be good.",
-      "published_at": "2026-11-10T22:56:52.340Z",
-      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3mzyjzcltd22p",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3mzyjzcltd22p",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "eee7605ba64bb3712521",
@@ -2795,9 +2759,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/stars-quickly-aligning-knicks-make-trade-clippers-01m6rj8ftfes",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-11-11T01:30:45.491Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-11T01:30:45.491Z"
     },
     {
       "id": "6da428b0e2d614f71161",
@@ -2997,9 +2961,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/harsh-trade-reality-emerging-knicks-bench-8-games-in-01m6hf2fade4",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-11-11T01:30:45.492Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-11T01:30:45.492Z"
     },
     {
       "id": "c45b8665956bf180ea2d",
