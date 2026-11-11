@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-11T04:00:24.562Z",
+  "generated_at": "2026-11-11T04:15:42.385Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 105,
     "game_count": 0,
-    "refresh_duration_ms": 5272,
+    "refresh_duration_ms": 28725,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -100,6 +101,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "53b92a7c4e8107bf6ff4",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzz3mowo5j2f",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen Brunson scores game-high 23 points vs. MIL (via NBC Sports)",
+      "published_at": "2026-11-11T04:11:56.388Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzz3mowo5j2f",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifuq7ekqbytpzpohuipjw7s6tjafnbrwqxvvkt4r3kbfa36fn3lf4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzz3mowo5j2f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "ae5bac8c22d0c1e7563a",
       "type": "social",
@@ -2691,44 +2727,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50416318/game-highlights"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "bebb56fd2644a7940b2b",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzrgn2kewe26",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Jalen Brunson seriously just scored 18 points in 5 minutes….\n\nThis dude isn’t real. t.co/5XJkI5TqmY (via @Sleeper_Hoops)",
-      "published_at": "2026-11-08T03:07:41.646Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzrgn2kewe26",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiduuxuuy2z2oxgycbfvnotenbypi7gr2fqouc6dcdyqh2aedq63au/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiduuxuuy2z2oxgycbfvnotenbypi7gr2fqouc6dcdyqh2aedq63au/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiduuxuuy2z2oxgycbfvnotenbypi7gr2fqouc6dcdyqh2aedq63au/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1080,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzrgn2kewe26",
-        "render_mode": "native_social_card"
       },
       "image_status": "available",
       "image_source": "source_feed"
