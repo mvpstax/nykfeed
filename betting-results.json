@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T01:27:17.349Z",
+  "generated_at": "2026-11-11T03:11:03.565Z",
   "games": {
     "espn:401914124": {
       "game_id": "espn:401914124",
@@ -349,33 +349,42 @@
         "source": "ESPN",
         "bookmaker": "DraftKings",
         "bookmaker_id": "100",
-        "captured_at": "2026-11-10T23:48:56.046Z",
-        "line_type": "pregame",
-        "spread": -15.5,
+        "captured_at": "2026-11-11T03:11:03.565Z",
+        "line_type": "closing",
+        "spread": -14.5,
         "total": 221.5,
-        "moneyline": -1180
+        "moneyline": -1040
       },
-      "final_points": null,
-      "knicks_margin": null,
-      "spread_result": null,
-      "total_result": null,
-      "moneyline_result": null,
-      "checked_at": "2026-11-10T23:48:56.046Z"
+      "final_points": 202,
+      "knicks_margin": 32,
+      "spread_result": "Covered",
+      "total_result": "Under",
+      "moneyline_result": "Won",
+      "checked_at": "2026-11-11T03:11:03.565Z"
     },
     "espn:401909967": {
       "game_id": "espn:401909967",
       "game_date": "2026-11-12T00:00Z",
       "home": "NYK",
       "away": "CLE",
-      "status": "unavailable",
-      "reason": "No betting lines were reported for this game.",
-      "line": null,
+      "status": "available",
+      "reason": null,
+      "line": {
+        "source": "ESPN",
+        "bookmaker": "DraftKings",
+        "bookmaker_id": "100",
+        "captured_at": "2026-11-11T03:11:03.565Z",
+        "line_type": "pregame",
+        "spread": -4.5,
+        "total": 221.5,
+        "moneyline": -177
+      },
       "final_points": null,
       "knicks_margin": null,
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-11-11T01:27:17.349Z"
+      "checked_at": "2026-11-11T03:11:03.565Z"
     },
     "espn:401909296": {
       "game_id": "espn:401909296",
@@ -390,7 +399,7 @@
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-11-11T01:27:17.349Z"
+      "checked_at": "2026-11-11T03:11:03.565Z"
     },
     "espn:401909990": {
       "game_id": "espn:401909990",
@@ -405,7 +414,7 @@
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-11-11T01:27:17.349Z"
+      "checked_at": "2026-11-11T03:11:03.565Z"
     }
   },
   "meta": {
