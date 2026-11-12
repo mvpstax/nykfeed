@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-11T22:44:48.816Z",
+  "generated_at": "2026-11-12T01:05:30.735Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909967",
@@ -65,24 +65,16 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
           {
-            "id": "3908809",
-            "name": "Donovan Mitchell",
-            "position": "G",
-            "jersey": "45",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-            "availability": null
-          },
-          {
-            "id": "3992",
-            "name": "James Harden",
-            "position": "G",
-            "jersey": "1",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
+            "id": "4066328",
+            "name": "Jarrett Allen",
+            "position": "C",
+            "jersey": "31",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066328.png",
             "availability": null
           },
           {
@@ -94,19 +86,27 @@
             "availability": null
           },
           {
+            "id": "3992",
+            "name": "James Harden",
+            "position": "G",
+            "jersey": "1",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
+            "availability": null
+          },
+          {
+            "id": "3908809",
+            "name": "Donovan Mitchell",
+            "position": "G",
+            "jersey": "45",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+            "availability": null
+          },
+          {
             "id": "4576087",
             "name": "Peyton Watson",
             "position": "G",
             "jersey": "8",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4576087.png",
-            "availability": null
-          },
-          {
-            "id": "4066328",
-            "name": "Jarrett Allen",
-            "position": "C",
-            "jersey": "31",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066328.png",
             "availability": null
           }
         ]
@@ -123,16 +123,6 @@
             "status": "Out",
             "detail": "Elbow · Arm",
             "reported_at": "2026-11-10T22:12Z"
-          },
-          {
-            "id": "4683747",
-            "name": "Jaylon Tyson",
-            "position": "G",
-            "jersey": "20",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4683747.png",
-            "status": "Out",
-            "detail": "Ankle · Leg",
-            "reported_at": "2026-11-10T22:07Z"
           }
         ]
       },
@@ -223,18 +213,10 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
-          {
-            "id": "3934672",
-            "name": "Jalen Brunson",
-            "position": "G",
-            "jersey": "11",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-            "availability": null
-          },
           {
             "id": "3934719",
             "name": "OG Anunoby",
@@ -252,11 +234,11 @@
             "availability": null
           },
           {
-            "id": "3914044",
-            "name": "Landry Shamet",
+            "id": "3062679",
+            "name": "Josh Hart",
             "position": "G",
-            "jersey": "44",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
             "availability": null
           },
           {
@@ -265,6 +247,14 @@
             "position": "G",
             "jersey": "25",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
+            "availability": null
+          },
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
             "availability": null
           }
         ]
