@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T03:24:44.392Z",
+  "generated_at": "2026-11-12T11:44:14.074Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401909967",
-    "date": "2026-11-12T00:00Z",
-    "status": "Finished",
+    "id": "espn:401909296",
+    "date": "2026-11-14T00:00Z",
+    "status": "Scheduled",
     "phase": "Regular season",
     "home": {
+      "name": "Indiana Pacers",
+      "abbreviation": "IND",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+      "score": null
+    },
+    "away": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": 107
-    },
-    "away": {
-      "name": "Cleveland Cavaliers",
-      "abbreviation": "CLE",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-      "score": 115
+      "score": null
     },
     "period": null,
     "clock": null
   },
   "venue": {
-    "id": "1830",
-    "guid": "20a70788-c601-3a43-bb71-9cb9eca4be33",
-    "fullName": "Madison Square Garden",
-    "shortName": "Madison Square Garde",
+    "id": "2183",
+    "guid": "c3d148ae-e87b-3900-9668-443d5ddc084f",
+    "fullName": "Gainbridge Fieldhouse",
+    "shortName": "Bankers Life Fieldhouse",
     "address": {
-      "city": "New York",
-      "state": "NY"
+      "city": "Indianapolis",
+      "state": "IN"
     },
     "grass": false,
     "images": [
       {
-        "href": "https://a.espncdn.com/i/venues/nba/day/1830.jpg",
+        "href": "https://a.espncdn.com/i/venues/nba/day/2183.jpg",
         "width": 2000,
         "height": 1125,
         "alt": "",
@@ -59,26 +59,26 @@
   "highlights": [],
   "storylines": [
     {
-      "id": "43c4608df15b18d34457",
-      "title": "The Biggest Storylines Impacting the Knicks' Upcoming Opponents This Week",
-      "summary": "The New York Knicks look to keep on keeping on after winning six of seven games. This week they'll face the Cleveland Cavaliers, Indiana Pacers and Toronto Rapt",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_100,w_3522,h_1981/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m75ws10rtjt160z3fd.jpg",
-      "source": "Sports Illustrated",
-      "published_at": "2026-11-11T20:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/the-biggest-storylines-impacting-knicks-upcoming-opponents-week-01m75sxdcgq6",
+      "id": "e983c0117ea4eb2be10e",
+      "title": "Pacers and Knicks meet Friday in NBA Cup group stage",
+      "summary": "New York Knicks (6-5, fifth in the Eastern Conference) vs. Indiana Pacers (4-8, 11th in the Eastern Conference)",
+      "image_url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909296.png?templateId=espn.applewatch.awayhome.1",
+      "source": "ESPN",
+      "published_at": "2026-11-12T07:04:40.000Z",
+      "url": "http://www.espn.com/nba/preview?gameId=401909296",
       "topic": "identity",
       "label": "On-court changes",
       "relevance": "knicks_preseason",
       "generated": false
     },
     {
-      "id": "84821639b2034a46c10d",
-      "title": "Landry Shamet Is Making a Strong Case to Stay in the Knicks' Starting Lineup",
-      "summary": "The Knicks will face an interesting decision regarding Landry Shamet if he continues to make a strong case for more playing time.",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_588,y_154,w_1867,h_1050/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m74x42yg5gj4zqkb2y.jpg",
-      "source": "Sports Illustrated",
-      "published_at": "2026-11-11T19:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/landry-shamet-strong-case-stay-knicks-starting-lineup-01m74v3y4z73",
+      "id": "57d72ace85c6f463b4da",
+      "title": "Atlantic Notes: Shamet, Barnes, Saraf, Demin",
+      "summary": "After bouncing around for several seasons and nearly losing his place in the NBA, Landry Shamet has been a crucial part of the Knicks’ rotation since last season. This year, he has emerged as the team’s go-to plug-and-play starter if one of the starting wings is hurt or resting, Stefan Bondy writes for the New […]",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/06/Landry-Shamet-900x600.jpg",
+      "source": "Hoops Rumors",
+      "published_at": "2026-11-12T05:00:01.000Z",
+      "url": "https://www.hoopsrumors.com/2026/11/atlantic-notes-shamet-barnes-saraf-demin.html",
       "topic": "rotation",
       "label": "Rotation watch",
       "relevance": "knicks_preseason",
@@ -151,6 +151,6 @@
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-12T03:15:18.938Z"
+    "feed_generated_at": "2026-11-12T11:30:45.894Z"
   }
 }
