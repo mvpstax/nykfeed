@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-12T04:45:18.921Z",
+  "generated_at": "2026-11-12T05:00:23.369Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 100,
+    "item_count": 102,
     "game_count": 0,
-    "refresh_duration_ms": 5237,
+    "refresh_duration_ms": 5020,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 86,
-      "missing": 14,
+      "available": 89,
+      "missing": 13,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "bb87ec160795d5c2cd63",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:2e2ccgbatxsuj6tojncotybe/app.bsky.feed.post/3n23oituupc2u",
+      "author": "KnicksVerse",
+      "handle": "knicksverse.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:2e2ccgbatxsuj6tojncotybe/bafkreifsfc5j4xlnpe2fyc5632qzqg5ntyp46iufdfxuzpllsgz5ppguvi",
+      "text": "🏀🏀 NEW KNICKS VIDEO 🏀🏀\n\nWhat Is Happening Knicks?! Unacceptable Loss | #Knicks vs Cavaliers Postgame Recap\n\nWATCH NOW!\nyoutu.be/JLjbLOk-5Jo?...",
+      "published_at": "2026-11-12T04:55:07.961Z",
+      "url": "https://bsky.app/profile/did:plc:2e2ccgbatxsuj6tojncotybe/post/3n23oituupc2u",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:2e2ccgbatxsuj6tojncotybe/bafkreie2olo2pjmmfexywl75htc2ksul2pzxqulszwgdsjsrxcxrfpfcoa",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:2e2ccgbatxsuj6tojncotybe/post/3n23oituupc2u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "491092b8922fa7a863b7",
       "type": "social",
@@ -518,6 +553,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "e59a8d4a38a18dadfcb0",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Cavaliers 115, Knicks 107: Scenes from a wide free throw gap",
+      "summary": "Cleveland got 32 from Harden, 15 from Tyrese Proctor, and 25 trips to the line.",
+      "author": null,
+      "published_at": "2026-11-12T02:54:12.000Z",
+      "url": "https://sports.yahoo.com/articles/cavaliers-115-knicks-107-scenes-025412898.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/4d886b78cbf6ddc1bf7204bac2a10aee.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/cavaliers-115-knicks-107-scenes-025412898.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "66b136781a06e9720dc2",
       "type": "article",
       "source": "ESPN",
@@ -647,9 +703,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 1,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -923,7 +979,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -1004,40 +1060,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "61ce99644b96c5055508",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3n23gltrgnc2q",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "With Miles McBride closing for the Knicks, this is officially benching #4 of the season for Mikal Bridges in New York's 11th game.\n\nLast season, Brown didn't bench Bridges until the team's 46th game (including the Cup). There were 7 total over the final 38 of the season.",
-      "published_at": "2026-11-12T02:33:38.578Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3n23gltrgnc2q",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3n23gltrgnc2q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "45453e8414905a7f8ccd",
       "type": "social",
       "source": "Bluesky",
@@ -1103,6 +1125,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n23bsumvqi2z",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "5e17dd6235dcc100f756",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks’ stout defense and ‘level of physicality’ fueling hot streak",
+      "summary": "Mikal Bridges, despite his struggles on the offensive end to start the year, has been a big reason it has remained strong this season.",
+      "author": null,
+      "published_at": "2026-11-12T00:37:37.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-stout-defense-level-physicality-003737341.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/48b869a5d09005726cd9272e65f07fe7.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-stout-defense-level-physicality-003737341.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
