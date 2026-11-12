@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-12T07:15:20.210Z",
+  "generated_at": "2026-11-12T07:30:23.371Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 104,
+    "item_count": 103,
     "game_count": 0,
-    "refresh_duration_ms": 5464,
+    "refresh_duration_ms": 5531,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "espn",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 92,
+      "available": 91,
       "missing": 12,
       "article_pages_checked": 0
     },
@@ -117,6 +117,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "http://www.espn.com/nba/preview?gameId=401909296"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "aa9fa4bf0b6933aa5651",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Rob Dillingham To Join Westchester Knicks",
+      "summary": "Rob Dillingham is expected to sign with the Westchester Knicks, sources told Jake Fischer of The People's Insider. Dillingham was most recently waived by the Hornets. Dillingham averaged 6.3 points and 2.2 assists for the Wolves and Bulls last year.",
+      "author": null,
+      "published_at": "2026-11-12T06:24:46.000Z",
+      "url": "https://basketball.realgm.com/wiretap/288107/Rob-Dillingham-To-Join-Westchester-Knicks",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Dillingham_Rob_chi_260225.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/288107/Rob-Dillingham-To-Join-Westchester-Knicks"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -567,6 +588,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3n23ifvexys2u",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "5ca17052041117159c68",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks no match for Cavaliers thanks to James Harden’s big night",
+      "summary": "James Harden flipped the script on the Knicks.",
+      "author": null,
+      "published_at": "2026-11-12T03:06:00.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-no-match-cavaliers-thanks-030600762.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/3e4683adafa961548f877996167b392c.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-no-match-cavaliers-thanks-030600762.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1302,27 +1344,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/cavs-knicks-game-thread-000000281.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "68e725015c11ee64022a",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Game Discussion Thread: Knicks vs. Cavaliers, November 11, 2026",
-      "summary": "Cleveland rides the struggle bus into NYC.",
-      "author": null,
-      "published_at": "2026-11-11T23:30:00.000Z",
-      "url": "https://sports.yahoo.com/articles/game-discussion-thread-knicks-vs-233000712.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/c3b3da9b6d60031672f177d3acb324de.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/game-discussion-thread-knicks-vs-233000712.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2724,48 +2745,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-11T17:30:22.042Z"
-    },
-    {
-      "id": "76fa99b40595e0f9fe06",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "NBA Net Rating (Week 3): Celtics, Wolves, Spurs In Top-3",
-      "summary": "The Boston Celtics lead the NBA in Net Rating after the third week of the season with a mark of +11.1 points per 100 possessions, just ahead of the Minnesota Timberwolves at 11.0 and the San Antonio Spurs at +10.3. NBA Net Rating (Week 3) 1. Celtics: 11.1 2. Wolves: 11.0 3. Spurs: 10.3 4. Rockets: 9.3 5. Thunder: 8.1 6. Pistons: 7.9 7. Lakers: 7.5 8. Grizzlies: 6.0 9. Knicks: 5.9 10. Blazers: 5.6 11. Raptors: 5.4 12. Warriors: 5.0 13. Mavericks: 4.9 14. Hawks: 3.1 15. 76ers: 3.1 16. Cavaliers: 2.9 17. Nuggets: 2.2 18. Pelicans: -0.3 19. Pacers: -3.9 20. Clippers: -4.0 21. Wizards: -4.8 22. Heat: -5.1 23. Suns: -6.3 24. Nets: -9.0 25. Magic: -9.3 26. Jazz: -11.5 27. Kings: -13.2 28. Bucks: -13.2 29. Hornets: -14.6 30. Bulls: -16.0",
-      "author": null,
-      "published_at": "2026-11-09T15:43:08.000Z",
-      "url": "https://basketball.realgm.com/wiretap/288076/NBA-Net-Rating-Week-3-Celtics-Wolves-Spurs-In-Top-3",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/George_Paul_bos_261104.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/288076/NBA-Net-Rating-Week-3-Celtics-Wolves-Spurs-In-Top-3"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "6fad9c8385412d9a6e71",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "NBA PER (Week 3): Luka Doncic, Victor Wembanyama Lead NBA At Over 34.0",
-      "summary": "Leading NBA MVP candidates Luka Doncic and Victor Wembanyama lead the league in Player Efficiency Rating after the third week of the regular season. Doncic has a mark of 34.4 ahead of Wembanyama at 34.3. Stephen Curry ranks third and is the only other player with a PER over 30.0. NBA PER (Week 3) 1. Luka Doncic: 34.4 2. Victor Wembanyama: 34.3 3. Stephen Curry: 32.3 4. Giannis Antetokounmpo: 27.5 5. Nikola Jokic: 26.0 6. Ty Jerome: 25.6 7. Shai Gilgeous-Alexander: 25.2 8. Tyrese Haliburton: 25.1 9. Alperen Sengun: 24.9 10. Jayson Tatum: 24.5 11. Cooper Flagg: 23.5 12. Ajay Mitchell: 23.3 13. Donovan Clingan: 23.2 14. Walker Kessler: 22.7 15. Alex Caruso: 22.7 16. Jamal Murray: 22. 17. Cade Cunningham: 22.5 18. Anthony Davis: 22.3 19. Zion Williamson: 22.2 20. Karl-Anthony Towns: 22.2",
-      "author": null,
-      "published_at": "2026-11-09T15:22:23.000Z",
-      "url": "https://basketball.realgm.com/wiretap/288075/NBA-PER-Week-3-Luka-Doncic-Victor-Wembanyama-Lead-NBA-At-Over-340",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Doncic_Luka_lal_251210.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/288075/NBA-PER-Week-3-Luka-Doncic-Victor-Wembanyama-Lead-NBA-At-Over-340"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "47dca75aa5a94e37dcb7",
