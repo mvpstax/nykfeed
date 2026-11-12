@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-12T07:45:23.388Z",
+  "generated_at": "2026-11-12T08:00:49.789Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 103,
+    "item_count": 102,
     "game_count": 0,
-    "refresh_duration_ms": 7769,
+    "refresh_duration_ms": 28753,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 7
+        "items": 6
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 91,
+      "available": 90,
       "missing": 12,
       "article_pages_checked": 0
     },
@@ -100,6 +101,40 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "d0ca189302b0cb2486e0",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4ovpvfq55k7foxyh37yzyqll/app.bsky.feed.post/3n23ydr3cg225",
+      "author": "Knickas Wit Attitude",
+      "handle": "knickaswitattitude.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4ovpvfq55k7foxyh37yzyqll/bafkreibcoy3ap7pir2ggqhszuui2stytwoqcgs3l5iu2mf2d2ldpqlbgja",
+      "text": "We really let 2026 Harden drop 32pts on us…\n\nI’m disgusted…\n\n#Knicks #KnicksSky #NBASky",
+      "published_at": "2026-11-12T07:51:14.673Z",
+      "url": "https://bsky.app/profile/did:plc:4ovpvfq55k7foxyh37yzyqll/post/3n23ydr3cg225",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4ovpvfq55k7foxyh37yzyqll/post/3n23ydr3cg225",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "e983c0117ea4eb2be10e",
       "type": "article",
@@ -1133,40 +1168,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "fec492c742d172bc9472",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:jrfb3vuymngqw3pq4247uhqw/app.bsky.feed.post/3n23gqt2e7c2v",
-      "author": "CHAMP Jared 🏆🇦🇮🇰🇳",
-      "handle": "jaradx1467.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:jrfb3vuymngqw3pq4247uhqw/bafkreigae4ci5r7yfubdba3vglv2aj54hewcki6d2bwp3kiuwnmzfhfwtu",
-      "text": "Refs are not the sole reason we're taking the L tonight but they sure didn't help smh #Knicks",
-      "published_at": "2026-11-12T02:36:25.586Z",
-      "url": "https://bsky.app/profile/did:plc:jrfb3vuymngqw3pq4247uhqw/post/3n23gqt2e7c2v",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:jrfb3vuymngqw3pq4247uhqw/post/3n23gqt2e7c2v",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "45453e8414905a7f8ccd",
       "type": "social",
       "source": "Bluesky",
@@ -1323,27 +1324,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2364tob572b",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b2f690b5832e63969653",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Cavs at Knicks game thread",
-      "summary": "The Cavs will start a three-game road trip tonight.",
-      "author": null,
-      "published_at": "2026-11-12T00:00:00.000Z",
-      "url": "https://sports.yahoo.com/articles/cavs-knicks-game-thread-000000281.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/32559324f28627cae1aa6278a1f89ff3.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/cavs-knicks-game-thread-000000281.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
