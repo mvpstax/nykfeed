@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T01:00:25.571Z",
+  "generated_at": "2026-11-13T01:15:19.936Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 106,
+    "item_count": 105,
     "game_count": 0,
-    "refresh_duration_ms": 5915,
+    "refresh_duration_ms": 4076,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 2
+        "items": 1
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 99,
+      "available": 98,
       "missing": 7,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "b4046f33cda7c3a51349",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n25s7vrg4424",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Gabe Vincent's 'Standing' Contract Offer Revealed in New NBA Rumors Following Knicks Interest (via Bleacher Report)",
+      "published_at": "2026-11-13T01:07:02.355Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n25s7vrg4424",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicwry7ygs6nr6xnuo4b7l3irh3qq5slrd2ckrohzmntj6shhb3uxe",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n25s7vrg4424",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "33556861ee8ba4bbb458",
       "type": "article",
@@ -119,9 +154,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-stance-potential-mikal-bridges-trade-just-became-clear-01m78jm7gppr",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-11-13T01:00:25.191Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-13T01:00:25.191Z"
     },
     {
       "id": "227f181063708fd6a898",
@@ -250,7 +285,7 @@
       "engagement": {
         "replies": 9,
         "reposts": 2,
-        "likes": 43
+        "likes": 46
       },
       "team": "NYK",
       "presentation": {
@@ -1032,27 +1067,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "f33acc1db1cd3dc0fb14",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Knicks Bulletin: ‘It’s gonna be hard to find minutes at times for Mikal’",
-      "summary": "The Cavaliers did on Wednesday what they do best: win meaningless, regular-season games. The Knicks, meanwhile, handed out a dub and ate a loss on purpose on their way to find their best-working lineups for when winning, you know, actually matters. Here’s the latest from MSG on a rare off day. Mike Brown On Wednesday’s […]",
-      "author": null,
-      "published_at": "2026-11-12T14:30:00.000Z",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-gonna-hard-minutes-143000204.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/4cc7597433f3e26c79be1c7f89a82458.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/knicks-bulletin-gonna-hard-minutes-143000204.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "564167f7ab0cfdd3b5c3",
       "type": "social",
       "source": "Bluesky",
@@ -1205,7 +1219,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -1330,7 +1344,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -2734,41 +2748,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzynmqjcru26",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b671d797bcab9b0dec0a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzykobffvi2a",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Josh Hart (illness) downgraded to out Tuesday (via NBC Sports)",
-      "published_at": "2026-11-10T23:08:35.689Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzykobffvi2a",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiebmqq3zouuch22tvtkacvnqqzkts7nytm6e2ldw4dwaz23eifnge",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzykobffvi2a",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
