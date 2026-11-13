@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T01:15:19.936Z",
+  "generated_at": "2026-11-13T01:30:23.249Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 4076,
+    "refresh_duration_ms": 5821,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "espn",
@@ -92,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 98,
+      "available": 97,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -179,8 +179,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 1,
-        "reposts": 0,
-        "likes": 2
+        "reposts": 1,
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -2823,28 +2823,6 @@
       "image_checked_at": "2026-11-12T17:30:22.825Z"
     },
     {
-      "id": "6c0425b9f4086b22a5cd",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Jalen Brunson, Luka Doncic Named NBA's Players Of Week 3",
-      "summary": "Jalen Brunson and Luka Doncic have been named the NBA's Players of the Week for Week 3. Brunson averaged 27.7 points, 3.3 rebounds and 6.3 assists as the New York Knicks went 3-0. Doncic averaged 45.0 points, 7.0 rebounds and 8.3 assists as the Los Angeles Lakers went 3-0. Previous winners of the award this season include Ty Jerome, Tyrese Maxey, Victor Wembanyama and Jayson Tatum.",
-      "author": null,
-      "published_at": "2026-11-10T17:01:55.000Z",
-      "url": "https://basketball.realgm.com/wiretap/288087/Jalen-Brunson-Luka-Doncic-Named-NBAs-Players-Of-Week-3",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Brunson_Jalen_nyk_260611.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/288087/Jalen-Brunson-Luka-Doncic-Named-NBAs-Players-Of-Week-3"
-      },
-      "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_73a396124743"
-    },
-    {
       "id": "57d77c3e72f911dde5f1",
       "type": "article",
       "source": "Sports Illustrated",
@@ -2908,8 +2886,7 @@
         "url": "https://www.hoopsrumors.com/2026/11/luka-doncic-jalen-brunson-named-nbas-players-of-the-week.html"
       },
       "image_status": "available",
-      "image_source": "source_feed",
-      "cluster_id": "cluster_73a396124743"
+      "image_source": "source_feed"
     },
     {
       "id": "60ca1bbfcea39bef6c9a",
@@ -3197,21 +3174,5 @@
       "image_source": "source_feed"
     }
   ],
-  "clusters": [
-    {
-      "id": "cluster_73a396124743",
-      "lead_item_id": "6c0425b9f4086b22a5cd",
-      "item_ids": [
-        "6c0425b9f4086b22a5cd",
-        "dc029e6e8b4a298c969a"
-      ],
-      "source_count": 2,
-      "updated_at": "2026-11-10T17:01:55.000Z",
-      "title": "Jalen Brunson, Luka Doncic Named NBA's Players Of Week 3",
-      "event_type": "other",
-      "entities": [
-        "jalen brunson"
-      ]
-    }
-  ]
+  "clusters": []
 }
