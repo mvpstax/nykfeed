@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T04:00:25.564Z",
+  "generated_at": "2026-11-13T04:15:23.268Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 104,
+    "item_count": 102,
     "game_count": 0,
-    "refresh_duration_ms": 5392,
+    "refresh_duration_ms": 7694,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 1
+        "items": 2
       },
       {
         "source_key": "cbs_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 25
+        "items": 23
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,14 +92,49 @@
       }
     ],
     "images": {
-      "available": 97,
-      "missing": 7,
+      "available": 96,
+      "missing": 6,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "1e289d30aa2ed2303716",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n2647kel7j25",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks Talk: 3 Takeaways from New York’s 6-5 Season Start (via Yahoo Sports)",
+      "published_at": "2026-11-13T04:05:47.821Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2647kel7j25",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreigubvem5beagoell536o7d73ap2hs5jbrita7wisxhzd2cxxbsoui",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2647kel7j25",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "1ae5605ec729cbad80ac",
       "type": "social",
@@ -1172,6 +1207,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "f33acc1db1cd3dc0fb14",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks Bulletin: ‘It’s gonna be hard to find minutes at times for Mikal’",
+      "summary": "The Cavaliers did on Wednesday what they do best: win meaningless, regular-season games. The Knicks, meanwhile, handed out a dub and ate a loss on purpose on their way to find their best-working lineups for when winning, you know, actually matters. Here’s the latest from MSG on a rare off day. Mike Brown On Wednesday’s […]",
+      "author": null,
+      "published_at": "2026-11-12T14:30:00.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-bulletin-gonna-hard-minutes-143000204.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/4cc7597433f3e26c79be1c7f89a82458.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-bulletin-gonna-hard-minutes-143000204.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "564167f7ab0cfdd3b5c3",
       "type": "social",
       "source": "Bluesky",
@@ -1808,41 +1864,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "22d336416d7c144f5f5c",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3n23iip35xg24",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Knicks no match for Cavaliers thanks to James Harden's big night",
-      "published_at": "2026-11-12T03:07:40.178Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n23iip35xg24",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreigbxwram7ofibjxt2twxc5alahkfoy7qivvvn5aze63h3jf2furm4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n23iip35xg24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "a6a5ec0c7302a27adf9b",
       "type": "social",
       "source": "Bluesky",
@@ -1876,40 +1897,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "598210b5c29bdcc57ada",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zgw663lwxmujmen5k4jmjair/app.bsky.feed.post/3n23ih4mxfs2y",
-      "author": "dan favale",
-      "handle": "danfavale.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zgw663lwxmujmen5k4jmjair/bafkreiheejgmzt4f5tjemx2yzsscee6a4giqqmnsv66puktug3b7hsipnm",
-      "text": "i remain pretty zen on the long-term mikal bridges front but 37.8% on 2s and 26.5% on 3s while attempting *four total* free throws through 11 games is at the very least circling yikes territory",
-      "published_at": "2026-11-12T03:06:47.580Z",
-      "url": "https://bsky.app/profile/did:plc:zgw663lwxmujmen5k4jmjair/post/3n23ih4mxfs2y",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 3,
-        "reposts": 0,
-        "likes": 9
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zgw663lwxmujmen5k4jmjair/post/3n23ih4mxfs2y",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "6da8294e52744282f49b",
@@ -2719,41 +2706,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "8c25b789c595e4772968",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzyravqr2b2q",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Giannis Antetokounmpo drama that once surrounded Knicks all feels laughable now (via New York Post)",
-      "published_at": "2026-11-11T01:06:23.459Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzyravqr2b2q",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreibzllifmcfcr37map2rlnrcdy7pi2r6a2tbpiclzd5vkjspb5hsku",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzyravqr2b2q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "7ab36421ede6fa2117e1",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3151,27 +3103,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-12T23:45:21.047Z"
-    },
-    {
-      "id": "d677b6a6cd97950b8a71",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Jalen Brunson guest stars on 'Law & Order: SVU' alongside Mariska Hargitay",
-      "summary": "The New York Knicks' star made his \"Law & Order: SVU\" appearance official Thursday.",
-      "author": "ESPN staff",
-      "published_at": "2026-11-06T04:12:06.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/49967701/new-york-knicks-jalen-brunson-law-order-svu-guest-appearance-mariska-hargitay",
-      "image_url": "https://a.espncdn.com/photo/2026/1106/r1741896_608x342_16-9.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/49967701/new-york-knicks-jalen-brunson-law-order-svu-guest-appearance-mariska-hargitay"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": []
