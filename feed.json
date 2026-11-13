@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T03:30:26.121Z",
+  "generated_at": "2026-11-13T03:45:25.399Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 104,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 5201,
+    "refresh_duration_ms": 4396,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,9 +28,8 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": false,
-        "items": 0,
-        "error": "HTTP 403"
+        "ok": true,
+        "items": 20
       },
       {
         "source_key": "hoops_rumors",
@@ -92,7 +91,7 @@
       }
     ],
     "images": {
-      "available": 97,
+      "available": 103,
       "missing": 7,
       "article_pages_checked": 0
     },
@@ -492,6 +491,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n25maq6cfa2i",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "c0bee21ec413bcfd6b15",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Mike Brown not ready to make a Mikal Bridges role change despite offensive struggles",
+      "summary": "Mikal Bridges is basically a starter in name only at the moment.",
+      "author": null,
+      "published_at": "2026-11-12T23:16:54.000Z",
+      "url": "https://sports.yahoo.com/articles/mike-brown-not-ready-mikal-231654915.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/3eca2ed680b325dbdccf8fe25b3c02a5.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/mike-brown-not-ready-mikal-231654915.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -994,27 +1014,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "72ccf01a5963d2585875",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Mike Brown is sticking with Mikal Bridges. For now.",
-      "summary": "We’re eleven games in. How long should the Knicks wait for Mikal Bridges to find his stride?",
-      "author": null,
-      "published_at": "2026-11-12T16:36:18.000Z",
-      "url": "https://sports.yahoo.com/articles/mike-brown-sticking-mikal-bridges-163618216.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/7f2867d6a35735ea5632559e530d70c5.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/mike-brown-sticking-mikal-bridges-163618216.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "d61dc97435789ebd906a",
       "type": "article",
       "source": "ESPN",
@@ -1423,6 +1422,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n24e4xipd424",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "dd8a5a4a6a033ffa1296",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Blame Game",
+      "summary": "The Knicks lost a game it feels like they could have won. So who is (or isn’t) at fault?",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-12T10:01:02.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/blame-game-d58",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!kUOE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2120719024023609344.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/blame-game-d58"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2593,6 +2613,27 @@
       "image_checked_at": "2026-11-12T11:15:24.552Z"
     },
     {
+      "id": "8c17e82c92dab045d504",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Laugher",
+      "summary": "The Bucks are bad and the Knicks took advantage, but we still got some stuff to get excited about in the blowout.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-11T10:01:57.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/laugher",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!_A5f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc118f725-cf84-4db4-94c9-3e27ce40e67e_810x684.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/laugher"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "53b92a7c4e8107bf6ff4",
       "type": "social",
       "source": "Bluesky",
@@ -2846,6 +2887,27 @@
       "image_checked_at": "2026-11-12T15:30:25.474Z"
     },
     {
+      "id": "0fc0b8301b177077dd05",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Is This Something?",
+      "summary": "I look at five stats from the early season and render a verdict on whether they’re worth fussing over.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-10T10:08:13.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/is-this-something",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!GWRq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa530419-ca2d-4ce4-9874-fea9388cc7ed_1740x1036.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/is-this-something"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "357971ed401efd428012",
       "type": "article",
       "source": "Hoops Rumors",
@@ -2933,6 +2995,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-12T12:30:23.140Z"
+    },
+    {
+      "id": "5eb163fcbc25e9c47bad",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Hiding in Plain Sight",
+      "summary": "The Knicks offense is back in business, even if they’re still missing shots they normally make.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-09T10:02:18.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!n9P4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2119243561262612480.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "6d09efec95cfd469d21e",
@@ -3046,6 +3129,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "64cdcf1dad6bda76123f",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Death, Taxes, and Beating Cleveland",
+      "summary": "Some things never change.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-08T10:01:05.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!A8jk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ce5760e-6605-4bb5-9bcc-88d0d353dbcb_940x830.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "23325e37fa37891973e5",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3151,6 +3255,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-12T23:45:21.047Z"
+    },
+    {
+      "id": "d5932d4394b2b1cc65a2",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "ECF Rematch...",
+      "summary": "...and a Friday subscriber chat.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-06T10:01:25.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/ecf-rematch",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/ecf-rematch"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "d677b6a6cd97950b8a71",
