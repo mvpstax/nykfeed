@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T02:00:50.681Z",
+  "generated_at": "2026-11-13T02:15:23.355Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 104,
     "game_count": 0,
-    "refresh_duration_ms": 29864,
+    "refresh_duration_ms": 9298,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -101,6 +100,41 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "8d03e40c08f69e7e6b73",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n25vmb5ep52b",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Knicks Suddenly Have a Good Miles McBride Problem on Their Hands (via Sports Illustrated)",
+      "published_at": "2026-11-13T02:07:38.163Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n25vmb5ep52b",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreiaart3wqu2xvob4eadsx6lrfvuiqcyxqik7c4x4shsxgqmhifxxve",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n25vmb5ep52b",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "b4046f33cda7c3a51349",
       "type": "social",
@@ -181,7 +215,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -2714,41 +2748,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzynwvhc2e2a",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "370f2bb4209f801430dd",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3mzynmqjcru26",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Through 9 games, Karl-Anthony Towns is pulling down 6.2 contested rebounds a game. That ranks 1st among the 211 players averaging 20+ minutes. Donovan Clingan is next at 5.8.\n\nData: NBA tracking",
-      "published_at": "2026-11-11T00:01:25.662Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzynmqjcru26",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreicicnuwmhkakflhi27ox6lholvsh5svq7tamhe6zj653sx42rd5cm",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3mzynmqjcru26",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
