@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T00:45:41.600Z",
+  "generated_at": "2026-11-14T01:00:48.738Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 109,
     "game_count": 0,
-    "refresh_duration_ms": 27955,
+    "refresh_duration_ms": 30182,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -72,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 29
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,14 +93,121 @@
       }
     ],
     "images": {
-      "available": 96,
-      "missing": 16,
-      "article_pages_checked": 0
+      "available": 94,
+      "missing": 15,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "9ac0a922e8aa544daf53",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:somx2646eilotd3gjuwy6xjw/app.bsky.feed.post/3n2acclxezk2z",
+      "author": "Jamie O’Grady",
+      "handle": "jamieogrady.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:somx2646eilotd3gjuwy6xjw/bafkreih6pqavandwuzzsuagghroisrit2vecs7y5567fr7bts744mcnnvq",
+      "text": "The Knicks right now",
+      "published_at": "2026-11-14T01:00:12.114Z",
+      "url": "https://bsky.app/profile/did:plc:somx2646eilotd3gjuwy6xjw/post/3n2acclxezk2z",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:somx2646eilotd3gjuwy6xjw/bafkreiacrpa3nqxobni6k2uq4awxpjbdtprqvb4t64dbnf5jm5wajnybdu",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:somx2646eilotd3gjuwy6xjw/post/3n2acclxezk2z",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "7b6705a6fba49a5b4ea7",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:mx62ni2prhriaagd7jfa65zk/app.bsky.feed.post/3n2abnxphbk2j",
+      "author": "Steve Jones",
+      "handle": "stevejones20.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:mx62ni2prhriaagd7jfa65zk/bafkreibsasqbomwgwfh2pcbppafnejcmsib2rcnagdsyaeenusuzh5zfqa",
+      "text": "Knicks were able to play out of KAT trailing and get to a pick and roll with an empty side. Shamet screens for OG and cuts to the opposite corner. Kolek gets to the dunker spot. KAT gets right to his roll and finishes. Him vs. 5's has been their secret sauce.",
+      "published_at": "2026-11-14T00:48:39.799Z",
+      "url": "https://bsky.app/profile/did:plc:mx62ni2prhriaagd7jfa65zk/post/3n2abnxphbk2j",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Amx62ni2prhriaagd7jfa65zk/bafkreifjohtj7w2fkuvp3kasjx2jexmkomzqv2sqdk5strewtoaxrqawbe/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Amx62ni2prhriaagd7jfa65zk/bafkreifjohtj7w2fkuvp3kasjx2jexmkomzqv2sqdk5strewtoaxrqawbe/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Amx62ni2prhriaagd7jfa65zk/bafkreifjohtj7w2fkuvp3kasjx2jexmkomzqv2sqdk5strewtoaxrqawbe/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 716,
+        "width": 1280
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 5
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:mx62ni2prhriaagd7jfa65zk/post/3n2abnxphbk2j",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "173e7d015fcd9858a053",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:mlc6pzuop5takh7fw432vmq7/app.bsky.feed.post/3n2abk736xc2n",
+      "author": "David Goodman",
+      "handle": "dgoodmantrublu.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:mlc6pzuop5takh7fw432vmq7/bafkreievdnmx4zkmnb5nto6lwa6gb4qb6vot4pdrxzzqyqmfsgw6wk36hq",
+      "text": "The Knicks are getting fucked by the refs again",
+      "published_at": "2026-11-14T00:46:33.305Z",
+      "url": "https://bsky.app/profile/did:plc:mlc6pzuop5takh7fw432vmq7/post/3n2abk736xc2n",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 2,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:mlc6pzuop5takh7fw432vmq7/post/3n2abk736xc2n",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "0f466a3914dbfc2831f7",
       "type": "social",
@@ -121,9 +228,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -158,7 +265,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -229,7 +336,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -264,7 +371,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -332,7 +439,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 5
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1278,41 +1385,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "863e7229da4473d0b8dd",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3n27kye2qfi25",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Is Mikal Bridges' Durability Catching Up To Him? | NY Got Game",
-      "published_at": "2026-11-13T18:02:51.931Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n27kye2qfi25",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreigsrjnnwbwllr4voy4cdz6nasefv7gyg45qaqhg4rg3vubsyqo3aq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n27kye2qfi25",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "6f9cd99c2770f4efdbaf",
       "type": "article",
       "source": "Hoops Rumors",
@@ -1333,76 +1405,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-13T18:00:25.318Z"
-    },
-    {
-      "id": "be865d43d883532be67f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:7okgq3dsknx6wmzaoltr3pe4/app.bsky.feed.post/3n27kgpixtk2j",
-      "author": "theSoreWinner",
-      "handle": "thesorewinner.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreidqr5kdqmnadsowlczvlg5rlonhgajkui7tk27rt34ljefbele4p4",
-      "text": "game time tool up…\n#KNICKS #KnicksBlueSkies #KnicksSky \nstill US…still #KnicksIn5 ✋🏽💥",
-      "published_at": "2026-11-13T17:53:00.251Z",
-      "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3n27kgpixtk2j",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreicijocxtzuvro5gb4edods5uqpsqnc33m77kwvmcdymssodtdwc3y",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 1,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3n27kgpixtk2j",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b7d91f2e644a8056af3e",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:vtcxnsimcz2bginrew557quo/app.bsky.feed.post/3n27ill5ih22z",
-      "author": "LboogiePopWorld305",
-      "handle": "lboogiethe305.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vtcxnsimcz2bginrew557quo/bafkreih7gs7hmhbta64y42pnx5etcyqhypmw62onimmn4kiawqlprhkioe",
-      "text": "#FlashbackFriday #FBF #Juneteenth2026 #UncleObie #Dreamgirls #NYKnicks #NYC #Harlem #TheGreatMigration #FathersDay2026 #LboogiePopWorld305 #LboogiePopWorldinthe305 #LboogiePopWorld \nopen.spotify.com/episode/7FIX...",
-      "published_at": "2026-11-13T17:19:55.971Z",
-      "url": "https://bsky.app/profile/did:plc:vtcxnsimcz2bginrew557quo/post/3n27ill5ih22z",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vtcxnsimcz2bginrew557quo/bafkreib2v44zfiey24poxm62on37i7uvvv647xotfodkpi5i3slg5bqnoe",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:vtcxnsimcz2bginrew557quo/post/3n27ill5ih22z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "c9773046f2e410d3bb52",
@@ -1426,109 +1428,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-13T17:15:21.344Z"
-    },
-    {
-      "id": "fb68057363d072b412a7",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3n27h2rkk522v",
-      "author": "Fred Katz",
-      "handle": "fredkatz.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
-      "text": "Josh Hart said he hurt his ankle in the preseason and reaggravated the injury recently, which led to his absence last week into earlier this week.",
-      "published_at": "2026-11-13T16:52:38.524Z",
-      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n27h2rkk522v",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 2,
-        "likes": 8
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n27h2rkk522v",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "7ae3f18a98bae10feffb",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3n27fwv7nqk26",
-      "author": "Fred Katz",
-      "handle": "fredkatz.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
-      "text": "Mikal Bridges made it clear at shootaround today that he knows he has to improve his play. Used the phrase “gotta look in the mirror” repeatedly. “When times get tough,” he said, “you just gotta own up to it and be better.”",
-      "published_at": "2026-11-13T16:32:34.399Z",
-      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n27fwv7nqk26",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 1,
-        "likes": 12
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n27fwv7nqk26",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "4b52d39d72097ff5a1fb",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:5snsqcpdjobpqhme4re2jse3/app.bsky.feed.post/3n27eqrwhws2w",
-      "author": "Strictly 4 My Navigators",
-      "handle": "lizzslockeroom.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5snsqcpdjobpqhme4re2jse3/bafkreiggzfgcojqxwygm66af5rtg5qw5yzj3skzemnhb3xrlw4b4kntky4",
-      "text": "#KnicksSky",
-      "published_at": "2026-11-13T16:11:15.886Z",
-      "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3n27eqrwhws2w",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5snsqcpdjobpqhme4re2jse3/bafkreicld4jjfndgeyfzjkp7ccrjpwpczdxpvdaheki54bolckd2jkfxju",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 2,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5snsqcpdjobpqhme4re2jse3/post/3n27eqrwhws2w",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "7ab6e29996d014b8fab2",
@@ -1859,9 +1758,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/knicks-stance-potential-mikal-bridges-trade-just-became-clear-01m78jm7gppr",
         "render_mode": "article_preview"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-14T01:00:48.207Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-13T01:00:25.191Z"
+      "image_status": "available"
     },
     {
       "id": "54b874f79d143e474e24",
