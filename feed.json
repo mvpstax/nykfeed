@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T05:00:31.831Z",
+  "generated_at": "2026-11-14T05:15:18.379Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 119,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 3971,
+    "refresh_duration_ms": 4798,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,8 +28,9 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": true,
-        "items": 20
+        "ok": false,
+        "items": 0,
+        "error": "HTTP 403"
       },
       {
         "source_key": "hoops_rumors",
@@ -91,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 100,
+      "available": 94,
       "missing": 19,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -851,26 +852,26 @@
       "image_status": "not_provided"
     },
     {
-      "id": "f22d96d343309cb8f7db",
+      "id": "99604cdae59e774a9152",
       "type": "article",
       "source": "Yahoo Sports",
       "source_key": "yahoo_sports_nba",
-      "title": "NBA Cup 2026: Knicks drop to last place in group play with loss to shorthanded Pacers",
+      "title": "NBA Cup 2026: Knicks drop to last place in group play with loss to shorthanded Pacers, Spurs dominate Warriors",
       "summary": "The game was nearly another Knicks comeback win.",
       "author": "Jack Baer",
       "published_at": "2026-11-14T02:42:46.000Z",
-      "url": "https://sports.yahoo.com/nba/article/nba-cup-2026-knicks-drop-to-last-place-in-group-play-with-loss-to-shorthanded-pacers-024246939.html",
+      "url": "https://sports.yahoo.com/nba/article/nba-cup-2026-knicks-drop-to-last-place-in-group-play-with-loss-to-shorthanded-pacers-spurs-dominate-warriors-050242776.html",
       "image_url": "https://s.yimg.com/lo/mysterio/api/d0173dabbdb9732aacb846db57c383f044212a34e5f4bfc7d29e4a8bb4b99f6d/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F69b8f45a-0191-4bc2-96cf-f97e42433a15",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
         "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/article/nba-cup-2026-knicks-drop-to-last-place-in-group-play-with-loss-to-shorthanded-pacers-024246939.html"
+        "url": "https://sports.yahoo.com/nba/article/nba-cup-2026-knicks-drop-to-last-place-in-group-play-with-loss-to-shorthanded-pacers-spurs-dominate-warriors-050242776.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-14T05:15:18.185Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-14T03:00:31.029Z"
+      "image_status": "available"
     },
     {
       "id": "ff30556dc78f6afa9532",
@@ -1870,27 +1871,6 @@
       "image_checked_at": "2026-11-13T12:00:24.388Z"
     },
     {
-      "id": "369c3b9613e57b136228",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Friday Subscriber Chat",
-      "summary": "And the Knicks are back in action tonight.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-13T10:01:53.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "1e289d30aa2ed2303716",
       "type": "social",
       "source": "Bluesky",
@@ -2708,27 +2688,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "dd8a5a4a6a033ffa1296",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Blame Game",
-      "summary": "The Knicks lost a game it feels like they could have won. So who is (or isn’t) at fault?",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-12T10:01:02.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/blame-game-d58",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!kUOE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2120719024023609344.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/blame-game-d58"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "e983c0117ea4eb2be10e",
       "type": "article",
       "source": "ESPN",
@@ -3173,27 +3132,6 @@
       "image_checked_at": "2026-11-13T11:30:23.497Z"
     },
     {
-      "id": "8c17e82c92dab045d504",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Laugher",
-      "summary": "The Bucks are bad and the Knicks took advantage, but we still got some stuff to get excited about in the blowout.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-11T10:01:57.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/laugher",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!_A5f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc118f725-cf84-4db4-94c9-3e27ce40e67e_810x684.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/laugher"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "8514c2912ce7d7f7d816",
       "type": "article",
       "source": "ESPN",
@@ -3284,27 +3222,6 @@
       "image_checked_at": "2026-11-13T17:30:30.596Z"
     },
     {
-      "id": "0fc0b8301b177077dd05",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Is This Something?",
-      "summary": "I look at five stats from the early season and render a verdict on whether they’re worth fussing over.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-10T10:08:13.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/is-this-something",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!GWRq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa530419-ca2d-4ce4-9874-fea9388cc7ed_1740x1036.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/is-this-something"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "357971ed401efd428012",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3343,27 +3260,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/luka-doncic-jalen-brunson-named-nbas-players-of-the-week.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "5eb163fcbc25e9c47bad",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Hiding in Plain Sight",
-      "summary": "The Knicks offense is back in business, even if they’re still missing shots they normally make.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-09T10:02:18.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!n9P4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2119243561262612480.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3411,27 +3307,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-13T21:15:22.978Z"
-    },
-    {
-      "id": "64cdcf1dad6bda76123f",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Death, Taxes, and Beating Cleveland",
-      "summary": "Some things never change.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-08T10:01:05.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!A8jk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ce5760e-6605-4bb5-9bcc-88d0d353dbcb_940x830.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "23325e37fa37891973e5",
