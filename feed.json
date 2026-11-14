@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T01:15:42.010Z",
+  "generated_at": "2026-11-14T01:30:23.064Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 102,
     "game_count": 0,
-    "refresh_duration_ms": 28111,
+    "refresh_duration_ms": 5729,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 1
       },
       {
         "source_key": "official_knicks_articles",
@@ -95,12 +94,46 @@
     "images": {
       "available": 88,
       "missing": 14,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "9a8bd10cfbe303a81a15",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:rtnawvgru7pkebpfifmfqhde/app.bsky.feed.post/3n2adai3ryc26",
+      "author": "Mo Spade",
+      "handle": "mospade.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnawvgru7pkebpfifmfqhde/bafkreiee6v7hjymx2upd4ajvt5wxli2ms2pluz3oixfcdywygix2r3biwy",
+      "text": "Have thought “the Knicks played like crap but the score could be worse” way too often this season lol",
+      "published_at": "2026-11-14T01:16:54.701Z",
+      "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3n2adai3ryc26",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3n2adai3ryc26",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "3937fc6302a73a5cffe4",
       "type": "social",
@@ -123,7 +156,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -189,9 +222,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -290,9 +323,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/multiple-teams-travel-impacted-by-faa-ground-stop.html"
       },
-      "image_checked_at": "2026-11-14T01:15:41.821Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-14T01:15:41.821Z"
     },
     {
       "id": "9ac0a922e8aa544daf53",
@@ -315,8 +348,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "reposts": 1,
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -780,40 +813,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "3632106f0908c2b65e81",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wmhtl2l4abiuqxglnyo7fozp/app.bsky.feed.post/3n2a765zer22v",
-      "author": "_Matt",
-      "handle": "nyk-we-here-2pnt0.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wmhtl2l4abiuqxglnyo7fozp/bafkreib5d76kgagv2njcxecjq3ohujrjxlye6imou2x3ofnhbitgfociee",
-      "text": "🏀 #FridayNightKnicks 🔸🔹",
-      "published_at": "2026-11-14T00:04:02.059Z",
-      "url": "https://bsky.app/profile/did:plc:wmhtl2l4abiuqxglnyo7fozp/post/3n2a765zer22v",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wmhtl2l4abiuqxglnyo7fozp/post/3n2a765zer22v",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
     },
     {
       "id": "0a793735bc0fcd144f74",
