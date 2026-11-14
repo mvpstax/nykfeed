@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T04:00:24.546Z",
+  "generated_at": "2026-11-14T04:15:43.156Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 113,
     "game_count": 0,
-    "refresh_duration_ms": 6368,
+    "refresh_duration_ms": 28591,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,109 @@
       }
     ],
     "images": {
-      "available": 90,
-      "missing": 22,
-      "article_pages_checked": 0
+      "available": 92,
+      "missing": 21,
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "05c577f03d135bc3e270",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n2amrhgxsg2w",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Jalen Brunson is fed up with Quenton Jackson \n\n“Box and one… Weak ass n****” t.co/iG5bhDgUJW (via @Fullcourtpass)",
+      "published_at": "2026-11-14T04:07:27.910Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2amrhgxsg2w",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigmuhvr4xjesxel6wsjw6juepso7avrh43ej3hzoh3siwdcdeimrq/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigmuhvr4xjesxel6wsjw6juepso7avrh43ej3hzoh3siwdcdeimrq/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreigmuhvr4xjesxel6wsjw6juepso7avrh43ej3hzoh3siwdcdeimrq/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1080,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2amrhgxsg2w",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "0f4360df1b7246c70557",
+      "type": "article",
+      "source": "Hoops Rumors",
+      "source_key": "hoops_rumors",
+      "title": "Knicks Notes: McBride, Bridges, Towns, Dillingham",
+      "summary": "The Knicks’ edict from ownership to remain under the second apron, and their subsequent move to pause extension talks for their players, created the impression that backup guard Miles McBride could be the odd man out should the team pursue a backup center on the trade market. However, McBride’s play over the last few weeks […]",
+      "author": "Eli Cohen",
+      "published_at": "2026-11-14T04:01:01.000Z",
+      "url": "https://www.hoopsrumors.com/2026/11/knicks-notes-mcbride-bridges-towns-dillingham.html",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/10/Miles-McBride-900x600.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.hoopsrumors.com/2026/11/knicks-notes-mcbride-bridges-towns-dillingham.html"
+      },
+      "image_checked_at": "2026-11-14T04:15:42.967Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
+    {
+      "id": "0fc2aad81f522c85763e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3n2amedcu542z",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "This was the Knicks first one-possession game of the season. They had 13 one-possession games last season, going 9-4, including both a win and a loss against the Pacers. The Knicks lost the 4th by a point tonight, and they’re now 6-6 in the 4th this season, though they’re 3-3 when they win it.",
+      "published_at": "2026-11-14T04:00:07.572Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2amedcu542z",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreielav4jdo5lwwuqwlx3e2vptdeugsbglekzdgxxhxjsp7qpwstb24",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2amedcu542z",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "88209b063dcb4f23cce6",
       "type": "social",
@@ -1075,40 +1171,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:jrfb3vuymngqw3pq4247uhqw/post/3n2agv3xsg225",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "2e4b2d3d4dd4312de877",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:jcwykpyodhuvh7j3xonjzxyl/app.bsky.feed.post/3n2agp2x7zk2e",
-      "author": "Armin Tolentino",
-      "handle": "armintolentino.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:jcwykpyodhuvh7j3xonjzxyl/bafkreiaabkrsatwxq7i3irors4lygigslzmle6w2a5risooyudpfvflngm",
-      "text": "Fuck. But, Kelly oubre is still gorgeous #knickssky",
-      "published_at": "2026-11-14T02:18:45.453Z",
-      "url": "https://bsky.app/profile/did:plc:jcwykpyodhuvh7j3xonjzxyl/post/3n2agp2x7zk2e",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:jcwykpyodhuvh7j3xonjzxyl/post/3n2agp2x7zk2e",
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
@@ -2879,41 +2941,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n236elrzix24",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "244dd5c045e49edc476f",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n2364tob572b",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Jalen Brunson is making 65.7 passes a game through 10 games, 3rd among the 211 players averaging 20+ minutes. Nikola Jokić leads at 78.8.\n\nData: NBA tracking",
-      "published_at": "2026-11-12T00:02:05.183Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2364tob572b",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreighdshmup2ynb5xy2ckzv5e3v2rd2ub77dwpzhmylcqnyvtda2iqy",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2364tob572b",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
