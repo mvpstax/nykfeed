@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T04:45:17.762Z",
+  "generated_at": "2026-11-14T05:00:31.831Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 113,
+    "item_count": 119,
     "game_count": 0,
-    "refresh_duration_ms": 4826,
+    "refresh_duration_ms": 3971,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,9 +28,8 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": false,
-        "items": 0,
-        "error": "HTTP 403"
+        "ok": true,
+        "items": 20
       },
       {
         "source_key": "hoops_rumors",
@@ -92,14 +91,52 @@
       }
     ],
     "images": {
-      "available": 93,
-      "missing": 20,
+      "available": 100,
+      "missing": 19,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "1ec00eff0162a47038f2",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3n2ap5ili4m2u",
+      "author": "Knicks Film School",
+      "handle": "knickfilmskool.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
+      "text": "BOCKER BREAKDOWN: 12/82\n\nKnicks comeback falls short again as the champs lose their second straight, 106-104 vs the Pacers. \n\nBrunson: 33pts, 11asts\nTowns: 23pts, 15rebs, 5asts\nBridges: 18pts, 2stls\n\n🗣️@JeffJSays",
+      "published_at": "2026-11-14T04:49:59.434Z",
+      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2ap5ili4m2u",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreihegwtvwk5ol5ufxk4nnwblnwqocffhfy455jurgobae6r72aycme/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreihegwtvwk5ol5ufxk4nnwblnwqocffhfy455jurgobae6r72aycme/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreihegwtvwk5ol5ufxk4nnwblnwqocffhfy455jurgobae6r72aycme/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1920,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2ap5ili4m2u",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "b925db37563d6b38c6f2",
       "type": "social",
@@ -1142,40 +1179,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "a0a048134d2098a30a12",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zatuc3eivscvrv3aey3mfvzj/app.bsky.feed.post/3n2ah2aqzlc2s",
-      "author": "Spicy Nurse🌶🌶🇦🇬🇬🇧",
-      "handle": "spicynurse38.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zatuc3eivscvrv3aey3mfvzj/bafkreicfysyfvuehvuppw3jnznfq4fnt3veeydk7ljgcixvnbocblkrnkm",
-      "text": "I lost it when Drummond just fumbling and bumbling.  Knicks like too much old heads instead of giving younger players a chance.",
-      "published_at": "2026-11-14T02:25:00.650Z",
-      "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3n2ah2aqzlc2s",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zatuc3eivscvrv3aey3mfvzj/post/3n2ah2aqzlc2s",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "bca9a6b1c9a31042d78f",
       "type": "social",
       "source": "Bluesky",
@@ -1865,6 +1868,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-13T12:00:24.388Z"
+    },
+    {
+      "id": "369c3b9613e57b136228",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Friday Subscriber Chat",
+      "summary": "And the Knicks are back in action tonight.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-13T10:01:53.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "1e289d30aa2ed2303716",
@@ -2684,6 +2708,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "dd8a5a4a6a033ffa1296",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Blame Game",
+      "summary": "The Knicks lost a game it feels like they could have won. So who is (or isn’t) at fault?",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-12T10:01:02.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/blame-game-d58",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!kUOE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2120719024023609344.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/blame-game-d58"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "e983c0117ea4eb2be10e",
       "type": "article",
       "source": "ESPN",
@@ -3128,6 +3173,27 @@
       "image_checked_at": "2026-11-13T11:30:23.497Z"
     },
     {
+      "id": "8c17e82c92dab045d504",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Laugher",
+      "summary": "The Bucks are bad and the Knicks took advantage, but we still got some stuff to get excited about in the blowout.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-11T10:01:57.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/laugher",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!_A5f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc118f725-cf84-4db4-94c9-3e27ce40e67e_810x684.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/laugher"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "8514c2912ce7d7f7d816",
       "type": "article",
       "source": "ESPN",
@@ -3218,6 +3284,27 @@
       "image_checked_at": "2026-11-13T17:30:30.596Z"
     },
     {
+      "id": "0fc0b8301b177077dd05",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Is This Something?",
+      "summary": "I look at five stats from the early season and render a verdict on whether they’re worth fussing over.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-10T10:08:13.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/is-this-something",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!GWRq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa530419-ca2d-4ce4-9874-fea9388cc7ed_1740x1036.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/is-this-something"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "357971ed401efd428012",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3256,6 +3343,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/luka-doncic-jalen-brunson-named-nbas-players-of-the-week.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "5eb163fcbc25e9c47bad",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Hiding in Plain Sight",
+      "summary": "The Knicks offense is back in business, even if they’re still missing shots they normally make.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-09T10:02:18.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!n9P4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2119243561262612480.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3303,6 +3411,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-13T21:15:22.978Z"
+    },
+    {
+      "id": "64cdcf1dad6bda76123f",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Death, Taxes, and Beating Cleveland",
+      "summary": "Some things never change.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-08T10:01:05.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!A8jk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ce5760e-6605-4bb5-9bcc-88d0d353dbcb_940x830.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "23325e37fa37891973e5",
