@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-14T01:41:26.513Z",
+  "generated_at": "2026-11-14T03:38:51.280Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909990",
@@ -36,30 +36,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "color": "#1d428a",
       "stats": {
-        "games": 11,
-        "boxes": 11,
+        "games": 12,
+        "boxes": 12,
         "wins": 6,
-        "losses": 5,
-        "points": 110.27272727272727,
-        "allowed": 103.45454545454545,
-        "fg": 43.64754098360656,
-        "three": 36.241610738255034,
-        "rebounds": 48,
-        "assists": 26.727272727272727,
-        "turnovers": 14.181818181818182,
+        "losses": 6,
+        "points": 109.75,
+        "allowed": 103.66666666666667,
+        "fg": 43.58013120899719,
+        "three": 36.105476673427994,
+        "rebounds": 47.583333333333336,
+        "assists": 26.833333333333332,
+        "turnovers": 14.416666666666666,
         "factors": {
-          "efg": 51.94672131147541,
-          "tov": 12.560386473429952,
-          "orb": 32.16494845360825,
-          "ftr": 20.389344262295083,
-          "three_rate": 45.799180327868854,
-          "fta_rate": 25.614754098360656,
-          "games": 11,
+          "efg": 51.921274601686974,
+          "tov": 12.76074705691441,
+          "orb": 31.1787072243346,
+          "ftr": 19.587628865979383,
+          "three_rate": 46.20431115276476,
+          "fta_rate": 24.6485473289597,
+          "games": 12,
           "samples": {
-            "efg": 11,
-            "tov": 11,
-            "orb": 11,
-            "ftr": 11
+            "efg": 12,
+            "tov": 12,
+            "orb": 12,
+            "ftr": 12
           },
           "definition_version": 1
         }
@@ -78,19 +78,19 @@
             "availability": null
           },
           {
-            "id": "3934719",
-            "name": "OG Anunoby",
-            "position": "F",
-            "jersey": "8",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
-            "availability": null
-          },
-          {
             "id": "3136195",
             "name": "Karl-Anthony Towns",
             "position": "C",
             "jersey": "32",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+            "availability": null
+          },
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "position": "F",
+            "jersey": "8",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
             "availability": null
           },
           {
@@ -102,11 +102,11 @@
             "availability": null
           },
           {
-            "id": "3914044",
-            "name": "Landry Shamet",
+            "id": "3062679",
+            "name": "Josh Hart",
             "position": "G",
-            "jersey": "44",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png",
+            "jersey": "3",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
             "availability": null
           }
         ]
@@ -115,8 +115,17 @@
         "reported": true,
         "players": []
       },
-      "rest_days": 3,
+      "rest_days": 1,
       "recent": [
+        {
+          "id": "401909296",
+          "date": "2026-11-14T00:00Z",
+          "points": 104,
+          "allowed": 106,
+          "home": false,
+          "opponent": "IND",
+          "result": "L"
+        },
         {
           "id": "401909967",
           "date": "2026-11-12T00:00Z",
@@ -152,19 +161,10 @@
           "home": true,
           "opponent": "CHI",
           "result": "W"
-        },
-        {
-          "id": "401909910",
-          "date": "2026-11-03T00:30Z",
-          "points": 103,
-          "allowed": 90,
-          "home": true,
-          "opponent": "BKN",
-          "result": "W"
         }
       ],
       "home_record": "4–3",
-      "away_record": "2–2"
+      "away_record": "2–3"
     },
     "home": {
       "id": "28",
