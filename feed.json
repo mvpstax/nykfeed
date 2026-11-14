@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T23:45:19.346Z",
+  "generated_at": "2026-11-14T00:00:50.365Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 106,
     "game_count": 0,
-    "refresh_duration_ms": 5104,
+    "refresh_duration_ms": 29333,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 2
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,13 +94,81 @@
     ],
     "images": {
       "available": 97,
-      "missing": 8,
+      "missing": 9,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "67b7c8450c2239590510",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:vq76kvbhxplwtmmbi5om6p3v/app.bsky.feed.post/3n2a6ej27ys2n",
+      "author": "Matt 🎙️🏀💙🧡",
+      "handle": "mattraytalk.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:vq76kvbhxplwtmmbi5om6p3v/bafkreifmzp37nn7mzdipc7c3aj2uqto7pzvgdqa4fpt47hzagx2rikdmom",
+      "text": "Time for Knicks basketball",
+      "published_at": "2026-11-13T23:49:41.204Z",
+      "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3n2a6ej27ys2n",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:vq76kvbhxplwtmmbi5om6p3v/post/3n2a6ej27ys2n",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "095956b5d0bda0d59f55",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3n2a6eddt3k26",
+      "author": "Fred Katz",
+      "handle": "fredkatz.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
+      "text": "Same starters for the Knicks.",
+      "published_at": "2026-11-13T23:49:35.231Z",
+      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2a6eddt3k26",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 1,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2a6eddt3k26",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "8589c2ab9e918dddbbab",
       "type": "social",
@@ -191,7 +260,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -464,7 +533,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 0,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -599,6 +668,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n27pjel6dy24",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "25ba2e053dc3eb014527",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Josh Hart knows how sluggish Knicks can speed up their slow start",
+      "summary": "Josh Hart agreed Friday that the team’s slow pace has negatively impacted himself, Mikal Bridges and OG Anunoby.",
+      "author": null,
+      "published_at": "2026-11-13T19:22:27.000Z",
+      "url": "https://sports.yahoo.com/articles/josh-hart-knows-sluggish-knicks-192227126.html",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/6e34ea7b9ce3b14773f689aeb430c381.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/josh-hart-knows-sluggish-knicks-192227126.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -810,7 +900,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -1625,78 +1715,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n25ojsqqja2z",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "3bfa137aec75e4fcdb90",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:dopbstmnsij5ipmn6sr3fd43/app.bsky.feed.post/3n25nlagx522l",
-      "author": "Seth Rosenthal",
-      "handle": "sethrosenthal.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:dopbstmnsij5ipmn6sr3fd43/bafkreif2nalttdyf2va4pskcdsbq7rji2mggz44j5ccd4sfput37ivsj6q",
-      "text": "wait are people freaked out that Mikal Bridges— sorry, NBA champion Mikal Bridges— is beginning the season in an ass manner? The thing he always does?",
-      "published_at": "2026-11-12T23:43:53.981Z",
-      "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3n25nlagx522l",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 11,
-        "reposts": 3,
-        "likes": 55
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:dopbstmnsij5ipmn6sr3fd43/post/3n25nlagx522l",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "6690e36f1f6c71accbb5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3n25mo2slti23",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "How worried should Knicks fans be about Mikal Bridges?\n\n\"I'm not even really 100% sure how to diagnose it... he's not shooting the ball\" - @BenRitholtzNBA",
-      "published_at": "2026-11-12T23:27:34.971Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n25mo2slti23",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreicolvnpze5cwgyrrap53hpd4zyhylbatbt6kimzx2zx6fkwxirrla/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreicolvnpze5cwgyrrap53hpd4zyhylbatbt6kimzx2zx6fkwxirrla/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreicolvnpze5cwgyrrap53hpd4zyhylbatbt6kimzx2zx6fkwxirrla/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1920,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n25mo2slti23",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
