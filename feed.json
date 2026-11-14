@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T01:30:23.064Z",
+  "generated_at": "2026-11-14T01:45:49.556Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 102,
+    "item_count": 99,
     "game_count": 0,
-    "refresh_duration_ms": 5729,
+    "refresh_duration_ms": 29171,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -71,7 +72,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 18
+        "items": 15
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -93,13 +94,47 @@
     ],
     "images": {
       "available": 88,
-      "missing": 14,
+      "missing": 11,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "1d0d3ae187ac1bba85f3",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:lur5p3tfrlj42k2ph74voo34/app.bsky.feed.post/3n2aeim4gvk2e",
+      "author": "Josh Kail",
+      "handle": "thatjoshkail.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreiekif5suc73ob7wrrkhtckxbi7x4p264vefrtyfacxjinx3itbcrq",
+      "text": "Mikal Bridges is in double figures. Baby steps.",
+      "published_at": "2026-11-14T01:39:21.095Z",
+      "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3n2aeim4gvk2e",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3n2aeim4gvk2e",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "9a8bd10cfbe303a81a15",
       "type": "social",
@@ -122,7 +157,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -156,7 +191,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -349,7 +384,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -387,7 +422,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 1,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -639,142 +674,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:6zqqutzxhjnanhcpgntgrzne/post/3n2aa3iyy722u",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "3db65fe7608e3f12cb50",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3n2a7zmu3jcy7",
-      "author": "Fred Katz",
-      "handle": "fredkatz.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
-      "text": "Strong minutes for Mikal Bridges to start tonight. Made a couple of really good plays off the ball on defense. Hit a mid-ranger and then just found a layup with that cut.",
-      "published_at": "2026-11-14T00:19:23.585Z",
-      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2a7zmu3jcy7",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 8
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2a7zmu3jcy7",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "8111e9818c1afd15b83c",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3n2a7oy6nssy7",
-      "author": "Fred Katz",
-      "handle": "fredkatz.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
-      "text": "Regarding the Knicks' flight situation: They are waiting to find out the next steps, just like anyone else. The team is not sure yet if it will be able to leave Indianapolis after the game tonight, as previously planned, or if it will have to stay the night here and wait.",
-      "published_at": "2026-11-14T00:13:26.367Z",
-      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2a7oy6nssy7",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 2,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2a7oy6nssy7",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "30b4ef1a537667b5fb08",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:rtnawvgru7pkebpfifmfqhde/app.bsky.feed.post/3n2a7o4xls22i",
-      "author": "Mo Spade",
-      "handle": "mospade.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnawvgru7pkebpfifmfqhde/bafkreiee6v7hjymx2upd4ajvt5wxli2ms2pluz3oixfcdywygix2r3biwy",
-      "text": "It’s great that those old Knicks/Pacers highlights don’t make me sick anymore",
-      "published_at": "2026-11-14T00:12:57.822Z",
-      "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3n2a7o4xls22i",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:rtnawvgru7pkebpfifmfqhde/post/3n2a7o4xls22i",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "43ba6a97c56d8ce52de0",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:qkbkgv6tgnvbyw2xfh2iaqny/app.bsky.feed.post/3n2a7lvjlh22h",
-      "author": "Kate",
-      "handle": "katec111.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:qkbkgv6tgnvbyw2xfh2iaqny/bafkreiebfvqzijpr72zklbeylkttpmmfsyhutvo6xqimhgkzvaoshkkfle",
-      "text": "Let’s go KNICKS!!!  \n💙🧡",
-      "published_at": "2026-11-14T00:11:42.914Z",
-      "url": "https://bsky.app/profile/did:plc:qkbkgv6tgnvbyw2xfh2iaqny/post/3n2a7lvjlh22h",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:qkbkgv6tgnvbyw2xfh2iaqny/post/3n2a7lvjlh22h",
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
