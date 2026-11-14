@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T05:45:18.902Z",
+  "generated_at": "2026-11-14T06:00:46.808Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 113,
+    "item_count": 114,
     "game_count": 0,
-    "refresh_duration_ms": 4993,
+    "refresh_duration_ms": 27989,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 6
+        "items": 7
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 94,
+      "available": 95,
       "missing": 19,
       "article_pages_checked": 0
     },
@@ -299,6 +300,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n2alkqm7ts2h",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "61eb428638f30d3e6fe0",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Pacers 106, Knicks 104: “I’m sure Indiana will look like an all star team tonight.”",
+      "summary": "Towns double-doubles and Cap breaks 30, but a weird whistle and Hoosier energy beats the champs.",
+      "author": null,
+      "published_at": "2026-11-14T03:43:56.000Z",
+      "url": "https://sports.yahoo.com/articles/pacers-106-knicks-104-m-034356895.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/670cb5d2fa807d0629b9b1b427470085.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/pacers-106-knicks-104-m-034356895.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
