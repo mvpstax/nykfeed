@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-15T00:45:18.718Z",
+  "generated_at": "2026-11-15T01:00:26.506Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 117,
     "game_count": 0,
-    "refresh_duration_ms": 5039,
+    "refresh_duration_ms": 3610,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,9 +28,8 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": false,
-        "items": 0,
-        "error": "HTTP 403"
+        "ok": true,
+        "items": 20
       },
       {
         "source_key": "hoops_rumors",
@@ -50,7 +49,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,14 +91,37 @@
       }
     ],
     "images": {
-      "available": 96,
+      "available": 102,
       "missing": 15,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "eac1c8a312d82aab45cb",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "Miles McBride Is Making It Painfully Clear Why Knicks Can’t Trade Him",
+      "summary": "Deuce McBride has come back to life for the Knicks as of late, and that serves as a reminder about why trading him this season could be a bad idea.",
+      "author": "Joseph Randazzo",
+      "published_at": "2026-11-15T01:00:00.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/miles-mcbride-making-it-painfully-clear-why-knicks-cant-trade-him-01m7b577k7dk",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_5479,h_3081/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m7b5911j86h9jdsqtx.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/miles-mcbride-making-it-painfully-clear-why-knicks-cant-trade-him-01m7b577k7dk",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-11-15T01:00:26.123Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "5d4ea8dfde32bb5bd082",
       "type": "social",
@@ -122,7 +144,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -520,7 +542,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -728,7 +750,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 4
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -952,6 +974,27 @@
       "image_status": "not_provided"
     },
     {
+      "id": "73de654feb635d105a3b",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Still Hungover",
+      "summary": "We thought the Knicks were over their early season foibles. Maybe we were a bit presumptuous.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-14T10:01:26.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/still-hungover",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!_KMN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F320ad953-5d4c-456b-9723-d804cfacf6cd_1190x906.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/still-hungover"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "918672975536bf2d8a00",
       "type": "social",
       "source": "Bluesky",
@@ -971,7 +1014,7 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 2,
+        "replies": 3,
         "reposts": 2,
         "likes": 10
       },
@@ -1226,27 +1269,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n2alkqm7ts2h",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "61eb428638f30d3e6fe0",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Pacers 106, Knicks 104: “I’m sure Indiana will look like an all star team tonight.”",
-      "summary": "Towns double-doubles and Cap breaks 30, but a weird whistle and Hoosier energy beats the champs.",
-      "author": null,
-      "published_at": "2026-11-14T03:43:56.000Z",
-      "url": "https://sports.yahoo.com/articles/pacers-106-knicks-104-m-034356895.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/670cb5d2fa807d0629b9b1b427470085.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/pacers-106-knicks-104-m-034356895.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2418,6 +2440,27 @@
       "image_checked_at": "2026-11-14T12:00:50.867Z"
     },
     {
+      "id": "369c3b9613e57b136228",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Friday Subscriber Chat",
+      "summary": "And the Knicks are back in action tonight.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-13T10:01:53.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "1e289d30aa2ed2303716",
       "type": "social",
       "source": "Bluesky",
@@ -3057,6 +3100,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "dd8a5a4a6a033ffa1296",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Blame Game",
+      "summary": "The Knicks lost a game it feels like they could have won. So who is (or isn’t) at fault?",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-12T10:01:02.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/blame-game-d58",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!kUOE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2120719024023609344.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/blame-game-d58"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "aa9fa4bf0b6933aa5651",
       "type": "article",
       "source": "RealGM",
@@ -3238,27 +3302,25 @@
       "image_checked_at": "2026-11-14T16:00:25.324Z"
     },
     {
-      "id": "7eafeb78e6f5abd49ba9",
+      "id": "8c17e82c92dab045d504",
       "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "3 Big & 3 Small Takeaways from Knicks' Blowout Win vs. Bucks",
-      "summary": "Here's what to make of the Knicks' latest performance after beating the Bucks 117-85 on Tuesday.",
-      "author": "Max Wildstein",
-      "published_at": "2026-11-11T14:17:49.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/3-big-3-small-takeaways-knicks-blowout-win-vs-bucks-01m74b0cyzyt",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_7,y_37,w_2370,h_1333/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m74b8drewaq8segcvy.jpg",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Laugher",
+      "summary": "The Bucks are bad and the Knicks took advantage, but we still got some stuff to get excited about in the blowout.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-11T10:01:57.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/laugher",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!_A5f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc118f725-cf84-4db4-94c9-3e27ce40e67e_810x684.png",
       "team": "NYK",
       "presentation": {
         "open_mode": "drawer",
-        "embed_attempt": false,
+        "embed_attempt": true,
         "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/3-big-3-small-takeaways-knicks-blowout-win-vs-bucks-01m74b0cyzyt",
-        "render_mode": "article_preview"
+        "url": "https://knicksfilmschool.substack.com/p/laugher"
       },
       "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-11-14T15:00:48.535Z"
+      "image_source": "source_feed"
     },
     {
       "id": "8514c2912ce7d7f7d816",
@@ -3277,6 +3339,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50449120/game-highlights"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "0fc0b8301b177077dd05",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Is This Something?",
+      "summary": "I look at five stats from the early season and render a verdict on whether they’re worth fussing over.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-10T10:08:13.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/is-this-something",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!GWRq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa530419-ca2d-4ce4-9874-fea9388cc7ed_1740x1036.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/is-this-something"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3325,6 +3408,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "5eb163fcbc25e9c47bad",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Hiding in Plain Sight",
+      "summary": "The Knicks offense is back in business, even if they’re still missing shots they normally make.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-09T10:02:18.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!n9P4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2119243561262612480.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "6d09efec95cfd469d21e",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3367,6 +3471,27 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-14T21:15:23.232Z"
+    },
+    {
+      "id": "64cdcf1dad6bda76123f",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Death, Taxes, and Beating Cleveland",
+      "summary": "Some things never change.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-08T10:01:05.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!A8jk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ce5760e-6605-4bb5-9bcc-88d0d353dbcb_940x830.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     }
   ],
   "clusters": []
