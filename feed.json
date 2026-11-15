@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-15T04:15:28.928Z",
+  "generated_at": "2026-11-15T04:30:20.635Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 4922,
+    "refresh_duration_ms": 4438,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,8 +28,9 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": true,
-        "items": 20
+        "ok": false,
+        "items": 0,
+        "error": "HTTP 403"
       },
       {
         "source_key": "hoops_rumors",
@@ -39,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "espn",
@@ -91,9 +92,9 @@
       }
     ],
     "images": {
-      "available": 103,
+      "available": 95,
       "missing": 13,
-      "article_pages_checked": 0
+      "article_pages_checked": 1
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
@@ -1184,27 +1185,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "73de654feb635d105a3b",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Still Hungover",
-      "summary": "We thought the Knicks were over their early season foibles. Maybe we were a bit presumptuous.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-14T10:01:26.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/still-hungover",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!_KMN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F320ad953-5d4c-456b-9723-d804cfacf6cd_1190x906.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/still-hungover"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "918672975536bf2d8a00",
       "type": "social",
       "source": "Bluesky",
@@ -1388,9 +1368,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/knicks-notes-mcbride-bridges-towns-dillingham.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-15T04:30:20.594Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-14T04:15:42.967Z"
+      "image_status": "available"
     },
     {
       "id": "0fc2aad81f522c85763e",
@@ -2561,27 +2541,6 @@
       "image_checked_at": "2026-11-14T12:00:50.867Z"
     },
     {
-      "id": "369c3b9613e57b136228",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Friday Subscriber Chat",
-      "summary": "And the Knicks are back in action tonight.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-13T10:01:53.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "1e289d30aa2ed2303716",
       "type": "social",
       "source": "Bluesky",
@@ -3081,48 +3040,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "dd8a5a4a6a033ffa1296",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Blame Game",
-      "summary": "The Knicks lost a game it feels like they could have won. So who is (or isn’t) at fault?",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-12T10:01:02.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/blame-game-d58",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!kUOE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2120719024023609344.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/blame-game-d58"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "aa9fa4bf0b6933aa5651",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Rob Dillingham To Join Westchester Knicks",
-      "summary": "Rob Dillingham is expected to sign with the Westchester Knicks, sources told Jake Fischer of The People's Insider. Dillingham was most recently waived by the Hornets. Dillingham averaged 6.3 points and 2.2 assists for the Wolves and Bulls last year.",
-      "author": null,
-      "published_at": "2026-11-12T06:24:46.000Z",
-      "url": "https://basketball.realgm.com/wiretap/288107/Rob-Dillingham-To-Join-Westchester-Knicks",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Dillingham_Rob_chi_260225.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/288107/Rob-Dillingham-To-Join-Westchester-Knicks"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "57d72ace85c6f463b4da",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3280,27 +3197,6 @@
       "image_checked_at": "2026-11-14T16:00:25.324Z"
     },
     {
-      "id": "8c17e82c92dab045d504",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Laugher",
-      "summary": "The Bucks are bad and the Knicks took advantage, but we still got some stuff to get excited about in the blowout.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-11T10:01:57.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/laugher",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!_A5f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc118f725-cf84-4db4-94c9-3e27ce40e67e_810x684.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/laugher"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "8514c2912ce7d7f7d816",
       "type": "article",
       "source": "ESPN",
@@ -3317,27 +3213,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50449120/game-highlights"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "0fc0b8301b177077dd05",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Is This Something?",
-      "summary": "I look at five stats from the early season and render a verdict on whether they’re worth fussing over.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-10T10:08:13.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/is-this-something",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!GWRq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa530419-ca2d-4ce4-9874-fea9388cc7ed_1740x1036.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/is-this-something"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3386,27 +3261,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "5eb163fcbc25e9c47bad",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Hiding in Plain Sight",
-      "summary": "The Knicks offense is back in business, even if they’re still missing shots they normally make.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-09T10:02:18.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!n9P4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2119243561262612480.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "6d09efec95cfd469d21e",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3449,27 +3303,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-14T21:15:23.232Z"
-    },
-    {
-      "id": "64cdcf1dad6bda76123f",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Death, Taxes, and Beating Cleveland",
-      "summary": "Some things never change.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-08T10:01:05.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!A8jk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ce5760e-6605-4bb5-9bcc-88d0d353dbcb_940x830.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/death-taxes-and-beating-cleveland"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     }
   ],
   "clusters": []
