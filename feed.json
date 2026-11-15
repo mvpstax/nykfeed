@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-15T01:30:20.850Z",
+  "generated_at": "2026-11-15T01:45:42.486Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 2652,
+    "refresh_duration_ms": 29755,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,14 +93,49 @@
       }
     ],
     "images": {
-      "available": 95,
-      "missing": 15,
-      "article_pages_checked": 1
+      "available": 96,
+      "missing": 14,
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "4e5f117ce7a190342ac5",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:lur5p3tfrlj42k2ph74voo34/app.bsky.feed.post/3n2cuigmpwk2r",
+      "author": "Josh Kail",
+      "handle": "thatjoshkail.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreiekif5suc73ob7wrrkhtckxbi7x4p264vefrtyfacxjinx3itbcrq",
+      "text": "For the Knicks to have a Larry based on this is 🤯",
+      "published_at": "2026-11-15T01:30:54.678Z",
+      "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3n2cuigmpwk2r",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreie4os7ob4d7h6o4y6jonrlsvyhwnirs4prtn34v6zjkmknktbhbz4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3n2cuigmpwk2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "e1bbbaa4aa94f2e1ba50",
       "type": "social",
@@ -1837,40 +1873,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "ff30556dc78f6afa9532",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:qwxmqq22a6wwhacvyjyrn5vq/app.bsky.feed.post/3n2ahzfy3us2w",
-      "author": "Tony Always Knicks 🏆🧡💙",
-      "handle": "tomarc.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:qwxmqq22a6wwhacvyjyrn5vq/bafkreieyhrclbiwv7obd6qcicezd6hkkaqwlb3jacpceyr42s6uabofgtu",
-      "text": "Cardiac Knicks dishin out heart attacks",
-      "published_at": "2026-11-14T02:42:26.309Z",
-      "url": "https://bsky.app/profile/did:plc:qwxmqq22a6wwhacvyjyrn5vq/post/3n2ahzfy3us2w",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 1,
-        "reposts": 1,
-        "likes": 3
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:qwxmqq22a6wwhacvyjyrn5vq/post/3n2ahzfy3us2w",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "bca9a6b1c9a31042d78f",
       "type": "social",
       "source": "Bluesky",
@@ -1958,9 +1960,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/multiple-teams-travel-impacted-by-faa-ground-stop.html"
       },
-      "image_checked_at": "2026-11-15T01:30:20.810Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-15T01:30:20.810Z"
     },
     {
       "id": "9631c1b71ecff2ffe635",
