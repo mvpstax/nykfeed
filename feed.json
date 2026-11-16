@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T04:15:20.176Z",
+  "generated_at": "2026-11-16T04:30:31.769Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 5420,
+    "refresh_duration_ms": 4408,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,9 +28,8 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": false,
-        "items": 0,
-        "error": "HTTP 403"
+        "ok": true,
+        "items": 20
       },
       {
         "source_key": "hoops_rumors",
@@ -50,7 +49,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 3
+        "items": 2
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,7 +91,7 @@
       }
     ],
     "images": {
-      "available": 90,
+      "available": 95,
       "missing": 15,
       "article_pages_checked": 1
     },
@@ -222,9 +221,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/atlantic-notes-hart-towns-james-barnes.html"
       },
-      "image_checked_at": "2026-11-16T04:15:19.990Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-16T04:15:19.990Z"
     },
     {
       "id": "e9a3f30f3f40d3c06f6a",
@@ -248,7 +247,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 8
+        "likes": 9
       },
       "team": "NYK",
       "presentation": {
@@ -1637,27 +1636,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "71ad10da5e2f6834404b",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Game Preview: Knicks at Raptors, November 15, 2026",
-      "summary": "The first of two appearances in Toronto this week.",
-      "author": null,
-      "published_at": "2026-11-15T14:14:34.000Z",
-      "url": "https://sports.yahoo.com/articles/game-preview-knicks-raptors-november-141434779.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/7c42af31851214ccc677ba9b776fd70e.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/game-preview-knicks-raptors-november-141434779.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "bed46b41fd8de5ae0564",
       "type": "social",
       "source": "Bluesky",
@@ -2373,6 +2351,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "73de654feb635d105a3b",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Still Hungover",
+      "summary": "We thought the Knicks were over their early season foibles. Maybe we were a bit presumptuous.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-14T10:01:26.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/still-hungover",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!_KMN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F320ad953-5d4c-456b-9723-d804cfacf6cd_1190x906.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/still-hungover"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "76974a908516d14d5f0e",
       "type": "article",
       "source": "ESPN",
@@ -2449,9 +2448,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/knicks-notes-mcbride-bridges-towns-dillingham.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-16T04:30:31.713Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-15T04:30:20.594Z"
+      "image_status": "available"
     },
     {
       "id": "20cac83cf7f0a8359551",
@@ -2980,6 +2979,27 @@
       "image_checked_at": "2026-11-15T12:15:16.960Z"
     },
     {
+      "id": "369c3b9613e57b136228",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Friday Subscriber Chat",
+      "summary": "And the Knicks are back in action tonight.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-13T10:01:53.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "33556861ee8ba4bbb458",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3111,6 +3131,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "dd8a5a4a6a033ffa1296",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Blame Game",
+      "summary": "The Knicks lost a game it feels like they could have won. So who is (or isn’t) at fault?",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-12T10:01:02.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/blame-game-d58",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!kUOE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2120719024023609344.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/blame-game-d58"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "57d72ace85c6f463b4da",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3176,6 +3217,27 @@
       "image_checked_at": "2026-11-15T16:15:23.128Z"
     },
     {
+      "id": "8c17e82c92dab045d504",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Laugher",
+      "summary": "The Bucks are bad and the Knicks took advantage, but we still got some stuff to get excited about in the blowout.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-11T10:01:57.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/laugher",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!_A5f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc118f725-cf84-4db4-94c9-3e27ce40e67e_810x684.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/laugher"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "8514c2912ce7d7f7d816",
       "type": "article",
       "source": "ESPN",
@@ -3192,6 +3254,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50449120/game-highlights"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "0fc0b8301b177077dd05",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Is This Something?",
+      "summary": "I look at five stats from the early season and render a verdict on whether they’re worth fussing over.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-10T10:08:13.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/is-this-something",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!GWRq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa530419-ca2d-4ce4-9874-fea9388cc7ed_1740x1036.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/is-this-something"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3235,6 +3318,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/luka-doncic-jalen-brunson-named-nbas-players-of-the-week.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "5eb163fcbc25e9c47bad",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Hiding in Plain Sight",
+      "summary": "The Knicks offense is back in business, even if they’re still missing shots they normally make.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-09T10:02:18.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!n9P4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2119243561262612480.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/hiding-in-plain-sight"
       },
       "image_status": "available",
       "image_source": "source_feed"
