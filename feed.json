@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T07:45:19.866Z",
+  "generated_at": "2026-11-16T08:00:24.849Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 105,
+    "item_count": 103,
     "game_count": 0,
-    "refresh_duration_ms": 4925,
+    "refresh_duration_ms": 4497,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -71,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 27
+        "items": 26
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -92,8 +92,8 @@
       }
     ],
     "images": {
-      "available": 91,
-      "missing": 14,
+      "available": 90,
+      "missing": 13,
       "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
@@ -1236,40 +1236,6 @@
       "image_status": "not_provided"
     },
     {
-      "id": "843d0df9c1fcbcde39a5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:somx2646eilotd3gjuwy6xjw/app.bsky.feed.post/3n2fgi342is25",
-      "author": "Jamie O’Grady",
-      "handle": "jamieogrady.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:somx2646eilotd3gjuwy6xjw/bafkreih6pqavandwuzzsuagghroisrit2vecs7y5567fr7bts744mcnnvq",
-      "text": "Great game. Great win. Hopefully Knicks can use this gutsy performance as a springboard.",
-      "published_at": "2026-11-16T01:58:09.431Z",
-      "url": "https://bsky.app/profile/did:plc:somx2646eilotd3gjuwy6xjw/post/3n2fgi342is25",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 5
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:somx2646eilotd3gjuwy6xjw/post/3n2fgi342is25",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "7242a870bf0bd57dd0fd",
       "type": "social",
       "source": "Bluesky",
@@ -1394,27 +1360,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://sports.yahoo.com/articles/game-discussion-thread-knicks-raptors-223000651.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "0c838dfcbdea0463cdc2",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Can the Raptors break a double digit losing record against the Knicks?",
-      "summary": "New York comes north as Toronto will have to stop a KAT attack",
-      "author": null,
-      "published_at": "2026-11-15T21:21:36.000Z",
-      "url": "https://sports.yahoo.com/articles/raptors-break-double-digit-losing-212136134.html",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/77441301b87aa78a20d1870ce4f6c801.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/raptors-break-double-digit-losing-212136134.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
