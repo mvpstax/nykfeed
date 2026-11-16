@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T01:48:45.939Z",
+  "generated_at": "2026-11-16T08:38:26.362Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401909990",
-    "date": "2026-11-15T23:00Z",
-    "status": "In progress",
+    "id": "espn:401910002",
+    "date": "2026-11-18T00:30Z",
+    "status": "Scheduled",
     "phase": "Regular season",
     "home": {
       "name": "Toronto Raptors",
       "abbreviation": "TOR",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
-      "score": 106
+      "score": null
     },
     "away": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": 106
+      "score": null
     },
-    "period": 5,
-    "clock": "35.1"
+    "period": null,
+    "clock": null
   },
   "venue": {
     "id": "1838",
@@ -59,16 +59,29 @@
   "highlights": [],
   "storylines": [
     {
-      "id": "71ad10da5e2f6834404b",
-      "title": "Game Preview: Knicks at Raptors, November 15, 2026",
-      "summary": "The first of two appearances in Toronto this week.",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/7c42af31851214ccc677ba9b776fd70e.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-11-15T14:14:34.000Z",
-      "url": "https://sports.yahoo.com/articles/game-preview-knicks-raptors-november-141434779.html",
+      "id": "f524d715ae3f5590cf1b",
+      "title": "Two Areas Are Critical for Knicks as They Face Raptors in Back-to-Back Games",
+      "summary": "Here's where the Knicks must succeed if they hope to get the better of the Raptors in their back-to-back matchups.",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_1080,h_607/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/all_knicks/01m7dvmzyjaw05a4eab8.jpg",
+      "source": "Sports Illustrated",
+      "published_at": "2026-11-15T19:00:01.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/two-areas-critical-knicks-face-raptors-back-to-back-games-01m7dk5jy72z",
       "topic": "matchup",
       "label": "The matchup",
       "relevance": "matchup",
+      "generated": false
+    },
+    {
+      "id": "1925a1cbe60d014080a9",
+      "title": "Atlantic Notes: Hart, Towns, James, Barnes",
+      "summary": "The Knicks beat the Raptors in overtime on Sunday thanks to big games from Karl-Anthony Towns, Landry Shamet, and Jalen Brunson. One player who notably struggled for the Knicks was Josh Hart, who scored zero points and was benched for long stretches of the second half and much of overtime in favor of Shamet. It […]",
+      "image_url": "https://cdn.hoopsrumors.com/files/2026/10/Josh-Hart-900x600.jpg",
+      "source": "Hoops Rumors",
+      "published_at": "2026-11-16T04:00:07.000Z",
+      "url": "https://www.hoopsrumors.com/2026/11/atlantic-notes-hart-towns-james-barnes.html",
+      "topic": "rotation",
+      "label": "Rotation watch",
+      "relevance": "knicks_preseason",
       "generated": false
     },
     {
@@ -83,22 +96,21 @@
       "label": "Reported availability",
       "relevance": "knicks_preseason",
       "generated": false
-    },
-    {
-      "id": "a2122767114b34ec9d7e",
-      "title": "3 Biggest Culprits That Are Behind Knicks’ Frustrating 6-6 Start",
-      "summary": "The Knicks have struggled through their first 12 games of 2026-27. Poor shot-making, Mike Brown's rotation experiments, and clutch-time struggles explain why.",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_6092,h_3426/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m7e0f12rv7jhas1mqa.jpg",
-      "source": "Sports Illustrated",
-      "published_at": "2026-11-15T12:00:03.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/3-biggest-culprits-are-behind-knicks-frustrating-6-6-start-01m7dtyvf8hr",
-      "topic": "rotation",
-      "label": "Rotation watch",
-      "relevance": "knicks_preseason",
-      "generated": false
     }
   ],
   "players_to_watch": [
+    {
+      "id": "nba:1626157",
+      "name": "Karl-Anthony Towns",
+      "jersey": "32",
+      "position": "Center-Forward",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
+    },
     {
       "id": "nba:1628404",
       "name": "Josh Hart",
@@ -124,18 +136,6 @@
       "games": null
     },
     {
-      "id": "nba:1626157",
-      "name": "Karl-Anthony Towns",
-      "jersey": "32",
-      "position": "Center-Forward",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
-    },
-    {
       "id": "nba:1628969",
       "name": "Mikal Bridges",
       "jersey": "25",
@@ -151,6 +151,6 @@
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-16T01:45:27.113Z"
+    "feed_generated_at": "2026-11-16T08:30:44.828Z"
   }
 }
