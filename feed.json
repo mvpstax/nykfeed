@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T04:45:18.350Z",
+  "generated_at": "2026-11-16T05:00:52.166Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 104,
+    "item_count": 105,
     "game_count": 0,
-    "refresh_duration_ms": 4416,
+    "refresh_duration_ms": 30271,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 2
+        "items": 3
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,7 +93,7 @@
       }
     ],
     "images": {
-      "available": 90,
+      "available": 91,
       "missing": 14,
       "article_pages_checked": 0
     },
@@ -283,7 +284,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -332,6 +333,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "8c57af78b58d844c9ef7",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Knicks 112, Raptors 108 (OT): Scenes from our first bonus basketball of the season",
+      "summary": "Down 14 in the 4th, NY rallied for extra time and a Brunson dagger put a bow on Karl’s birthday game.",
+      "author": null,
+      "published_at": "2026-11-16T02:44:01.000Z",
+      "url": "https://sports.yahoo.com/articles/knicks-112-raptors-108-ot-024401769.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/ecdff20eac78f0e89e9e4abbd14357f9.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/articles/knicks-112-raptors-108-ot-024401769.html"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "1742d952ff1e6cc32e38",
       "type": "social",
       "source": "Bluesky",
@@ -353,7 +375,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -955,7 +977,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 20
+        "likes": 21
       },
       "team": "NYK",
       "presentation": {
