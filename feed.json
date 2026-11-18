@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-18T01:00:57.042Z",
+  "generated_at": "2026-11-18T01:15:24.081Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 116,
+    "item_count": 97,
     "game_count": 0,
-    "refresh_duration_ms": 2880,
+    "refresh_duration_ms": 9231,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,8 +28,9 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": true,
-        "items": 20
+        "ok": false,
+        "items": 0,
+        "error": "HTTP 403"
       },
       {
         "source_key": "hoops_rumors",
@@ -70,7 +71,7 @@
       {
         "source_key": "bluesky_knicks_feed",
         "ok": true,
-        "items": 26
+        "items": 23
       },
       {
         "source_key": "bluesky_courtside_knicks",
@@ -91,30 +92,326 @@
       }
     ],
     "images": {
-      "available": 97,
-      "missing": 9,
+      "available": 84,
+      "missing": 13,
       "article_pages_checked": 0
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-11-18T01:00:57.042Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": false,
-        "error": "HTTP 404"
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "39df8a2cfb56753f73ed",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:lur5p3tfrlj42k2ph74voo34/app.bsky.feed.post/3n2kexmirbk2c",
+      "author": "Josh Kail",
+      "handle": "thatjoshkail.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:lur5p3tfrlj42k2ph74voo34/bafkreiekif5suc73ob7wrrkhtckxbi7x4p264vefrtyfacxjinx3itbcrq",
+      "text": "Aubrey just introduced to the crowd in Toronto. Time for the Knicks to make their run",
+      "published_at": "2026-11-18T01:14:22.197Z",
+      "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3n2kexmirbk2c",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:lur5p3tfrlj42k2ph74voo34/post/3n2kexmirbk2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "e9548b627912cd738e2d",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:q7gnn776gf335rjtrjg4luh3/app.bsky.feed.post/3n2kewd5ngk25",
+      "author": "Bill Lekas",
+      "handle": "billlekas.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:q7gnn776gf335rjtrjg4luh3/bafkreidubrjxowmwjfntbfejeio4ljp2saz3uh4fmp6ol4dd5pb2yght6i",
+      "text": "OG’s decision making on the offensive end has been out of whack all season. So many forced drives, and shots. #Knicks",
+      "published_at": "2026-11-18T01:13:38.835Z",
+      "url": "https://bsky.app/profile/did:plc:q7gnn776gf335rjtrjg4luh3/post/3n2kewd5ngk25",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:q7gnn776gf335rjtrjg4luh3/post/3n2kewd5ngk25",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "7a239b3bc86d2a9b7811",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3n2kevzu7jw2c",
+      "author": "New York Post ",
+      "handle": "nypost.com",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
+      "text": "Juggernaut Spurs can be everyone's problem except Knicks",
+      "published_at": "2026-11-18T01:13:28.819Z",
+      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n2kevzu7jw2c",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreicj33uftmdrtlewhyyeemixisyk3rbqwkf5hmepob5miijxckwuqi",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n2kevzu7jw2c",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "86ea2158d95881e3ec14",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:4ffkssyk53eltidkfivpuzrz/app.bsky.feed.post/3n2kepecdbs2l",
+      "author": "Lori 💙🧡 Knicks in 5 🏆🗽",
+      "handle": "nylori.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4ffkssyk53eltidkfivpuzrz/bafkreieqgnevjcblanoyjh6eu453aiz63eu7eyykni3yudebdpbdfxxt5a",
+      "text": "You can stop showing Drake. #KnicksSky",
+      "published_at": "2026-11-18T01:09:45.163Z",
+      "url": "https://bsky.app/profile/did:plc:4ffkssyk53eltidkfivpuzrz/post/3n2kepecdbs2l",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:4ffkssyk53eltidkfivpuzrz/post/3n2kepecdbs2l",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "69e6d87b8c8696674ca3",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:6y3zulpfknfey5qemwhc4frl/app.bsky.feed.post/3n2kelgcolk2r",
+      "author": "James L. Edwards III",
+      "handle": "jledwardsiii.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:6y3zulpfknfey5qemwhc4frl/bafkreifhtnxhta5dy2tekna4lqrvlxjwyim4e2fvat5bxdfhr7o5qqjmze",
+      "text": "END OF 1Q: Raptors 29, Raptors 23.\n\nToronto spent a lot of time aggressively targeting Brunson on defense.\n\nKnicks offense is once again lackluster to start this one. The defense has had some blow-bys, too.",
+      "published_at": "2026-11-18T01:07:33.053Z",
+      "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3n2kelgcolk2r",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 4
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:6y3zulpfknfey5qemwhc4frl/post/3n2kelgcolk2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "e3b97b67a89a45b20a09",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3n2keknspoc2l",
+      "author": "🏆Knicks Forever🏆",
+      "handle": "wildstreet.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
+      "text": "Lost the 1st quarter, win the 2nd 🏆🧡💙\n#knickssky",
+      "published_at": "2026-11-18T01:07:07.365Z",
+      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3n2keknspoc2l",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 3
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3n2keknspoc2l",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
+    {
+      "id": "865c4a01727b4ad96311",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n2keiwdnco2r",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Darko Rajakovic imitated Jalen Brunson flopping t.co/j5DUARtJCS (via @Fullcourtpass)",
+      "published_at": "2026-11-18T01:06:09.032Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2keiwdnco2r",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiglhdqmh6pmibpy5kp7kq2pixdd3lj44rfegqn6vmdy6phcsvprxu/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiglhdqmh6pmibpy5kp7kq2pixdd3lj44rfegqn6vmdy6phcsvprxu/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreiglhdqmh6pmibpy5kp7kq2pixdd3lj44rfegqn6vmdy6phcsvprxu/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 608,
+        "width": 1080
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2keiwdnco2r",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "776d062df4249898c11e",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:7okgq3dsknx6wmzaoltr3pe4/app.bsky.feed.post/3n2keclngds2d",
+      "author": "theSoreWinner",
+      "handle": "thesorewinner.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreidqr5kdqmnadsowlczvlg5rlonhgajkui7tk27rt34ljefbele4p4",
+      "text": "drake at the game…😢\n#KNICKS #KnicksBlueSkies #KnicksSky",
+      "published_at": "2026-11-18T01:02:36.660Z",
+      "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3n2keclngds2d",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreihn24tijyu2bc2whclvk5oafwsryewh5uocz6inn24fzfzt2c3hz4",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3n2keclngds2d",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "ef9b6556034130d40c46",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:mlc6pzuop5takh7fw432vmq7/app.bsky.feed.post/3n2keadrri22n",
+      "author": "David Goodman",
+      "handle": "dgoodmantrublu.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:mlc6pzuop5takh7fw432vmq7/bafkreievdnmx4zkmnb5nto6lwa6gb4qb6vot4pdrxzzqyqmfsgw6wk36hq",
+      "text": "Knicks defense is ass so far",
+      "published_at": "2026-11-18T01:01:21.305Z",
+      "url": "https://bsky.app/profile/did:plc:mlc6pzuop5takh7fw432vmq7/post/3n2keadrri22n",
+      "image_url": null,
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:mlc6pzuop5takh7fw432vmq7/post/3n2keadrri22n",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "not_provided"
+    },
     {
       "id": "b8b4a4693972dcee6d73",
       "type": "social",
@@ -171,7 +468,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -378,7 +675,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 1,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -1080,76 +1377,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "b9e35a488fe2a21ed2cd",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:xwa273u2xtoaab4lm5ybj2uy/app.bsky.feed.post/3n2ja6gl3g222",
-      "author": "Fred Katz",
-      "handle": "fredkatz.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreihbacmodcixob63m6n265veahuhv2446b7axyuf4unt6fdpqwvpo4",
-      "text": "The Knicks want to run faster. Late agains the Raptors, they did just that — and much because of what happened before they got the basketball.\n\nStory: www.nytimes.com/athletic/778...",
-      "published_at": "2026-11-17T14:16:02.415Z",
-      "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2ja6gl3g222",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:xwa273u2xtoaab4lm5ybj2uy/bafkreigocgumdvbjglsbdnjc325iykunq6tpv4q4z2ddjo2vjx7qzrh33m",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 1,
-        "likes": 5
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:xwa273u2xtoaab4lm5ybj2uy/post/3n2ja6gl3g222",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "35dd8d645857c93441f6",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:rwdjay3uyh4atcl5tlxsl2qe/app.bsky.feed.post/3n2ja6agck22q",
-      "author": "Tophe",
-      "handle": "tophtalk.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:rwdjay3uyh4atcl5tlxsl2qe/bafkreieturbbn5csqoutgeggrb5sa3zloyxb4kqgz5pe4u7pi6dvlcpxiu",
-      "text": "The New York Knicks play basketball today. Rejoice accordingly 🫡",
-      "published_at": "2026-11-17T14:15:55.962Z",
-      "url": "https://bsky.app/profile/did:plc:rwdjay3uyh4atcl5tlxsl2qe/post/3n2ja6agck22q",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rwdjay3uyh4atcl5tlxsl2qe/bafkreiapsmhb7hz5a6uzjptoesinsh7cbvdaxjv6o3cty2vf7smghypjx4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 6,
-        "reposts": 0,
-        "likes": 16
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:rwdjay3uyh4atcl5tlxsl2qe/post/3n2ja6agck22q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "8fa18665208aa82a4d0c",
       "type": "social",
       "source": "Bluesky",
@@ -1185,41 +1412,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "86c4b3abab802d7dd4cb",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3n2j3aaomg22v",
-      "author": "Posting and Toasting",
-      "handle": "postingandtoasting.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
-      "text": "Game Preview: Knicks at Raptors, November 17, 2026",
-      "published_at": "2026-11-17T12:47:34.639Z",
-      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n2j3aaomg22v",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreidigltfh5mjz52xpgmbu4535u5p5y3syfqweqmp4gjxyhvecxzxde",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 1
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n2j3aaomg22v",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "fab15b82f8c019b8a18d",
       "type": "article",
       "source": "Sports Illustrated",
@@ -1241,27 +1433,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-17T12:00:27.125Z"
-    },
-    {
-      "id": "40ce7e84e163fdd4df86",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Enough is Enough?",
-      "summary": "The starting lineup conversation? Again?!? A look at where things stand after 2+ years trying to make it work. Plus, some appreciation for Mikal Bridges and the little things.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-17T10:02:22.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/enough-is-enough",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!mAxU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe15ecce5-08e9-4d52-96c1-49c27119d8fe_1794x1224.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/enough-is-enough"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "d65118046ec225f4b528",
@@ -1357,41 +1528,6 @@
       "image_checked_at": "2026-11-17T03:00:27.032Z"
     },
     {
-      "id": "146cda3197687f76833e",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:neajy5oagfyhw4j63jght3eu/app.bsky.feed.post/3n2hzgg44lk2c",
-      "author": "Kris Pursiainen",
-      "handle": "krisap.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreiefigdndr635fw4srvk66vjyfo6tnvppxja4fwnx26rlzg3rjq2ea",
-      "text": "The Knicks don't want to let up after winning the 2026 NBA Championship. \n\nTyler Kolek's new role shows just how far they're willing to go to prove it: dailyknicks.com/mike-browns-...",
-      "published_at": "2026-11-17T02:42:34.431Z",
-      "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3n2hzgg44lk2c",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:neajy5oagfyhw4j63jght3eu/bafkreihms6mqoced3ocoozkvrk2dwnrdc7egakn3qjtygwsdbehb7oqsie",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:neajy5oagfyhw4j63jght3eu/post/3n2hzgg44lk2c",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "85a62b6ad51c825c31cb",
       "type": "social",
       "source": "Bluesky",
@@ -1421,75 +1557,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2hu37aldl2h",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "ff0b31900964549e232e",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:cc7tzd4bb5sh6d5taioq256d/app.bsky.feed.post/3n2htyh6zws2i",
-      "author": "Ace Pedraza 🏳️‍🌈🇵🇷",
-      "handle": "candacepedraza.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:cc7tzd4bb5sh6d5taioq256d/bafkreigqneebffmbfvbumghcp3efqjqoepjcq5363fmt7x6s7nwvr7hqzi",
-      "text": "can I plant a flag in the “the knicks should trade for jalen smith” or will you guys yell at me",
-      "published_at": "2026-11-17T01:05:17.101Z",
-      "url": "https://bsky.app/profile/did:plc:cc7tzd4bb5sh6d5taioq256d/post/3n2htyh6zws2i",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 3,
-        "reposts": 0,
-        "likes": 9
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:cc7tzd4bb5sh6d5taioq256d/post/3n2htyh6zws2i",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
-      "id": "0ac0ec3c61f975a2e9d2",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3n2htkeuhpv2g",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "The Knicks' latest roster puzzle may require more Leon Rose maneuvering",
-      "published_at": "2026-11-17T00:57:24.580Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n2htkeuhpv2g",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidyxtsq6pjcfjwtt4mnfajcon5vi3qsp5nhgeznzrvueeawgrq2aq",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n2htkeuhpv2g",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -1566,41 +1633,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "fe7c088d36b9b0fabd39",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:ck7aajho5ziqo6lrs64rm4oc/app.bsky.feed.post/3n2hn4sphaa2q",
-      "author": "New York Post ",
-      "handle": "nypost.com",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreidiskj7ofw6y7wdvzqtkt4woyd35sgapyfxkl53nmd7okjbsfcdpm",
-      "text": "Can Knicks Build On Their Raptors Comeback? | NY Got Game",
-      "published_at": "2026-11-16T23:02:26.909Z",
-      "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n2hn4sphaa2q",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ck7aajho5ziqo6lrs64rm4oc/bafkreifoh7mpnba3r23wtyj5umflxc2qzibea5mwofxauischmsbj2jv2u",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:ck7aajho5ziqo6lrs64rm4oc/post/3n2hn4sphaa2q",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "350e8848eba13d89e460",
       "type": "social",
       "source": "Bluesky",
@@ -1630,44 +1662,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2hk25xs7f23",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "41b3f66e114d8367ac7a",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3n2hifk762x2x",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "\"Very rarely have the Knicks given that level of effort the sort of effort they gave starting when they were down 84 to 71 in the 4th quarter of this game... Very rarely can any team match them when they give everything that they are capable of giving\"",
-      "published_at": "2026-11-16T21:37:51.538Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2hifk762x2x",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreic433tcc5cyw7vuu3kg37b5qbczs2c4k7f3hqwd6etjmob34j3q3m/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreic433tcc5cyw7vuu3kg37b5qbczs2c4k7f3hqwd6etjmob34j3q3m/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Awcthfe6ptjk4im6m6k7ouh4k/bafkreic433tcc5cyw7vuu3kg37b5qbczs2c4k7f3hqwd6etjmob34j3q3m/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1920,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 2,
-        "likes": 4
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2hifk762x2x",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -1709,40 +1703,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "713000cb5e4325fcdead",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:4ffkssyk53eltidkfivpuzrz/app.bsky.feed.post/3n2hgk4mip222",
-      "author": "Lori 💙🧡 Knicks in 5 🏆🗽",
-      "handle": "nylori.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:4ffkssyk53eltidkfivpuzrz/bafkreieqgnevjcblanoyjh6eu453aiz63eu7eyykni3yudebdpbdfxxt5a",
-      "text": "Some Knicks fans are exhausting. #KnicksSky",
-      "published_at": "2026-11-16T21:04:37.605Z",
-      "url": "https://bsky.app/profile/did:plc:4ffkssyk53eltidkfivpuzrz/post/3n2hgk4mip222",
-      "image_url": null,
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 2,
-        "reposts": 0,
-        "likes": 7
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:4ffkssyk53eltidkfivpuzrz/post/3n2hgk4mip222",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "not_provided"
-    },
-    {
       "id": "1f2aacd04baf2956a133",
       "type": "article",
       "source": "Sports Illustrated",
@@ -1782,41 +1742,6 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/wembanyama-antetokounmpo-named-nbas-players-of-the-week.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "b744ab4aa3f5c28063d4",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:wcthfe6ptjk4im6m6k7ouh4k/app.bsky.feed.post/3n2hemvzaso2k",
-      "author": "Knicks Film School",
-      "handle": "knickfilmskool.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreiaua7de7rkwqcwzge56kmoxfdzuu47lfisptlzntxq3td4u4ek4ki",
-      "text": "TONIGHT...\n\nJoin @JCMacriNBA & @TheCohencidence LIVE at 7pm ET for their full recap of the Knicks roller coaster week, plus their biggest takeaways, weekly game balls/detentions, predictions for the week ahead!\n\nTUNE IN: www.youtube.com/watch?v=IOTM...",
-      "published_at": "2026-11-16T20:30:23.854Z",
-      "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2hemvzaso2k",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wcthfe6ptjk4im6m6k7ouh4k/bafkreigeociyla7p56ozi26dlgqdeqfbbrtgm5m3pc7ycvp4quiwrjj73m",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 2
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:wcthfe6ptjk4im6m6k7ouh4k/post/3n2hemvzaso2k",
-        "render_mode": "native_social_card"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1909,41 +1834,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2h4reopcf2m",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "8968dd90a817838e8fd5",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:44ys7gijqhhnzyubtzkupca3/app.bsky.feed.post/3n2h4qvihzs2t",
-      "author": "Paul Knepper",
-      "handle": "paulknepper.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:44ys7gijqhhnzyubtzkupca3/bafkreihbylezf7cxpcpsktqxwhnld5xi5q7qbc6ttu3lo7bbaans7twavy",
-      "text": "The publisher of my first book, The Knicks of the Nineties, is offering a 35% discount on my book and all books for a limited time. Use the code HOLIDAY26 at checkout. mcfarlandbooks.com/product/the-...",
-      "published_at": "2026-11-16T18:09:27.595Z",
-      "url": "https://bsky.app/profile/did:plc:44ys7gijqhhnzyubtzkupca3/post/3n2h4qvihzs2t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:44ys7gijqhhnzyubtzkupca3/bafkreihs7tygaftm32z6uhqdaw7ccvcfva3k4ityq7plub6tsetvj2igju",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 2,
-        "likes": 6
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:44ys7gijqhhnzyubtzkupca3/post/3n2h4qvihzs2t",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2115,27 +2005,6 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2gp4sxmyx2n",
         "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "c2eb0edd7b0a3f1826cf",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Coming Up Clutch",
-      "summary": "Finally.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-16T10:00:53.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/coming-up-clutch-fec",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!1ITO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8f4e381-c475-4c46-b73b-b56e9a332cdd_870x584.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/coming-up-clutch-fec"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2592,41 +2461,6 @@
       "image_checked_at": "2026-11-17T18:30:19.587Z"
     },
     {
-      "id": "c32b9fcfd39dffa1839e",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n2eivjdhrj2n",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "Scottie Barnes' status for tonight's Raptors vs. Knicks game is a game-time decision due to a left groin strain. Knicks have no injury report listings. via ClutchPoints",
-      "published_at": "2026-11-15T17:08:48.264Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2eivjdhrj2n",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreifk2e5sygezdsewpwxqyjo4ulh53q2bdmnzt5ry3aypys3t6km74i",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2eivjdhrj2n",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "72c272781cdc4b488715",
       "type": "article",
       "source": "Sports Illustrated",
@@ -2807,27 +2641,6 @@
       "image_checked_at": "2026-11-17T15:15:19.121Z"
     },
     {
-      "id": "73de654feb635d105a3b",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Still Hungover",
-      "summary": "We thought the Knicks were over their early season foibles. Maybe we were a bit presumptuous.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-14T10:01:26.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/still-hungover",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!_KMN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F320ad953-5d4c-456b-9723-d804cfacf6cd_1190x906.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/still-hungover"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "0f4360df1b7246c70557",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3001,27 +2814,6 @@
       "image_checked_at": "2026-11-17T18:30:19.587Z"
     },
     {
-      "id": "369c3b9613e57b136228",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Friday Subscriber Chat",
-      "summary": "And the Knicks are back in action tonight.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-13T10:01:53.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/friday-subscriber-chat"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "cecd5246fd2bdedd48b6",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3107,27 +2899,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "dd8a5a4a6a033ffa1296",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Blame Game",
-      "summary": "The Knicks lost a game it feels like they could have won. So who is (or isn’t) at fault?",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-12T10:01:02.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/blame-game-d58",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!kUOE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2120719024023609344.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/blame-game-d58"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "57d72ace85c6f463b4da",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3193,27 +2964,6 @@
       "image_checked_at": "2026-11-17T16:30:23.457Z"
     },
     {
-      "id": "8c17e82c92dab045d504",
-      "type": "article",
-      "source": "Knicks Film School",
-      "source_key": "knicks_film_school",
-      "title": "Laugher",
-      "summary": "The Bucks are bad and the Knicks took advantage, but we still got some stuff to get excited about in the blowout.",
-      "author": "Jonathan Macri",
-      "published_at": "2026-11-11T10:01:57.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/laugher",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!_A5f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc118f725-cf84-4db4-94c9-3e27ce40e67e_810x684.png",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://knicksfilmschool.substack.com/p/laugher"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "8514c2912ce7d7f7d816",
       "type": "article",
       "source": "ESPN",
@@ -3233,216 +2983,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "daaadbfad0f5c46b9a16",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks' Mike Brown conscious of player fatigue, unwilling to jeopardize long postseason run early in season",
-      "summary": "Josh Hart: 'It’s an interesting, tough, little conundrum that we have'",
-      "author": "Ian Begley",
-      "published_at": "2026-11-05T06:53:37.000Z",
-      "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blta30b813fcba3ee13/6adebf3f629a08df3cb2a7c0/2026-10-25T234823Z_551977277_MT1USATODAY30187641_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "1572089095f3951df37d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Mike Brown not hesitating to sit Mikal Bridges; Jordan Clarkson providing spark",
-      "summary": "Bridges played just 16 minutes in New York's 103-90 win over Nets",
-      "author": "Ian Begley",
-      "published_at": "2026-11-03T06:28:16.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb253b2cead3959f8/6ae96984aaf3519e792da76b/MikalTraore.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "790d5a9091a0b444d946",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks still finding their way as static offense, untimely turnovers costing them early on",
-      "summary": "Fatigue could also be factor to slow start for reigning NBA champions",
-      "author": "Ian Begley",
-      "published_at": "2026-10-31T05:32:00.000Z",
-      "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt2f0dc51cb6e04d3c/6ae55f9d857be125391d271d/2026-10-31T020121Z_1075149648_MT1USATODAY30230120_RTRMADP_3_NBA-NEW-YORK-KNICKS-AT-PHILADELPHIA-76ERS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "5a925083920b1490cf89",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Jalen Brunson and the offense beginning to emerge; Tyler Kolek impressing",
-      "summary": "Plus, Mike Brown on testing out different lineups early in the season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-29T05:30:30.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt563498432291d6bf/6ae2d52b7b2fd2507b7a7402/JBBulls.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "4257e82cc4b9c9d24520",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Mailbag: Why is Andre Drummond in Mike Brown's doghouse?",
-      "summary": "Plus notes on Karl-Anthony Towns, the starting five, and more",
-      "author": "Ian Begley",
-      "published_at": "2026-10-27T14:20:00.000Z",
-      "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltd6c934ffa251cf79/6ad81e047cefb1175dce61b4/2026-10-21T005955Z_2052361074_MT1USATODAY30140216_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a9b5f62fbd806e2e55cf",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks believe early season struggles are fixable: 'We're not quite there yet'",
-      "summary": "Also, bench roles are still up for grabs",
-      "author": "Ian Begley",
-      "published_at": "2026-10-26T05:11:59.000Z",
-      "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltcfa1a901b6757b30/6adedfd074643acf3ad0b60d/2026-10-26T011308Z_829541207_MT1USATODAY30188350_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "e57de7918d1e17259786",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks signing forward Dalton Knecht to two-way deal",
-      "summary": "Kevin McCullar Jr. will be waived to make room for Knecht",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-23T15:25:58.000Z",
-      "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "9c34e8a779799d0d9d24",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks among teams interested in free agent forward Dalton Knecht",
-      "summary": "Knecht is eligible to sign two-way deal",
-      "author": "Ben Krimmel, Ian Begley",
-      "published_at": "2026-10-22T23:15:00.000Z",
-      "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt7ecb21f98db288c4/6ada989a72826a3268ab4d1f/Dalton_Knecht_solo_chest_up_shooting_warm_up_black_lakers_hoodie.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-interested-free-agent-forward-dalton-knecht-2026",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "83525d41dd1af7d0cc80",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Jalen Brunson believes some positives can come from Knicks' ugly opening night loss",
-      "summary": "'I think it's good for us to, you know, kind of get knocked down off the mountain, humble ourselves'",
-      "author": "Ian Begley",
-      "published_at": "2026-10-21T05:31:17.000Z",
-      "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt8e4f1b03597714fd/6ad84dfb81337767a35c0f25/2026-10-21T003345Z_1945279395_MT1USATODAY30139944_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/jalen-brunson-believes-positives-can-come-knicks-ugly-opening-night-loss",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "2799d481c921ddbd238d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks savior Jalen Brunson will be front and center as title team is celebrated on Opening Night",
-      "summary": "Knicks to hang championship banner, give out rings in pregame ceremony Tuesday",
-      "author": "Ian Begley",
-      "published_at": "2026-10-20T15:21:30.000Z",
-      "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt83a8994c3c50a509/6ad78159f07733922df8ac07/2026-10-16T024255Z_94011362_MT1USATODAY30093902_RTRMADP_3_NBA-PRESEASON-TORONTO-RAPTORS-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-jalen-brunson-savior-opening-night-title-ring-banner-celebration",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": []
