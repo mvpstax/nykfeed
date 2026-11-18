@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T19:44:32.729Z",
+  "generated_at": "2026-11-18T01:52:53.599Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401910002",
-    "date": "2026-11-18T00:30Z",
+    "id": "espn:401910021",
+    "date": "2026-11-20T01:00Z",
     "status": "Scheduled",
     "phase": "Regular season",
     "home": {
-      "name": "Toronto Raptors",
-      "abbreviation": "TOR",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+      "name": "Minnesota Timberwolves",
+      "abbreviation": "MIN",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
       "score": null
     },
     "away": {
@@ -26,18 +26,18 @@
     "clock": null
   },
   "venue": {
-    "id": "1838",
-    "guid": "770d5879-c7d5-34c1-8f2d-efe7db46a6ba",
-    "fullName": "Scotiabank Arena",
-    "shortName": "Scotiabank Arena",
+    "id": "2029",
+    "guid": "911f5a74-ec66-3671-add4-851cd5df3ebc",
+    "fullName": "Target Center",
+    "shortName": "Target Center",
     "address": {
-      "city": "Toronto",
-      "state": "ON"
+      "city": "Minneapolis",
+      "state": "MN"
     },
     "grass": false,
     "images": [
       {
-        "href": "https://a.espncdn.com/i/venues/nba/day/1838.jpg",
+        "href": "https://a.espncdn.com/i/venues/nba/day/2029.jpg",
         "width": 2000,
         "height": 1125,
         "alt": "",
@@ -59,26 +59,13 @@
   "highlights": [],
   "storylines": [
     {
-      "id": "67802ade42bd80a636b4",
-      "title": "Game Preview: Knicks at Raptors, November 17, 2026",
-      "summary": "After winning at Toronto on Sunday the Knicks will try to do it again two days later.",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/af4634256cd9263996246924a4d7b5fa.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-11-17T07:00:00.000Z",
-      "url": "https://sports.yahoo.com/articles/game-preview-knicks-raptors-november-070000374.html",
-      "topic": "matchup",
-      "label": "The matchup",
-      "relevance": "matchup",
-      "generated": false
-    },
-    {
-      "id": "40ce7e84e163fdd4df86",
-      "title": "Enough is Enough?",
-      "summary": "The starting lineup conversation? Again?!? A look at where things stand after 2+ years trying to make it work. Plus, some appreciation for Mikal Bridges and the little things.",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!mAxU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe15ecce5-08e9-4d52-96c1-49c27119d8fe_1794x1224.png",
-      "source": "Knicks Film School",
-      "published_at": "2026-11-17T10:02:22.000Z",
-      "url": "https://knicksfilmschool.substack.com/p/enough-is-enough",
+      "id": "ecf875f323d0fb7e6b31",
+      "title": "Mike Brown's Commitment to Knicks' Starting 5 Is on the Clock",
+      "summary": "The Knicks' starting five continues to look sluggish, and a change should be up for consideration to avoid falling into holes so often.",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_293,y_0,w_3705,h_2084/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m7npjydm27v7mez7jx.jpg",
+      "source": "Sports Illustrated",
+      "published_at": "2026-11-17T22:00:01.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/mike-brown-commitment-knicks-starting-5-on-the-clock-01m7np40v2sn",
       "topic": "rotation",
       "label": "Rotation watch",
       "relevance": "knicks_preseason",
@@ -96,9 +83,34 @@
       "label": "On-court changes",
       "relevance": "knicks_preseason",
       "generated": false
+    },
+    {
+      "id": "72c272781cdc4b488715",
+      "title": "Josh Hart Might Be Making Knicks’ Upcoming Decision a Lot Easier",
+      "summary": "Josh Hart's early-season struggles, injury concerns, and upcoming contract extension could put his Knicks future in question as New York weighs its options.",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_85,w_4311,h_2424/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m7e3gfb33r76ms20n4.jpg",
+      "source": "Sports Illustrated",
+      "published_at": "2026-11-15T16:24:17.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/josh-hart-making-knicks-upcoming-decision-a-lot-easier-01m7e1b0kxez",
+      "topic": "availability",
+      "label": "Reported availability",
+      "relevance": "knicks_preseason",
+      "generated": false
     }
   ],
   "players_to_watch": [
+    {
+      "id": "nba:1628404",
+      "name": "Josh Hart",
+      "jersey": "3",
+      "position": "Guard",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628404.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
+    },
     {
       "id": "nba:1628973",
       "name": "Jalen Brunson",
@@ -134,23 +146,11 @@
       "rebounds": null,
       "assists": null,
       "games": null
-    },
-    {
-      "id": "nba:1628384",
-      "name": "OG Anunoby",
-      "jersey": "8",
-      "position": "Forward-Guard",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
     }
   ],
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-17T19:31:09.150Z"
+    "feed_generated_at": "2026-11-18T01:46:05.449Z"
   }
 }
