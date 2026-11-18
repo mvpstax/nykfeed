@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-18T01:53:24.171Z",
+  "generated_at": "2026-11-18T07:43:51.827Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401910021",
@@ -38,30 +38,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "color": "#1d428a",
       "stats": {
-        "games": 13,
-        "boxes": 13,
-        "wins": 7,
+        "games": 14,
+        "boxes": 14,
+        "wins": 8,
         "losses": 6,
-        "points": 109.92307692307692,
-        "allowed": 104,
-        "fg": 43.58752166377816,
-        "three": 36.10586011342155,
-        "rebounds": 47.76923076923077,
-        "assists": 26.76923076923077,
-        "turnovers": 14.692307692307692,
+        "points": 110,
+        "allowed": 103.85714285714286,
+        "fg": 44.15584415584416,
+        "three": 35.99290780141844,
+        "rebounds": 47.5,
+        "assists": 26.642857142857142,
+        "turnovers": 14.571428571428571,
         "factors": {
-          "efg": 51.8630849220104,
-          "tov": 12.966382447184055,
-          "orb": 30.729166666666668,
-          "ftr": 20.103986135181977,
-          "three_rate": 45.84055459272097,
-          "fta_rate": 25.216637781629117,
-          "games": 13,
+          "efg": 52.39448051948052,
+          "tov": 12.973798015772072,
+          "orb": 31.18811881188119,
+          "ftr": 20.211038961038962,
+          "three_rate": 45.77922077922078,
+          "fta_rate": 25.162337662337663,
+          "games": 14,
           "samples": {
-            "efg": 13,
-            "tov": 13,
-            "orb": 13,
-            "ftr": 13
+            "efg": 14,
+            "tov": 14,
+            "orb": 14,
+            "ftr": 14
           },
           "definition_version": 1
         }
@@ -117,8 +117,17 @@
         "reported": true,
         "players": []
       },
-      "rest_days": 3,
+      "rest_days": 1,
       "recent": [
+        {
+          "id": "401910002",
+          "date": "2026-11-18T00:30Z",
+          "points": 111,
+          "allowed": 102,
+          "home": false,
+          "opponent": "TOR",
+          "result": "W"
+        },
         {
           "id": "401909990",
           "date": "2026-11-15T23:00Z",
@@ -154,19 +163,10 @@
           "home": true,
           "opponent": "MIL",
           "result": "W"
-        },
-        {
-          "id": "401909940",
-          "date": "2026-11-08T01:00Z",
-          "points": 109,
-          "allowed": 97,
-          "home": false,
-          "opponent": "CLE",
-          "result": "W"
         }
       ],
       "home_record": "4–3",
-      "away_record": "3–3"
+      "away_record": "4–3"
     },
     "home": {
       "id": "16",
@@ -175,30 +175,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
       "color": "#266092",
       "stats": {
-        "games": 14,
-        "boxes": 14,
-        "wins": 10,
+        "games": 15,
+        "boxes": 15,
+        "wins": 11,
         "losses": 4,
-        "points": 117.42857142857143,
-        "allowed": 106.14285714285714,
-        "fg": 47.04491725768322,
-        "three": 36.39774859287054,
-        "rebounds": 48.785714285714285,
-        "assists": 25.642857142857142,
-        "turnovers": 15.714285714285714,
+        "points": 116.66666666666667,
+        "allowed": 106.06666666666666,
+        "fg": 47.002220577350116,
+        "three": 36.99825479930192,
+        "rebounds": 48.6,
+        "assists": 25.4,
+        "turnovers": 16.066666666666666,
         "factors": {
-          "efg": 54.68873128447596,
-          "tov": 13.315256863409676,
-          "orb": 30.599369085173503,
-          "ftr": 20.17336485421592,
-          "three_rate": 42.00157604412924,
-          "fta_rate": 29.235618597320723,
-          "games": 14,
+          "efg": 54.84826054774241,
+          "tov": 13.648204779703253,
+          "orb": 29.97032640949555,
+          "ftr": 19.837157660991856,
+          "three_rate": 42.41302738712065,
+          "fta_rate": 29.23760177646188,
+          "games": 15,
           "samples": {
-            "efg": 14,
-            "tov": 14,
-            "orb": 14,
-            "ftr": 14
+            "efg": 15,
+            "tov": 15,
+            "orb": 15,
+            "ftr": 15
           },
           "definition_version": 1
         }
@@ -225,14 +225,6 @@
             "availability": null
           },
           {
-            "id": "3032976",
-            "name": "Rudy Gobert",
-            "position": "C",
-            "jersey": "27",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
-            "availability": null
-          },
-          {
             "id": "4432816",
             "name": "LaMelo Ball",
             "position": "G",
@@ -241,11 +233,19 @@
             "availability": null
           },
           {
-            "id": "4432847",
-            "name": "Terrence Shannon Jr.",
-            "position": "G",
-            "jersey": "4",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432847.png",
+            "id": "3032976",
+            "name": "Rudy Gobert",
+            "position": "C",
+            "jersey": "27",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
+            "availability": null
+          },
+          {
+            "id": "4895758",
+            "name": "Cody Williams",
+            "position": "F",
+            "jersey": "9",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4895758.png",
             "availability": null
           }
         ]
@@ -305,8 +305,17 @@
           }
         ]
       },
-      "rest_days": 2,
+      "rest_days": 1,
       "recent": [
+        {
+          "id": "401910003",
+          "date": "2026-11-18T01:00Z",
+          "points": 106,
+          "allowed": 105,
+          "home": true,
+          "opponent": "POR",
+          "result": "W"
+        },
         {
           "id": "401909999",
           "date": "2026-11-17T01:00Z",
@@ -342,18 +351,9 @@
           "home": true,
           "opponent": "UTAH",
           "result": "W"
-        },
-        {
-          "id": "401909293",
-          "date": "2026-11-07T01:00Z",
-          "points": 115,
-          "allowed": 109,
-          "home": false,
-          "opponent": "NO",
-          "result": "W"
         }
       ],
-      "home_record": "6–2",
+      "home_record": "7–2",
       "away_record": "4–2"
     }
   },
