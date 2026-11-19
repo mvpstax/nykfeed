@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T01:27:23.270Z",
+  "generated_at": "2026-11-19T07:58:50.564Z",
   "games": {
     "espn:401914124": {
       "game_id": "espn:401914124",
@@ -463,15 +463,24 @@
       "game_date": "2026-11-20T01:00Z",
       "home": "MIN",
       "away": "NYK",
-      "status": "unavailable",
-      "reason": "No betting lines were reported for this game.",
-      "line": null,
+      "status": "available",
+      "reason": null,
+      "line": {
+        "source": "ESPN",
+        "bookmaker": "Draft Kings",
+        "bookmaker_id": "100",
+        "captured_at": "2026-11-19T07:58:50.564Z",
+        "line_type": "pregame",
+        "spread": -1.5,
+        "total": 216.5,
+        "moneyline": -124
+      },
       "final_points": null,
       "knicks_margin": null,
       "spread_result": null,
       "total_result": null,
       "moneyline_result": null,
-      "checked_at": "2026-11-19T01:27:23.270Z"
+      "checked_at": "2026-11-19T07:58:50.564Z"
     },
     "espn:401910024": {
       "game_id": "espn:401910024",
