@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T23:37:05.248Z",
+  "generated_at": "2026-11-20T04:14:21.716Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401910021",
-    "date": "2026-11-20T01:00Z",
+    "id": "espn:401910024",
+    "date": "2026-11-22T00:30Z",
     "status": "Scheduled",
     "phase": "Regular season",
     "home": {
-      "name": "Minnesota Timberwolves",
-      "abbreviation": "MIN",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-      "score": null
-    },
-    "away": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "score": null
+    },
+    "away": {
+      "name": "Portland Trail Blazers",
+      "abbreviation": "POR",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
       "score": null
     },
     "period": null,
     "clock": null
   },
   "venue": {
-    "id": "2029",
-    "guid": "911f5a74-ec66-3671-add4-851cd5df3ebc",
-    "fullName": "Target Center",
-    "shortName": "Target Center",
+    "id": "1830",
+    "guid": "20a70788-c601-3a43-bb71-9cb9eca4be33",
+    "fullName": "Madison Square Garden",
+    "shortName": "Madison Square Garde",
     "address": {
-      "city": "Minneapolis",
-      "state": "MN"
+      "city": "New York",
+      "state": "NY"
     },
     "grass": false,
     "images": [
       {
-        "href": "https://a.espncdn.com/i/venues/nba/day/2029.jpg",
+        "href": "https://a.espncdn.com/i/venues/nba/day/1830.jpg",
         "width": 2000,
         "height": 1125,
         "alt": "",
@@ -59,16 +59,29 @@
   "highlights": [],
   "storylines": [
     {
-      "id": "5d99c8add85d4fdf751d",
-      "title": "Game Preview: Knicks at Timberwolves, November 19, 2026",
-      "summary": "Can the Knicks score enough against the league’s best defense?",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/139c4346749c088c02e172eedfc24fa7.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-11-19T14:08:18.000Z",
-      "url": "https://sports.yahoo.com/articles/game-preview-knicks-timberwolves-november-140818168.html",
-      "topic": "matchup",
-      "label": "The matchup",
-      "relevance": "matchup",
+      "id": "d3c17fa9150cd7322a42",
+      "title": "Northwest Notes: Thunder, Dort, Wiggins, Towns, Jazz",
+      "summary": "The Thunder have gone 5-5 since they lost Jalen Williams, Cason Wallace and Chet Holmgren to long-term injuries. Williams and Wallace might be out for the season, while Holmgren likely won’t return until at least January. While Oklahoma City’s ceiling and floor have both dropped considerably in the wake of the devastating injuries, the team […]",
+      "image_url": "https://cdn.hoopsrumors.com/files/2025/03/Thunder-general-logo-horizontal-900x599.jpg",
+      "source": "Hoops Rumors",
+      "published_at": "2026-11-20T03:56:52.000Z",
+      "url": "https://www.hoopsrumors.com/2026/11/northwest-notes-thunder-dort-wiggins-towns-jazz.html",
+      "topic": "availability",
+      "label": "Reported availability",
+      "relevance": "knicks_preseason",
+      "generated": false
+    },
+    {
+      "id": "b45425cbc7000d4af753",
+      "title": "3 Things to Watch for in Knicks' Clash vs. Timberwolves on Thursday",
+      "summary": "The Knicks head to Minnesota looking to slow down the fast-paced Timberwolves, and here are our keys to the matchup.",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3840,h_2160/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m7tc34h1f700ds1fmf.jpg",
+      "source": "Sports Illustrated",
+      "published_at": "2026-11-19T18:00:04.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/3-things-watch-for-knicks-clash-vs-timberwolves-thursday-01m7tc1exvye",
+      "topic": "identity",
+      "label": "On-court changes",
+      "relevance": "knicks_preseason",
       "generated": false
     },
     {
@@ -83,22 +96,21 @@
       "label": "Rotation watch",
       "relevance": "knicks_preseason",
       "generated": false
-    },
-    {
-      "id": "bca1b7472f21ebef708f",
-      "title": "3 Things We Learned After Knicks’ 2nd Straight Win vs. Raptors",
-      "summary": "The Knicks followed a strong defensive effort last time in Toronto with a well-rounded win, their second straight",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3937,h_2214/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m7pa1h9xzq9zzbtxys.jpg",
-      "source": "Sports Illustrated",
-      "published_at": "2026-11-18T03:12:32.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/three-things-we-learned-after-knicks-14th-game-season-01m7p9zweadx",
-      "topic": "identity",
-      "label": "On-court changes",
-      "relevance": "knicks_preseason",
-      "generated": false
     }
   ],
   "players_to_watch": [
+    {
+      "id": "nba:1626157",
+      "name": "Karl-Anthony Towns",
+      "jersey": "32",
+      "position": "Center-Forward",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
+    },
     {
       "id": "nba:1628404",
       "name": "Josh Hart",
@@ -124,18 +136,6 @@
       "games": null
     },
     {
-      "id": "nba:1626157",
-      "name": "Karl-Anthony Towns",
-      "jersey": "32",
-      "position": "Center-Forward",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
-    },
-    {
       "id": "nba:1628969",
       "name": "Mikal Bridges",
       "jersey": "25",
@@ -151,6 +151,6 @@
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-19T23:31:13.663Z"
+    "feed_generated_at": "2026-11-20T04:01:10.633Z"
   }
 }
