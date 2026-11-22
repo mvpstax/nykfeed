@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-22T02:18:19.467Z",
+  "generated_at": "2026-11-22T08:14:24.280Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401910034",
@@ -226,30 +226,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "color": "#1d428a",
       "stats": {
-        "games": 15,
-        "boxes": 15,
-        "wins": 9,
+        "games": 16,
+        "boxes": 16,
+        "wins": 10,
         "losses": 6,
-        "points": 109.46666666666667,
-        "allowed": 103.53333333333333,
-        "fg": 44.19134396355353,
-        "three": 36.45484949832776,
-        "rebounds": 47,
-        "assists": 26.6,
-        "turnovers": 14.666666666666666,
+        "points": 108.6875,
+        "allowed": 103.0625,
+        "fg": 44.08831908831909,
+        "three": 37.03125,
+        "rebounds": 46.6875,
+        "assists": 26.5,
+        "turnovers": 14.5625,
         "factors": {
-          "efg": 52.46772968868641,
-          "tov": 13.108971303270094,
-          "orb": 30.340557275541794,
-          "ftr": 19.74183750949127,
-          "three_rate": 45.406226271829915,
-          "fta_rate": 24.373576309794988,
-          "games": 15,
+          "efg": 52.528490028490026,
+          "tov": 13.083419433089258,
+          "orb": 30,
+          "ftr": 18.803418803418804,
+          "three_rate": 45.58404558404558,
+          "fta_rate": 23.29059829059829,
+          "games": 16,
           "samples": {
-            "efg": 15,
-            "tov": 15,
-            "orb": 15,
-            "ftr": 15
+            "efg": 16,
+            "tov": 16,
+            "orb": 16,
+            "ftr": 16
           },
           "definition_version": 1
         }
@@ -268,19 +268,19 @@
             "availability": null
           },
           {
-            "id": "3147657",
-            "name": "Mikal Bridges",
-            "position": "G",
-            "jersey": "25",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
-            "availability": null
-          },
-          {
             "id": "3062679",
             "name": "Josh Hart",
             "position": "G",
             "jersey": "3",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
+            "availability": null
+          },
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "position": "G",
+            "jersey": "25",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
             "availability": null
           },
           {
@@ -292,11 +292,11 @@
             "availability": null
           },
           {
-            "id": "4433225",
-            "name": "Tyler Kolek",
-            "position": "G",
-            "jersey": "13",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4433225.png",
+            "id": "6585",
+            "name": "Andre Drummond",
+            "position": "C",
+            "jersey": "0",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
             "availability": null
           }
         ]
@@ -310,19 +310,9 @@
             "position": "C",
             "jersey": "32",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-            "status": "Out",
+            "status": "Day-To-Day",
             "detail": "Illness",
-            "reported_at": "2026-11-21T22:51Z"
-          },
-          {
-            "id": "3934719",
-            "name": "OG Anunoby",
-            "position": "F",
-            "jersey": "8",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
-            "status": "Out",
-            "detail": "Calf · Leg",
-            "reported_at": "2026-11-21T21:49Z"
+            "reported_at": "2026-11-22T03:05Z"
           },
           {
             "id": "2528426",
@@ -330,14 +320,33 @@
             "position": "G",
             "jersey": "00",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/2528426.png",
-            "status": "Out",
+            "status": "Day-To-Day",
             "detail": "Foot · Leg",
-            "reported_at": "2026-11-20T22:21Z"
+            "reported_at": "2026-11-22T03:05Z"
+          },
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "position": "F",
+            "jersey": "8",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
+            "status": "Day-To-Day",
+            "detail": "Calf · Leg",
+            "reported_at": "2026-11-22T03:04Z"
           }
         ]
       },
-      "rest_days": 2,
+      "rest_days": 0,
       "recent": [
+        {
+          "id": "401910024",
+          "date": "2026-11-22T00:30Z",
+          "points": 97,
+          "allowed": 96,
+          "home": true,
+          "opponent": "POR",
+          "result": "W"
+        },
         {
           "id": "401910021",
           "date": "2026-11-20T01:00Z",
@@ -373,18 +382,9 @@
           "home": false,
           "opponent": "IND",
           "result": "L"
-        },
-        {
-          "id": "401909967",
-          "date": "2026-11-12T00:00Z",
-          "points": 107,
-          "allowed": 115,
-          "home": true,
-          "opponent": "CLE",
-          "result": "L"
         }
       ],
-      "home_record": "4–3",
+      "home_record": "5–3",
       "away_record": "5–3"
     }
   },
