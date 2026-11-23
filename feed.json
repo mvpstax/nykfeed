@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T15:30:51.692Z",
+  "generated_at": "2026-11-23T15:45:55.815Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 107,
     "game_count": 0,
-    "refresh_duration_ms": 4537,
+    "refresh_duration_ms": 32248,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,9 +28,8 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": false,
-        "items": 0,
-        "error": "HTTP 403"
+        "ok": true,
+        "items": 20
       },
       {
         "source_key": "hoops_rumors",
@@ -59,8 +58,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 1
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,68 +92,14 @@
       }
     ],
     "images": {
-      "available": 93,
+      "available": 99,
       "missing": 8,
       "article_pages_checked": 0
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-11-23T15:30:51.692Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": false,
-        "error": "HTTP 404"
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
-    {
-      "id": "97a8f1cb1b1823562df1",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:w4rbb3ujmqyqpowtyl7d7zii/app.bsky.feed.post/3n2ygdv6vj22u",
-      "author": "Knicks Numbers",
-      "handle": "knicksnumbers.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:w4rbb3ujmqyqpowtyl7d7zii/bafkreidkdfztt6s4fyhts6vzrp3oh2u726m2m7hfnihqp6aqs7n7hlhwtu",
-      "text": "On this day in 1950, the Knicks delivered their signature Nov 23 blowout, crushing Washington Capitols 109-78 for a massive +31 margin! New York holds 16 all-time wins on this date. #NYKnicks #KnicksNumbers #NewYorkForever",
-      "published_at": "2026-11-23T15:16:24.041Z",
-      "url": "https://bsky.app/profile/did:plc:w4rbb3ujmqyqpowtyl7d7zii/post/3n2ygdv6vj22u",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Aw4rbb3ujmqyqpowtyl7d7zii/bafkreiaxjb3lxzzahdjielv6vwfapcgghaw27jbvazedmmdiezgoj2pvdm/thumbnail.jpg",
-      "video_url": "https://video.bsky.app/watch/did%3Aplc%3Aw4rbb3ujmqyqpowtyl7d7zii/bafkreiaxjb3lxzzahdjielv6vwfapcgghaw27jbvazedmmdiezgoj2pvdm/playlist.m3u8",
-      "video_type": "application/vnd.apple.mpegurl",
-      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3Aw4rbb3ujmqyqpowtyl7d7zii/bafkreiaxjb3lxzzahdjielv6vwfapcgghaw27jbvazedmmdiezgoj2pvdm/thumbnail.jpg",
-      "video_alt": null,
-      "video_aspect_ratio": {
-        "height": 1920,
-        "width": 1080
-      },
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:w4rbb3ujmqyqpowtyl7d7zii/post/3n2ygdv6vj22u",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
     {
       "id": "d2d97343893c333f73de",
       "type": "social",
@@ -282,9 +228,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 3,
+        "replies": 2,
         "reposts": 0,
-        "likes": 3
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -771,6 +717,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:4kxaujevio7kizmcshgxvseq/post/3n2xyzpaeuc23",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "081de346f7eddbe76bca",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Five Alive",
+      "summary": "The Knicks won again behind a rejuvenated Josh Hart and more excellence from Karl-Anthony Towns.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-23T10:02:44.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/five-alive-14a",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!FhqD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cb93aee-3564-4f20-b23e-34288bb23f54_1006x894.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/five-alive-14a"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -1385,6 +1352,41 @@
         "render_mode": "native_social_card"
       },
       "image_status": "not_provided"
+    },
+    {
+      "id": "59c580ad827be6c73681",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:zboiz63swilxlltwv3i6yyro/app.bsky.feed.post/3n2xaipwf3c2b",
+      "author": "Posting and Toasting",
+      "handle": "postingandtoasting.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreieyhtesn35kzprlelnytk23ujr5d3qlww2fjxif37yu2t6d4wiv2a",
+      "text": "A sick KAT scores 30, Hart records a triple-double, and the Knicks survive another bruising battle with Indiana.",
+      "published_at": "2026-11-23T03:59:04.105Z",
+      "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n2xaipwf3c2b",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zboiz63swilxlltwv3i6yyro/bafkreig4iahl2s3cc4l54w7y6qctcux5vhigu6cb2ilj4d6luavsd6p6hm",
+      "video_url": null,
+      "video_type": null,
+      "video_poster_url": null,
+      "video_alt": null,
+      "video_aspect_ratio": null,
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 2
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n2xaipwf3c2b",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
     },
     {
       "id": "a6941f346ec7fe332d4b",
@@ -2128,6 +2130,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2vrwdajq32x",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "1ceed83f111da55da0b2",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "F*** Dem Picks!",
+      "summary": "Mikal Bridges caps off an eventful night at Madison Square Garden",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-22T10:03:16.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/f-dem-picks",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!svVa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHXss8DvXMAAT6Lb.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/f-dem-picks"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2976,6 +2999,27 @@
       "image_checked_at": "2026-11-22T16:15:19.923Z"
     },
     {
+      "id": "7206fc880e7467b5c387",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Escape from Minnesota",
+      "summary": "Thanks to one of their best defensive efforts of the season, the Knicks end their road trip on a high note.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-20T10:00:45.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/escape-from-minnesota",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Ptdo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cfab4a2-76bd-4cc3-8697-dcea0214f2e8_1164x1016.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/escape-from-minnesota"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "6acafddc3eb1edf2763d",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3110,6 +3154,27 @@
       "image_checked_at": "2026-11-22T18:30:22.984Z"
     },
     {
+      "id": "4135dd6652bbad9141fe",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Thursday Subscriber Chat",
+      "summary": "Also, I survived my colonoscopy.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-19T10:01:27.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/thursday-subscriber-chat",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/thursday-subscriber-chat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "574e1b2e5bd9f6944408",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3153,6 +3218,27 @@
       "image_source": "source_feed"
     },
     {
+      "id": "f9fb9b3305bb0c27cdcd",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Two & Oh Canada",
+      "summary": "The Knicks get a sweep north of the border.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-18T10:00:40.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/two-and-oh-canada",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!dzRY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fc788be-082b-437f-aab0-8c7f463c6663_1028x836.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/two-and-oh-canada"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "a42b303b80c4dbd80ff5",
       "type": "article",
       "source": "ESPN",
@@ -3169,6 +3255,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.espn.com/video/clip/_/id/50516726/game-highlights"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "40ce7e84e163fdd4df86",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Enough is Enough?",
+      "summary": "The starting lineup conversation? Again?!? A look at where things stand after 2+ years trying to make it work. Plus, some appreciation for Mikal Bridges and the little things.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-17T10:02:22.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/enough-is-enough",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!mAxU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe15ecce5-08e9-4d52-96c1-49c27119d8fe_1794x1224.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/enough-is-enough"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3193,132 +3300,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "daaadbfad0f5c46b9a16",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks' Mike Brown conscious of player fatigue, unwilling to jeopardize long postseason run early in season",
-      "summary": "Josh Hart: 'It’s an interesting, tough, little conundrum that we have'",
-      "author": "Ian Begley",
-      "published_at": "2026-11-05T06:53:37.000Z",
-      "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blta30b813fcba3ee13/6adebf3f629a08df3cb2a7c0/2026-10-25T234823Z_551977277_MT1USATODAY30187641_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "1572089095f3951df37d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Mike Brown not hesitating to sit Mikal Bridges; Jordan Clarkson providing spark",
-      "summary": "Bridges played just 16 minutes in New York's 103-90 win over Nets",
-      "author": "Ian Begley",
-      "published_at": "2026-11-03T06:28:16.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb253b2cead3959f8/6ae96984aaf3519e792da76b/MikalTraore.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "790d5a9091a0b444d946",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks still finding their way as static offense, untimely turnovers costing them early on",
-      "summary": "Fatigue could also be factor to slow start for reigning NBA champions",
-      "author": "Ian Begley",
-      "published_at": "2026-10-31T05:32:00.000Z",
-      "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt2f0dc51cb6e04d3c/6ae55f9d857be125391d271d/2026-10-31T020121Z_1075149648_MT1USATODAY30230120_RTRMADP_3_NBA-NEW-YORK-KNICKS-AT-PHILADELPHIA-76ERS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "5a925083920b1490cf89",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Jalen Brunson and the offense beginning to emerge; Tyler Kolek impressing",
-      "summary": "Plus, Mike Brown on testing out different lineups early in the season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-29T05:30:30.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt563498432291d6bf/6ae2d52b7b2fd2507b7a7402/JBBulls.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "4257e82cc4b9c9d24520",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Mailbag: Why is Andre Drummond in Mike Brown's doghouse?",
-      "summary": "Plus notes on Karl-Anthony Towns, the starting five, and more",
-      "author": "Ian Begley",
-      "published_at": "2026-10-27T14:20:00.000Z",
-      "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltd6c934ffa251cf79/6ad81e047cefb1175dce61b4/2026-10-21T005955Z_2052361074_MT1USATODAY30140216_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a9b5f62fbd806e2e55cf",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks believe early season struggles are fixable: 'We're not quite there yet'",
-      "summary": "Also, bench roles are still up for grabs",
-      "author": "Ian Begley",
-      "published_at": "2026-10-26T05:11:59.000Z",
-      "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltcfa1a901b6757b30/6adedfd074643acf3ad0b60d/2026-10-26T011308Z_829541207_MT1USATODAY30188350_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": []
