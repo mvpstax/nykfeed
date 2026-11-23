@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-23T03:14:16.561Z",
+  "generated_at": "2026-11-23T11:22:26.314Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909319",
@@ -206,30 +206,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
       "color": "#1d428a",
       "stats": {
-        "games": 16,
-        "boxes": 16,
-        "wins": 10,
+        "games": 17,
+        "boxes": 17,
+        "wins": 11,
         "losses": 6,
-        "points": 108.6875,
-        "allowed": 103.0625,
-        "fg": 44.08831908831909,
-        "three": 37.03125,
-        "rebounds": 46.6875,
-        "assists": 26.5,
-        "turnovers": 14.5625,
+        "points": 108.94117647058823,
+        "allowed": 103.23529411764706,
+        "fg": 44.11764705882353,
+        "three": 36.896046852122986,
+        "rebounds": 46.88235294117647,
+        "assists": 26.705882352941178,
+        "turnovers": 14.764705882352942,
         "factors": {
-          "efg": 52.528490028490026,
-          "tov": 13.083419433089258,
-          "orb": 30,
-          "ftr": 18.803418803418804,
-          "three_rate": 45.58404558404558,
-          "fta_rate": 23.29059829059829,
-          "games": 16,
+          "efg": 52.54010695187166,
+          "tov": 13.20663383423833,
+          "orb": 29.71506105834464,
+          "ftr": 18.71657754010695,
+          "three_rate": 45.655080213903744,
+          "fta_rate": 23.328877005347593,
+          "games": 17,
           "samples": {
-            "efg": 16,
-            "tov": 16,
-            "orb": 16,
-            "ftr": 16
+            "efg": 17,
+            "tov": 17,
+            "orb": 17,
+            "ftr": 17
           },
           "definition_version": 1
         }
@@ -240,19 +240,19 @@
         "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
         "players": [
           {
-            "id": "3934672",
-            "name": "Jalen Brunson",
-            "position": "G",
-            "jersey": "11",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-            "availability": null
-          },
-          {
             "id": "3062679",
             "name": "Josh Hart",
             "position": "G",
             "jersey": "3",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
+            "availability": null
+          },
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
             "availability": null
           },
           {
@@ -272,11 +272,11 @@
             "availability": null
           },
           {
-            "id": "6585",
-            "name": "Andre Drummond",
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
             "position": "C",
-            "jersey": "0",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
+            "jersey": "32",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
             "availability": null
           }
         ]
@@ -316,8 +316,17 @@
           }
         ]
       },
-      "rest_days": 3,
+      "rest_days": 2,
       "recent": [
+        {
+          "id": "401910034",
+          "date": "2026-11-23T01:00Z",
+          "points": 113,
+          "allowed": 106,
+          "home": true,
+          "opponent": "IND",
+          "result": "W"
+        },
         {
           "id": "401910024",
           "date": "2026-11-22T00:30Z",
@@ -353,18 +362,9 @@
           "home": false,
           "opponent": "TOR",
           "result": "W"
-        },
-        {
-          "id": "401909296",
-          "date": "2026-11-14T00:00Z",
-          "points": 104,
-          "allowed": 106,
-          "home": false,
-          "opponent": "IND",
-          "result": "L"
         }
       ],
-      "home_record": "5–3",
+      "home_record": "6–3",
       "away_record": "5–3"
     }
   },
