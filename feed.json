@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T19:00:53.494Z",
+  "generated_at": "2026-11-23T19:15:19.833Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 109,
+    "item_count": 102,
     "game_count": 0,
-    "refresh_duration_ms": 7229,
+    "refresh_duration_ms": 5092,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -92,30 +92,52 @@
       }
     ],
     "images": {
-      "available": 95,
+      "available": 94,
       "missing": 8,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-11-23T19:00:53.494Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": false,
-        "error": "HTTP 404"
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "428f0df08f3b6af102f2",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_courtside_knicks",
+      "source_feed": "Bluesky · Courtside Knicks",
+      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n2ytcn3s7w2f",
+      "author": "Courtside Knicks",
+      "handle": "courtsideknicks.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
+      "text": "Im crying (via r/NYKnicks)",
+      "published_at": "2026-11-23T19:08:20.436Z",
+      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2ytcn3s7w2f",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibszartg3yy5zvgnm6y32kbyh7cajfro2bdl5bfxpsb2cpuxwprg4/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibszartg3yy5zvgnm6y32kbyh7cajfro2bdl5bfxpsb2cpuxwprg4/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A5dhabks5abpuso4lvjddyzmt/bafkreibszartg3yy5zvgnm6y32kbyh7cajfro2bdl5bfxpsb2cpuxwprg4/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 854,
+        "width": 480
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2ytcn3s7w2f",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "e21233dbb8569399cf38",
       "type": "social",
@@ -138,7 +160,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -509,8 +531,8 @@
       },
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 0
+        "reposts": 1,
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -544,8 +566,8 @@
       "video_aspect_ratio": null,
       "engagement": {
         "replies": 1,
-        "reposts": 1,
-        "likes": 3
+        "reposts": 2,
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -580,7 +602,7 @@
       "engagement": {
         "replies": 3,
         "reposts": 0,
-        "likes": 3
+        "likes": 4
       },
       "team": "NYK",
       "presentation": {
@@ -885,7 +907,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
@@ -1502,27 +1524,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "a87b67437dc0fa800bca",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Karl-Anthony Towns dominates Pacers in return to push Knicks’ win streak to five",
-      "summary": "Karl-Anthony Towns returned from an illness to carry the surging Knicks.",
-      "author": null,
-      "published_at": "2026-11-23T04:13:02.000Z",
-      "url": "https://sports.yahoo.com/articles/karl-anthony-towns-dominates-pacers-041302920.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/b7e5ecd9da9505890117be60b64212c3.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/articles/karl-anthony-towns-dominates-pacers-041302920.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "e95806d55cb1269d2ce9",
       "type": "social",
       "source": "Bluesky",
@@ -2044,9 +2045,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/4-questions-after-knicks-win-trail-blazers-01m81y7mh4cy",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-11-23T19:00:26.606Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-23T19:00:26.606Z"
     },
     {
       "id": "2cc13d8eed0ac98101c8",
@@ -2874,41 +2875,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "a94a49a76a1621cf4220",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_courtside_knicks",
-      "source_feed": "Bluesky · Courtside Knicks",
-      "uri": "at://did:plc:5dhabks5abpuso4lvjddyzmt/app.bsky.feed.post/3n2tetcywg62h",
-      "author": "Courtside Knicks",
-      "handle": "courtsideknicks.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreib2pn7bsmvfmdaq72viekcy7gleprvj5nbvpjkv32mgrsek5hyzjm",
-      "text": "James Wiseman's Knicks situation is growing worrisome, with limited minutes despite Andre Drummond's inconsistent play. via Sports Illustrated",
-      "published_at": "2026-11-21T15:05:55.626Z",
-      "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2tetcywg62h",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5dhabks5abpuso4lvjddyzmt/bafkreih6yntzsm5x2rltnkednhmqet6sl7hkuol6cc5ryc3rea54kmlbna",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:5dhabks5abpuso4lvjddyzmt/post/3n2tetcywg62h",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "9441b29cfec7ce2c05fb",
       "type": "article",
       "source": "Sports Illustrated",
@@ -3236,132 +3202,6 @@
       },
       "image_status": "available",
       "image_source": "source_feed"
-    },
-    {
-      "id": "daaadbfad0f5c46b9a16",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks' Mike Brown conscious of player fatigue, unwilling to jeopardize long postseason run early in season",
-      "summary": "Josh Hart: 'It’s an interesting, tough, little conundrum that we have'",
-      "author": "Ian Begley",
-      "published_at": "2026-11-05T06:53:37.000Z",
-      "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blta30b813fcba3ee13/6adebf3f629a08df3cb2a7c0/2026-10-25T234823Z_551977277_MT1USATODAY30187641_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "1572089095f3951df37d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Mike Brown not hesitating to sit Mikal Bridges; Jordan Clarkson providing spark",
-      "summary": "Bridges played just 16 minutes in New York's 103-90 win over Nets",
-      "author": "Ian Begley",
-      "published_at": "2026-11-03T06:28:16.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb253b2cead3959f8/6ae96984aaf3519e792da76b/MikalTraore.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "790d5a9091a0b444d946",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks still finding their way as static offense, untimely turnovers costing them early on",
-      "summary": "Fatigue could also be factor to slow start for reigning NBA champions",
-      "author": "Ian Begley",
-      "published_at": "2026-10-31T05:32:00.000Z",
-      "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt2f0dc51cb6e04d3c/6ae55f9d857be125391d271d/2026-10-31T020121Z_1075149648_MT1USATODAY30230120_RTRMADP_3_NBA-NEW-YORK-KNICKS-AT-PHILADELPHIA-76ERS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "5a925083920b1490cf89",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Jalen Brunson and the offense beginning to emerge; Tyler Kolek impressing",
-      "summary": "Plus, Mike Brown on testing out different lineups early in the season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-29T05:30:30.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt563498432291d6bf/6ae2d52b7b2fd2507b7a7402/JBBulls.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "4257e82cc4b9c9d24520",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Mailbag: Why is Andre Drummond in Mike Brown's doghouse?",
-      "summary": "Plus notes on Karl-Anthony Towns, the starting five, and more",
-      "author": "Ian Begley",
-      "published_at": "2026-10-27T14:20:00.000Z",
-      "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltd6c934ffa251cf79/6ad81e047cefb1175dce61b4/2026-10-21T005955Z_2052361074_MT1USATODAY30140216_RTRMADP_3_NBA-PHILADELPHIA-76ERS-AT-NEW-YORK-KNICKS_Cropped.jpg",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mailbag-andre-drummond-10-27-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "a9b5f62fbd806e2e55cf",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks believe early season struggles are fixable: 'We're not quite there yet'",
-      "summary": "Also, bench roles are still up for grabs",
-      "author": "Ian Begley",
-      "published_at": "2026-10-26T05:11:59.000Z",
-      "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltcfa1a901b6757b30/6adedfd074643acf3ad0b60d/2026-10-26T011308Z_829541207_MT1USATODAY30188350_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-early-season-struggles-fixable",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": []
