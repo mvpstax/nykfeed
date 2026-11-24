@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-24T00:43:53.507Z",
+  "generated_at": "2026-11-24T06:32:30.811Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909319",
@@ -38,30 +38,30 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
       "color": "#860038",
       "stats": {
-        "games": 17,
-        "boxes": 17,
+        "games": 18,
+        "boxes": 18,
         "wins": 9,
-        "losses": 8,
-        "points": 118.82352941176471,
-        "allowed": 116.47058823529412,
-        "fg": 47.482014388489205,
-        "three": 37.089871611982886,
-        "rebounds": 45.588235294117645,
-        "assists": 27.41176470588235,
-        "turnovers": 13.705882352941176,
+        "losses": 9,
+        "points": 118.22222222222223,
+        "allowed": 116.77777777777777,
+        "fg": 47.41754822650902,
+        "three": 36.6120218579235,
+        "rebounds": 45.5,
+        "assists": 27.055555555555557,
+        "turnovers": 13.944444444444445,
         "factors": {
-          "efg": 55.984303466317854,
-          "tov": 12.019974825117105,
-          "orb": 25.71041948579161,
-          "ftr": 20.14388489208633,
-          "three_rate": 45.84695879659908,
-          "fta_rate": 26.22629169391759,
-          "games": 17,
+          "efg": 55.756067205973864,
+          "tov": 12.252748325620448,
+          "orb": 25.992317541613318,
+          "ftr": 20.9085252022402,
+          "three_rate": 45.55071561916615,
+          "fta_rate": 26.944617299315496,
+          "games": 18,
           "samples": {
-            "efg": 17,
-            "tov": 17,
-            "orb": 17,
-            "ftr": 17
+            "efg": 18,
+            "tov": 18,
+            "orb": 18,
+            "ftr": 18
           },
           "definition_version": 1
         }
@@ -96,19 +96,19 @@
             "availability": null
           },
           {
-            "id": "5023693",
-            "name": "Tyrese Proctor",
-            "position": "G",
-            "jersey": "24",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5023693.png",
-            "availability": null
-          },
-          {
             "id": "4576087",
             "name": "Peyton Watson",
             "position": "G",
             "jersey": "8",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4576087.png",
+            "availability": null
+          },
+          {
+            "id": "4066757",
+            "name": "Sam Merrill",
+            "position": "G",
+            "jersey": "5",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066757.png",
             "availability": null
           }
         ]
@@ -138,8 +138,17 @@
           }
         ]
       },
-      "rest_days": 4,
+      "rest_days": 1,
       "recent": [
+        {
+          "id": "401910041",
+          "date": "2026-11-24T01:00Z",
+          "points": 108,
+          "allowed": 122,
+          "home": false,
+          "opponent": "CHI",
+          "result": "L"
+        },
         {
           "id": "401909307",
           "date": "2026-11-21T00:30Z",
@@ -175,19 +184,10 @@
           "home": true,
           "opponent": "DAL",
           "result": "W"
-        },
-        {
-          "id": "401909298",
-          "date": "2026-11-14T01:00Z",
-          "points": 121,
-          "allowed": 133,
-          "home": false,
-          "opponent": "MIA",
-          "result": "L"
         }
       ],
       "home_record": "7–3",
-      "away_record": "2–5"
+      "away_record": "2–6"
     },
     "home": {
       "id": "18",
