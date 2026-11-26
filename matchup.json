@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-26T14:18:37.749Z",
+  "generated_at": "2026-11-26T22:07:07.037Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909326",
@@ -39,29 +39,29 @@
       "color": "#98002e",
       "stats": {
         "games": 17,
-        "boxes": 16,
+        "boxes": 17,
         "wins": 10,
         "losses": 7,
         "points": 119.70588235294117,
         "allowed": 118.94117647058823,
-        "fg": null,
-        "three": null,
-        "rebounds": null,
-        "assists": null,
-        "turnovers": null,
+        "fg": 47.54316069057105,
+        "three": 35,
+        "rebounds": 42.64705882352941,
+        "assists": 29.294117647058822,
+        "turnovers": 14.352941176470589,
         "factors": {
-          "efg": null,
-          "tov": null,
-          "orb": null,
-          "ftr": null,
-          "three_rate": null,
-          "fta_rate": null,
+          "efg": 55.44488711819389,
+          "tov": 12.416291803211951,
+          "orb": 24.76319350473613,
+          "ftr": 24.236387782204517,
+          "three_rate": 45.1527224435591,
+          "fta_rate": 32.47011952191235,
           "games": 17,
           "samples": {
-            "efg": 16,
-            "tov": 16,
-            "orb": 16,
-            "ftr": 16
+            "efg": 17,
+            "tov": 17,
+            "orb": 17,
+            "ftr": 17
           },
           "definition_version": 1
         }
@@ -109,13 +109,34 @@
             "position": "F",
             "jersey": "7",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3032977.png",
-            "availability": null
+            "availability": "Day-To-Day"
           }
         ]
       },
       "availability": {
         "reported": true,
-        "players": []
+        "players": [
+          {
+            "id": "3032977",
+            "name": "Giannis Antetokounmpo",
+            "position": "F",
+            "jersey": "7",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3032977.png",
+            "status": "Day-To-Day",
+            "detail": "Groin · Groin",
+            "reported_at": "2026-11-26T21:15Z"
+          },
+          {
+            "id": "3059319",
+            "name": "Andrew Wiggins",
+            "position": "F",
+            "jersey": "22",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3059319.png",
+            "status": "Day-To-Day",
+            "detail": "Ankle · Leg",
+            "reported_at": "2026-11-26T21:08Z"
+          }
+        ]
       },
       "rest_days": 1,
       "recent": [
@@ -176,29 +197,29 @@
       "color": "#1d428a",
       "stats": {
         "games": 18,
-        "boxes": 17,
+        "boxes": 18,
         "wins": 12,
         "losses": 6,
         "points": 109.61111111111111,
         "allowed": 103.16666666666667,
-        "fg": null,
-        "three": null,
-        "rebounds": null,
-        "assists": null,
-        "turnovers": null,
+        "fg": 44.51450189155107,
+        "three": 37.361111111111114,
+        "rebounds": 46.666666666666664,
+        "assists": 27.055555555555557,
+        "turnovers": 14.61111111111111,
         "factors": {
-          "efg": null,
-          "tov": null,
-          "orb": null,
-          "ftr": null,
-          "three_rate": null,
-          "fta_rate": null,
+          "efg": 52.99495586380832,
+          "tov": 13.090047582074101,
+          "orb": 29.910141206675224,
+          "ftr": 18.41109709962169,
+          "three_rate": 45.39722572509458,
+          "fta_rate": 22.950819672131146,
           "games": 18,
           "samples": {
-            "efg": 17,
-            "tov": 17,
-            "orb": 17,
-            "ftr": 17
+            "efg": 18,
+            "tov": 18,
+            "orb": 18,
+            "ftr": 18
           },
           "definition_version": 1
         }
@@ -206,7 +227,7 @@
       "lineup": {
         "status": "estimated",
         "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 2 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
         "players": [
           {
             "id": "3062679",
@@ -214,14 +235,6 @@
             "position": "G",
             "jersey": "3",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-            "availability": null
-          },
-          {
-            "id": "3914044",
-            "name": "Landry Shamet",
-            "position": "G",
-            "jersey": "44",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png",
             "availability": null
           },
           {
@@ -241,6 +254,14 @@
             "availability": null
           },
           {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "position": "G",
+            "jersey": "44",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png",
+            "availability": null
+          },
+          {
             "id": "3136195",
             "name": "Karl-Anthony Towns",
             "position": "C",
@@ -254,6 +275,16 @@
         "reported": true,
         "players": [
           {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "position": "C",
+            "jersey": "0",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
+            "status": "Day-To-Day",
+            "detail": "Head · Head",
+            "reported_at": "2026-11-26T21:51Z"
+          },
+          {
             "id": "4431823",
             "name": "Miles McBride",
             "position": "G",
@@ -262,16 +293,6 @@
             "status": "Day-To-Day",
             "detail": "Groin · Groin",
             "reported_at": "2026-11-26T05:31Z"
-          },
-          {
-            "id": "6585",
-            "name": "Andre Drummond",
-            "position": "C",
-            "jersey": "0",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
-            "status": "Day-To-Day",
-            "detail": "Head · Head",
-            "reported_at": "2026-11-26T03:40Z"
           },
           {
             "id": "3934719",
