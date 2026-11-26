@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-26T16:15:43.009Z",
+  "generated_at": "2026-11-26T16:30:22.354Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 120,
+    "item_count": 115,
     "game_count": 0,
-    "refresh_duration_ms": 7008,
+    "refresh_duration_ms": 2972,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -40,7 +40,7 @@
       {
         "source_key": "realgm",
         "ok": true,
-        "items": 6
+        "items": 5
       },
       {
         "source_key": "espn",
@@ -92,30 +92,52 @@
       }
     ],
     "images": {
-      "available": 110,
+      "available": 109,
       "missing": 6,
       "article_pages_checked": 0
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-11-26T16:15:43.009Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": false,
-        "error": "HTTP 404"
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "ab84afc56c419fafcdc5",
+      "type": "social",
+      "source": "Bluesky",
+      "source_key": "bluesky_knicks_feed",
+      "source_feed": "Bluesky Knicks Feed",
+      "uri": "at://did:plc:7okgq3dsknx6wmzaoltr3pe4/app.bsky.feed.post/3n3a3brqwws2q",
+      "author": "theSoreWinner",
+      "handle": "thesorewinner.bsky.social",
+      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:7okgq3dsknx6wmzaoltr3pe4/bafkreidqr5kdqmnadsowlczvlg5rlonhgajkui7tk27rt34ljefbele4p4",
+      "text": "#KNICKS #KnicksBlueSkies #KnicksSky\nTHANKFUL.",
+      "published_at": "2026-11-26T16:19:40.079Z",
+      "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3n3a3brqwws2q",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3A7okgq3dsknx6wmzaoltr3pe4/bafkreiaophwrho6zgcwokkehzle4fdnbx3bbimaphqauwoxw3l3zg6oo7m/thumbnail.jpg",
+      "video_url": "https://video.bsky.app/watch/did%3Aplc%3A7okgq3dsknx6wmzaoltr3pe4/bafkreiaophwrho6zgcwokkehzle4fdnbx3bbimaphqauwoxw3l3zg6oo7m/playlist.m3u8",
+      "video_type": "application/vnd.apple.mpegurl",
+      "video_poster_url": "https://video.bsky.app/watch/did%3Aplc%3A7okgq3dsknx6wmzaoltr3pe4/bafkreiaophwrho6zgcwokkehzle4fdnbx3bbimaphqauwoxw3l3zg6oo7m/thumbnail.jpg",
+      "video_alt": null,
+      "video_aspect_ratio": {
+        "height": 1280,
+        "width": 720
+      },
+      "engagement": {
+        "replies": 0,
+        "reposts": 0,
+        "likes": 1
+      },
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://bsky.app/profile/did:plc:7okgq3dsknx6wmzaoltr3pe4/post/3n3a3brqwws2q",
+        "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "b0fd95844284c39f15fb",
       "type": "social",
@@ -140,8 +162,8 @@
       },
       "engagement": {
         "replies": 0,
-        "reposts": 0,
-        "likes": 1
+        "reposts": 2,
+        "likes": 5
       },
       "team": "NYK",
       "presentation": {
@@ -174,9 +196,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 0
+        "likes": 1
       },
       "team": "NYK",
       "presentation": {
@@ -406,7 +428,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 2,
-        "likes": 6
+        "likes": 7
       },
       "team": "NYK",
       "presentation": {
@@ -439,9 +461,9 @@
       "video_alt": null,
       "video_aspect_ratio": null,
       "engagement": {
-        "replies": 0,
+        "replies": 1,
         "reposts": 0,
-        "likes": 2
+        "likes": 3
       },
       "team": "NYK",
       "presentation": {
@@ -476,7 +498,7 @@
       "engagement": {
         "replies": 2,
         "reposts": 1,
-        "likes": 16
+        "likes": 18
       },
       "team": "NYK",
       "presentation": {
@@ -1256,41 +1278,6 @@
         "embed_attempt": false,
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n36rl7yjrc2j",
-        "render_mode": "native_social_card"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
-      "id": "022a1e9c10b7274f34f2",
-      "type": "social",
-      "source": "Bluesky",
-      "source_key": "bluesky_knicks_feed",
-      "source_feed": "Bluesky Knicks Feed",
-      "uri": "at://did:plc:uwunrc4me5vby6eef4xymwbh/app.bsky.feed.post/3n36rk5ps2s2t",
-      "author": "🏆Knicks Forever🏆",
-      "handle": "wildstreet.bsky.social",
-      "avatar_url": "https://cdn.bsky.app/img/avatar/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreihgu3g4vm3s5tnv7aexgok7tpumbozp3zbinbzeyeq5yo7hdomewe",
-      "text": "GTA. DPOG. 💪🏽🏆🧡💙 #knickssky",
-      "published_at": "2026-11-26T03:52:43.896Z",
-      "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3n36rk5ps2s2t",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:uwunrc4me5vby6eef4xymwbh/bafkreib3ekrkefk6s4g67kcirpmaqebeb62psgc2e5cjssx2avkdk5ikh4",
-      "video_url": null,
-      "video_type": null,
-      "video_poster_url": null,
-      "video_alt": null,
-      "video_aspect_ratio": null,
-      "engagement": {
-        "replies": 0,
-        "reposts": 7,
-        "likes": 23
-      },
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://bsky.app/profile/did:plc:uwunrc4me5vby6eef4xymwbh/post/3n36rk5ps2s2t",
         "render_mode": "native_social_card"
       },
       "image_status": "available",
@@ -2950,27 +2937,6 @@
       "image_source": "source_feed"
     },
     {
-      "id": "cf082b50e91694b88e6e",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "NBA National Games Averaging 2.62M Viewers, Up 37 Percent From Last Season",
-      "summary": "The NBA's television audience is growing in the second year of its new media rights deal. Total viewership for nationally broadcast games on NBC, ESPN and Amazon rose 20 percent in the first month of the season, the league announced on Monday. National games are averaging 2.62 million viewers, up 37 percent from last season. Local broadcasts are also up. Games aired in local markets have drawn 24 percent more viewers than a year ago. The league's media deal, which runs through the 2035-36 season, added national broadcasts each season. It also moved games from cable to over-the-air television on NBC. The gains follow the NBA's most-watched Finals in decades last June, when the New York Knicks beat the San Antonio Spurs in five games. The increase reverses a long decline. A study by Arctos Partners found NBA viewership had fallen 15.6 percent through last season compared with 2014, the worst drop among the four major U.S. leagues. Nielsen measures the broadcasts using a combination of big data and its panel, a method that took effect last year and expanded how viewership is counted.",
-      "author": null,
-      "published_at": "2026-11-24T02:17:25.000Z",
-      "url": "https://basketball.realgm.com/wiretap/288226/NBA-National-Games-Averaging-262M-Viewers-Up-37-Percent-From-Last-Season",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Wembanyama_Victor_sas_260609.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/288226/NBA-National-Games-Averaging-262M-Viewers-Up-37-Percent-From-Last-Season"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
-    },
-    {
       "id": "d40bbbd31341cd14dd37",
       "type": "social",
       "source": "Bluesky",
@@ -3445,90 +3411,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-26T15:45:19.679Z"
-    },
-    {
-      "id": "daaadbfad0f5c46b9a16",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks' Mike Brown conscious of player fatigue, unwilling to jeopardize long postseason run early in season",
-      "summary": "Josh Hart: 'It’s an interesting, tough, little conundrum that we have'",
-      "author": "Ian Begley",
-      "published_at": "2026-11-05T06:53:37.000Z",
-      "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blta30b813fcba3ee13/6adebf3f629a08df3cb2a7c0/2026-10-25T234823Z_551977277_MT1USATODAY30187641_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "1572089095f3951df37d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Mike Brown not hesitating to sit Mikal Bridges; Jordan Clarkson providing spark",
-      "summary": "Bridges played just 16 minutes in New York's 103-90 win over Nets",
-      "author": "Ian Begley",
-      "published_at": "2026-11-03T06:28:16.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb253b2cead3959f8/6ae96984aaf3519e792da76b/MikalTraore.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "790d5a9091a0b444d946",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks still finding their way as static offense, untimely turnovers costing them early on",
-      "summary": "Fatigue could also be factor to slow start for reigning NBA champions",
-      "author": "Ian Begley",
-      "published_at": "2026-10-31T05:32:00.000Z",
-      "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt2f0dc51cb6e04d3c/6ae55f9d857be125391d271d/2026-10-31T020121Z_1075149648_MT1USATODAY30230120_RTRMADP_3_NBA-NEW-YORK-KNICKS-AT-PHILADELPHIA-76ERS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "5a925083920b1490cf89",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Jalen Brunson and the offense beginning to emerge; Tyler Kolek impressing",
-      "summary": "Plus, Mike Brown on testing out different lineups early in the season",
-      "author": "Ian Begley",
-      "published_at": "2026-10-29T05:30:30.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt563498432291d6bf/6ae2d52b7b2fd2507b7a7402/JBBulls.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-jalen-brunson-offense-emerge-tyler-kolek-impressing",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": [
