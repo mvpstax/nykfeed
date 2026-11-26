@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T04:29:04.007Z",
+  "generated_at": "2026-11-26T14:18:07.870Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401909319",
-    "date": "2026-11-26T00:30Z",
-    "status": "Finished",
+    "id": "espn:401909326",
+    "date": "2026-11-28T00:00Z",
+    "status": "Scheduled",
     "phase": "Regular season",
     "home": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": 121
+      "score": null
     },
     "away": {
-      "name": "Cleveland Cavaliers",
-      "abbreviation": "CLE",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-      "score": 102
+      "name": "Miami Heat",
+      "abbreviation": "MIA",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+      "score": null
     },
     "period": null,
     "clock": null
@@ -59,6 +59,32 @@
   "highlights": [],
   "storylines": [
     {
+      "id": "293369c2229e2831ab37",
+      "title": "Knicks assistant coach Chris Jent returns to team",
+      "summary": "Chris Jent was back on New York's bench for Wednesday night's NBA Cup win against Cleveland after a monthlong absence.",
+      "image_url": "https://a.espncdn.com/photo/2026/1028/r1737300_600x400_3-2.jpg",
+      "source": "ESPN",
+      "published_at": "2026-11-26T12:03:45.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50600508/knicks-assistant-coach-chris-jent-returns-team",
+      "topic": "rotation",
+      "label": "Rotation watch",
+      "relevance": "knicks_preseason",
+      "generated": false
+    },
+    {
+      "id": "8c0212386fda4418501c",
+      "title": "Knicks’ Pacome Dadiet has big night after Mike Brown calls him out",
+      "summary": "Mike Brown sent a warning to Pacôme Dadiet: Play harder or you’re back to the bench. And he responded.",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/d497f2d0079b4f052b65f892e644d1be.jpg",
+      "source": "Yahoo Sports",
+      "published_at": "2026-11-26T10:55:22.000Z",
+      "url": "https://sports.yahoo.com/nba/articles/knicks-pacome-dadiet-big-night-105522188.html",
+      "topic": "development",
+      "label": "Development watch",
+      "relevance": "knicks_preseason",
+      "generated": false
+    },
+    {
       "id": "3bf7c1b7eb2422ffdb8d",
       "title": "Knicks Notes: NBA Cup, Brown, Anunoby, Towns, Thibodeau, Jent",
       "summary": "If the Knicks don’t get a chance to defend their NBA Cup title, coach Mike Brown won’t mind avoiding an 83rd game, Steve Popper of Newsday writes in a subscriber-only piece. New York entered Wednesday with an 0-2 record in Cup play and a lengthy injury report. However, a victory over Cleveland left the team […]",
@@ -68,32 +94,6 @@
       "url": "https://www.hoopsrumors.com/2026/11/knicks-notes-nba-cup-brown-anunoby-towns-thibodeau-jent.html",
       "topic": "availability",
       "label": "Reported availability",
-      "relevance": "knicks_preseason",
-      "generated": false
-    },
-    {
-      "id": "92565f388bb459d8bb75",
-      "title": "Knicks blow by the Cavaliers in the fourth, win 121-102 for sixth straight victory",
-      "summary": "— Jose Alvarado scored a season-high 21 points, Mikal Bridges had a season-best 19 and the New York Knicks rode a blitz by their bench to a 121-102 victory over the Cleveland Cavaliers on Wednesday night that extended their winning streak to six.",
-      "image_url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909319.png?templateId=espn.applewatch.awayhome.1",
-      "source": "ESPN",
-      "published_at": "2026-11-26T03:12:35.000Z",
-      "url": "http://www.espn.com/nba/recap?gameId=401909319",
-      "topic": "rotation",
-      "label": "Rotation watch",
-      "relevance": "knicks_preseason",
-      "generated": false
-    },
-    {
-      "id": "89fe9991e9c9a6f69ecb",
-      "title": "Several EuroLeague Teams Looking At Cam Thomas, Jeremy Sochan",
-      "summary": "NBA veterans Cam Thomas and Jeremy Sochan have drawn interest from several EuroLeague teams. Thomas is a free agent, while Sochan is playing for the Texas Legends in the G League. Multiple EuroLeague teams reportedly have Thomas on their radar. They see the veteran guard as a prime scoring option. Thomas played in 42 total games last season between the Brooklyn Nets and Milwaukee Bucks. For his career, Thomas has averaged 14.9 points per game. Sochan finished last season with the New York Knicks following a waiver from the San Antonio Spurs. This season, Sochan attended training camp with the Portland Trail Blazers before being waived at the end of the preseason. In five G League games with the Legends, the 6-foot-8 forward is averaging 19.2 points, 7.4 rebounds, 5.2 assists and 1.4 steals per game.",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Thomas_Cam_mil_260225.jpg",
-      "source": "RealGM",
-      "published_at": "2026-11-25T13:41:20.000Z",
-      "url": "https://basketball.realgm.com/wiretap/288248/Several-EuroLeague-Teams-Looking-At-Cam-Thomas-Jeremy-Sochan",
-      "topic": "identity",
-      "label": "On-court changes",
       "relevance": "knicks_preseason",
       "generated": false
     }
@@ -124,6 +124,18 @@
       "games": null
     },
     {
+      "id": "nba:1642359",
+      "name": "Pacôme Dadiet",
+      "jersey": "4",
+      "position": "Forward",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642359.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
+    },
+    {
       "id": "nba:1628973",
       "name": "Jalen Brunson",
       "jersey": "11",
@@ -134,23 +146,11 @@
       "rebounds": null,
       "assists": null,
       "games": null
-    },
-    {
-      "id": "nba:1628969",
-      "name": "Mikal Bridges",
-      "jersey": "25",
-      "position": "Guard-Forward",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628969.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
     }
   ],
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-26T04:16:06.482Z"
+    "feed_generated_at": "2026-11-26T14:16:08.551Z"
   }
 }
