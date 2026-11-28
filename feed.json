@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-28T07:15:42.191Z",
+  "generated_at": "2026-11-28T07:30:20.412Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 111,
+    "item_count": 110,
     "game_count": 0,
-    "refresh_duration_ms": 28429,
+    "refresh_duration_ms": 3197,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -50,7 +50,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 5
+        "items": 4
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 0
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,7 +92,7 @@
       }
     ],
     "images": {
-      "available": 96,
+      "available": 95,
       "missing": 15,
       "article_pages_checked": 0
     },
@@ -1495,27 +1494,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-27T20:00:33.493Z"
-    },
-    {
-      "id": "2b19f736bb9330295c80",
-      "type": "article",
-      "source": "Yahoo Sports",
-      "source_key": "yahoo_sports_nba",
-      "title": "Where to watch Heat vs. Knicks NBA Cup Black Friday game live for free",
-      "summary": "New York is getting their first look at Miami with Giannis tonight.",
-      "author": null,
-      "published_at": "2026-11-27T20:00:00.000Z",
-      "url": "https://sports.yahoo.com/nba/articles/where-watch-heat-vs-knicks-200000851.html",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/0bfe7ef5de4e238b098e2c28febfdef3.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://sports.yahoo.com/nba/articles/where-watch-heat-vs-knicks-200000851.html"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "6876b74ba32607ff9356",
