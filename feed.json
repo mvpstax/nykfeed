@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-28T06:30:46.085Z",
+  "generated_at": "2026-11-28T06:45:19.985Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 28423,
+    "refresh_duration_ms": 5401,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,9 +59,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 0
       },
       {
         "source_key": "official_knicks_articles",
@@ -101,6 +100,27 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "c25436db7ef40550cf89",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Mike Brown wants more consistency on offense after Knicks lose close one to Heat",
+      "summary": "Knicks coach Mike Brown knows his team has been \"playing with fire\" with its habit of falling behind early and coming back to win late, but after Friday's defeat to the Heat, he acknowledged that isn't sustainable and wants more consistency on offense.",
+      "author": "Vincent Goodwill",
+      "published_at": "2026-11-28T06:29:51.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50619152/mike-brown-calls-more-consistency-offense-knicks-lose-close-one-heat",
+      "image_url": "https://a.espncdn.com/photo/2026/1128/r1752349_600x400_3-2.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50619152/mike-brown-calls-more-consistency-offense-knicks-lose-close-one-heat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "a7eba47e7c2c39d4d734",
       "type": "article",
@@ -143,27 +163,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-28T06:15:20.093Z"
-    },
-    {
-      "id": "c25436db7ef40550cf89",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Mike Brown wants more consistency on offense after Knicks lose close one to Heat",
-      "summary": "Knicks coach Mike Brown knows his team has been \"playing with fire\" with its habit of falling behind early and coming back to win late, but after Friday's defeat to the Heat he acknowledged that isn't sustainable and wants more consistency on offense.",
-      "author": "Vincent Goodwill",
-      "published_at": "2026-11-28T05:44:30.000Z",
-      "url": "https://www.espn.com/nba/story/_/id/50619152/mike-brown-calls-more-consistency-offense-knicks-lose-close-one-heat",
-      "image_url": "https://a.espncdn.com/photo/2026/1128/r1752349_600x400_3-2.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://www.espn.com/nba/story/_/id/50619152/mike-brown-calls-more-consistency-offense-knicks-lose-close-one-heat"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "217cd08ab6aad46dea4b",
@@ -1022,7 +1021,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 5
+        "likes": 6
       },
       "team": "NYK",
       "presentation": {
