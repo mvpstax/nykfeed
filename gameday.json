@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T23:21:05.464Z",
+  "generated_at": "2026-11-28T04:47:03.633Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
@@ -8,19 +8,19 @@
   "game": {
     "id": "espn:401909326",
     "date": "2026-11-28T00:00Z",
-    "status": "Scheduled",
+    "status": "Finished",
     "phase": "Regular season",
     "home": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": null
+      "score": 105
     },
     "away": {
       "name": "Miami Heat",
       "abbreviation": "MIA",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-      "score": null
+      "score": 108
     },
     "period": null,
     "clock": null
@@ -59,12 +59,25 @@
   "highlights": [],
   "storylines": [
     {
+      "id": "f08b78eef9f065a3f20c",
+      "title": "Knicks have no late-game magic as they’re eliminated from NBA Cup title defense",
+      "summary": "Jalen Brunson is mortal.",
+      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/6ec14572b85b69a3831c6ac4a1fece99.jpg",
+      "source": "Yahoo Sports",
+      "published_at": "2026-11-28T03:08:55.000Z",
+      "url": "https://sports.yahoo.com/nba/articles/knicks-no-game-magic-eliminated-030855840.html",
+      "topic": "identity",
+      "label": "On-court changes",
+      "relevance": "knicks_preseason",
+      "generated": false
+    },
+    {
       "id": "1a5dceb6e36704ec2887",
       "title": "Wizards rookie Felix Okpara punches Rob Dillingham in G League tilt",
       "summary": "Wizards two-way forward Felix Okpara threw a punch at Westchester Knicks guard Rob Dillingham, sparking a brief fight during a G League game Friday night.",
       "image_url": "https://a.espncdn.com/photo/2026/1127/r1752248_600x400_3-2.jpg",
       "source": "ESPN",
-      "published_at": "2026-11-27T22:57:23.000Z",
+      "published_at": "2026-11-28T00:05:39.000Z",
       "url": "https://www.espn.com/nba/story/_/id/50615568/wizards-rookie-okpara-punches-dillingham-g-league-tilt",
       "topic": "development",
       "label": "Development watch",
@@ -72,45 +85,20 @@
       "generated": false
     },
     {
-      "id": "ceb849d8f2ae4773fb6d",
-      "title": "James Wiseman Just Got a Huge Knicks Gift on Black Friday",
-      "summary": "Andre Drummond's head injury and absence on Friday for the Knicks provide James Wiseman with a chance to possibly change his situation.",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4799,h_2699/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m8ex28jjj4sjz0fvph.jpg",
-      "source": "Sports Illustrated",
-      "published_at": "2026-11-27T18:00:01.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/james-wiseman-just-got-huge-knicks-gift-black-friday-01m8ex0das10",
-      "topic": "availability",
-      "label": "Reported availability",
-      "relevance": "knicks_preseason",
-      "generated": false
-    },
-    {
-      "id": "3d5dbfa06cc004c7ee25",
-      "title": "Mike Brown downplays Knicks' win streak amid offensive struggles: 'Our s--- still does stink'",
-      "summary": "The Knicks rank just 13th in offensive rating, yet are riding a six-game win streak",
-      "image_url": "https://sportshub.cbsistatic.com/i/2026/11/27/5c195a02-f09e-407e-959e-cdb28fc372a5/mike-brown-getty.png",
-      "source": "CBS Sports",
-      "published_at": "2026-11-27T16:22:21.000Z",
-      "url": "https://www.cbssports.com/nba/news/mike-brown-downplays-knicks-win-streak/",
-      "topic": "identity",
-      "label": "On-court changes",
+      "id": "12efe366fe746dc21bdf",
+      "title": "Felix Okpara ejected from G League game after punching Rob Dillingham",
+      "summary": "Washington Wizards two-way forward Felix Okpara was ejected after throwing a punch at Westchester Knicks guard Rob Dillingham during the Capital City Go-Go’s 125-104 loss on Friday. With eight minutes remaining in the fourth quarter, Okpara wound up and threw a punch that struck Dillingham in the head and neck area. Okpara quickly backed away […]",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/cf5312c2a87a166772bc3a38938e6c33.jpg",
+      "source": "Yahoo Sports",
+      "published_at": "2026-11-27T22:09:53.000Z",
+      "url": "https://sports.yahoo.com/nba/articles/felix-okpara-ejected-g-league-220953247.html",
+      "topic": "rotation",
+      "label": "Rotation watch",
       "relevance": "knicks_preseason",
       "generated": false
     }
   ],
   "players_to_watch": [
-    {
-      "id": "nba:1630164",
-      "name": "James Wiseman",
-      "jersey": "35",
-      "position": "Center",
-      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630164.png",
-      "season": null,
-      "points": null,
-      "rebounds": null,
-      "assists": null,
-      "games": null
-    },
     {
       "id": "nba:1628973",
       "name": "Jalen Brunson",
@@ -146,11 +134,23 @@
       "rebounds": null,
       "assists": null,
       "games": null
+    },
+    {
+      "id": "nba:1628384",
+      "name": "OG Anunoby",
+      "jersey": "8",
+      "position": "Forward-Guard",
+      "photo_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
+      "season": null,
+      "points": null,
+      "rebounds": null,
+      "assists": null,
+      "games": null
     }
   ],
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-27T23:15:39.234Z"
+    "feed_generated_at": "2026-11-28T04:45:38.311Z"
   }
 }
