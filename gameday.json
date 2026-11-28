@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T04:47:03.633Z",
+  "generated_at": "2026-11-28T13:40:50.421Z",
   "source": "ESPN schedule fallback",
   "status": "ready",
   "season": 2026,
   "phase": "season",
   "game": {
-    "id": "espn:401909326",
-    "date": "2026-11-28T00:00Z",
-    "status": "Finished",
+    "id": "espn:401910056",
+    "date": "2026-11-29T23:00Z",
+    "status": "Scheduled",
     "phase": "Regular season",
     "home": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "score": 105
+      "score": null
     },
     "away": {
-      "name": "Miami Heat",
-      "abbreviation": "MIA",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-      "score": 108
+      "name": "Atlanta Hawks",
+      "abbreviation": "ATL",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+      "score": null
     },
     "period": null,
     "clock": null
@@ -59,15 +59,28 @@
   "highlights": [],
   "storylines": [
     {
-      "id": "f08b78eef9f065a3f20c",
-      "title": "Knicks have no late-game magic as they’re eliminated from NBA Cup title defense",
-      "summary": "Jalen Brunson is mortal.",
-      "image_url": "https://media.zenfs.com/en/ny_post_sports_articles_389/6ec14572b85b69a3831c6ac4a1fece99.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-11-28T03:08:55.000Z",
-      "url": "https://sports.yahoo.com/nba/articles/knicks-no-game-magic-eliminated-030855840.html",
+      "id": "c25436db7ef40550cf89",
+      "title": "Mike Brown wants more consistency on offense after Knicks lose close one to Heat",
+      "summary": "Knicks coach Mike Brown knows his team has been \"playing with fire\" with its habit of falling behind early and coming back to win late, but after Friday's defeat to the Heat, he acknowledged that isn't sustainable and wants more consistency on offense.",
+      "image_url": "https://a.espncdn.com/photo/2026/1128/r1752349_600x400_3-2.jpg",
+      "source": "ESPN",
+      "published_at": "2026-11-28T06:53:00.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50619152/mike-brown-calls-more-consistency-offense-knicks-lose-close-one-heat",
       "topic": "identity",
       "label": "On-court changes",
+      "relevance": "knicks_preseason",
+      "generated": false
+    },
+    {
+      "id": "a7eba47e7c2c39d4d734",
+      "title": "Felix Okpara Throws Punch At Rob Dillingham In G League Game",
+      "summary": "Washington Wizards rookie Felix Okpara threw a punch at Westerchester Knicks guard Rob Dillingham during a G League game on Friday night. Dillingham initially shoved Okpara with eight minutes left in the fourth quarter. Okpara looked for a foul call, then appeared to connect on a punch to the side of Dillingham's face. Both players were ejected from the game. Dillingham was waived by the Hornets earlier this season before signing with the Knicks. Okpara is on a two-way deal with the Wizards.",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/gleague_logo.jpg",
+      "source": "RealGM",
+      "published_at": "2026-11-28T06:13:49.000Z",
+      "url": "https://basketball.realgm.com/wiretap/288266/Felix-Okpara-Throws-Punch-At-Rob-Dillingham-In-G-League-Game",
+      "topic": "rotation",
+      "label": "Rotation watch",
       "relevance": "knicks_preseason",
       "generated": false
     },
@@ -81,19 +94,6 @@
       "url": "https://www.espn.com/nba/story/_/id/50615568/wizards-rookie-okpara-punches-dillingham-g-league-tilt",
       "topic": "development",
       "label": "Development watch",
-      "relevance": "knicks_preseason",
-      "generated": false
-    },
-    {
-      "id": "12efe366fe746dc21bdf",
-      "title": "Felix Okpara ejected from G League game after punching Rob Dillingham",
-      "summary": "Washington Wizards two-way forward Felix Okpara was ejected after throwing a punch at Westchester Knicks guard Rob Dillingham during the Capital City Go-Go’s 125-104 loss on Friday. With eight minutes remaining in the fourth quarter, Okpara wound up and threw a punch that struck Dillingham in the head and neck area. Okpara quickly backed away […]",
-      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/cf5312c2a87a166772bc3a38938e6c33.jpg",
-      "source": "Yahoo Sports",
-      "published_at": "2026-11-27T22:09:53.000Z",
-      "url": "https://sports.yahoo.com/nba/articles/felix-okpara-ejected-g-league-220953247.html",
-      "topic": "rotation",
-      "label": "Rotation watch",
       "relevance": "knicks_preseason",
       "generated": false
     }
@@ -151,6 +151,6 @@
   "meta": {
     "errors": [],
     "schedule_fallback": true,
-    "feed_generated_at": "2026-11-28T04:45:38.311Z"
+    "feed_generated_at": "2026-11-28T13:31:46.476Z"
   }
 }
