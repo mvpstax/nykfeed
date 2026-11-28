@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-28T05:45:42.728Z",
+  "generated_at": "2026-11-28T06:00:32.178Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,9 +17,9 @@
     ]
   },
   "meta": {
-    "item_count": 108,
+    "item_count": 115,
     "game_count": 0,
-    "refresh_duration_ms": 28392,
+    "refresh_duration_ms": 4544,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -28,9 +28,8 @@
       },
       {
         "source_key": "knicks_film_school",
-        "ok": false,
-        "items": 0,
-        "error": "HTTP 403"
+        "ok": true,
+        "items": 20
       },
       {
         "source_key": "hoops_rumors",
@@ -50,7 +49,7 @@
       {
         "source_key": "yahoo_sports_nba",
         "ok": true,
-        "items": 4
+        "items": 5
       },
       {
         "source_key": "cbs_sports_nba",
@@ -59,9 +58,8 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": false,
-        "items": 0,
-        "error": "This operation was aborted"
+        "ok": true,
+        "items": 0
       },
       {
         "source_key": "official_knicks_articles",
@@ -93,14 +91,35 @@
       }
     ],
     "images": {
-      "available": 93,
+      "available": 100,
       "missing": 15,
-      "article_pages_checked": 2
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "c25436db7ef40550cf89",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Mike Brown wants more consistency on offense after Knicks lose close one to Heat",
+      "summary": "Knicks coach Mike Brown knows his team has been \"playing with fire\" with its habit of falling behind early and coming back to win late, but after Friday's defeat to the Heat he acknowledged that isn't sustainable and wants more consistency on offense.",
+      "author": "Vincent Goodwill",
+      "published_at": "2026-11-28T05:44:30.000Z",
+      "url": "https://www.espn.com/nba/story/_/id/50619152/mike-brown-calls-more-consistency-offense-knicks-lose-close-one-heat",
+      "image_url": "https://a.espncdn.com/photo/2026/1128/r1752349_600x400_3-2.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://www.espn.com/nba/story/_/id/50619152/mike-brown-calls-more-consistency-offense-knicks-lose-close-one-heat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "217cd08ab6aad46dea4b",
       "type": "article",
@@ -120,9 +139,9 @@
         "url": "https://www.si.com/nba/knicks/onsi/2-good-2-bad-box-score-surprises-for-knicks-loss-vs-heat-01m8g91sxwkc",
         "render_mode": "article_preview"
       },
-      "image_checked_at": "2026-11-28T05:45:42.501Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-28T05:45:42.501Z"
     },
     {
       "id": "17788871cc7f5c451d20",
@@ -379,7 +398,7 @@
       "engagement": {
         "replies": 0,
         "reposts": 0,
-        "likes": 1
+        "likes": 2
       },
       "team": "NYK",
       "presentation": {
@@ -388,6 +407,27 @@
         "fallback": "external_browser",
         "url": "https://bsky.app/profile/did:plc:zboiz63swilxlltwv3i6yyro/post/3n3dqja62es2k",
         "render_mode": "native_social_card"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "9a3ad7c8835632c6b904",
+      "type": "article",
+      "source": "Yahoo Sports",
+      "source_key": "yahoo_sports_nba",
+      "title": "Heat 108, Knicks 105: “Really tough to win a poorly coached, corruptly reffed, half rotation injured game.”",
+      "summary": "Short-handed Knicks flip a 23-point deficit and take Giannis, Bam and the Heat to the wire before falling short.",
+      "author": null,
+      "published_at": "2026-11-28T03:16:51.000Z",
+      "url": "https://sports.yahoo.com/nba/articles/heat-108-knicks-105-really-031651401.html",
+      "image_url": "https://media.zenfs.com/en/sb_nation_articles_115/eccd9af95d7e3a4b36a04ec7fcad6e20.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://sports.yahoo.com/nba/articles/heat-108-knicks-105-really-031651401.html"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -2396,6 +2436,27 @@
       "image_checked_at": "2026-11-27T11:15:24.363Z"
     },
     {
+      "id": "6514338c27314270fab1",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Giving Thanks",
+      "summary": "The Knicks have me filled with gratitude on this Thanksgiving Day.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-26T10:01:30.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/giving-thanks-2c4",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!NgV5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a8f6280-2cbf-4603-a989-b43804d0bf79_1198x920.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/giving-thanks-2c4"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "37c4e3699628d415f92f",
       "type": "article",
       "source": "ESPN",
@@ -2812,6 +2873,27 @@
       "image_checked_at": "2026-11-27T12:15:52.169Z"
     },
     {
+      "id": "769d2c01b6911d7b22da",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Thanksgiving Eve Chat",
+      "summary": "Plus a Cavs game injury update.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-25T10:03:05.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/thanksgiving-eve-chat",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CFs3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa77db862-c1e7-46be-8726-72bd0af13aeb_256x256.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/thanksgiving-eve-chat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "e040d28534c15afd2f3c",
       "type": "article",
       "source": "Hoops Rumors",
@@ -2988,6 +3070,27 @@
       "image_checked_at": "2026-11-27T12:45:26.180Z"
     },
     {
+      "id": "569e1dfe7eeec7f2e890",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Most Valuable KAT",
+      "summary": "Why isn’t KAT getting the same love as the rest of the league’s top players this season? A deeper look reveals just how much he’s getting shortchanged.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-24T10:01:51.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/most-valuable-kat",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!_YQS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F812e046e-70c3-4116-82ce-baf2074b1fdb_4437x3342.heic",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/most-valuable-kat"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
       "id": "85c29a47dfb95a2ceec0",
       "type": "article",
       "source": "Hoops Rumors",
@@ -3005,9 +3108,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/josh-hart-playing-through-shoulder-injury.html"
       },
-      "image_checked_at": "2026-11-28T05:45:42.502Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-28T05:45:42.502Z"
     },
     {
       "id": "fcf1a9076b4c37a73124",
@@ -3069,6 +3172,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.cbssports.com/nba/news/ranking-nba-biggest-winners-losers-of-the-week-knicks-celtics-nov-23/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "081de346f7eddbe76bca",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "Five Alive",
+      "summary": "The Knicks won again behind a rejuvenated Josh Hart and more excellence from Karl-Anthony Towns.",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-23T10:02:44.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/five-alive-14a",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!FhqD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cb93aee-3564-4f20-b23e-34288bb23f54_1006x894.png",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/five-alive-14a"
       },
       "image_status": "available",
       "image_source": "source_feed"
@@ -3155,6 +3279,27 @@
         "embed_attempt": true,
         "fallback": "external_browser",
         "url": "https://www.cbssports.com/nba/news/mikal-bridges-game-winning-shot-knicks-blazers/"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
+    {
+      "id": "1ceed83f111da55da0b2",
+      "type": "article",
+      "source": "Knicks Film School",
+      "source_key": "knicks_film_school",
+      "title": "F*** Dem Picks!",
+      "summary": "Mikal Bridges caps off an eventful night at Madison Square Garden",
+      "author": "Jonathan Macri",
+      "published_at": "2026-11-22T10:03:16.000Z",
+      "url": "https://knicksfilmschool.substack.com/p/f-dem-picks",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!svVa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHXss8DvXMAAT6Lb.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://knicksfilmschool.substack.com/p/f-dem-picks"
       },
       "image_status": "available",
       "image_source": "source_feed"
