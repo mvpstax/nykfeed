@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-28T07:00:24.741Z",
+  "generated_at": "2026-11-28T07:15:42.191Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 4812,
+    "refresh_duration_ms": 28429,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 0
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -100,6 +101,27 @@
   },
   "games": [],
   "items": [
+    {
+      "id": "79203d4866bf5ef984a8",
+      "type": "article",
+      "source": "ESPN",
+      "source_key": "espn",
+      "title": "Atlanta plays New York on 5-game win streak",
+      "summary": "Atlanta Hawks (12-6, second in the Eastern Conference) vs. New York Knicks (12-7, fifth in the Eastern Conference)",
+      "author": null,
+      "published_at": "2026-11-28T07:03:46.000Z",
+      "url": "http://www.espn.com/nba/preview?gameId=401910056",
+      "image_url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910056.png?templateId=espn.applewatch.awayhome.1",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "http://www.espn.com/nba/preview?gameId=401910056"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "c25436db7ef40550cf89",
       "type": "article",
@@ -2478,27 +2500,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-27T11:15:24.363Z"
-    },
-    {
-      "id": "37c4e3699628d415f92f",
-      "type": "article",
-      "source": "ESPN",
-      "source_key": "espn",
-      "title": "Knicks and Heat meet Friday in NBA Cup group stage",
-      "summary": "Miami Heat (10-7, sixth in the Eastern Conference) vs. New York Knicks (12-6, third in the Eastern Conference)",
-      "author": null,
-      "published_at": "2026-11-26T07:03:37.000Z",
-      "url": "http://www.espn.com/nba/preview?gameId=401909326",
-      "image_url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909326.png?templateId=espn.applewatch.awayhome.1",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "http://www.espn.com/nba/preview?gameId=401909326"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "b1ea86b4bf100706abc1",
