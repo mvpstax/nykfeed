@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-28T05:30:48.102Z",
+  "generated_at": "2026-11-28T05:45:42.728Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -17,14 +17,14 @@
     ]
   },
   "meta": {
-    "item_count": 112,
+    "item_count": 108,
     "game_count": 0,
-    "refresh_duration_ms": 4837,
+    "refresh_duration_ms": 28392,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
         "ok": true,
-        "items": 16
+        "items": 15
       },
       {
         "source_key": "knicks_film_school",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 0
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -92,30 +93,37 @@
       }
     ],
     "images": {
-      "available": 94,
+      "available": 93,
       "missing": 15,
-      "article_pages_checked": 0
+      "article_pages_checked": 2
     },
-    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use.",
-    "sny_updated_at": "2026-11-28T05:30:48.102Z",
-    "sny_source_status": [
-      {
-        "source_key": "sny_ian_begley",
-        "ok": false,
-        "error": "HTTP 404"
-      },
-      {
-        "source_key": "sny_playlist_1",
-        "ok": true
-      },
-      {
-        "source_key": "sny_playlist_2",
-        "ok": true
-      }
-    ]
+    "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "217cd08ab6aad46dea4b",
+      "type": "article",
+      "source": "Sports Illustrated",
+      "source_key": "sports_illustrated_knicks",
+      "title": "2 Good, 2 Bad Box Score Surprises for the Knicks in their Loss vs. the Heat",
+      "summary": "The Knicks' first taste of Giannis Antetokounmpo paired with Bam Adebayo was a bitter one, as they fell 108-105 to the Heat",
+      "author": "Matthew Miranda",
+      "published_at": "2026-11-28T05:32:35.000Z",
+      "url": "https://www.si.com/nba/knicks/onsi/2-good-2-bad-box-score-surprises-for-knicks-loss-vs-heat-01m8g91sxwkc",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4408,h_2479/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m8g95r1f9zmvbzjgxj.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": false,
+        "fallback": "external_browser",
+        "url": "https://www.si.com/nba/knicks/onsi/2-good-2-bad-box-score-surprises-for-knicks-loss-vs-heat-01m8g91sxwkc",
+        "render_mode": "article_preview"
+      },
+      "image_checked_at": "2026-11-28T05:45:42.501Z",
+      "image_source": "og:image",
+      "image_status": "available"
+    },
     {
       "id": "17788871cc7f5c451d20",
       "type": "social",
@@ -586,7 +594,7 @@
       "engagement": {
         "replies": 1,
         "reposts": 0,
-        "likes": 9
+        "likes": 10
       },
       "team": "NYK",
       "presentation": {
@@ -2997,55 +3005,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/josh-hart-playing-through-shoulder-injury.html"
       },
-      "image_status": "available",
+      "image_checked_at": "2026-11-28T05:45:42.502Z",
       "image_source": "og:image",
-      "image_checked_at": "2026-11-27T05:45:22.388Z"
-    },
-    {
-      "id": "bcdb461e7753985b977d",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "Two Possessions That Show The Knicks’ Range of Options",
-      "summary": "Two sets a minute apart in last week's win over the Minnesota Timberwolves showed how the Knicks can score effectively even against the best defenses in the NBA.",
-      "author": "Matthew Miranda",
-      "published_at": "2026-11-23T23:00:22.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/two-possessions-that-show-the-knicks-range-of-options-01m7znf0baee",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_26,w_3286,h_1848/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m85a4396fb4p4g1cdb.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/two-possessions-that-show-the-knicks-range-of-options-01m7znf0baee",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-11-27T23:45:18.623Z"
-    },
-    {
-      "id": "666506038b169c20ef9b",
-      "type": "article",
-      "source": "Sports Illustrated",
-      "source_key": "sports_illustrated_knicks",
-      "title": "5 Clear Ways the Knicks Are Seeing a Different Jalen Brunson as of Late",
-      "summary": "Jalen Brunson has bounced back from a slow start, improving his shooting, clutch play, playmaking, and offensive rhythm to fuel the Knicks' recent surge.",
-      "author": "Kento Kato",
-      "published_at": "2026-11-23T21:00:00.000Z",
-      "url": "https://www.si.com/nba/knicks/onsi/5-clear-ways-knicks-seeing-different-jalen-brunson-late-01m7xrqqabsb",
-      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_39,w_2254,h_1267/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_knicks/01m84z7ej0s5grdkwemp.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://www.si.com/nba/knicks/onsi/5-clear-ways-knicks-seeing-different-jalen-brunson-late-01m7xrqqabsb",
-        "render_mode": "article_preview"
-      },
-      "image_status": "available",
-      "image_source": "og:image",
-      "image_checked_at": "2026-11-27T21:30:30.371Z"
+      "image_status": "available"
     },
     {
       "id": "fcf1a9076b4c37a73124",
@@ -3261,69 +3223,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-27T20:15:23.740Z"
-    },
-    {
-      "id": "daaadbfad0f5c46b9a16",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks' Mike Brown conscious of player fatigue, unwilling to jeopardize long postseason run early in season",
-      "summary": "Josh Hart: 'It’s an interesting, tough, little conundrum that we have'",
-      "author": "Ian Begley",
-      "published_at": "2026-11-05T06:53:37.000Z",
-      "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blta30b813fcba3ee13/6adebf3f629a08df3cb2a7c0/2026-10-25T234823Z_551977277_MT1USATODAY30187641_RTRMADP_3_NBA-ORLANDO-MAGIC-AT-NEW-YORK-KNICKS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-mike-brown-conscious-player-fatigue-jeopardize-postseason-run",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "1572089095f3951df37d",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks Notes: Mike Brown not hesitating to sit Mikal Bridges; Jordan Clarkson providing spark",
-      "summary": "Bridges played just 16 minutes in New York's 103-90 win over Nets",
-      "author": "Ian Begley",
-      "published_at": "2026-11-03T06:28:16.000Z",
-      "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/bltb253b2cead3959f8/6ae96984aaf3519e792da76b/MikalTraore.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-notes-mikal-bridges-jordan-clarkson-11-3-26",
-        "render_mode": "article_preview"
-      }
-    },
-    {
-      "id": "790d5a9091a0b444d946",
-      "type": "article",
-      "source": "SNY",
-      "source_key": "sny_ian_begley",
-      "title": "Knicks still finding their way as static offense, untimely turnovers costing them early on",
-      "summary": "Fatigue could also be factor to slow start for reigning NBA champions",
-      "author": "Ian Begley",
-      "published_at": "2026-10-31T05:32:00.000Z",
-      "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-      "image_url": "https://images.contentstack.io/v3/assets/bltf7a82b39b0908da4/blt2f0dc51cb6e04d3c/6ae55f9d857be125391d271d/2026-10-31T020121Z_1075149648_MT1USATODAY30230120_RTRMADP_3_NBA-NEW-YORK-KNICKS-AT-PHILADELPHIA-76ERS.JPG",
-      "image_status": "available",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": false,
-        "fallback": "external_browser",
-        "url": "https://sny.tv/articles/knicks-finding-their-way-static-offense-turnovers",
-        "render_mode": "article_preview"
-      }
     }
   ],
   "clusters": [
