@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-28T06:15:20.238Z",
+  "generated_at": "2026-11-28T06:30:46.085Z",
   "team": {
     "id": "NYK",
     "name": "New York Knicks",
@@ -19,7 +19,7 @@
   "meta": {
     "item_count": 111,
     "game_count": 0,
-    "refresh_duration_ms": 5499,
+    "refresh_duration_ms": 28423,
     "source_status": [
       {
         "source_key": "sports_illustrated_knicks",
@@ -59,8 +59,9 @@
       },
       {
         "source_key": "fox_sports_nba",
-        "ok": true,
-        "items": 0
+        "ok": false,
+        "items": 0,
+        "error": "This operation was aborted"
       },
       {
         "source_key": "official_knicks_articles",
@@ -94,12 +95,33 @@
     "images": {
       "available": 96,
       "missing": 15,
-      "article_pages_checked": 1
+      "article_pages_checked": 0
     },
     "disclaimer": "Links and excerpts belong to their publishers. Review each source's terms before commercial use."
   },
   "games": [],
   "items": [
+    {
+      "id": "a7eba47e7c2c39d4d734",
+      "type": "article",
+      "source": "RealGM",
+      "source_key": "realgm",
+      "title": "Felix Okpara Throws Punch At Rob Dillingham In G League Game",
+      "summary": "Washington Wizards rookie Felix Okpara threw a punch at Westerchester Knicks guard Rob Dillingham during a G League game on Friday night. Dillingham initially shoved Okpara with eight minutes left in the fourth quarter. Okpara looked for a foul call, then appeared to connect on a punch to the side of Dillingham's face. Both players were ejected from the game. Dillingham was waived by the Hornets earlier this season before signing with the Knicks. Okpara is on a two-way deal with the Wizards.",
+      "author": null,
+      "published_at": "2026-11-28T06:13:49.000Z",
+      "url": "https://basketball.realgm.com/wiretap/288266/Felix-Okpara-Throws-Punch-At-Rob-Dillingham-In-G-League-Game",
+      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/gleague_logo.jpg",
+      "team": "NYK",
+      "presentation": {
+        "open_mode": "drawer",
+        "embed_attempt": true,
+        "fallback": "external_browser",
+        "url": "https://basketball.realgm.com/wiretap/288266/Felix-Okpara-Throws-Punch-At-Rob-Dillingham-In-G-League-Game"
+      },
+      "image_status": "available",
+      "image_source": "source_feed"
+    },
     {
       "id": "93b44f9faa129e60a799",
       "type": "article",
@@ -118,9 +140,9 @@
         "fallback": "external_browser",
         "url": "https://www.hoopsrumors.com/2026/11/nba-cup-quaterfinals-set-as-grizzlies-blazers-spurs-advance.html"
       },
-      "image_checked_at": "2026-11-28T06:15:20.093Z",
+      "image_status": "available",
       "image_source": "og:image",
-      "image_status": "available"
+      "image_checked_at": "2026-11-28T06:15:20.093Z"
     },
     {
       "id": "c25436db7ef40550cf89",
@@ -2984,27 +3006,6 @@
       "image_status": "available",
       "image_source": "og:image",
       "image_checked_at": "2026-11-27T18:45:17.722Z"
-    },
-    {
-      "id": "f86d99c768f8150125f8",
-      "type": "article",
-      "source": "RealGM",
-      "source_key": "realgm",
-      "title": "Steve Kerr Tops Highest Paid NBA Coaches At $17.5M",
-      "summary": "Golden State Warriors head coach Steve Kerr earns the highest salary among NBA coaches this season. Kerr comes in at $17.5 million. Overall, 10 coaches make at least $10 million per season. The full top-10 list includes: Steve Kerr - Golden State Warriors: $17.5 million Tyronn Lue - LA Clippers: $15 million Erik Spoelstra - Miami Heat: $15 million Rick Carlisle - Indiana Pacers: $11 million Joe Mazzulla - Boston Celtics: $11 million Ime Udoka - Houston Rockets: $11 million Mike Brown - New York Knicks: $10 million Taylor Jenkins - Milwaukee Bucks: $10 million Dusty May - Dallas Mavericks: $10 million Quin Snyder - Atlanta Hawks: $10 million",
-      "author": null,
-      "published_at": "2026-11-24T15:14:39.000Z",
-      "url": "https://basketball.realgm.com/wiretap/288235/Steve-Kerr-Tops-Highest-Paid-NBA-Coaches-At-$175M",
-      "image_url": "https://basketball.realgm.com/images/nba/4.2/wiretap/photos/2006/Kerr_Steve_gsw_211228.jpg",
-      "team": "NYK",
-      "presentation": {
-        "open_mode": "drawer",
-        "embed_attempt": true,
-        "fallback": "external_browser",
-        "url": "https://basketball.realgm.com/wiretap/288235/Steve-Kerr-Tops-Highest-Paid-NBA-Coaches-At-$175M"
-      },
-      "image_status": "available",
-      "image_source": "source_feed"
     },
     {
       "id": "f44a964466a318e87a2d",
