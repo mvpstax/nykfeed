@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "ready",
-  "generated_at": "2026-11-27T23:21:29.395Z",
+  "generated_at": "2026-11-28T04:21:11.957Z",
   "source": "ESPN; Highlightly when reported",
   "game": {
     "id": "espn:401909326",
@@ -67,16 +67,16 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
           {
-            "id": "4278053",
-            "name": "Davion Mitchell",
-            "position": "G",
-            "jersey": "2",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4278053.png",
+            "id": "3032977",
+            "name": "Giannis Antetokounmpo",
+            "position": "F",
+            "jersey": "7",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3032977.png",
             "availability": null
           },
           {
@@ -96,19 +96,19 @@
             "availability": null
           },
           {
+            "id": "4278053",
+            "name": "Davion Mitchell",
+            "position": "G",
+            "jersey": "2",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4278053.png",
+            "availability": null
+          },
+          {
             "id": "4601025",
             "name": "Pelle Larsson",
             "position": "G",
             "jersey": "9",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4601025.png",
-            "availability": null
-          },
-          {
-            "id": "3032977",
-            "name": "Giannis Antetokounmpo",
-            "position": "F",
-            "jersey": "7",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3032977.png",
             "availability": null
           }
         ]
@@ -204,24 +204,24 @@
         }
       },
       "lineup": {
-        "status": "estimated",
-        "source": "Estimate from ESPN game logs",
-        "method": "Estimated from starts and minutes in 3 recent games. Out and doubtful players excluded. Not a reported lineup.",
+        "status": "reported",
+        "source": "ESPN",
+        "method": "Starters marked by the data provider. Check availability for late changes.",
         "players": [
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "position": "C",
+            "jersey": "32",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+            "availability": null
+          },
           {
             "id": "3062679",
             "name": "Josh Hart",
             "position": "G",
             "jersey": "3",
             "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-            "availability": null
-          },
-          {
-            "id": "3934672",
-            "name": "Jalen Brunson",
-            "position": "G",
-            "jersey": "11",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
             "availability": null
           },
           {
@@ -241,12 +241,12 @@
             "availability": null
           },
           {
-            "id": "3136195",
-            "name": "Karl-Anthony Towns",
-            "position": "C",
-            "jersey": "32",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-            "availability": "Day-To-Day"
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "position": "G",
+            "jersey": "11",
+            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+            "availability": null
           }
         ]
       },
@@ -282,16 +282,6 @@
             "status": "Out",
             "detail": "Foot · Leg",
             "reported_at": "2026-11-27T18:19Z"
-          },
-          {
-            "id": "3136195",
-            "name": "Karl-Anthony Towns",
-            "position": "C",
-            "jersey": "32",
-            "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-            "status": "Day-To-Day",
-            "detail": "Abdomen · Torso",
-            "reported_at": "2026-11-27T16:51Z"
           },
           {
             "id": "6585",
